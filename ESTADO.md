@@ -29,6 +29,17 @@ químicos aromáticos, marca o que quer na paleta, e simula acordes com o que ma
 - **Ordem do baralho (o ponto central):** as cartas vêm agrupadas por família olfativa e,
   dentro da família, encadeadas por proximidade de cheiro — todos os limões, depois as
   bergamotas, depois as laranjas. Isso é calculado no build, não em runtime.
+- **A carta é a ficha inteira**, não uma prévia: família, faixa na pirâmide, tipo do
+  material, cheiro, facetas, aplicação, dose, percepção por concentração, aviso de IFRA e
+  preço aparecem sem nenhum toque. A folha de detalhe existe só para consulta (ofertas por
+  fornecedor, CAS, massa molar, crédito da foto).
+- **Faixa na pirâmide** (`notes`, em `build_deck.py:derive_notes`): o banco traz um rótulo
+  único e só para 371 dos 593, então a faixa é derivada cruzando o `note_type` da fonte, a
+  física (ponto de ebulição; cortes tirados da mediana real do banco — topo 155 °C, coração
+  227 °C, base 283 °C) e o típico da família. Fonte e física discordando entram as duas —
+  é o material que fica entre degraus. A faixa é sempre contígua; mistura (óleo essencial,
+  base) abre pelo menos dois degraus; solvente não tem nota. O campo `notesOrigin` registra
+  de onde veio, e a ficha mostra isso.
 - **Motor** (`web/lib/engine.ts` + `accords.ts`, herdados do app antigo): pirâmide, famílias
   dominantes, projeção, duração e avisos de IFRA. Heurístico — é estimativa, não medição.
 

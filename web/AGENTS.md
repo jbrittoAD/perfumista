@@ -15,6 +15,10 @@ Meu Laboratório / Fórmulas). Antes de mexer, leia `README.md` e `../ESTADO.md`
 - **A ordem do baralho é parte do produto**, não detalhe: famílias inteiras em sequência,
   vizinhança olfativa dentro da família. Não introduza aleatoriedade.
 - **A foto da carta é o objeto do mundo real que o cheiro evoca** — nunca estrutura molecular.
+- **A carta mostra tudo que decide compra sem exigir toque.** Se precisar de um dado novo
+  para decidir, ele vai na carta; a folha de detalhe é só para consulta.
+- **Posição na pirâmide é FAIXA (`notes`), não rótulo único.** Use `notesLabel`/`notesShort`;
+  o campo `note` da fonte existe só por compatibilidade e está vazio em 222 materiais.
 - **Tailwind v4:** `@apply` não compõe classes de componente. Repita a base em cada variante.
 - **Toda gravação de progresso passa por `lib/deck-store.ts`** (IndexedDB + espelho no
   localStorage). Não escreva direto no localStorage em componente.
