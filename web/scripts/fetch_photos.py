@@ -30,7 +30,7 @@ from PIL import Image, ImageFilter
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-from deck_lexicon import PHOTO_KEYS  # noqa: E402
+from deck_lexicon import PHOTO_KEYS, PHOTO_BY_ID, VARIANT_CATS  # noqa: E402
 
 ROOT = HERE.parent
 OUTDIR = ROOT / "public" / "photos"
@@ -182,48 +182,105 @@ def to_card(raw):
     return buf.getvalue()
 
 
-def fetch_variants(spec, credits):
-    """Baixa fotos ALTERNATIVAS para as chaves que muitas cartas compartilham.
+def category_files(cat, limit=40):
+    """Arquivos de uma categoria do Commons — uma chamada, dezenas de candidatos.
 
-    Chaves genéricas ("folhagem verde", "madeira seca") pegam dezenas de cartas.
-    Com uma foto só, o usuário vê a mesma imagem 50 vezes seguidas e o deck perde
-    a graça. Cada variante extra vira <chave>-2.webp, <chave>-3.webp… e o app
-    escolhe uma por id de carta.
+    É muito melhor que a busca para variante: a categoria já garante que é o
+    objeto certo, enquanto a busca devolve qualquer página que mencione a
+    palavra (foi assim que 'violet flowers' trouxe um lagarto).
     """
-    ok = 0
-    for item in spec.split(","):
-        key, _, n = item.partition(":")
-        n = int(n or 2)
-        photo = PHOTO_BY_ID.get(key)
-        if not photo:
-            print(f"✗ chave desconhecida: {key}")
+    data = api_get({
+        "action": "query", "generator": "categorymembers", "gcmtitle": cat,
+        "gcmtype": "file", "gcmlimit": limit, "prop": "imageinfo",
+        "iiprop": "url|size|mime|extmetadata", "iiurlwidth": 1400,
+        "format": "json", "formatversion": 2,
+    })
+    return data.get("query", {}).get("pages", []) or []
+
+
+def usable(page):
+    title = (page.get("title") or "").lower()
+    if any(b in title for b in BAD_TITLE):
+        return None
+    ii = (page.get("imageinfo") or [{}])[0]
+    if ii.get("mime") not in ("image/jpeg", "image/png"):
+        return None
+    if (ii.get("width") or 0) < 1000:
+        return None
+    if not (ii.get("thumburl") or ii.get("url")):
+        return None
+    meta = ii.get("extmetadata") or {}
+    return {
+        "title": page.get("title"), "url": ii.get("thumburl") or ii.get("url"),
+        "page": ii.get("descriptionurl"),
+        "author": plain(meta, "Artist"), "license": plain(meta, "LicenseShortName"),
+    }
+
+
+def fetch_variants(keys, per_key, credits, force=False):
+    """Baixa fotos ALTERNATIVAS para as chaves compartilhadas por muitas cartas.
+
+    Grava <chave>-2.webp, <chave>-3.webp…; o app escolhe uma por id de carta, de
+    forma determinística — a mesma carta mostra sempre a mesma foto, mas o deck
+    para de repetir a imagem.
+    """
+    ok = fail = 0
+    for n, key in enumerate(keys, 1):
+        cats = VARIANT_CATS.get(key)
+        if not cats:
+            print(f"[{n}/{len(keys)}] ✗ {key}: sem categoria declarada")
+            fail += 1
             continue
-        pages = search(photo["q"], limit=24)
-        must = must_tokens(photo["q"], photo["label"])
-        used = {credits.get(key, {}).get("title")}
-        slot = 2
-        for page in sorted(pages, key=lambda x: x.get("index", 99)):
-            if slot > n + 1:
-                break
-            hit = pick([page], must)
-            if not hit or hit["title"] in used:
+
+        já = {credits.get(key, {}).get("title")}
+        for slot in range(2, per_key + 2):
+            já.add(credits.get(f"{key}-{slot}", {}).get("title"))
+
+        pages = []
+        for cat in cats:
+            try:
+                pages = category_files(cat)
+            except Exception as e:
+                print(f"[{n}/{len(keys)}] ! {key}: {cat} → {type(e).__name__}")
+                time.sleep(5)
                 continue
+            cands = [c for c in (usable(p) for p in pages) if c and c["title"] not in já]
+            if len(cands) >= 2:
+                pages = cands
+                break
+            pages = []
+            time.sleep(2)
+
+        if not pages:
+            print(f"[{n}/{len(keys)}] ✗ {key}: nenhuma categoria rendeu candidato")
+            fail += 1
+            continue
+
+        got = 0
+        for slot in range(2, per_key + 2):
             dest = OUTDIR / f"{key}-{slot}.webp"
+            if dest.exists() and not force:
+                got += 1
+                continue
+            if not pages:
+                break
+            hit = pages.pop(0)
             try:
                 dest.write_bytes(to_card(download(hit["url"])))
             except Exception as e:
-                print(f"✗ {key}-{slot}: {type(e).__name__}")
+                print(f"           ✗ {key}-{slot}: {type(e).__name__}")
                 continue
             credits[f"{key}-{slot}"] = {
-                "label": photo["label"], "title": hit["title"], "page": hit["page"],
-                "author": hit["author"], "license": hit["license"],
+                "label": PHOTO_BY_ID[key]["label"], "title": hit["title"],
+                "page": hit["page"], "author": hit["author"], "license": hit["license"],
             }
-            used.add(hit["title"])
-            print(f"✓ {key}-{slot:<2} {dest.stat().st_size//1024:>3} KB  {hit['title'][:56]}")
+            got += 1
             ok += 1
-            slot += 1
-            time.sleep(2.0)
-    return ok
+            time.sleep(2.5)
+        print(f"[{n}/{len(keys)}] ✓ {key:<16} {got} variante(s)")
+        CREDITS.write_text(json.dumps(credits, ensure_ascii=False, indent=1), encoding="utf-8")
+        time.sleep(2.5)
+    return ok, fail
 
 
 def main():
@@ -237,9 +294,14 @@ def main():
     credits = json.loads(CREDITS.read_text(encoding="utf-8")) if CREDITS.exists() else {}
 
     if "--variants" in args:
-        n = fetch_variants(args[args.index("--variants") + 1], credits)
+        raw = args[args.index("--variants") + 1]
+        keys = list(VARIANT_CATS) if raw in ("all", "todas") else raw.split(",")
+        per = 2
+        if "--per" in args:
+            per = int(args[args.index("--per") + 1])
+        ok, fail = fetch_variants(keys, per, credits, force=force)
         CREDITS.write_text(json.dumps(credits, ensure_ascii=False, indent=1), encoding="utf-8")
-        print(f"\n{n} variantes baixadas")
+        print(f"\n{ok} variantes baixadas | {fail} chaves sem candidato")
         return
 
     todo = [p for p in PHOTO_KEYS if (only is None or p["id"] in only)]

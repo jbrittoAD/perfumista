@@ -1108,18 +1108,21 @@ def main():
     for c in ordered:
         c.pop("_offers_n", None)
 
-    # Quantos arquivos existem por chave (base + variantes). O app usa isso para
-    # alternar a imagem entre cartas que caem na mesma chave.
+    # Quais arquivos existem por chave (base + variantes), como LISTA explícita.
+    # Contar de forma contígua era frágil: se o download de "-2" falha e o de
+    # "-3" passa, a contagem para em 1 e os arquivos baixados viram peso morto.
     photo_dir = ROOT / "public" / "photos"
     photos = {}
     for p in PHOTO_KEYS:
-        n = 0
+        files = []
         if (photo_dir / f"{p['id']}.webp").exists():
-            n = 1
-            while (photo_dir / f"{p['id']}-{n + 1}.webp").exists():
-                n += 1
+            files.append(p["id"])
+        for slot in range(2, 10):
+            if (photo_dir / f"{p['id']}-{slot}.webp").exists():
+                files.append(f"{p['id']}-{slot}")
         photos[p["id"]] = {
-            "label": p["label"], "emoji": p["emoji"], "grad": p["grad"], "n": n,
+            "label": p["label"], "emoji": p["emoji"], "grad": p["grad"],
+            "files": files, "n": len(files),
         }
 
     deck = {

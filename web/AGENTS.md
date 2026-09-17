@@ -15,6 +15,8 @@ Meu Laboratório / Fórmulas). Antes de mexer, leia `README.md` e `../ESTADO.md`
 - **A ordem do baralho é parte do produto**, não detalhe: famílias inteiras em sequência,
   vizinhança olfativa dentro da família. Não introduza aleatoriedade.
 - **A foto da carta é o objeto do mundo real que o cheiro evoca** — nunca estrutura molecular.
+  Chave muito compartilhada precisa de VARIANTE (`fetch_photos.py --variants`): repetir a
+  mesma imagem em cartas seguidas mata o deck. Crédito sempre pela variante em uso.
 - **A carta mostra tudo que decide compra sem exigir toque.** Se precisar de um dado novo
   para decidir, ele vai na carta; a folha de detalhe é só para consulta.
 - **Posição na pirâmide é FAIXA (`notes`), não rótulo único.** Use `notesLabel`/`notesShort`;

@@ -18,7 +18,7 @@ import { useEffect, useRef, useState } from "react";
 import Photo from "./photo";
 import {
   KIND_LABEL, SOURCE_LABEL, brl, brlPrecise, dilutionLabel, familyMeta, notesLabel,
-  notesOriginLabel, offerLine, pct, perGram, photoMeta, usefulSynonyms,
+  notesOriginLabel, offerLine, pct, perGram, photoFile, photoMeta, usefulSynonyms,
   type Ingredient,
 } from "@/lib/deck";
 
@@ -50,7 +50,9 @@ export default function Detail({
   const fam = familyMeta(card.family);
   const synonyms = usefulSynonyms(card);
   const scroller = useRef<HTMLDivElement>(null);
-  const [credit, setCredit] = useState<Credit | null>(creditsCache?.[card.photo] ?? null);
+  // A carta pode estar mostrando uma variante ("rosa-2"); o crédito é o dela.
+  const photoId = photoFile(card.photo, card.seq);
+  const [credit, setCredit] = useState<Credit | null>(creditsCache?.[photoId] ?? null);
 
   // Trava o scroll do fundo e devolve no fechamento.
   useEffect(() => {
@@ -74,7 +76,7 @@ export default function Detail({
   useEffect(() => {
     let alive = true;
     if (creditsCache) {
-      setCredit(creditsCache[card.photo] ?? null);
+      setCredit(creditsCache[photoId] ?? null);
       return;
     }
     const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
@@ -83,13 +85,13 @@ export default function Detail({
       .then((j) => {
         if (!alive || !j) return;
         creditsCache = j as Record<string, Credit>;
-        setCredit(creditsCache[card.photo] ?? null);
+        setCredit(creditsCache[photoId] ?? null);
       })
       .catch(() => {});
     return () => {
       alive = false;
     };
-  }, [card.photo]);
+  }, [photoId]);
 
   return (
     <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-label={card.name}>
@@ -109,7 +111,7 @@ export default function Detail({
       >
         {/* cabeçalho com a foto */}
         <header className="relative h-60 overflow-hidden rounded-t-[1.75rem]">
-          <Photo photoKey={card.photo} seed={card.id} eager />
+          <Photo photoKey={card.photo} seed={card.seq} eager />
           <div className="card-scrim absolute inset-0" />
           <button
             type="button"

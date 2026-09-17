@@ -177,7 +177,7 @@ export default function Formulas() {
                     return (
                       <li key={r.card.id} className="panel flex items-center gap-3 p-2.5">
                         <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-[var(--r-sm)]">
-                          <Photo photoKey={r.card.photo} seed={r.card.id} />
+                          <Photo photoKey={r.card.photo} seed={r.card.seq} />
                         </div>
                         <div className="min-w-0 flex-1">
                           <p className="truncate text-[13.5px] font-semibold leading-tight">{r.card.name}</p>
@@ -276,7 +276,7 @@ export default function Formulas() {
                         className="panel flex w-full items-center gap-3 p-2 text-left"
                       >
                         <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-[var(--r-sm)]">
-                          <Photo photoKey={c.photo} seed={c.id} />
+                          <Photo photoKey={c.photo} seed={c.seq} />
                         </div>
                         <span className="min-w-0 flex-1">
                           <span className="block truncate text-[13.5px] font-medium">{c.name}</span>

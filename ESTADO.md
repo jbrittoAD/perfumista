@@ -50,9 +50,20 @@ químicos aromáticos, marca o que quer na paleta, e simula acordes com o que ma
   facetas em PT via léxico curado, "para que serve", dose, percepção por concentração,
   escolha da foto e a ordem do baralho.
 - **`web/lib/data/materials.json`** (593 itens) — entrada do build, não é lido pelo app.
-- **`web/public/photos/*.webp`** (95 chaves, ~12 MB) — a foto do "objeto do mundo real" que
-  cada cheiro evoca. Baixadas do Wikimedia Commons por `python3 web/scripts/fetch_photos.py`;
-  crédito/licença em `public/photos/credits.json` e exibidos na ficha.
+- **`web/public/photos/*.webp`** — a foto do "objeto do mundo real" que cada cheiro evoca.
+  95 chaves base + **variantes** (`<chave>-2.webp`, `-3.webp`, `-4.webp`) para as 25 chaves
+  compartilhadas por muitas cartas — sem elas o usuário via a mesma pedra de âmbar 35 vezes
+  seguidas. A carta escolhe a variante por `seq % n` (posição no baralho): como o baralho
+  agrupa por chave de foto, cartas do mesmo balde têm seq consecutivo e a imagem alterna
+  0,1,2,0,1,2, nunca repetindo em sequência.
+  - `python3 web/scripts/fetch_photos.py` baixa as chaves base (busca no Commons).
+  - `python3 web/scripts/fetch_photos.py --variants all --per 3` baixa as variantes, usando
+    **listagem por categoria** (`VARIANT_CATS` em `deck_lexicon.py`) em vez de busca: uma
+    chamada devolve dezenas de fotos do objeto certo, enquanto a busca traz resultado
+    tangencial e toma 429 do Commons.
+  - Crédito e licença de CADA arquivo (inclusive variantes) em `public/photos/credits.json`,
+    exibidos na ficha. A ficha resolve o crédito pela variante em uso, não pela chave base —
+    atribuir a foto errada violaria a CC-BY.
 - Scripts do deck: `web/scripts/` — `build_deck.py`, `deck_lexicon.py` (95 fotos + 334
   descritores + 15 famílias), `deck_families.py` (voto de reclassificação), `deck_uses_pt.py`
   (157 textos técnicos traduzidos à mão), `fetch_photos.py`.

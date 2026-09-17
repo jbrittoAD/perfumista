@@ -42,7 +42,7 @@ export default function Card({
     <div className="card-shell flex flex-col" style={{ ["--fam" as string]: fam.hex }}>
       {/* ---------- foto ---------- */}
       <div className="relative h-[31%] shrink-0 overflow-hidden">
-        <Photo photoKey={card.photo} seed={card.id} eager={eager} />
+        <Photo photoKey={card.photo} seed={card.seq} eager={eager} />
         <div
           className="absolute inset-0"
           style={{

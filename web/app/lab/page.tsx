@@ -280,7 +280,7 @@ function Row({
         className="relative h-14 w-14 shrink-0 overflow-hidden rounded-[var(--r-sm)]"
         aria-label={`Abrir ficha de ${card.name}`}
       >
-        <Photo photoKey={card.photo} seed={card.id} />
+        <Photo photoKey={card.photo} seed={card.seq} />
       </button>
       <button type="button" onClick={onOpen} className="min-w-0 flex-1 text-left">
         <p className="truncate text-[14px] font-semibold leading-tight">{card.name}</p>

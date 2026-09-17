@@ -341,6 +341,52 @@ for _p in PHOTO_KEYS:
     if _p["id"] in PINNED_FILES:
         _p["file"] = PINNED_FILES[_p["id"]]
 
+# ---------------------------------------------------------------------------
+# VARIANTES — categorias do Commons para as chaves muito compartilhadas
+# ---------------------------------------------------------------------------
+# 25 chaves concentram 370 das 589 cartas: sem variante, o usuário vê a mesma
+# pedra de âmbar 35 vezes seguidas e o deck perde a graça. A listagem por
+# CATEGORIA é muito melhor que a busca aqui — devolve dezenas de fotos do objeto
+# certo numa chamada só, em vez de resultados tangenciais.
+#
+# Cada chave tem uma lista de categorias candidatas porque o Commons mistura
+# categoria-contêiner (só subcategorias, zero arquivo) com categoria-folha; a
+# primeira que render arquivo suficiente ganha.
+VARIANT_CATS = {
+    "ambar-resina": ["Category:Amber", "Category:Baltic amber", "Category:Amber jewellery"],
+    "champanhe": ["Category:Champagne glasses", "Category:Sparkling wine"],
+    "rosa": ["Category:Red roses", "Category:Rosa (flowers)", "Category:Pink roses",
+             "Category:Rose flowers", "Category:Rosa gallica"],
+    "flor-generica": ["Category:Flowers in macro photographs", "Category:Flower close-ups",
+                      "Category:Unidentified flowers", "Category:Petals",
+                      "Category:Macro photographs of flowers", "Category:Flower photographs"],
+    "pessego": ["Category:Peaches"],
+    "hera": ["Category:Green leaves", "Category:Leaves"],
+    "limao": ["Category:Citrus limon", "Category:Lemons (fruit)", "Category:Lemon",
+              "Category:Sliced lemons", "Category:Citrus × limon", "Category:Lemon fruits"],
+    "frasco": ["Category:Laboratory glassware"],
+    "benjoim": ["Category:Resins", "Category:Frankincense"],
+    "madeira-seca": ["Category:Wood", "Category:Wood grain", "Category:Planks"],
+    "algodao": ["Category:Cotton cloth", "Category:White textiles", "Category:Cotton",
+                "Category:Cotton fabric", "Category:White fabric", "Category:Linen"],
+    "menta": ["Category:Mentha"],
+    "lavanda": ["Category:Lavandula"],
+    "sandalo": ["Category:Santalum", "Category:Sandalwood"],
+    "bergamota": ["Category:Citrus bergamia (fruits)", "Category:Bergamot orange",
+                  "Category:Citrus × bergamia", "Category:Citrus bergamia",
+                  "Category:Bergamot (Citrus)"],
+    "eucalipto": ["Category:Eucalyptus"],
+    "muguet": ["Category:Convallaria majalis"],
+    "alecrim": ["Category:Salvia rosmarinus", "Category:Rosmarinus officinalis"],
+    "maca-verde": ["Category:Green apples", "Category:Apples"],
+    "lencol": ["Category:Laundry", "Category:Bed sheets", "Category:Clotheslines"],
+    "flor-laranjeira": ["Category:Citrus flowers", "Category:Orange blossoms"],
+    "galbano": ["Category:Resins", "Category:Ferula"],
+    "baunilha": ["Category:Vanilla (spice)", "Category:Vanilla planifolia"],
+    "caramelo": ["Category:Caramel", "Category:Toffee"],
+    "pele-animal": ["Category:Fur", "Category:Animal hair"],
+}
+
 PHOTO_BY_ID = {p["id"]: p for p in PHOTO_KEYS}
 
 # Foto padrão por família (quando nenhum keyword bate).

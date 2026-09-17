@@ -101,7 +101,9 @@ export interface PhotoMeta {
   label: string;
   emoji: string;
   grad: [string, string];
-  /** Quantos arquivos existem para essa chave (base + variantes). 0 = sem foto. */
+  /** Arquivos existentes: ["rosa", "rosa-2", "rosa-4"]. Pode ter buraco. */
+  files: string[];
+  /** Atalho para files.length. */
   n: number;
 }
 
@@ -154,16 +156,28 @@ const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
  * carta mostra sempre a mesma foto, mas o deck deixa de repetir a imagem.
  */
 export function photoSrc(key: string, seed = 0): string {
-  const n = PHOTOS[key]?.n ?? 1;
-  if (n > 1) {
-    const pick = ((seed % n) + n) % n;
-    if (pick > 0) return `${BASE}/photos/${key}-${pick + 1}.webp`;
-  }
-  return `${BASE}/photos/${key}.webp`;
+  return `${BASE}/photos/${photoFile(key, seed)}.webp`;
+}
+
+/**
+ * Qual ARQUIVO essa carta usa: "rosa" ou "rosa-2".
+ *
+ * A semente é o `seq` (posição da carta dentro da família). Como o baralho
+ * agrupa por chave de foto, cartas do mesmo balde têm seq consecutivo — então o
+ * módulo cicla 0,1,2,0,1,2 e duas cartas seguidas nunca repetem a imagem, que é
+ * exatamente o problema que a variante existe para resolver.
+ *
+ * Também é a chave do crédito: cada variante tem autor e licença próprios, e
+ * atribuir a foto errada violaria a CC-BY das imagens do Commons.
+ */
+export function photoFile(key: string, seed = 0): string {
+  const files = PHOTOS[key]?.files;
+  if (!files || files.length === 0) return key;
+  return files[((seed % files.length) + files.length) % files.length];
 }
 
 export function photoMeta(key: string): PhotoMeta {
-  return PHOTOS[key] ?? { label: "", emoji: "🧪", grad: ["#4a4a55", "#1a1a20"], n: 0 };
+  return PHOTOS[key] ?? { label: "", emoji: "🧪", grad: ["#4a4a55", "#1a1a20"], files: [], n: 0 };
 }
 
 export const NOTE_LABEL: Record<string, string> = {
