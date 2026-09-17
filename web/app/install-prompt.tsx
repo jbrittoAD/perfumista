@@ -115,28 +115,28 @@ export default function InstallPrompt() {
 
   return (
     <div
-      className="lg:hidden fixed inset-x-0 z-30 px-3"
-      style={{ bottom: "calc(env(safe-area-inset-bottom) + 4.75rem)" }}
+      className="fixed inset-x-0 z-30 px-3"
+      style={{ top: "calc(env(safe-area-inset-top, 0px) + 0.5rem)" }}
       role="region"
       aria-label="Instalar app"
     >
-      <div className="mx-auto flex max-w-lg items-center gap-3 rounded-2xl border border-[var(--accent)]/40 bg-[var(--surface)]/95 p-3 shadow-[0_10px_30px_-12px_rgba(0,0,0,0.8)] backdrop-blur-xl">
+      <div className="mx-auto flex max-w-lg items-center gap-3 rounded-2xl border border-[var(--fam)]/40 bg-[var(--surface)]/95 p-3 shadow-[0_10px_30px_-12px_rgba(0,0,0,0.8)] backdrop-blur-xl">
         <span aria-hidden className="text-xl leading-none">📲</span>
         {deferred ? (
           <>
-            <p className="min-w-0 flex-1 text-xs leading-snug text-[var(--foreground)]">
+            <p className="min-w-0 flex-1 text-xs leading-snug text-[var(--fg)]">
               Instale o Perfumista pra abrir offline, direto da tela de início.
             </p>
             <button
               type="button"
               onClick={install}
-              className="shrink-0 rounded-lg border border-[var(--accent)] bg-[var(--accent)]/15 px-3 py-1.5 text-xs font-medium uppercase tracking-wide text-[var(--accent)] transition-colors hover:bg-[var(--accent)]/25"
+              className="shrink-0 rounded-lg border border-[var(--fam)] bg-[var(--fam)]/15 px-3 py-1.5 text-xs font-medium uppercase tracking-wide text-[var(--fam)] transition-colors hover:bg-[var(--fam)]/25"
             >
               Instalar app
             </button>
           </>
         ) : (
-          <p className="min-w-0 flex-1 text-xs leading-snug text-[var(--foreground)]">
+          <p className="min-w-0 flex-1 text-xs leading-snug text-[var(--fg)]">
             Pra instalar: toque em <strong>Compartilhar ⬆️</strong> e{" "}
             <strong>“Adicionar à Tela de Início”</strong>.
           </p>
@@ -145,7 +145,7 @@ export default function InstallPrompt() {
           type="button"
           onClick={close}
           aria-label="Fechar aviso de instalação"
-          className="shrink-0 rounded-md px-1.5 py-1 text-lg leading-none text-[var(--muted)] transition-colors hover:text-[var(--foreground)]"
+          className="shrink-0 rounded-md px-1.5 py-1 text-lg leading-none text-[var(--muted)] transition-colors hover:text-[var(--fg)]"
         >
           ×
         </button>

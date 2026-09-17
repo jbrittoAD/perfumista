@@ -1,51 +1,87 @@
 # Perfumista — ESTADO / HANDOFF (para retomar em nova sessão)
 
-App **assistente de perfumaria** do João (uso pessoal). PWA estática, instalável, offline. Ajuda a: consultar químicos aromáticos (preço BR + dados técnicos), **prever** o resultado de uma fórmula (Modo Direto), **sugerir** ingredientes a partir de notas desejadas (Modo Reverso), estudar (Curso + quizzes + revisão espaçada), e **organizar/planejar compras** por cor de tampa.
+App **de estudo e catalogação de matérias-primas de perfumaria** do João (uso pessoal).
+Desde 17/09/2026 o app é um **deck de swipe** (estilo Tinder): o usuário passa por 590
+químicos aromáticos, marca o que quer na paleta, e simula acordes com o que marcou.
+
+> O app **anterior** (catálogo + curso + motor direto/reverso + compras) está preservado:
+> tag git `v1-classico` e cópia em `_backup/web-classico-2026-09-17/`. Ver "Voltar atrás".
 
 ## 🌐 No ar (produção)
-- **Principal:** https://perfumista-app.vercel.app  (Vercel, conta `jbrittoad`, projeto `perfumista`; aliases: perfumista-app / perfumaria-app / perfumista-diy)
+- **Principal:** https://perfumista-app.vercel.app (Vercel, conta `jbrittoad`, projeto `perfumista`;
+  aliases: perfumista-app / perfumaria-app / perfumista-diy)
 - **Backup:** https://jbrittoad.github.io/perfumista/ (GitHub Pages, branch `gh-pages`)
-- **Instalar:** Android Chrome → menu ⋮ → "Instalar app" (NÃO usar navegador in-app do WhatsApp/IG). iOS Safari → Compartilhar → Adicionar à Tela de Início (sempre manual). Tem banner de instalação no app.
+- **Instalar:** Android Chrome → ⋮ → "Instalar app". iOS Safari → Compartilhar → Adicionar à
+  Tela de Início. NÃO usar o navegador in-app do WhatsApp/IG.
 
 ## 🏗️ Arquitetura
-- **PWA 100% estática** — Next.js 16 App Router, `output: 'export'`. Tudo client-side; dados em JSON embutido (`web/lib/data/`). Sem servidor no runtime. Service worker (`web/public/sw.js`) = offline. Manifest + ícones em `web/public/`.
-- **`web/`** = o app. **`materials/`** = scraping + banco + processamento. **`knowledge/`** = base de conhecimento + dados de pesquisa. **`scraper/`** = projeto Fragrantica (PAUSADO, ignorar).
-- **Telas:** `/hoje` (home/hub, é o start_url) · `/` (Catálogo) · `/material/[id]` · `/direto` · `/reverso` · `/fragrancias` (escolher por cor + resumo + lista de compras) · `/compras` (sugestão 20/cor) · `/formulas` + `/formulas/[id]` · `/combinacoes` · `/curso` + `/curso/[lessonId]` + `/curso/quiz/[moduleId]` · `/metodo` · `/revisar` (SRS).
-- **Motor** (heurístico, puro, client): `web/lib/engine.ts` + `web/lib/accords.ts`. Trata potência/traço (Stevens), solventes (diluente), óleos essenciais (multi-nota), avisos IFRA. Calibrado: 100% família em acordes, 76,8% em fórmulas reais documentadas. NÃO é validado por cheiro — é estimativa.
+- **PWA 100% estática** — Next.js 16 App Router, `output: 'export'`. Tudo client-side, dados
+  em JSON embutido. Service worker (`web/public/sw.js`) = offline. Sem servidor em runtime.
+- **3 telas, 3 abas** (bottom tab bar):
+  - `/` **Descobrir** — o deck. Arrasta → direita = quero / esquerda = descarto; toque = ficha.
+  - `/lab` **Meu Laboratório** — os favoritos, com busca, filtro por família, ordenação e
+    "copiar lista" (texto pro WhatsApp do fornecedor).
+  - `/formulas` **Fórmulas** — monta acorde em PARTES com materiais da paleta e simula.
+- **Ordem do baralho (o ponto central):** as cartas vêm agrupadas por família olfativa e,
+  dentro da família, encadeadas por proximidade de cheiro — todos os limões, depois as
+  bergamotas, depois as laranjas. Isso é calculado no build, não em runtime.
+- **Motor** (`web/lib/engine.ts` + `accords.ts`, herdados do app antigo): pirâmide, famílias
+  dominantes, projeção, duração e avisos de IFRA. Heurístico — é estimativa, não medição.
 
-## 📦 Dados (em `web/lib/data/`, gerados de `materials/data/materials.db`)
-- `materials.json` — 398 químicos aromáticos + óleos essenciais + solventes; campos: cas, name_canonical/name_pt, note_type, odor_family, **family_canon**, **cap_color** (9 cores), odor_description, **key_uses** ("para que serve"), odor_strength, recommended_dosage, typical_use_pct, ifra_limit_pct, molecular_weight/boiling_point_c/logp, min_price, **min_price_per_g** (preço/grama de material puro), offer_count, cheapest_source, offers[] (por fornecedor+tamanho+diluição), synonyms[].
-- `facets.json` · `shopping.json` (por cor) · `recipes.json` (142 fórmulas reais) · `combinations.json` (43 combinações) · `course.json` (23 módulos/104 aulas/**138 quizzes**) · `flashcards.json` (205) · `metodo.json` · `quizzes.json`.
-- **Fonte:** 3 fornecedores BR raspados — Flavorist, Perfumístico, Perfumoteca (~600 produtos, ~1360 ofertas). Ver [[fontes-dados-perfumista]] (memória).
-- **Regenerar os JSON do app:** `python3 materials/scripts/build-web-data.py` (lê o .db + knowledge, gera materials/facets/shopping.json com cap_color+key_uses). Rode depois de re-raspar.
+## 📦 Dados
+- **`web/lib/data/deck.json`** (1 MB, 590 cartas) — a única fonte que o app lê. Gerado por
+  `python3 web/scripts/build_deck.py` a partir de `materials.json`. O build faz:
+  limpeza de texto (CSS/HTML/copy de e-commerce que vêm dos 4 fornecedores raspados),
+  facetas em PT via léxico curado, "para que serve", dose, percepção por concentração,
+  escolha da foto e a ordem do baralho.
+- **`web/lib/data/materials.json`** (593 itens) — entrada do build, não é lido pelo app.
+- **`web/public/photos/*.webp`** (95 chaves, ~12 MB) — a foto do "objeto do mundo real" que
+  cada cheiro evoca. Baixadas do Wikimedia Commons por `python3 web/scripts/fetch_photos.py`;
+  crédito/licença em `public/photos/credits.json` e exibidos na ficha.
+- Scripts do deck: `web/scripts/` — `build_deck.py`, `deck_lexicon.py` (95 fotos + 334
+  descritores + 15 famílias), `deck_families.py` (voto de reclassificação), `deck_uses_pt.py`
+  (157 textos técnicos traduzidos à mão), `fetch_photos.py`.
 
-## 🎨 Cor de tampa = família (organização física dos frascos 20ml)
-🟡 Amarelo=Cítrica · 🩷 Pink=Floral · 🌿 Verde Folha=Verde/Herbácea · 🌲 Verde Escuro=Amadeirada/Chipre · 💧 Verde Água=Aquática/Aldeídica · 🟠 Laranja=Gourmand/Frutada · 🔵 Azul=Aromática/Especiaria · ⚫ Preto=Oriental/Âmbar/Couro · ⚪ Branco=Almíscar. (Frascos vêm em lotes de 20; 1 lote/cor cobre a maioria; famílias grandes—Floral/Gourmand/Oriental/Amadeirada—pedem 2 lotes.)
-
-## 🧠 Progresso do usuário / persistência
-- localStorage por aparelho: `perfumista:course-progress`, `:quiz-results`, `:srs`, `:saved-formulas`, `:buylist`, `:sync-code`, `:install-dismissed`.
-- **Sync entre aparelhos via Supabase** (offline-first, opcional): CÓDIGO já pronto em `web/lib/sync.ts` (painel em /hoje). Projeto Supabase `tgbnxnftahjrphxpazvz`, publishable key `sb_publishable_2xyzNzjovJcz2diJwJRL4Q_O4SyGomI`. **PENDENTE:** criar a tabela — rodar `bash /tmp/sb-setup.sh` (ou colar o SQL no SQL Editor). Cria `perfumista_state` + RPC `perfumista_get/set` (acesso por código). Sync liga sozinha quando a tabela existir.
+## 🧠 Persistência
+- **IndexedDB** `perfumista-deck` (primária) + **localStorage** `perfumista:deck-state`
+  (espelho/fallback). Guarda: swipe de cada carta, cursor por família, id da última carta
+  vista e as fórmulas salvas. Ver `web/lib/deck-store.ts`.
+- **Sync opcional** entre aparelhos (`web/lib/deck-sync.ts`): mesmas RPC Supabase
+  (`perfumista_get`/`perfumista_set`, projeto `tgbnxnftahjrphxpazvz`) e mesmo código fixo do
+  app antigo. Merge é sempre união / "melhor de cada", nunca sobrescrita. Preserva os campos
+  do app antigo na mesma linha. Se a tabela não existir, o app funciona igual (offline-first).
 
 ## 🚀 Rodar / publicar
-- Local dev: `cd web && npm install && npm run dev` (usa --webpack; node em `/opt/homebrew/bin` → `export PATH="/opt/homebrew/bin:$PATH"`).
-- Build estático: `cd web && npm run build` → `out/`. Servir: `npx serve out -l tcp://0.0.0.0:3000`.
-- **Redeploy Vercel** (após mudanças): `cd web && vercel build --prod && vercel deploy --prebuilt --prod --yes --archive=tgz`. ⚠️ `--archive=tgz` é ESSENCIAL (senão "Upload aborted"). Depois **re-apontar os aliases** (eles ficam presos no deploy antigo!): `vercel alias set <novo-deploy>.vercel.app perfumista-app.vercel.app` (idem perfumaria-app, perfumista-diy).
-- Redeploy GH Pages: `NEXT_PUBLIC_BASE_PATH=/perfumista npm run build`, copiar `out/` pro branch gh-pages, push.
+- Local: `cd web && npm install && npm run dev` (node em `/opt/homebrew/bin` →
+  `export PATH="/opt/homebrew/bin:$PATH"`).
+- Build estático: `cd web && npm run build` → `out/`. Servir: `npx serve out -l 4123`.
+- **Redeploy Vercel:** `cd web && vercel build --prod && vercel deploy --prebuilt --prod --yes --archive=tgz`.
+  ⚠️ `--archive=tgz` é ESSENCIAL (senão "Upload aborted"). Depois **re-apontar os aliases**
+  (ficam presos no deploy antigo): `vercel alias set <deploy>.vercel.app perfumista-app.vercel.app`
+  (idem perfumaria-app, perfumista-diy).
+- Ao publicar mudança, **bumpar `CACHE_VERSION` em `web/public/sw.js`** — senão o celular
+  continua servindo a versão antiga do cache.
 
-## ⚠️ Armadilhas do ambiente (não perder tempo)
-- **node/npx/gh somem do PATH** às vezes → sempre `export PATH="/opt/homebrew/bin:$PATH"`. Se o symlink do node quebrar: `brew install node`.
-- Meu `grep` no shell às vezes falha com `error: unknown option '-G'` — inofensivo; usar `rg` ou Read/python.
-- Token do **Supabase** (Keychain) NÃO libera pra processo em segundo plano → criar tabela precisa de ação do usuário (script `/tmp/sb-setup.sh` com clique de "Permitir", ou dashboard).
-- **Vercel:** token do CLI em `~/Library/Application Support/com.vercel.cli/auth.json` (usei p/ desligar deployment protection via `PATCH api.vercel.com/v9/projects/{id}?teamId={org}` `{"ssoProtection":null}`). Aliases não auto-atualizam por deploy.
+## ↩️ Voltar atrás (restaurar o app clássico)
+```bash
+cd ~/Documents/Pessoais/Perfumista
+rm -rf web && cp -R _backup/web-classico-2026-09-17 web   # ou: git checkout v1-classico -- web
+cd web && npm install && npm run build
+```
 
-## ⏭️ Pendências / próximos passos
-1. **Ativar sync Supabase** (usuário roda o SQL) → validar ciclo salvar/ler entre aparelhos.
-2. **Calibrar o motor** com fórmulas reais medidas (hoje é sanity contra acordes).
-3. **Qualidade de dados:** `odor_family` cru é bagunçado (misturado PT/EN/descrições) → `family_canon`/`cap_color` já normalizam via keyword+pesquisa, mas há ruído; preto fica inflado (default). Dedupe de duplicatas Perfumoteca também é parcial.
-4. IFRA por categoria de produto (hoje usa Cat 4 genérico); cobertura de força ~63%.
-5. Salvar como scripts os passos que às vezes rodo "na mão" (o export já virou `build-web-data.py`).
+## ⚠️ Armadilhas do ambiente
+- **node/npx/gh somem do PATH** → sempre `export PATH="/opt/homebrew/bin:$PATH"`.
+- Tailwind v4: `@apply` **não** compõe classes de componente (`.btn-ghost { @apply btn }`
+  quebra o build). Repetir a base em cada variante.
+- Wikimedia Commons responde **429** se o lote for rápido: `fetch_photos.py` já espera 3s
+  entre imagens e tem backoff, mas um lote grande leva minutos.
+- `grep` do shell às vezes falha com `unknown option '-G'` — usar `rg` ou Python.
 
-## 📚 Domínio (para responder perguntas do usuário)
-- Perfil **assaboneado/limpo** = aldeídos alifáticos (C-10/C-11/C-12 MNA) + almíscares brancos (Galaxolide/Habanolide) + floral limpo (hidroxicitronelol/Florhydral). Aldeídos são traços potentes (10%).
-- **Sabonete puxando caramelo** = o acima + ponte de lactonas cremosas (lactona de leite, Aldeído C-14/C-18) + caramelo (Etil Maltol, Furaneol) + baunilha/cumarina. Etil maltol/furaneol = traços.
-- Materiais parecidos: mesmo CAS → escolher por preço; parecido (mesma família/nota) → comparar descritor/força/uso (seção "Materiais parecidos" no detalhe).
+## ⏭️ Próximos passos
+1. **Revisar as fotos que ainda não representam bem o cheiro** — `fetch_photos.py --force
+   --only <chave>` depois de ajustar a consulta em `deck_lexicon.py`.
+2. **Facetas vazias:** 43 cartas sem nenhum descritor (a fonte não trouxe). Vale caçar
+   descrição melhor ou escrever à mão.
+3. **Calibrar a percepção por concentração** com o que o nariz confirmar na bancada —
+   hoje é template por família + força.
+4. Login real (Google/Apple) no lugar do código fixo de sync, se um dia virar multiusuário.

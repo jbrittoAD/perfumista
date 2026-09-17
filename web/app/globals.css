@@ -1,276 +1,177 @@
 @import "tailwindcss";
 
+/* ==========================================================================
+   Perfumista — design system do app de swipe.
+
+   Premissas: escuro por padrão (a foto do ingrediente é a protagonista e só
+   brilha sobre fundo preto), tipografia limpa, e uma cor de acento que MUDA
+   conforme a família olfativa da carta em foco — é o que dá identidade a cada
+   bloco do baralho sem precisar de skin diferente por tela.
+
+   --fam-* são reescritas em runtime pelo componente do deck.
+   ========================================================================== */
+
 :root {
-  --background: #0b0b0d;
-  --surface: #17171b;
-  --surface-2: #1f1f25;
-  --border: #2a2a31;
-  --foreground: #ededed;
-  --muted: #a1a1aa;
-  --accent: #d9a441; /* âmbar */
-  --accent-strong: #e6b455;
-  --ring: color-mix(in srgb, var(--accent) 55%, transparent);
-  --radius-card: 1rem;
+  color-scheme: dark;
+
+  --bg: #08080a;
+  --bg-soft: #101014;
+  --surface: #16161c;
+  --surface-2: #1e1e26;
+  --border: #2a2a34;
+  --border-soft: #202028;
+
+  --fg: #f4f4f6;
+  --fg-dim: #b9b9c4;
+  --muted: #84848f;
+
+  --like: #3ddc97;
+  --pass: #ff5f6d;
+
+  /* acento da família em foco (default = âmbar da marca) */
+  --fam: #d9a441;
+  --fam-soft: color-mix(in srgb, var(--fam) 18%, transparent);
+
+  --r-card: 1.75rem;
+  --r-md: 1rem;
+  --r-sm: 0.625rem;
+
+  --tab-h: 4.25rem;
 }
 
 @theme inline {
-  --color-background: var(--background);
+  --color-bg: var(--bg);
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
   --color-border: var(--border);
-  --color-foreground: var(--foreground);
+  --color-fg: var(--fg);
   --color-muted: var(--muted);
-  --color-accent: var(--accent);
+  --color-fam: var(--fam);
 }
 
-body {
-  background:
-    radial-gradient(1100px 620px at 85% -10%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 60%),
-    radial-gradient(900px 520px at -10% 0%, color-mix(in srgb, #6b5bff 7%, transparent), transparent 55%),
-    var(--background);
-  background-attachment: fixed;
-  color: var(--foreground);
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+* {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* ---------- Foco visível e consistente (teclado) ---------- */
+html,
+body {
+  height: 100%;
+  overscroll-behavior-y: none;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+}
+
+/* O deck não pode rolar junto com o arrasto da carta. */
+body[data-lock="1"] {
+  overflow: hidden;
+  touch-action: none;
+}
+
 :where(a, button, input, select, textarea, [tabindex]):focus-visible {
-  outline: 2px solid var(--ring);
+  outline: 2px solid var(--fam);
   outline-offset: 2px;
   border-radius: 0.5rem;
 }
 
-/* ---------- Scrollbars discretas ---------- */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--border) transparent;
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
 }
-*::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-*::-webkit-scrollbar-track {
-  background: transparent;
-}
-*::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: var(--border);
   border-radius: 999px;
 }
-*::-webkit-scrollbar-thumb:hover {
-  background: color-mix(in srgb, var(--muted) 45%, transparent);
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-/* ---------- Componentes reutilizáveis de UI ----------
-   Classes utilitárias (@apply) para coesão visual entre telas.
-   Não alteram lógica: só encapsulam o padrão já usado no app. */
 @layer components {
-  /* Cartão base */
-  .ui-card {
-    @apply rounded-2xl border border-[var(--border)] bg-[var(--surface)];
+  /* ---------- superfícies ---------- */
+  .panel {
+    @apply rounded-[var(--r-md)] border border-[var(--border-soft)] bg-[var(--surface)];
   }
-  /* Cartão clicável (Link) com realce no hover/active */
-  .ui-card-link {
-    @apply rounded-2xl border border-[var(--border)] bg-[var(--surface)] transition-all duration-200;
-    @apply hover:border-[var(--accent)]/60 hover:-translate-y-0.5 hover:shadow-[0_10px_30px_-18px_rgba(0,0,0,0.8)];
-    @apply active:translate-y-0;
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-[var(--border)]
+           bg-[var(--surface-2)] px-2.5 py-1 text-[11px] font-medium text-[var(--fg-dim)]
+           whitespace-nowrap;
   }
-  /* Título de seção com "kicker" opcional */
-  .ui-section-title {
-    @apply text-lg font-medium tracking-tight;
+
+  .chip-fam {
+    border-color: color-mix(in srgb, var(--fam) 45%, transparent);
+    background: color-mix(in srgb, var(--fam) 14%, transparent);
+    color: color-mix(in srgb, var(--fam) 78%, white);
   }
-  .ui-eyebrow {
-    @apply text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--muted)];
+
+  /* Tailwind v4 não deixa um componente aplicar outro via @apply, então a base
+     do botão é repetida em cada variante em vez de composta. */
+  .btn,
+  .btn-ghost,
+  .btn-fam {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-4 py-2.5
+           text-sm font-semibold transition-[transform,background-color,border-color]
+           active:scale-[0.97];
   }
-  /* Botões */
-  .ui-btn {
-    @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-xl px-5 py-2.5 text-sm font-medium transition-all duration-150 active:scale-[0.98];
+
+  .btn-ghost {
+    @apply border border-[var(--border)] bg-[var(--surface)] text-[var(--fg-dim)];
   }
-  .ui-btn-primary {
-    @apply border border-[var(--accent)] bg-[var(--accent)] text-black shadow-[0_8px_24px_-12px_var(--accent)] hover:bg-[var(--accent-strong)];
+
+  .btn-fam {
+    @apply text-black;
+    background: var(--fam);
   }
-  .ui-btn-secondary {
-    @apply border border-[var(--border)] bg-[var(--surface-2)] text-[var(--foreground)] hover:border-[var(--accent)]/60 hover:text-[var(--accent)];
+
+  /* ---------- rótulo de seção ---------- */
+  .eyebrow {
+    @apply text-[10.5px] font-bold uppercase tracking-[0.14em] text-[var(--muted)];
   }
-  /* Badge/pílula estática */
-  .ui-badge {
-    @apply inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wide;
+
+  /* ---------- carta ---------- */
+  .card-shell {
+    @apply absolute inset-0 overflow-hidden rounded-[var(--r-card)] bg-[var(--surface)];
+    box-shadow:
+      0 1px 0 0 rgb(255 255 255 / 0.06) inset,
+      0 24px 60px -20px rgb(0 0 0 / 0.85),
+      0 4px 14px -4px rgb(0 0 0 / 0.6);
+    will-change: transform;
   }
-  /* Chip de filtro (interativo) */
-  .ui-chip {
-    @apply inline-flex min-h-[38px] items-center whitespace-nowrap rounded-full border px-3.5 py-1 text-sm transition-colors;
+
+  /* Véu que garante leitura do texto sobre qualquer foto. */
+  .card-scrim {
+    background: linear-gradient(
+      to top,
+      rgb(4 4 6 / 0.96) 0%,
+      rgb(4 4 6 / 0.9) 22%,
+      rgb(4 4 6 / 0.55) 46%,
+      rgb(4 4 6 / 0.12) 70%,
+      rgb(4 4 6 / 0.35) 100%
+    );
   }
-  .ui-chip-off {
-    @apply border-[var(--border)] bg-[var(--surface)] text-[var(--muted)] hover:text-[var(--foreground)] hover:border-[var(--muted)]/50;
+
+  /* Carimbo GOSTEI / DESCARTADO durante o arrasto. */
+  .stamp {
+    @apply pointer-events-none absolute top-9 select-none rounded-xl border-[3px]
+           px-3 py-1.5 text-2xl font-black uppercase tracking-[0.08em];
+    backdrop-filter: blur(2px);
   }
-  .ui-chip-on {
-    @apply border-[var(--accent)] bg-[var(--accent)]/15 text-[var(--accent)];
-  }
-  /* Campo de texto/busca */
-  .ui-input {
-    @apply w-full min-h-[44px] rounded-xl border border-[var(--border)] bg-[var(--surface)] px-4 py-2.5 text-sm outline-none transition-colors focus:border-[var(--accent)];
-  }
-  /* Linha de chips com rolagem horizontal agradável no mobile */
-  .ui-chip-row {
-    @apply flex gap-2 overflow-x-auto pb-1 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-visible;
-    scrollbar-width: none;
-  }
-  .ui-chip-row::-webkit-scrollbar {
-    display: none;
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
   }
 }
 
-/* ---------- Animações sutis ---------- */
-@keyframes ui-rise {
-  from {
-    opacity: 0;
-    transform: translateY(6px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-.ui-rise {
-  animation: ui-rise 0.4s ease both;
-}
+/* Respeita quem desligou animação no sistema. */
 @media (prefers-reduced-motion: reduce) {
   * {
-    animation-duration: 0.001ms !important;
-    transition-duration: 0.001ms !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
   }
-}
-
-/* ---------- Tipografia da aula (markdown) ---------- */
-.lesson-prose {
-  color: var(--foreground);
-  font-size: 1rem;
-  line-height: 1.75;
-}
-.lesson-prose > *:first-child {
-  margin-top: 0;
-}
-.lesson-prose h2 {
-  font-size: 1.4rem;
-  font-weight: 600;
-  line-height: 1.3;
-  margin: 2rem 0 0.85rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--border);
-  letter-spacing: -0.01em;
-}
-.lesson-prose h3 {
-  font-size: 1.15rem;
-  font-weight: 600;
-  line-height: 1.35;
-  margin: 1.6rem 0 0.6rem;
-  color: var(--accent);
-}
-.lesson-prose h4 {
-  font-size: 1.02rem;
-  font-weight: 600;
-  margin: 1.3rem 0 0.5rem;
-}
-.lesson-prose p {
-  margin: 0.85rem 0;
-}
-.lesson-prose ul,
-.lesson-prose ol {
-  margin: 0.85rem 0;
-  padding-left: 1.5rem;
-}
-.lesson-prose ul {
-  list-style: disc;
-}
-.lesson-prose ol {
-  list-style: decimal;
-}
-.lesson-prose li {
-  margin: 0.4rem 0;
-  padding-left: 0.25rem;
-}
-.lesson-prose li::marker {
-  color: var(--muted);
-}
-.lesson-prose li > ul,
-.lesson-prose li > ol {
-  margin: 0.35rem 0;
-}
-.lesson-prose strong {
-  color: #fff;
-  font-weight: 600;
-}
-.lesson-prose em {
-  color: var(--foreground);
-}
-.lesson-prose a {
-  color: var(--accent);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-.lesson-prose a:hover {
-  opacity: 0.85;
-}
-.lesson-prose code {
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: 0.35rem;
-  padding: 0.1rem 0.35rem;
-  font-size: 0.9em;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-}
-.lesson-prose pre {
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: 0.6rem;
-  padding: 1rem;
-  overflow-x: auto;
-  margin: 1rem 0;
-}
-.lesson-prose pre code {
-  background: transparent;
-  border: 0;
-  padding: 0;
-  font-size: 0.85rem;
-}
-.lesson-prose blockquote {
-  border-left: 3px solid var(--accent);
-  background: var(--surface);
-  border-radius: 0 0.5rem 0.5rem 0;
-  padding: 0.6rem 1rem;
-  margin: 1.1rem 0;
-  color: var(--muted);
-}
-.lesson-prose blockquote p {
-  margin: 0.35rem 0;
-}
-.lesson-prose hr {
-  border: 0;
-  border-top: 1px solid var(--border);
-  margin: 2rem 0;
-}
-.lesson-prose .table-wrap {
-  overflow-x: auto;
-  margin: 1.2rem 0;
-}
-.lesson-prose table {
-  border-collapse: collapse;
-  width: 100%;
-  font-size: 0.92rem;
-}
-.lesson-prose th,
-.lesson-prose td {
-  border: 1px solid var(--border);
-  padding: 0.55rem 0.75rem;
-  text-align: left;
-  vertical-align: top;
-}
-.lesson-prose thead th {
-  background: var(--surface-2);
-  color: var(--foreground);
-  font-weight: 600;
-}
-.lesson-prose tbody tr:nth-child(even) {
-  background: var(--surface)/40;
-  background: color-mix(in srgb, var(--surface) 50%, transparent);
 }

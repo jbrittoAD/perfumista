@@ -16,3 +16,4 @@ web/.vercel/
 
 # backup físico do app clássico (restauração rápida; o git já guarda a tag v1-classico)
 _backup/
+web/scripts/__pycache__/

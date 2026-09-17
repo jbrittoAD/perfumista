@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { initSyncOnLoad } from "@/lib/sync";
+import { initDeckSync } from "@/lib/deck-sync";
 
 // basePath do deploy (vazio na raiz, "/perfumista" no GitHub Pages). Inlinado
 // no bundle em build time via NEXT_PUBLIC_*.
@@ -34,7 +34,7 @@ export default function SwRegister() {
 
   // Sincronização inicial em background — não bloqueia a UI; no-op sem código.
   useEffect(() => {
-    initSyncOnLoad();
+    initDeckSync();
   }, []);
 
   return null;

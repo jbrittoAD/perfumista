@@ -1,0 +1,576 @@
+{
+ "limao": {
+  "label": "Limão siciliano",
+  "title": "File:MeyerLemon.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:MeyerLemon.jpg",
+  "author": "Jon Sullivan of PD Photo.org, edited by User:Fir0002",
+  "license": "Public domain"
+ },
+ "pedra-molhada": {
+  "label": "Pedra molhada",
+  "title": "File:Wet Footprint on stone floor beside wet pebbles.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wet_Footprint_on_stone_floor_beside_wet_pebbles.jpg",
+  "author": "Bhavabhuthi",
+  "license": "CC BY-SA 4.0"
+ },
+ "abacaxi": {
+  "label": "Abacaxi",
+  "title": "File:Pineapple (sliced).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pineapple_(sliced).jpg",
+  "author": "Salil Kumar Mukherjee",
+  "license": "CC BY-SA 4.0"
+ },
+ "baunilha": {
+  "label": "Fava de baunilha",
+  "title": "File:Vanilla Bean Cashew Fudge Soy Kreme.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vanilla_Bean_Cashew_Fudge_Soy_Kreme.jpg",
+  "author": "Janet Hudson",
+  "license": "CC BY 2.0"
+ },
+ "bergamota": {
+  "label": "Bergamota",
+  "title": "File:Bergamottepflanze.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bergamottepflanze.jpg",
+  "author": null,
+  "license": "CC BY-SA 3.0"
+ },
+ "laranja": {
+  "label": "Laranja doce",
+  "title": "File:Blood orange slice.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Blood_orange_slice.jpg",
+  "author": "Rhododendrites",
+  "license": "CC BY-SA 4.0"
+ },
+ "tangerina": {
+  "label": "Tangerina",
+  "title": "File:Mandarin Oranges (Citrus Reticulata).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mandarin_Oranges_(Citrus_Reticulata).jpg",
+  "author": "Joe Ravi",
+  "license": "CC BY-SA 3.0"
+ },
+ "grapefruit": {
+  "label": "Grapefruit",
+  "title": "File:Grapefruit, half.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Grapefruit,_half.jpg",
+  "author": "J.smith",
+  "license": "CC BY-SA 3.0"
+ },
+ "lima": {
+  "label": "Lima / Limão taiti",
+  "title": "File:Lime - Flickr - Stiller Beobachter.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lime_-_Flickr_-_Stiller_Beobachter.jpg",
+  "author": "Stiller Beobachter from Ansbach, Germany",
+  "license": "CC BY 2.0"
+ },
+ "flor-laranjeira": {
+  "label": "Flor de laranjeira",
+  "title": "File:Orange Blossom.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Orange_Blossom.JPG",
+  "author": "Alexander Hardin",
+  "license": "CC BY 3.0"
+ },
+ "grama": {
+  "label": "Grama recém-cortada",
+  "title": "File:Cut wetland plant stems canoe background Owalla Dam.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cut_wetland_plant_stems_canoe_background_Owalla_Dam.jpg",
+  "author": "Jevuniverse",
+  "license": "CC BY 4.0"
+ },
+ "folha-figueira": {
+  "label": "Folha de figueira",
+  "title": "File:Fig Leaf.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fig_Leaf.jpg",
+  "author": "Pietro Voso",
+  "license": "CC BY-SA 4.0"
+ },
+ "galbano": {
+  "label": "Gálbano (resina verde)",
+  "title": "File:Galbanum1.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Galbanum1.JPG",
+  "author": "Maša Sinreih in Valentina Vivod",
+  "license": "CC BY-SA 3.0"
+ },
+ "cha-verde": {
+  "label": "Chá verde",
+  "title": "File:Green tea 11.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Green_tea_11.jpg",
+  "author": "BogTar201213",
+  "license": "CC BY-SA 4.0"
+ },
+ "pepino": {
+  "label": "Pepino fatiado",
+  "title": "File:Cucumber Slices (Alabama Extension).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cucumber_Slices_(Alabama_Extension).jpg",
+  "author": "Alabama Extension",
+  "license": "CC0"
+ },
+ "lavanda": {
+  "label": "Campo de lavanda",
+  "title": "File:Lavender Field (7433821140).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lavender_Field_(7433821140).jpg",
+  "author": "xlibber",
+  "license": "CC BY 2.0"
+ },
+ "alecrim": {
+  "label": "Alecrim",
+  "title": "File:Image from page 246 of \"The pink fairy book\" (1897).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Image_from_page_246_of_%22The_pink_fairy_book%22_(1897).jpg",
+  "author": "Internet Archive Book Images",
+  "license": "CC0"
+ },
+ "manjericao": {
+  "label": "Manjericão",
+  "title": "File:Fresh green basil leaves (54986224214).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fresh_green_basil_leaves_(54986224214).jpg",
+  "author": "AS Photography from Poland",
+  "license": "CC BY 4.0"
+ },
+ "menta": {
+  "label": "Hortelã",
+  "title": "File:Khao Soi - close-up (4421557507).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Khao_Soi_-_close-up_(4421557507).jpg",
+  "author": "Alpha from Melbourne, Australia",
+  "license": "CC BY-SA 2.0"
+ },
+ "salvia": {
+  "label": "Sálvia esclareia",
+  "title": "File:Salvia sclarea 001.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Salvia_sclarea_001.JPG",
+  "author": "H. Zell",
+  "license": "CC BY-SA 3.0"
+ },
+ "eucalipto": {
+  "label": "Eucalipto",
+  "title": "File:Close-up of a specimen of a eucalyptus branch showing leaves, blossoms and seedpods, ca.1925 (CHS-5518).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_specimen_of_a_eucalyptus_branch_showing_leaves,_blossoms_and_seedpods,_ca.1925_(CHS-5518).jpg",
+  "author": "Unknown authorUnknown author",
+  "license": "Public domain"
+ },
+ "anis": {
+  "label": "Anis estrelado",
+  "title": "File:Gewuerze 004 2024 08 10.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gewuerze_004_2024_08_10.jpg",
+  "author": "Friedrich Haag",
+  "license": "CC BY-SA 4.0"
+ },
+ "feno": {
+  "label": "Feno cortado",
+  "title": "File:Taarup bale wrapper in Scotland.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Taarup_bale_wrapper_in_Scotland.jpg",
+  "author": "Brian Forbes",
+  "license": "CC BY 2.0"
+ },
+ "camomila": {
+  "label": "Camomila",
+  "title": "File:Camomille sauvage (Matricaria chamomilla), coquelicots (Papaver rhoeas) au bord d'un champ d'orge (Hordeum vulgare).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Camomille_sauvage_(Matricaria_chamomilla),_coquelicots_(Papaver_rhoeas)_au_bord_d%27un_champ_d%27orge_(Hordeum_vulgare).jpg",
+  "author": "JackyM59",
+  "license": "CC BY-SA 4.0"
+ },
+ "mar": {
+  "label": "Maresia na rocha",
+  "title": "File:Kuantan - waves breaking over rocks at Teluk Cempedak - May 2024.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kuantan_-_waves_breaking_over_rocks_at_Teluk_Cempedak_-_May_2024.jpg",
+  "author": "Dominic Nelson",
+  "license": "CC BY-SA 4.0"
+ },
+ "chuva": {
+  "label": "Chuva no vidro",
+  "title": "File:Rain drops on glass, Bokakhat, Assam.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rain_drops_on_glass,_Bokakhat,_Assam.jpg",
+  "author": "Baby Devi 26",
+  "license": "CC BY-SA 4.0"
+ },
+ "melancia": {
+  "label": "Melão / melancia",
+  "title": "File:20171027-AMS-LSC-0979 (38037048292).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:20171027-AMS-LSC-0979_(38037048292).jpg",
+  "author": "U.S. Department of Agriculture",
+  "license": "Public domain"
+ },
+ "algas": {
+  "label": "Algas marinhas",
+  "title": "File:Seaweed M0010165.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Seaweed_M0010165.jpg",
+  "author": "Ansgar Gruber",
+  "license": "CC BY-SA 4.0"
+ },
+ "champanhe": {
+  "label": "Taça de champanhe",
+  "title": "File:Glass of champagne - bubbles.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Glass_of_champagne_-_bubbles.jpg",
+  "author": "Remi Mathis",
+  "license": "CC BY-SA 3.0"
+ },
+ "cera-vela": {
+  "label": "Cera de vela",
+  "title": "File:Kerze -- 2021 -- 5335.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kerze_--_2021_--_5335.jpg",
+  "author": "Dietmar Rabich",
+  "license": "CC BY-SA 4.0"
+ },
+ "pera": {
+  "label": "Pêra",
+  "title": "File:Pyrus pyrifolia fruit on tree PS 2z LR.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pyrus_pyrifolia_fruit_on_tree_PS_2z_LR.jpg",
+  "author": "PumpkinSky",
+  "license": "CC BY-SA 4.0"
+ },
+ "pessego": {
+  "label": "Pêssego maduro",
+  "title": "File:Fede Galizia - A Crystal Fruit Stand with Peaches, Quinces, and Jasmine Flowers 004L15033 6Z37X.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fede_Galizia_-_A_Crystal_Fruit_Stand_with_Peaches,_Quinces,_and_Jasmine_Flowers_004L15033_6Z37X.jpg",
+  "author": "Fede Galizia",
+  "license": "Public domain"
+ },
+ "morango": {
+  "label": "Morangos",
+  "title": "File:Strawberry surface close up macro.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strawberry_surface_close_up_macro.jpg",
+  "author": "rich caulton",
+  "license": "CC BY 4.0"
+ },
+ "framboesa": {
+  "label": "Framboesa",
+  "title": "File:Strawberries with raspberries, close-up.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strawberries_with_raspberries,_close-up.jpg",
+  "author": "anokarina",
+  "license": "CC BY-SA 2.0"
+ },
+ "cassis": {
+  "label": "Cassis",
+  "title": "File:Blackcurrant in basket 2021 G1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Blackcurrant_in_basket_2021_G1.jpg",
+  "author": "George Chernilevsky",
+  "license": "CC BY-SA 4.0"
+ },
+ "banana": {
+  "label": "Banana",
+  "title": "File:Fruit-49741 - bananas apples tangerines close-up - Hans Braxmeier.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fruit-49741_-_bananas_apples_tangerines_close-up_-_Hans_Braxmeier.jpg",
+  "author": "Hans Braxmeier",
+  "license": "CC0"
+ },
+ "uva": {
+  "label": "Uvas",
+  "title": "File:BUNCH WINE GRAPES green close up (48986223318).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BUNCH_WINE_GRAPES_green_close_up_(48986223318).jpg",
+  "author": "Alabama Extension",
+  "license": "CC0"
+ },
+ "cereja": {
+  "label": "Cereja",
+  "title": "File:Close up of Aragon House - Cherry Orchard, Castle Hill, Ebbsfleet Valley.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Close_up_of_Aragon_House_-_Cherry_Orchard,_Castle_Hill,_Ebbsfleet_Valley.png",
+  "author": "Sunolafjagtenben-hur",
+  "license": "CC0"
+ },
+ "ameixa": {
+  "label": "Ameixa",
+  "title": "File:Plum Tree, Kullu district, Himachal Pradesh.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Plum_Tree,_Kullu_district,_Himachal_Pradesh.jpg",
+  "author": "Rajani Gairshail",
+  "license": "CC BY-SA 4.0"
+ },
+ "coco": {
+  "label": "Coco aberto",
+  "title": "File:Coconuts - single and cracked open.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Coconuts_-_single_and_cracked_open.jpg",
+  "author": "Ivar Leidus",
+  "license": "CC BY-SA 4.0"
+ },
+ "frutas-tropicais": {
+  "label": "Frutas tropicais",
+  "title": "File:DSCF0829 Assorted fresh tropical fruits neatly prepped and displayed on plates at a bustling market stall - passion fruit papaya mango and more ready to enjoy.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:DSCF0829_Assorted_fresh_tropical_fruits_neatly_prepped_and_displayed_on_plates_at_a_bustling_market_stall_-_passion_fruit_papaya_mango_and_more_ready_to_enjoy.jpg",
+  "author": "PattayaPatrol",
+  "license": "CC BY-SA 4.0"
+ },
+ "rosa": {
+  "label": "Rosa vermelha",
+  "title": "File:Red rose flower close up.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Red_rose_flower_close_up.jpg",
+  "author": "Drsssuresh1961",
+  "license": "CC BY-SA 4.0"
+ },
+ "jasmim": {
+  "label": "Jasmim",
+  "title": "File:Small White Jasmine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Small_White_Jasmine.jpg",
+  "author": "Maina Tudu",
+  "license": "CC0"
+ },
+ "muguet": {
+  "label": "Muguet (lírio-do-vale)",
+  "title": "File:Lelietje-van-dalen of meiklokje (Convallaria majalis). 14-05-2021 (actm.) 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lelietje-van-dalen_of_meiklokje_(Convallaria_majalis)._14-05-2021_(actm.)_01.jpg",
+  "author": "Agnes Monkelbaan",
+  "license": "CC BY-SA 4.0"
+ },
+ "violeta": {
+  "label": "Violeta",
+  "title": "File:Cape Skink Flowers.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cape_Skink_Flowers.jpg",
+  "author": "Prosthetic Head",
+  "license": "CC BY-SA 4.0"
+ },
+ "iris": {
+  "label": "Íris / raiz de orris",
+  "title": "File:Verschiedenfarbige Schwertlilie (Iris versicolor)-20200603-RM-100257.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Verschiedenfarbige_Schwertlilie_(Iris_versicolor)-20200603-RM-100257.jpg",
+  "author": "Ermell",
+  "license": "CC BY-SA 4.0"
+ },
+ "ylang": {
+  "label": "Ylang-ylang",
+  "title": "File:Ylang ylang flowers -Cananga odorata.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ylang_ylang_flowers_-Cananga_odorata.jpg",
+  "author": "Vinayaraj",
+  "license": "CC BY-SA 3.0"
+ },
+ "gardenia": {
+  "label": "Gardênia",
+  "title": "File:Gardenia Flowers.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gardenia_Flowers.jpg",
+  "author": "Rodanhadid",
+  "license": "CC BY-SA 4.0"
+ },
+ "mimosa": {
+  "label": "Mimosa",
+  "title": "File:Plum and mimosa flowers.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Plum_and_mimosa_flowers.jpg",
+  "author": "Arria Belli",
+  "license": "CC BY-SA 3.0"
+ },
+ "geranio": {
+  "label": "Gerânio",
+  "title": "File:Geranium sanguineum, 27-06-2024. (actm.).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Geranium_sanguineum,_27-06-2024._(actm.).jpg",
+  "author": "Agnes Monkelbaan",
+  "license": "CC BY-SA 4.0"
+ },
+ "narciso": {
+  "label": "Narciso",
+  "title": "File:Narcissus poeticus Spechtensee 01.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Narcissus_poeticus_Spechtensee_01.JPG",
+  "author": "Uoaei1",
+  "license": "CC BY-SA 4.0"
+ },
+ "flor-generica": {
+  "label": "Pétalas",
+  "title": "File:Peachy Pastel Petal (125222595).jpeg",
+  "page": "https://commons.wikimedia.org/wiki/File:Peachy_Pastel_Petal_(125222595).jpeg",
+  "author": "Terry Lucas",
+  "license": "CC BY 3.0"
+ },
+ "pimenta": {
+  "label": "Pimenta-do-reino",
+  "title": "File:Black beans, cheese, tortilla close-up.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Black_beans,_cheese,_tortilla_close-up.jpg",
+  "author": "UserTwoSix",
+  "license": "CC BY-SA 4.0"
+ },
+ "canela": {
+  "label": "Canela em pau",
+  "title": "File:Gewuerze 004 2024 08 10.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gewuerze_004_2024_08_10.jpg",
+  "author": "Friedrich Haag",
+  "license": "CC BY-SA 4.0"
+ },
+ "cravo": {
+  "label": "Cravo-da-índia",
+  "title": "File:Clove close up.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Clove_close_up.jpg",
+  "author": "Sanjay Acharya",
+  "license": "CC BY-SA 4.0"
+ },
+ "cardamomo": {
+  "label": "Cardamomo",
+  "title": "File:Green Cardamom Pods.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Green_Cardamom_Pods.jpg",
+  "author": "Misterneedlemouse",
+  "license": "CC0"
+ },
+ "noz-moscada": {
+  "label": "Noz-moscada",
+  "title": "File:Nutmeg ready.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nutmeg_ready.jpg",
+  "author": "Terrence Coombes",
+  "license": "CC BY-SA 4.0"
+ },
+ "gengibre": {
+  "label": "Gengibre",
+  "title": "File:Liat Portal for Foodie Disorder - Fresh Ginger Root.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Fresh_Ginger_Root.jpg",
+  "author": "HaJunkiyada",
+  "license": "CC BY-SA 4.0"
+ },
+ "especiarias": {
+  "label": "Especiarias moídas",
+  "title": "File:Mengulek bumbu.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Mengulek_bumbu.JPG",
+  "author": "Midori",
+  "license": "CC BY 3.0"
+ },
+ "cedro": {
+  "label": "Lascas de cedro",
+  "title": "File:Potlatch Forests Inc., 1940 - Lewiston, Idaho (30789123685).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Potlatch_Forests_Inc.,_1940_-_Lewiston,_Idaho_(30789123685).jpg",
+  "author": "Steve Shook from Moscow, Idaho, USA",
+  "license": "CC BY 2.0"
+ },
+ "sandalo": {
+  "label": "Sândalo",
+  "title": "File:IncenseWikiVers.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:IncenseWikiVers.jpg",
+  "author": "Sjschen at English Wikipedia",
+  "license": "CC BY-SA 3.0"
+ },
+ "vetiver": {
+  "label": "Raiz de vetiver",
+  "title": "File:Vetiveria zizanoides dsc07810.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vetiveria_zizanoides_dsc07810.jpg",
+  "author": "Copyright © 2005 David Monniaux",
+  "license": "CC BY-SA 3.0"
+ },
+ "patchouli": {
+  "label": "Patchouli",
+  "title": "File:Pogostemon cablin 001.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pogostemon_cablin_001.jpg",
+  "author": "No machine-readable author provided. Valérie75 assumed (based on copyright claims).",
+  "license": "CC BY-SA 3.0"
+ },
+ "madeira-seca": {
+  "label": "Madeira seca",
+  "title": "File:Calem White & Dry Porto Wine Bottles (55242019592).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Calem_White_%26_Dry_Porto_Wine_Bottles_(55242019592).jpg",
+  "author": "Michael Gaylard from Horsham, UK",
+  "license": "CC BY 4.0"
+ },
+ "musgo": {
+  "label": "Musgo de carvalho",
+  "title": "File:Oakmoss at Myrstigen 3.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Oakmoss_at_Myrstigen_3.jpg",
+  "author": "W.carter",
+  "license": "CC0"
+ },
+ "pinho": {
+  "label": "Floresta de pinheiros",
+  "title": "File:Hasegawa Tohaku - Pine Trees (Shōrin-zu byōbu) - right hand screen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hasegawa_Tohaku_-_Pine_Trees_(Sh%C5%8Drin-zu_by%C5%8Dbu)_-_right_hand_screen.jpg",
+  "author": "Hasegawa Tōhaku",
+  "license": "Public domain"
+ },
+ "terra": {
+  "label": "Terra úmida",
+  "title": "File:Let's start- From Earth to Idol.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Let%27s_start-_From_Earth_to_Idol.jpg",
+  "author": "Pritviswa",
+  "license": "CC BY-SA 4.0"
+ },
+ "ambar-resina": {
+  "label": "Resina de âmbar",
+  "title": "File:Amber Mountain chameleon (Calumma amber) male Montagne d'Ambre 2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Amber_Mountain_chameleon_(Calumma_amber)_male_Montagne_d%27Ambre_2.jpg",
+  "author": "Charles J. Sharp",
+  "license": "CC BY-SA 4.0"
+ },
+ "benjoim": {
+  "label": "Benjoim",
+  "title": "File:Entrada de ninho de Scaptotrigona postica.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Entrada_de_ninho_de_Scaptotrigona_postica.jpg",
+  "author": "Sintropepe",
+  "license": "CC BY-SA 4.0"
+ },
+ "tonka": {
+  "label": "Fava tonka",
+  "title": "File:Tonka Beans.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tonka_Beans.jpg",
+  "author": "Mecredis / Fred Benenson",
+  "license": "CC BY-SA 3.0"
+ },
+ "caramelo": {
+  "label": "Caramelo",
+  "title": "File:DFC 2096 Skewered glazed intestines grilling to a shiny caramelized finish at a street food stall.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:DFC_2096_Skewered_glazed_intestines_grilling_to_a_shiny_caramelized_finish_at_a_street_food_stall.jpg",
+  "author": "PattayaPatrol",
+  "license": "CC BY-SA 4.0"
+ },
+ "chocolate": {
+  "label": "Chocolate",
+  "title": "File:2020-02-23 02 24 15 A Ghirardelli Dark Chocolate Mint Square broken into two pieces in the Parkway Village section of Ewing Township, Mercer County, New Jersey.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2020-02-23_02_24_15_A_Ghirardelli_Dark_Chocolate_Mint_Square_broken_into_two_pieces_in_the_Parkway_Village_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+  "author": "Famartin",
+  "license": "CC BY-SA 4.0"
+ },
+ "cafe": {
+  "label": "Café torrado",
+  "title": "File:Roasted coffee beans.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Roasted_coffee_beans.jpg",
+  "author": "MarkSweep",
+  "license": "Public domain"
+ },
+ "amendoa": {
+  "label": "Amêndoas",
+  "title": "File:Marcona Almonds Close Up (6332260836).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Marcona_Almonds_Close_Up_(6332260836).jpg",
+  "author": "Jonathan Pincas from Leon, Spain",
+  "license": "CC BY 2.0"
+ },
+ "leite": {
+  "label": "Leite / creme",
+  "title": "File:Surrounded, Northwest IA 7-26-13x (10909841215).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Surrounded,_Northwest_IA_7-26-13x_(10909841215).jpg",
+  "author": "inkknife_2000 (7.5 million views +)",
+  "license": "CC BY-SA 2.0"
+ },
+ "biscoito": {
+  "label": "Biscoito / pão",
+  "title": "File:Batch of Belgian biscuits close up.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Batch_of_Belgian_biscuits_close_up.jpg",
+  "author": "DrThneed",
+  "license": "CC BY-SA 4.0"
+ },
+ "algodao-doce": {
+  "label": "Algodão doce",
+  "title": "File:Cotton candy in pastel pink, Shimla India.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cotton_candy_in_pastel_pink,_Shimla_India.jpg",
+  "author": "Sindugab",
+  "license": "CC0"
+ },
+ "rum": {
+  "label": "Rum / licor",
+  "title": "File:CantoJilgero-Ron miel-Nata.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:CantoJilgero-Ron_miel-Nata.JPG",
+  "author": "Tamorlan",
+  "license": "CC BY 3.0"
+ },
+ "couro": {
+  "label": "Couro curtido",
+  "title": "File:Free dirty distressed scratched leather texture for layers creative commons (3005071597).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Free_dirty_distressed_scratched_leather_texture_for_layers_creative_commons_(3005071597).jpg",
+  "author": "Pink Sherbet Photography from USA",
+  "license": "CC BY 2.0"
+ },
+ "fumaca": {
+  "label": "Fogueira / fumaça",
+  "title": "File:Fires and smoke in Tasmania (afternoon overpass) (MODIS 2016-01-28).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fires_and_smoke_in_Tasmania_(afternoon_overpass)_(MODIS_2016-01-28).jpg",
+  "author": "Jeff Schmaltz, MODIS Land Rapid Response Team, NASA GSFC",
+  "license": "Public domain"
+ },
+ "pele-animal": {
+  "label": "Pelo / almíscar animal",
+  "title": "File:Merfeld, Wildpferdefang -- 2014 -- 0639.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Merfeld,_Wildpferdefang_--_2014_--_0639.jpg",
+  "author": "Dietmar Rabich",
+  "license": "CC BY-SA 4.0"
+ },
+ "algodao": {
+  "label": "Algodão branco",
+  "title": "File:ClothPack13.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:ClothPack13.jpg",
+  "author": "SpaceToast",
+  "license": "Public domain"
+ }
+}
