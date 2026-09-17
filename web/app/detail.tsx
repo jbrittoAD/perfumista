@@ -17,8 +17,9 @@
 import { useEffect, useRef, useState } from "react";
 import Photo from "./photo";
 import {
-  KIND_LABEL, SOURCE_LABEL, brl, familyMeta, notesLabel, notesOriginLabel, offerLine,
-  pct, perGram, photoMeta, usefulSynonyms, type Ingredient,
+  KIND_LABEL, SOURCE_LABEL, brl, brlPrecise, dilutionLabel, familyMeta, notesLabel,
+  notesOriginLabel, offerLine, pct, perGram, photoMeta, usefulSynonyms,
+  type Ingredient,
 } from "@/lib/deck";
 
 interface Credit {
@@ -224,10 +225,43 @@ export default function Detail({
               {perGram(card.price.perG)}
               {card.price.min != null && (
                 <span className="ml-2 text-[13px] font-normal text-[var(--muted)]">
-                  menor frasco {brl(card.price.min)}
+                  frasco desde {brl(card.price.min)}
                 </span>
               )}
             </p>
+
+            {card.price.inUse != null && (
+              <p className="mt-1.5 text-[13px] leading-snug text-[var(--fg-dim)]">
+                Na fórmula, à dose típica de {pct(card.dose.mid)}:{" "}
+                <strong className="font-semibold text-[var(--fg)]">
+                  {brlPrecise(card.price.inUse)}
+                </strong>{" "}
+                por grama de concentrado.
+              </p>
+            )}
+
+            {/* As duas armadilhas de comparar R$/g entre materiais diferentes. */}
+            {card.price.isBlend && (
+              <p className="mt-2 rounded-[var(--r-sm)] border border-[var(--border-soft)]
+                            bg-[var(--surface)] p-3 text-[12.5px] leading-relaxed text-[var(--fg-dim)]">
+                <strong className="text-[var(--fg)]">É uma base pronta.</strong> O preço é do
+                acorde inteiro — uma mistura já balanceada, não uma matéria-prima. Não compare o
+                R$/g com o de uma molécula isolada: base entra na fórmula a {pct(card.dose.low)}–
+                {pct(card.dose.high)}, e molécula potente entra em traço. Para comparar, use a
+                linha “na fórmula” acima.
+              </p>
+            )}
+
+            {card.price.dil && (
+              <p className="mt-2 rounded-[var(--r-sm)] border p-3 text-[12.5px] leading-relaxed"
+                 style={{ borderColor: "rgb(217 164 65 / .4)", background: "rgb(217 164 65 / .1)", color: "#f0cd8a" }}>
+                <strong>Vendido diluído a {dilutionLabel(card.price.dil)}.</strong>{" "}
+                {card.price.dil.declared
+                  ? "O preço acima já está convertido para grama de material ativo — no frasco, você leva o diluente junto."
+                  : "O fornecedor declarou a diluição só no nome do produto, não no campo de dados; o app corrigiu o preço para grama de material ativo. Confira no site antes de comprar."}
+              </p>
+            )}
+
             {card.price.offers.length > 0 ? (
               <ul className="mt-3 divide-y divide-[var(--border-soft)] overflow-hidden
                              rounded-[var(--r-sm)] border border-[var(--border-soft)] bg-[var(--surface)]">

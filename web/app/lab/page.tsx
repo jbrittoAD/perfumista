@@ -19,18 +19,19 @@ import Link from "next/link";
 import Detail from "../detail";
 import Photo from "../photo";
 import {
-  FAMILIES, familyMeta, getCard, kindLabel, notesShort, perGram,
+  FAMILIES, brlPrecise, familyMeta, getCard, kindLabel, notesShort, perGram,
   type FamilySlug, type Ingredient,
 } from "@/lib/deck";
 import { clearSwipe, recordSwipe, useDeckState } from "@/lib/deck-store";
 
 type Tab = "like" | "pass";
-type SortKey = "recent" | "price" | "family" | "name";
+type SortKey = "recent" | "price" | "inuse" | "family" | "name";
 
 const SORTS: { key: SortKey; label: string }[] = [
   { key: "recent", label: "Recentes" },
   { key: "family", label: "Família" },
-  { key: "price", label: "Preço" },
+  { key: "price", label: "Preço/g" },
+  { key: "inuse", label: "Custo na fórmula" },
   { key: "name", label: "Nome" },
 ];
 
@@ -80,6 +81,13 @@ export default function Lab() {
         const bv = b.card.price.perG ?? Number.POSITIVE_INFINITY;
         return av - bv;
       }
+      if (sort === "inuse") {
+        // o que o material custa POR GRAMA DE FÓRMULA — comparável entre base
+        // pronta e molécula de traço, ao contrário do preço de frasco
+        const av = a.card.price.inUse ?? Number.POSITIVE_INFINITY;
+        const bv = b.card.price.inUse ?? Number.POSITIVE_INFINITY;
+        return av - bv;
+      }
       const fa = familyMeta(a.card.family).order;
       const fb = familyMeta(b.card.family).order;
       return fa !== fb ? fa - fb : a.card.seq - b.card.seq;
@@ -91,11 +99,13 @@ export default function Lab() {
   const estimate = useMemo(() => {
     let known = 0;
     let missing = 0;
+    let blends = 0;
     for (const { card } of picked) {
       if (card.price.perG != null) known += card.price.perG * 10;
       else missing++;
+      if (card.price.isBlend) blends++;
     }
-    return { known, missing };
+    return { known, missing, blends };
   }, [picked]);
 
   async function copyList() {
@@ -180,6 +190,12 @@ export default function Lab() {
                     ~{estimate.known.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
                   </strong>
                 </span>
+                {estimate.blends > 0 && (
+                  <span className="text-[var(--muted)]">
+                    ({estimate.blends} {estimate.blends > 1 ? "são bases prontas" : "é base pronta"} —
+                    entram na fórmula em dose bem maior)
+                  </span>
+                )}
                 {estimate.missing > 0 && (
                   <span className="text-[var(--muted)]">({estimate.missing} sem preço mapeado)</span>
                 )}
@@ -274,7 +290,15 @@ function Row({
           {card.kind !== "aroma_chemical" && kindLabel(card.kind) && ` · ${kindLabel(card.kind)}`}
           {card.facets.length > 0 && ` · ${card.facets.slice(0, 2).join(", ")}`}
         </p>
-        <p className="mt-0.5 text-[11.5px] text-[var(--fg-dim)]">{perGram(card.price.perG)}</p>
+        <p className="mt-0.5 text-[11.5px] text-[var(--fg-dim)]">
+          {perGram(card.price.perG)}
+          {card.price.inUse != null && (
+            <span className="text-[var(--muted)]">
+              {" · "}
+              {brlPrecise(card.price.inUse)}/g na fórmula
+            </span>
+          )}
+        </p>
       </button>
       <button
         type="button"

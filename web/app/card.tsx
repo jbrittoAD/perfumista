@@ -21,7 +21,8 @@
 
 import Photo from "./photo";
 import {
-  familyMeta, kindLabel, notesShort, pct, perGram, type Ingredient,
+  brlPrecise, dilutionLabel, familyMeta, kindLabel, notesShort, pct, perGram,
+  type Ingredient,
 } from "@/lib/deck";
 
 export default function Card({
@@ -35,6 +36,7 @@ export default function Card({
 }) {
   const fam = familyMeta(card.family);
   const kind = kindLabel(card.kind);
+  const dil = dilutionLabel(card.price.dil);
 
   return (
     <div className="card-shell flex flex-col" style={{ ["--fam" as string]: fam.hex }}>
@@ -57,6 +59,7 @@ export default function Card({
           </Badge>
           <Badge>{notesShort(card.notes)}</Badge>
           {kind && <Badge>{kind}</Badge>}
+          {dil && <Badge warn>{dil}</Badge>}
         </div>
       </div>
 
@@ -116,15 +119,17 @@ export default function Card({
         )}
       </div>
 
-      {/* ---------- preço, sempre visível ---------- */}
-      <div className="shrink-0 border-t border-white/10 px-4 py-2.5">
+      {/* ---------- preço, sempre visível ----------
+          Duas medidas, porque só o R$/g engana: uma base a R$ 0,30/g usada a 15%
+          sai mais cara na fórmula que uma molécula de R$ 500/g usada a 0,1%. */}
+      <div className="shrink-0 border-t border-white/10 px-4 py-2">
         <p className="flex items-baseline gap-2 text-[12.5px]">
           <strong className="text-[15px] font-bold" style={{ color: "var(--fam)" }}>
             {perGram(card.price.perG)}
           </strong>
           {card.price.min != null && (
             <span className="text-[var(--muted)]">
-              menor frasco{" "}
+              frasco desde{" "}
               {card.price.min.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
             </span>
           )}
@@ -132,17 +137,35 @@ export default function Card({
             ℹ ofertas
           </span>
         </p>
+        {card.price.inUse != null && (
+          <p className="mt-0.5 text-[11px] leading-snug text-[var(--fg-dim)]">
+            Na fórmula:{" "}
+            <strong className="font-semibold">{brlPrecise(card.price.inUse)}/g</strong>{" "}
+            <span className="text-[var(--muted)]">
+              a {pct(card.dose.mid)}
+              {card.price.isBlend && " · preço do acorde inteiro, não de uma matéria-prima"}
+            </span>
+          </p>
+        )}
       </div>
     </div>
   );
 }
 
-function Badge({ children, tint = false }: { children: React.ReactNode; tint?: boolean }) {
+function Badge({
+  children, tint = false, warn = false,
+}: { children: React.ReactNode; tint?: boolean; warn?: boolean }) {
   return (
     <span
       className="inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[10.5px] font-semibold backdrop-blur-md"
       style={
-        tint
+        warn
+          ? {
+              background: "rgb(217 164 65 / .22)",
+              color: "#f0cd8a",
+              border: "1px solid rgb(217 164 65 / .5)",
+            }
+          : tint
           ? {
               background: "color-mix(in srgb, var(--fam) 24%, rgb(0 0 0 / .55))",
               color: "color-mix(in srgb, var(--fam) 72%, white)",

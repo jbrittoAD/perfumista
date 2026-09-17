@@ -115,7 +115,8 @@ MARKETING_RE = re.compile(
 # descrição de cheiro, e ler isso na carta é pior que ler a lista de facetas.
 SPECSHEET_MARKERS = re.compile(
     r"(\b\d{2,7}-\d{2}-\d\b|\bFEMA\b|\bvestígios\b|\bponto\s+de\s+fulgor\b"
-    r"|\bsolubilidade\b|\bdensidade\b|\bvalidade\b|\bpureza\s*:|\bíndice\s+de\s+refra)",
+    r"|\bsolubilidade\b|\bdensidade\b|\bvalidade\b|\bpureza\s*:|\bíndice\s+de\s+refra"
+    r"|\bINCI\b|\bNome\s+Qu[íi]mico\b|\bPeso\s+molecular\b|\bN[ºo°]\s*EC\b)",
     re.I)
 
 CSS_MARKERS = re.compile(
@@ -187,12 +188,38 @@ def extract_pairs(raw):
 
 # Gatilho de propaganda: do gatilho até o fim da string, nada mais é informação.
 TAIL_CUT_RE = re.compile(
-    r"\s*(?:Compre\b|Adquira\b|Garanta\b|Pe[çc]a\s+j[áa]\b|Adicione\s+(?:frescor|sofistica|elegância)"
+    r"\s*(?:Informa[çc][õo]es\b|Nome\s+Qu[íi]mico\b|\bINCI\b|Apar[êe]ncia\b|Compre\b|Adquira\b|Garanta\b|Pe[çc]a\s+j[áa]\b|Adicione\s+(?:frescor|sofistica|elegância)"
     r"|Eleve\s+su|Surpreenda\b|Realce\s+su|Transforme\s+su|Confira\b|Aproveite\b"
     r"|Potencialize\b|Experimente\b|Leve\s+j[áa]\b|N[ãa]o\s+perca\b|Encomende\b"
     r"|Escolha\s+a\s+qualidade|D[êe]\s+vida\s+a|Crie\s+fragr[âa]ncias"
     r"|,?\s*ideal\s+para\s+(?:perfumes|perfumaria|cosm[ée]ticos|fragr[âa]ncias|aromatiza)"
     r"|,?\s*perfeito\s+para\s+(?:perfumes|criar|suas)).*$", re.I | re.S)
+
+
+def dedupe_sentences(text):
+    """Remove a frase que só repete a vizinha.
+
+    Vem de descrição rotulada ("Nota olfativa: Frutado  Odor: Frutado, Cítrico"):
+    tirados os rótulos, sobra o mesmo descritor duas vezes.
+    """
+    parts = [p.strip() for p in re.split(r"(?<=[.!?])\s+", text) if p.strip()]
+    out = []
+    for part in parts:
+        key = norm(part).strip(" .,;")
+        redundant = False
+        for kept in out:
+            k = norm(kept).strip(" .,;")
+            if key and (key in k or k in key):
+                redundant = True
+                # fica com a versão mais informativa das duas
+                if len(key) > len(k):
+                    out[out.index(kept)] = part
+                break
+        if not redundant:
+            out.append(part)
+    text = " ".join(out)
+    # "verde verde", "doce doce" coladas pela mesma causa
+    return re.sub(r"\b(\w{3,})(\s+\1\b)+", r"\1", text, flags=re.I)
 
 
 def drop_marketing(text):
@@ -217,9 +244,18 @@ def clean_desc(raw, name="", strict=True):
     if not raw:
         return None
     s = strip_css(str(raw))
-    m = ODOR_SEG_RE.search(s)
-    if m and len(m.group(1).strip()) > 20:
-        s = m.group(1)
+    # Os fornecedores usam duas diagramações opostas. Numa, a prosa vem DEPOIS do
+    # rótulo ("Odor: cítrico, ceroso…"). Na outra, a prosa vem ANTES e o rótulo é
+    # só um resumo no rodapé ("Este é um acorde cítrico que evoca casca de
+    # tangerina… Nota olfativa: Cítrico"). Pegar sempre o trecho de depois jogava
+    # fora a descrição boa do segundo caso — então ganha o lado mais substancial.
+    # Só na EXIBIÇÃO é preciso escolher um lado; para minerar faceta o texto
+    # inteiro vale mais (descritor pode estar dos dois lados do rótulo).
+    m = ODOR_SEG_RE.search(s) if strict else None
+    if m:
+        before = s[: m.start()].strip()
+        after = m.group(1).strip()
+        s = before if len(before) >= 60 else (after if len(after) > 12 else s)
     s = PAIRS_RE.sub(" ", s)
     for rx in JUNK_RE:
         s = rx.sub(" ", s)
@@ -229,8 +265,9 @@ def clean_desc(raw, name="", strict=True):
     # separa as frases ANTES de podar propaganda: assim "Compre agora!" vira uma
     # frase própria e cai inteira, em vez de ficar pendurada na descrição.
     s = split_runon(s, name)
+    s = dedupe_sentences(s)
     s = drop_marketing(s)
-    if len(s) < 18 or CSS_MARKERS.search(s):
+    if len(s) < 10 or len(s.split()) < 2 or CSS_MARKERS.search(s):
         return None
     if strict and SPECSHEET_MARKERS.search(s):
         return None
@@ -240,7 +277,7 @@ def clean_desc(raw, name="", strict=True):
         mm = list(re.finditer(r"[.!?](?:\s|$)", cut))
         s = cut[: mm[-1].end()].strip() if mm else cut.rsplit(" ", 1)[0] + "…"
     s = s.strip(" -–—•;:,")
-    if len(s) < 18:
+    if len(s) < 10 or len(s.split()) < 2:
         return None
     if s and s[-1] not in ".!?…":
         s += "."
@@ -625,6 +662,72 @@ def perception(m, family, dose):
 
 
 # ---------------------------------------------------------------------------
+# Diluição e custo real
+# ---------------------------------------------------------------------------
+# O pipeline já divide o preço pela diluição QUANDO ela vem no campo `dilution`
+# da oferta — mas isso só acontece em 33 das ~1400 ofertas. Quando o fornecedor
+# escreve a diluição só no nome ("AMBER XTREME 10% EM DPG", "LABIENOXIME
+# 10%/IPM-TEC"), o preço por grama fica o do produto diluído e o material parece
+# até 10× mais barato do que é. Aqui a diluição é lida do texto e o preço passa
+# a ser do MATERIAL ATIVO.
+DILUTION_RE = re.compile(
+    r"(\d{1,3}(?:[.,]\d+)?)\s*%\s*(?:em\s+|in\s+|/)?\s*"
+    r"(dpg|dep|ipm|tec|mct|mip|citr|dowanol|bb|etanol|[áa]lcool|alcohol|"
+    r"benzyl\s*benzoate|dipropileno|triacetina)?", re.I)
+
+SOLVENT_LABEL = {
+    "DPG": "DPG", "DEP": "DEP", "IPM": "IPM", "TEC": "TEC", "MCT": "MCT",
+    "MIP": "MIP", "CITR": "citrato", "DOWANOL": "Dowanol", "BB": "benzoato de benzila",
+    "ETANOL": "etanol", "ALCOOL": "álcool", "ALCOHOL": "álcool",
+    "DIPROPILENO": "DPG", "TRIACETINA": "triacetina",
+}
+
+
+def detect_dilution(m):
+    """→ {pct, solvent, declared} ou None.
+
+    Percentual >= 95 é PUREZA ("Eucaliptol 99%"), não diluição — e solvente pode
+    trazer o próprio nome com % sem estar diluído.
+    """
+    if m.get("material_kind") == "solvent":
+        return None
+
+    for o in m.get("offers") or []:
+        if o.get("dilution"):
+            mt = DILUTION_RE.search(str(o["dilution"]))
+            if mt:
+                pct = float(mt.group(1).replace(",", "."))
+                if 0 < pct < 95:
+                    sol = (mt.group(2) or "").upper()
+                    return {"pct": pct, "solvent": SOLVENT_LABEL.get(sol), "declared": True}
+
+    texts = [m.get("name_canonical") or ""]
+    texts += [o.get("product_name") or "" for o in (m.get("offers") or [])]
+    for t in texts:
+        mt = DILUTION_RE.search(t)
+        if not mt:
+            continue
+        pct = float(mt.group(1).replace(",", "."))
+        if not (0 < pct < 95):
+            continue
+        sol = (mt.group(2) or "").upper()
+        return {"pct": pct, "solvent": SOLVENT_LABEL.get(sol), "declared": False}
+    return None
+
+
+def cost_in_use(per_g, dose_mid):
+    """R$ por grama de CONCENTRADO na dose típica.
+
+    É o número que torna base pronta e molécula potente comparáveis: um material
+    de R$ 500/g usado a 0,1% custa menos na fórmula que uma base de R$ 0,30/g
+    usada a 15%. Comparar R$/g de frasco entre os dois não diz nada.
+    """
+    if per_g is None or not dose_mid:
+        return None
+    return round(per_g * dose_mid / 100, 4)
+
+
+# ---------------------------------------------------------------------------
 # Foto
 # ---------------------------------------------------------------------------
 PHOTO_RE = [(p, [_key_regex(k) for k in p["kw"]]) for p in PHOTO_KEYS]
@@ -920,7 +1023,12 @@ def main():
             key=lambda o: (o.get("price_per_g") or 1e9, o.get("price") or 1e9),
         )[:6]
 
+        dil = detect_dilution(m)
         ppg = m.get("min_price_per_g")
+        # Diluição não declarada no campo → o preço do banco é do produto, não do
+        # ativo. Corrige aqui para o número da carta ser o do material de verdade.
+        if ppg and dil and not dil["declared"]:
+            ppg = ppg / (dil["pct"] / 100)
         cards.append({
             "id": m["id"],
             "name": name,
@@ -947,6 +1055,12 @@ def main():
                 "min": m.get("min_price"),
                 "source": m.get("cheapest_source"),
                 "count": m.get("offer_count") or 0,
+                "dil": dil,
+                # custo por grama de fórmula na dose média — comparável entre
+                # base pronta e molécula potente, ao contrário do R$/g de frasco
+                "inUse": cost_in_use(ppg, dose[1]),
+                # base é MISTURA: o R$/g é do acorde inteiro, não de um material
+                "isBlend": m.get("material_kind") == "base",
                 "offers": [{
                     "s": o.get("source"), "url": o.get("source_url"),
                     "size": o.get("size_value"), "unit": o.get("size_unit"),

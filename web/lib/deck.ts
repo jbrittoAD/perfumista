@@ -63,10 +63,17 @@ export interface Ingredient {
   perception: PerceptionBand[];
   photo: string;
   price: {
+    /** R$ por grama do MATERIAL ATIVO (já descontada a diluição detectada). */
     perG: number | null;
     min: number | null;
     source: string | null;
     count: number;
+    /** Diluição do produto vendido, quando existe. */
+    dil: { pct: number; solvent: string | null; declared: boolean } | null;
+    /** R$ por grama de concentrado na dose típica — o número comparável. */
+    inUse: number | null;
+    /** Base pronta: o preço é do acorde inteiro, não de uma matéria-prima. */
+    isBlend: boolean;
     offers: Offer[];
   };
   tech: {
@@ -287,6 +294,31 @@ export function usefulSynonyms(c: Ingredient): string[] {
     const n = s.toLowerCase().replace(/[^a-z0-9]+/g, "");
     return n.length > 2 && !n.startsWith(base) && !base.startsWith(n);
   });
+}
+
+/** "10% em DPG" / "1% em DPG (declarado)". */
+export function dilutionLabel(dil: Ingredient["price"]["dil"]): string | null {
+  if (!dil) return null;
+  const pct = dil.pct % 1 === 0 ? String(dil.pct) : String(dil.pct).replace(".", ",");
+  return dil.solvent ? `${pct}% em ${dil.solvent}` : `${pct}% diluído`;
+}
+
+/**
+ * Dinheiro com casas suficientes para material potente não virar "R$ 0,00".
+ * Material de traço custa centavos de centavo por grama de fórmula.
+ */
+export function brlPrecise(v: number | null | undefined): string {
+  if (v == null || !Number.isFinite(v)) return "—";
+  if (v >= 1) return `R$ ${v.toFixed(2).replace(".", ",")}`;
+  if (v >= 0.01) return `R$ ${v.toFixed(3).replace(".", ",")}`;
+  if (v >= 0.0001) return `R$ ${v.toFixed(4).replace(".", ",")}`;
+  return "R$ <0,0001";
+}
+
+/** A linha que torna base pronta e molécula potente comparáveis. */
+export function inUseLine(c: Ingredient): string | null {
+  if (c.price.inUse == null) return null;
+  return `${brlPrecise(c.price.inUse)}/g de fórmula na dose típica (${pct(c.dose.mid)})`;
 }
 
 export function offerLine(o: Offer): string {
