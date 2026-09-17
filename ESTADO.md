@@ -8,9 +8,13 @@ químicos aromáticos, marca o que quer na paleta, e simula acordes com o que ma
 > tag git `v1-classico` e cópia em `_backup/web-classico-2026-09-17/`. Ver "Voltar atrás".
 
 ## 🌐 No ar (produção)
-- **Principal:** https://perfumista-app.vercel.app (Vercel, conta `jbrittoad`, projeto `perfumista`;
-  aliases: perfumista-app / perfumaria-app / perfumista-diy)
-- **Backup:** https://jbrittoad.github.io/perfumista/ (GitHub Pages, branch `gh-pages`)
+- **Com o app de swipe (17/09/2026):** https://jbrittoad.github.io/perfumista/
+  (GitHub Pages, branch `gh-pages`, conta `jbrittoAD` do `gh`).
+- **Ainda com o app clássico:** https://perfumista-app.vercel.app — o CLI da Vercel
+  neste Mac está logado na conta do TRABALHO (Kyte), não na `jbrittoad` dona do
+  projeto, então o deploy falha com "Could not retrieve Project Settings".
+  Para atualizar: `vercel logout && vercel login` (conta pessoal) e então o fluxo
+  de redeploy abaixo.
 - **Instalar:** Android Chrome → ⋮ → "Instalar app". iOS Safari → Compartilhar → Adicionar à
   Tela de Início. NÃO usar o navegador in-app do WhatsApp/IG.
 
