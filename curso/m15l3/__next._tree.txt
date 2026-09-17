@@ -1,2 +1,0 @@
-:HL["/perfumista/_next/static/chunks/2nm240a4v-x70.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"curso","param":null,"prefetchHints":0,"slots":{"children":{"name":"lessonId","param":{"type":"d","key":"m15l3","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"DkqEhuWB3UGQ0gn_mitZr"}

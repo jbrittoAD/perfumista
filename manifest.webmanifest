@@ -1,31 +1,22 @@
 {
-  "name": "Perfumista — Perfumaria",
+  "name": "Perfumista — Deck de Matérias-Primas",
   "short_name": "Perfumista",
-  "start_url": "./hoje",
+  "description": "Descubra químicos aromáticos no swipe, monte sua paleta e simule acordes.",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "orientation": "any",
-  "background_color": "#0b0b0d",
-  "theme_color": "#0b0b0d",
+  "orientation": "portrait",
+  "background_color": "#08080a",
+  "theme_color": "#08080a",
   "lang": "pt-BR",
+  "categories": ["education", "lifestyle"],
   "icons": [
-    {
-      "src": "icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-maskable-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Meu Laboratório", "url": "./lab" },
+    { "name": "Fórmulas", "url": "./formulas" }
   ]
 }

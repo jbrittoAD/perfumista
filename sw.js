@@ -14,7 +14,7 @@
  * O cache é VERSIONADO: bump CACHE_VERSION a cada deploy para invalidar o antigo.
  */
 
-const CACHE_VERSION = "perfumista-v3";
+const CACHE_VERSION = "perfumista-deck-v1";
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 // URLs BASE-RELATIVAS: resolvem contra a URL do próprio SW (${base}/sw.js), então
@@ -23,15 +23,10 @@ const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 // na 1ª abertura. Os chunks/JS de cada tela entram via runtime (stale-while-revalidate).
 const PRECACHE_URLS = [
   "./",
-  "./hoje",
-  "./curso",
-  "./direto",
-  "./reverso",
+  "./lab",
   "./formulas",
-  "./combinacoes",
-  "./metodo",
-  "./revisar",
   "./manifest.webmanifest",
+  "./photos/credits.json",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./icons/icon-maskable-512.png",
