@@ -465,9 +465,18 @@ def perception(m, family, dose):
 # ---------------------------------------------------------------------------
 PHOTO_RE = [(p, [_key_regex(k) for k in p["kw"]]) for p in PHOTO_KEYS]
 
+# Baldes genéricos: casam com descritor amplo ("verde", "floral", "amadeirado")
+# e, somando sinônimos, venciam a chave específica — "abacaxi, banana, verde"
+# caía em folhagem em vez de abacaxi. Eles só levam quando nada específico bate.
+GENERIC_PHOTOS = {
+    "hera", "flor-generica", "madeira-seca", "especiarias", "frutas-tropicais",
+    "laboratorio", "terra",
+}
+GENERIC_PENALTY = 0.55
+
 
 def pick_photo(hay_strong, hay_weak, family):
-    best, best_score = None, 0
+    best, best_score = None, 0.0
     for p, rxs in PHOTO_RE:
         score = 0
         for rx in rxs:
@@ -475,8 +484,11 @@ def pick_photo(hay_strong, hay_weak, family):
                 score += 3
             elif rx.search(hay_weak):
                 score += 1
-        if score > best_score:
-            best, best_score = p["id"], score
+        if not score:
+            continue
+        weighted = score * (GENERIC_PENALTY if p["id"] in GENERIC_PHOTOS else 1.0)
+        if weighted > best_score:
+            best, best_score = p["id"], weighted
     return best or FAMILY_PHOTO.get(family, "laboratorio")
 
 

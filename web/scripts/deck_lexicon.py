@@ -209,6 +209,22 @@ LEX = {
 # kw       : termos que fazem a carta cair nessa foto (peso 3 = específico)
 P = lambda i, l, e, g, q, kw: dict(id=i, label=l, emoji=e, grad=g, q=q, kw=kw)
 
+# Chaves em que a BUSCA do Commons não achou o objeto (devolvia topônimo,
+# gravura ou nada). Aqui o arquivo é fixado à mão, conferido um por um.
+PINNED_FILES = {
+    "ambar-resina": "File:Pinus succinifera amber.jpg",
+    "madeira-seca": "File:Wood texture.jpg",
+    "lencol": "File:Laundry drying.jpg",
+    "cereja": "File:Cherry Stella444.jpg",
+    "acafrao": "File:Safran.jpg",
+    "oud": "File:Infected Agarwood Aquilaria Malaysia IMG20250930113751.jpg",
+    "mel": "File:Abeille dans du miel - 01.jpg",
+    "baunilha": "File:Gousses de vanille sèches.jpg",
+    "eucalipto": "File:Budderoo NP Eucalyptus globulus at Jamberoo Lookout.jpg",
+    "camomila": "File:(Manzanilla) American English Chamomile or camomile.JPG",
+    "hera": "File:Wooded glade with ivy.jpg",
+}
+
 PHOTO_KEYS = [
     # ---- cítricos
     P("limao", "Limão siciliano", "🍋", ["#f6e27a", "#7a6a12"], "lemon fruit close up", ["limao", "lemon", "citral", "limonene"]),
@@ -318,8 +334,12 @@ PHOTO_KEYS = [
     P("po-arroz", "Pó de arroz", "🤍", ["#e6ddd2", "#443c33"], "face powder cosmetic compact", ["powdery", "empoado", "atalcad", "talco"]),
     # ---- técnico
     P("frasco", "Frasco de laboratório", "⚗️", ["#b9c4cc", "#2b3238"], "laboratory glass bottles chemistry", ["solvent", "solvente", "dpg", "ipm", "dietil ftalato", "diluente", "alcohol", "carrier"]),
-    P("laboratorio", "Bancada de perfumista", "🧪", ["#c2b49a", "#302a20"], "perfumery workbench bottles", ["base", "reconstitution", "reconstituicao", "acorde"]),
+    P("laboratorio", "Bancada de perfumista", "🧪", ["#c2b49a", "#302a20"], "perfumery workbench bottles", ["reconstitution", "reconstituicao", "organ de parfum"]),
 ]
+
+for _p in PHOTO_KEYS:
+    if _p["id"] in PINNED_FILES:
+        _p["file"] = PINNED_FILES[_p["id"]]
 
 PHOTO_BY_ID = {p["id"]: p for p in PHOTO_KEYS}
 

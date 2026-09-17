@@ -137,6 +137,27 @@ def pick(pages, must=()):
     return None
 
 
+def by_title(title):
+    """Busca UM arquivo pelo título exato — usado quando a chave tem `file`
+    fixado em deck_lexicon (escolha manual, porque a busca não achava nada bom)."""
+    data = api_get({
+        "action": "query", "titles": title, "prop": "imageinfo",
+        "iiprop": "url|size|mime|extmetadata", "iiurlwidth": 1400,
+        "format": "json", "formatversion": 2,
+    })
+    for page in data.get("query", {}).get("pages", []):
+        ii = (page.get("imageinfo") or [{}])[0]
+        if not ii.get("thumburl") and not ii.get("url"):
+            continue
+        meta = ii.get("extmetadata") or {}
+        return {
+            "title": page.get("title"), "url": ii.get("thumburl") or ii.get("url"),
+            "page": ii.get("descriptionurl"),
+            "author": plain(meta, "Artist"), "license": plain(meta, "LicenseShortName"),
+        }
+    return None
+
+
 def download(url):
     return _open(url, timeout=60)
 
@@ -229,9 +250,12 @@ def main():
             skip += 1
             continue
         try:
-            must = must_tokens(p["q"], p["label"])
-            hit = pick(search(p["q"], limit=24), must)
-            if not hit:
+            if p.get("file"):
+                hit = by_title(p["file"])
+            else:
+                must = must_tokens(p["q"], p["label"])
+                hit = pick(search(p["q"], limit=24), must)
+            if not hit and not p.get("file"):
                 # 2ª tentativa amplia a busca, mas NUNCA relaxa o filtro de título:
                 # foto errada é pior que sem foto — sem foto o app cai no gradiente
                 # curado da chave, que pelo menos não mente sobre o cheiro.
