@@ -25,7 +25,7 @@ export default function Card({
 
   return (
     <div className="card-shell" style={{ ["--fam" as string]: fam.hex }}>
-      <Photo photoKey={card.photo} eager={eager} />
+      <Photo photoKey={card.photo} seed={card.id} eager={eager} />
       <div className="card-scrim absolute inset-0" />
 
       {dimmed && <div className="absolute inset-0 bg-black/45" />}

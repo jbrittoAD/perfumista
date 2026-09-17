@@ -27,9 +27,9 @@ type Tab = "like" | "pass";
 type SortKey = "recent" | "price" | "family" | "name";
 
 const SORTS: { key: SortKey; label: string }[] = [
-  { key: "recent", label: "Mais recentes" },
+  { key: "recent", label: "Recentes" },
   { key: "family", label: "Família" },
-  { key: "price", label: "Mais barato" },
+  { key: "price", label: "Preço" },
   { key: "name", label: "Nome" },
 ];
 
@@ -263,7 +263,7 @@ function Row({
         className="relative h-14 w-14 shrink-0 overflow-hidden rounded-[var(--r-sm)]"
         aria-label={`Abrir ficha de ${card.name}`}
       >
-        <Photo photoKey={card.photo} />
+        <Photo photoKey={card.photo} seed={card.id} />
       </button>
       <button type="button" onClick={onOpen} className="min-w-0 flex-1 text-left">
         <p className="truncate text-[14px] font-semibold leading-tight">{card.name}</p>

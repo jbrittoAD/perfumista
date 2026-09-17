@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Tabs from "./tabs";
+import { TOTAL } from "@/lib/deck";
 import SwRegister from "./sw-register";
 import InstallPrompt from "./install-prompt";
 
@@ -18,8 +19,9 @@ const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export const metadata: Metadata = {
   title: "Perfumista — Deck de Matérias-Primas",
+  // O número sai do próprio deck para a descrição não envelhecer a cada rebuild.
   description:
-    "Descubra químicos aromáticos no swipe, monte sua paleta e simule acordes. 590 matérias-primas com preço no Brasil.",
+    `Descubra químicos aromáticos no swipe, monte sua paleta e simule acordes. ${TOTAL} matérias-primas com preço no Brasil.`,
   applicationName: "Perfumista",
   manifest: `${BASE}/manifest.webmanifest`,
   appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "Perfumista" },

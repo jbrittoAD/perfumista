@@ -176,7 +176,7 @@ export default function Formulas() {
                     return (
                       <li key={r.card.id} className="panel flex items-center gap-3 p-2.5">
                         <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-[var(--r-sm)]">
-                          <Photo photoKey={r.card.photo} />
+                          <Photo photoKey={r.card.photo} seed={r.card.id} />
                         </div>
                         <div className="min-w-0 flex-1">
                           <p className="truncate text-[13.5px] font-semibold leading-tight">{r.card.name}</p>
@@ -275,7 +275,7 @@ export default function Formulas() {
                         className="panel flex w-full items-center gap-3 p-2 text-left"
                       >
                         <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-[var(--r-sm)]">
-                          <Photo photoKey={c.photo} />
+                          <Photo photoKey={c.photo} seed={c.id} />
                         </div>
                         <span className="min-w-0 flex-1">
                           <span className="block truncate text-[13.5px] font-medium">{c.name}</span>
@@ -350,9 +350,11 @@ function Result({ prediction, rows, total }: { prediction: Prediction; rows: Row
                 {noteLabel(slot)}
               </p>
               <p className="text-[12.5px] leading-snug text-[var(--fg-dim)]">
-                {/* O motor decompõe óleo essencial em vários sub-hits com o mesmo
-                    nome de origem; repetir isso na tela só polui. */}
-                {[...new Set(hits.map((h) => h.material))].slice(0, 5).join(" · ")}
+                {/* O motor decompõe óleo essencial em sub-notas rotuladas
+                    "Óleo · descritor". Na tela interessa o material, uma vez só. */}
+                {[...new Set(hits.map((h) => h.material.split(" · ")[0]))]
+                  .slice(0, 5)
+                  .join(" · ")}
               </p>
             </div>
           );

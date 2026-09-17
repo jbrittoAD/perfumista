@@ -59,10 +59,12 @@ def must_tokens(query, label):
     ele o Commons devolve, para 'cedar wood', a vista aérea de uma serraria; para
     'violet flowers', um lagarto pousado numa flor roxa.
     """
+    # SÓ os termos da consulta (inglês/latim). O rótulo em português entrava aqui
+    # e casava topônimo: "Madeira seca" aceitou "Rio Madeira em Época de Seca",
+    # "Oud" aceitou uma ponte em Oud-Zevenaar.
     words = [w.strip('"').lower() for w in query.split()]
     toks = [w for w in words if len(w) > 3 and w not in STOP]
-    toks += [w.lower() for w in label.replace("/", " ").split() if len(w) > 3]
-    return toks or words
+    return toks or [w for w in words if len(w) > 2]
 
 
 def _open(url, timeout=40):
@@ -159,6 +161,50 @@ def to_card(raw):
     return buf.getvalue()
 
 
+def fetch_variants(spec, credits):
+    """Baixa fotos ALTERNATIVAS para as chaves que muitas cartas compartilham.
+
+    Chaves genéricas ("folhagem verde", "madeira seca") pegam dezenas de cartas.
+    Com uma foto só, o usuário vê a mesma imagem 50 vezes seguidas e o deck perde
+    a graça. Cada variante extra vira <chave>-2.webp, <chave>-3.webp… e o app
+    escolhe uma por id de carta.
+    """
+    ok = 0
+    for item in spec.split(","):
+        key, _, n = item.partition(":")
+        n = int(n or 2)
+        photo = PHOTO_BY_ID.get(key)
+        if not photo:
+            print(f"✗ chave desconhecida: {key}")
+            continue
+        pages = search(photo["q"], limit=24)
+        must = must_tokens(photo["q"], photo["label"])
+        used = {credits.get(key, {}).get("title")}
+        slot = 2
+        for page in sorted(pages, key=lambda x: x.get("index", 99)):
+            if slot > n + 1:
+                break
+            hit = pick([page], must)
+            if not hit or hit["title"] in used:
+                continue
+            dest = OUTDIR / f"{key}-{slot}.webp"
+            try:
+                dest.write_bytes(to_card(download(hit["url"])))
+            except Exception as e:
+                print(f"✗ {key}-{slot}: {type(e).__name__}")
+                continue
+            credits[f"{key}-{slot}"] = {
+                "label": photo["label"], "title": hit["title"], "page": hit["page"],
+                "author": hit["author"], "license": hit["license"],
+            }
+            used.add(hit["title"])
+            print(f"✓ {key}-{slot:<2} {dest.stat().st_size//1024:>3} KB  {hit['title'][:56]}")
+            ok += 1
+            slot += 1
+            time.sleep(2.0)
+    return ok
+
+
 def main():
     args = sys.argv[1:]
     force = "--force" in args
@@ -169,6 +215,12 @@ def main():
     OUTDIR.mkdir(parents=True, exist_ok=True)
     credits = json.loads(CREDITS.read_text(encoding="utf-8")) if CREDITS.exists() else {}
 
+    if "--variants" in args:
+        n = fetch_variants(args[args.index("--variants") + 1], credits)
+        CREDITS.write_text(json.dumps(credits, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"\n{n} variantes baixadas")
+        return
+
     todo = [p for p in PHOTO_KEYS if (only is None or p["id"] in only)]
     ok = skip = fail = 0
     for i, p in enumerate(todo, 1):
@@ -178,11 +230,12 @@ def main():
             continue
         try:
             must = must_tokens(p["q"], p["label"])
-            hit = pick(search(p["q"], limit=14), must)
-            if not hit:  # 2ª tentativa: mesma busca, sem exigir o termo no título
-                hit = pick(search(p["q"], limit=14))
+            hit = pick(search(p["q"], limit=24), must)
             if not hit:
-                hit = pick(search(p["label"], limit=10))
+                # 2ª tentativa amplia a busca, mas NUNCA relaxa o filtro de título:
+                # foto errada é pior que sem foto — sem foto o app cai no gradiente
+                # curado da chave, que pelo menos não mente sobre o cheiro.
+                hit = pick(search(" ".join(must), limit=24), must)
             if not hit:
                 print(f"[{i}/{len(todo)}] ✗ {p['id']}: nenhuma foto passou nos filtros")
                 fail += 1
@@ -198,7 +251,7 @@ def main():
         except Exception as e:  # rede/imagem quebrada não pode derrubar o lote
             print(f"[{i}/{len(todo)}] ✗ {p['id']}: {type(e).__name__} {e}")
             fail += 1
-        time.sleep(3.0)  # educação com a API do Commons
+        time.sleep(5.0)  # educação com a API do Commons
 
     CREDITS.write_text(json.dumps(credits, ensure_ascii=False, indent=1), encoding="utf-8")
     total = sum(f.stat().st_size for f in OUTDIR.glob("*.webp"))

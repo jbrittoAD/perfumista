@@ -89,6 +89,8 @@ export interface PhotoMeta {
   label: string;
   emoji: string;
   grad: [string, string];
+  /** Quantos arquivos existem para essa chave (base + variantes). 0 = sem foto. */
+  n: number;
 }
 
 interface DeckFile {
@@ -132,13 +134,24 @@ export function familyMeta(slug: FamilySlug): FamilyMeta {
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
-/** Caminho da foto do objeto que o cheiro evoca (respeita o basePath do deploy). */
-export function photoSrc(key: string): string {
+/**
+ * Caminho da foto do objeto que o cheiro evoca (respeita o basePath do deploy).
+ *
+ * Chaves genéricas são compartilhadas por dezenas de cartas; quando há variantes
+ * baixadas, `seed` (o id da carta) escolhe uma de forma determinística — a mesma
+ * carta mostra sempre a mesma foto, mas o deck deixa de repetir a imagem.
+ */
+export function photoSrc(key: string, seed = 0): string {
+  const n = PHOTOS[key]?.n ?? 1;
+  if (n > 1) {
+    const pick = ((seed % n) + n) % n;
+    if (pick > 0) return `${BASE}/photos/${key}-${pick + 1}.webp`;
+  }
   return `${BASE}/photos/${key}.webp`;
 }
 
 export function photoMeta(key: string): PhotoMeta {
-  return PHOTOS[key] ?? { label: "", emoji: "🧪", grad: ["#4a4a55", "#1a1a20"] };
+  return PHOTOS[key] ?? { label: "", emoji: "🧪", grad: ["#4a4a55", "#1a1a20"], n: 0 };
 }
 
 export const NOTE_LABEL: Record<string, string> = {
@@ -188,16 +201,26 @@ export function priceLine(c: Ingredient): string {
   return parts.join(" · ") + where;
 }
 
-/** O motor devolve a família no slug canônico (EN). Aqui ela vira o rótulo PT. */
+/**
+ * O motor trabalha com 16 famílias canônicas próprias (accords.ts), em slug e
+ * parte em inglês. Aqui viram os rótulos PT que o resto do app usa — inclusive
+ * chypre e fougère, que são do motor e não existem como família do baralho.
+ */
+const ENGINE_FAMILY_PT: Record<string, string> = {
+  citrus: "Cítrica", aldeidico: "Aldeídica", verde: "Verde",
+  aromatico: "Aromática / Herbal", aquatico: "Aquática", frutado: "Frutada",
+  floral: "Floral", especiado: "Especiaria", woody: "Amadeirada",
+  amber: "Âmbar / Oriental", gourmand: "Gourmand", leather: "Couro",
+  animalico: "Animálica", musk: "Almíscar", chypre: "Chipre", fougere: "Fougère",
+};
+
 export function familyLabelFromEngine(raw: string): string {
-  const hit = FAMILIES.find((f) => f.slug === raw.toLowerCase());
-  if (hit) return hit.label;
-  const alias: Record<string, string> = {
-    aldeidico: "Aldeídica", citrico: "Cítrica", amadeirado: "Amadeirada",
-    ambar: "Âmbar / Oriental", almiscar: "Almíscar", especiaria: "Especiaria",
-  };
   const k = raw.toLowerCase();
-  return alias[k] ?? raw.charAt(0).toUpperCase() + raw.slice(1);
+  return (
+    ENGINE_FAMILY_PT[k] ??
+    FAMILIES.find((f) => f.slug === k)?.label ??
+    raw.charAt(0).toUpperCase() + raw.slice(1)
+  );
 }
 
 /** Número em pt-BR com no máximo 1 casa (2.5 → "2,5"). */

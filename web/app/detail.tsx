@@ -108,7 +108,7 @@ export default function Detail({
       >
         {/* cabeçalho com a foto */}
         <header className="relative h-60 overflow-hidden rounded-t-[1.75rem]">
-          <Photo photoKey={card.photo} eager />
+          <Photo photoKey={card.photo} seed={card.id} eager />
           <div className="card-scrim absolute inset-0" />
           <button
             type="button"

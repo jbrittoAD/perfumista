@@ -558,7 +558,8 @@ NOT_A_MATERIAL_RE = re.compile(
     r"\b(pipeta|frasco|proveta|b[eé]quer|becker|balan[çc]a|esp[áa]tula|fita\s+olfativa"
     r"|tira\s+de\s+teste|seringa|etiqueta|embalagem|r[óo]tulo|luva|almofariz|funil"
     r"|conta-gotas|gotejador|v[áa]lvula|borrifador|atomizador|bast[ãa]o|kit\s+\d"
-    r"|estojo|vareta|difusor\s+de\s+vareta)\b", re.I)
+    r"|estojo|vareta|difusor\s+de\s+vareta|painel\s+olfativo|tira\s+olfativa"
+    r"|blotter|kit\s+de\s+estudo)\b", re.I)
 
 
 def clean_name(raw):
@@ -576,8 +577,15 @@ def clean_name(raw):
                 if len(head) >= 8:
                     s = head
                     break
-    if len(s) > 58:
-        s = s[:56].rsplit(" ", 1)[0] + "…"
+    # As "bases BS" vêm com o nome seguido de adjetivo de vitrine
+    # ("... Floral Elegante para Perfumaria e Cosméticos"). Corta ali.
+    s = re.sub(
+        r"\s+(?:para\s+(?:perfumaria|perfumes|cosm[ée]ticos)|"
+        r"(?:intensa?|elegante|sofisticad[ao]|marcante|vibrante|exclusiv[ao]|premium|"
+        r"cremos[ao]|natural|puro)\b.*)$",
+        "", s, flags=re.I)
+    if len(s) > 52:
+        s = s[:50].rsplit(" ", 1)[0] + "…"
     s = balance_parens(s)
     return s.strip(" ,;–—-")
 
@@ -663,7 +671,7 @@ def revote_family(current, facets):
     ranked = sorted(votes.items(), key=lambda kv: -kv[1])
     top, top_v = ranked[0]
     second_v = ranked[1][1] if len(ranked) > 1 else 0
-    if top_v >= 3 and top_v >= second_v * 2:
+    if top_v >= 3 and top_v > second_v:
         return top, True
     return current, False
 
@@ -804,8 +812,19 @@ def main():
     for c in ordered:
         c.pop("_offers_n", None)
 
-    photos = {p["id"]: {"label": p["label"], "emoji": p["emoji"], "grad": p["grad"]}
-              for p in PHOTO_KEYS}
+    # Quantos arquivos existem por chave (base + variantes). O app usa isso para
+    # alternar a imagem entre cartas que caem na mesma chave.
+    photo_dir = ROOT / "public" / "photos"
+    photos = {}
+    for p in PHOTO_KEYS:
+        n = 0
+        if (photo_dir / f"{p['id']}.webp").exists():
+            n = 1
+            while (photo_dir / f"{p['id']}-{n + 1}.webp").exists():
+                n += 1
+        photos[p["id"]] = {
+            "label": p["label"], "emoji": p["emoji"], "grad": p["grad"], "n": n,
+        }
 
     deck = {
         "version": 1,

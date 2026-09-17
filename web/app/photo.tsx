@@ -18,10 +18,13 @@ import { photoMeta, photoSrc } from "@/lib/deck";
 
 export default function Photo({
   photoKey,
+  seed = 0,
   eager = false,
   className = "",
 }: {
   photoKey: string;
+  /** Id da carta: escolhe a variante quando a chave tem mais de uma foto. */
+  seed?: number;
   eager?: boolean;
   className?: string;
 }) {
@@ -35,7 +38,7 @@ export default function Photo({
     >
       {!failed && (
         <img
-          src={photoSrc(photoKey)}
+          src={photoSrc(photoKey, seed)}
           alt={meta.label}
           draggable={false}
           loading={eager ? "eager" : "lazy"}
