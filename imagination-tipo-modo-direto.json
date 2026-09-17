@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Imagination (tipo) — com Neroli Artessence",
+    "items": [
+      {
+        "materialId": 20,
+        "name": "Acetato de Linalila",
+        "grams": 1.03,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 216,
+        "name": "ÓLEO ESSENCIAL DE BERGAMOTA",
+        "grams": 0.76,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 7,
+        "name": "Linalol",
+        "grams": 0.41,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 361,
+        "name": "Terpenos de Laranja (terpenos de óleo de laranja)",
+        "grams": 0.33,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 329,
+        "name": "Óleo Essencial de Gengibre Raices",
+        "grams": 0.1,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 41,
+        "name": "Citral",
+        "grams": 0.04,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 229,
+        "name": "ÓLEO ESSENCIAL GUAIACWOOD",
+        "grams": 0.11,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 368,
+        "name": "Dihidro Beta Ionona (ionona amadeirada)",
+        "grams": 0.98,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 29,
+        "name": "Ionona Beta",
+        "grams": 0.01,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 363,
+        "name": "N Metil Ionona (iralia total, isoraldeina 70)",
+        "grams": 0.01,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 50,
+        "name": "Aldeído Cinâmico (Cinamaldeído)",
+        "grams": 0.005,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 43,
+        "name": "Citronelol",
+        "grams": 0.11,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 8,
+        "name": "Geraniol",
+        "grams": 0.04,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 81,
+        "name": "Acetato de Geranila",
+        "grams": 0.03,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 62,
+        "name": "Indol",
+        "grams": 0.003,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 40,
+        "name": "Nerol",
+        "grams": 0.003,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 26,
+        "name": "Cumarina",
+        "grams": 0.08,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 33,
+        "name": "Ambrettolide",
+        "grams": 0.76,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 161,
+        "name": "Velvione®",
+        "grams": 0.35,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 453,
+        "name": "Exaltolide Total (omega-pentadecalactone)",
+        "grams": 0.27,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 10,
+        "name": "Hedione",
+        "grams": 2.39,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 13,
+        "name": "Ambroxan",
+        "grams": 2.17,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 458,
+        "name": "Neroli Artessence",
+        "grams": 0.02,
+        "dilutionPct": 100
+      }
+    ],
+    "createdAt": 1
+  },
+  {
+    "name": "Imagination (tipo) — com Petitgrain",
+    "items": [
+      {
+        "materialId": 20,
+        "name": "Acetato de Linalila",
+        "grams": 1.03,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 216,
+        "name": "ÓLEO ESSENCIAL DE BERGAMOTA",
+        "grams": 0.76,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 7,
+        "name": "Linalol",
+        "grams": 0.41,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 361,
+        "name": "Terpenos de Laranja (terpenos de óleo de laranja)",
+        "grams": 0.33,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 329,
+        "name": "Óleo Essencial de Gengibre Raices",
+        "grams": 0.1,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 41,
+        "name": "Citral",
+        "grams": 0.04,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 229,
+        "name": "ÓLEO ESSENCIAL GUAIACWOOD",
+        "grams": 0.11,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 368,
+        "name": "Dihidro Beta Ionona (ionona amadeirada)",
+        "grams": 0.98,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 29,
+        "name": "Ionona Beta",
+        "grams": 0.01,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 363,
+        "name": "N Metil Ionona (iralia total, isoraldeina 70)",
+        "grams": 0.01,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 50,
+        "name": "Aldeído Cinâmico (Cinamaldeído)",
+        "grams": 0.005,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 43,
+        "name": "Citronelol",
+        "grams": 0.11,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 8,
+        "name": "Geraniol",
+        "grams": 0.04,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 81,
+        "name": "Acetato de Geranila",
+        "grams": 0.03,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 62,
+        "name": "Indol",
+        "grams": 0.003,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 40,
+        "name": "Nerol",
+        "grams": 0.003,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 26,
+        "name": "Cumarina",
+        "grams": 0.08,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 33,
+        "name": "Ambrettolide",
+        "grams": 0.76,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 161,
+        "name": "Velvione®",
+        "grams": 0.35,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 453,
+        "name": "Exaltolide Total (omega-pentadecalactone)",
+        "grams": 0.27,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 10,
+        "name": "Hedione",
+        "grams": 2.39,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 13,
+        "name": "Ambroxan",
+        "grams": 2.17,
+        "dilutionPct": 100
+      },
+      {
+        "materialId": 278,
+        "name": "Óleo Essencial de Petitgrain Paraguai",
+        "grams": 0.02,
+        "dilutionPct": 100
+      }
+    ],
+    "createdAt": 2
+  }
+]

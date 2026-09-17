@@ -1,0 +1,959 @@
+{
+  "_meta": {
+    "description": "Structures / formulas of CLASSIC perfumes and reference-book accords for the Perfumista knowledge base. Each entry captures the compositional skeleton, the note pyramid, olfactory character (smells_like), and how the combination defines its genre (what_it_does).",
+    "critical_caveat": "Perfume houses NEVER publish real bench formulas. For almost all branded classics only the STRUCTURE / accord is public; 'parts' is therefore null unless the source is a genuinely published book formula (Askinson, Poucher, Aftel) or a working perfumer's per-1000 skeleton. Where numeric percentages appear for a brand (e.g. Chanel No.5, No.19), they come from Calkin & Jellinek's published ANALYSIS/reconstruction, NOT the manufacturer. Note pyramids sourced from Fragrantica/marketing are flagged as such in the ingredient notes and are distinct from the real structural materials. NEVER treat marketing note lists as a formula.",
+    "confidence_scale": {
+      "documented": "Real published formula/analysis with parts, OR a single-material composition. Sources: Askinson (public domain), Poucher, Aftel, Calkin & Jellinek analysis, published perfumer skeletons.",
+      "partial": "Structure and key materials well documented (often with a published reconstruction or a generic accord's percentages), but the brand's own ratios are not public. parts usually null; any numbers are from reconstruction/analysis, not the maker.",
+      "structure_only": "Only the accord/material skeleton is public; no proportions exist. Pyramid may be marketing-derived. parts = null."
+    },
+    "sources": [
+      "Calkin & Jellinek, Perfumery: Practice and Principles (Wiley, 1994) - published ANALYSES of Chanel No.5, No.19, Arpege, mellis/oriental accords",
+      "Poucher, Perfumes Cosmetics and Soaps Vol. II (fougere no.1017; Solid Amber)",
+      "Askinson, Perfumes and Cosmetics (1892, public domain via Project Gutenberg #55735) - real cologne formulas with parts",
+      "Mandy Aftel, Essence & Alchemy (amber accord parts)",
+      "Ohloff, Pickenhagen & Kraft, Scent & Chemistry (2nd ed. 2022) - Azzaro PH percentages",
+      "Octavian Coifan / 1000 Perfumes - Cool Water reconstruction",
+      "Olfactorian.com (M. Salazar accords, aquatic/jasmine formulas)",
+      "The Good Scents Company (material data, CAS verification)",
+      "Basenotes community reconstructions (Aventus, L'Heure Bleue) - flagged hobbyist",
+      "nstperfume.com, perfumeshrine, boisdejasmin, cafleurebon, monsieurguerlain (historical reviews/analyses)",
+      "Fragrantica / brand copy (note PYRAMIDS ONLY, flagged as marketing)"
+    ],
+    "count": 34,
+    "generated": "2026-07-13",
+    "language_note": "Research conducted in English per source availability; field values kept in English to match source terminology."
+  },
+  "formulas": [
+    {
+      "name": "Coty Chypre",
+      "source_url": "https://en.wikipedia.org/wiki/Chypre",
+      "family": "Chypre (the archetype)",
+      "year": 1917,
+      "ingredients": [
+        {"material": "Bergamot", "cas": "8007-75-8", "parts": null, "dilution": null, "note": "Top; bright citrus that opens the accord and creates the chiaroscuro contrast against the dark mossy base"},
+        {"material": "Oakmoss (Evernia prunastri absolute)", "cas": "9000-50-4", "parts": null, "dilution": null, "note": "Base; the defining material of the family - inky, earthy, woody-green; provides the mossy-animalic foundation and fixation"},
+        {"material": "Labdanum (cistus)", "cas": "8016-26-0", "parts": null, "dilution": null, "note": "Base; warm resinous ambery-leathery depth; the third pillar (raw material historically associated with Cyprus/'Chypre')"},
+        {"material": "Patchouli", "cas": "8014-09-3", "parts": null, "dilution": null, "note": "Base; earthy woody reinforcement of the mossy foundation"},
+        {"material": "Jasmine", "cas": "8022-96-6", "parts": null, "dilution": null, "note": "Heart; luminous floral core lifting the dark base"},
+        {"material": "Rose", "cas": "8007-01-0", "parts": null, "dilution": null, "note": "Heart; softens and rounds the floral center"},
+        {"material": "Civet / musk", "cas": null, "parts": null, "dilution": null, "note": "Base; animalic warmth and diffusion (period fixatives)"}
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Lemon", "Orange", "Neroli/orange flower"],
+        "heart": ["Jasmine", "Rose", "Iris", "Ylang-ylang", "Carnation"],
+        "base": ["Oakmoss", "Labdanum", "Patchouli", "Vetiver", "Styrax/incense", "Civet", "Musk", "Ambergris"]
+      },
+      "smells_like": "Dry, mossy-green and resinous, with a sparkling citrus opening dissolving into an earthy, bitter, leathery-ambery forest-floor depth. Austere, sophisticated, chic rather than sweet.",
+      "what_it_does": "Codifies the chypre genre by pairing a bright, volatile bergamot top directly against a dark, low-volatility oakmoss + labdanum base - the tension between fresh citrus and damp mossy resin IS the chypre effect. Oakmoss supplies bitter-green inky earthiness, labdanum supplies warm ambery-leathery sweetness, and bergamot lights the whole structure; the floral heart bridges them. CAVEAT: no genuine published numeric formula for Coty Chypre exists publicly - STRUCTURE only. Pyramid detail leans on descriptive accounts; all proportions unknown.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Guerlain Mitsouko",
+      "source_url": "https://bgirlrhapsody.wordpress.com/2015/08/23/chemistry-101-gamma-undecalactone-persicol/",
+      "family": "Fruity chypre (first of its kind)",
+      "year": 1919,
+      "ingredients": [
+        {"material": "Gamma-undecalactone (aldehyde C-14 / peach lactone; via Firmenich 'Persicol' base)", "cas": "104-67-6", "parts": null, "dilution": null, "note": "Heart; signature velvety, fleshy ripe-peach-skin note layered over the chypre base - the innovation that created the fruity chypre. Not truly an aldehyde but a lactone; Persicol base marketed by Firmenich from 1908"},
+        {"material": "Bergamot", "cas": "8007-75-8", "parts": null, "dilution": null, "note": "Top; citrus opening of the underlying Coty-style chypre accord"},
+        {"material": "Oakmoss (Evernia prunastri)", "cas": "9000-50-4", "parts": null, "dilution": null, "note": "Base; the austere, bitter mossy backbone that the peach lactone tempers into velvet"},
+        {"material": "Labdanum (cistus)", "cas": "8016-26-0", "parts": null, "dilution": null, "note": "Base; resinous ambery depth of the chypre foundation"},
+        {"material": "Patchouli", "cas": "8014-09-3", "parts": null, "dilution": null, "note": "Base; earthy-woody support"},
+        {"material": "Vetiver", "cas": "8016-96-4", "parts": null, "dilution": null, "note": "Base; dry rooty woodiness"},
+        {"material": "Jasmine", "cas": "8022-96-6", "parts": null, "dilution": null, "note": "Heart; floral volume"},
+        {"material": "Rose", "cas": "8007-01-0", "parts": null, "dilution": null, "note": "Heart; floral rounding"},
+        {"material": "Spices (cinnamon, clove)", "cas": null, "parts": null, "dilution": null, "note": "Heart/base; warm spicy accents (cinnamaldehyde ~104-55-2, clove/eugenol ~97-53-0)"}
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Citruses", "Jasmine", "Rose"],
+        "heart": ["Peach (gamma-undecalactone)", "Ylang-ylang", "Jasmine", "Rose", "Lilac"],
+        "base": ["Oakmoss", "Spices", "Cinnamon", "Vetiver", "Patchouli", "Amber/labdanum"]
+      },
+      "smells_like": "A dry, mossy, autumnal chypre wrapped in a soft, fleshy, slightly sour ripe-peach warmth - the fruit reads as skin/velvet rather than juice, sitting over a bitter-green, spicy, ambery-woody base. Melancholic and refined.",
+      "what_it_does": "Takes the austere Coty-Chypre skeleton (bergamot / oakmoss / labdanum) and layers a lactonic peach note (gamma-undecalactone, 'aldehyde C-14') into the heart. The peach lactone's creamy, fatty, fruity character plushes up and tempers the sharp bitterness of the oakmoss, creating a velvety bridge between citrus top and mossy base - this defines the fruity-chypre sub-genre. CAVEAT: material roles and the Persicol/aldehyde-C14 story documented; numeric formula NOT public. Pyramid note names largely marketing-derived (Fragrantica).",
+      "confidence": "partial"
+    },
+    {
+      "name": "Guerlain Shalimar",
+      "source_url": "http://perfumeshrine.blogspot.com/2008/09/shalimar-by-guerlain-review-and-history.html",
+      "family": "Oriental / ambery (amber-vanilla)",
+      "year": 1925,
+      "ingredients": [
+        {"material": "Bergamot", "cas": "8007-75-8", "parts": null, "dilution": null, "note": "Top; unusually large citrus overdose (reportedly ~30%+ in hobbyist reconstructions, NOT official) giving the bright, almost fresh opening contrasting the vanilla base"},
+        {"material": "Ethyl vanillin", "cas": "121-32-4", "parts": null, "dilution": null, "note": "Base; the key innovation - a more powerful, creamier vanilla molecule than vanillin, added to the Jicky-type base for the ambery-gourmand drydown"},
+        {"material": "Vanillin", "cas": "121-33-5", "parts": null, "dilution": null, "note": "Base; classic vanilla; Jacques Guerlain reportedly used an impure grade (guaiacol/phenol traces) giving smoky darkness"},
+        {"material": "Coumarin (from tonka)", "cas": "91-64-5", "parts": null, "dilution": null, "note": "Base; hay-like powdery sweetness - part of the Jicky/guerlinade core; with vanilla creates the powdery warm-skin effect"},
+        {"material": "Opoponax (sweet myrrh)", "cas": "8021-36-1", "parts": null, "dilution": null, "note": "Base; balsamic resinous warmth - vanillin+coumarin+opoponax+labdanum forms the basic Shalimar accord"},
+        {"material": "Benzoin", "cas": "9000-05-9", "parts": null, "dilution": null, "note": "Base; sweet balsamic vanillic resin, part of the amber-vanilla core"},
+        {"material": "Labdanum", "cas": "8016-26-0", "parts": null, "dilution": null, "note": "Base; resinous ambery 'deep shadows' of the oriental drydown"},
+        {"material": "Heliotropin (piperonal)", "cas": "120-57-0", "parts": null, "dilution": null, "note": "Base; almond-powdery softening layer"},
+        {"material": "Peru balsam", "cas": "8007-00-9", "parts": null, "dilution": null, "note": "Base; warm balsamic-vanillic fixative"},
+        {"material": "Iris / orris", "cas": "8002-73-1", "parts": null, "dilution": null, "note": "Heart; powdery elegance"},
+        {"material": "Rose", "cas": "8007-01-0", "parts": null, "dilution": null, "note": "Heart; softens the base (guerlinade floral part)"},
+        {"material": "Jasmine", "cas": "8022-96-6", "parts": null, "dilution": null, "note": "Heart; brings light/volume (guerlinade floral part)"},
+        {"material": "Civet", "cas": "68916-26-7", "parts": null, "dilution": null, "note": "Base; animalic warmth and diffusion"}
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Lemon", "Mandarin", "Citruses", "Cedar"],
+        "heart": ["Iris", "Jasmine", "Rose", "Patchouli", "Vetiver"],
+        "base": ["Vanilla (vanillin + ethyl vanillin)", "Opoponax", "Tonka bean/coumarin", "Incense", "Leather", "Civet", "Sandalwood", "Musk", "Peru balsam"]
+      },
+      "smells_like": "A bright, almost citrus-cologne opening that melts into a vast, creamy, smoky-powdery vanilla-amber - leathery, animalic and balsamic, with a custardy sweetness cut by resins and incense. Warm, plush, lipstick-powdery.",
+      "what_it_does": "Builds on the Jicky base (lavender + vanillin + coumarin) and the guerlinade signature, then overdoses ethyl vanillin and bergamot to push it into amber-oriental. Genre effect comes from extreme contrast: a huge fresh bergamot top over an enormous creamy vanilla-coumarin-opoponax-benzoin-labdanum base - vanillin/coumarin give powdery warm-skin diffusion, ethyl vanillin the gourmand creaminess, resins/animalics the smoky depth. This citrus-over-vanilla-amber template essentially defines the modern oriental. CAVEAT: PROPORTIONS NOT officially published; figures online (bergamot ~30%+) are hobbyist reconstructions - all parts null.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Clinique Aromatics Elixir",
+      "source_url": "https://nstperfume.com/2014/10/29/clinique-aromatics-elixir-fragrance-review/",
+      "family": "Aromatic floral chypre",
+      "year": 1971,
+      "ingredients": [
+        {"material": "Patchouli", "cas": "8014-09-3", "parts": null, "dilution": null, "note": "Dominant earthy base; structural backbone. Cited (blog/synthesis, not published formula) as exceptionally high - ESTIMATED ~20% of concentrate. Treat 20% as estimate, not documented ratio."},
+        {"material": "Oakmoss (Evernia prunastri absolute)", "cas": "9000-50-4", "parts": null, "dilution": null, "note": "Chypre foundation; mossy-woody floor connecting herbal top to base. Defines chypre alongside bergamot."},
+        {"material": "Rose", "cas": null, "parts": null, "dilution": null, "note": "Heart floral built in tension against patchouli."},
+        {"material": "Hedione (methyl dihydrojasmonate)", "cas": "24851-98-7", "parts": null, "dilution": null, "note": "Airy jasmine-adjacent transparency; the light/expansive pole in the patchouli-vs-hedione contrast critics identify as the defining axis."},
+        {"material": "Chamomile (Roman)", "cas": "8015-92-7", "parts": null, "dilution": null, "note": "Herbal-tea, hay-like green top; the signature separating it from other chypres."},
+        {"material": "Clary sage", "cas": "8016-63-5", "parts": null, "dilution": null, "note": "Aromatic-herbal top facet."},
+        {"material": "Coriander seed", "cas": "8008-52-4", "parts": null, "dilution": null, "note": "Length-giving spicy-aromatic bridge from top to base."},
+        {"material": "Aldehydes", "cas": null, "parts": null, "dilution": null, "note": "Fast-receding sparkle in the opening."},
+        {"material": "Carnation / eugenol type", "cas": "97-53-0", "parts": null, "dilution": null, "note": "Spicy clove-carnation facet in the floral heart."},
+        {"material": "Jasmine", "cas": null, "parts": null, "dilution": null, "note": "White-floral heart volume."},
+        {"material": "Orris (ionones)", "cas": null, "parts": null, "dilution": null, "note": "Powdery-woody heart."},
+        {"material": "Vetiver", "cas": "8016-96-4", "parts": null, "dilution": null, "note": "Woody-earthy support in the base."},
+        {"material": "Sandalwood", "cas": "8006-87-9", "parts": null, "dilution": null, "note": "Creamy woody drydown (cold-cream facet)."},
+        {"material": "Incense/labdanum-amber", "cas": null, "parts": null, "dilution": null, "note": "Resinous-ambery warmth."},
+        {"material": "Musk", "cas": null, "parts": null, "dilution": null, "note": "Base fixation, soft animalic lift."}
+      ],
+      "pyramid": {
+        "top": ["Chamomile", "Aldehydes", "Clary sage", "Coriander", "Geranium", "Verbena", "Bergamot"],
+        "heart": ["Carnation", "Rose", "Ylang-ylang", "Orris", "Jasmine", "Tuberose", "Orange blossom"],
+        "base": ["Oakmoss", "Patchouli", "Incense", "Vetiver", "Sandalwood", "Musk"]
+      },
+      "smells_like": "A dense, dry, herbal-aromatic chypre: bitter chamomile tea and sage over a huge earthy patchouli-oakmoss body, with a rosy floral core. Booming, tailored, no sweetness - often read as woolly, medicinal, almost incense-like.",
+      "what_it_does": "A chypre (bergamot/floral/oakmoss) re-centered on a massive patchouli accord held in contrast against airy hedione and cooled by herbal chamomile/sage/coriander. That contrast - heavy earthy patchouli vs transparent jasmonate - is why it reads as both crushing and luminous, and it re-drew the classic French chypre for an American department-store audience (lineage shared with Cabochard, Aramis). CAVEAT: structure_only. No published quantitative formula exists; the repeated ~20% patchouli is a blog estimate. Pyramid marketing-derived.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Guerlain L'Heure Bleue",
+      "source_url": "https://basenotes.com/community/threads/lheure-bleue-extrait-free-formula.550596/",
+      "family": "Powdery floral-oriental (semi-oriental)",
+      "year": 1912,
+      "ingredients": [
+        {"material": "Bergamot", "cas": "8007-75-8", "parts": null, "dilution": null, "note": "Top freshness/citrus lift over the anisic accord."},
+        {"material": "Anisic aldehyde (p-anisaldehyde)", "cas": "123-11-5", "parts": null, "dilution": null, "note": "The anise/hawthorn-mimosa top facet; signature medicinal-sweet opening pairing with heliotropin."},
+        {"material": "Heliotropin (piperonal)", "cas": "120-57-0", "parts": null, "dilution": null, "note": "Core almond-vanilla-cherry powder = the 'heliotrope' effect. Present top-to-base."},
+        {"material": "Orange blossom / neroli", "cas": "8016-38-4", "parts": null, "dilution": null, "note": "Waxy white-floral heart core."},
+        {"material": "Bulgarian rose", "cas": "8007-01-0", "parts": null, "dilution": null, "note": "Creamy rose in the heart."},
+        {"material": "Carnation (eugenol/isoeugenol)", "cas": "97-53-0", "parts": null, "dilution": null, "note": "Spicy clove-carnation heart facet."},
+        {"material": "Tuberose", "cas": null, "parts": null, "dilution": null, "note": "Heavy white floral, waxy-mentholated in vintage."},
+        {"material": "Violet / ionones", "cas": "127-51-5", "parts": null, "dilution": null, "note": "Alpha-isomethyl ionone type powdery-violet facet reinforcing heliotrope."},
+        {"material": "Orris/iris", "cas": null, "parts": null, "dilution": null, "note": "Powdery-woody rooty note; a guerlinade signature element."},
+        {"material": "Vanillin", "cas": "121-33-5", "parts": null, "dilution": null, "note": "Guerlinade base warmth; sweet vanilla."},
+        {"material": "Coumarin", "cas": "91-64-5", "parts": null, "dilution": null, "note": "Guerlinade base; hay/tonka sweetness (vintage used 'Coumarine F')."},
+        {"material": "Tonka bean", "cas": "8046-67-7", "parts": null, "dilution": null, "note": "Guerlinade almond-hay warmth."},
+        {"material": "Benzoin", "cas": "9000-05-9", "parts": null, "dilution": null, "note": "Balsamic resinous fixative in the base."},
+        {"material": "Musk", "cas": null, "parts": null, "dilution": null, "note": "Powdery base fixation."}
+      ],
+      "pyramid": {
+        "top": ["Anise / anisic aldehyde", "Bergamot"],
+        "heart": ["Orange blossom / neroli", "Carnation", "Rose", "Tuberose", "Heliotrope", "Violet"],
+        "base": ["Iris", "Vanilla", "Tonka bean", "Benzoin", "Musk"]
+      },
+      "smells_like": "A twilight-blue, powdery floral-oriental: a strange medicinal anise-and-bergamot opening melting into waxy orange blossom and creamy rose, all wrapped in almond-vanilla heliotrope powder. Simultaneously cold/melancholic and warm/comforting - like violet-scented pastry and face powder.",
+      "what_it_does": "Defines the powdery semi-oriental by pairing an unusual anisic-aldehyde top with heliotropin's almond-vanilla powder, then floating soft white florals over the guerlinade base (vanillin + coumarin + tonka + iris + benzoin). The anise/heliotrope tension produces its bittersweet cold-yet-cozy twilight character; the guerlinade gives Guerlain family DNA. CAVEAT: source_url is a hobbyist GCMS-informed reconstruction ATTEMPT, NOT Guerlain's proprietary ratios; parts null. Pyramid marketing-derived.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Rochas Femme",
+      "source_url": "https://nstperfume.com/2006/12/18/perfume-review-rochas-femme-vintage-new/",
+      "family": "Fruity chypre (chypre fruite)",
+      "year": 1944,
+      "ingredients": [
+        {"material": "Prunol base (De Laire, by Roudnitska)", "cas": null, "parts": null, "dilution": null, "note": "The signature plum/prune accord and heart of Femme. Built from heliotropin + gamma-undecalactone + fruity esters. This lactonic prune accord is the defining innovation."},
+        {"material": "Gamma-undecalactone ('Aldehyde C-14')", "cas": "104-67-6", "parts": null, "dilution": null, "note": "Creamy ripe-peach lactone; core of the fruit accord (a lactone, not truly an aldehyde). Same family that keys Mitsouko."},
+        {"material": "Heliotropin (piperonal)", "cas": "120-57-0", "parts": null, "dilution": null, "note": "Almond-powder sweetness inside the Prunol/plum accord."},
+        {"material": "Peach/apricot lactones (aldehyde C-14/C-18 type)", "cas": null, "parts": null, "dilution": null, "note": "Reinforce the stone-fruit body; gamma-nonalactone (C-18, coconut-creamy) cited in modern version."},
+        {"material": "Lemon", "cas": "8008-56-8", "parts": null, "dilution": null, "note": "Bright citrus top in the ORIGINAL 1944 formula."},
+        {"material": "Aldehydes", "cas": null, "parts": null, "dilution": null, "note": "Sparkle in the original top ('lemon and aldehydes')."},
+        {"material": "Immortelle (everlasting)", "cas": null, "parts": null, "dilution": null, "note": "Dusty, curry-maple facet fortifying the top in the original."},
+        {"material": "Bergamot", "cas": "8007-75-8", "parts": null, "dilution": null, "note": "Classic chypre top citrus."},
+        {"material": "Rose / jasmine / ylang-ylang", "cas": null, "parts": null, "dilution": null, "note": "Floral heart cushion."},
+        {"material": "Orris/iris", "cas": null, "parts": null, "dilution": null, "note": "Powdery-rooty heart."},
+        {"material": "Oakmoss (Evernia prunastri)", "cas": "9000-50-4", "parts": null, "dilution": null, "note": "The chypre floor that grounds the fruit; classic bergamot/floral/oakmoss chypre axis."},
+        {"material": "Patchouli", "cas": "8014-09-3", "parts": null, "dilution": null, "note": "Earthy base support."},
+        {"material": "Benzoin", "cas": "9000-05-9", "parts": null, "dilution": null, "note": "Balsamic base sweetness."},
+        {"material": "Civet / musk / amber", "cas": null, "parts": null, "dilution": null, "note": "Warm animalic base ('disturbing base of civet, musk, amber and benzoin' per Michel Roudnitska)."},
+        {"material": "Cumin", "cas": "8014-13-9", "parts": null, "dilution": null, "note": "CORRECTION: the famous sweaty-cumin note was NOT in Roudnitska's original 1944 formula. Introduced by Olivier Cresp in the 1989 reformulation (emphasized in 2013). Modern versions only."}
+      ],
+      "pyramid": {
+        "top": ["Plum / prune (Prunol)", "Peach", "Apricot", "Lemon", "Bergamot", "Aldehydes (original); Cumin (1989+)"],
+        "heart": ["Rose", "Jasmine", "Ylang-ylang", "Carnation", "Iris", "Immortelle"],
+        "base": ["Oakmoss", "Patchouli", "Benzoin", "Amber", "Civet", "Musk", "Vanilla"]
+      },
+      "smells_like": "A warm, plush fruity chypre: a jammy, boozy prune-and-peach heart draped over mossy, resinous, faintly animalic depths. The modern version adds a dirty, warm-skin cumin funk; the vintage is more lemon/aldehyde-bright and immortelle-dusty on top.",
+      "what_it_does": "Femme created the fruity chypre by marrying a rich stone-fruit accord (Roudnitska's Prunol = heliotropin + gamma-undecalactone + fruity esters) to a classic oakmoss chypre base with an animalic (civet/benzoin) drydown. The lactonic fruit sweetness against dry oakmoss makes the genre voluptuous yet elegant. CAVEAT: NO quantitative formula published (parts null). Load-bearing correction: cumin belongs to the 1989/2013 reformulations, not Roudnitska's 1944 original - the original's funk came from civet/animalics. Pyramid marketing-derived.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Miss Dior (original, 1947)",
+      "source_url": "https://varanisridari.home.blog/2020/08/21/miss-dior-miss-dior-originale-eau-de-toilette-by-christian-dior-1947/",
+      "family": "Green floral chypre",
+      "year": 1947,
+      "ingredients": [
+        {"material": "Galbanum", "cas": "8023-91-4", "parts": null, "dilution": null, "note": "Green top; the bitter-green signature borrowed from Vent Vert / Ma Griffe, layered over the classic chypre"},
+        {"material": "Styrallyl acetate", "cas": "10339-37-0", "parts": null, "dilution": null, "note": "Part of the green top accord; sharp gardenia/green-floral facet"},
+        {"material": "Styrax", "cas": "8046-19-3", "parts": null, "dilution": null, "note": "Green/balsamic component of the top accord"},
+        {"material": "Aldehyde C-10 (decanal)", "cas": "112-31-2", "parts": null, "dilution": null, "note": "Green top accord, adds waxy-citrus lift"},
+        {"material": "Aldehyde C-11 undecylenic (undecenal)", "cas": "112-45-8", "parts": null, "dilution": null, "note": "Green top accord, rosy-fatty aldehydic sparkle"},
+        {"material": "Bergamot", "cas": "8007-75-8", "parts": null, "dilution": null, "note": "Citrus top, standard chypre opener"},
+        {"material": "Clary sage", "cas": "8016-63-5", "parts": null, "dilution": null, "note": "Aromatic top, reinforces green herbaceous tone"},
+        {"material": "Gardenia (accord)", "cas": null, "parts": null, "dilution": null, "note": "Green-floral heart note (reconstructed accord, no natural gardenia oil)"},
+        {"material": "Jasmine", "cas": "8022-96-6", "parts": null, "dilution": null, "note": "Indolic floral heart"},
+        {"material": "Rose", "cas": "8007-01-0", "parts": null, "dilution": null, "note": "Floral heart"},
+        {"material": "Neroli", "cas": "8016-38-4", "parts": null, "dilution": null, "note": "Floral heart, orange-blossom facet"},
+        {"material": "Narcissus", "cas": "8023-66-3", "parts": null, "dilution": null, "note": "Green-floral heart accent"},
+        {"material": "Oakmoss", "cas": "9000-50-4", "parts": null, "dilution": null, "note": "Core chypre base; mossy-earthy backbone"},
+        {"material": "Patchouli oil", "cas": "8014-09-3", "parts": null, "dilution": null, "note": "Chypre base; earthy-woody depth"},
+        {"material": "Labdanum (ciste)", "cas": "8016-26-0", "parts": null, "dilution": null, "note": "Chypre base; ambery-leathery warmth"},
+        {"material": "Vetiveryl acetate", "cas": "62563-80-8", "parts": null, "dilution": null, "note": "Part of the chypre accord; smooth woody-earthy fixative"},
+        {"material": "Sandalwood", "cas": "8006-87-9", "parts": null, "dilution": null, "note": "Woody base support"},
+        {"material": "Animalic notes (civet/musk/leather)", "cas": null, "parts": null, "dilution": null, "note": "Part of the chypre accord; warmth and diffusion"}
+      ],
+      "pyramid": {
+        "top": ["Galbanum", "Bergamot", "Clary sage", "Aldehydes C-10/C-11", "Gardenia (green)"],
+        "heart": ["Jasmine", "Rose", "Neroli", "Narcissus", "Carnation", "Iris", "Lily-of-the-valley", "Gardenia"],
+        "base": ["Oakmoss", "Patchouli", "Labdanum", "Vetiver/vetiveryl acetate", "Leather", "Amber", "Sandalwood", "Animalic notes"]
+      },
+      "smells_like": "A bitter, cut-stem green opening (galbanum) over a lush indolic floral heart, drying to a dark, mossy, earthy-ambery chypre floor. Elegant, austere, unmistakably green-mossy.",
+      "what_it_does": "Defines the postwar green floral chypre by grafting the sharp galbanum/green-aldehyde top of Vent Vert and Ma Griffe onto the classical Chypre-de-Coty skeleton (bergamot over oakmoss-patchouli-labdanum). The green top gives bracing contrast against the warm mossy animalic base, and the floral heart bridges them. CAVEAT: partial - a documented structural breakdown, not a bench formula. A single figure circulates (core chypre accord cited ~60%) but is secondary/unverified; all proportions null. Pyramid marketing-derived.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Estee Lauder Youth Dew",
+      "source_url": "https://www.wikiparfum.com/en/fragrances/youth-dew",
+      "family": "Oriental / amber (spicy amber)",
+      "year": 1953,
+      "ingredients": [
+        {"material": "Benzyl salicylate", "cas": "118-58-1", "parts": null, "dilution": "~12% in the generic mellis accord (Calkin & Jellinek), NOT a Youth Dew figure", "note": "Salicylate carrier of the mellis accord; soft floral-balsamic, huge diffusion"},
+        {"material": "Amyl salicylate (isoamyl salicylate)", "cas": "87-20-7", "parts": null, "dilution": null, "note": "Green-herbaceous salicylate, part of mellis accord"},
+        {"material": "Eugenol", "cas": "97-53-0", "parts": null, "dilution": null, "note": "Clove-spice heart of the mellis accord"},
+        {"material": "Clove / pimento", "cas": "8000-34-8", "parts": null, "dilution": null, "note": "Spice, reinforces eugenol"},
+        {"material": "Cinnamon / cassia", "cas": "8007-80-5", "parts": null, "dilution": null, "note": "Warm spice, signature Youth Dew accent"},
+        {"material": "Patchouli oil", "cas": "8014-09-3", "parts": null, "dilution": "~8% in generic mellis (Calkin & Jellinek)", "note": "Earthy anchor of the mellis accord"},
+        {"material": "Hydroxycitronellal", "cas": "107-75-5", "parts": null, "dilution": "~10% in generic mellis (Calkin & Jellinek)", "note": "Muguet/lily softener of the mellis accord"},
+        {"material": "Coumarin", "cas": "91-64-5", "parts": null, "dilution": "~2.5% in generic mellis (Calkin & Jellinek)", "note": "Sweet hay/almond, mellis accord"},
+        {"material": "Cedryl acetate", "cas": "77-54-3", "parts": null, "dilution": null, "note": "Dry woody note in the mellis accord"},
+        {"material": "Benzoin", "cas": "9000-05-9", "parts": null, "dilution": null, "note": "Sweet balsamic amber base"},
+        {"material": "Labdanum", "cas": "8016-26-0", "parts": null, "dilution": null, "note": "Ambery-resinous base, ties the amber accord"},
+        {"material": "Peru / Tolu balsam", "cas": "8007-00-9", "parts": null, "dilution": null, "note": "Balsamic sweetness and fixation"},
+        {"material": "Vanilla / vanillin", "cas": "121-33-5", "parts": null, "dilution": null, "note": "Sweet oriental drydown"},
+        {"material": "Castoreum", "cas": "8023-83-4", "parts": null, "dilution": null, "note": "Animalic-leathery depth"},
+        {"material": "Nitro-musks (musk ketone)", "cas": "81-14-1", "parts": null, "dilution": null, "note": "Musky fixative/diffuser (period-typical)"},
+        {"material": "Sandalwood", "cas": "8006-87-9", "parts": null, "dilution": null, "note": "Creamy woody base"},
+        {"material": "Oakmoss", "cas": "9000-50-4", "parts": null, "dilution": null, "note": "Mossy chypre-ish undertone"},
+        {"material": "Incense / frankincense", "cas": "8016-36-2", "parts": null, "dilution": null, "note": "Resinous smoky base facet"}
+      ],
+      "pyramid": {
+        "top": ["Spices", "Aldehydes", "Bergamot", "Orange", "Peach", "Narcissus", "Lavender"],
+        "heart": ["Cloves", "Cinnamon", "Cassia", "Rose", "Jasmine", "Ylang-ylang", "Lily-of-the-valley", "Orchid"],
+        "base": ["Benzoin", "Tolu/Peru balsam", "Labdanum", "Patchouli", "Amber", "Vanilla", "Incense", "Oakmoss", "Vetiver", "Musk", "Castoreum"]
+      },
+      "smells_like": "A dense, sweet-spicy amber: warm clove and cinnamon over a thick benzoin-balsam-vanilla base with animalic muskiness. Rich, tenacious, almost edible-resinous; famously long-lasting.",
+      "what_it_does": "The archetype of the American spicy amber (oriental). Structurally it sits on the 'mellis' accord (salicylates + eugenol/clove + patchouli + hydroxycitronellal + coumarin over balsams) documented by Calkin & Jellinek, wrapped in a heavy benzoin/labdanum/vanilla amber base. Salicylates give lift/skin-diffusion while balsams and vanilla give sweetness and enormous tenacity, so the spice reads warm and enveloping - the template later reworked by Opium and Coco. CAVEAT: the mellis percentages describe the GENERIC accord, NOT Youth Dew's proprietary formula; pyramid is marketing (Fragrantica). Parts null.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Chanel Coco",
+      "source_url": "https://nstperfume.com/2009/12/07/chanel-coco-fragrance-review/",
+      "family": "Spicy oriental",
+      "year": 1984,
+      "ingredients": [
+        {"material": "Mandarin / bergamot", "cas": "8008-31-9", "parts": null, "dilution": null, "note": "Bright citrus top"},
+        {"material": "Coriander", "cas": "8008-52-4", "parts": null, "dilution": null, "note": "Aromatic-spicy top"},
+        {"material": "Peach (aldehyde C-14 / gamma-undecalactone)", "cas": "104-67-6", "parts": null, "dilution": null, "note": "Fruity top accent"},
+        {"material": "Rose (Bulgarian)", "cas": "8007-01-0", "parts": null, "dilution": null, "note": "Floral heart, gives the dark rose facet"},
+        {"material": "Jasmine", "cas": "8022-96-6", "parts": null, "dilution": null, "note": "Indolic floral heart"},
+        {"material": "Clove / eugenol", "cas": "97-53-0", "parts": null, "dilution": null, "note": "Signature spice; the prominent clove that defines Coco's mellis-oriental character"},
+        {"material": "Mimosa", "cas": "8031-03-6", "parts": null, "dilution": null, "note": "Powdery-floral heart"},
+        {"material": "Orange blossom", "cas": "8016-38-4", "parts": null, "dilution": null, "note": "Floral heart"},
+        {"material": "Ylang-ylang", "cas": "8006-81-3", "parts": null, "dilution": null, "note": "Creamy exotic floral"},
+        {"material": "Benzoin", "cas": "9000-05-9", "parts": null, "dilution": null, "note": "Sweet balsamic amber base"},
+        {"material": "Opoponax", "cas": "8021-36-1", "parts": null, "dilution": null, "note": "Sweet-balsamic resin, key oriental base"},
+        {"material": "Labdanum", "cas": "8016-26-0", "parts": null, "dilution": null, "note": "Ambery-resinous base"},
+        {"material": "Tonka bean (coumarin)", "cas": "91-64-5", "parts": null, "dilution": null, "note": "Sweet hay/almond warmth"},
+        {"material": "Vanilla", "cas": "121-33-5", "parts": null, "dilution": null, "note": "Sweet oriental drydown"},
+        {"material": "Sandalwood", "cas": "8006-87-9", "parts": null, "dilution": null, "note": "Creamy woody base"},
+        {"material": "Civet", "cas": "68916-26-7", "parts": null, "dilution": null, "note": "Animalic warmth/diffusion"}
+      ],
+      "pyramid": {
+        "top": ["Mandarin", "Bergamot", "Coriander", "Peach"],
+        "heart": ["Rose", "Jasmine", "Cloves", "Mimosa", "Orange blossom", "Ylang-ylang"],
+        "base": ["Amber", "Sandalwood", "Opoponax", "Tonka bean", "Vanilla", "Labdanum", "Benzoin", "Civet"]
+      },
+      "smells_like": "A plush, spicy-balsamic oriental: warm clove and coriander wrapped around a dark rose-jasmine heart, settling into opoponax, benzoin, amber and vanilla. Opulent, resinous, slightly powdery - a softer, rounder relative of Opium.",
+      "what_it_does": "Coco applies Chanel's polish to the spicy-oriental (mellis) genre pioneered by Youth Dew and Opium: a clove/coriander spice accord over rich florals, resting on an opoponax-benzoin-labdanum-vanilla amber base. The balsamic resins fix and sweeten the spice while florals keep it elegant. CAVEAT: structure_only. Marketing-derived note pyramid (Fragrantica/Basenotes) plus genre-structural inference; NO real published formula or ratios exist. Parts null.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Yves Saint Laurent Opium",
+      "source_url": "https://en.wikipedia.org/wiki/Opium_(perfume)",
+      "family": "Spicy oriental (amber)",
+      "year": 1977,
+      "ingredients": [
+        {"material": "Benzyl salicylate", "cas": "118-58-1", "parts": null, "dilution": "~12% in the generic mellis accord (Calkin & Jellinek), NOT an Opium figure", "note": "Salicylate carrier of the mellis accord; soft floral-balsamic diffusion"},
+        {"material": "Eugenol", "cas": "97-53-0", "parts": null, "dilution": null, "note": "Clove spice core (with clove/pimento); the eugenol 'bomb' central to vintage Opium"},
+        {"material": "Isoeugenol", "cas": "97-54-1", "parts": null, "dilution": null, "note": "Carnation/clove facet"},
+        {"material": "Patchouli oil", "cas": "8014-09-3", "parts": null, "dilution": "~8% in generic mellis (Calkin & Jellinek)", "note": "Earthy anchor of the mellis accord"},
+        {"material": "Hydroxycitronellal", "cas": "107-75-5", "parts": null, "dilution": "~10% in generic mellis (Calkin & Jellinek)", "note": "Muguet softener of the mellis accord"},
+        {"material": "Coumarin", "cas": "91-64-5", "parts": null, "dilution": "~2.5% in generic mellis (Calkin & Jellinek)", "note": "Sweet hay/almond warmth"},
+        {"material": "Vertofix (acetyl cedrene)", "cas": "32388-55-9", "parts": null, "dilution": null, "note": "Dry woody amber fixative in the mellis accord"},
+        {"material": "Carnation accord", "cas": null, "parts": null, "dilution": null, "note": "Eugenol/isoeugenol-based spicy-floral heart"},
+        {"material": "Cinnamon", "cas": "8007-80-5", "parts": null, "dilution": null, "note": "Warm spice heart"},
+        {"material": "Coriander / pepper", "cas": "8008-52-4", "parts": null, "dilution": null, "note": "Spicy-aromatic top"},
+        {"material": "Aldehydes", "cas": null, "parts": null, "dilution": null, "note": "Sparkling top lift"},
+        {"material": "Mandarin / bergamot", "cas": "8008-31-9", "parts": null, "dilution": null, "note": "Citrus top"},
+        {"material": "Jasmine", "cas": "8022-96-6", "parts": null, "dilution": null, "note": "Indolic floral heart"},
+        {"material": "Myrrh", "cas": "9000-45-7", "parts": null, "dilution": null, "note": "Balsamic-smoky resin base, part of the oriental effect"},
+        {"material": "Opoponax", "cas": "8021-36-1", "parts": null, "dilution": null, "note": "Sweet-balsamic resin base"},
+        {"material": "Benzoin", "cas": "9000-05-9", "parts": null, "dilution": null, "note": "Sweet balsamic amber base"},
+        {"material": "Styrax", "cas": "8046-19-3", "parts": null, "dilution": null, "note": "Balsamic-leathery resin; part of the resinous oriental accord"},
+        {"material": "Tolu balsam", "cas": "8007-00-9", "parts": null, "dilution": null, "note": "Balsamic sweetness/fixation"},
+        {"material": "Labdanum", "cas": "8016-26-0", "parts": null, "dilution": null, "note": "Ambery-resinous base"},
+        {"material": "Incense / frankincense", "cas": "8016-36-2", "parts": null, "dilution": null, "note": "Smoky resinous base"},
+        {"material": "Vanilla / vanillin", "cas": "121-33-5", "parts": null, "dilution": null, "note": "Sweet oriental drydown"},
+        {"material": "Sandalwood", "cas": "8006-87-9", "parts": null, "dilution": null, "note": "Creamy woody base"},
+        {"material": "Castoreum", "cas": "8023-83-4", "parts": null, "dilution": null, "note": "Animalic-leathery depth"},
+        {"material": "Musk", "cas": null, "parts": null, "dilution": null, "note": "Fixative/diffuser"}
+      ],
+      "pyramid": {
+        "top": ["Aldehydes", "Mandarin", "Bergamot", "Cloves", "Coriander", "Pepper", "Bay", "Plum"],
+        "heart": ["Carnation", "Cinnamon", "Jasmine", "Rose", "Lily-of-the-valley", "Orris", "Peach", "Sandalwood", "Patchouli"],
+        "base": ["Myrrh", "Opoponax", "Benzoin", "Labdanum", "Tolu balsam", "Incense", "Vanilla", "Amber", "Castoreum", "Musk", "Cedar", "Vetiver"]
+      },
+      "smells_like": "A dark, dense spicy-resinous oriental: a huge clove/carnation (eugenol) spice blast over indolic jasmine, drying into smoky myrrh-opoponax-incense and sweet benzoin-vanilla-labdanum amber. Powerful, warm, narcotic, tenacious.",
+      "what_it_does": "The definitive spicy oriental and a direct, amplified reworking of Youth Dew: the mellis accord (benzyl salicylate + eugenol/clove + patchouli + hydroxycitronellal + coumarin + Vertofix, per Calkin & Jellinek) over a stack of balsamic resins - benzoin, styrax, opoponax, myrrh, tolu - plus vanilla and labdanum. Salicylates and aldehydes lift and project the massive eugenol spice while the resin base fixes it and adds smoky-sweet depth. CAVEAT: mellis percentages are the GENERIC accord from Calkin & Jellinek, NOT YSL's bench formula; full pyramid is marketing (Fragrantica/Wikipedia). Parts null.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Houbigant Fougere Royale",
+      "source_url": "https://scentformulas.com/blog/what-is-a-fougere-fragrance",
+      "family": "Fougere (the archetype / founding fougere)",
+      "year": 1882,
+      "ingredients": [
+        {"material": "Lavender", "cas": "8000-28-0", "parts": null, "dilution": null, "note": "Real structural role: bright herbal-medicinal top/heart giving the accord its freshness; one of the three defining pillars. Original ratio not published."},
+        {"material": "Coumarin", "cas": "91-64-5", "parts": null, "dilution": null, "note": "The historic innovation: first prominent use of a semi-synthetic aroma-chemical (tonka-derived). Sweet hay/new-mown-grass warmth that anchors the accord. Exact dose not public."},
+        {"material": "Oakmoss absolute", "cas": "9000-50-4", "parts": null, "dilution": null, "note": "Earthy forest-floor base grounding the lavender-coumarin sweetness. Third defining pillar. Ratio not published."},
+        {"material": "Bergamot", "cas": "8007-75-8", "parts": null, "dilution": null, "note": "Citrus top, ~10% cited as a typical fougere skeleton value (not the original 1882 formula)."},
+        {"material": "Geranium (bourbon)", "cas": "8000-46-2", "parts": null, "dilution": null, "note": "Herbal-floral rosy heart facet, ~5% in a typical skeleton; classic fougere heart material."},
+        {"material": "Tonka bean / clary sage / spices (rondeletia accord)", "cas": null, "parts": null, "dilution": null, "note": "Marketing note list from Houbigant/Fragrantica for the modern reconstruction; original 1882 formula not public, only the archetypal skeleton documented."}
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Lavender", "Mediterranean herbs"],
+        "heart": ["Geranium", "Rondeletia floral-spicy accord", "Clary sage"],
+        "base": ["Oakmoss", "Coumarin/tonka", "Patchouli", "Amber-woody"]
+      },
+      "smells_like": "Fresh aromatic lavender opening over a soft, hay-sweet coumarinic warmth grounded in earthy-green oakmoss - clean, herbal, powdery, the original 'barbershop' effect.",
+      "what_it_does": "Defines the fougere genre itself: fougere accord = lavender (fresh herbal top) + coumarin (sweet hay/tonka warmth) + oakmoss (earthy mossy base), with bergamot lift and geranium in the heart. The three pillars create structural clarity - fresh at top, warm in middle, grounded at base. Coumarin's 1882 use made it the first fragrance built on an aroma-chemical, launching modern synthetic perfumery and every later fougere.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Guerlain Jicky",
+      "source_url": "https://imakescents.wordpress.com/2016/07/24/review-guerlain-jicky-4-5-points/",
+      "family": "Fougere / aromatic oriental (ambree)",
+      "year": 1889,
+      "ingredients": [
+        {"material": "Bergamot oil", "cas": "8007-75-8", "parts": null, "dilution": null, "note": "Dominant citrus top; enthusiast structural estimate cites 'as much as 32%' of the original formula. Estimate, not an official formula."},
+        {"material": "Lemon oil", "cas": "8008-56-8", "parts": null, "dilution": null, "note": "Citrus lift; enthusiast estimate ~2%. Estimate, not official."},
+        {"material": "Lavender oil", "cas": "8000-28-0", "parts": null, "dilution": null, "note": "Core aromatic signature of the fougere skeleton. Structural, no published ratio."},
+        {"material": "Rosemary oil", "cas": "8000-25-7", "parts": null, "dilution": null, "note": "Agrestic/herbal accent (with thyme, basil, bay). Structure only."},
+        {"material": "Thyme oil", "cas": "8007-46-3", "parts": null, "dilution": null, "note": "Herbal-rustic accent. Structure only."},
+        {"material": "Linalool (from distilled rosewood)", "cas": "78-70-6", "parts": null, "dilution": null, "note": "One of the pioneering synthetics/isolates used; softens and extends the lavender. Structural."},
+        {"material": "Coumarin (synthetic, tonka-type)", "cas": "91-64-5", "parts": null, "dilution": null, "note": "Landmark early synthetic; the coumarin note that founds the fougere family. Structural."},
+        {"material": "Ethyl vanillin / vanillin", "cas": "121-32-4", "parts": null, "dilution": null, "note": "Sweet balsamic base; another pioneering synthetic. Guerlain used ethyl vanillin (121-32-4); vanillin is 121-33-5. Structural."},
+        {"material": "Civet (natural; now synthetic civetone)", "cas": "542-46-1", "parts": null, "dilution": null, "note": "Animalic warmth; reformulated to synthetic civetone for IFRA. CAS given is civetone. Structural."},
+        {"material": "Benzoin", "cas": "9000-05-9", "parts": null, "dilution": null, "note": "Balsamic base resin. Structure only."},
+        {"material": "Orris / iris", "cas": "8002-73-1", "parts": null, "dilution": null, "note": "Part of the emerging 'Guerlinade' base signature. Structure only."},
+        {"material": "Sandalwood oil", "cas": "8006-87-9", "parts": null, "dilution": null, "note": "Soft woody base. Structure only."},
+        {"material": "Vetiver oil", "cas": "8016-96-4", "parts": null, "dilution": null, "note": "Woody-earthy base; author notes 'no oakmoss'. Structure only."}
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Lemon", "Rosemary", "Lavender", "Thyme/Basil"],
+        "heart": ["Lavender", "Linalool", "Orris/Iris", "Rose facets"],
+        "base": ["Coumarin", "Vanillin/Ethyl vanillin", "Civet", "Benzoin", "Sandalwood", "Vetiver", "Tonka"]
+      },
+      "smells_like": "A fresh lavender-herbal opening dropping onto a warm, sweet, powdery-animalic base - clean aromatic top over vanilla/tonka/civet skin warmth. The prototype of the 'cool top, sweet-dirty bottom' fougere contrast.",
+      "what_it_does": "Jicky defines the fougere (and prefigures the oriental) by pairing a natural lavender/citrus/herb top with the then-new synthetics linalool, coumarin and vanillin, laced with animalic civet. The lavender-coumarin-vanillin trio is the structural backbone every later fougere quotes; using multiple synthetics abstractly (rather than imitating one flower) is why it is called the first 'modern' perfume. CAVEAT: proportions are enthusiast estimates only; parts null.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Chanel No. 5",
+      "source_url": "https://aussiedistiller.com.au/books2/Chocaholic/Aroma,%20Perfume%20&%20Essential%20Oils/Perfumery%20-%20Principles%20ansd%20Practice%20-%20R.%20Calkin,%20J.%20Jellinek%20(Wiley,%201994)%20WW.pdf",
+      "family": "Floral aldehydic",
+      "year": 1921,
+      "ingredients": [
+        {"material": "Aliphatic aldehydes (C-10 decanal; C-11 undecanal; C-11 undecylenic; C-12 MNA)", "cas": "112-31-2", "parts": null, "dilution": null, "note": "The signature overdose: Calkin & Jellinek state a total of 'nearly 1%' aldehydes - a milestone quantity. CAS shown is decanal; undecanal 112-44-7, 10-undecenal 112-45-8, 2-methylundecanal 110-41-8, dodecanal 112-54-9. Percentages are the authors' reconstruction, not Chanel's formula."},
+        {"material": "Bergamot / linalool / linalyl acetate / neroli", "cas": "78-70-6", "parts": null, "dilution": null, "note": "Traditional aldehydic top combination per Calkin & Jellinek. Structural."},
+        {"material": "Ylang-ylang oil", "cas": "8006-81-3", "parts": null, "dilution": null, "note": "Forms an important ~1:1 pairing with methyl ionone; softens the aldehyde harshness. Structural."},
+        {"material": "Methyl ionone", "cas": "1335-46-2", "parts": 8, "dilution": null, "note": "Calkin & Jellinek give ~8% of composition. 'parts' = percent from their published analysis."},
+        {"material": "Hydroxycitronellal (muguet)", "cas": "107-75-3", "parts": 10, "dilution": null, "note": "~10% - represents the lily-of-the-valley accord with cinnamic alcohol + styrax. From analysis."},
+        {"material": "Rose absolute / rose alcohols", "cas": "8007-01-0", "parts": null, "dilution": null, "note": "Natural rose ~4-5% (with jasmin) 'probably' at creation, plus rose alcohols + a little phenylacetaldehyde. Structural."},
+        {"material": "Jasmin absolute", "cas": "8022-96-6", "parts": null, "dilution": null, "note": "Natural jasmin ~4-5% with rose per Calkin & Jellinek. Structural."},
+        {"material": "Orris / iris", "cas": "8002-73-1", "parts": null, "dilution": null, "note": "Classic floral-aldehydic heart component. Structural."},
+        {"material": "Vetiveryl acetate + sandalwood", "cas": "117-98-6", "parts": null, "dilution": null, "note": "Woody base pair per analysis. Structural."},
+        {"material": "Vanillin", "cas": "121-33-5", "parts": 1.5, "dilution": null, "note": "~1.5% - sweet balsamic finish. From Calkin & Jellinek."},
+        {"material": "Coumarin", "cas": "91-64-5", "parts": 5, "dilution": null, "note": "~5% per their analysis."},
+        {"material": "Nitromusks", "cas": "81-14-1", "parts": 10, "dilution": null, "note": "'A little over 10%' musks (CAS shown is musk ketone). Plus natural civet/ambergris. From analysis."},
+        {"material": "Isoeugenol", "cas": "97-54-1", "parts": null, "dilution": null, "note": "Carnation/spice facet in base. Structural."}
+      ],
+      "pyramid": {
+        "top": ["Aldehydes", "Bergamot", "Lemon", "Neroli", "Ylang-ylang"],
+        "heart": ["Jasmine", "Rose", "Iris/Orris", "Lily-of-the-valley (hydroxycitronellal)", "Methyl ionone"],
+        "base": ["Sandalwood", "Vetiver", "Vanillin", "Coumarin", "Nitromusks", "Civet", "Amber", "Oakmoss"]
+      },
+      "smells_like": "A cool, soapy, sparkling 'champagne' fizz of aldehydes bursting over a creamy abstract floral bouquet (jasmine-rose-ylang-iris), settling into a warm powdery sandalwood-musk-vanilla drydown. Famously 'not a flower' but the abstraction of many.",
+      "what_it_does": "Defines the floral aldehydic genre: an overdose of aliphatic aldehydes C-10/C-11/C-12 (~1% total - huge for 1921) laid over a rich natural rose-jasmine-ylang-iris bouquet. The aldehydes add a fatty, waxy, citrus-soapy diffusive 'lift' and abstraction that detaches the scent from any single flower, while methyl ionone + ylang + hydroxycitronellal build the floral body and coumarin/vanillin/musks give the warm base. That aldehyde-over-bouquet accord is the template copied by Arpege, Madame Rochas, Rive Gauche, White Linen. NOTE: percentages are Calkin & Jellinek's published analysis, not Chanel's formula.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Lanvin Arpege",
+      "source_url": "https://aussiedistiller.com.au/books2/Chocaholic/Aroma,%20Perfume%20&%20Essential%20Oils/Perfumery%20-%20Principles%20ansd%20Practice%20-%20R.%20Calkin,%20J.%20Jellinek%20(Wiley,%201994)%20WW.pdf",
+      "family": "Floral aldehydic",
+      "year": 1927,
+      "ingredients": [
+        {"material": "Aliphatic aldehydes (C-10/C-11/C-12)", "cas": "112-44-7", "parts": null, "dilution": null, "note": "Same aldehyde family as No.5 but the aldehydic top is comparatively softer. Calkin & Jellinek describe Arpege relative to No.5 (no standalone percentage table). Structural."},
+        {"material": "Compounded floral bases (rose, jasmin, muguet, ylang)", "cas": null, "parts": null, "dilution": null, "note": "Calkin & Jellinek: floral aspect 'further developed by the use of compounded floral bases' - the key Arpege innovation vs No.5. The 'thousand flowers'/~60 essences claim is marketing lore, not a formula. Structural."},
+        {"material": "Ylang-ylang oil", "cas": "8006-81-3", "parts": null, "dilution": null, "note": "Leads into the floral heart. Structural."},
+        {"material": "Rose absolute (Bulgarian)", "cas": "8007-01-0", "parts": null, "dilution": null, "note": "Natural rose central to the bouquet, linked to jasmin via a subtle fruity nuance. Structural."},
+        {"material": "Jasmin absolute (de Grasse)", "cas": "8022-96-6", "parts": null, "dilution": null, "note": "Core floral. Structural."},
+        {"material": "Orris / iris", "cas": "8002-73-1", "parts": null, "dilution": null, "note": "Powdery floral heart. Structural."},
+        {"material": "Vetiveryl acetate", "cas": "117-98-6", "parts": null, "dilution": null, "note": "Calkin & Jellinek: 'greater emphasis on woody notes, including vetiveryl acetate' vs No.5. Structural."},
+        {"material": "Methyl ionone", "cas": "1335-46-2", "parts": null, "dilution": null, "note": "Woody-violet link (ylang/methyl-ionone pairing). Structural."},
+        {"material": "Vanillin / coumarin", "cas": "121-33-5", "parts": null, "dilution": null, "note": "Present but Calkin & Jellinek note vanillin AND coumarin were REDUCED vs No.5 - the defining difference. Coumarin CAS 91-64-5. Structural."},
+        {"material": "Sandalwood", "cas": "8006-87-9", "parts": null, "dilution": null, "note": "Woody base. Structural."},
+        {"material": "Ambrarome + animalic (civet/musk)", "cas": null, "parts": null, "dilution": null, "note": "Calkin & Jellinek note stronger animalic character than No.5; Ambrarome speciality used. Structural."},
+        {"material": "Peach/plum lactone facet", "cas": "104-67-6", "parts": null, "dilution": null, "note": "Subtle fruity nuance (gamma-undecalactone type) linking rose to jasmin. Reviewer description, not a published ratio."}
+      ],
+      "pyramid": {
+        "top": ["Aldehydes", "Bergamot", "Neroli", "Peach"],
+        "heart": ["Jasmine", "Rose", "Ylang-ylang", "Iris", "Lily-of-the-valley", "Coriander"],
+        "base": ["Sandalwood", "Vetiver", "Patchouli", "Vanilla", "Benzoin", "Amber (Ambrarome)", "Musk/Civet"]
+      },
+      "smells_like": "Close cousin of No.5 but warmer, rounder and more floral-honeyed - a soft aldehydic shimmer over a dense rose-jasmine-ylang bouquet with a peachy nuance, drying to a woody (vetiver), animalic, lightly vanillic base. Less soapy/sharp than No.5.",
+      "what_it_does": "Arpege takes the No.5 aldehydic-floral template and evolves it: the aldehyde top is gentler, the floral heart elaborated through compounded floral bases, the woody/vetiver and animalic notes pushed up, and - critically - vanillin and coumarin dialed back. Calkin & Jellinek identify this vanillin/coumarin reduction as the pivot that opened the way to drier, mossier later masterpieces (Caleche, Madame Rochas, Calandre, Rive Gauche). CAVEAT: descriptions from published analysis; no standalone ratios, parts null.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Chanel No. 19",
+      "source_url": "https://aussiedistiller.com.au/books2/Chocaholic/Aroma,%20Perfume%20&%20Essential%20Oils/Perfumery%20-%20Principles%20ansd%20Practice%20-%20R.%20Calkin,%20J.%20Jellinek%20(Wiley,%201994)%20WW.pdf",
+      "family": "Green floral (green woody floral)",
+      "year": 1971,
+      "ingredients": [
+        {"material": "Galbanum oil", "cas": "8023-91-4", "parts": null, "dilution": null, "note": "Dominates the top - the defining aggressive green note. Calkin & Jellinek: top 'dominated by galbanum' with bergamot, lemon, ylang. Structural."},
+        {"material": "Amyl acetate", "cas": "628-63-7", "parts": null, "dilution": null, "note": "A trace, used to 'top off the harshness' of galbanum. From their analysis."},
+        {"material": "Bergamot / lemon / ylang", "cas": "8007-75-8", "parts": null, "dilution": null, "note": "Citrus + ylang supporting the green top. Structural."},
+        {"material": "Rose absolute", "cas": "8007-01-0", "parts": 15, "dilution": null, "note": "Calkin & Jellinek: rose notes incl. natural rose absolute make up 'some 15%'. 'parts' = percent from analysis."},
+        {"material": "Muguet complex (lily-of-the-valley base)", "cas": "107-75-3", "parts": 20, "dilution": null, "note": "~20% muguet complex 'similar to Madame Rochas' (hydroxycitronellal-based). From analysis."},
+        {"material": "Jasmin (absolute-type speciality)", "cas": "8022-96-6", "parts": null, "dilution": null, "note": "Small amount. Structural."},
+        {"material": "Orris / iris (natural)", "cas": "8002-73-1", "parts": null, "dilution": null, "note": "Used as a MAJOR component (unusual) not just a modifier - a signature of No.19. Structural."},
+        {"material": "Methyl ionone", "cas": "1335-46-2", "parts": 6, "dilution": null, "note": "~6% - 'perfect link between the orris and woody materials'. From analysis."},
+        {"material": "Vertofix (acetyl cedrene, woody)", "cas": "32388-55-9", "parts": 12, "dilution": null, "note": "~12% - dominant woody material, with vetiver, cedryl acetate, sandalwood. From analysis."},
+        {"material": "Oakmoss + isobutyl quinoline complex (Mousse de Saxe type)", "cas": "90-64-2", "parts": null, "dilution": null, "note": "Mossy/leathery character; CAS shown is oakmoss extract. Structural."},
+        {"material": "Hedione (methyl dihydrojasmonate)", "cas": "24851-98-7", "parts": 22, "dilution": null, "note": "The masterstroke: 'some 20-25%' added throughout for diffusion, life and floral radiance. 'parts' = midpoint 22%. From Calkin & Jellinek."},
+        {"material": "Spicy carnation note (clove/pimento facet)", "cas": "97-53-0", "parts": null, "dilution": null, "note": "Small spicy accent (CAS shown is eugenol). Structural."}
+      ],
+      "pyramid": {
+        "top": ["Galbanum", "Bergamot", "Lemon", "Neroli", "Hyacinth"],
+        "heart": ["Iris/Orris", "Rose", "Lily-of-the-valley", "Jasmine", "Narcissus", "Ylang", "Hedione"],
+        "base": ["Oakmoss", "Vetiver", "Cedar (Vertofix)", "Sandalwood", "Leather (isobutyl quinoline)", "Musk"]
+      },
+      "smells_like": "A cold, sharp, sappy-green galbanum slash over a cool powdery iris-rose-muguet floral, on a dry mossy-woody-leathery base. Austere, elegant, luminous and slightly bitter - 'green' as steely and aristocratic rather than fresh.",
+      "what_it_does": "Archetype of the green floral. Calkin & Jellinek note it is defined as much by what it omits (little/no aldehydes, synthetic musk, salicylates, patchouli or vanillin) as by what it has: galbanum's aggressive green top bridges via iris (used as a major component, not a modifier) into a classic muguet/rose floral and a mossy-woody-leather base. A huge 20-25% Hedione overdose gives diffusion and radiant transparency - making No.19 the green-family reference the way No.5 is for aldehydics. NOTE: percentages are the published analysis, not Chanel's formula.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Classic Fougere Skeleton (Poucher no. 1017)",
+      "source_url": "https://mxmdougherty.substack.com/p/scent-by-numbers",
+      "family": "Fougere (aromatic fougere skeleton)",
+      "year": null,
+      "ingredients": [
+        {"material": "Bergamot", "cas": "8007-75-8", "parts": 300, "dilution": null, "note": "Top; citrus lift of the fougere. Real published ratio from Poucher's fougere no. 1017, Perfumes Cosmetics and Soaps Vol. II (out of 1000 parts total)."},
+        {"material": "Lavender", "cas": "8000-28-0", "parts": 200, "dilution": null, "note": "Heart/top; the herbaceous-aromatic backbone of every fougere. Poucher 1017."},
+        {"material": "Benzyl Acetate", "cas": "140-11-4", "parts": 100, "dilution": null, "note": "Floral (jasmine-like) rounding. Poucher 1017."},
+        {"material": "Rosewood (Bois de Rose)", "cas": "8015-77-8", "parts": 100, "dilution": null, "note": "Linalool-rich woody-floral bridge. Poucher 1017."},
+        {"material": "Coumarin", "cas": "91-64-5", "parts": 70, "dilution": null, "note": "Base; the sweet hay/tonka note that DEFINES the family - the lavender-coumarin-oakmoss triad. Poucher 1017."},
+        {"material": "Santal (Sandalwood)", "cas": "8006-87-9", "parts": 40, "dilution": null, "note": "Creamy woody base/fixative. Poucher 1017."},
+        {"material": "Jasmine Absolute", "cas": "8022-96-6", "parts": 30, "dilution": null, "note": "Floral heart richness. Poucher 1017."},
+        {"material": "Musk Ambrette", "cas": "83-66-9", "parts": 30, "dilution": null, "note": "Base; nitro-musk fixative (now IFRA-restricted/banned). Poucher 1017."},
+        {"material": "Patchouli", "cas": "8014-09-3", "parts": 30, "dilution": null, "note": "Earthy base. Poucher 1017."},
+        {"material": "Amyl Salicylate", "cas": "2050-08-0", "parts": 20, "dilution": null, "note": "Green-herbal, clover-like heart. Poucher 1017."},
+        {"material": "Oakmoss", "cas": "9000-50-4", "parts": 20, "dilution": null, "note": "Base; the mossy-green anchor of the triad (now IFRA-restricted). Poucher 1017."},
+        {"material": "Vetivert", "cas": "8016-96-4", "parts": 20, "dilution": null, "note": "Woody-earthy base. Poucher 1017."},
+        {"material": "Clary Sage", "cas": "8016-63-5", "parts": 10, "dilution": null, "note": "Aromatic-herbal facet reinforcing lavender. Poucher 1017."},
+        {"material": "Anisic Aldehyde (p-Anisaldehyde)", "cas": "123-11-5", "parts": 10, "dilution": null, "note": "Sweet, hawthorn/heliotrope facet. Poucher 1017."},
+        {"material": "Acetophenone", "cas": "98-86-2", "parts": 5, "dilution": null, "note": "Sweet, orange-blossom/mimosa nuance. Poucher 1017."},
+        {"material": "Rose Otto", "cas": "8007-01-0", "parts": 5, "dilution": null, "note": "Rosy heart. Poucher 1017."},
+        {"material": "Vanillin", "cas": "121-33-5", "parts": 5, "dilution": null, "note": "Sweet base support for coumarin. Poucher 1017."},
+        {"material": "Civet Absolute", "cas": "68916-26-7", "parts": 3, "dilution": null, "note": "Animalic base fixative. Poucher 1017."},
+        {"material": "Undecylenic Aldehyde (Aldehyde C-11 undecylenic)", "cas": "112-45-8", "parts": 2, "dilution": null, "note": "Aldehydic sparkle in the top. Poucher 1017."}
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Lavender", "Aldehydes", "Clary sage"],
+        "heart": ["Geranium/rose", "Jasmine", "Amyl salicylate (clover-green)", "Anisic aldehyde"],
+        "base": ["Coumarin", "Oakmoss", "Sandalwood", "Vetiver", "Patchouli", "Musk", "Vanillin"]
+      },
+      "smells_like": "Fresh herbaceous lavender and bright bergamot up top, giving way to a sweet, warm, new-mown-hay heart of coumarin over a green, mossy, woody-musky drydown - the archetypal clean-yet-warm 'barbershop' masculine.",
+      "what_it_does": "The textbook fougere skeleton descended from Fougere Royale (1882). Its defining trick is the lavender-coumarin-oakmoss triad: aromatic lift of lavender/bergamot, sweet hay warmth of coumarin, green mossy earthiness of oakmoss form a self-contained three-point structure. No single fern smells like this - it is an abstract 'idea' accord, which is why it became the template for virtually all masculine perfumery. Poucher's no.1017 fleshes the triad out with florals, woods and animalic/musk fixatives for body and tenacity. NOTE: genuine published book formula with real parts (per 1000).",
+      "confidence": "documented"
+    },
+    {
+      "name": "Caron Pour un Homme",
+      "source_url": "https://bespokeunit.com/articles/fragrance/pour-un-homme-de-caron/",
+      "family": "Aromatic / lavender-vanilla (semi-oriental fougere-adjacent)",
+      "year": 1934,
+      "ingredients": [
+        {"material": "Lavender", "cas": "8000-28-0", "parts": null, "dilution": null, "note": "The signature: heavily overdosed (Caron cites ~61% lavender in the current Parfum, up to four lavender materials). Herbaceous, spiky top-to-heart. The 61% figure is a Caron/marketing claim, not the verified 1934 ratio."},
+        {"material": "Vanilla", "cas": "8024-06-4", "parts": null, "dilution": null, "note": "The other half of the famous duo: smooth ambery-sweet base that takes over from the lavender. Real structural role; ratio not public."},
+        {"material": "Tonka bean (coumarin)", "cas": "91-64-5", "parts": null, "dilution": null, "note": "With oakmoss creates a new-mown-grass facet bridging lavender and vanilla."},
+        {"material": "Rosemary / Bergamot / Lemon", "cas": null, "parts": null, "dilution": null, "note": "Marketing note list (Fragrantica/Caron): herbal-citrus top support."},
+        {"material": "Clary sage, geranium, rose, coriander, heliotrope, rosewood, cedar", "cas": null, "parts": null, "dilution": null, "note": "Marketing note list for the heart; heliotrope adds to the powdery-almond bridge to vanilla."},
+        {"material": "Musk, amber (styrax/opoponax), oakmoss", "cas": null, "parts": null, "dilution": null, "note": "Marketing/base note list; amber accord (styrax + opoponax + musk) per Caron."}
+      ],
+      "pyramid": {
+        "top": ["Lavender", "Rosemary", "Bergamot", "Lemon"],
+        "heart": ["Clary sage", "Heliotrope", "Rosewood", "Cedar", "Coriander", "Geranium", "Rose"],
+        "base": ["Vanilla", "Tonka bean", "Musk", "Amber", "Oakmoss"]
+      },
+      "smells_like": "A big fresh French-lavender burst that melts into creamy, powdery vanilla and soft musk - herbal-gourmand, comforting, the definitive lavender-vanilla masculine.",
+      "what_it_does": "Takes the fougere's lavender pillar and, instead of resolving it into oakmoss dryness, pairs it with an overdose of vanilla - making lavender-vanilla its own enduring template. The lavender freshness plus vanilla's ambery sweetness (bridged by heliotrope, tonka and coumarinic new-mown-grass) shows how the same lavender core can pivot from dry-fougere to sweet-oriental. Widely credited as one of the first men's-marketed fragrances. CAVEAT: 61% lavender is a Caron marketing claim; other notes marketing-derived; no verified 1934 ratios, parts null.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Old Spice (Shulton, original)",
+      "source_url": "https://www.fragrantica.com/perfume/Shulton-Company/Old-Spice-Original-14746.html",
+      "family": "Spicy aromatic / carnation-oriental (fougere-adjacent spicy)",
+      "year": 1937,
+      "ingredients": [
+        {"material": "Isoeugenol", "cas": "97-54-1", "parts": null, "dilution": null, "note": "REAL structural insight (not marketing): core of Old Spice's carnation accord. Shulton reportedly used it heavily and founded Shulton Fine Chemicals (1950) to secure supply. No published ratio. Now severely IFRA-restricted (~0.02%)."},
+        {"material": "Eugenol", "cas": "97-53-0", "parts": null, "dilution": null, "note": "Clove/carnation spine of the spice accord (pairs with isoeugenol). Structural; no published parts. IFRA-restricted."},
+        {"material": "Methyl Salicylate", "cas": "119-36-8", "parts": null, "dilution": null, "note": "Classic third leg of the carnation accord (wintergreen sharpness). Structural inference, not a published ratio."},
+        {"material": "Cinnamon", "cas": "8015-91-6", "parts": null, "dilution": null, "note": "Heart spice (cinnamic warmth). Marketing/reviewer note list, no ratio."},
+        {"material": "Coumarin", "cas": "91-64-5", "parts": null, "dilution": null, "note": "Structural: reconstruction discussions note the men's version used markedly more coumarin than the women's. No published parts."},
+        {"material": "Nitro musks (e.g. musk ketone/ambrette)", "cas": "81-14-1", "parts": null, "dilution": null, "note": "Structural: heavy nitro-musk base cited in reconstruction discussion. No ratio; now restricted."},
+        {"material": "Orange", "cas": "8008-57-9", "parts": null, "dilution": null, "note": "Top citrus. Marketing note list."},
+        {"material": "Lemon", "cas": "8008-56-8", "parts": null, "dilution": null, "note": "Top citrus. Marketing note list."},
+        {"material": "Nutmeg", "cas": "8008-45-5", "parts": null, "dilution": null, "note": "Top spice. Marketing note list."},
+        {"material": "Star Anise", "cas": "8007-70-3", "parts": null, "dilution": null, "note": "Top spice. Marketing note list."},
+        {"material": "Carnation", "cas": null, "parts": null, "dilution": null, "note": "Heart - the signature accord (built from eugenol/isoeugenol above). The accord itself is the real structure."},
+        {"material": "Geranium", "cas": "8000-46-2", "parts": null, "dilution": null, "note": "Heart rosy-green. Marketing note list."},
+        {"material": "Pimento (allspice)", "cas": "8006-77-7", "parts": null, "dilution": null, "note": "Heart spice. Marketing note list."},
+        {"material": "Heliotrope", "cas": null, "parts": null, "dilution": null, "note": "Heart powdery-almond. Marketing note list."},
+        {"material": "Benzoin", "cas": "9000-05-9", "parts": null, "dilution": null, "note": "Base resin/sweet. Marketing note list."},
+        {"material": "Vanilla / Vanillin", "cas": "121-33-5", "parts": null, "dilution": null, "note": "Base sweet. Marketing note list."},
+        {"material": "Tonka Bean", "cas": "8046-22-8", "parts": null, "dilution": null, "note": "Base (coumarin carrier). Marketing note list."},
+        {"material": "Cedar", "cas": "8000-27-9", "parts": null, "dilution": null, "note": "Base wood. Marketing note list."},
+        {"material": "Musk / Ambergris", "cas": null, "parts": null, "dilution": null, "note": "Base animalic. Marketing note list."}
+      ],
+      "pyramid": {
+        "top": ["Nutmeg", "Star anise", "Aldehydes", "Orange", "Lemon"],
+        "heart": ["Cinnamon", "Carnation", "Geranium", "Pimento", "Heliotrope", "Jasmine"],
+        "base": ["Benzoin", "Musk", "Vanilla", "Tonka bean", "Cedar", "Ambergris"]
+      },
+      "smells_like": "A bright citrus-and-spice opening over a warm, powdery carnation-clove heart, drying down to a sweet, creamy vanilla-tonka-musk base - the definitive warm, spicy, 'classic American barbershop' scent.",
+      "what_it_does": "A spicy-oriental built around a carnation accord: the eugenol/isoeugenol/(methyl salicylate) triad gives the dry, spicy-floral clove-carnation signature, propped by cinnamon and pimento for spice volume and by heavy coumarin/vanilla/tonka and nitro-musks for a sweet, powdery, tenacious base. The citrus-aldehyde top provides the fresh 'aftershave' snap. WARNING: the pyramid is a marketing/reviewer list - only the isoeugenol/eugenol carnation-accord structure and the 'more coumarin + nitro musk' observations come from reconstruction discussion; no authentic parts/ratios published.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Faberge Brut",
+      "source_url": "https://bespokeunit.com/articles/fragrance/brut-original-eau-de-toilette-review/",
+      "family": "Aromatic fougere",
+      "year": 1964,
+      "ingredients": [
+        {"material": "Lavender", "cas": "8000-28-0", "parts": null, "dilution": null, "note": "Core fougere top; classic barbershop aromatic. Ratio not public (formula by Karl Mann is proprietary)."},
+        {"material": "Anise / basil", "cas": null, "parts": null, "dilution": null, "note": "Prominent green-herbal top facet; reviewers note anise and basil are distinctive in the opening. Note-list level, not a published ratio."},
+        {"material": "Coumarin", "cas": "91-64-5", "parts": null, "dilution": null, "note": "Real structural driver - described as 'a lot of coumarin,' giving the sweet powdery/talc barbershop effect. Documented qualitatively, not quantitatively."},
+        {"material": "Musk ambrette", "cas": "83-66-9", "parts": null, "dilution": null, "note": "Vintage Brut reportedly had 'masses of musk ambrette' (a nitro-musk, now restricted); key to the powdery vintage character. Enthusiast-documented, not an official ratio."},
+        {"material": "Oakmoss", "cas": "9000-50-4", "parts": null, "dilution": null, "note": "Mossy base pillar of the fougere; with musk gives the classic dry-down."},
+        {"material": "Geranium", "cas": "8000-46-2", "parts": null, "dilution": null, "note": "Heart material giving a soapy-rosy aromatic lift; reviewers cite 'a slug of geranium.'"},
+        {"material": "Ylang-ylang, jasmine, sandalwood, vetiver, patchouli, tonka, vanilla", "cas": null, "parts": null, "dilution": null, "note": "Marketing/Fragrantica note list rounding out heart and base."}
+      ],
+      "pyramid": {
+        "top": ["Lavender", "Anise", "Bergamot", "Basil", "Orange blossom", "Lemon"],
+        "heart": ["Ylang-ylang", "Geranium", "Jasmine"],
+        "base": ["Coumarin", "Oakmoss", "Musk (ambrette)", "Sandalwood", "Tonka bean", "Vanilla", "Vetiver", "Patchouli"]
+      },
+      "smells_like": "Soapy, powdery, sweet barbershop fougere - green anise-and-basil top, rosy geranium heart, and a big coumarin-plus-moss-and-musk base; the quintessential drugstore aftershave scent.",
+      "what_it_does": "A mass-market codification of the fougere accord (lavender + coumarin + oakmoss) built for the aftershave era: it dials coumarin and powdery musk way up and adds anise/basil green for a soapy 'clean-shave' signal. Shows the fougere skeleton scaled for cheap, high-impact, universally 'masculine-clean' effect. CAVEAT: qualitative structural observations only; parts null.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Paco Rabanne Pour Homme",
+      "source_url": "https://www.fragrantica.com/perfume/Rabanne/Paco-Rabanne-Pour-Homme-526.html",
+      "family": "Aromatic Fougere",
+      "year": 1973,
+      "ingredients": [
+        {"material": "Rosemary", "cas": "8000-25-7", "parts": null, "dilution": null, "note": "Top; aromatic-herbal lift. Marketing note list - no published ratio."},
+        {"material": "Clary Sage", "cas": "8016-63-5", "parts": null, "dilution": null, "note": "Top; herbal-ambery aromatic, key to the 'soapy fresh' opening. Marketing note list."},
+        {"material": "Brazilian Rosewood", "cas": "8015-77-8", "parts": null, "dilution": null, "note": "Top; linalool-rich woody-floral. Marketing note list."},
+        {"material": "Tarragon (Estragon)", "cas": "8016-88-4", "parts": null, "dilution": null, "note": "Top/heart green-anisic herb widely cited for this scent. Marketing/reviewer note list."},
+        {"material": "Lavender", "cas": "8000-28-0", "parts": null, "dilution": null, "note": "Heart; the fougere aromatic backbone. Marketing note list."},
+        {"material": "Geranium", "cas": "8000-46-2", "parts": null, "dilution": null, "note": "Heart; rosy-green facet. Marketing note list."},
+        {"material": "Tonka Bean", "cas": "8046-22-8", "parts": null, "dilution": null, "note": "Heart/base; coumarin carrier - sweet hay warmth central to the fougere. Marketing note list."},
+        {"material": "Oakmoss", "cas": "9000-50-4", "parts": null, "dilution": null, "note": "Base; the mossy-green anchor, notably intact/prominent in vintage. Completes lavender-coumarin-oakmoss triad. Marketing note list."},
+        {"material": "Honey", "cas": null, "parts": null, "dilution": null, "note": "Base; sweet, slightly animalic warmth - a distinctive facet of this fougere. Marketing note list."},
+        {"material": "Musk / Amber / Tobacco", "cas": null, "parts": null, "dilution": null, "note": "Base fixative/warmth; tobacco a smoky-sweet undertone in drydown. Marketing note list."}
+      ],
+      "pyramid": {
+        "top": ["Rosemary", "Clary sage", "Brazilian rosewood"],
+        "heart": ["Lavender", "Geranium", "Tonka bean"],
+        "base": ["Oakmoss", "Honey", "Musk", "Amber", "Tobacco"]
+      },
+      "smells_like": "A fresh, soapy, herbaceous-lavender opening flanked by tarragon and clary sage, developing a warm, sweet honey-tonka heart, and settling into a smoky, mossy, sophisticated drydown - airy and light for its era rather than dense.",
+      "what_it_does": "A textbook 1970s aromatic fougere (perfumer Jean Martel): it takes the classic lavender-coumarin(tonka)-oakmoss triad and layers an aromatic-herbal top of rosemary/clary sage/tarragon for freshness, then warms the base with honey, amber and tobacco to give a smoky-sensual signature distinguishing it from drier, greener contemporaries. The honey note is the genre-bending twist. NOTE: breakdown is a marketing/reviewer pyramid (Fragrantica/Osmoz), NOT a published formula - no authentic parts/ratios.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Azzaro Pour Homme",
+      "source_url": "https://frompyrgos.blogspot.com/2013/08/dihydromyrcenol-understanding-evolution.html",
+      "family": "Aromatic fougere (anisic 'barbershop' aromatic fougere)",
+      "year": 1978,
+      "ingredients": [
+        {"material": "Dihydromyrcenol", "cas": "18479-58-8", "parts": 2, "dilution": null, "note": "Landmark material: cited at ~2% (Ohloff/Kraft, Scent & Chemistry 2022) up to 5-8% (frompyrgos). First high-profile fougere use; fresh-woody-metallic booster for lavender that defined the modern 'clean' aromatic fougere. Parts here are the published %, not a full ratio."},
+        {"material": "Bergamot oil", "cas": "8007-75-8", "parts": 10, "dilution": null, "note": "Published as ~10% of the formula (Ohloff et al., Scent & Chemistry, 2nd ed. 2022). Citrus top."},
+        {"material": "Lavandin oil", "cas": "91722-69-9", "parts": 6, "dilution": null, "note": "~6% (Ohloff et al. 2022). The aromatic-lavender backbone; lavandin over true lavender for punch/economy."},
+        {"material": "Lemon oil", "cas": "8008-56-8", "parts": 2, "dilution": null, "note": "~2% (Ohloff et al. 2022). Citrus top lift."},
+        {"material": "Petitgrain oil", "cas": "8014-17-3", "parts": 1, "dilution": null, "note": "~1% (Ohloff et al. 2022). Bitter-green aromatic top."},
+        {"material": "Anethole (star anise / anisic note)", "cas": "104-46-1", "parts": null, "dilution": null, "note": "Iconic pairing with lavender; the anisic top is the fragrance's signature. Cited in Ohloff/reviews; exact dose not published."},
+        {"material": "Oakmoss", "cas": "9000-50-4", "parts": null, "dilution": null, "note": "Real structural base pillar - reviewers describe it swelling like a cloud; the fougere mossy anchor."},
+        {"material": "Coumarin", "cas": "91-64-5", "parts": null, "dilution": null, "note": "Sweet hay/tonka warmth in the base completing the fougere accord."},
+        {"material": "Ambroxan", "cas": "6790-58-5", "parts": null, "dilution": null, "note": "Ambery-woody base fixative cited by Ohloff; adds dry warmth."},
+        {"material": "Caraway, basil, clary sage, iris, cardamom", "cas": null, "parts": null, "dilution": null, "note": "Marketing/Fragrantica note list; caraway and cardamom carry the spicy heart per reviews."},
+        {"material": "Sandalwood, cedar, vetiver, patchouli, leather, amber, musk, tonka", "cas": null, "parts": null, "dilution": null, "note": "Marketing/Fragrantica base note list; woody-leather-musk dry-down. Azzaro states the formula has ~320 lines."}
+      ],
+      "pyramid": {
+        "top": ["Lavender/lavandin", "Star anise (anethole)", "Lemon", "Bergamot", "Caraway", "Basil", "Clary sage", "Petitgrain", "Iris"],
+        "heart": ["Cardamom", "Juniper", "Vetiver", "Patchouli", "Cedar", "Sandalwood"],
+        "base": ["Oakmoss", "Coumarin", "Ambroxan", "Leather", "Amber", "Musk", "Tonka bean"]
+      },
+      "smells_like": "A big anise-and-lavender opening spiked with clary sage and citrus, over a spicy caraway/cardamom heart and a huge oakmoss-and-woody-musk base - polished, spicy, barbershop-modern.",
+      "what_it_does": "The reference modern aromatic fougere: keeps the classic lavender-coumarin-oakmoss skeleton but modernizes the top with dihydromyrcenol (its first landmark use) plus an anisic lavender pairing, giving a fresher, cleaner, more radiant lift than vintage fougeres. It became the blueprint bridging classic barbershop fougeres and the 1980s 'fresh' aromatic-fougere wave (Cool Water etc.). NOTE: documented percentages come from Ohloff/Kraft/Pickenhagen's Scent & Chemistry (2022); remaining notes marketing-derived.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Giorgio Armani Acqua di Gio pour Homme",
+      "source_url": "https://olfactorian.com/formulas/53-Aquatic-Accord",
+      "family": "Aromatic Aquatic (Marine/Calone genre)",
+      "year": 1996,
+      "ingredients": [
+        {"material": "Calone 1951 (methylbenzodioxepinone)", "cas": "28940-11-6", "parts": null, "dilution": "typically ~1-10% in a marine accord / trace in final juice", "note": "STRUCTURE, not the ADG formula. Signature watermelon/sea-breeze marine ketone; the molecule defining the whole aquatic genre. No published ADG parts."},
+        {"material": "Helional", "cas": "1205-17-0", "parts": null, "dilution": null, "note": "Structural role: pairs with Calone for green-ozonic/marine-melon depth. Parts unknown for ADG."},
+        {"material": "Hedione (methyl dihydrojasmonate)", "cas": "24851-98-7", "parts": null, "dilution": null, "note": "Structural role: transparent jasmine radiance / diffusion. Parts unknown for ADG."},
+        {"material": "Dihydromyrcenol", "cas": "18479-58-8", "parts": null, "dilution": null, "note": "Structural role: citrus-fresh reinforcement of the marine top. Parts unknown for ADG."},
+        {"material": "Lemon / Bergamot EO", "cas": "8008-56-8", "parts": null, "dilution": null, "note": "MARKETING pyramid + structure: tart citrus opening. No ratio published."},
+        {"material": "Galaxolide", "cas": "1222-05-5", "parts": null, "dilution": null, "note": "Structural role: clean laundry musk base. Parts unknown."},
+        {"material": "Iso E Super", "cas": "54464-57-2", "parts": null, "dilution": null, "note": "Structural role: transparent woody-ambery lift. Parts unknown."},
+        {"material": "Patchouli / Cedar", "cas": null, "parts": null, "dilution": null, "note": "MARKETING base notes; woody-earthy foundation. No formula."}
+      ],
+      "pyramid": {
+        "top": ["Lime", "Lemon", "Bergamot", "Green jasmine", "Orange", "Mandarin", "Marine/aquatic accord"],
+        "heart": ["Sea notes (Calone accord)", "Jasmine", "Peach", "Freesia", "Hyacinth", "Cyclamen", "Violet", "Coriander", "Nutmeg", "Rosemary"],
+        "base": ["White musk", "Cedar", "Oakmoss", "Patchouli", "Amber"]
+      },
+      "smells_like": "Sun-warmed sea spray over citrus and dewy green florals - salty-fresh, faintly fruity watermelon-marine, clean and transparent, on a soft woody-musk skin.",
+      "what_it_does": "Acqua di Gio is the reference aquatic: a bright citrus top handed off to a Calone-driven sea-breeze accord (Calone + Helional) floated on Hedione for transparency, with clean musks and Iso E Super for a weightless dry-down. It defined the calone/marine genre by making water and ozone smell photorealistic and effortlessly wearable, spawning a decade of aquatic masculines. CAVEAT: only the structural skeleton and marine accord are public - no proprietary formula or ratios published; parts null.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Davidoff Cool Water",
+      "source_url": "https://olfactorian.com/formulas/77-Cool-Water-by-Davidoff",
+      "family": "Aromatic Aquatic Fougere",
+      "year": 1988,
+      "ingredients": [
+        {"material": "Dihydromyrcenol", "cas": "18479-58-8", "parts": 15.0, "dilution": "neat", "note": "RECONSTRUCTION ratio (Octavian Coifan, '1000 Perfumes'), NOT the proprietary Davidoff formula. The defining overdose - fresh, citrus-metallic clean lift."},
+        {"material": "Bergamot EO", "cas": "8007-75-8", "parts": 5.5, "dilution": "neat", "note": "Reconstruction ratio; top citrus."},
+        {"material": "Lavender EO", "cas": "8000-28-0", "parts": 3.0, "dilution": "neat", "note": "Reconstruction ratio; the fougere backbone."},
+        {"material": "Allyl Amyl Glycolate", "cas": "67634-00-8", "parts": 2.0, "dilution": "neat", "note": "Reconstruction ratio; green-pineapple freshness."},
+        {"material": "Melonal", "cas": "106-72-9", "parts": 1.0, "dilution": "neat", "note": "Reconstruction ratio; melon/cucumber marine-adjacent aldehyde."},
+        {"material": "Aldehyde C11 (Undecanal)", "cas": "112-44-7", "parts": 0.5, "dilution": "neat", "note": "Reconstruction ratio; aldehydic sparkle."},
+        {"material": "Limonene (laevo)", "cas": "5989-54-8", "parts": 0.5, "dilution": "neat", "note": "Reconstruction ratio; citrus lift."},
+        {"material": "Hedione (methyl dihydrojasmonate)", "cas": "24851-98-7", "parts": 5.0, "dilution": "neat", "note": "Reconstruction ratio; transparent jasmine radiance."},
+        {"material": "Cyclomyral", "cas": "68844-07-5", "parts": 5.0, "dilution": "neat", "note": "Reconstruction ratio; marine/ozonic."},
+        {"material": "Floralozone", "cas": "67634-15-5", "parts": 3.0, "dilution": "neat", "note": "Reconstruction ratio; ozonic-marine sea-water effect."},
+        {"material": "Bornyl Acetate", "cas": "76-49-3", "parts": 2.0, "dilution": "neat", "note": "Reconstruction ratio; pine/rosemary camphoraceous facet."},
+        {"material": "Tetrahydrolinalool", "cas": "78-69-3", "parts": 2.0, "dilution": "neat", "note": "Reconstruction ratio; soft muguet-fresh."},
+        {"material": "Cyclopentadecanone (Exaltone-type)", "cas": "502-72-7", "parts": 12.5, "dilution": "neat", "note": "Reconstruction ratio; macrocyclic musk base."},
+        {"material": "Ambrettolide", "cas": "28645-51-4", "parts": 5.0, "dilution": "10%", "note": "Reconstruction ratio; musky-warm base."},
+        {"material": "Ambroxan", "cas": "6790-58-5", "parts": 5.0, "dilution": "10%", "note": "Reconstruction ratio; ambery-woody dry-down."},
+        {"material": "Timberol", "cas": "70788-30-6", "parts": 5.0, "dilution": "10%", "note": "Reconstruction ratio; dry cedar/sandal woody."},
+        {"material": "Tonalide", "cas": "1506-02-1", "parts": 3.0, "dilution": "neat", "note": "Reconstruction ratio; polycyclic musk."},
+        {"material": "Sandalrome", "cas": "65113-99-7", "parts": 3.0, "dilution": "neat", "note": "Reconstruction ratio; sandalwood substitute."},
+        {"material": "Vertofix (acetyl cedrene)", "cas": "32388-55-9", "parts": 3.0, "dilution": "neat", "note": "Reconstruction ratio; woody fixative."}
+      ],
+      "pyramid": {
+        "top": ["Mint", "Green tangerine / bergamot", "Lavender", "Coriander", "Rosemary", "Sea-water marine accord"],
+        "heart": ["Jasmine", "Geranium", "Neroli", "Light sandalwood", "Cedar"],
+        "base": ["Musk", "Oakmoss", "Amber", "Tobacco", "Sandalwood"]
+      },
+      "smells_like": "A cold, metallic-fresh burst - citrus and aromatic herbs over a soapy-clean lavender, wrapped in an airy sea-spray ozonic accord, drying to warm musky woods.",
+      "what_it_does": "Cool Water fused the classic lavender/coumarin fougere skeleton with a massive dihydromyrcenol overdose plus marine/ozonic materials, creating the aromatic aquatic. Dihydromyrcenol supplied a synthetic, near-metallic citrus freshness louder and longer-lasting than any natural citrus; pinning it to a fougere produced the template copied by hundreds of 1990s masculines. CAVEAT: ratios shown are a published RECONSTRUCTION, not Davidoff's proprietary formula; hence confidence partial.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Calvin Klein CK One",
+      "source_url": "https://cafleurebon.com/cafleurebon-modern-masterpieces-calvin-klein-ck-one-alberto-morillas-and-harry-fremont-1994-the-scent-of-gen-x/",
+      "family": "Clean Citrus Musk (aromatic citrus)",
+      "year": 1994,
+      "ingredients": [
+        {"material": "Hedione (methyl dihydrojasmonate)", "cas": "24851-98-7", "parts": null, "dilution": null, "note": "STRUCTURE (documented, Turin/literature): the famous overdose - roughly a quarter of the formula. ~25% is a documented estimate, not an exact published ratio."},
+        {"material": "Dihydromyrcenol", "cas": "18479-58-8", "parts": null, "dilution": null, "note": "Documented structural role: sterile, freshly-citrus clean lift. Estimated 5-10%; exact ratio not published."},
+        {"material": "Galaxolide", "cas": "1222-05-5", "parts": null, "dilution": null, "note": "Documented structural role: the hygienic/laundry white musk that reads as clean itself. Estimated 10-20%."},
+        {"material": "Iso E Super", "cas": "54464-57-2", "parts": null, "dilution": null, "note": "Documented structural role: transparent woody-amber volume."},
+        {"material": "Bergamot EO", "cas": "8007-75-8", "parts": null, "dilution": null, "note": "Structure + marketing: citrus top. Est. 5-10%."},
+        {"material": "Linalool", "cas": "78-70-6", "parts": null, "dilution": null, "note": "Structural role: soft floral-fresh. Est. 5-10%."},
+        {"material": "Linalyl acetate", "cas": "115-95-7", "parts": null, "dilution": null, "note": "Structural role: bergamot/lavender fresh facet."},
+        {"material": "Helional", "cas": "1205-17-0", "parts": null, "dilution": null, "note": "Structural role: aquatic-muguet freshness."},
+        {"material": "Violet / orris (ionones/irones)", "cas": null, "parts": null, "dilution": null, "note": "MARKETING heart notes; powdery floral."},
+        {"material": "Oakmoss", "cas": "9000-50-4", "parts": null, "dilution": null, "note": "MARKETING base note; mossy anchor."}
+      ],
+      "pyramid": {
+        "top": ["Pineapple", "Mandarin", "Papaya", "Bergamot", "Cardamom", "Lemon"],
+        "heart": ["Nutmeg", "Violet", "Orris root", "Jasmine", "Lily-of-the-valley", "Rose"],
+        "base": ["Sandalwood", "Amber", "Musk", "Cedar", "Oakmoss"]
+      },
+      "smells_like": "Bright soapy citrus over sheer flowers, resolving into a soft, powdery, laundry-clean musk - linear, unisex, just-showered.",
+      "what_it_does": "CK One is defined by a massive Hedione overdose (~a quarter of the formula) plus dihydromyrcenol and Galaxolide, which together read as pure clean. Rather than evolving top-to-base it holds one radiant transparent citrus-musk chord all day (Turin's 'radiant citrus'). That soapy-musk minimalism defined the 1990s unisex clean-citrus genre. CAVEAT: skeleton well documented, but exact proportions are estimates, not an official published formula; parts null.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Thierry Mugler Angel",
+      "source_url": "https://www.scentspiracy.com/fragrance-ingredients/p/ethylmaltol",
+      "family": "Gourmand (amber/oriental gourmand)",
+      "year": 1992,
+      "ingredients": [
+        {"material": "Ethyl maltol (Veltol)", "cas": "4940-11-8", "parts": null, "dilution": "cited at ~0.5% in the finished juice (very high; typical use 0.05-0.3%)", "note": "REAL structural signature. Candyfloss/caramel/praline effect. The 0.5% figure is a widely repeated industry estimate, not a published exact ratio."},
+        {"material": "Patchouli (patchouli oil / patchoulol)", "cas": "8014-09-3", "parts": null, "dilution": null, "note": "REAL. Huge overdose used to ground and balance the intense ethyl maltol; maltol+patchouli IS the gourmand skeleton."},
+        {"material": "Coumarin", "cas": "91-64-5", "parts": null, "dilution": null, "note": "REAL structural component (sweet hay/tonka); contributes to the sweet-ambery base."},
+        {"material": "Vanillin / vanilla absolute", "cas": "121-33-5", "parts": null, "dilution": null, "note": "REAL base sweetener; part of the 'Patchou' base the perfume grew from."},
+        {"material": "Bergamot", "cas": "8007-75-8", "parts": null, "dilution": null, "note": "Top note - both real bright opening and listed marketing note."},
+        {"material": "Praline / caramel / honey / red-berry accords", "cas": null, "parts": null, "dilution": null, "note": "MARKETING pyramid notes - accords built largely FROM ethyl maltol + vanilla, not literal single materials. No actual chocolate in the formula."}
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Red berries accord (marketing)"],
+        "heart": ["Praline / caramel / cotton-candy accord (ethyl maltol-driven)", "Honey", "Red fruits"],
+        "base": ["Patchouli", "Vanilla", "Coumarin/tonka", "Amber"]
+      },
+      "smells_like": "Intensely sweet cotton candy, caramel and praline over a dark earthy patchouli; jammy red-fruit and vanilla; loud, syrupy and instantly recognizable.",
+      "what_it_does": "Defined the modern GOURMAND genre. The core trick is a large overdose of ethyl maltol (edible candyfloss/caramel sweetness) counterbalanced by an equally heavy patchouli, with coumarin and vanilla filling the base. The maltol supplies the delicious/edible vector new to fine fragrance; patchouli keeps it from collapsing into pure sugar. Firmenich's Olivier Cresp built the whole family on this maltol+patchouli axis. CAVEAT: structure_only; the 0.5% ethyl maltol is an industry estimate, other 'notes' are accords built from materials, not literal ingredients; parts null.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Dior Fahrenheit",
+      "source_url": "https://www.thegoodscentscompany.com/data/rw1008391.html",
+      "family": "Woody floral / leather (the 'petrol' masculine)",
+      "year": 1988,
+      "ingredients": [
+        {"material": "Methyl octine carbonate (methyl octyne carbonate)", "cas": "111-80-8", "parts": null, "dilution": null, "note": "REAL and load-bearing. Violet leaf + melon/cucumber + industrial; the molecule that reads as 'violets and motorcycles/petrol' (Luca Turin). True source of the gasoline effect."},
+        {"material": "Methyl ionone", "cas": "1335-46-2", "parts": null, "dilution": null, "note": "REAL. Powdery violet/orris theme through the heart."},
+        {"material": "Alpha-isomethyl ionone", "cas": "127-51-5", "parts": null, "dilution": null, "note": "REAL. Woody-violet; extends the ionone/violet accord."},
+        {"material": "Violet leaf absolute", "cas": "8024-08-6", "parts": null, "dilution": null, "note": "REAL green violet-leaf material; combines with methyl octine carbonate for the violet-leather-petrol accord."},
+        {"material": "Hedione / Paradisone (methyl dihydrojasmonate)", "cas": "24851-98-7", "parts": null, "dilution": null, "note": "REAL transparency/lift material (Paradisone = high-cis grade)."},
+        {"material": "Coumarin", "cas": "91-64-5", "parts": null, "dilution": null, "note": "REAL - sweet fougere base facet with tonka."},
+        {"material": "Isobutyl quinoline", "cas": "65442-31-1", "parts": null, "dilution": null, "note": "REAL - sharp bitter dry-leather note underpinning the leather accord."},
+        {"material": "Galaxolide", "cas": "1222-05-5", "parts": null, "dilution": null, "note": "REAL - polycyclic musk, major part of the base."},
+        {"material": "Tonalide", "cas": "1506-02-1", "parts": null, "dilution": null, "note": "REAL - second polycyclic musk in the base."},
+        {"material": "Iso E Super", "cas": "54464-57-2", "parts": null, "dilution": null, "note": "REAL - woody-ambery diffusion/volume."},
+        {"material": "Nutmeg, hawthorn, honeysuckle, cedar, sandalwood, vetiver, patchouli, tonka", "cas": null, "parts": null, "dilution": null, "note": "MARKETING/pyramid notes; some correspond to real naturals but no published ratios."}
+      ],
+      "pyramid": {
+        "top": ["Hawthorn / nutmeg flower", "Bergamot / lavender", "Mandarin"],
+        "heart": ["Violet leaf", "Methyl ionone violet", "Nutmeg", "Carnation", "Honeysuckle", "Lily-of-the-valley"],
+        "base": ["Leather", "Vetiver", "Patchouli", "Cedar/sandalwood", "Tonka/coumarin", "Musk (galaxolide + tonalide)", "Amber"]
+      },
+      "smells_like": "A strange, hyper-modern violet-leather: green crushed violet leaves with a metallic kerosene edge, drying to warm powdery leather, sweet tonka and musky woods.",
+      "what_it_does": "Its identity is a VIOLET-LEATHER-PETROL accord. The gasoline/motorcycle reputation comes chiefly from a heavy dose of methyl octine carbonate (green violet-leaf with an industrial metallic edge) over methyl ionone and violet-leaf absolute, anchored by a leather accord (isobutyl quinoline) and a coumarin/musk fougere base. Hedione/Paradisone gives airy lift unusual for 1988, which is why it read as futuristic. CAVEAT: skeleton documented; no published ratios, parts null.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Creed Green Irish Tweed",
+      "source_url": "https://www.thegoodscentscompany.com/data/rw1006052.html",
+      "family": "Woody floral musk / fresh green fougere",
+      "year": 1985,
+      "ingredients": [
+        {"material": "Dihydromyrcenol", "cas": "18479-58-8", "parts": null, "dilution": null, "note": "REAL and signature. Fresh lime/citrus-floral with a slight metallic aquatic twang, used high; defines the fresh-fougere school GIT helped launch (shared DNA with Cool Water)."},
+        {"material": "Violet leaf absolute", "cas": "8024-08-6", "parts": null, "dilution": null, "note": "REAL - green, watery, cucumber-violet heart; core of the grassy character."},
+        {"material": "Ambroxan (Ambrox)", "cas": "6790-58-5", "parts": null, "dilution": null, "note": "REAL - warm dry ambergris-type base for depth and longevity."},
+        {"material": "Sandalwood", "cas": "8006-87-9", "parts": null, "dilution": null, "note": "REAL/pyramid - creamy woody base."},
+        {"material": "Iris / orris (methyl ionone-supported)", "cas": "1335-46-2", "parts": null, "dilution": null, "note": "REAL powdery violet-iris facet in the heart; overlaps with the ionone family."},
+        {"material": "Lemon / verbena (vervain)", "cas": null, "parts": null, "dilution": null, "note": "Top notes - real bright citrus opening, also marketing pyramid."},
+        {"material": "Ambergris (natural)", "cas": null, "parts": null, "dilution": null, "note": "MARKETING/pyramid - Creed markets natural ambergris; the effect is largely delivered by Ambroxan."}
+      ],
+      "pyramid": {
+        "top": ["Lemon / bergamot", "Verbena (vervain)"],
+        "heart": ["Violet leaf", "Iris / orris", "Geranium"],
+        "base": ["Ambergris / Ambroxan", "Sandalwood", "Musk"]
+      },
+      "smells_like": "Cool, green and airy - fresh-cut grass and violet leaves over a soapy citrus-lavender freshness, with a clean powdery iris and a smooth warm ambergris drydown; 'grass and class.'",
+      "what_it_does": "A template for the FRESH GREEN FOUGERE. The skeleton is an overdose of dihydromyrcenol (metallic-fresh lime) + violet leaf (green/watery) for the bright, almost aquatic top-heart, powdery iris/ionone in the middle, all landed on an Ambroxan-driven ambergris-sandalwood base. Perfumer Pierre Bourdon reused this dihydromyrcenol+violet-leaf idea in Davidoff Cool Water (1988), making the two structural cousins. CAVEAT: skeleton documented; no published ratios, parts null.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Aventus-type Fruity Chypre (Creed Aventus reconstruction skeleton)",
+      "source_url": "https://basenotes.com/threads/creed-aventus-possible-original-2010-formula.561647/",
+      "family": "Fruity Chypre (modern woody-fruity)",
+      "year": 2010,
+      "ingredients": [
+        {"material": "Allyl amyl glycolate", "cas": "67634-00-8", "parts": 14, "dilution": "neat or 10%", "note": "Core of the green-pineapple accord; the Aventus signature top. Parts from HOBBYIST Basenotes reconstructions, NOT an official Creed formula."},
+        {"material": "Allyl cyclohexyl propionate", "cas": "2705-87-5", "parts": 1, "dilution": "neat", "note": "Boosts juicy pineapple/fruity effect. DIY reconstruction value."},
+        {"material": "Manzanate (ethyl 2-methylpentanoate)", "cas": "39255-32-8", "parts": 3, "dilution": "neat", "note": "Green apple facet in the top. Reconstruction estimate."},
+        {"material": "Bergamot oil", "cas": "8007-75-8", "parts": 25, "dilution": "neat", "note": "Bright citrus top. Reconstruction estimate."},
+        {"material": "Blackcurrant (cassis) base/absolute", "cas": "68606-81-5", "parts": 5, "dilution": "50%", "note": "Tart fruity-sulfurous lift; catty facet. DIY reconstruction, not documented Creed formula."},
+        {"material": "Pink pepper / Schinus molle oil", "cas": "68917-52-2", "parts": 3, "dilution": "neat", "note": "Peppery sparkle in the opening. Reconstruction."},
+        {"material": "Hedione (methyl dihydrojasmonate)", "cas": "24851-98-7", "parts": 10, "dilution": "neat", "note": "Transparent floral heart, adds radiance/diffusion. Reconstruction estimate."},
+        {"material": "Patchouli oil (light fraction)", "cas": "8014-09-3", "parts": 5, "dilution": "neat", "note": "Earthy-woody chypre backbone. Reconstruction estimate."},
+        {"material": "Birch tar (rectified)", "cas": "8001-88-5", "parts": 1, "dilution": "1%", "note": "The smoky-leathery drydown; tiny amounts. Community debate: some attribute the smoke to cypriol/nagarmotha instead. Reconstruction."},
+        {"material": "Oakmoss absolute (low-atranol)", "cas": "9000-50-4", "parts": 2, "dilution": "10%", "note": "Green mossy chypre floor. IFRA-limited, so modern versions use low-atranol quality. Reconstruction estimate."},
+        {"material": "Ambroxan", "cas": "6790-58-5", "parts": 12, "dilution": "neat/10%", "note": "Ambergris-like warmth, fixative, radiant drydown; replaces natural ambergris. Reconstruction estimate."},
+        {"material": "Cedarwood (Virginia)", "cas": "8000-27-9", "parts": 7, "dilution": "neat", "note": "Dry woody base support (often paired with Iso E Super, CAS 54464-57-2). Reconstruction estimate."},
+        {"material": "Musk (Galaxolide)", "cas": "1222-05-5", "parts": 8, "dilution": "neat", "note": "Clean musky fixative rounding the base. Reconstruction estimate."}
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Pineapple accord (allyl amyl glycolate)", "Blackcurrant", "Apple/Manzanate", "Lemon", "Pink pepper"],
+        "heart": ["Pineapple (softened)", "Jasmine/Hedione", "Patchouli", "Rose (trace)"],
+        "base": ["Birch (smoky)", "Oakmoss", "Ambroxan", "Cedarwood", "Musk"]
+      },
+      "smells_like": "A juicy, sparkling pineapple-and-citrus opening over a smoky, dry mossy-woody drydown - fresh fruit meeting a struck-match/leather smokiness on a clean ambergris-musk base. Bright, fruity, masculine, expensive-smelling.",
+      "what_it_does": "It reinvents the classic chypre (citrus top / floral heart / oakmoss-labdanum base) by swapping the aromatic heart for a hyper-realistic fruit accord (pineapple + blackcurrant + apple) and replacing heavy animalic bases with clean Ambroxan and low-atranol oakmoss. The birch/smoky facet contrasts the sweet fruit - that tension between 'juicy' and 'dry-smoky' is the genre's defining trick, the archetype of the 2010s fruity-chypre school it launched. CAVEAT: parts are from a HOBBYIST reconstruction, not an official Creed formula.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Classic Eau de Cologne (Askinson 'Eau de Cologne Superieure', Formula A)",
+      "source_url": "https://www.gutenberg.org/files/55735/55735-h/55735-h.htm",
+      "family": "Citrus / Classic Cologne (Kolnisch Wasser type)",
+      "year": 1892,
+      "ingredients": [
+        {"material": "Oil of bergamot", "cas": "8007-75-8", "parts": 2.5, "dilution": "neat", "note": "Published as 2 1/2 oz. Bergamot is the backbone of every cologne per Askinson."},
+        {"material": "Oil of lemon (hand-pressed)", "cas": "8008-56-8", "parts": 6, "dilution": "neat", "note": "Published as 6 oz. Cold/hand-pressed lemon specified for finest quality."},
+        {"material": "Oil of neroli petale", "cas": "8016-38-4", "parts": 3.5, "dilution": "neat", "note": "Published as 3 1/2 oz. Neroli from petals."},
+        {"material": "Oil of neroli bigarade", "cas": "8016-38-4", "parts": 1.25, "dilution": "neat", "note": "Published as 1 1/4 oz. Neroli from bitter orange."},
+        {"material": "Oil of rosemary", "cas": "8000-25-7", "parts": 2.5, "dilution": "neat", "note": "Published as 2 1/2 oz. Rosemary + neroli mark the finer grades."},
+        {"material": "Alcohol (spirit of wine)", "cas": "64-17-5", "parts": 1200, "dilution": "high-proof", "note": "Published as 30 quarts (~1200 fl oz), converted to the same oz unit as the oils."}
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Lemon", "Rosemary"],
+        "heart": ["Neroli (orange blossom)", "Petitgrain-like green facets"],
+        "base": ["Soft neroli/orange-flower residue (colognes are top-heavy with little true base)"]
+      },
+      "smells_like": "Crisp, effervescent citrus - sparkling lemon and bergamot - lifted by a clean herbal rosemary edge and softened by fresh, slightly bitter orange-blossom neroli. Cool, clean, refreshing, short-lived.",
+      "what_it_does": "The canonical citrus-cologne skeleton: a large volume of high-proof alcohol carrying a small percentage of citrus oils (lemon + bergamot dominant), neroli for a floral-fresh heart, rosemary for a herbaceous lift. Defines the genre by prioritizing brightness and evaporative freshness over persistence. NOTE: genuine PUBLISHED, PUBLIC-DOMAIN book formula (Askinson 1892) with real parts, same bergamot/lemon/neroli/rosemary family the Poucher cologne describes. Poucher's own numeric formula could not be verified via a fetchable URL (paywalled), so this verified equivalent is used and flagged.",
+      "confidence": "documented"
+    },
+    {
+      "name": "4711-style Cologne (Askinson 'Cologne Water', Formula G)",
+      "source_url": "https://www.gutenberg.org/files/55735/55735-h/55735-h.htm",
+      "family": "Citrus / Classic Cologne (Kolnisch Wasser type)",
+      "year": 1892,
+      "ingredients": [
+        {"material": "Oil of bergamot", "cas": "8007-75-8", "parts": 16, "dilution": "neat", "note": "Published as 1 lb (=16 oz). Co-lead with lemon and orange."},
+        {"material": "Oil of lemon", "cas": "8008-56-8", "parts": 16, "dilution": "neat", "note": "Published as 1 lb (=16 oz)."},
+        {"material": "Oil of orange peel (sweet)", "cas": "8008-57-9", "parts": 16, "dilution": "neat", "note": "Published as 1 lb (=16 oz). Orange rounds the citrus, characteristic of the 4711-type accord."},
+        {"material": "Oil of lavender", "cas": "8000-28-0", "parts": 6.5, "dilution": "neat", "note": "Published as 6 1/2 oz. Adds the aromatic/fresh herbaceous facet."},
+        {"material": "Oil of petit grain", "cas": "8014-17-3", "parts": 1.5, "dilution": "neat", "note": "Published as 1 1/2 oz. Green-woody bitter-orange leaf note."},
+        {"material": "Oil of neroli", "cas": "8016-38-4", "parts": 0.75, "dilution": "neat", "note": "Published as 3/4 oz. Orange-blossom heart; marks the finer grade."},
+        {"material": "Oil of rosemary", "cas": "8000-25-7", "parts": 0.34, "dilution": "neat", "note": "Published as 150 grains (~0.34 oz; 1 oz ~ 437.5 grains). Herbal lift, small dose."},
+        {"material": "Alcohol (spirit of wine)", "cas": "64-17-5", "parts": 1200, "dilution": "high-proof", "note": "Published as 30 quarts (~1200 fl oz), expressed in the same oz unit as the oils."}
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Lemon", "Orange", "Rosemary"],
+        "heart": ["Neroli", "Petitgrain", "Lavender"],
+        "base": ["Light orange-flower/lavender residue (minimal true base, as with all colognes)"]
+      },
+      "smells_like": "A rounder, sweeter citrus cologne than the lemon-forward style - equal bergamot, lemon and sweet orange over an aromatic lavender-petitgrain heart, with neroli softness and a whisper of rosemary. Fresh, clean, slightly floral and herbaceous.",
+      "what_it_does": "The 'full' cologne accord: the same top-heavy citrus-in-alcohol architecture broadened with sweet orange, lavender and petitgrain so it smells richer - exactly the profile associated with classic 4711 (bergamot/lemon/orange + neroli/rosemary/lavender). NOTE: the true 4711 recipe (Maurer & Wirtz) is proprietary and unpublished; this is a genuine PUBLISHED public-domain period formula of the same construction, flagged as a representative structure, not the trademarked recipe.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Terre d'Hermes (Jean-Claude Ellena minimalist structure)",
+      "source_url": "https://www.fragrantica.com/perfume/Hermes/Terre-d-Hermes-17.html",
+      "family": "Woody / Mineral-Citrus Chypre",
+      "year": 2006,
+      "ingredients": [
+        {"material": "Iso E Super (patchouli ethanone)", "cas": "54464-57-2", "parts": null, "dilution": "neat, very high dosage", "note": "The abstract woody-amber 'mineral/flint' spine; documented as the dominant accord. Not marketing - Iso E Super at very high dosage is the confirmed structural backbone."},
+        {"material": "Grapefruit essential oil", "cas": "8016-20-4", "parts": null, "dilution": "neat", "note": "Bitter-zesty citrus top; part of the documented top-note pairing."},
+        {"material": "Orange essential oil (sweet)", "cas": "8008-57-9", "parts": null, "dilution": "neat", "note": "Rounds the citrus opening."},
+        {"material": "Patchouli essential oil", "cas": "8014-09-3", "parts": null, "dilution": "neat", "note": "Earthy base facet; documented base note."},
+        {"material": "Vetiver essential oil", "cas": "8016-96-4", "parts": null, "dilution": "neat", "note": "Dry rooty vegetal counterpoint to the mineral Iso E; documented base note."},
+        {"material": "Cedarwood", "cas": "8000-27-9", "parts": null, "dilution": "neat", "note": "Reinforces the dry woody structure."},
+        {"material": "Benzoin resinoid", "cas": "9000-05-9", "parts": null, "dilution": "neat", "note": "Faint balsamic sweetness in the base."},
+        {"material": "Pepper / geranium (Pelargonium)", "cas": null, "parts": null, "dilution": "neat", "note": "Spicy-green heart facets documented in the pyramid."}
+      ],
+      "pyramid": {
+        "top": ["Orange", "Grapefruit"],
+        "heart": ["Pepper", "Pelargonium (geranium)", "Flint / mineral accord"],
+        "base": ["Vetiver", "Cedar", "Patchouli", "Benzoin", "Iso E Super"]
+      },
+      "smells_like": "A dry, radiant sunlit-earth: bitter grapefruit and orange peel over a warm, transparent woody-mineral haze that reads like sun-baked flint, dusty stone and vetiver roots.",
+      "what_it_does": "Ellena reduced perfume to a vertical idea: bright volatile citrus at the top and a heavy earthy woody base, bridged by a huge dose of Iso E Super whose diffusive, near-odorless velvety amber-wood makes it feel spacious and abstract. Terre used only ~30 materials (vs ~160 in earlier compositions), the founding gesture of his minimalist school - proving a genre-defining masculine could be a legible sketch of contrasts (mineral vs vegetal). CAVEAT: structure documented; proprietary ratios not published, parts null.",
+      "confidence": "structure_only"
+    },
+    {
+      "name": "Molecule 01 (Escentric Molecules) - single-material Iso E Super",
+      "source_url": "https://www.escentric.com/en-us/pages/molecule-01",
+      "family": "Woody Amber (single molecule)",
+      "year": 2006,
+      "ingredients": [
+        {"material": "Iso E Super (tetramethyl acetyloctahydronaphthalenes)", "cas": "54464-57-2", "parts": 100, "dilution": "diluted in perfumer's alcohol as an EdT; the fragrance oil is effectively 100% Iso E Super", "note": "Documented single-material composition: Geza Schoen's Molecule 01 is essentially the lone aroma-chemical Iso E Super (IFF material, developed 1973). REAL, not marketing - the brand explicitly states the fragrance is pure Iso E Super."}
+      ],
+      "pyramid": {
+        "top": ["Iso E Super (velvety, near-transparent)"],
+        "heart": ["Iso E Super (cedar / woody-amber)"],
+        "base": ["Iso E Super (soft ambergris / patchouli-woody drydown)"]
+      },
+      "smells_like": "A soft, dry, cedary woody-amber with a peppery velvety texture; often 'disappears' then flares - smelling as much like warm clean skin as like a scent.",
+      "what_it_does": "It weaponizes a single molecule as an entire perfume. Iso E Super is anosmia-inducing and highly diffusive, so wearers under-smell it on themselves while others catch intermittent radiant woody bursts - an 'invisible' effect. Schoen's conceptual point is that one well-chosen material can be a finished, genre-launching fragrance, birthing the whole molecular-perfume category.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Amber Accord (labdanum + benzoin + vanilla) - textbook base",
+      "source_url": "https://idreamofperfume.com/2015/06/15/creating-an-amber-accord/",
+      "family": "Oriental / Amber base (balsamic)",
+      "year": null,
+      "ingredients": [
+        {"material": "Benzoin absolute (Siam)", "cas": "9000-05-9", "parts": 20, "dilution": "neat (often pre-diluted 50% for pourability)", "note": "REAL published parts from Mandy Aftel, 'Essence & Alchemy'. Sweet vanillic-balsamic bulk of the accord."},
+        {"material": "Labdanum absolute", "cas": "8016-26-0", "parts": 5, "dilution": "neat (often 50% dilution)", "note": "REAL published parts (Aftel). The ambrein-rich resinous, faintly leathery/animalic backbone that defines 'amber'."},
+        {"material": "Vanilla absolute (or vanillin)", "cas": "8024-06-4", "parts": 1, "dilution": "neat; if using crystalline vanillin, CAS 121-33-5, dose ~10% solution", "note": "REAL published parts (Aftel). Rounds and sweetens. Vanillin (121-33-5) is the common synthetic substitute."}
+      ],
+      "pyramid": {
+        "top": [],
+        "heart": ["Labdanum (warm resin, ambergris-like)"],
+        "base": ["Benzoin (sweet balsam)", "Vanilla / vanillin (sweet)", "Labdanum drydown (leathery-amber)"]
+      },
+      "smells_like": "Rich, dark and sticky-sweet - like dark toffee or caramel warmed by resin, not quite edible because of a faint leathery whisper from the labdanum.",
+      "what_it_does": "This three-material triangle IS the classic 'amber' (never real amber/ambergris - a fantasy accord). Labdanum supplies warm animalic-resinous depth, benzoin sweet balsamic body, vanillin rounded sweetness; together they form the oriental heart of countless fragrances (Shalimar, Ambre Antique, Obsession). Poucher's textbook 'Solid Amber' uses the same skeleton scaled up (Labdanum/Vanillin/Benzoin core), confirming labdanum+benzoin+vanillin as the genre's defining structure. NOTE: parts are a genuine published book formula.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Jasmine / White Floral Base (perfumery accord skeleton)",
+      "source_url": "https://olfactorian.com/formulas/396-jasmine-accord",
+      "family": "White Floral (jasmine base)",
+      "year": null,
+      "ingredients": [
+        {"material": "Hedione (methyl dihydrojasmonate)", "cas": "24851-98-7", "parts": 381.52, "dilution": "neat", "note": "REAL published parts (Michael Salazar formula, parts per 1000). The airy, radiant, transparent jasmine-lift molecule - the modern spine of white florals."},
+        {"material": "Benzyl acetate", "cas": "140-11-4", "parts": 105.42, "dilution": "neat", "note": "REAL parts. Fruity-sweet 'jasmine tea' core defining grandiflorum jasmine."},
+        {"material": "Alpha-hexylcinnamaldehyde (AHC)", "cas": "101-86-0", "parts": 84.34, "dilution": "neat", "note": "REAL parts. Soft floral-jasmine bulk and diffusion."},
+        {"material": "Galaxolide", "cas": "1222-05-5", "parts": 63.25, "dilution": "neat", "note": "REAL parts. Clean musky fixative/rounding."},
+        {"material": "Benzyl benzoate", "cas": "120-51-4", "parts": 63.25, "dilution": "neat", "note": "REAL parts. Faint balsamic fixative, natural jasmine constituent."},
+        {"material": "Hydroxycitronellal", "cas": "107-75-5", "parts": 42.17, "dilution": "neat", "note": "REAL parts. Muguet/lily sweetness (IFRA-restricted)."},
+        {"material": "Jasmine grandiflorum absolute", "cas": "8022-96-6", "parts": 42.17, "dilution": "neat", "note": "REAL parts. Natural jasmine for authenticity/richness."},
+        {"material": "Indolic / animalic trace (Jasmine Thiophene, methyl anthranilate)", "cas": "134-20-3", "parts": 4.02, "dilution": "Jasmine Thiophene used at 1% dilution", "note": "REAL parts. The indolic/animalic 'dirty' facet that makes jasmine narcotic; tiny trace. Methyl anthranilate (134-20-3) at ~2 parts."},
+        {"material": "Supporting materials (bergamot, habanolide, benzyl alcohol, alpha-terpineol, linalool, cis-3-hexenol, PEA, siam benzoin, etc.)", "cas": null, "parts": null, "dilution": "various", "note": "Full formula is 27 materials per-1000 parts; remainder fills top-note and fixative roles."}
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "White grapefruit", "Cis-3-hexenol (green)"],
+        "heart": ["Hedione", "Benzyl acetate", "Jasmine grandiflorum absolute", "Alpha-hexylcinnamaldehyde", "Hydroxycitronellal"],
+        "base": ["Galaxolide", "Benzyl benzoate", "Habanolide", "Siam benzoin", "Indolic notes"]
+      },
+      "smells_like": "A luminous, slightly fruity jasmine tea - radiant and airy from the Hedione, sweet-fruity from benzyl acetate, with a whisper of narcotic 'dirty' indole and a soft musky-balsamic drydown.",
+      "what_it_does": "Defines the white-floral genre by reconstructing natural jasmine from its molecular parts: benzyl acetate + jasmine absolute give the recognizable body, Hedione (huge dose, ~38%) supplies the transparent radiance that made post-1970s florals feel modern and diffusive (its debut in Eau Sauvage/No.19 changed perfumery), and trace indolic materials add the living, slightly carnal edge that separates a real white floral from a candy floral. Musks and benzyl benzoate fix and extend it. NOTE: genuine working perfumer's formula with real per-1000 parts - not marketing.",
+      "confidence": "documented"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "perfumista-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scraper resumível do Fragrantica para o app Perfumista",
+  "scripts": {
+    "discover": "tsx src/discover.ts",
+    "scrape": "tsx src/scrape.ts",
+    "probe": "tsx src/probe.ts",
+    "stats": "tsx src/stats.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "playwright": "^1.49.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

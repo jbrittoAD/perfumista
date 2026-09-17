@@ -1,0 +1,1382 @@
+{
+  "_meta": {
+    "description": "Real DIY perfume formulas posted by hobbyist and professional perfumers in communities (Reddit r/DIYfragrance, Basenotes forums), plus educational/demo formulas from Perfumer's Apprentice, The Good Scents Company, perflavory (Firmenich accords), and Brazilian artisanal-perfumery blogs. Each entry captures ingredients, proportions, an inferred note pyramid, the author's olfactory impression, and the functional role of key materials, for the Perfumista heuristic engine.",
+    "collected": "2026-07-13",
+    "caveats": "PROPORTIONS/CAS ARE NEVER INVENTED. Where a value was not published by the author it is null and the entry is marked confidence:partial. Units vary: 'parts' holds the numeric value quoted by the author but the unit (parts / grams / drops / % / within-accord %) is stated in what_it_does or is a relative weight; scale to taste. Pre-diluted materials carry a 'dilution' field (e.g. '10%') and the parts refer to that diluted solution. Note placement (top/heart/base) is inferred from volatility when the source did not structure it. SOURCING RELIABILITY: (1) Reddit formulas were retrieved via the PullPush Reddit archive API because direct reddit.com/WebFetch was blocked in-environment; text is transcribed verbatim from author selftext but the canonical permalinks were not independently re-opened. (2) Basenotes 'Matt' / user-thread formulas were reconstructed from Basenotes' own search-indexed thread text (Basenotes returned HTTP 403 to direct fetch); proportions are as-quoted, not invented. (3) Good Scents / perflavory / Perfumer's Apprentice / thegreatestsmellever.com / Nandê Botânica pages WERE fetched directly. CAS numbers appear only where a material is unambiguous; otherwise null. Several 'acordes', 'musks' and commercial bases are proprietary and their internal composition is not revealed.",
+    "sources": [
+      "Reddit r/DIYfragrance (community formulas, via PullPush archive)",
+      "Basenotes.com community forums (DIY / 'formula from Matt' threads, via indexed text)",
+      "The Good Scents Company demo formulas (patent-derived)",
+      "perflavory.com demo formulas (Firmenich evaluation accords)",
+      "Perfumer's Apprentice 'Key Accord' educational formulas",
+      "thegreatestsmellever.com essential-oil perfume recipes",
+      "Nandê Botânica (nandebotanica.com.br) - blog brasileiro de perfumaria artesanal"
+    ],
+    "confidence_legend": {
+      "documented": "complete formula with proportions for (essentially) all materials",
+      "partial": "some proportions, CAS, or olfactory description missing"
+    },
+    "counts": { "total": 45, "documented": 43, "partial": 2 }
+  },
+  "formulas": [
+    {
+      "name": "Foresty base formula",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/1hb787p/i_wanted_to_share_a_foresty_formula_for_you/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "woody / forest",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Vetiveryl Acetate", "cas": null, "parts": 4.1, "dilution": "100%", "note": "base" },
+        { "material": "Clearwood", "cas": null, "parts": 2.9, "dilution": "100%", "note": "base" },
+        { "material": "Cedarwood EO", "cas": null, "parts": 1.1, "dilution": "10%", "note": "base" },
+        { "material": "Beta Pinene", "cas": null, "parts": 2, "dilution": "10%", "note": "top" },
+        { "material": "Fir Balsam", "cas": null, "parts": 2, "dilution": "10%", "note": "heart" },
+        { "material": "Veramoss", "cas": null, "parts": 0.9, "dilution": "20%", "note": "base" },
+        { "material": "Timbersilk", "cas": null, "parts": 3.9, "dilution": "100%", "note": "base" },
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": 2, "dilution": "100%", "note": "base" },
+        { "material": "Ysamber K", "cas": null, "parts": 0.5, "dilution": "100%", "note": "base" },
+        { "material": "Farnesol", "cas": null, "parts": 0.1, "dilution": "100%", "note": "heart" },
+        { "material": "Koavone", "cas": null, "parts": 0.1, "dilution": "1%", "note": "heart" },
+        { "material": "Vertenex", "cas": null, "parts": 0.2, "dilution": "100%", "note": "base" },
+        { "material": "Isolongifolanone", "cas": null, "parts": 0.1, "dilution": "10%", "note": "base" },
+        { "material": "Octyl Acetate", "cas": null, "parts": 0.1, "dilution": "5%", "note": "top" }
+      ],
+      "pyramid": {
+        "top": ["Beta Pinene", "Octyl Acetate"],
+        "heart": ["Fir Balsam", "Farnesol", "Koavone"],
+        "base": ["Vetiveryl Acetate", "Clearwood", "Cedarwood EO", "Veramoss", "Timbersilk", "Iso E Super", "Ysamber K", "Vertenex", "Isolongifolanone"]
+      },
+      "smells_like": "Quite foresty; a woody-mossy green base evoking woods. Author uses it as a base for more sophisticated blends. Optional additions of Terrasol/Pino Acetaldehyd/Aquaflor/Geosmin give a humid/misty-forest aquatic touch; Octyl Acetate / 1-Octen-3-ol add subtle mushroom notes.",
+      "what_it_does": "Vetiveryl Acetate + Clearwood + Timbersilk build a dry woody spine; Veramoss/Iso E Super/Ysamber K/Vertenex add mossy-ambery diffusion and fixation; trace Koavone and Isolongifolanone control dampness. Pairs well with ambers and musks (Ambroxan, Habanolid, Exaltolid) and florals like Jasmine Sambac and Sandalwood.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Nice little vetiver formula (vetiver on steroids)",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/1k6j18d/nice_little_vetiver_formula/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "woody / vetiver",
+      "concentration": "concentrate (worn at 20% dilution)",
+      "ingredients": [
+        { "material": "Vetiver Haiti EO", "cas": null, "parts": 0.30, "dilution": null, "note": "base" },
+        { "material": "Cedramber", "cas": null, "parts": 0.30, "dilution": null, "note": "base" },
+        { "material": "Vertofix", "cas": null, "parts": 0.30, "dilution": null, "note": "base" },
+        { "material": "Methyl Pamplemousse", "cas": null, "parts": 0.10, "dilution": null, "note": "top" },
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": 0.20, "dilution": null, "note": "base" },
+        { "material": "Ethylene Brassylate", "cas": null, "parts": 0.20, "dilution": null, "note": "base" },
+        { "material": "Methyl Ionone Gamma", "cas": null, "parts": 0.10, "dilution": null, "note": "heart" }
+      ],
+      "pyramid": {
+        "top": ["Methyl Pamplemousse"],
+        "heart": ["Methyl Ionone Gamma"],
+        "base": ["Vetiver Haiti EO", "Cedramber", "Vertofix", "Iso E Super", "Ethylene Brassylate"]
+      },
+      "smells_like": "A big, long-lasting vetiver 'on steroids'; at 20% dilution lasts forever on strip and ~6 hours on skin. Powdery, woody, with an enhanced grapefruit facet. Author notes the ionone comes off very strong (possibly overdosed).",
+      "what_it_does": "Methyl Pamplemousse enhances the grapefruit aspect of the vetiver EO; Cedramber/Vertofix/Iso E Super extend the woodiness into the base; Ethylene Brassylate and Methyl Ionone Gamma amplify vetiver's powderiness. Author considers lowering ionone to ~4% and adding ~2% Benzoin Resinoid 50% to soften and boost amber.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Simple Cologne Formula - 7 Ingredients, 100% natural (De Hekserij)",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/139pce6/simple_cologne_formula_7_ingredients_100_natural/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "citrus / cologne (eau de cologne)",
+      "concentration": "cologne (diluted in 50 ml alcohol)",
+      "ingredients": [
+        { "material": "Bergamot FCF EO", "cas": null, "parts": 15, "dilution": null, "note": "top" },
+        { "material": "Lemon CP EO", "cas": null, "parts": 12, "dilution": null, "note": "top" },
+        { "material": "Petitgrain Paraguay EO", "cas": null, "parts": 8, "dilution": null, "note": "heart" },
+        { "material": "Sweet Orange CP EO", "cas": null, "parts": 8, "dilution": null, "note": "top" },
+        { "material": "Benzoin Siam resinoid 50% in DPG", "cas": null, "parts": 3, "dilution": "50%", "note": "base" },
+        { "material": "Rosemary Camphor CT EO", "cas": null, "parts": 2, "dilution": null, "note": "heart" },
+        { "material": "Bulgarian Lavender EO", "cas": null, "parts": 2, "dilution": null, "note": "heart" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot FCF", "Lemon CP", "Sweet Orange CP"],
+        "heart": ["Petitgrain Paraguay", "Rosemary Camphor CT", "Bulgarian Lavender"],
+        "base": ["Benzoin Siam resinoid"]
+      },
+      "smells_like": "A well-balanced classic all-natural cologne with terpenic undertones 'under control' (not medicinal or stale-wood). Lifts the mood and evokes 'perfumes of old times.' Measurements given in drops (~0.8 ml bergamot down to ~0.1 ml for rosemary/lavender).",
+      "what_it_does": "Citrus EOs (bergamot, lemon, orange) give the bright cologne opening; petitgrain adds green bitter-orange body; rosemary and lavender add herbal-aromatic lift; a small dose of benzoin resinoid anchors and rounds the base.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Minimalist Formula (softer/deeper Molecule 01 idea)",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/1ilqjam/minimalist_formula/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "woody-amber / musk (Iso E Super dominant)",
+      "concentration": "15% concentrate",
+      "ingredients": [
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": 80.00, "dilution": null, "note": "base" },
+        { "material": "Ethylene Brassylate", "cas": null, "parts": 5.00, "dilution": null, "note": "base" },
+        { "material": "Vertofix Coeur", "cas": null, "parts": 3.00, "dilution": null, "note": "base" },
+        { "material": "Kephalis", "cas": null, "parts": 3.00, "dilution": null, "note": "base" },
+        { "material": "Hedione", "cas": "24851-98-7", "parts": 2.00, "dilution": null, "note": "heart" },
+        { "material": "Fixateur 505E", "cas": null, "parts": 1.00, "dilution": null, "note": "base" },
+        { "material": "PWX Factor", "cas": null, "parts": 1.00, "dilution": null, "note": "base" },
+        { "material": "Ambroxan", "cas": null, "parts": 1.00, "dilution": null, "note": "base" },
+        { "material": "Iso Mohanol", "cas": null, "parts": 1.50, "dilution": null, "note": "base" },
+        { "material": "Cashmeran", "cas": null, "parts": 0.70, "dilution": null, "note": "base" },
+        { "material": "Oakmoss Absolute", "cas": null, "parts": 0.30, "dilution": null, "note": "base" },
+        { "material": "Labdanum Absolute", "cas": null, "parts": 0.30, "dilution": null, "note": "base" },
+        { "material": "Orcanox", "cas": null, "parts": 0.10, "dilution": null, "note": "base" },
+        { "material": "Amber Xtreme", "cas": null, "parts": 0.10, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": [],
+        "heart": ["Hedione"],
+        "base": ["Iso E Super", "Ethylene Brassylate", "Vertofix Coeur", "Kephalis", "Fixateur 505E", "PWX Factor", "Ambroxan", "Iso Mohanol", "Cashmeran", "Oakmoss Absolute", "Labdanum Absolute", "Orcanox", "Amber Xtreme"]
+      },
+      "smells_like": "Intended as a Molecule 01-style scent (dominant Iso E Super) but softer and deeper. Author's stated goal; no finished-scent description given (a first-formula plan seeking suggestions). Percentages are '% of actives.'",
+      "what_it_does": "Iso E Super at 80% is the transparent woody-cedar backbone; Ethylene Brassylate/Cashmeran/Ambroxan/Orcanox/Amber Xtreme add musk-amber depth and radiance; Vertofix/Kephalis and Oakmoss+Labdanum absolutes add woody-mossy resinous depth; Hedione adds airy floral transparency.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Fougere feedback formula (modern woody-spicy fougere)",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/16iw5p7/feedback_on_my_formula/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "fougere (modern woody-spicy)",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Geraniol", "cas": "106-24-1", "parts": 5, "dilution": "10%", "note": "heart" },
+        { "material": "Citronellol", "cas": null, "parts": 9, "dilution": "10%", "note": "heart" },
+        { "material": "Linalool", "cas": "78-70-6", "parts": 3, "dilution": "10%", "note": "top" },
+        { "material": "Nerol", "cas": null, "parts": 3, "dilution": "10%", "note": "heart" },
+        { "material": "Lavender Absolute", "cas": null, "parts": 7, "dilution": "10%", "note": "heart" },
+        { "material": "Linalyl Acetate", "cas": null, "parts": 5, "dilution": "10%", "note": "top" },
+        { "material": "Vetiver EO", "cas": null, "parts": 5, "dilution": "10%", "note": "base" },
+        { "material": "Patchouli EO", "cas": null, "parts": 2, "dilution": "10%", "note": "base" },
+        { "material": "Oakmoss Absolute", "cas": null, "parts": 1, "dilution": "10%", "note": "base" },
+        { "material": "Veramoss", "cas": null, "parts": 2, "dilution": "10%", "note": "base" },
+        { "material": "Cashmeran", "cas": null, "parts": 1, "dilution": "10%", "note": "base" },
+        { "material": "Tobacco Absolute", "cas": null, "parts": 1, "dilution": "10%", "note": "base" },
+        { "material": "Coumarin", "cas": "91-64-5", "parts": 4, "dilution": "1%", "note": "base" },
+        { "material": "Galaxolide", "cas": "1222-05-5", "parts": 3, "dilution": "5%", "note": "base" },
+        { "material": "Exaltolide", "cas": null, "parts": 1, "dilution": "1%", "note": "base" },
+        { "material": "Methyl Pamplemousse", "cas": null, "parts": 6, "dilution": "10%", "note": "top" },
+        { "material": "Dihydromyrcenol", "cas": null, "parts": 2, "dilution": "10%", "note": "top" },
+        { "material": "Methyl Ionone", "cas": null, "parts": 4, "dilution": "10%", "note": "heart" },
+        { "material": "Hedione", "cas": "24851-98-7", "parts": 15, "dilution": "10%", "note": "heart" },
+        { "material": "Ambrofix", "cas": null, "parts": 5, "dilution": "1%", "note": "base" },
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": 12.5, "dilution": "10%", "note": "base" },
+        { "material": "Black Pepper EO", "cas": null, "parts": 0.5, "dilution": "10%", "note": "top" },
+        { "material": "Eugenol", "cas": "97-53-0", "parts": 1, "dilution": "10%", "note": "heart" },
+        { "material": "Cedar Virginian", "cas": null, "parts": 2, "dilution": "10%", "note": "heart" }
+      ],
+      "pyramid": {
+        "top": ["Linalool", "Linalyl Acetate", "Methyl Pamplemousse", "Dihydromyrcenol", "Black Pepper EO"],
+        "heart": ["Geraniol", "Citronellol", "Nerol", "Lavender Absolute", "Methyl Ionone", "Hedione", "Eugenol", "Cedar Virginian"],
+        "base": ["Vetiver EO", "Patchouli EO", "Oakmoss Absolute", "Veramoss", "Cashmeran", "Tobacco Absolute", "Coumarin", "Galaxolide", "Exaltolide", "Ambrofix", "Iso E Super"]
+      },
+      "smells_like": "A classic fougere accord with a touch of modern, woody, spicy freshness. Author says it's getting to a place they like but has minimal projection and wants more longevity/volume. Per-ingredient rationale given (oakmoss = 'stick your face in a tree stump'; cashmeran = 'dark, musky sexiness, a bit dirty'; tobacco = 'rich, treacley bloke-y basenotes').",
+      "what_it_does": "Geraniol/citronellol/nerol build a geranium accord; lavender absolute + linalyl acetate give the fougere heart; coumarin rounds the bottom with a straw/hay note (fougere essential); vetiver/patchouli/oakmoss/veramoss provide dark woody-mossy depth and tenacity; Hedione + methyl ionone create a diffusive 'cloud'; methyl pamplemousse + dihydromyrcenol add fresh cologne top; Iso E Super smooths; pepper/eugenol add spice.",
+      "confidence": "documented"
+    },
+    {
+      "name": "First Formula Critique (aquatic cologne)",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/1emj39o/first_formula_critique/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "aquatic / fresh cologne",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Hedione", "cas": "24851-98-7", "parts": 0.4, "dilution": "10%", "note": "heart" },
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": 0.2, "dilution": "10%", "note": "base" },
+        { "material": "Galaxolide", "cas": "1222-05-5", "parts": 0.1, "dilution": "10%", "note": "base" },
+        { "material": "Methyl Ionone", "cas": null, "parts": 0.2, "dilution": "10%", "note": "heart" },
+        { "material": "Ethylene Brassylate", "cas": null, "parts": 0.1, "dilution": "10%", "note": "base" },
+        { "material": "Helional", "cas": null, "parts": 0.15, "dilution": "10%", "note": "heart" },
+        { "material": "Dihydromyrcenol", "cas": null, "parts": 0.1, "dilution": "10%", "note": "top" },
+        { "material": "Lemon oil", "cas": null, "parts": 0.05, "dilution": "10%", "note": "top" },
+        { "material": "Bergamot", "cas": null, "parts": 0.1, "dilution": "10%", "note": "top" },
+        { "material": "Rose essence (Firmenich)", "cas": null, "parts": 0.1, "dilution": "10%", "note": "heart" },
+        { "material": "Bitter Orange", "cas": null, "parts": 0.05, "dilution": "10%", "note": "top" },
+        { "material": "Lavender", "cas": null, "parts": 0.05, "dilution": "10%", "note": "heart" },
+        { "material": "Vertofix", "cas": null, "parts": 0.2, "dilution": "10%", "note": "base" },
+        { "material": "Veramoss", "cas": null, "parts": 0.2, "dilution": "10%", "note": "base" },
+        { "material": "Patchouli", "cas": null, "parts": 0.005, "dilution": "10%", "note": "base" },
+        { "material": "Ambroxan", "cas": null, "parts": 0.05, "dilution": "10%", "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Dihydromyrcenol", "Lemon oil", "Bergamot", "Bitter Orange"],
+        "heart": ["Hedione", "Methyl Ionone", "Helional", "Rose essence", "Lavender"],
+        "base": ["Iso E Super", "Galaxolide", "Ethylene Brassylate", "Vertofix", "Veramoss", "Patchouli", "Ambroxan"]
+      },
+      "smells_like": "Author says it 'basically smells like an aquatic cologne' and they like it, but it's 'kinda unfocused.' Built starting from a Tresor-style Grojsman accord at the top, then adding materials they liked. Goal: 'fresh water and wood.'",
+      "what_it_does": "Hedione + methyl ionone + galaxolide form a Grojsman-type radiant floral-musk core; helional and dihydromyrcenol give the aquatic/fresh-water effect; citrus (lemon/bergamot/bitter orange) brighten the top; Iso E Super/vertofix/veramoss/ambroxan supply woody-mossy-amber base. Author considers boosting vertofix and cutting citrus for more focus.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Example recipe for a friend (peppery-rosy grassy floral)",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/1cg693j/example_recipe_for_a_friend/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "green floral / spicy-woody",
+      "concentration": "finished fragrance (perfumers alcohol 1.500 g weighed into a ~2.7 g concentrate)",
+      "ingredients": [
+        { "material": "Perfumers alcohol", "cas": null, "parts": 1.500, "dilution": null, "note": null },
+        { "material": "Rose oxide", "cas": null, "parts": 0.050, "dilution": null, "note": "top" },
+        { "material": "Dehydro-Beta-Ionone", "cas": null, "parts": 0.200, "dilution": null, "note": "heart" },
+        { "material": "Pink pepper", "cas": null, "parts": 0.030, "dilution": null, "note": "top" },
+        { "material": "Anisyl acetone", "cas": null, "parts": 0.110, "dilution": null, "note": "heart" },
+        { "material": "Linalool", "cas": "78-70-6", "parts": 0.060, "dilution": null, "note": "top" },
+        { "material": "Eucalyptol", "cas": null, "parts": 0.020, "dilution": null, "note": "top" },
+        { "material": "Ginger (fresh Madagascar)", "cas": null, "parts": 0.025, "dilution": null, "note": "top" },
+        { "material": "Cedarwood", "cas": null, "parts": 0.160, "dilution": null, "note": "base" },
+        { "material": "Amyris wood", "cas": null, "parts": 0.160, "dilution": null, "note": "base" },
+        { "material": "Oakmoss", "cas": null, "parts": 0.130, "dilution": null, "note": "base" },
+        { "material": "Damascol", "cas": null, "parts": 0.150, "dilution": null, "note": "heart" },
+        { "material": "Yuzu", "cas": null, "parts": 0.020, "dilution": null, "note": "top" },
+        { "material": "Bergamot", "cas": null, "parts": 0.100, "dilution": null, "note": "top" },
+        { "material": "Beta pinene", "cas": null, "parts": 0.040, "dilution": null, "note": "top" },
+        { "material": "Dry grass essence", "cas": null, "parts": 0.020, "dilution": null, "note": "heart" },
+        { "material": "Tobacarol", "cas": null, "parts": 0.160, "dilution": null, "note": "base" },
+        { "material": "Galaxolide 50% in IPM", "cas": "1222-05-5", "parts": 0.150, "dilution": "50%", "note": "base" },
+        { "material": "Karmawood", "cas": null, "parts": 0.040, "dilution": null, "note": "base" },
+        { "material": "Ambrettolide", "cas": null, "parts": 0.025, "dilution": null, "note": "base" },
+        { "material": "Habanolide", "cas": null, "parts": 0.020, "dilution": null, "note": "base" },
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": 0.160, "dilution": null, "note": "base" },
+        { "material": "Hedione HC", "cas": null, "parts": 0.350, "dilution": null, "note": "heart" },
+        { "material": "Ethyl linalyl acetate", "cas": null, "parts": 0.070, "dilution": null, "note": "top" },
+        { "material": "Coumarin", "cas": "91-64-5", "parts": 0.015, "dilution": null, "note": "base" },
+        { "material": "Bacdanol", "cas": null, "parts": 0.520, "dilution": null, "note": "base" },
+        { "material": "Bornafix", "cas": null, "parts": 0.200, "dilution": null, "note": "base" },
+        { "material": "Ethylene brassylate", "cas": null, "parts": 0.040, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Rose oxide", "Pink pepper", "Linalool", "Eucalyptol", "Ginger", "Yuzu", "Bergamot", "Beta pinene", "Ethyl linalyl acetate"],
+        "heart": ["Dehydro-Beta-Ionone", "Anisyl acetone", "Damascol", "Dry grass essence", "Hedione HC"],
+        "base": ["Cedarwood", "Amyris wood", "Oakmoss", "Tobacarol", "Galaxolide", "Karmawood", "Ambrettolide", "Habanolide", "Iso E Super", "Coumarin", "Bacdanol", "Bornafix", "Ethylene brassylate"]
+      },
+      "smells_like": "Floral, dewy-citrus opening reminiscent of clean sheets; a sweet dewy-floral body with metallic rose-oxide flickers; gradually shifts to cedar/Iso E Super woods, then a gourmand-sweet, coumarin + soft-musk close that is darker and more skin-close. Predominantly a clean, grassy scent. Yuzu 'is quite a bully' but harmonizes with the grass essence.",
+      "what_it_does": "Rose oxide + pink pepper + ginger = peppery/spicy facets; dehydro-beta-ionone/damascol/anisyl acetone build a violet-rosy floral; yuzu/bergamot/beta pinene/dry grass = fresh dewy-grassy top; cedar/amyris/oakmoss + Iso E Super/bacdanol/bornafix woody base; galaxolide/habanolide/ambrettolide/ethylene brassylate musks + coumarin give a soft gourmand skin drydown. Documented as a step-by-step building process with tasting notes at each stage.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Vanilla accord (dark vanilla)",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/1ki20k6/vanilla_accord/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "gourmand / vanilla accord",
+      "concentration": "~20% concentrate (after adding 3.5 g DPG)",
+      "ingredients": [
+        { "material": "Vanillin", "cas": "121-33-5", "parts": 0.87, "dilution": "100%", "note": "base" },
+        { "material": "Cocoa Roasted", "cas": null, "parts": 0.1, "dilution": "100%", "note": "base" },
+        { "material": "Cocoa Resinoid", "cas": null, "parts": 0.1, "dilution": "10%", "note": "base" },
+        { "material": "Coumarin", "cas": "91-64-5", "parts": 0.13, "dilution": "10%", "note": "base" },
+        { "material": "Delta Decalactone", "cas": null, "parts": 0.156, "dilution": "10%", "note": "base" },
+        { "material": "Aldehyde C18", "cas": null, "parts": 0.08, "dilution": "10%", "note": "base" },
+        { "material": "Veramoss", "cas": null, "parts": 0.125, "dilution": "10%", "note": "base" },
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": 0.12, "dilution": "100%", "note": "base" },
+        { "material": "Labdanum Resinoid", "cas": null, "parts": 0.15, "dilution": "10%", "note": "base" },
+        { "material": "Benzoin Resinoid", "cas": null, "parts": 0.135, "dilution": "5%", "note": "base" },
+        { "material": "Honey Signature", "cas": null, "parts": 0.035, "dilution": "10%", "note": "base" },
+        { "material": "Ethyl Maltol", "cas": null, "parts": 0.05, "dilution": "2%", "note": "base" },
+        { "material": "Kephalis", "cas": null, "parts": 0.1, "dilution": "100%", "note": "base" },
+        { "material": "DPG", "cas": null, "parts": 3.5, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": [],
+        "heart": [],
+        "base": ["Vanillin", "Cocoa Roasted", "Cocoa Resinoid", "Coumarin", "Delta Decalactone", "Aldehyde C18", "Veramoss", "Iso E Super", "Labdanum Resinoid", "Benzoin Resinoid", "Honey Signature", "Ethyl Maltol", "Kephalis"]
+      },
+      "smells_like": "Smells nice but reads more cocoa than vanilla at first; the vanilla emerges on drydown. Author thinks it may work better labeled a 'dark vanilla' accord than a straight vanilla. Wonders if vanillin needs time to mature.",
+      "what_it_does": "Vanillin is the dominant vanilla body; cocoa roasted + cocoa resinoid add dark chocolate; coumarin + delta decalactone + C18 add creamy hay/coconut warmth; labdanum + benzoin resinoids and honey give amber-resinous sweetness; ethyl maltol adds sugary lift; veramoss/Iso E Super/kephalis add dry contrast; DPG dilutes to ~20%.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Beachside gardens (built from 3 accords)",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/1is8owu/made_my_first_formula_but_feels_like_something_is/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "fresh / creamy floral-aquatic",
+      "concentration": "10% dilutions (all materials)",
+      "ingredients": [
+        { "material": "Ylang Ylang", "cas": null, "parts": 40, "dilution": "10%", "note": "heart" },
+        { "material": "Amyl Salicylate", "cas": null, "parts": 30, "dilution": "10%", "note": "heart" },
+        { "material": "Vanillin", "cas": "121-33-5", "parts": 30, "dilution": "10%", "note": "base" },
+        { "material": "Ambroxan", "cas": null, "parts": 30, "dilution": "10%", "note": "base" },
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": 20, "dilution": "10%", "note": "base" },
+        { "material": "Exaltolide", "cas": null, "parts": 10, "dilution": "10%", "note": "base" },
+        { "material": "Hedione", "cas": "24851-98-7", "parts": 50, "dilution": "10%", "note": "heart" },
+        { "material": "Bergamot EO", "cas": null, "parts": 40, "dilution": "10%", "note": "top" },
+        { "material": "Lemon EO", "cas": null, "parts": 10, "dilution": "10%", "note": "top" },
+        { "material": "Lavender EO", "cas": null, "parts": 10, "dilution": "10%", "note": "heart" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot EO", "Lemon EO"],
+        "heart": ["Ylang Ylang", "Amyl Salicylate", "Hedione", "Lavender EO"],
+        "base": ["Vanillin", "Ambroxan", "Iso E Super", "Exaltolide"]
+      },
+      "smells_like": "A fresh, creamy scent; the creamy floral accord dominates (author finds this pleasant with the ocean freshness but wants more uplift). Feels 'nice but not complete'. Theme: beachside gardens.",
+      "what_it_does": "Built from three sub-accords combined at Ocean Freshness 40% / Creamy Floral 30% / Floral-Citrus Brightness 30%. Creamy floral (ylang/amyl salicylate/vanillin) gives suntan-lotion creaminess; ocean fresh (ambroxan/Iso E Super/exaltolide) gives clean musky-amber freshness; floral-citrus (hedione/bergamot/lemon/lavender) brightens. NOTE: the listed 'parts' are within-accord percentages (each accord sums to 100), then blended 40/30/30.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Second try at Perfume concentrate (citrus-mossy)",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/1havlzb/second_try_at_perfume_concentrate/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "citrus / chypre-ish (mossy)",
+      "concentration": "concentrate (matured ~1 day)",
+      "ingredients": [
+        { "material": "Galaxolide", "cas": "1222-05-5", "parts": 0.10, "dilution": null, "note": "base" },
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": 0.20, "dilution": null, "note": "base" },
+        { "material": "Oakmoss Absolute", "cas": null, "parts": 0.07, "dilution": null, "note": "base" },
+        { "material": "Vetiver", "cas": null, "parts": 0.10, "dilution": null, "note": "base" },
+        { "material": "Lavender EO", "cas": null, "parts": 0.1, "dilution": null, "note": "heart" },
+        { "material": "Hedione", "cas": "24851-98-7", "parts": 0.2, "dilution": null, "note": "heart" },
+        { "material": "Neroli EO", "cas": null, "parts": 0.1, "dilution": null, "note": "heart" },
+        { "material": "Orange EO", "cas": null, "parts": 0.08, "dilution": null, "note": "top" },
+        { "material": "Bergamot", "cas": null, "parts": 0.15, "dilution": null, "note": "top" }
+      ],
+      "pyramid": {
+        "top": ["Orange EO", "Bergamot"],
+        "heart": ["Lavender EO", "Hedione", "Neroli EO"],
+        "base": ["Galaxolide", "Iso E Super", "Oakmoss Absolute", "Vetiver"]
+      },
+      "smells_like": "Citrusy on first greeting, then a notable oakmoss (herbaceous) note that the author admits is overdosed, with some depth/citrus from galaxolide and Iso E Super. Projection is mid-to-high (rated overall good). Author feels florals are missing (only two).",
+      "what_it_does": "Author explicitly structured it as base/mid/top. Bergamot + orange = citrus opening; neroli/lavender/hedione = floral-aromatic heart; galaxolide (musk) + Iso E Super + oakmoss + vetiver = mossy-woody-musky base and fixation. Author asks how to add floral depth and boost projection.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Tropical Fruity (beach cocktail sketch)",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/1j9kslr/tropical_fruity/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "fruity / fresh",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Methyl Pamplemousse", "cas": null, "parts": 0.4, "dilution": null, "note": "top" },
+        { "material": "Gamma Hexalactone", "cas": null, "parts": 0.06, "dilution": null, "note": "heart" },
+        { "material": "Velberry", "cas": null, "parts": 0.1, "dilution": null, "note": "heart" },
+        { "material": "Stemone", "cas": null, "parts": 0.03, "dilution": null, "note": "top" },
+        { "material": "Lavender", "cas": null, "parts": 0.025, "dilution": null, "note": "heart" },
+        { "material": "Bergamot", "cas": null, "parts": 0.16, "dilution": null, "note": "top" },
+        { "material": "Melonal", "cas": null, "parts": 0.02, "dilution": "10%", "note": "top" },
+        { "material": "Alpha Damascone", "cas": null, "parts": 0.01, "dilution": null, "note": "heart" },
+        { "material": "Citronellol", "cas": null, "parts": 0.01, "dilution": null, "note": "heart" },
+        { "material": "Ethyl Butyrate", "cas": null, "parts": 0.03, "dilution": "10%", "note": "top" },
+        { "material": "Ethyl Acetate", "cas": null, "parts": 0.01, "dilution": "10%", "note": "top" },
+        { "material": "C12 MNA", "cas": null, "parts": 0.014, "dilution": "1%", "note": "base" },
+        { "material": "Vanillin", "cas": "121-33-5", "parts": 0.01, "dilution": "10%", "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Methyl Pamplemousse", "Stemone", "Bergamot", "Melonal", "Ethyl Butyrate", "Ethyl Acetate"],
+        "heart": ["Gamma Hexalactone", "Velberry", "Lavender", "Alpha Damascone", "Citronellol"],
+        "base": ["C12 MNA", "Vanillin"]
+      },
+      "smells_like": "A sketch for a fruity-fresh cocktail beach fragrance. Author notes ethyl acetate gave a sweet tone, C12 gave 'a bit of spark,' but the Gamma Hexalactone has a 'papery tone' they dislike and dominates. Not a finished/described result.",
+      "what_it_does": "Methyl pamplemousse + bergamot + melonal build a grapefruit/melon citrus top; ethyl butyrate/ethyl acetate add fruity-sweet sparkle; velberry + damascone bring red-berry/fruity heart; gamma hexalactone/vanillin add creamy sweetness; C12 MNA adds a fresh 'spark'; lavender/citronellol add lift.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Sweet/woody/ambery essential-oil formula",
+      "source_url": "https://www.reddit.com/r/DIYfragrance/comments/12inrz2/help_essential_oil_formulation/",
+      "source": "Reddit r/DIYfragrance",
+      "family": "amber / woody-sweet (all natural EO)",
+      "concentration": "20% raw materials in 80% alcohol",
+      "ingredients": [
+        { "material": "Cardamom EO", "cas": null, "parts": 3, "dilution": null, "note": "top" },
+        { "material": "Ylang Ylang #3 EO", "cas": null, "parts": 3, "dilution": null, "note": "heart" },
+        { "material": "Vetiver (25% dilution)", "cas": null, "parts": 5, "dilution": "25%", "note": "base" },
+        { "material": "Vanilla", "cas": null, "parts": 6, "dilution": null, "note": "base" },
+        { "material": "Sweet Birch EO", "cas": null, "parts": 1, "dilution": null, "note": "heart" },
+        { "material": "Benzoin Resinoid (Styrax Benzoin)", "cas": null, "parts": 3, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Cardamom EO"],
+        "heart": ["Ylang Ylang #3", "Sweet Birch EO"],
+        "base": ["Vetiver", "Vanilla", "Benzoin Resinoid"]
+      },
+      "smells_like": "Author was aiming for sweet/woody/ambery but reports it 'oddly smells like a smokey mouthwash.' Diluting the vetiver to 25% added depth and let other notes come through. Measurements given in drops.",
+      "what_it_does": "Vanilla + benzoin resinoid provide the sweet ambery-balsamic base; vetiver adds woody depth; cardamom gives a spicy top; ylang ylang adds floral; sweet birch contributes the wintergreen/smoky facet (likely the source of the 'mouthwash' impression). Author is troubleshooting the smoky-medicinal result.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Tobacco Rose Chypre (simple formula from Matt)",
+      "source_url": "https://basenotes.com/community/threads/tobacco-rose-chypre-simple-formula-from-matt.450101/",
+      "source": "Basenotes community forum",
+      "family": "chypre (woody/leather rose)",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Labdanum", "cas": null, "parts": 5, "dilution": null, "note": "base" },
+        { "material": "Vanillin", "cas": "121-33-5", "parts": 0.8, "dilution": "10%", "note": "base" },
+        { "material": "Benzoin", "cas": null, "parts": 0.7, "dilution": null, "note": "base" },
+        { "material": "Ambergris (or synthetic)", "cas": null, "parts": 0.1, "dilution": null, "note": "base" },
+        { "material": "Bergamot", "cas": null, "parts": 5, "dilution": null, "note": "top" },
+        { "material": "Lime", "cas": null, "parts": 2, "dilution": null, "note": "top" },
+        { "material": "Oakmoss", "cas": null, "parts": 0.5, "dilution": null, "note": "base" },
+        { "material": "Patchouli (5 year)", "cas": null, "parts": 0.3, "dilution": null, "note": "base" },
+        { "material": "Bitter orange", "cas": null, "parts": 0.2, "dilution": null, "note": "top" },
+        { "material": "Lavender (high alps)", "cas": null, "parts": 0.1, "dilution": null, "note": "heart" },
+        { "material": "Clary sage", "cas": null, "parts": 0.1, "dilution": null, "note": "heart" },
+        { "material": "Neroli", "cas": null, "parts": 0.1, "dilution": null, "note": "heart" },
+        { "material": "Rosemary", "cas": null, "parts": 0.035, "dilution": null, "note": "top" },
+        { "material": "Civet", "cas": null, "parts": 1.5, "dilution": "1.5%", "note": "base" },
+        { "material": "Timbersilk", "cas": null, "parts": 0.3, "dilution": null, "note": "base" },
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": 0.7, "dilution": null, "note": "base" },
+        { "material": "Tobacco absolute (per 10g of 10% base)", "cas": null, "parts": null, "dilution": "5%, 4 drops", "note": "heart" },
+        { "material": "Rose otto (per 10g of base)", "cas": null, "parts": null, "dilution": "10%, 8 drops", "note": "heart" },
+        { "material": "Coumarin (per 10g of base)", "cas": "91-64-5", "parts": null, "dilution": "10%, 10 drops", "note": "base" },
+        { "material": "Citronellal (per 10g of base)", "cas": "106-23-0", "parts": null, "dilution": "8 drops", "note": "top" },
+        { "material": "Vanillin (per 10g of base)", "cas": "121-33-5", "parts": null, "dilution": "10%, 6 drops", "note": "base" },
+        { "material": "Cedryl acetate (per 10g of base)", "cas": null, "parts": null, "dilution": "6 drops", "note": "base" },
+        { "material": "Black pepper (per 10g of base)", "cas": null, "parts": null, "dilution": "4 drops", "note": "top" },
+        { "material": "Dorinia / rose absolute (per 10g of base)", "cas": null, "parts": null, "dilution": "2 drops", "note": "heart" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Lime", "Bitter orange", "Rosemary", "Citronellal", "Black pepper"],
+        "heart": ["Rose otto", "Tobacco absolute", "Lavender", "Clary sage", "Neroli", "Dorinia rose"],
+        "base": ["Labdanum", "Oakmoss", "Patchouli", "Benzoin", "Vanillin", "Civet", "Coumarin", "Cedryl acetate", "Iso E Super", "Timbersilk", "Ambergris"]
+      },
+      "smells_like": "A woody, masculine leather, rose and tobacco scent. The rested base is described as a complex, rich, thick chypre.",
+      "what_it_does": "A natural chypre accord (bergamot/oakmoss/patchouli/civet) plus an amber base is rested 1 month, then rose + tobacco + coumarin are layered on per 10g of the 10% solution to give a leathery tobacco-rose chypre; Iso E Super and Timbersilk add lift and diffusion.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Beginners Floral Chypre Formula from Matt",
+      "source_url": "https://basenotes.com/community/threads/beginners-floral-chypre-formula-from-matt.444621/",
+      "source": "Basenotes community forum",
+      "family": "floral chypre",
+      "concentration": "~35% dilution (mostly natural)",
+      "ingredients": [
+        { "material": "Bergamot", "cas": null, "parts": 5, "dilution": "100%", "note": "top" },
+        { "material": "Jasmine specialty", "cas": null, "parts": 4, "dilution": "20%", "note": "heart" },
+        { "material": "Dorinia (or rose otto/absolute)", "cas": null, "parts": 2.5, "dilution": "10%", "note": "heart" },
+        { "material": "Bergamot", "cas": null, "parts": 1, "dilution": "100%", "note": "heart" },
+        { "material": "Ylang ylang", "cas": null, "parts": 0.6, "dilution": "100%", "note": "heart" },
+        { "material": "Jasmine specialty", "cas": null, "parts": 0.3, "dilution": "100%", "note": "heart" },
+        { "material": "Dorinia", "cas": null, "parts": 0.3, "dilution": "100%", "note": "heart" },
+        { "material": "Bergamot", "cas": null, "parts": 2, "dilution": "100%", "note": "base" },
+        { "material": "Oakmoss (absolute paste)", "cas": null, "parts": 1, "dilution": "100%", "note": "base" },
+        { "material": "Patchouli", "cas": null, "parts": 2.5, "dilution": "10%", "note": "base" },
+        { "material": "Vetiver", "cas": null, "parts": 2, "dilution": "10%", "note": "base" },
+        { "material": "Sandalwood Givco", "cas": null, "parts": 1, "dilution": "100%", "note": "base" },
+        { "material": "Vanillin", "cas": "121-33-5", "parts": 0.65, "dilution": "100%", "note": "base" },
+        { "material": "Benzoin Clear", "cas": null, "parts": 0.5, "dilution": "100%", "note": "base" },
+        { "material": "Tonquitone musk", "cas": null, "parts": 0.5, "dilution": "5%", "note": "base" },
+        { "material": "Isoralderine 95", "cas": null, "parts": 0.3, "dilution": "10%", "note": "base" },
+        { "material": "Styrax", "cas": null, "parts": 0.25, "dilution": "100%", "note": "base" },
+        { "material": "Alpha ionone", "cas": "127-41-3", "parts": 0.25, "dilution": "10%", "note": "base" },
+        { "material": "Velvetone", "cas": null, "parts": 0.15, "dilution": "10%", "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot"],
+        "heart": ["Jasmine", "Dorinia/rose", "Ylang ylang"],
+        "base": ["Oakmoss", "Patchouli", "Vetiver", "Sandalwood", "Vanillin", "Benzoin", "Tonquitone musk", "Styrax", "Alpha ionone", "Velvetone"]
+      },
+      "smells_like": "Author says it is 'similar to a 1900-1915 chypre floral' - a classic mossy, jasmine-rose floral chypre. Total ~20 g, ~35% dilution.",
+      "what_it_does": "Jasmine/rose/ylang heart sits over an oakmoss-patchouli-vetiver chypre base; ionone + velvetone add powdery-violet softness and musk/benzoin give a vintage floral-chypre body.",
+      "confidence": "documented"
+    },
+    {
+      "name": "New simple perfume formula from Matt (Mousse de Saxe vintage floral)",
+      "source_url": "https://basenotes.com/community/threads/new-simple-perfume-formula-from-matt.444662/",
+      "source": "Basenotes community forum",
+      "family": "floral / powdery chypre (vintage Mousse de Saxe style)",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Geranium (Mousse de Saxe)", "cas": null, "parts": 2, "dilution": null, "note": "heart" },
+        { "material": "Anise (Mousse de Saxe)", "cas": null, "parts": 1, "dilution": null, "note": "heart" },
+        { "material": "Oakmoss (Mousse de Saxe)", "cas": null, "parts": 1, "dilution": null, "note": "base" },
+        { "material": "Bergamot (Mousse de Saxe)", "cas": null, "parts": 1, "dilution": null, "note": "top" },
+        { "material": "Labdanum (Mousse de Saxe)", "cas": null, "parts": 0.5, "dilution": null, "note": "base" },
+        { "material": "Galbanum (Mousse de Saxe)", "cas": null, "parts": 0.25, "dilution": null, "note": "top" },
+        { "material": "Civet (Mousse de Saxe)", "cas": null, "parts": 0.5, "dilution": "3%", "note": "base" },
+        { "material": "Agarwood P.A. (Mousse de Saxe)", "cas": null, "parts": null, "dilution": "1 drop", "note": "base" },
+        { "material": "Hexenol (cis-3, Mousse de Saxe)", "cas": "928-96-1", "parts": 0.1, "dilution": "10%", "note": "top" },
+        { "material": "Bergamot", "cas": null, "parts": 2, "dilution": null, "note": "top" },
+        { "material": "Pink grapefruit", "cas": null, "parts": 2, "dilution": null, "note": "top" },
+        { "material": "Linalool", "cas": "78-70-6", "parts": 2, "dilution": null, "note": "top" },
+        { "material": "Ylang ylang", "cas": null, "parts": 0.5, "dilution": null, "note": "top" },
+        { "material": "Rose otto", "cas": null, "parts": 1, "dilution": null, "note": "heart" },
+        { "material": "Berryflor", "cas": null, "parts": 1, "dilution": null, "note": "heart" },
+        { "material": "Jasmine specialty", "cas": null, "parts": 0.75, "dilution": null, "note": "heart" },
+        { "material": "Ylang extra", "cas": null, "parts": 0.5, "dilution": null, "note": "heart" },
+        { "material": "Sandalwood 230 Givco", "cas": null, "parts": 0.5, "dilution": null, "note": "base" },
+        { "material": "Vetiver double distilled", "cas": null, "parts": 2.5, "dilution": "10%", "note": "base" },
+        { "material": "Velvetone 470", "cas": null, "parts": 0.5, "dilution": null, "note": "base" },
+        { "material": "Vanillin", "cas": "121-33-5", "parts": 0.5, "dilution": null, "note": "base" },
+        { "material": "Tonquitone musk", "cas": null, "parts": 0.5, "dilution": null, "note": "base" },
+        { "material": "Sandalore", "cas": null, "parts": 0.5, "dilution": null, "note": "base" },
+        { "material": "Sandwood Givco 470", "cas": null, "parts": 0.5, "dilution": null, "note": "base" },
+        { "material": "Alpha ionone", "cas": "127-41-3", "parts": 0.5, "dilution": "3%", "note": "base" },
+        { "material": "Vetiver", "cas": null, "parts": 2, "dilution": "10%", "note": "base" },
+        { "material": "Mousse de Saxe (finished base)", "cas": null, "parts": 1, "dilution": null, "note": "base" },
+        { "material": "Galaxolide", "cas": "1222-05-5", "parts": 1, "dilution": "50%", "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot", "Pink grapefruit", "Linalool", "Ylang ylang", "Galbanum", "Hexenol"],
+        "heart": ["Rose otto", "Berryflor", "Jasmine", "Ylang extra", "Geranium", "Anise"],
+        "base": ["Oakmoss", "Labdanum", "Vetiver", "Sandalwood/Sandalore", "Vanillin", "Tonquitone musk", "Galaxolide", "Alpha ionone", "Civet", "Mousse de Saxe"]
+      },
+      "smells_like": "Author: made 'mostly with naturals to purposely recreate a vintage-type, dense-floral, yet powdery scent' that 'rests closer to the skin.'",
+      "what_it_does": "A pre-built Mousse de Saxe accord (geranium/anise/oakmoss/labdanum/civet), 1 g, is dropped into the base to give a dense powdery vintage character under a rose-jasmine-ylang floral heart; ionone + velvetone add powder, galaxolide/musks add persistence and skin-close diffusion.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Formula 3. Chypre (Basenotes)",
+      "source_url": "https://basenotes.com/community/threads/formula-3-chypre.534166/",
+      "source": "Basenotes community forum",
+      "family": "chypre",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Bergamot oil", "cas": null, "parts": 225, "dilution": null, "note": "top" },
+        { "material": "Rhodinol", "cas": "6812-78-8", "parts": 80, "dilution": null, "note": "heart" },
+        { "material": "Ylang oil", "cas": null, "parts": 65, "dilution": null, "note": "heart" },
+        { "material": "Benzyl salicylate", "cas": "118-58-1", "parts": 70, "dilution": null, "note": "base" },
+        { "material": "Sandalwood oil", "cas": null, "parts": 70, "dilution": null, "note": "base" },
+        { "material": "Vetiver oil (vetyvert)", "cas": null, "parts": 75, "dilution": null, "note": "base" },
+        { "material": "Coumarin", "cas": "91-64-5", "parts": 70, "dilution": null, "note": "base" },
+        { "material": "Heliotropine", "cas": "120-57-0", "parts": 100, "dilution": null, "note": "base" },
+        { "material": "Oakmoss absolute", "cas": null, "parts": 50, "dilution": null, "note": "base" },
+        { "material": "Musk ketone", "cas": "81-14-1", "parts": 50, "dilution": null, "note": "base" },
+        { "material": "Benzyl acetate", "cas": "140-11-4", "parts": 50, "dilution": null, "note": "heart" },
+        { "material": "Cinnamic alcohol", "cas": "104-54-1", "parts": 50, "dilution": null, "note": "heart" },
+        { "material": "Isoeugenol", "cas": "97-54-1", "parts": 35, "dilution": null, "note": "heart" },
+        { "material": "Patchouli oil", "cas": null, "parts": 10, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot"],
+        "heart": ["Rhodinol", "Ylang", "Benzyl acetate", "Cinnamic alcohol", "Isoeugenol"],
+        "base": ["Oakmoss", "Patchouli", "Vetiver", "Sandalwood", "Coumarin", "Heliotropine", "Musk ketone", "Benzyl salicylate"]
+      },
+      "smells_like": "Not explicitly described by the poster; structure is a classic bergamot-over-oakmoss chypre with a powdery (heliotropine/coumarin) floral heart.",
+      "what_it_does": "Textbook chypre skeleton: bergamot top, rosy-floral (rhodinol/ylang) heart, oakmoss-patchouli-vetiver mossy base rounded with coumarin, heliotropine and musk ketone.",
+      "confidence": "documented"
+    },
+    {
+      "name": "My very first chypre formula (Basenotes user)",
+      "source_url": "https://basenotes.com/community/threads/my-very-first-chypre-formula.565410/",
+      "source": "Basenotes community forum",
+      "family": "chypre",
+      "concentration": "15% in ethanol",
+      "ingredients": [
+        { "material": "Romandolide", "cas": "236391-76-7", "parts": 9, "dilution": null, "note": "base" },
+        { "material": "Bergamot", "cas": null, "parts": 8, "dilution": null, "note": "top" },
+        { "material": "Rose absolute", "cas": null, "parts": 8, "dilution": null, "note": "heart" },
+        { "material": "Patchouli", "cas": null, "parts": 3.5, "dilution": null, "note": "base" },
+        { "material": "Galaxolide", "cas": "1222-05-5", "parts": 3, "dilution": null, "note": "base" },
+        { "material": "Musk T", "cas": null, "parts": 0.3, "dilution": null, "note": "base" },
+        { "material": "Oakmoss absolute", "cas": null, "parts": null, "dilution": null, "note": "base" },
+        { "material": "Labdanum resinoid", "cas": null, "parts": null, "dilution": null, "note": "base" },
+        { "material": "Clove EO", "cas": null, "parts": null, "dilution": null, "note": "heart" },
+        { "material": "Clary sage EO", "cas": null, "parts": null, "dilution": null, "note": "heart" },
+        { "material": "Cinnamon bark EO", "cas": null, "parts": null, "dilution": null, "note": "heart" },
+        { "material": "Florol", "cas": "63500-71-0", "parts": null, "dilution": null, "note": "heart" },
+        { "material": "Hedione", "cas": "24851-98-7", "parts": null, "dilution": null, "note": "heart" },
+        { "material": "Heliotropin", "cas": "120-57-0", "parts": null, "dilution": null, "note": "base" },
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": null, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot"],
+        "heart": ["Rose absolute", "Hedione", "Florol", "Clove", "Clary sage", "Cinnamon bark"],
+        "base": ["Oakmoss", "Labdanum", "Patchouli", "Romandolide", "Galaxolide", "Musk T", "Iso E Super", "Heliotropin"]
+      },
+      "smells_like": "Author says they are 'enjoying how the proportions have turned out' at 15% in ethanol after a month of aging; a rosy, spicy mossy chypre. Plans to add Muscenone/Musk ketone/Habanolide.",
+      "what_it_does": "Rose + spice (clove/cinnamon/clary sage) heart on an oakmoss-labdanum-patchouli chypre base; Romandolide/Galaxolide/Musk T give clean musky diffusion, Hedione/Florol add luminous transparency. Proportions for oakmoss/labdanum/clove/clary/cinnamon/florol/hedione/heliotropin/Iso E were not fully indexed.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Chypre base (Good Scents demo, US Patent 4,696,766)",
+      "source_url": "https://www.thegoodscentscompany.com/demos/dm1697881.html",
+      "source": "The Good Scents Company (patent-derived demo)",
+      "family": "chypre (woody-rose)",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Rose base (synthetic)", "cas": null, "parts": 400, "dilution": null, "note": "heart" },
+        { "material": "Bergamot oil, bergaptene reduced", "cas": null, "parts": 300, "dilution": null, "note": "top" },
+        { "material": "Acetyl cedrene", "cas": "32388-55-9", "parts": 200, "dilution": null, "note": "base" },
+        { "material": "Oakmoss soluble resin", "cas": null, "parts": 60, "dilution": null, "note": "base" },
+        { "material": "Vetiver oil bourbon", "cas": null, "parts": 20, "dilution": null, "note": "base" },
+        { "material": "DIPG (dipropylene glycol, diluent)", "cas": "25265-71-8", "parts": 15, "dilution": null, "note": null },
+        { "material": "Ebanol", "cas": "67801-20-1", "parts": 5, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot"],
+        "heart": ["Synthetic rose base"],
+        "base": ["Acetyl cedrene", "Oakmoss", "Vetiver", "Ebanol"]
+      },
+      "smells_like": "No per-formula prose (technical patent demo); structurally a woody-rose chypre, bergamot over a synthetic rose with cedar/sandalwood-ish woods and oakmoss. Totals 1000.",
+      "what_it_does": "Minimalist modern chypre: large rose base + bergamot carried on acetyl cedrene woods with a small oakmoss/vetiver mossy foundation and Ebanol (sandalwood) creaminess.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Chypre base (Good Scents demo, US Patent 4,549,029)",
+      "source_url": "https://www.thegoodscentscompany.com/demos/dm1697881.html",
+      "source": "The Good Scents Company (patent-derived demo)",
+      "family": "chypre",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Bergamot, synthetic", "cas": null, "parts": 355, "dilution": null, "note": "top" },
+        { "material": "Raldeine", "cas": null, "parts": 100, "dilution": null, "note": "heart" },
+        { "material": "Patchouli oil", "cas": null, "parts": 75, "dilution": null, "note": "base" },
+        { "material": "Oakmoss soluble resin", "cas": null, "parts": 60, "dilution": null, "note": "base" },
+        { "material": "Vetiver acetate", "cas": null, "parts": 50, "dilution": null, "note": "base" },
+        { "material": "Geraniol", "cas": "106-24-1", "parts": 50, "dilution": null, "note": "heart" },
+        { "material": "Ylang ylang oil", "cas": null, "parts": 50, "dilution": null, "note": "heart" },
+        { "material": "Musk ketone", "cas": "81-14-1", "parts": 50, "dilution": null, "note": "base" },
+        { "material": "Lavender oil 38/42", "cas": null, "parts": 50, "dilution": null, "note": "heart" },
+        { "material": "Civet tincture", "cas": null, "parts": 40, "dilution": "2%", "note": "base" },
+        { "material": "Coumarin", "cas": "91-64-5", "parts": 30, "dilution": null, "note": "base" },
+        { "material": "Phenethyl alcohol", "cas": "60-12-8", "parts": 25, "dilution": null, "note": "heart" },
+        { "material": "Musk ambrette replacer", "cas": null, "parts": 25, "dilution": null, "note": "base" },
+        { "material": "DIPG (diluent)", "cas": "25265-71-8", "parts": 20, "dilution": null, "note": null },
+        { "material": "Labdanum resinoid", "cas": null, "parts": 10, "dilution": null, "note": "base" },
+        { "material": "Estragol", "cas": "140-67-0", "parts": 10, "dilution": null, "note": "heart" }
+      ],
+      "pyramid": {
+        "top": ["Synthetic bergamot", "Estragol"],
+        "heart": ["Raldeine", "Geraniol", "Ylang ylang", "Lavender", "Phenethyl alcohol"],
+        "base": ["Patchouli", "Oakmoss", "Vetiver acetate", "Labdanum", "Coumarin", "Musk ketone", "Musk ambrette replacer", "Civet"]
+      },
+      "smells_like": "No per-formula prose (patent demo); a fuller aromatic-floral chypre with lavender/ylang and a patchouli-oakmoss-labdanum base. Totals 1000.",
+      "what_it_does": "Classic aromatic chypre: bergamot-forward top, floral heart (raldeine/geraniol/ylang/lavender), rich mossy-animalic base with civet, coumarin and dual musks.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Basic Chypre (essential-oil, 100 parts)",
+      "source_url": "https://thegreatestsmellever.com/essential-oil-perfume-recipes/",
+      "source": "thegreatestsmellever.com",
+      "family": "chypre (woody/citrus)",
+      "concentration": "diluted in alcohol; rest 2-6 weeks",
+      "ingredients": [
+        { "material": "Bergamot", "cas": null, "parts": 64, "dilution": null, "note": "top" },
+        { "material": "Oakmoss absolute", "cas": null, "parts": 24, "dilution": null, "note": "base" },
+        { "material": "Labdanum", "cas": null, "parts": 12, "dilution": null, "note": "base" }
+      ],
+      "pyramid": { "top": ["Bergamot"], "heart": [], "base": ["Oakmoss", "Labdanum"] },
+      "smells_like": "Author: 'Warm and woody base with a crisp citrus top.'",
+      "what_it_does": "Minimal 3-material chypre demonstrating the core bergamot-oakmoss-labdanum triad; labdanum sweetens and fixes the mossy base under bright bergamot.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Floral Chypre (essential-oil, 100 parts)",
+      "source_url": "https://thegreatestsmellever.com/essential-oil-perfume-recipes/",
+      "source": "thegreatestsmellever.com",
+      "family": "floral chypre",
+      "concentration": "diluted in alcohol; rest 2-6 weeks",
+      "ingredients": [
+        { "material": "Bergamot", "cas": null, "parts": 36, "dilution": null, "note": "top" },
+        { "material": "Oakmoss absolute", "cas": null, "parts": 20, "dilution": null, "note": "base" },
+        { "material": "Labdanum", "cas": null, "parts": 10, "dilution": null, "note": "base" },
+        { "material": "Jasmine", "cas": null, "parts": 10, "dilution": null, "note": "heart" },
+        { "material": "Rose", "cas": null, "parts": 5, "dilution": null, "note": "heart" },
+        { "material": "Ylang-ylang", "cas": null, "parts": 5, "dilution": null, "note": "heart" },
+        { "material": "Patchouli", "cas": null, "parts": 5, "dilution": null, "note": "base" },
+        { "material": "Lavender", "cas": null, "parts": 5, "dilution": null, "note": "heart" },
+        { "material": "Vetiver", "cas": null, "parts": 4, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot"],
+        "heart": ["Jasmine", "Rose", "Ylang-ylang", "Lavender"],
+        "base": ["Oakmoss", "Labdanum", "Patchouli", "Vetiver"]
+      },
+      "smells_like": "Listed under the site's chypre set (floral chypre); mossy-woody base with a full white/rose floral heart. No standalone prose for this variant.",
+      "what_it_does": "Expands the basic chypre triad with a jasmine-rose-ylang floral heart and adds patchouli/vetiver for a deeper mossy-woody floral chypre.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Basic Fougere (essential-oil, 100 parts)",
+      "source_url": "https://thegreatestsmellever.com/essential-oil-perfume-recipes/",
+      "source": "thegreatestsmellever.com",
+      "family": "fougere",
+      "concentration": "diluted in alcohol; rest 2-6 weeks",
+      "ingredients": [
+        { "material": "Oakmoss", "cas": null, "parts": 30, "dilution": null, "note": "base" },
+        { "material": "Lavender", "cas": null, "parts": 20, "dilution": null, "note": "heart" },
+        { "material": "Bergamot", "cas": null, "parts": 20, "dilution": null, "note": "top" },
+        { "material": "Hay", "cas": null, "parts": 16, "dilution": null, "note": "base" },
+        { "material": "Tonka bean absolute", "cas": null, "parts": 8, "dilution": null, "note": "base" },
+        { "material": "Vetiver", "cas": null, "parts": 4, "dilution": null, "note": "base" },
+        { "material": "Geranium", "cas": null, "parts": 4, "dilution": null, "note": "heart" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot"],
+        "heart": ["Lavender", "Geranium"],
+        "base": ["Oakmoss", "Hay", "Tonka bean", "Vetiver"]
+      },
+      "smells_like": "Author: 'A fresh and woodsy scent.'",
+      "what_it_does": "Classic fougere triad - lavender top-heart, oakmoss base, coumarinic sweetness from tonka/hay - with vetiver and geranium adding earthy-rosy depth.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Basic Oriental (essential-oil, 100 parts)",
+      "source_url": "https://thegreatestsmellever.com/essential-oil-perfume-recipes/",
+      "source": "thegreatestsmellever.com",
+      "family": "oriental / amber spicy",
+      "concentration": "diluted in alcohol; rest 2-6 weeks",
+      "ingredients": [
+        { "material": "Cinnamon", "cas": null, "parts": 20, "dilution": null, "note": "heart" },
+        { "material": "Vanilla absolute", "cas": null, "parts": 20, "dilution": null, "note": "base" },
+        { "material": "Labdanum", "cas": null, "parts": 15, "dilution": null, "note": "base" },
+        { "material": "Sandalwood", "cas": null, "parts": 10, "dilution": null, "note": "base" },
+        { "material": "Cardamom", "cas": null, "parts": 10, "dilution": null, "note": "top" },
+        { "material": "Black pepper", "cas": null, "parts": 10, "dilution": null, "note": "top" },
+        { "material": "Amber", "cas": null, "parts": 5, "dilution": null, "note": "base" },
+        { "material": "Cloves", "cas": null, "parts": 5, "dilution": null, "note": "heart" }
+      ],
+      "pyramid": {
+        "top": ["Cardamom", "Black pepper"],
+        "heart": ["Cinnamon", "Cloves"],
+        "base": ["Vanilla", "Labdanum", "Sandalwood", "Amber"]
+      },
+      "smells_like": "Author: 'Warm woody base with spicy sensuality.'",
+      "what_it_does": "Spice accord (cinnamon/clove/cardamom/pepper) over a sweet amber base (vanilla/labdanum/amber) with sandalwood for a warm, resinous oriental.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Jasmin Key Accord",
+      "source_url": "https://shop.perfumersapprentice.com/perfumersworkshop/formulas/key_accords/jasmin_accord.html",
+      "source": "Perfumer's Apprentice (educational)",
+      "family": "white floral",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Benzyl Acetate", "cas": "140-11-4", "parts": 400, "dilution": null, "note": "heart" },
+        { "material": "Hedione", "cas": "24851-98-7", "parts": 400, "dilution": null, "note": "heart" },
+        { "material": "Tetrahydro Linalool", "cas": null, "parts": 55, "dilution": null, "note": "heart" },
+        { "material": "Hexyl Salicylate", "cas": null, "parts": 50, "dilution": null, "note": "base" },
+        { "material": "Geranyl Acetate", "cas": null, "parts": 40, "dilution": null, "note": "heart" },
+        { "material": "Indole", "cas": "120-72-9", "parts": 15, "dilution": "10%", "note": "heart" },
+        { "material": "Dihydro Eugenol", "cas": null, "parts": 15, "dilution": null, "note": "heart" },
+        { "material": "Para Cresyl Phenyl Acetate", "cas": null, "parts": 10, "dilution": null, "note": "heart" },
+        { "material": "Ebanol", "cas": "67801-20-1", "parts": 6, "dilution": null, "note": "base" },
+        { "material": "Florhydral", "cas": null, "parts": 5, "dilution": null, "note": "top" },
+        { "material": "Methyl Benzoate", "cas": "93-58-3", "parts": 4, "dilution": null, "note": "heart" }
+      ],
+      "pyramid": {
+        "top": ["Florhydral"],
+        "heart": ["Benzyl Acetate", "Hedione", "Tetrahydro Linalool", "Geranyl Acetate", "Indole", "Dihydro Eugenol", "Para Cresyl Phenyl Acetate", "Methyl Benzoate"],
+        "base": ["Hexyl Salicylate", "Ebanol"]
+      },
+      "smells_like": "A radiant, fresh-to-indolic jasmine: fruity-solvent benzyl acetate lift over Hedione transparency, with an animalic/dirty indolic facet and a soft green-floral edge.",
+      "what_it_does": "Benzyl acetate + Hedione form the jasmine backbone (jasmine sambac/grandiflorum character); indole adds the natural indolic 'dirty' facet of real jasmine; Florhydral gives fresh green floral notes; Ebanol adds warm volume as a sandalwood-type modifier.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Rose Key Accord",
+      "source_url": "https://shop.perfumersapprentice.com/perfumersworkshop/formulas/key_accords/rose_accord.html",
+      "source": "Perfumer's Apprentice (educational)",
+      "family": "floral rose",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Isopropyl Myristate", "cas": "110-27-0", "parts": 24.5, "dilution": null, "note": null },
+        { "material": "Peonile", "cas": null, "parts": 20, "dilution": null, "note": "heart" },
+        { "material": "Dimethyl Benzyl Carbinyl Acetate", "cas": null, "parts": 15, "dilution": null, "note": "heart" },
+        { "material": "Geranyl Acetate", "cas": null, "parts": 12.5, "dilution": null, "note": "heart" },
+        { "material": "Phenyl Ethyl Phenyl Acetate", "cas": null, "parts": 10, "dilution": null, "note": "base" },
+        { "material": "Citronellol", "cas": null, "parts": 10, "dilution": null, "note": "heart" },
+        { "material": "Undecavertol", "cas": null, "parts": 3, "dilution": null, "note": "heart" },
+        { "material": "Phenyl Ethyl Acetate", "cas": "103-45-7", "parts": 2.5, "dilution": null, "note": "heart" },
+        { "material": "Rose Oxide", "cas": null, "parts": 1.5, "dilution": null, "note": "top" },
+        { "material": "Damascone Delta", "cas": null, "parts": 1, "dilution": null, "note": "heart" }
+      ],
+      "pyramid": {
+        "top": ["Rose Oxide"],
+        "heart": ["Peonile", "Dimethyl Benzyl Carbinyl Acetate", "Geranyl Acetate", "Citronellol", "Undecavertol", "Phenyl Ethyl Acetate", "Damascone Delta"],
+        "base": ["Phenyl Ethyl Phenyl Acetate"]
+      },
+      "smells_like": "A sweet, rich, honeyed rose with fresh green-metallic top facets and a natural, slightly geranium-rosy body (IPM is an odorless carrier/diluent).",
+      "what_it_does": "Peonile gives tenacity and a rich rosy-geranium note; geranyl acetate a sweet floral rose; phenyl ethyl phenyl acetate a warm honey rose; phenyl ethyl acetate a very sweet rosy-fruity-honey odor; undecavertol lends naturalness; rose oxide gives the fresh metallic-green rose signature; isopropyl myristate is a solvent carrier.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Cologne Key Accord",
+      "source_url": "https://shop.perfumersapprentice.com/perfumersworkshop/formulas/key_accords/cologne_accord.html",
+      "source": "Perfumer's Apprentice (educational)",
+      "family": "citrus / cologne",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Dihydro Myrcenol", "cas": null, "parts": 300, "dilution": null, "note": "top" },
+        { "material": "Linalyl Acetate", "cas": "115-95-7", "parts": 220, "dilution": null, "note": "top" },
+        { "material": "Geranyl Acetate", "cas": null, "parts": 120, "dilution": null, "note": "heart" },
+        { "material": "Aurantiol", "cas": null, "parts": 100, "dilution": null, "note": "heart" },
+        { "material": "Ethylene Brassylate", "cas": null, "parts": 90, "dilution": null, "note": "base" },
+        { "material": "Petitgrain essential oil", "cas": null, "parts": 70, "dilution": null, "note": "top" },
+        { "material": "Peonile", "cas": null, "parts": 60, "dilution": null, "note": "heart" },
+        { "material": "Ultrazur", "cas": null, "parts": 15, "dilution": null, "note": "top" },
+        { "material": "Thibetolide (Exaltolide)", "cas": null, "parts": 10, "dilution": null, "note": "base" },
+        { "material": "Florhydral", "cas": null, "parts": 10, "dilution": null, "note": "top" },
+        { "material": "Decenal-4-trans", "cas": null, "parts": 5, "dilution": "10%", "note": "top" }
+      ],
+      "pyramid": {
+        "top": ["Dihydro Myrcenol", "Linalyl Acetate", "Petitgrain essential oil", "Ultrazur", "Florhydral", "Decenal-4-trans"],
+        "heart": ["Geranyl Acetate", "Aurantiol", "Peonile"],
+        "base": ["Ethylene Brassylate", "Thibetolide (Exaltolide)"]
+      },
+      "smells_like": "A fresh, clean, modern eau de cologne: bright citrus-lavender lift, watery-ozonic freshness, over a soft floral-musk drydown.",
+      "what_it_does": "Dihydro myrcenol + linalyl acetate build the fresh citrus/lavender cologne core; aurantiol gives a linden/orange-blossom citrus effect; petitgrain adds herbal-citrus naturalness; Ultrazur adds freshness and modernizes; ethylene brassylate + Exaltolide are the clean musk fixatives; Florhydral gives fresh green volume; trans-4-decenal adds an orange-peel effect.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Vanilla Bean Key Accord",
+      "source_url": "https://shop.perfumersapprentice.com/perfumersworkshop/formulas/key_accords/vanilla_accord.html",
+      "source": "Perfumer's Apprentice (educational)",
+      "family": "gourmand / oriental base",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Ethyl Maltol", "cas": "4940-11-8", "parts": 400, "dilution": "1%", "note": "base" },
+        { "material": "Ethyl Vanillin", "cas": "121-32-4", "parts": 200, "dilution": null, "note": "base" },
+        { "material": "Hedione", "cas": "24851-98-7", "parts": 200, "dilution": null, "note": "heart" },
+        { "material": "Methyl Diantilis", "cas": null, "parts": 100, "dilution": null, "note": "base" },
+        { "material": "Vanillin", "cas": "121-33-5", "parts": 100, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": [],
+        "heart": ["Hedione"],
+        "base": ["Ethyl Maltol", "Ethyl Vanillin", "Methyl Diantilis", "Vanillin"]
+      },
+      "smells_like": "A warm, sweet, creamy vanilla-bean fragrance base with a candy/caramel lift and a soft spicy-clove floral edge. Explicitly a fragrance, not a flavor.",
+      "what_it_does": "Vanillin + ethyl vanillin give the core sweet vanilla; ethyl maltol (dosed at 1%) adds cotton-candy/caramel sweetness; methyl diantilis lends a spicy carnation/clove-vanilla facet; Hedione adds transparency and lift so the base reads less flat.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Muguet (Lily of the Valley) Key Accord",
+      "source_url": "https://shop.perfumersapprentice.com/perfumersworkshop/formulas/key_accords/muguet_accord.html",
+      "source": "Perfumer's Apprentice (educational)",
+      "family": "floral muguet",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Phenyl Ethyl Alcohol", "cas": "60-12-8", "parts": 240, "dilution": null, "note": "heart" },
+        { "material": "Cyclamen Aldehyde", "cas": null, "parts": 180, "dilution": null, "note": "heart" },
+        { "material": "Hedione", "cas": "24851-98-7", "parts": 180, "dilution": null, "note": "heart" },
+        { "material": "Ethyl Linalool", "cas": null, "parts": 160, "dilution": null, "note": "heart" },
+        { "material": "Geranyl Acetate", "cas": null, "parts": 120, "dilution": null, "note": "heart" },
+        { "material": "Benzyl Acetate", "cas": "140-11-4", "parts": 60, "dilution": null, "note": "heart" },
+        { "material": "Florhydral", "cas": null, "parts": 40, "dilution": null, "note": "top" },
+        { "material": "Indolene", "cas": null, "parts": 10, "dilution": "50%", "note": "heart" },
+        { "material": "Hexenyl-3-cis Acetate", "cas": "3681-71-8", "parts": 5, "dilution": null, "note": "top" },
+        { "material": "Leaf Alcohol", "cas": "928-96-1", "parts": 5, "dilution": null, "note": "top" }
+      ],
+      "pyramid": {
+        "top": ["Florhydral", "Hexenyl-3-cis Acetate", "Leaf Alcohol"],
+        "heart": ["Phenyl Ethyl Alcohol", "Cyclamen Aldehyde", "Hedione", "Ethyl Linalool", "Geranyl Acetate", "Benzyl Acetate", "Indolene"],
+        "base": []
+      },
+      "smells_like": "A fresh, dewy, green lily-of-the-valley: watery-floral and slightly aldehydic, with crushed-green-leaf top facets and a soft rosy-jasmine body.",
+      "what_it_does": "Cyclamen aldehyde + Florhydral supply the signature muguet 'watery green floral' effect; phenyl ethyl alcohol and geranyl acetate give rosy floral body; Hedione/benzyl acetate add jasmine transparency; cis-3-hexenyl acetate and leaf alcohol (cis-3-hexenol) give fresh cut-green-stem realism; Indolene adds a small natural indolic lift.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Apple Fragrance Demo Formula (US Patent 7,517,840)",
+      "source_url": "https://www.thegoodscentscompany.com/demos/dm1006041.html",
+      "source": "The Good Scents Company (patent-derived demo)",
+      "family": "fruity (apple)",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Hedione", "cas": "24851-98-7", "parts": 19.0, "dilution": null, "note": "heart" },
+        { "material": "DIPG (dipropylene glycol, solvent)", "cas": "25265-71-8", "parts": 17.27, "dilution": null, "note": null },
+        { "material": "Galaxolide", "cas": "1222-05-5", "parts": 13.0, "dilution": "50% in IPM", "note": "base" },
+        { "material": "Benzyl salicylate", "cas": "118-58-1", "parts": 12.35, "dilution": null, "note": "base" },
+        { "material": "Phenoxyethyl isobutyrate", "cas": null, "parts": 6.0, "dilution": null, "note": "heart" },
+        { "material": "Verdox", "cas": null, "parts": 5.8, "dilution": null, "note": "heart" },
+        { "material": "Iso E Super", "cas": "54464-57-2", "parts": 5.5, "dilution": null, "note": "base" },
+        { "material": "Dihydromyrcenol", "cas": null, "parts": 5.0, "dilution": null, "note": "top" },
+        { "material": "Lilial", "cas": "80-54-6", "parts": 5.0, "dilution": null, "note": "heart" },
+        { "material": "Linalool", "cas": "78-70-6", "parts": 4.5, "dilution": null, "note": "top" },
+        { "material": "Dextro-limonene", "cas": "5989-27-5", "parts": 4.0, "dilution": null, "note": "top" },
+        { "material": "Florol", "cas": "63500-71-0", "parts": 3.6, "dilution": null, "note": "heart" },
+        { "material": "Benzyl acetate", "cas": "140-11-4", "parts": 2.6, "dilution": null, "note": "heart" },
+        { "material": "Linalyl acetate", "cas": "115-95-7", "parts": 1.5, "dilution": null, "note": "top" },
+        { "material": "Vertofix", "cas": null, "parts": 1.5, "dilution": null, "note": "base" },
+        { "material": "Styrallyl acetate", "cas": null, "parts": 1.2, "dilution": null, "note": "top" },
+        { "material": "Allyl cyclohexyl propionate", "cas": null, "parts": 1.0, "dilution": null, "note": "top" },
+        { "material": "Tricyclodecenyl propionate", "cas": null, "parts": 1.0, "dilution": null, "note": "heart" },
+        { "material": "Helional", "cas": null, "parts": 1.0, "dilution": null, "note": "heart" },
+        { "material": "Citronellol", "cas": null, "parts": 0.8, "dilution": null, "note": "heart" },
+        { "material": "Hexyl acetate", "cas": "142-92-7", "parts": 0.8, "dilution": null, "note": "top" },
+        { "material": "Ethyl 2-methyl butyrate", "cas": "7452-79-1", "parts": 0.6, "dilution": null, "note": "top" },
+        { "material": "Dimethyl benzyl carbinyl acetate", "cas": null, "parts": 0.6, "dilution": null, "note": "heart" },
+        { "material": "cis-3-Hexenyl salicylate", "cas": null, "parts": 0.5, "dilution": null, "note": "base" },
+        { "material": "Alpha-ionone", "cas": "127-41-3", "parts": 0.5, "dilution": null, "note": "heart" },
+        { "material": "Allyl caproate", "cas": "123-68-2", "parts": 0.4, "dilution": null, "note": "top" },
+        { "material": "cis-3-Hexenyl acetate", "cas": "3681-71-8", "parts": 0.3, "dilution": null, "note": "top" },
+        { "material": "Manzanate", "cas": null, "parts": 0.3, "dilution": null, "note": "top" },
+        { "material": "Bacdanol", "cas": null, "parts": 0.3, "dilution": null, "note": "base" },
+        { "material": "Gamma-undecalactone", "cas": "104-67-6", "parts": 0.3, "dilution": null, "note": "base" },
+        { "material": "Triplal", "cas": null, "parts": 0.2, "dilution": null, "note": "top" },
+        { "material": "Fructone", "cas": null, "parts": 0.15, "dilution": null, "note": "heart" },
+        { "material": "Ethyl butyrate", "cas": "105-54-4", "parts": 0.1, "dilution": null, "note": "top" },
+        { "material": "Aphermate", "cas": null, "parts": 0.1, "dilution": null, "note": "top" },
+        { "material": "Alpha-damascone", "cas": null, "parts": 0.1, "dilution": null, "note": "heart" },
+        { "material": "Vanillin", "cas": "121-33-5", "parts": 0.1, "dilution": null, "note": "base" },
+        { "material": "Dynascone", "cas": null, "parts": 0.03, "dilution": null, "note": "top" }
+      ],
+      "pyramid": {
+        "top": ["Dextro-limonene", "Dihydromyrcenol", "Linalool", "Linalyl acetate", "Styrallyl acetate", "Hexyl acetate", "Ethyl 2-methyl butyrate", "Allyl caproate", "cis-3-Hexenyl acetate", "Manzanate", "Triplal", "Ethyl butyrate", "Aphermate", "Dynascone", "Allyl cyclohexyl propionate"],
+        "heart": ["Hedione", "Phenoxyethyl isobutyrate", "Verdox", "Lilial", "Florol", "Benzyl acetate", "Tricyclodecenyl propionate", "Helional", "Citronellol", "Dimethyl benzyl carbinyl acetate", "Alpha-ionone", "Fructone", "Alpha-damascone"],
+        "base": ["Galaxolide", "Benzyl salicylate", "Iso E Super", "Vertofix", "cis-3-Hexenyl salicylate", "Bacdanol", "Gamma-undecalactone", "Vanillin"]
+      },
+      "smells_like": "A juicy, crisp red/green apple fruit note wrapped in a soft floral-woody-musky base; fresh and fruity up top, rounded and clean in the drydown (built for rinse-off products).",
+      "what_it_does": "Fruity esters (manzanate, hexyl/ethyl/allyl esters, styrallyl acetate) build the apple; green notes (cis-3-hexenyl acetate, triplal) add stem/leaf realism; damascone/ionone give a natural fruity-rosy roundness; galaxolide + benzyl salicylate + Iso E Super + vertofix form a clean musky-woody fixative base that survives dilution in wash-off bases; DIPG is solvent.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Chypre Perfume Composition (US Patent 3,968,161)",
+      "source_url": "https://www.thegoodscentscompany.com/demos/dm1006722.html",
+      "source": "The Good Scents Company (patent-derived demo)",
+      "family": "chypre",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Bergamot oil replacer", "cas": null, "parts": 21.0, "dilution": null, "note": "top" },
+        { "material": "Rose absolute replacer", "cas": null, "parts": 9.0, "dilution": null, "note": "heart" },
+        { "material": "Jasmin absolute replacer", "cas": null, "parts": 9.0, "dilution": null, "note": "heart" },
+        { "material": "Ylang ylang oil", "cas": null, "parts": 6.0, "dilution": null, "note": "heart" },
+        { "material": "Methyl ionone gamma supreme", "cas": null, "parts": 6.0, "dilution": null, "note": "heart" },
+        { "material": "Oakmoss absolute", "cas": null, "parts": 6.0, "dilution": "50%", "note": "base" },
+        { "material": "Vetiveryl acetate", "cas": null, "parts": 4.5, "dilution": null, "note": "base" },
+        { "material": "Musk ketone", "cas": "81-14-1", "parts": 4.0, "dilution": null, "note": "base" },
+        { "material": "Hydroxycitronellal", "cas": "107-75-5", "parts": 3.0, "dilution": null, "note": "heart" },
+        { "material": "Sandalwood oil", "cas": null, "parts": 3.0, "dilution": null, "note": "base" },
+        { "material": "Civet absolute", "cas": null, "parts": 3.0, "dilution": "10%", "note": "base" },
+        { "material": "Coumarin", "cas": "91-64-5", "parts": 3.0, "dilution": null, "note": "base" },
+        { "material": "Tarragon oil", "cas": null, "parts": 3.0, "dilution": "10%", "note": "top" },
+        { "material": "Cistus twig/leaf absolute", "cas": null, "parts": 2.0, "dilution": "10%", "note": "base" },
+        { "material": "Cyclopentadecanolide", "cas": null, "parts": 2.0, "dilution": "10%", "note": "base" },
+        { "material": "Patchouli oil", "cas": null, "parts": 1.5, "dilution": null, "note": "base" },
+        { "material": "Rose acetate", "cas": null, "parts": 1.5, "dilution": null, "note": "heart" },
+        { "material": "Siam benzoin resinoid", "cas": null, "parts": 1.5, "dilution": "10%", "note": "base" },
+        { "material": "Cinnamic alcohol", "cas": "104-54-1", "parts": 1.5, "dilution": null, "note": "heart" },
+        { "material": "Jasmin absolute", "cas": null, "parts": 1.5, "dilution": null, "note": "heart" },
+        { "material": "Aldehyde C-12 mna", "cas": null, "parts": 1.5, "dilution": null, "note": "top" },
+        { "material": "Neroli oil replacer", "cas": null, "parts": 1.0, "dilution": null, "note": "top" },
+        { "material": "Rose absolute bulgaria", "cas": null, "parts": 1.0, "dilution": null, "note": "heart" },
+        { "material": "Orange oil brazil", "cas": null, "parts": 0.5, "dilution": null, "note": "top" },
+        { "material": "Celestolide", "cas": null, "parts": 0.5, "dilution": null, "note": "base" },
+        { "material": "DIPG (solvent)", "cas": "25265-71-8", "parts": 0.5, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": ["Bergamot oil replacer", "Tarragon oil", "Aldehyde C-12 mna", "Neroli oil replacer", "Orange oil brazil"],
+        "heart": ["Rose absolute replacer", "Jasmin absolute replacer", "Ylang ylang oil", "Methyl ionone gamma supreme", "Hydroxycitronellal", "Rose acetate", "Cinnamic alcohol", "Jasmin absolute", "Rose absolute bulgaria"],
+        "base": ["Oakmoss absolute", "Vetiveryl acetate", "Musk ketone", "Sandalwood oil", "Civet absolute", "Coumarin", "Cistus twig/leaf absolute", "Cyclopentadecanolide", "Patchouli oil", "Siam benzoin resinoid", "Celestolide"]
+      },
+      "smells_like": "A classic chypre: sparkling bergamot top over a rich rose-jasmine-ylang floral heart, drying to a mossy, earthy, animalic-woody base (oakmoss, patchouli, vetiver, civet) with a coumarin/benzoin warmth.",
+      "what_it_does": "The chypre bergamot-labdanum-oakmoss triad is the structural core: bergamot gives the citrus opening, oakmoss + cistus (labdanum) + patchouli + vetiver give the dark mossy earthy base, floral absolutes fill the heart, and civet/musk ketone add animalic sensuality and fixation.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Fougere Perfume Base (US Patent 4,457,862)",
+      "source_url": "https://www.thegoodscentscompany.com/demos/dm1006722.html",
+      "source": "The Good Scents Company (patent-derived demo)",
+      "family": "fougere",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Lavandin oil", "cas": null, "parts": 140.0, "dilution": null, "note": "top" },
+        { "material": "Geranium oil africa", "cas": null, "parts": 140.0, "dilution": null, "note": "heart" },
+        { "material": "Coumarin", "cas": "91-64-5", "parts": 140.0, "dilution": null, "note": "base" },
+        { "material": "Siam benzoin resinoid", "cas": null, "parts": 140.0, "dilution": null, "note": "base" },
+        { "material": "Dione", "cas": null, "parts": 100.0, "dilution": null, "note": "base" },
+        { "material": "Treemoss absolute", "cas": null, "parts": 60.0, "dilution": null, "note": "base" },
+        { "material": "Patchouli oil", "cas": null, "parts": 60.0, "dilution": null, "note": "base" },
+        { "material": "Bergamot oil bergaptene reduced", "cas": null, "parts": 60.0, "dilution": null, "note": "top" },
+        { "material": "Musk ketone", "cas": "81-14-1", "parts": 60.0, "dilution": null, "note": "base" },
+        { "material": "Musk xylol", "cas": "81-15-2", "parts": 60.0, "dilution": null, "note": "base" },
+        { "material": "Vetiver oil bourbon", "cas": null, "parts": 40.0, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Lavandin oil", "Bergamot oil bergaptene reduced"],
+        "heart": ["Geranium oil africa"],
+        "base": ["Coumarin", "Siam benzoin resinoid", "Dione", "Treemoss absolute", "Patchouli oil", "Musk ketone", "Musk xylol", "Vetiver oil bourbon"]
+      },
+      "smells_like": "A classic barbershop fougere: aromatic lavender-herbal top, rosy-green geranium heart, over a sweet hay-like coumarin base with mossy, woody-earthy (treemoss, patchouli, vetiver) and balsamic-musky warmth.",
+      "what_it_does": "Embodies the textbook fougere accord of lavender + coumarin + oakmoss/treemoss: lavandin gives the fresh aromatic opening, coumarin the sweet mown-hay signature, geranium the floral bridge, and treemoss/patchouli/vetiver/musks the mossy-woody fixative drydown.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Fine Fragrance for Men (US Patent 6,441,052)",
+      "source_url": "https://www.thegoodscentscompany.com/demos/dm1006722.html",
+      "source": "The Good Scents Company (patent-derived demo)",
+      "family": "citrus woody aromatic (masculine)",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Bergamot oil bergaptene reduced", "cas": null, "parts": 175.0, "dilution": null, "note": "top" },
+        { "material": "Laurine", "cas": null, "parts": 80.0, "dilution": null, "note": "heart" },
+        { "material": "Magnolione", "cas": null, "parts": 80.0, "dilution": null, "note": "heart" },
+        { "material": "Cepionate", "cas": null, "parts": 60.0, "dilution": null, "note": "heart" },
+        { "material": "Orange oil florida", "cas": null, "parts": 60.0, "dilution": null, "note": "top" },
+        { "material": "Amyris oil", "cas": null, "parts": 50.0, "dilution": null, "note": "base" },
+        { "material": "Siam benzoin resinoid", "cas": null, "parts": 50.0, "dilution": "50%", "note": "base" },
+        { "material": "Dihydrolinalool", "cas": null, "parts": 50.0, "dilution": null, "note": "top" },
+        { "material": "Florol", "cas": "63500-71-0", "parts": 50.0, "dilution": null, "note": "heart" },
+        { "material": "Olibanum resinoid", "cas": null, "parts": 45.0, "dilution": "50%", "note": "base" },
+        { "material": "Dimetol", "cas": null, "parts": 40.0, "dilution": null, "note": "heart" },
+        { "material": "Lemon oil italy", "cas": null, "parts": 40.0, "dilution": null, "note": "top" },
+        { "material": "Tropional", "cas": null, "parts": 40.0, "dilution": null, "note": "heart" },
+        { "material": "5-Cyclopentylhexan-1-ol", "cas": null, "parts": 30.0, "dilution": "10%", "note": "heart" },
+        { "material": "Citronellyl acetate", "cas": "150-84-5", "parts": 25.0, "dilution": null, "note": "heart" },
+        { "material": "Tricyclal", "cas": null, "parts": 25.0, "dilution": "10%", "note": "top" },
+        { "material": "Velvione", "cas": null, "parts": 20.0, "dilution": null, "note": "base" },
+        { "material": "Fennaldehyde", "cas": null, "parts": 15.0, "dilution": null, "note": "top" },
+        { "material": "Undecavertol", "cas": null, "parts": 15.0, "dilution": null, "note": "heart" },
+        { "material": "Damascenone", "cas": null, "parts": 10.0, "dilution": "10%", "note": "heart" },
+        { "material": "Mandarin oil italy green", "cas": null, "parts": 10.0, "dilution": null, "note": "top" },
+        { "material": "Thibetolide", "cas": null, "parts": 10.0, "dilution": null, "note": "base" },
+        { "material": "Dimethyl benzyl carbinyl isobutyrate", "cas": null, "parts": 6.0, "dilution": null, "note": "heart" },
+        { "material": "Gardenol", "cas": null, "parts": 5.0, "dilution": null, "note": "heart" },
+        { "material": "Florhydral", "cas": null, "parts": 5.0, "dilution": null, "note": "top" },
+        { "material": "Fixambrene", "cas": null, "parts": 4.0, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot oil bergaptene reduced", "Orange oil florida", "Dihydrolinalool", "Lemon oil italy", "Tricyclal", "Fennaldehyde", "Mandarin oil italy green", "Florhydral"],
+        "heart": ["Laurine", "Magnolione", "Cepionate", "Florol", "Dimetol", "Tropional", "5-Cyclopentylhexan-1-ol", "Citronellyl acetate", "Undecavertol", "Damascenone", "Dimethyl benzyl carbinyl isobutyrate", "Gardenol"],
+        "base": ["Amyris oil", "Siam benzoin resinoid", "Olibanum resinoid", "Velvione", "Thibetolide", "Fixambrene"]
+      },
+      "smells_like": "A bright, elegant masculine: big juicy citrus opening (bergamot, lemon, orange, mandarin) over a soft watery-floral heart (magnolia, muguet, freesia facets) drying to a warm amber-incense-woody-musk base.",
+      "what_it_does": "Heavy citrus load gives a fresh sporty opening; Magnolione/Florol/Tropional/Cepionate build a modern airy floral heart; benzoin + olibanum (frankincense) + amyris + Fixambrene (amber) + Velvione/Thibetolide musks give a warm resinous woody-musky masculine drydown with good tenacity.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Amber Base (US Patent 4,519,944)",
+      "source_url": "https://www.thegoodscentscompany.com/demos/dm1006722.html",
+      "source": "The Good Scents Company (patent-derived demo)",
+      "family": "amber / oriental base",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Labdanum resinoid", "cas": null, "parts": 376.3, "dilution": null, "note": "base" },
+        { "material": "Siam benzoin resinoid", "cas": null, "parts": 99.0, "dilution": null, "note": "base" },
+        { "material": "Sandalwood oil", "cas": null, "parts": 99.0, "dilution": null, "note": "base" },
+        { "material": "Bergamot oil bergaptene reduced", "cas": null, "parts": 69.3, "dilution": null, "note": "top" },
+        { "material": "Vetiver oil bourbon", "cas": null, "parts": 49.5, "dilution": null, "note": "base" },
+        { "material": "Musk ambrette replacer", "cas": null, "parts": 49.5, "dilution": null, "note": "base" },
+        { "material": "Musk ketone", "cas": "81-14-1", "parts": 49.5, "dilution": null, "note": "base" },
+        { "material": "Vanillin", "cas": "121-33-5", "parts": 49.5, "dilution": null, "note": "base" },
+        { "material": "Orange peel oil c.p. california", "cas": null, "parts": 49.5, "dilution": null, "note": "top" },
+        { "material": "Rose 392/2 (Givaudan)", "cas": null, "parts": 49.5, "dilution": null, "note": "heart" },
+        { "material": "Patchouli oil", "cas": null, "parts": 19.8, "dilution": null, "note": "base" },
+        { "material": "Oakmoss absolute", "cas": null, "parts": 19.8, "dilution": "50%", "note": "base" },
+        { "material": "Castoreum absolute", "cas": null, "parts": 9.9, "dilution": "10%", "note": "base" },
+        { "material": "Laitone", "cas": null, "parts": 9.9, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Bergamot oil bergaptene reduced", "Orange peel oil c.p. california"],
+        "heart": ["Rose 392/2 (Givaudan)"],
+        "base": ["Labdanum resinoid", "Siam benzoin resinoid", "Sandalwood oil", "Vetiver oil bourbon", "Musk ambrette replacer", "Musk ketone", "Vanillin", "Patchouli oil", "Oakmoss absolute", "Castoreum absolute", "Laitone"]
+      },
+      "smells_like": "A deep, warm, sweet oriental amber: resinous labdanum-benzoin heart with creamy sandalwood, vanilla sweetness, and a leathery-animalic (castoreum) mossy-earthy undertone, lifted by a touch of citrus.",
+      "what_it_does": "Labdanum + benzoin + vanillin form the classic 'amber' accord (labdanum-vanilla warmth); sandalwood/vetiver/patchouli add creamy woody-earthy depth; castoreum + musks give animalic leather and long fixation; bergamot/orange lift the sweet resinous mass at the top.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Accord N 208690 - Amber Floral (Firmenich)",
+      "source_url": "https://perflavory.com/demos/dm1015272.html",
+      "source": "perflavory.com (Firmenich evaluation accord)",
+      "family": "amber floral woody",
+      "concentration": "5% alcoholic solution (evaluation)",
+      "ingredients": [
+        { "material": "Ambrox DL (Firmenich)", "cas": null, "parts": 200.0, "dilution": "10%", "note": "base" },
+        { "material": "Mayol (Firmenich)", "cas": null, "parts": 145.0, "dilution": null, "note": "heart" },
+        { "material": "Florol (Firmenich)", "cas": "63500-71-0", "parts": 100.0, "dilution": null, "note": "heart" },
+        { "material": "Hexylcinnamic aldehyde", "cas": "101-86-0", "parts": 100.0, "dilution": null, "note": "heart" },
+        { "material": "Linalol", "cas": "78-70-6", "parts": 100.0, "dilution": null, "note": "top" },
+        { "material": "Fixobois Base 66606 (Firmenich)", "cas": null, "parts": 100.0, "dilution": "10%", "note": "base" },
+        { "material": "Hedione (Firmenich)", "cas": "24851-98-7", "parts": 90.0, "dilution": null, "note": "heart" },
+        { "material": "Farenal (Symrise)", "cas": null, "parts": 50.0, "dilution": "10%", "note": "heart" },
+        { "material": "Rose oxide", "cas": null, "parts": 40.0, "dilution": "10%", "note": "top" },
+        { "material": "Thyme red", "cas": null, "parts": 25.0, "dilution": null, "note": "top" },
+        { "material": "cis-Jasmone", "cas": "488-10-8", "parts": 20.0, "dilution": null, "note": "heart" },
+        { "material": "Myrrh essence", "cas": null, "parts": 15.0, "dilution": null, "note": "base" },
+        { "material": "Parmantheme K (Firmenich)", "cas": null, "parts": 15.0, "dilution": "10%", "note": "heart" }
+      ],
+      "pyramid": {
+        "top": ["Linalol", "Rose oxide", "Thyme red"],
+        "heart": ["Mayol", "Florol", "Hexylcinnamic aldehyde", "Hedione", "Farenal", "cis-Jasmone", "Parmantheme K"],
+        "base": ["Ambrox DL", "Fixobois Base 66606", "Myrrh essence"]
+      },
+      "smells_like": "A soft floral-ambery-woody theme where a small dose of Fixobois harmonizes the phenolic facets of thyme and myrrh into a warm floral-amber-woody blend.",
+      "what_it_does": "Per Firmenich's note, 1% of Fixobois Base 66606 harmonises the phenolic notes of Thyme and Myrrh to create a floral, amber, woody theme; Ambrox DL gives the dry amber backbone, Mayol/Florol/Hedione the airy floral muguet-jasmine heart.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Accord N 208416 - Amber Powdery Floral (Firmenich)",
+      "source_url": "https://perflavory.com/demos/dm1015272.html",
+      "source": "perflavory.com (Firmenich evaluation accord)",
+      "family": "amber powdery floral",
+      "concentration": "5% alcoholic solution (evaluation)",
+      "ingredients": [
+        { "material": "Bergamote synth", "cas": null, "parts": 305.0, "dilution": null, "note": "top" },
+        { "material": "Iralia total (Firmenich)", "cas": null, "parts": 188.0, "dilution": null, "note": "heart" },
+        { "material": "Hedione (Firmenich)", "cas": "24851-98-7", "parts": 125.0, "dilution": null, "note": "heart" },
+        { "material": "Coumarin", "cas": "91-64-5", "parts": 100.0, "dilution": null, "note": "base" },
+        { "material": "Habanolide (Firmenich)", "cas": null, "parts": 87.0, "dilution": null, "note": "base" },
+        { "material": "Sandalwood Base 77125 B (Firmenich)", "cas": null, "parts": 62.0, "dilution": null, "note": "base" },
+        { "material": "Ethyl vanillin", "cas": "121-32-4", "parts": 50.0, "dilution": "10%", "note": "base" },
+        { "material": "Cetalox (Firmenich)", "cas": null, "parts": 40.0, "dilution": "10%", "note": "base" },
+        { "material": "Heliotropin", "cas": "120-57-0", "parts": 25.0, "dilution": null, "note": "heart" },
+        { "material": "Florex (Firmenich)", "cas": null, "parts": 12.0, "dilution": null, "note": "heart" },
+        { "material": "Undecalactone gamma", "cas": "104-67-6", "parts": 6.0, "dilution": null, "note": "base" }
+      ],
+      "pyramid": {
+        "top": ["Bergamote synth"],
+        "heart": ["Iralia total", "Hedione", "Heliotropin", "Florex"],
+        "base": ["Coumarin", "Habanolide", "Sandalwood Base 77125 B", "Ethyl vanillin", "Cetalox", "Undecalactone gamma"]
+      },
+      "smells_like": "A warm, powdery-ambery floral: bergamot-lit opening over a violet-iris (Iralia) and heliotrope powder heart, with a creamy sandalwood-coumarin-vanilla base; Cetalox adds warmth that cuts an otherwise oversweet lactonic character.",
+      "what_it_does": "Per Firmenich's note, Cetalox gives warmth to what would otherwise be an oversweet lactonic character; Iralia + heliotropin build the powdery orris/almond heart, coumarin + ethyl vanillin + sandalwood base + Habanolide musk form the soft ambery-powdery drydown.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Perfume Masculino Amadeirado Fresco (EDP)",
+      "source_url": "https://nandebotanica.com.br/guia-completo-perfumes-artesanais-masculinos-femininos-unissex/",
+      "source": "Nande Botanica (blog PT-BR)",
+      "family": "aromatico amadeirado",
+      "concentration": "edp",
+      "ingredients": [
+        { "material": "Essencia de bergamota", "cas": null, "parts": 2.0, "dilution": null, "note": "top" },
+        { "material": "Essencia de limao siciliano", "cas": null, "parts": 2.0, "dilution": null, "note": "top" },
+        { "material": "Oleo essencial de hortela-pimenta", "cas": null, "parts": 1.0, "dilution": null, "note": "top" },
+        { "material": "Oleo essencial de alecrim", "cas": null, "parts": 1.0, "dilution": null, "note": "heart" },
+        { "material": "Essencia de lavanda masculina", "cas": null, "parts": 2.0, "dilution": null, "note": "heart" },
+        { "material": "Essencia de geranio", "cas": null, "parts": 2.0, "dilution": null, "note": "heart" },
+        { "material": "Essencia de noz-moscada", "cas": null, "parts": 1.0, "dilution": null, "note": "heart" },
+        { "material": "Acorde de folha de violeta", "cas": null, "parts": 1.0, "dilution": null, "note": "heart" },
+        { "material": "Essencia de cedro (cedarwood)", "cas": null, "parts": 3.0, "dilution": null, "note": "base" },
+        { "material": "Essencia de vetiver", "cas": null, "parts": 2.0, "dilution": null, "note": "base" },
+        { "material": "Musk branco", "cas": null, "parts": 2.0, "dilution": null, "note": "base" },
+        { "material": "Acorde de ambar suave", "cas": null, "parts": 1.0, "dilution": null, "note": "base" },
+        { "material": "Alcool de cereais 96", "cas": null, "parts": 76, "dilution": null, "note": null },
+        { "material": "Agua destilada", "cas": null, "parts": 2, "dilution": null, "note": null },
+        { "material": "Propilenoglicol ou glicerina vegetal", "cas": null, "parts": 2, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": ["bergamota", "limao siciliano", "hortela-pimenta"],
+        "heart": ["alecrim", "lavanda", "geranio", "noz-moscada", "folha de violeta"],
+        "base": ["cedro", "vetiver", "musk branco", "ambar suave"]
+      },
+      "smells_like": "Abertura de frescor citrico, coracao de ervas aromaticas e fundo amadeirado, limpo e elegante.",
+      "what_it_does": "Citricos volateis dao frescor de saida; alecrim/lavanda/geranio criam o nucleo aromatico masculino; cedro, vetiver, musk e ambar dao fixacao amadeirada e limpa. Total ~20% de concentrado em 100 ml.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Perfume Feminino Floral Doce (EDP)",
+      "source_url": "https://nandebotanica.com.br/guia-completo-perfumes-artesanais-masculinos-femininos-unissex/",
+      "source": "Nande Botanica (blog PT-BR)",
+      "family": "floral frutado gourmand",
+      "concentration": "edp",
+      "ingredients": [
+        { "material": "Essencia de tangerina", "cas": null, "parts": 2.0, "dilution": null, "note": "top" },
+        { "material": "Essencia de laranja doce", "cas": null, "parts": 1.5, "dilution": null, "note": "top" },
+        { "material": "Acorde de frutas vermelhas", "cas": null, "parts": 1.0, "dilution": null, "note": "top" },
+        { "material": "Bergamota FCF", "cas": null, "parts": 0.5, "dilution": null, "note": "top" },
+        { "material": "Essencia de jasmim", "cas": null, "parts": 3.0, "dilution": null, "note": "heart" },
+        { "material": "Essencia de rosa", "cas": null, "parts": 2.0, "dilution": null, "note": "heart" },
+        { "material": "Essencia de ylang-ylang", "cas": null, "parts": 1.0, "dilution": null, "note": "heart" },
+        { "material": "Neroli (flor de laranjeira)", "cas": null, "parts": 1.0, "dilution": null, "note": "heart" },
+        { "material": "Fragrancia de baunilha", "cas": null, "parts": 3.0, "dilution": null, "note": "base" },
+        { "material": "Musk", "cas": null, "parts": 2.0, "dilution": null, "note": "base" },
+        { "material": "Ambar doce", "cas": null, "parts": 2.0, "dilution": null, "note": "base" },
+        { "material": "Fragrancia de fava tonka", "cas": null, "parts": 1.0, "dilution": null, "note": "base" },
+        { "material": "Alcool de cereais", "cas": null, "parts": 76, "dilution": null, "note": null },
+        { "material": "Agua destilada", "cas": null, "parts": 2, "dilution": null, "note": null },
+        { "material": "Propilenoglicol ou glicerina vegetal", "cas": null, "parts": 2, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": ["tangerina", "laranja doce", "frutas vermelhas", "bergamota FCF"],
+        "heart": ["jasmim", "rosa", "ylang-ylang", "neroli"],
+        "base": ["baunilha", "musk", "ambar doce", "fava tonka"]
+      },
+      "smells_like": "Topo frutado-citrico, coracao de romantismo floral, fundo doce, confortavel e sensual.",
+      "what_it_does": "Frutas e citricos abrem leves; o buque floral (jasmim/rosa/ylang/neroli) domina o carater; baunilha, tonka, ambar e musk fecham em uma base doce gourmand com boa fixacao. ~20% em 100 ml.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Perfume Unissex Citrico Amadeirado (EDT leve)",
+      "source_url": "https://nandebotanica.com.br/guia-completo-perfumes-artesanais-masculinos-femininos-unissex/",
+      "source": "Nande Botanica (blog PT-BR)",
+      "family": "citrico aromatico",
+      "concentration": "edt",
+      "ingredients": [
+        { "material": "Essencia de limao siciliano", "cas": null, "parts": 2.0, "dilution": null, "note": "top" },
+        { "material": "Essencia de bergamota FCF", "cas": null, "parts": 2.0, "dilution": null, "note": "top" },
+        { "material": "Essencia de grapefruit (toranja)", "cas": null, "parts": 1.0, "dilution": null, "note": "top" },
+        { "material": "Acorde de cha verde", "cas": null, "parts": 1.0, "dilution": null, "note": "heart" },
+        { "material": "Lavanda leve", "cas": null, "parts": 2.0, "dilution": null, "note": "heart" },
+        { "material": "Neroli ou flor de laranjeira", "cas": null, "parts": 1.5, "dilution": null, "note": "heart" },
+        { "material": "Essencia de capim-limao (lemongrass)", "cas": null, "parts": 1.0, "dilution": null, "note": "heart" },
+        { "material": "Cedro suave", "cas": null, "parts": 2.0, "dilution": null, "note": "base" },
+        { "material": "Musk limpo", "cas": null, "parts": 1.5, "dilution": null, "note": "base" },
+        { "material": "Vetiver (dosagem baixa)", "cas": null, "parts": 1.0, "dilution": null, "note": "base" },
+        { "material": "Alcool de cereais", "cas": null, "parts": 81, "dilution": null, "note": null },
+        { "material": "Agua destilada", "cas": null, "parts": 2, "dilution": null, "note": null },
+        { "material": "Umectante (opcional)", "cas": null, "parts": 2, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": ["limao siciliano", "bergamota FCF", "grapefruit"],
+        "heart": ["cha verde", "lavanda leve", "neroli", "capim-limao"],
+        "base": ["cedro suave", "musk limpo", "vetiver"]
+      },
+      "smells_like": "Fresco, elegante e neutro; citrico limpo, florais leves e amadeirado sutil, para uso diario.",
+      "what_it_does": "Perfil leve unissex (~15%): citricos brilhantes na saida, cha verde e florais leves no meio, base amadeirada discreta com vetiver em baixa dose para nao pesar.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Perfume Artesanal em Alcool - Floral Citrico",
+      "source_url": "https://nandebotanica.com.br/perfume-artesanal-em-casa-guia-completo-com-materiais-tecnicas-e-receitas-passo-a-passo/",
+      "source": "Nande Botanica (blog PT-BR)",
+      "family": "floral citrico",
+      "concentration": "edp",
+      "ingredients": [
+        { "material": "Oleo essencial de laranja doce", "cas": null, "parts": 1.25, "dilution": null, "note": "top" },
+        { "material": "Oleo essencial de bergamota (sem furocumarina)", "cas": null, "parts": 1.0, "dilution": null, "note": "top" },
+        { "material": "Oleo essencial de lavanda", "cas": null, "parts": 2.0, "dilution": null, "note": "heart" },
+        { "material": "Oleo essencial de geranio", "cas": null, "parts": 1.75, "dilution": null, "note": "heart" },
+        { "material": "Oleo essencial de cedro", "cas": null, "parts": 0.8, "dilution": null, "note": "base" },
+        { "material": "Resina de benjoim", "cas": null, "parts": 0.7, "dilution": "50%", "note": "base" },
+        { "material": "Alcool de cereais", "cas": null, "parts": 40, "dilution": null, "note": null },
+        { "material": "Agua destilada", "cas": null, "parts": 2.5, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": ["laranja doce", "bergamota"],
+        "heart": ["lavanda", "geranio"],
+        "base": ["cedro", "benjoim"]
+      },
+      "smells_like": "Aroma fresco e feminino, combinando notas citricas, carater floral e base levemente amadeirada.",
+      "what_it_does": "50 ml a 15%. Distribuicao topo 30% / coracao 50% / fundo 20%. Benjoim diluido a 50% atua como fixador balsamico junto ao cedro.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Perfume Artesanal em Oleo - Aroma Aconchegante (roll-on)",
+      "source_url": "https://nandebotanica.com.br/perfume-artesanal-em-casa-guia-completo-com-materiais-tecnicas-e-receitas-passo-a-passo/",
+      "source": "Nande Botanica (blog PT-BR)",
+      "family": "amadeirado doce (ambar-gourmand)",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Oleo essencial de tangerina", "cas": null, "parts": 0.4, "dilution": null, "note": "top" },
+        { "material": "Oleo essencial de lavanda", "cas": null, "parts": 0.4, "dilution": null, "note": "heart" },
+        { "material": "Oleo essencial de ylang-ylang", "cas": null, "parts": 0.4, "dilution": null, "note": "heart" },
+        { "material": "Oleo essencial de patchouli", "cas": null, "parts": 0.4, "dilution": null, "note": "base" },
+        { "material": "Oleo essencial de benjoim (diluido)", "cas": null, "parts": 0.4, "dilution": null, "note": "base" },
+        { "material": "Oleo de jojoba (carreador)", "cas": null, "parts": 8, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": ["tangerina"],
+        "heart": ["lavanda", "ylang-ylang"],
+        "base": ["patchouli", "benjoim"]
+      },
+      "smells_like": "Aroma aconchegante, levemente doce e amadeirado, delicado e amigavel a pele.",
+      "what_it_does": "Perfume em oleo 10 ml a 20% sobre jojoba. Topo citrico 20% / coracao floral 40% / fundo amadeirado-resinoso 40%, formato roll-on para pontos de pulso.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Perfume Solido Artesanal - Balsamico e Terroso",
+      "source_url": "https://nandebotanica.com.br/perfume-artesanal-em-casa-guia-completo-com-materiais-tecnicas-e-receitas-passo-a-passo/",
+      "source": "Nande Botanica (blog PT-BR)",
+      "family": "terroso-balsamico-resinoso",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Oleo essencial de limao siciliano", "cas": null, "parts": 0.45, "dilution": null, "note": "top" },
+        { "material": "Oleo essencial de lavanda", "cas": null, "parts": 0.7, "dilution": null, "note": "heart" },
+        { "material": "Oleo essencial de geranio", "cas": null, "parts": 0.65, "dilution": null, "note": "heart" },
+        { "material": "Oleo essencial de vetiver", "cas": null, "parts": 0.6, "dilution": null, "note": "base" },
+        { "material": "Oleo essencial de olibano (frankincense)", "cas": null, "parts": 0.6, "dilution": null, "note": "base" },
+        { "material": "Cera de abelha", "cas": null, "parts": 8, "dilution": null, "note": null },
+        { "material": "Jojoba + oleo de coco fracionado", "cas": null, "parts": 9, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": ["limao siciliano"],
+        "heart": ["lavanda", "geranio"],
+        "base": ["vetiver", "olibano"]
+      },
+      "smells_like": "Aroma terroso e balsamico, com boa fixacao e carater aconchegante.",
+      "what_it_does": "Perfume solido ~20 g a 15% em base de cera de abelha + oleos. Vetiver e olibano dao o fundo terroso-resinoso duradouro; lavanda/geranio suavizam o coracao.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Contratipo Feminino Floral Oriental (exemplo didatico, EDP)",
+      "source_url": "https://nandebotanica.com.br/guia-formulacao-artesanal-maceracao-contratipos-femininos-importados/",
+      "source": "Nande Botanica (blog PT-BR)",
+      "family": "floral oriental",
+      "concentration": "edp",
+      "ingredients": [
+        { "material": "Limao siciliano", "cas": null, "parts": 2.0, "dilution": null, "note": "top" },
+        { "material": "Bergamota", "cas": null, "parts": 1.5, "dilution": null, "note": "top" },
+        { "material": "Acorde frutado vermelho", "cas": null, "parts": 1.2, "dilution": null, "note": "top" },
+        { "material": "Hedione", "cas": "24851-98-7", "parts": 0.7, "dilution": null, "note": "top" },
+        { "material": "Acorde de jasmim", "cas": null, "parts": 2.5, "dilution": null, "note": "heart" },
+        { "material": "Acorde de rosa", "cas": null, "parts": 2.0, "dilution": null, "note": "heart" },
+        { "material": "Flor de laranjeira (orange blossom)", "cas": null, "parts": 1.5, "dilution": null, "note": "heart" },
+        { "material": "Acorde frutado cremoso (pera/ameixa)", "cas": null, "parts": 1.2, "dilution": null, "note": "heart" },
+        { "material": "Baunilha", "cas": null, "parts": 1.8, "dilution": null, "note": "base" },
+        { "material": "Patchouli", "cas": null, "parts": 1.2, "dilution": null, "note": "base" },
+        { "material": "Musk branco", "cas": null, "parts": 1.4, "dilution": null, "note": "base" },
+        { "material": "Acorde de ambar moderno", "cas": null, "parts": 1.0, "dilution": null, "note": "base" },
+        { "material": "Alcool de cereais 96%", "cas": null, "parts": 80, "dilution": null, "note": null },
+        { "material": "Agua destilada/deionizada", "cas": null, "parts": 2, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": ["limao siciliano", "bergamota", "frutado vermelho", "hedione"],
+        "heart": ["jasmim", "rosa", "flor de laranjeira", "frutado cremoso"],
+        "base": ["baunilha", "patchouli", "musk branco", "ambar moderno"]
+      },
+      "smells_like": "Descrito como exemplo didatico de floral oriental (o autor nao descreve verbalmente o cheiro alem da familia).",
+      "what_it_does": "18 ml de concentrado (18%) em 80 ml de alcool + 2 ml agua. Topo 30% / coracao 40% / fundo 30%. Hedione amplia o floral; baunilha+ambar+patchouli+musk dao o fundo oriental cremoso.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Perfume Fresco Floral Amadeirado (EDT 30 ml, iniciantes)",
+      "source_url": "https://nandebotanica.com.br/guia-completo-perfume-artesanal-oleos-essenciais-para-iniciantes/",
+      "source": "Nande Botanica (blog PT-BR)",
+      "family": "floral amadeirado fresco",
+      "concentration": "edt",
+      "ingredients": [
+        { "material": "Laranja doce (Citrus sinensis)", "cas": null, "parts": 10, "dilution": null, "note": "top" },
+        { "material": "Limao siciliano (destilado)", "cas": null, "parts": 4, "dilution": null, "note": "top" },
+        { "material": "Hortela-pimenta (Mentha piperita)", "cas": null, "parts": 4, "dilution": null, "note": "top" },
+        { "material": "Lavanda verdadeira (Lavandula angustifolia)", "cas": null, "parts": 16, "dilution": null, "note": "heart" },
+        { "material": "Geranio (Pelargonium graveolens)", "cas": null, "parts": 8, "dilution": null, "note": "heart" },
+        { "material": "Cedro-do-atlas (Cedrus atlantica)", "cas": null, "parts": 10, "dilution": null, "note": "base" },
+        { "material": "Patchouli (Pogostemon cablin)", "cas": null, "parts": 8, "dilution": null, "note": "base" },
+        { "material": "Alcool de cereais 96", "cas": null, "parts": 27, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": ["laranja doce", "limao siciliano", "hortela-pimenta"],
+        "heart": ["lavanda", "geranio"],
+        "base": ["cedro-do-atlas", "patchouli"]
+      },
+      "smells_like": "Abertura fresca de citricos e menta, coracao de lavanda e geranio, terminando em cedro amadeirado e patchouli terroso.",
+      "what_it_does": "10% de OE (3 ml / ~60 gotas de mistura em 27 ml de alcool). As quantidades dos oleos essenciais estao em GOTAS. Citricos+menta abrem; lavanda/geranio no coracao; cedro/patchouli fixam.",
+      "confidence": "documented"
+    },
+    {
+      "name": "Roll-on Floral Calmante em Oleo (10 ml, iniciantes)",
+      "source_url": "https://nandebotanica.com.br/guia-completo-perfume-artesanal-oleos-essenciais-para-iniciantes/",
+      "source": "Nande Botanica (blog PT-BR)",
+      "family": "floral calmante",
+      "concentration": null,
+      "ingredients": [
+        { "material": "Lavanda verdadeira", "cas": null, "parts": 8, "dilution": null, "note": "heart" },
+        { "material": "Laranja doce", "cas": null, "parts": 6, "dilution": null, "note": "top" },
+        { "material": "Ylang-ylang (Cananga odorata)", "cas": null, "parts": 4, "dilution": null, "note": "heart" },
+        { "material": "Benjoim (resina em oleo)", "cas": null, "parts": 2, "dilution": null, "note": "base" },
+        { "material": "Oleo vegetal leve (jojoba ou coco fracionado)", "cas": null, "parts": null, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": ["laranja doce"],
+        "heart": ["lavanda", "ylang-ylang"],
+        "base": ["benjoim"]
+      },
+      "smells_like": "Formulacao floral calmante (autor nao detalha o cheiro em palavras alem do carater calmante floral).",
+      "what_it_does": "1 ml de OE (~20 gotas) em 9 ml de oleo carreador. Aplicacao em pontos de pulso. Lavanda+ylang florais suavizados por laranja; benjoim fixa. Carreador dado como 9 ml (nao em gotas), marcado null.",
+      "confidence": "partial"
+    },
+    {
+      "name": "Perfume Citrico-Floral (EDP leve, 50 ml)",
+      "source_url": "https://nandebotanica.com.br/guia-completo-perfumaria-natural-artesanal-oleos-essenciais-fragrancias-naturais/",
+      "source": "Nande Botanica (blog PT-BR)",
+      "family": "citrico floral",
+      "concentration": "edp",
+      "ingredients": [
+        { "material": "Oleo de laranja doce", "cas": null, "parts": 0.9, "dilution": null, "note": "top" },
+        { "material": "Oleo de bergamota BF", "cas": null, "parts": 0.6, "dilution": null, "note": "top" },
+        { "material": "Oleo de limao siciliano", "cas": null, "parts": 0.3, "dilution": null, "note": "top" },
+        { "material": "Oleo de lavanda", "cas": null, "parts": 1.8, "dilution": null, "note": "heart" },
+        { "material": "Oleo de geranio", "cas": null, "parts": 0.9, "dilution": null, "note": "heart" },
+        { "material": "Oleo de ylang-ylang", "cas": null, "parts": 0.3, "dilution": null, "note": "heart" },
+        { "material": "Oleo de cedro", "cas": null, "parts": 0.6, "dilution": null, "note": "base" },
+        { "material": "Oleo de patchouli", "cas": null, "parts": 0.3, "dilution": null, "note": "base" },
+        { "material": "Oleo de olibano (frankincense)", "cas": null, "parts": 0.3, "dilution": null, "note": "base" },
+        { "material": "Alcool de cereais 96%", "cas": null, "parts": 44, "dilution": null, "note": null }
+      ],
+      "pyramid": {
+        "top": ["laranja doce", "bergamota", "limao siciliano"],
+        "heart": ["lavanda", "geranio", "ylang-ylang"],
+        "base": ["cedro", "patchouli", "olibano"]
+      },
+      "smells_like": "Citrico-floral suave (o autor nao fornece descricao verbal extensa do resultado alem da familia).",
+      "what_it_does": "6 ml de mistura aromatica (12%) em 44 ml de alcool. Topo 30% / coracao 50% / fundo 20%. Maceracao 15-45 dias no escuro. Base amadeirada-resinosa leve (cedro/patchouli/olibano).",
+      "confidence": "documented"
+    }
+  ]
+}

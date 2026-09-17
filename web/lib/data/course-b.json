@@ -1,0 +1,303 @@
+[
+  {
+    "id": "m4",
+    "title": "Volatilidade e a Pirâmide",
+    "level": "intermediario",
+    "summary": "Por que um perfume muda de cheiro ao longo das horas. Você vai entender o que faz uma molécula evaporar rápido ou devagar, como isso define topo, coração e base, o papel dos fixadores e a diferença entre um perfume que projeta e um que dura.",
+    "lessons": [
+      {
+        "id": "m4l1",
+        "title": "Volatilidade e evaporação: o que determina",
+        "duration_min": 12,
+        "body_md": "## Por que o cheiro muda com o tempo\n\nUm perfume não é uma foto, é um filme. Nos primeiros minutos você sente uma coisa; uma hora depois, outra; no fim do dia, outra. Isso acontece porque as moléculas do perfume **não evaporam todas na mesma velocidade**. A velocidade com que uma molécula sai do líquido para o ar (e chega ao seu nariz) chama-se **volatilidade**.\n\nMais volátil = evapora rápido = você sente primeiro, mas some primeiro. Menos volátil = evapora devagar = demora a aparecer, mas fica horas.\n\n## O que torna uma molécula mais ou menos volátil\n\nTrês fatores físicos comandam a volatilidade:\n\n- **Peso molecular (MW).** Como regra prática de bancada: MW abaixo de ~160 g/mol tende a ser nota de topo; entre ~160 e ~220, coração; acima de ~220, base. É só uma heurística de blog técnico (não é lei da física), mas funciona bem para orientar.\n- **Ponto de ebulição.** Quanto mais alto o ponto de ebulição, mais devagar evapora. Repare como a escada sobe junto com o peso: etil butirato ferve a 121 °C, limoneno a 176 °C, etil decanoato a 245 °C, hexil cinamaldeído (base) a 308 °C.\n- **Pressão de vapor.** É a \"vontade\" da molécula de virar gás a 25 °C. Alta pressão de vapor (> 0,1 Torr) = topo; baixa (< 0,001 Torr) = base.\n\n### Exemplo numérico: comparando três materiais\n\n| Material | MW (g/mol) | Ponto de ebulição | Longevidade na pele |\n|---|---|---|---|\n| Limoneno (laranja) | 136 | 176 °C | 30–60 min |\n| Linalil acetato (lavanda) | 196 | ~220 °C | 4–6 h |\n| Cedrol (cedro) | 222 | alto | 12–24 h |\n\nDobrar o peso molecular (de 136 para 222) faz a longevidade saltar de menos de uma hora para mais de doze. Não é proporção exata, mas a direção é sempre essa.\n\n## A temperatura acelera tudo\n\nCalor aumenta a evaporação. A regra de bancada: **cada +10 °C aproximadamente dobra a taxa de evaporação**. Por isso o perfume \"abre\" mais forte e some mais rápido na pele quente do verão (~34 °C de pele) do que numa fita de papel fria. Um diferencial de +15 a +20 °C acelera a evaporação em cerca de 2,5 a 3 vezes.\n\n## O critério mais confiável: substantividade\n\nO sistema com respaldo científico revisado por pares é o **Coeficiente de Substantividade (CS)** de Poucher: coloca-se uma quantidade fixa do material numa fita de teste e cronometra-se por quantas horas ela mantém o cheiro típico. Poucher mediu ~330 materiais. Numa escala de 1 a 100: CS abaixo de 15 é topo; entre 15 e 60 é coração; acima de 60 é base.\n\nGuarde a lição: **volatilidade não é uma opinião, é física medível**. Quando você entende isso, para de decorar \"limão é topo\" e passa a *prever* onde qualquer material vai cair.",
+        "key_points": [
+          "Volatilidade = velocidade com que a molécula evapora e chega ao nariz.",
+          "Três drivers físicos: peso molecular, ponto de ebulição e pressão de vapor.",
+          "Regra de bancada de MW: <160 topo, 160–220 coração, >220 base (heurística, não lei).",
+          "Cada +10 °C dobra aproximadamente a taxa de evaporação.",
+          "O critério com respaldo peer-reviewed é o Coeficiente de Substantividade (CS) de Poucher: <15 topo, 15–60 coração, >60 base."
+        ],
+        "exercise": "Abra /material e escolha três matérias-primas que você reconheça (ex.: bergamota, gerânio, sândalo). Anote a nota (topo/coração/base) de cada uma e tente adivinhar qual tem o maior peso molecular ANTES de conferir. Depois confirme se a ordem de volatilidade bate com a regra <160 / 160–220 / >220.",
+        "app_links": [
+          { "label": "Explorar matérias-primas", "href": "/material" },
+          { "label": "Montar um blend no modo direto", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Poucher — coeficiente de substantividade (revisão peer-reviewed)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3574685/" },
+          { "title": "Molecular weight and perfume longevity (House of Sultan)", "url": "https://houseofsultan.in/blog/molecular-weight-perfume-longevity" },
+          { "title": "Volatilidade e evaporação em perfumaria (paper de engenharia)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8196857/" }
+        ]
+      },
+      {
+        "id": "m4l2",
+        "title": "Topo, coração e base em profundidade",
+        "duration_min": 14,
+        "body_md": "## As três fases de um perfume\n\nA pirâmide olfativa divide o perfume em três camadas por ordem de aparecimento. Não são compartimentos estanques — elas se sobrepõem — mas a divisão organiza a construção da fórmula.\n\n### Topo (top notes)\n\nO que você sente ao borrifar. Materiais muito voláteis, de baixo peso molecular.\n\n- **Duração:** ~5–20 minutos (algumas fontes esticam até 2 h; um paper de engenharia dá \"15–30 min\").\n- **Materiais típicos:** cítricos (bergamota, limão, laranja), aldeídos, ervas leves (hortelã), alguns verdes agudos (galbanum).\n- **Função:** o \"impacto\" e a primeira impressão. Vende o perfume nos primeiros segundos.\n\n### Coração (heart / middle notes)\n\nO tema central, que emerge quando o topo começa a se apagar.\n\n- **Duração:** ~2–5 horas (um paper dá \"3–4 h\").\n- **Materiais típicos:** florais (rosa, jasmim), especiarias (eugenol/cravo, geraniol), linalil acetato, ionona (violeta).\n- **Função:** o \"corpo\" e a identidade. É o que as pessoas lembram do perfume.\n\n### Base (base notes)\n\nA fundação, que sustenta tudo e deixa o rastro.\n\n- **Duração:** de ~4 h a mais de 12 h na pele; numa fita de teste, um material de base como Ambroxan pode reter cheiro por vários dias (a substantividade SGS chega a ≥400 h, ~16,7 dias).\n- **Materiais típicos:** madeiras (santalol/sândalo, cedrol/cedro), resinas e âmbar (benzoin, labdanum, Ambroxan), almíscares (Galaxolide), baunilha.\n- **Função:** fixação, profundidade e o cheiro do dia seguinte na roupa.\n\n## Tabela-resumo com tempos aproximados\n\n| Camada | Duração na pele | Peso molecular típico | Exemplos |\n|---|---|---|---|\n| Topo | ~5–20 min | < 160 g/mol | bergamota, limão, aldeído C-10 |\n| Coração | ~2–5 h | 160–220 g/mol | rosa, jasmim, geraniol, ionona |\n| Base | 4 h a 12+ h (fita: dias) | > 220 g/mol | sândalo, cedro, Ambroxan, baunilha |\n\n> ⚠️ **Cuidado:** as fronteiras são propositalmente difusas. O linalol (MW 154) é classificado como topo por uma fonte e como coração por outra. A pirâmide é um mapa, não um GPS.\n\n## Proporções na fórmula\n\nUma estrutura clássica de composição distribui o concentrado assim: **base ~55%, coração/modificadores ~20%, topo ~25%**. Parece contraintuitivo colocar tanta base, mas faz sentido: o topo é potente e voa rápido, então pouca quantidade já entrega impacto; a base é discreta e lenta, então precisa de massa para sustentar horas.\n\n### Exemplo numérico\n\nNum concentrado de 10 g montado nessa proporção clássica:\n\n- Base: 55% × 10 g = **5,5 g** (madeiras, resinas, almíscar)\n- Coração: 20% × 10 g = **2,0 g** (florais, especiarias)\n- Topo: 25% × 10 g = **2,5 g** (cítricos, aromáticos)\n\nRepare: mesmo com 5,5 g de base, nos primeiros minutos você mal vai sentir a base — os 2,5 g de topo dominam porque evaporam primeiro e são muito perceptíveis. É a coreografia da volatilidade em ação.",
+        "key_points": [
+          "Topo ~5–20 min, coração ~2–5 h, base de 4 h a 12+ h na pele (dias na fita).",
+          "Peso molecular acompanha as camadas: <160 / 160–220 / >220.",
+          "Estrutura clássica de composição: base ~55%, coração ~20%, topo ~25%.",
+          "Muita base por massa, mas o topo domina os primeiros minutos por ser volátil e potente.",
+          "As fronteiras são difusas: linalol é topo ou coração conforme a fonte."
+        ],
+        "exercise": "No /direto, monte um mini-blend com pelo menos um material de cada camada (topo, coração, base) usando as proporções 25/20/55. Borrife numa fita e cheire aos 2 min, 30 min e 2 h. Anote o que muda em cada tempo — você está literalmente vendo a pirâmide desmontar.",
+        "app_links": [
+          { "label": "Montar blend por camadas", "href": "/direto" },
+          { "label": "Ver receitas de fórmulas prontas", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "Top, heart and base notes explained (Clive Christian)", "url": "https://us.clivechristian.com/blogs/perfume-facts/what-are-the-top-heart-and-base-notes-in-a-perfume" },
+          { "title": "Fragrance building principles / método de composição", "url": "https://olfactiveaesthetics.com/fragrance-building-principles-method-of-perfume-creation/" },
+          { "title": "Tempos de evaporação por camada (paper de engenharia)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8196857/" }
+        ]
+      },
+      {
+        "id": "m4l3",
+        "title": "Fixadores e substantividade",
+        "duration_min": 11,
+        "body_md": "## O que é um fixador\n\nUm **fixador** é um material que *retarda a evaporação* das moléculas voláteis, estende a longevidade do perfume e estabiliza a composição. Ele funciona como uma âncora: segura as notas leves para que não voem embora de uma vez.\n\nO conceito-chave por trás disso é a **substantividade**: a capacidade de um material permanecer perceptível ao longo do tempo. É mensurável. O The Good Scents Company reporta a substantividade a 10% em DPG (dipropilenoglicol) em horas de retenção na fita:\n\n| Material | Substantividade (10% em DPG) |\n|---|---|\n| Ambroxan | > 400 h |\n| Vanilina | ~400 h |\n| Cumarina | ~364 h |\n| Cashmeran | ~48 h |\n\nAmbroxan em fita mantém cheiro por mais de duas semanas. É por isso que ele fixa tão bem.\n\n## Como um fixador funciona (mecanismos)\n\nHá dois modos principais:\n\n1. **Fixação física.** O material de base, viscoso e pouco volátil, \"dilui\" e segura fisicamente as moléculas voláteis, baixando a pressão de vapor da mistura. Resinas e bálsamos agem muito assim.\n2. **Fixação química reversível.** Alguns materiais formam ligações fracas e reversíveis — **bases de Schiff** (ex.: aldeído + metil antranilato) ou ligações de hidrogênio — que prendem a molécula e a liberam devagar.\n\n## Tipos de fixadores\n\n| Tipo | Exemplos | Uso típico |\n|---|---|---|\n| Resinas / bálsamos | benzoin, labdanum, bálsamo do Peru | benzoin >24 h; labdanum 0,1–1% |\n| Almíscares | Galaxolide (policíclico), Habanolide, Muscone (macrocíclicos) | base, 0,5–5% |\n| Animálicos | civet, castóreo | traço (<0,01% no final) |\n| Amplificadores âmbar/woody sintéticos | Iso E Super, Ambroxan | fazem a ponte topo↔base |\n\n## Fixadores que também são \"pontes\"\n\nO Ambroxan e o Iso E Super são especiais: são fixadores que também têm cheiro próprio e difusão. O Ambroxan dá 8–12 h na pele com forte difusão; o Iso E Super cria um \"halo\" âmbar-amadeirado que dá corpo e difusão aveludada. Eles conectam o topo à base, evitando o \"buraco\" que às vezes aparece na transição.\n\n### Exemplo numérico: o efeito de adicionar um fixador\n\nSuponha um acorde cítrico de 10 g que na fita dura ~40 minutos (cítricos voam rápido). Adicionando **0,3 g de Ambroxan** (3% do total), a base passa a segurar as notas leves e o rastro se estende para várias horas. Não é que o limão passe a durar mais sozinho — o fixador \"prende\" parte das moléculas na superfície e reduz a evaporação da mistura como um todo.\n\n> Regra prática: numa colônia cítrica, um pequeno percentual de almíscar ou Iso E Super (~1–3%) \"impede o cítrico de sumir instantaneamente\". Sem âncora, uma colônia pura de bergamota+limão+laranja dura minutos.\n\nDose de base num concentrado costuma ser **15–30% do blend** — é essa massa de baixa volatilidade que fixa o conjunto.",
+        "key_points": [
+          "Fixador retarda a evaporação das voláteis e estabiliza a fórmula.",
+          "Substantividade é medível: Ambroxan >400 h, vanilina ~400 h, cumarina ~364 h em fita.",
+          "Dois mecanismos: fixação física (baixa pressão de vapor) e química reversível (bases de Schiff, ligações-H).",
+          "Ambroxan e Iso E Super fixam E têm cheiro próprio — fazem ponte topo↔base.",
+          "Notas de base costumam ser 15–30% do concentrado."
+        ],
+        "exercise": "Nas /formulas, escolha uma receita cítrica ou aromática e localize o fixador (almíscar, Iso E Super, Ambroxan ou uma resina). Depois, no /direto, recrie um acorde cítrico simples SEM fixador, cheire, e adicione ~3% de um material de base. Compare o rastro em fita ao longo de 2 h.",
+        "app_links": [
+          { "label": "Ver fórmulas e identificar fixadores", "href": "/formulas" },
+          { "label": "Testar fixador no modo direto", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Fixatives em perfumaria (Olfactive Aesthetics)", "url": "https://olfactiveaesthetics.com/fragrance-building-principles-method-of-perfume-creation/" },
+          { "title": "Ambroxan — perfil e substantividade (TGSC)", "url": "http://www.thegoodscentscompany.com/data/rw1016071.html" },
+          { "title": "Substantividade medida em horas (Poucher, peer-reviewed)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3574685/" }
+        ]
+      },
+      {
+        "id": "m4l4",
+        "title": "Projeção (sillage) vs longevidade",
+        "duration_min": 11,
+        "body_md": "## Duas coisas diferentes que as pessoas confundem\n\n- **Projeção / sillage:** o quão longe o cheiro viaja no ar em volta de você. É a \"nuvem\" que os outros sentem quando você passa.\n- **Longevidade / fixação:** por quanto tempo o cheiro permanece detectável na pele.\n\nSão propriedades **independentes**. Um perfume pode projetar muito e durar pouco (uma colônia cítrica explosiva que some em uma hora), ou projetar pouco e durar muito (um almíscar-pele discreto que fica coladinho o dia todo, o chamado \"skin scent\").\n\n## O que dirige cada propriedade\n\n| Propriedade | Principais drivers |\n|---|---|\n| **Projeção / sillage** | alta volatilidade + baixo threshold odorífero. Moléculas leves evaporam rápido e viajam longe. Quanto menor o threshold (mais forte a molécula) e maior a volatilidade, maior o sillage. |\n| **Longevidade / fixação** | baixa volatilidade + alto peso molecular. Ligações reversíveis (bases de Schiff, ligações-H) e alta substantividade. |\n\nRepare a tensão: os drivers são quase **opostos**. O que projeta (volátil, leve) tende a não durar; o que dura (pesado, lento) tende a não projetar. O trabalho do perfumista é equilibrar os dois.\n\n## Threshold odorífero e o valor OAV\n\nUma molécula só contribui ao cheiro quando sua concentração supera o **threshold de detecção (ODT)**. A métrica é o **OAV (Odor Activity Value) = concentração ÷ ODT**; só \"conta\" quando OAV ≥ 1.\n\nAlgumas moléculas têm threshold baixíssimo — são potentes em quantidade mínima:\n\n| Material | ODT aproximado | Efeito |\n|---|---|---|\n| β-Damascenona | ~0,002 ppb em água | dos mais potentes; projeta muito em traço |\n| Tióis (classe) | 0,5–1 ng/L (sub-ppb) | os mais potentes conhecidos |\n| γ-Nonalactona | ~30 ppb em água | cremoso/coco |\n\nPor isso um traço de damascenona (0,04% do orçamento IFRA de rose ketones na Cat 4) já muda a projeção da fórmula inteira: OAV altíssimo mesmo em fração ínfima.\n\n## A percepção é comprimida (não-linear)\n\nDobrar a concentração **não** dobra a intensidade percebida. Vale a **lei de potência de Stevens** (ψ = k·I^a), com expoente a < 1 para olfato (~0,5–0,6). Na prática: aumentar a concentração 10× rende só ~3–4× mais intensidade. É por isso que despejar o dobro de material não deixa o perfume \"duas vezes mais forte\" — só um pouco mais.\n\n### Exemplo prático\n\n- Perfume A: 30% de topo cítrico volátil, pouca base → **projeta forte por 40 min, morre em 1–2 h**.\n- Perfume B: 55% base (Ambroxan, almíscar, sândalo), pouco topo → **projeção discreta, dura 10+ h**.\n\nPara ter *ambos*, você combina materiais radiantes que também são tenazes — Ambroxan (8–12 h na pele + forte difusão), Iso E Super (halo âmbar difusivo), Sandalore (\"difusivo e extremamente tenaz\", ~3 semanas em fita). Esses são os materiais que dão projeção E longevidade ao mesmo tempo, e por isso aparecem em tantos perfumes modernos.",
+        "key_points": [
+          "Projeção (sillage) = quão longe viaja; longevidade = quanto tempo dura. São independentes.",
+          "Sillage vem de alta volatilidade + baixo threshold; longevidade de baixa volatilidade + alto MW.",
+          "OAV = concentração ÷ ODT; a molécula só conta quando OAV ≥ 1.",
+          "Percepção é comprimida (lei de Stevens, a≈0,5–0,6): 10× concentração ≈ 3–4× intensidade.",
+          "Materiais radiantes E tenazes (Ambroxan, Iso E Super, Sandalore) entregam projeção e longevidade juntas."
+        ],
+        "exercise": "Escolha dois perfumes ou acordes nas /combinacoes — um cítrico/fresco e um amadeirado/âmbar. Preveja qual vai PROJETAR mais e qual vai DURAR mais, justificando com volatilidade e threshold. Depois monte cada um no /direto e teste na pele por 3 h para confirmar.",
+        "app_links": [
+          { "label": "Explorar combinações", "href": "/combinacoes" },
+          { "label": "Testar projeção vs longevidade", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Drivers de sillage e difusão (Ben's Scents)", "url": "https://www.benscents.com/blogs/news/what-makes-a-fragrance-project" },
+          { "title": "Odor detection threshold e OAV (ScienceDirect)", "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/odor-detection-threshold" },
+          { "title": "Lei de potência de Stevens (percepção comprimida)", "url": "https://en.wikipedia.org/wiki/Stevens%27s_power_law" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m5",
+    "title": "Diluição e Matemática da Formulação",
+    "level": "intermediario",
+    "summary": "A parte que assusta os iniciantes e liberta os intermediários: as contas. Por que diluir, como preparar soluções de estoque a 10%, 1% e 0,1%, como converter entre partes, porcentagem e gramas, e como calcular uma fórmula de verdade — com exemplos numéricos passo a passo.",
+    "lessons": [
+      {
+        "id": "m5l1",
+        "title": "Por que diluir; soluções de estoque 10% / 1% / 0,1%",
+        "duration_min": 13,
+        "body_md": "## Por que diluir\n\nMuitos materiais de perfumaria são **fortes demais para dosar puros (neat)** com precisão. Uma única gota de indol, damascona ou Iso E Super pode dominar um lote inteiro. E há outro problema: puros, muitos materiais **cheiram diferente** — o indol puro é fecal/naftalina; a 0,1% vira floral de jasmim. Só diluído você avalia o caráter real.\n\nTrês motivos para diluir:\n\n1. **Precisão.** Você não consegue pesar 0,003 g numa balança de 0,01 g, mas consegue pesar 0,3 g de uma solução a 1%.\n2. **Segurança olfativa.** Materiais potentes precisam ser \"quebrados\" para não anestesiar o nariz e não estragar o lote.\n3. **Avaliação real.** O caráter de um material só aparece na diluição de trabalho, não puro.\n\nO The Good Scents Company recomenda \"avaliar a 1% ou menos\" para materiais muito fortes: Ambroxan, indol, rose oxide, α/β-damascone.\n\n## A escada de diluição padrão\n\nA prática DIY consagrada é uma escada por fatores de 10:\n\n```\n100% (puro)  →  10%  →  1%  →  0,1%\n```\n\nCada degrau é feito pegando **1 parte** da solução anterior e completando com **9 partes** de solvente (etanol perfumístico ou DPG). Isso divide a concentração por 10 a cada passo.\n\n## Como preparar cada solução (exemplos numéricos)\n\nO solvente mais usado é etanol (álcool perfumístico) ou DPG. Vamos usar gramas (mais preciso que volume).\n\n### Solução a 10% — 10 g de solução final\n\n- Material puro: **1 g**\n- Solvente: **9 g**\n- Total: 10 g → concentração = 1 ÷ 10 = **10%**\n\n### Solução a 1% — a partir da de 10%\n\n- Solução a 10%: **1 g**\n- Solvente: **9 g**\n- Total: 10 g → 10% ÷ 10 = **1%**\n\n### Solução a 0,1% — a partir da de 1%\n\n- Solução a 1%: **1 g**\n- Solvente: **9 g**\n- Total: 10 g → 1% ÷ 10 = **0,1%**\n\n## Contando em gotas (quando não há balança)\n\nUma aproximação útil de bancada: **1 gota ≈ 0,03–0,05 g** para líquidos finos (varia com a viscosidade e o conta-gotas). Vamos usar **1 gota ≈ 0,03 g** (≈ 20 gotas por grama, valor comum para etanol).\n\n### Exemplo: quantas gotas para uma solução a 10% em 10 mL?\n\nEtanol tem densidade ~0,79 g/mL, então 10 mL ≈ 7,9 g de solução final. A 10%, o material puro é 10% dessa massa:\n\n- Material puro: 10% × 7,9 g ≈ **0,79 g** ≈ **26 gotas** (a 0,03 g/gota)\n- Solvente: o restante, ~7,1 g\n\nSe preferir raciocinar em volume simples: para 10 mL de solução a 10%, use ~1 mL de material puro + ~9 mL de solvente. Em gotas, ~1 mL ≈ 20–33 gotas conforme o conta-gotas — por isso pesar é sempre mais confiável.\n\n> ⚠️ Gotas variam MUITO (viscosidade, temperatura, bico do frasco). Use gotas só para materiais baratos e blends de treino; para fórmulas sérias, **pese sempre**.\n\n## Regra de ouro\n\nMantenha estoques a 10% e 1% dos seus materiais potentes rotulados com data. Quando a fórmula pede \"0,15% de indol\", você pesa a solução a 1% (ou 10%) em vez de tentar o impossível com o material puro.",
+        "key_points": [
+          "Diluir dá precisão, protege o nariz e revela o caráter real do material.",
+          "Escada padrão: 100% → 10% → 1% → 0,1%, dividindo por 10 a cada passo (1 parte + 9 de solvente).",
+          "Solução a 10% em 10 g = 1 g de material + 9 g de solvente.",
+          "Para 10 mL de solução a 10% (etanol ~0,79 g/mL ≈ 7,9 g): ~0,79 g de material ≈ 26 gotas a 0,03 g/gota.",
+          "1 gota ≈ 0,03–0,05 g é só aproximação — para fórmulas sérias, pese sempre."
+        ],
+        "exercise": "Escolha um material potente no /material (ex.: Iso E Super, damascona ou rose oxide). Calcule no papel as três diluições da escada (10%, 1%, 0,1%) partindo de 10 g de solução em cada degrau: quanto de material e quanto de solvente em cada uma. Confira que cada passo usa 1 g da solução anterior + 9 g de solvente.",
+        "app_links": [
+          { "label": "Ver materiais potentes que exigem diluição", "href": "/material" },
+          { "label": "Montar blend com diluições", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Escada de diluição 100/10/1% (Basenotes thread)", "url": "https://basenotes.com/threads/dilution-of-aroma-chemicals.468173/" },
+          { "title": "Prática de diluição (Pell Wall)", "url": "https://www.pellwall.com/blogs/perfticles/how-to-dilute-perfume-materials" },
+          { "title": "Materiais a avaliar a 1% ou menos (Scentspiracy)", "url": "https://www.scentspiracy.com/fragrance-ingredients/p/indol" }
+        ]
+      },
+      {
+        "id": "m5l2",
+        "title": "Partes, porcentagem e gramas: conversões",
+        "duration_min": 12,
+        "body_md": "## Três linguagens para a mesma coisa\n\nFórmulas de perfumaria aparecem em três formatos, e você precisa transitar entre eles:\n\n- **Partes:** proporções relativas (ex.: \"5 partes de bergamota, 3 de oakmoss\"). Não dizem o tamanho do lote, só a razão.\n- **Porcentagem (%):** a fração de cada material no total. Sempre soma 100%.\n- **Gramas (g):** a quantidade física a pesar. Depende do tamanho do lote.\n\nA maioria das receitas clássicas (e as do accords.json) vem em **partes**, porque são independentes de escala.\n\n## De partes para porcentagem\n\nFórmula: `% do material = (partes do material ÷ total de partes) × 100`\n\n### Exemplo: acorde Chypre clássico (do accords.json)\n\n| Material | Partes |\n|---|---|\n| Bergamota | 5,0 |\n| Oakmoss | 3,0 |\n| Patchouli | 2,0 |\n| Rosa/jasmim (base) | 2,0 |\n| Labdanum | 1,0 |\n| **Total** | **13,0** |\n\nConvertendo:\n\n- Bergamota: 5,0 ÷ 13 × 100 = **38,46%**\n- Oakmoss: 3,0 ÷ 13 × 100 = **23,08%**\n- Patchouli: 2,0 ÷ 13 × 100 = **15,38%**\n- Rosa/jasmim: 2,0 ÷ 13 × 100 = **15,38%**\n- Labdanum: 1,0 ÷ 13 × 100 = **7,69%**\n- Soma: **99,99%** ✓ (arredondamento)\n\n## De porcentagem para gramas\n\nFórmula: `gramas do material = (% ÷ 100) × massa total do lote`\n\n### Exemplo: fazer 20 g do concentrado Chypre acima\n\n- Bergamota: 38,46% × 20 g = **7,69 g**\n- Oakmoss: 23,08% × 20 g = **4,62 g**\n- Patchouli: 15,38% × 20 g = **3,08 g**\n- Rosa/jasmim: 15,38% × 20 g = **3,08 g**\n- Labdanum: 7,69% × 20 g = **1,54 g**\n- Soma: ~20,01 g ✓\n\n## Atalho: de partes direto para gramas\n\nVocê nem precisa passar por porcentagem. Basta decidir **quanto vale 1 parte em gramas** e multiplicar.\n\n### Exemplo: 1 parte = 1 g no Chypre (total 13 partes)\n\nEntão o lote inteiro é 13 g, e você pesa literalmente os números das partes em gramas: 5 g bergamota, 3 g oakmoss, 2 g patchouli, 2 g rosa/jasmim, 1 g labdanum. Simples assim.\n\nQuer um lote de 26 g? Faça 1 parte = 2 g: 10 g bergamota, 6 g oakmoss, 4 g patchouli, 4 g rosa/jasmim, 2 g labdanum.\n\n## Cuidado com o material diluído\n\nQuando uma \"parte\" se refere a uma **solução diluída**, a conta dá a quantidade da *solução*, não do material puro. Exemplo: se a receita pede 3 partes de \"damascona a 10%\", e 1 parte = 1 g, você pesa 3 g da solução a 10% — o que equivale a apenas 0,3 g de damascona pura (3 g × 10%). Sempre confira se a proporção se refere ao puro ou ao diluído.\n\n> Dica de bancada: monte a fórmula numa planilha com colunas Partes | % | Gramas. Ela recalcula tudo quando você muda o tamanho do lote, e a coluna % te avisa na hora se algum material passou do limite IFRA.",
+        "key_points": [
+          "% = (partes do material ÷ total de partes) × 100.",
+          "gramas = (% ÷ 100) × massa total do lote.",
+          "Atalho: defina quanto vale 1 parte em gramas e multiplique direto (1 parte = 1 g → total = soma das partes).",
+          "Material diluído: a parte refere-se à SOLUÇÃO; 3 g de solução a 10% = 0,3 g de material puro.",
+          "Uma planilha Partes|%|Gramas recalcula a escala e sinaliza limites IFRA."
+        ],
+        "exercise": "Abra uma receita em partes nas /formulas ou /combinacoes. Converta-a para porcentagem (some as partes, divida cada uma pelo total) e depois calcule as gramas para um lote de 15 g. Verifique se a soma das gramas bate com 15 g.",
+        "app_links": [
+          { "label": "Ver fórmulas em partes", "href": "/formulas" },
+          { "label": "Explorar combinações", "href": "/combinacoes" }
+        ],
+        "references": [
+          { "title": "Perfumery calculations — partes/%/gramas (Pell Wall)", "url": "https://www.pellwall.com/blogs/perfticles/formulating-in-percentages" },
+          { "title": "Fórmulas educativas em partes (Perfumer's Apprentice)", "url": "https://shop.perfumersapprentice.com/t-formulas.aspx" },
+          { "title": "Working with dilutions (Basenotes)", "url": "https://basenotes.com/threads/dilution-of-aroma-chemicals.468173/" }
+        ]
+      },
+      {
+        "id": "m5l3",
+        "title": "Calculando uma fórmula: exemplos passo a passo",
+        "duration_min": 15,
+        "body_md": "## Da ideia ao frasco: o fluxo completo\n\nVamos montar um perfume do zero, com todas as contas. O caminho é sempre:\n\n1. Escrever o **concentrado** em partes ou %.\n2. Converter para **gramas** no tamanho de lote desejado.\n3. **Diluir** o concentrado em álcool para chegar ao Eau de Parfum, Eau de Toilette, etc.\n\n## Passo 1 — o concentrado (acorde Âmbar clássico, do accords.json)\n\nO acorde âmbar canônico (atribuído a Mandy Aftel) é **benzoin : labdanum : baunilha = 20 : 5 : 1**.\n\n| Material | Partes |\n|---|---|\n| Benzoin absoluto | 20 |\n| Labdanum absoluto | 5 |\n| Baunilha / vanilina | 1 |\n| **Total** | **26** |\n\nEm porcentagem: benzoin 76,9%, labdanum 19,2%, baunilha 3,8%.\n\n## Passo 2 — fazer 10 g de concentrado\n\nDefinindo 1 parte ≈ 0,3846 g (para que 26 partes = 10 g):\n\n- Benzoin: 20 × 0,3846 = **7,69 g**\n- Labdanum: 5 × 0,3846 = **1,92 g**\n- Baunilha: 1 × 0,3846 = **0,38 g**\n- Soma: 9,99 g ≈ **10 g** ✓\n\n## Passo 3 — diluir o concentrado em álcool\n\nAgora transformamos os 10 g de concentrado num perfume. As concentrações usuais:\n\n| Tipo | Concentrado no produto final |\n|---|---|\n| Eau de Cologne | 2–5% |\n| Eau de Toilette | 5–15% |\n| Eau de Parfum | 15–20% |\n| Parfum / Extrait | 20–30%+ |\n\n### Exemplo: Eau de Parfum a 20%\n\nSe os 10 g de concentrado devem ser 20% do produto:\n\n`massa final = concentrado ÷ 0,20 = 10 g ÷ 0,20 = 50 g de perfume`\n\nOu seja: **10 g de concentrado + 40 g de álcool** = 50 g de EDP a 20%.\n\n### Exemplo: Eau de Toilette a 10%\n\n`massa final = 10 g ÷ 0,10 = 100 g` → **10 g de concentrado + 90 g de álcool**.\n\n## Exemplo com material diluído embutido: acorde Marinho\n\nDo accords.json, o acorde marinho usa Calone a 10%. Fórmula em partes:\n\n| Material | Partes | Observação |\n|---|---|---|\n| Dihidromirceno l | 6,5 | puro |\n| Hedione | 4,0 | puro |\n| Calone 1951 (solução 10%) | 0,4 | é solução, não puro |\n| Helional | 1,0 | puro |\n| **Total** | **11,9** | |\n\nFazendo 1 parte = 1 g (lote de 11,9 g):\n\n- Dihidromirceno l: **6,5 g**\n- Hedione: **4,0 g**\n- Calone a 10%: **0,4 g** de solução → contém só **0,04 g** de Calone puro (0,4 × 10%)\n- Helional: **1,0 g**\n\nRepare: o Calone puro é apenas 0,04 g em 11,9 g = **0,34% do concentrado** — coerente com a recomendação de manter Calone abaixo de 0,5%. Se você tivesse pesado 0,4 g de Calone *puro* por engano, seria 3,4% — dez vezes demais, e o acorde ficaria enjoativo de melão.\n\n## Checando limite IFRA (exemplo real)\n\nO oakmoss tem limite IFRA Cat 4 de **0,10% no produto acabado**. Se seu concentrado Chypre tem 23% de oakmoss e você o dilui a 20% (EDP), a concentração de oakmoss no frasco é: 23% × 20% = **4,6%** — muito acima de 0,10%. Você teria que reduzir drasticamente o oakmoss ou usar uma versão com atranol reduzido e recalcular. **Sempre multiplique o % no concentrado pelo % de diluição para achar o % no produto final.**",
+        "key_points": [
+          "Fluxo: concentrado em partes → gramas → diluição em álcool para EDT/EDP.",
+          "Âmbar 20:5:1 em 10 g = benzoin 7,69 g + labdanum 1,92 g + baunilha 0,38 g.",
+          "massa final = concentrado ÷ fração desejada; 10 g a 20% = 50 g (10 g concentrado + 40 g álcool).",
+          "Material diluído: 0,4 g de Calone a 10% = só 0,04 g de Calone puro.",
+          "% no produto final = % no concentrado × % de diluição (essencial para checar IFRA)."
+        ],
+        "exercise": "No /direto, monte o acorde Âmbar 20:5:1 para um lote de 5 g (calcule as gramas de cada material). Depois calcule quanto álcool adicionar para transformá-lo num Eau de Parfum a 20% e num Eau de Toilette a 10%. Anote as três massas finais.",
+        "app_links": [
+          { "label": "Montar o acorde âmbar", "href": "/direto" },
+          { "label": "Ver fórmulas completas", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "Concentrações EDC/EDT/EDP (Pell Wall)", "url": "https://www.pellwall.com/blogs/perfticles/perfume-concentration-and-strength" },
+          { "title": "Acorde âmbar 20:5:1 — Mandy Aftel, Essence & Alchemy", "url": "https://www.idreamofperfume.com/2015/01/making-amber-accord.html" },
+          { "title": "IFRA Standards library (limites por material)", "url": "https://ifrafragrance.org/safe-use/library" }
+        ]
+      },
+      {
+        "id": "m5l4",
+        "title": "Técnica do blotter / fita de teste",
+        "duration_min": 10,
+        "body_md": "## A fita é o seu microscópio olfativo\n\nO **blotter** (fita ou mouillette) é uma tira de papel absorvente que você mergulha no material ou na fórmula para cheirar. Ele é a ferramenta central da avaliação: permite acompanhar a evaporação sem \"gastar\" a pele e sem o calor corporal acelerar tudo.\n\nA pele distorce a avaliação: aquece o material (evapora mais rápido), tem cheiro próprio e reage quimicamente. A fita é neutra e reproduzível. Você usa a fita para *analisar* e a pele só para a *decisão final*.\n\n## Como usar corretamente\n\n1. **Rotule antes de molhar.** Escreva o nome/código na ponta seca. Depois de molhada com 5 materiais parecidos, você não lembra qual é qual.\n2. **Mergulhe só a ponta** (~0,5–1 cm), ou pingue 1 gota. Não encharque — excesso satura o nariz.\n3. **Espere o solvente evaporar** (~10–15 s) antes de cheirar; o álcool inicial atrapalha.\n4. **Cheire em movimento**, passando a fita sob o nariz, com pausas. Não fixe: o nariz *adapta* (fadiga olfativa) em segundos e para de sentir.\n5. **Acompanhe no tempo.** Cheire aos 0 min, 15 min, 1 h, algumas horas e no dia seguinte. É assim que você mapeia topo → coração → base.\n\n## O método Jean Carles de avaliação em fita\n\nJean Carles, que ficou anósmico (perdeu o olfato) no fim da carreira e mesmo assim continuou compondo de memória, treinava avaliando materiais **em pares na fita**, testando razões incrementais (9:1, 8:2, 7:3...). A fita é o suporte físico desse método — você molha uma ponta em cada razão e compara lado a lado.\n\n## Combatendo a fadiga olfativa\n\nO nariz satura rápido. Truques práticos:\n\n- **Pausas de 20–30 s** entre materiais fortes.\n- **Cheirar a própria pele/manga** (algo neutro e familiar) para \"resetar\" — mais eficaz que café, cujo efeito de reset é folclore, não ciência.\n- **Sessões curtas.** 20–30 min de avaliação intensa é o limite útil antes do nariz \"desligar\".\n- **Ar fresco** entre séries.\n\n## Exemplo de registro (o que anotar)\n\nMonte uma tabela de acompanhamento simples. Exemplo para um acorde fougère:\n\n| Tempo | O que sinto |\n|---|---|\n| 0 min | lavanda + bergamota brilhante (topo) |\n| 15 min | lavanda cedendo, gerânio aparece (coração) |\n| 1 h | cumarina/feno doce dominando |\n| 4 h | oakmoss + vetiver, seco e musgoso (base) |\n| 24 h | resíduo amadeirado-musgoso na fita |\n\nEsse registro é ouro: comparando fitas de versões diferentes da mesma fórmula, você vê exatamente qual mudança melhorou (ou estragou) cada fase. **Guarde as fitas rotuladas** — algumas notas de base ainda estarão cheirando dias depois, o que confirma a fixação na prática.",
+        "key_points": [
+          "A fita (blotter) permite analisar a evaporação sem o calor e o cheiro da pele.",
+          "Rotule antes de molhar, mergulhe só a ponta, espere o solvente evaporar, cheire em movimento.",
+          "Acompanhe no tempo (0 min, 15 min, 1 h, horas, dia seguinte) para mapear a pirâmide.",
+          "Jean Carles avaliava materiais em pares na fita, em razões incrementais (9:1, 8:2...).",
+          "Combata a fadiga com pausas, cheirando a própria pele para resetar, e sessões curtas."
+        ],
+        "exercise": "Monte um acorde simples no /direto e prepare 2 fitas. Numa, cheire e anote imediatamente; guarde a outra rotulada num canto. Faça uma tabela de acompanhamento (0 min, 15 min, 1 h, dia seguinte) e compare a fita fresca com a guardada para identificar quais materiais são a base que persiste.",
+        "app_links": [
+          { "label": "Montar acorde para avaliar em fita", "href": "/direto" },
+          { "label": "Ver receitas para testar", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "How to use a smelling strip / blotter (Pell Wall)", "url": "https://www.pellwall.com/blogs/perfticles/using-smelling-strips" },
+          { "title": "Jean Carles — A Method of Creation in Perfumery (PDF completo)", "url": "http://quintescential.ca/wp-content/uploads/2014/04/Jean-Carles-Complete.pdf" },
+          { "title": "Evaluating materials e fadiga olfativa (Basenotes)", "url": "https://basenotes.com/threads/dilution-of-aroma-chemicals.468173/" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m6",
+    "title": "Acordes",
+    "level": "intermediario",
+    "summary": "O coração da criação de perfumes. O que é um acorde, o método de aprendizado de Jean Carles (diluições e pares), as receitas de acordes clássicos com proporções reais, e um passo a passo para construir o seu primeiro acorde do zero.",
+    "lessons": [
+      {
+        "id": "m6l1",
+        "title": "O que é um acorde",
+        "duration_min": 10,
+        "body_md": "## A analogia musical\n\nNa música, um **acorde** é um conjunto de notas tocadas juntas que soam como uma coisa só — não três notas separadas, mas um \"dó maior\". Na perfumaria, um **acorde olfativo** é a mesma ideia: dois ou mais materiais combinados de forma que o resultado seja percebido como *um único cheiro novo*, e não como a soma reconhecível das partes.\n\nQuando você acerta um acorde, ninguém diz \"sinto benzil acetato, hedione e indol\" — dizem \"que jasmim lindo\". Os componentes se fundem numa gestalt.\n\n## Acorde ≠ mistura qualquer\n\nJogar materiais juntos dá uma *mistura*. Um **acorde** é uma mistura em que:\n\n- as proporções estão calibradas para que nenhum material grite sozinho;\n- surge um caráter emergente (o \"jasmim\", o \"couro\", o \"marinho\") que não estava em nenhuma peça isolada;\n- o conjunto é estável e coerente ao longo da evaporação.\n\nO acorde é o **tijolo** da perfumaria. Perfumistas raramente compõem molécula por molécula do zero — eles montam a fórmula combinando acordes já dominados: um acorde âmbar aqui, um floral ali, um toque de acorde marinho.\n\n## Estrutura interna de um acorde\n\nMuitos acordes seguem a mesma lógica de camadas da pirâmide:\n\n- **Material dominante (bulk):** dá o volume e o caráter principal. No acorde jasmim, é o benzil acetato (400 partes por 1000 na receita educativa da Perfumer's Apprentice).\n- **Modificadores:** ajustam a nuance (hedione dá radiância e transparência).\n- **Traço potente:** uma pitada de algo muito forte que dá vida (indol, ~15 partes por 1000 = razão benzil acetato:indol de ~200:1).\n\nMudar a razão entre esses papéis muda o caráter: mais indol → jasmim mais \"sujo\"/animálico; menos → mais limpo e comercial.\n\n## A não-linearidade que torna acordes mágicos (e traiçoeiros)\n\nA percepção olfativa é **sub-aditiva**: a intensidade de uma mistura é *menor* que a soma das intensidades individuais. E vale a lei de Stevens (dobrar a dose não dobra o efeito). Consequência prática: um traço de material potente pode dominar apesar de sua fração ínfima em peso, enquanto um material fraco pode \"sumir\" mesmo em boa quantidade.\n\nÉ por isso que acorde se **calibra por experimento**, não só por cálculo. As proporções das receitas clássicas são pontos de partida testados — mas seu nariz, sua matéria-prima e sua diluição vão pedir ajustes.\n\n## Confiabilidade das receitas\n\n> As casas de perfume **nunca publicam fórmulas reais**. Os acordes \"clássicos\" que você encontra são esqueletos didáticos, demos derivadas de patentes ou reconstruções da comunidade. Fontes profissionais (Perfumer's Apprentice, The Good Scents Company) são mais confiáveis; threads de Basenotes/Reddit são ponto de partida de hobbyistas.",
+        "key_points": [
+          "Acorde = materiais combinados que soam como UM cheiro novo, não a soma das partes.",
+          "Difere de mistura qualquer: proporções calibradas, caráter emergente, estável no tempo.",
+          "É o 'tijolo' da perfumaria — compõe-se combinando acordes dominados.",
+          "Estrutura típica: material dominante + modificadores + traço potente (ex.: jasmim 200:1 benzil acetato:indol).",
+          "Percepção sub-aditiva e não-linear: calibre por experimento, use as receitas como ponto de partida."
+        ],
+        "exercise": "Nas /combinacoes, escolha um acorde clássico (ex.: fougère, chypre ou âmbar) e identifique quem é o material dominante, quem são os modificadores e quem é o traço potente. Anote a razão entre o dominante e o traço.",
+        "app_links": [
+          { "label": "Explorar acordes em combinações", "href": "/combinacoes" },
+          { "label": "Ver receitas de acordes", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "Acorde jasmim educativo (Perfumer's Apprentice)", "url": "https://shop.perfumersapprentice.com/t-formulas.aspx" },
+          { "title": "O que é um acorde — princípios de composição (Olfactive Aesthetics)", "url": "https://olfactiveaesthetics.com/fragrance-building-principles-method-of-perfume-creation/" },
+          { "title": "Percepção sub-aditiva em misturas (ResearchGate)", "url": "https://www.researchgate.net/publication/229884045" }
+        ]
+      },
+      {
+        "id": "m6l2",
+        "title": "Método Jean Carles: aprendizado por diluição e pares",
+        "duration_min": 14,
+        "body_md": "## Quem foi Jean Carles\n\nJean Carles (1892–1966) foi um dos maiores perfumistas do século XX (criador do Ma Griffe, Miss Dior, Shocking) e fundou a escola de perfumaria da Roure (hoje Givaudan). Ele sistematizou um **método de aprendizado e criação** que ainda é a espinha dorsal do treino de perfumistas. Notavelmente, perdeu o olfato no fim da vida e continuou compondo de memória — prova de que o método é tão intelectual quanto sensorial.\n\nO texto completo está disponível como \"A Method of Creation in Perfumery\".\n\n## Fase 1 — conhecer os materiais por famílias\n\nAntes de misturar qualquer coisa, Carles fazia o aluno **memorizar materiais um a um**, agrupados por família olfativa (cítricos, florais, amadeirados, etc.) e sempre **diluídos** (em geral a 10%), porque o material puro engana o nariz. O objetivo é criar um \"vocabulário\" olfativo — você não pode compor com o que não reconhece.\n\n## Fase 2 — estudar pares em razões incrementais\n\nO coração do método. Você pega **dois materiais** e os combina em razões que variam por passos:\n\n```\n9:1   8:2   7:3   6:4   5:5   4:6   3:7   2:8   1:9\n```\n\nCheira cada razão numa fita, lado a lado, e observa como o caráter migra de um material para o outro. Você descobre onde está o ponto \"mágico\" (às vezes 7:3, às vezes 5:5) e, crucialmente, **onde um material começa a dominar o outro**. Materiais potentes dominam mesmo em razões baixas.\n\n### Exemplo numérico com solução a 10%\n\nPara estudar o par lavanda × cumarina a 10%, cada fita usa ~1 g total de solução. A razão 7:3 é:\n\n- Lavanda a 10%: 0,7 g\n- Cumarina a 10%: 0,3 g\n\nE assim por diante para cada degrau. Você monta 9 fitas rotuladas (9:1 a 1:9) e compara. Vai perceber, por exemplo, que a cumarina (doce, feno) domina bem antes do 5:5 — talvez já em 8:2 (lavanda:cumarina) ela esteja no limite. Esse é exatamente o tipo de intuição quantitativa que o método constrói.\n\n## Fase 3 — de pares para acordes de três\n\nUma vez achada a melhor razão de um par, você o trata como um bloco e adiciona um **terceiro material**, de novo em razões incrementais. Depois um quarto. É assim que um acorde cresce de forma controlada, sempre sabendo o que cada adição faz.\n\n## Fase 4 — bases e a estrutura 55/20/25\n\nCarles pré-montava **bases** (\"coeurs\") — acordes prontos que ele reusava como blocos de construção. E ensinava a estrutura de composição em três blocos:\n\n- **Base ~55%** — materiais de baixa volatilidade que definem o caráter (ex.: oakmoss num chypre).\n- **Modificadores ~20%** — o coração, que suaviza a base e dá nuance.\n- **Topo ~25%** — os voláteis, o impacto fresco.\n\n### Exemplo: Chypre de Jean Carles (estrutura 55/20/25)\n\n| Bloco | % | Componentes (partes) |\n|---|---|---|\n| Base | 55% | Oakmoss abs 6, Cumarina 4, Musk cetona 1 |\n| Modificadores | 20% | Jasmim abs 3, Civet (sol. 10%) 1 |\n| Topo | 25% | Laranja doce 4, Bergamota 1 |\n\nRepare que a base é a maior fatia e é montada primeiro — Carles construía **de baixo para cima**, começando pela base e adicionando coração e topo por último. Isso é o oposto do que o iniciante costuma fazer (começar pelo cheiro bonito do topo), e é justamente por isso que os perfumes de iniciante costumam \"desabar\" após 20 minutos.",
+        "key_points": [
+          "Jean Carles sistematizou o método padrão de treino de perfumistas.",
+          "Fase 1: memorizar materiais diluídos (10%) por família — construir vocabulário.",
+          "Fase 2: estudar PARES em razões incrementais (9:1, 8:2, ... 1:9) em fita, lado a lado.",
+          "Fase 3: adicionar um terceiro material ao par vencedor, de novo por razões.",
+          "Construir de baixo para cima: base ~55%, modificadores ~20%, topo ~25%."
+        ],
+        "exercise": "Escolha dois materiais complementares no /material (ex.: lavanda + cumarina, ou rosa + patchouli). No /direto, monte pelo menos 3 razões do par (ex.: 7:3, 5:5, 3:7) usando soluções a 10%. Cheire em fita e anote em qual razão o par fica mais equilibrado e a partir de qual razão um material domina o outro.",
+        "app_links": [
+          { "label": "Escolher pares de materiais", "href": "/material" },
+          { "label": "Testar razões de um par", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Jean Carles — A Method of Creation in Perfumery (PDF completo)", "url": "http://quintescential.ca/wp-content/uploads/2014/04/Jean-Carles-Complete.pdf" },
+          { "title": "Estrutura 55/20/25 e método Carles (Olfactive Aesthetics)", "url": "https://olfactiveaesthetics.com/fragrance-building-principles-method-of-perfume-creation/" },
+          { "title": "Chypre de Jean Carles (Basenotes / reconstrução)", "url": "https://basenotes.com/threads/the-jean-carles-method.295647/" }
+        ]
+      },
+      {
+        "id": "m6l3",
+        "title": "Acordes clássicos e receitas",
+        "duration_min": 15,
+        "body_md": "## As receitas reais (com proporções)\n\nAs receitas abaixo vêm da base de acordes do Perfumista (`accords.json`), compiladas de fontes profissionais (Perfumer's Apprentice, The Good Scents Company, patentes) e reconstruções da comunidade. **São esqueletos didáticos** — as casas nunca publicam fórmulas reais. Materiais marcados como traço/potente devem ser pré-diluídos (geralmente 10% ou 1%) e dosados em frações de porcentagem.\n\n> As `proportion` são pesos relativos (**partes**), salvo indicação. Escale à vontade.\n\n## Fougère (o \"feno\") — arquétipo Fougère Royale, 1882\n\nAbertura aromática de lavanda secando para calor de feno/tonka e profundidade musgosa. Confiança: aproximada.\n\n| Papel | Material | Partes |\n|---|---|---|\n| topo aromático | Lavanda (EO ou absoluto) | 2,3 |\n| base feno-doce | Cumarina (ou tonka absoluto) | 2,0 |\n| citrus lift | Bergamota | 1,3 |\n| base terrosa | Vetiver / patchouli | 1,0 |\n| base musgosa | Oakmoss absoluto (IFRA-restrito) | 1,0 |\n\nTotal 7,6 partes. Em %: lavanda 30,3%, cumarina 26,3%, bergamota 17,1%, vetiver 13,2%, oakmoss 13,2% (mas oakmoss é IFRA-restrito a 0,10% no produto final — manter em dígito único no concentrado e recalcular).\n\n## Chypre — estrutura Coty Chypre, 1917\n\nBergamota brilhante sobre base musgosa amarga, quente-resinosa. Confiança: aproximada.\n\n| Papel | Material | Partes |\n|---|---|---|\n| topo citrus | Bergamota | 5,0 |\n| base musgosa | Oakmoss (IFRA-restrito) | 3,0 |\n| base terrosa | Patchouli | 2,0 |\n| coração floral | Rosa / base de jasmim | 2,0 |\n| base resinosa-âmbar | Labdanum / cistus | 1,0 |\n\n## Âmbar / Oriental — o triângulo canônico\n\nO acorde âmbar mais citado (atribuído a Mandy Aftel). Doçura de caramelo escuro com borda resinosa-couro. Confiança: sólida.\n\n**Benzoin : Labdanum : Baunilha = 20 : 5 : 1**\n\n- Variante simplificada 3:2:1 (benzoin:labdanum:baunilha).\n- Variante moderna: adicionar Ambroxan 0,1–1% (até ~10% em \"ambrox bombs\").\n\nA baunilha domina rápido — por isso é a menor parte. Se você inverter e colocar baunilha demais, vira gourmand, não âmbar.\n\n## Marinho / Aquático — construído sobre Calone 1951\n\nBrisa do mar ozônica, casca de melancia. Confiança: sólida.\n\n| Papel | Material | Partes | Diluição |\n|---|---|---|---|\n| lift fresco-amadeirado | Dihidromirceno l | 6,5 | puro |\n| floral difusivo | Hedione | 4,0 | puro |\n| núcleo marinho (potente) | Calone 1951 | 0,4 | solução 10% |\n| ozônico | Floralozone / Helional | 1,0 | puro |\n\nO Calone é tão potente que entra como solução a 10% e ainda assim fica sub-0,5% do concentrado. Sugere-se até ~0,5%, ≤0,8% em fine fragrance (o Aramis New West usou ~1,2%).\n\n## Rosa (estilo rose otto, dominante em citronelol) — demo Firmenich N.207808 (por 1000)\n\nRosa natural quente, meloso, levemente cítrico. Confiança: sólida.\n\n| Material | Partes (por 1000) |\n|---|---|\n| Citronelol | 480 |\n| Feniletanol (PEA) | 200 |\n| Linalol | 120 |\n| Amil fenilacetato | 50 |\n| Geraniol | 50 |\n| Damascona (sol. 10%) | 30 |\n| Rose oxide (potente) | 10 (~1%) |\n\nO citronelol é 48% do total — é o \"corpo\" da rosa. O rose oxide, a ~1%, é o traço verde-metálico que dá o \"orvalho\". Muito rose oxide e a rosa fica metálica demais.\n\n## Violeta (iononas) — acorde moderno (M. Salazar)\n\nEmpoado, doce, com facetas de íris/camurça. Razão **metil : alfa : beta ≈ 10 : 3,3 : 1**.\n\n| Material | Partes |\n|---|---|\n| Metil ionona gama | 15,2 |\n| alfa-Ionona | 5,07 |\n| beta-Ionona (usar o mínimo) | 1,52 |\n| Hedione | 25 |\n| Galaxolide | 8,45 |\n| Heliotropina | 3 |\n\nA beta-ionona domina fácil (nota amadeirada-seca) — por isso é a menor. A variante vintage (Jellinek 1949) inverte: beta:alfa:metil = 4:2,7:1.\n\n## Gourmand — baunilha + traço de etil maltol\n\nAlgodão-doce/caramelo sobre baunilha cremosa. Confiança: sólida.\n\n| Material | Partes | Diluição |\n|---|---|---|\n| Vanilina / baunilha | 100 | puro |\n| Etil maltol (potente) | 0,3 | solução 10% |\n\nRazão vanilina:etil maltol de ~333:1. O etil maltol usa-se a 0,05–0,5% do concentrado; acima de 1% fica artificial/enjoativo.\n\n> Explore no app dezenas de outros acordes (couro, incenso, tabaco, muguet, íris, almíscar, cedro, sândalo) com proporções completas.",
+        "key_points": [
+          "Âmbar canônico: benzoin:labdanum:baunilha = 20:5:1 (simplificado 3:2:1).",
+          "Chypre (Coty 1917): bergamota 5, oakmoss 3, patchouli 2, rosa/jasmim 2, labdanum 1.",
+          "Rosa rose-otto: citronelol domina (~48%); rose oxide só ~1% dá o orvalho verde-metálico.",
+          "Violeta: metil:alfa:beta ≈ 10:3,3:1 — beta-ionona é a menor porque domina fácil.",
+          "Materiais potentes (Calone, etil maltol, damascona) entram como solução 10% e ficam sub-1% do concentrado."
+        ],
+        "exercise": "Nas /formulas, abra uma das receitas clássicas (chypre, âmbar, rosa ou violeta) e confira as proporções contra esta aula. Depois, no /direto, monte a versão simplificada do âmbar (3:2:1 benzoin:labdanum:baunilha) num lote de 6 g e cheire em fita ao longo de 1 h.",
+        "app_links": [
+          { "label": "Ver receitas de acordes clássicos", "href": "/formulas" },
+          { "label": "Montar um acorde clássico", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Acorde âmbar 20:5:1 — Mandy Aftel, Essence & Alchemy", "url": "https://www.idreamofperfume.com/2015/01/making-amber-accord.html" },
+          { "title": "Acorde de rosa Firmenich (The Good Scents Company demo)", "url": "http://www.thegoodscentscompany.com/demos/dm1109511.html" },
+          { "title": "Acordes de violeta e muguet (Olfactorian, M. Salazar)", "url": "https://olfactorian.com/" }
+        ]
+      },
+      {
+        "id": "m6l4",
+        "title": "Construindo seu primeiro acorde: passo a passo",
+        "duration_min": 14,
+        "body_md": "## Vamos construir um acorde âmbar do zero\n\nVocê tem a teoria; agora a prática. Escolhemos o **acorde âmbar** porque é sólido (fonte confiável), tem só 3 materiais e ensina o raciocínio de base. Meta: um acorde âmbar de ~6 g de concentrado.\n\n### Materiais e ferramentas\n\n- Benzoin absoluto (ou resinóide), labdanum absoluto, vanilina.\n- Etanol/DPG para diluir, balança de 0,01 g, fitas de teste, pipetas, frascos rotulados.\n\n## Passo 1 — prepare as diluições\n\nBenzoin e labdanum são viscosos e escuros; vanilina é cristalina (sólida). Trabalhar tudo a **10%** facilita a dosagem e a mistura. Para cada um, faça uma solução a 10% (1 g de material + 9 g de solvente = 10 g de solução, como visto no Módulo 5).\n\nA vanilina precisa ser dissolvida (aquecer levemente o solvente ajuda). Nunca dose vanilina sólida direto — ela não se distribui uniformemente.\n\n## Passo 2 — calcule as partes em gramas\n\nRazão 20:5:1, total 26 partes. Como vamos trabalhar com soluções a 10% e um lote de trabalho pequeno, defina 1 parte = 0,2 g de solução (lote de 5,2 g de soluções):\n\n| Material (a 10%) | Partes | Gramas de solução | Material puro contido |\n|---|---|---|---|\n| Benzoin 10% | 20 | 4,00 g | 0,40 g |\n| Labdanum 10% | 5 | 1,00 g | 0,10 g |\n| Vanilina 10% | 1 | 0,20 g | 0,02 g |\n| **Total** | **26** | **5,20 g** | 0,52 g |\n\n## Passo 3 — monte pela base (de baixo para cima)\n\nSiga o princípio de Jean Carles: **comece pela base**. Aqui, benzoin e labdanum são a base resinosa. Pese o benzoin primeiro (maior quantidade, define o caráter), depois o labdanum. Cheire em fita — deve estar balsâmico, resinoso, levemente couro.\n\n## Passo 4 — adicione o traço\n\nAdicione a vanilina (0,20 g da solução 10%). Cheire de novo. A vanilina puxa para o doce/caramelo. **Cuidado:** a vanilina domina rápido. Se você achar que sumiu o âmbar e só sobrou baunilha, você colocou demais — recomece com metade.\n\n## Passo 5 — avalie e ajuste (o método dos pares aplicado)\n\nCheire em fita aos 0 min, 15 min e 1 h. Perguntas de ajuste:\n\n- **Muito doce/baunilha dominando?** Reduza vanilina (tente 20:5:0,5).\n- **Muito plano/sem calor?** Aumente labdanum (tente 20:7:1) — ele dá o lado couro-âmbar.\n- **Quer um âmbar moderno, mais seco e projetante?** Adicione Ambroxan 0,1–1% (comece com 0,1%).\n\nFaça UMA mudança por vez e cheire de novo. Anote cada versão numa tabela (V1, V2...). É assim que você aprende o que cada material faz.\n\n## Passo 6 — do acorde ao perfume\n\nQuando gostar do acorde (digamos, os 5,2 g de soluções = ~0,52 g de material puro), você pode:\n\n1. **Usar como bloco** dentro de uma fórmula maior (o âmbar vira a base de um oriental).\n2. **Diluir em perfume:** para um EDP a 20%, os 0,52 g de material puro seriam 20% do produto → produto final = 0,52 ÷ 0,20 = **2,6 g** (0,52 g de concentrado + ~2,1 g de álcool). Lembre que aqui já contamos o material *puro*; se diluir as soluções direto, ajuste a conta.\n\n## Erros comuns de iniciante\n\n- **Começar pelo topo** (o cheiro bonito inicial) e esquecer a base → perfume que desaba em 20 min.\n- **Dosar material potente puro** → um material domina tudo.\n- **Mudar 3 coisas de uma vez** → não sabe o que funcionou.\n- **Não rotular fitas/frascos** → perde o rastro do que fez.\n- **Avaliar só nos primeiros minutos** → ignora coração e base.",
+        "key_points": [
+          "Comece prepararando tudo a 10% para dosar com precisão (inclusive a vanilina sólida, dissolvida).",
+          "Construa de baixo para cima: base primeiro (benzoin, labdanum), traço por último (vanilina).",
+          "A vanilina domina rápido — se ela engolir o âmbar, você colocou demais.",
+          "Ajuste UMA variável por vez e registre cada versão (V1, V2...).",
+          "Do acorde ao perfume: produto final = material puro ÷ fração desejada (0,52 g a 20% = 2,6 g)."
+        ],
+        "exercise": "No /direto, construa seu acorde âmbar seguindo os 5 passos: prepare (mentalmente ou de fato) as diluições a 10%, monte a base benzoin+labdanum, adicione o traço de vanilina, e crie 2 variações (ex.: 20:5:1 e 20:7:1). Cheire em fita ao longo de 1 h, anote as diferenças e decida sua versão favorita. Bônus: calcule quanto álcool para transformá-la em EDP a 20%.",
+        "app_links": [
+          { "label": "Construir seu acorde no modo direto", "href": "/direto" },
+          { "label": "Comparar com receitas prontas", "href": "/formulas" },
+          { "label": "Ver combinações que usam âmbar", "href": "/combinacoes" }
+        ],
+        "references": [
+          { "title": "Acorde âmbar 20:5:1 passo a passo — Mandy Aftel", "url": "https://www.idreamofperfume.com/2015/01/making-amber-accord.html" },
+          { "title": "Método de construção de acordes (Jean Carles PDF)", "url": "http://quintescential.ca/wp-content/uploads/2014/04/Jean-Carles-Complete.pdf" },
+          { "title": "Como diluir e dosar materiais (Pell Wall)", "url": "https://www.pellwall.com/blogs/perfticles/how-to-dilute-perfume-materials" }
+        ]
+      }
+    ]
+  }
+]

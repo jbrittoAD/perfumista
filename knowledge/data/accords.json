@@ -1,0 +1,495 @@
+{
+  "_meta": {
+    "description": "Classic perfumery accords with relative proportions and expected note pyramids, for the Perfumista heuristic engine.",
+    "caveats": "Houses never publish real formulas; 'classic' accords are teaching skeletons, patent-derived demos or community reconstructions. 'proportion' values are RELATIVE (parts) unless stated; scale to taste. Materials flagged trace/powerful must be pre-diluted (usually 1% or 10%) and dosed in fractions of a percent. Values marked confidence:approx come from secondary/single sources; verify against Poucher / Arctander / Calkin & Jellinek before production.",
+    "sources": [
+      "Perfumer's Apprentice (educational formulas, e.g. Givaudan jasmin, rose)",
+      "The Good Scents Company (demo formulas)",
+      "Olfactorian.com (M. Salazar accords)",
+      "Scentspiracy.com (material dosages)",
+      "Pellwall.com (dilution practice)",
+      "Mandy Aftel, Essence & Alchemy (amber triangle)",
+      "Poucher, Perfumes Cosmetics and Soaps Vol. II (secondary)",
+      "Calkin & Jellinek, Perfumery: Practice and Principles",
+      "Basenotes / Reddit r/DIYfragrance (community, flagged approx)"
+    ],
+    "proportion_note": "proportion is a relative weight (parts). For a role using a pre-dilution, an added 'dilution' field gives the solution strength; the proportion refers to that diluted material unless noted."
+  },
+  "accords": [
+    {
+      "name": "Fougere (classic)",
+      "family": "aromatic-fougere",
+      "confidence": "approx",
+      "description": "The 'fern' accord, archetype Fougere Royale (1882). Lavender top over a coumarin-oakmoss base.",
+      "character": "Fresh-aromatic lavender opening drying to sweet hay/tonka warmth and mossy-green depth; clean, barbershop, masculine-classic.",
+      "components": [
+        { "role": "aromatic top", "material": "Lavender (EO or absolute)", "proportion": 2.3 },
+        { "role": "sweet-hay base", "material": "Coumarin (or tonka absolute)", "proportion": 2.0 },
+        { "role": "mossy base", "material": "Oakmoss absolute (IFRA-restricted)", "proportion": 1.0, "note": "keep to single-digit % of total" },
+        { "role": "citrus lift", "material": "Bergamot", "proportion": 1.3 },
+        { "role": "earthy anchor", "material": "Vetiver / patchouli", "proportion": 1.0 }
+      ],
+      "notes_expected": { "topo": ["lavanda", "bergamota"], "coracao": ["geranio", "gramineo/feno"], "base": ["cumarina/tonka", "musgo de carvalho", "vetiver"] }
+    },
+    {
+      "name": "Chypre (classic)",
+      "family": "chypre",
+      "confidence": "approx",
+      "description": "Coty Chypre (1917) structure: bergamot top / floral heart / oakmoss-labdanum-patchouli base.",
+      "character": "Bright bergamot over a bitter-green mossy, warm-resinous, earthy drydown; sophisticated, dry, retro-elegant.",
+      "components": [
+        { "role": "citrus top", "material": "Bergamot", "proportion": 5.0 },
+        { "role": "mossy base", "material": "Oakmoss (IFRA-restricted)", "proportion": 3.0 },
+        { "role": "earthy base", "material": "Patchouli", "proportion": 2.0 },
+        { "role": "resinous-amber base", "material": "Labdanum / cistus", "proportion": 1.0 },
+        { "role": "floral heart", "material": "Rose / jasmine base", "proportion": 2.0 }
+      ],
+      "notes_expected": { "topo": ["bergamota"], "coracao": ["rosa", "jasmim"], "base": ["musgo de carvalho", "patchouli", "labdano"] }
+    },
+    {
+      "name": "Amber / Oriental (labdanum-vanillin-benzoin)",
+      "family": "amber-oriental",
+      "confidence": "solid",
+      "description": "The canonical 'amber' base triangle, book-attributed to Mandy Aftel (Essence & Alchemy).",
+      "character": "Dark toffee/caramel sweetness with a leathery-resinous labdanum edge; warm, cozy, enveloping.",
+      "components": [
+        { "role": "balsamic body", "material": "Benzoin absolute", "proportion": 20 },
+        { "role": "resinous-leathery", "material": "Labdanum absolute", "proportion": 5 },
+        { "role": "sweet gourmand", "material": "Vanilla absolute / vanillin", "proportion": 1, "note": "dominates fast; keep smallest" }
+      ],
+      "notes_expected": { "topo": [], "coracao": ["labdano"], "base": ["benzoin", "baunilha", "resinas"] },
+      "variants": [
+        { "name": "simplified 3:2:1", "benzoin": 3, "labdanum": 2, "vanilla": 1 },
+        { "name": "modern ambrox-boosted", "note": "add Ambroxan 0.1-1% (up to ~10% in amber-bombs)" }
+      ]
+    },
+    {
+      "name": "Gourmand (vanilla + ethyl maltol)",
+      "family": "gourmand",
+      "confidence": "solid",
+      "description": "Sweet edible base: vanilla body sweetened by trace ethyl maltol.",
+      "character": "Cotton-candy / caramel sweetness over creamy vanilla; edible, comforting, dessert-like.",
+      "components": [
+        { "role": "vanilla body", "material": "Vanillin / vanilla absolute", "proportion": 100 },
+        { "role": "sweetener (trace, powerful)", "material": "Ethyl maltol", "proportion": 0.3, "dilution": "use 10% solution", "note": "0.05-0.5% of concentrate; >1% reads artificial/cloying" }
+      ],
+      "notes_expected": { "topo": [], "coracao": ["caramelo/acucar"], "base": ["baunilha"] }
+    },
+    {
+      "name": "Marine / Aquatic (Calone)",
+      "family": "marine-aquatic",
+      "confidence": "solid",
+      "description": "Ozonic-melon marine accord built on Calone 1951 (watermelon ketone).",
+      "character": "Fresh sea-breeze, ozone, watermelon-melon rind; clean, watery, 90s-modern.",
+      "components": [
+        { "role": "marine core (trace, powerful)", "material": "Calone 1951", "proportion": 0.4, "dilution": "use 10% solution", "note": "up to ~0.5% suggested, <=0.8% fine fragrance; Aramis New West used ~1.2%" },
+        { "role": "fresh-woody lift", "material": "Dihydromyrcenol", "proportion": 6.5, "note": "typical 5-8%" },
+        { "role": "diffusive floral", "material": "Hedione", "proportion": 4.0 },
+        { "role": "ozonic", "material": "Floralozone / Helional", "proportion": 1.0 }
+      ],
+      "notes_expected": { "topo": ["melancia/ozonio", "notas marinhas"], "coracao": ["hedione floral"], "base": ["musk", "amadeirado seco"] }
+    },
+    {
+      "name": "Jasmine (white floral accord)",
+      "family": "floral-white",
+      "confidence": "solid",
+      "description": "Givaudan-style educational jasmin accord (via Perfumer's Apprentice), per 1000.",
+      "character": "Rich narcotic white-floral; heady, slightly animalic-indolic, radiant.",
+      "components": [
+        { "role": "floral-fruity bulk", "material": "Benzyl acetate", "proportion": 400 },
+        { "role": "diffusive floral", "material": "Hedione", "proportion": 400 },
+        { "role": "soft floral", "material": "Tetrahydro linalool", "proportion": 55 },
+        { "role": "salicylate body", "material": "Hexyl salicylate", "proportion": 50 },
+        { "role": "rosy-floral", "material": "Geranyl acetate", "proportion": 40 },
+        { "role": "animalic (trace, powerful)", "material": "Indole", "proportion": 15, "dilution": "10% solution => ~0.15% neat", "note": "benzyl acetate:indole ~200:1" },
+        { "role": "spicy-floral", "material": "Dihydroeugenol", "proportion": 15 }
+      ],
+      "notes_expected": { "topo": ["verde-floral"], "coracao": ["jasmim", "indol"], "base": ["salicilatos", "amadeirado suave"] }
+    },
+    {
+      "name": "Tuberose",
+      "family": "floral-white",
+      "confidence": "approx",
+      "description": "Tuberose reconstruction (David Ruskin style), % of concentrate.",
+      "character": "Heavy creamy-tropical white floral with green wintergreen edge and buttery lactonic depth; opulent, narcotic.",
+      "components": [
+        { "role": "muguet-floral bulk", "material": "Hydroxycitronellal", "proportion": 30 },
+        { "role": "orange-blossom backbone", "material": "Methyl anthranilate", "proportion": 20 },
+        { "role": "floral-fruity", "material": "Benzyl acetate", "proportion": 10 },
+        { "role": "balsamic-floral", "material": "Benzyl salicylate", "proportion": 10 },
+        { "role": "soft floral", "material": "Linalool", "proportion": 7 },
+        { "role": "creamy lactone", "material": "gamma-Nonalactone", "proportion": 5 },
+        { "role": "green wintergreen edge", "material": "Methyl salicylate", "proportion": 4 },
+        { "role": "narcotic floral", "material": "Ylang-ylang", "proportion": 4 }
+      ],
+      "notes_expected": { "topo": ["verde-mentolado"], "coracao": ["tuberosa", "flor de laranjeira"], "base": ["lactonas cremosas", "balsamico"] }
+    },
+    {
+      "name": "Gardenia",
+      "family": "floral-white",
+      "confidence": "approx",
+      "description": "Gardenia reconstruction (Firmenich-patent-derived), per 1000. No public minimal ratio; skeleton shown.",
+      "character": "Creamy green-buttery white floral, mushroom-like lactonic facet; lush, fresh-garden.",
+      "components": [
+        { "role": "muguet-floral", "material": "Hydroxycitronellal", "proportion": 154 },
+        { "role": "citrus top", "material": "Bergamot", "proportion": 144 },
+        { "role": "violet-floral", "material": "alpha-Ionone", "proportion": 103 },
+        { "role": "jasmine-floral", "material": "Amyl cinnamic aldehyde", "proportion": 87 },
+        { "role": "powdery-heliotrope", "material": "Heliotropin", "proportion": 82 },
+        { "role": "green garden signature", "material": "Styralyl acetate (styrallyl acetate)", "proportion": 82 },
+        { "role": "narcotic floral", "material": "Ylang extra", "proportion": 82 },
+        { "role": "rosy floral", "material": "Phenylethyl alcohol", "proportion": 82 }
+      ],
+      "notes_expected": { "topo": ["bergamota", "verde"], "coracao": ["gardenia", "ylang", "jasmim"], "base": ["heliotropo", "lactonas"] }
+    },
+    {
+      "name": "Rose (citronellol-dominant, rose otto style)",
+      "family": "floral-rosy",
+      "confidence": "solid",
+      "description": "Firmenich accord N.207808 (The Good Scents demo), per 1000.",
+      "character": "Warm, honeyed, slightly citrusy natural rose otto; deep and dewy.",
+      "components": [
+        { "role": "rosy bulk", "material": "Citronellol", "proportion": 480 },
+        { "role": "rosy-honeyed", "material": "Phenylethyl alcohol (PEA)", "proportion": 200 },
+        { "role": "soft floral", "material": "Linalool", "proportion": 120 },
+        { "role": "honey-floral", "material": "Amyl phenylacetate", "proportion": 50 },
+        { "role": "rosy", "material": "Geraniol", "proportion": 50 },
+        { "role": "green metallic dewy (trace, powerful)", "material": "Rose oxide", "proportion": 10, "note": "~1%; extremely powerful" },
+        { "role": "fruity-rosy", "material": "Damascone / Damarose", "proportion": 30, "dilution": "10% solution" }
+      ],
+      "notes_expected": { "topo": ["rose oxide (verde-metalico)"], "coracao": ["rosa", "geraniol"], "base": ["feniletilico", "damascona"] }
+    },
+    {
+      "name": "Rose (PEA-dominant, modern petally)",
+      "family": "floral-rosy",
+      "confidence": "solid",
+      "description": "US Patent 5,196,613 'Rose note' style, per 1000.",
+      "character": "Fresh, petally, transparent rose; softer and more modern than the citronellol-heavy otto.",
+      "components": [
+        { "role": "rosy-honeyed bulk", "material": "Phenylethyl alcohol (PEA)", "proportion": 580 },
+        { "role": "rosy", "material": "Geraniol", "proportion": 120 },
+        { "role": "rosy", "material": "Citronellol", "proportion": 60 },
+        { "role": "soft floral", "material": "Linalool", "proportion": 60 },
+        { "role": "ester lift", "material": "Rose acetate / DMBC acetate", "proportion": 40 }
+      ],
+      "notes_expected": { "topo": [], "coracao": ["rosa petalica", "geraniol"], "base": ["feniletilico"] }
+    },
+    {
+      "name": "Muguet / Lily of the valley",
+      "family": "floral-green",
+      "confidence": "solid",
+      "description": "Modern Lilial/Lyral-free muguet (Olfactorian, M. Salazar), approx % of concentrate.",
+      "character": "Fresh dewy green lily-of-the-valley; clean, watery, spring-floral.",
+      "components": [
+        { "role": "muguet cornerstone", "material": "Hydroxycitronellal", "proportion": 33 },
+        { "role": "diffusive floral", "material": "Hedione High Cis", "proportion": 15 },
+        { "role": "narcotic floral", "material": "Jasmine absolute", "proportion": 7.5 },
+        { "role": "rosy floral", "material": "Phenylethyl alcohol", "proportion": 6 },
+        { "role": "soft floral", "material": "Linalool", "proportion": 5.5 },
+        { "role": "watery-floral", "material": "Cyclamen aldehyde", "proportion": 4 },
+        { "role": "lily replacer", "material": "Nympheal (Lilial/Lyral replacer)", "proportion": 2.8 },
+        { "role": "green dewy top (trace)", "material": "cis-3-Hexenol", "proportion": 0.85 }
+      ],
+      "notes_expected": { "topo": ["verde-fresco (hexenol)"], "coracao": ["muguet", "jasmim"], "base": ["floral suave"] }
+    },
+    {
+      "name": "Violet (ionones)",
+      "family": "floral-powdery",
+      "confidence": "solid",
+      "description": "Modern violet accord (Olfactorian, M. Salazar); methyl-dominant. Ratio Methyl:Alpha:Beta ~10:3.3:1.",
+      "character": "Powdery, sweet violet with orris/suede facets and a dry woody edge; retro, cosmetic, elegant.",
+      "components": [
+        { "role": "orris/suede powdery", "material": "Methyl ionone gamma", "proportion": 15.2 },
+        { "role": "true-violet powdery", "material": "alpha-Ionone", "proportion": 5.07 },
+        { "role": "dry woody-violet (sparing)", "material": "beta-Ionone", "proportion": 1.52, "note": "overpowers easily; use least" },
+        { "role": "diffusive floral", "material": "Hedione", "proportion": 25 },
+        { "role": "musk fixative", "material": "Galaxolide", "proportion": 8.45 },
+        { "role": "powdery-heliotrope", "material": "Heliotropin", "proportion": 3 }
+      ],
+      "notes_expected": { "topo": [], "coracao": ["violeta", "iris/orris"], "base": ["amadeirado seco", "musk"] },
+      "variants": [ { "name": "vintage beta-dominant (Jellinek 1949, approx)", "ratio": "beta:alpha:methyl = 4:2.7:1" } ]
+    },
+    {
+      "name": "Aldehydic (Chanel No 5 style)",
+      "family": "aldehydic-floral",
+      "confidence": "solid",
+      "description": "Aliphatic aldehyde blend (Ernest Beaux 1921 style): C10 + C11 + C12 lauric + C12 MNA. All traces.",
+      "character": "Shimmering, soapy-waxy, sparkling floral lift; abstract, luxurious, cool.",
+      "components": [
+        { "role": "waxy soapy heart (trace, powerful)", "material": "Aldehyde C-12 MNA (methylnonylacetaldehyde)", "proportion": 3, "dilution": "10% solution", "note": "signature; keep total aldehydes low" },
+        { "role": "violet-waxy (trace)", "material": "Aldehyde C-12 lauric (dodecanal)", "proportion": 2, "dilution": "1-10% solution", "note": "C12 keep <0.2% neat; worst for trimer formation" },
+        { "role": "citrus-peel (trace)", "material": "Aldehyde C-10 (decanal)", "proportion": 2, "dilution": "10% solution", "note": "~50% of MNA level" },
+        { "role": "rosy-waxy (trace)", "material": "Aldehyde C-11 (undecanal)", "proportion": 2, "dilution": "10% solution" }
+      ],
+      "notes_expected": { "topo": ["aldeidos (soapy-sparkling)"], "coracao": ["floral (rosa/jasmim/ylang)"], "base": ["musk", "sandalo", "vetiver"] }
+    },
+    {
+      "name": "Leather (birch tar / IBQ)",
+      "family": "leather",
+      "confidence": "approx",
+      "description": "Leather skeleton (no public canonical ratio); isobutyl quinoline as defining trace molecule.",
+      "character": "Acrid-green smoky leather softened by balsamic warmth and suede; dry, animalic, dark.",
+      "components": [
+        { "role": "green leather core (trace, powerful)", "material": "Isobutyl quinoline (IBQ)", "proportion": 0.2, "dilution": "1% solution or less", "note": "<0.5%, often <0.1%; one neat drop dominates a batch" },
+        { "role": "smoky-tarry", "material": "Birch tar (rectified, IFRA-restricted)", "proportion": 1.5, "note": "~0.5-3%" },
+        { "role": "balsamic warmth + fixation", "material": "Styrax resinoid", "proportion": 4, "note": "~1-5%" },
+        { "role": "smoked spicy-leather", "material": "Safraleine", "proportion": 1.5 },
+        { "role": "soft suede/skin", "material": "Suederal", "proportion": 3 }
+      ],
+      "notes_expected": { "topo": ["fumaca/alcatrao"], "coracao": ["couro verde (IBQ)"], "base": ["styrax", "suede", "resinas"] }
+    },
+    {
+      "name": "Woody (Iso E Super + sandalwood synthetics)",
+      "family": "woody",
+      "confidence": "solid",
+      "description": "Modern woody skeleton: Iso E Super diffusive bed + sandalwood synthetics + Javanol radiance.",
+      "character": "Smooth, radiant, dry-to-creamy woods; velvety, transparent, versatile.",
+      "components": [
+        { "role": "diffusive woody bed", "material": "Iso E Super", "proportion": 20, "note": "5-30%; radiance <10%, own character >15%" },
+        { "role": "creamy sandalwood", "material": "Ebanol", "proportion": 15, "note": "10-30% in sandal accords" },
+        { "role": "creamy sandalwood", "material": "Sandalore", "proportion": 5 },
+        { "role": "sandal radiance (trace, powerful)", "material": "Javanol", "proportion": 1, "dilution": "10% solution", "note": "0.5-2% typical; 0.02-0.1% as trace radiance; skews rosy if overdosed" },
+        { "role": "dry cedar body", "material": "Vertofix / cedryl acetate", "proportion": 8 }
+      ],
+      "notes_expected": { "topo": [], "coracao": ["amadeirado transparente (Iso E)"], "base": ["sandalo", "cedro"] }
+    },
+    {
+      "name": "Amber woody (Ambrox accord)",
+      "family": "amber-woody",
+      "confidence": "solid",
+      "description": "Dry cashmere-amber accord; Ambroxan:Cetalox ~4:1 for balanced dry-yet-warm woody amber.",
+      "character": "Dry mineral driftwood-amber, warm and skin-hugging; the modern 'clean amber' signature.",
+      "components": [
+        { "role": "dry mineral amber (trace/scalable)", "material": "Ambroxan", "proportion": 4, "dilution": "10% solution (crystallizes >5% in ethanol)", "note": "0.1-1% fine fragrance; up to ~10% in ambrox-bombs" },
+        { "role": "warm creamy amber", "material": "Cetalox", "proportion": 1, "note": "warmer, longer drydown" },
+        { "role": "diffusive woody", "material": "Iso E Super", "proportion": 6 },
+        { "role": "sweet-hay warmth", "material": "Tonka / coumarin", "proportion": 1.5 }
+      ],
+      "notes_expected": { "topo": [], "coracao": ["amadeirado seco"], "base": ["ambroxan", "musk", "tonka"] }
+    },
+    {
+      "name": "Musk (white musk accord)",
+      "family": "musk",
+      "confidence": "solid",
+      "description": "White musk accord (Olfactorian), blending macrocyclic + polycyclic musks. Per 1000 (81% concentrate).",
+      "character": "Clean, soft, powdery-skin musk; cozy, laundry-clean, long-lasting.",
+      "components": [
+        { "role": "cheap easy fixative musk", "material": "Ethylene brassylate (Musk T)", "proportion": 400, "note": "0.5-3% typical, perceptible <1%" },
+        { "role": "sweet-powdery musk", "material": "Galaxolide (50% solution)", "proportion": 380, "note": "5-20% neat, tolerates 40%+" },
+        { "role": "musk (IFRA-limiting)", "material": "Exaltolide", "proportion": 100, "note": "~1-2.5%, IFRA ceiling ~2.4%" },
+        { "role": "soft musk", "material": "Velvione", "proportion": 100 },
+        { "role": "fatty-floral musk", "material": "Ambrettolide", "proportion": 20 }
+      ],
+      "notes_expected": { "topo": [], "coracao": [], "base": ["musk (mistura macro + policiclico)"] }
+    },
+    {
+      "name": "Fresh citrus (cologne)",
+      "family": "citrus",
+      "confidence": "approx",
+      "description": "Classic eau-de-cologne citrus-aromatic accord (Cologne-style).",
+      "character": "Sparkling, clean, hesperidic burst with aromatic herbal lift; short-lived, refreshing.",
+      "components": [
+        { "role": "citrus top", "material": "Bergamot", "proportion": 4 },
+        { "role": "citrus top", "material": "Lemon", "proportion": 3 },
+        { "role": "citrus top", "material": "Sweet orange", "proportion": 2 },
+        { "role": "floral-citrus lift", "material": "Neroli / petitgrain", "proportion": 2 },
+        { "role": "aromatic herbal", "material": "Rosemary / lavender", "proportion": 1 },
+        { "role": "fixative anchor", "material": "Musk / Iso E Super", "proportion": 1, "note": "keeps citrus from flashing off instantly" }
+      ],
+      "notes_expected": { "topo": ["bergamota", "limao", "laranja"], "coracao": ["neroli", "petitgrain", "alecrim"], "base": ["musk suave"] }
+    },
+    {
+      "name": "Green",
+      "family": "green",
+      "confidence": "approx",
+      "description": "Crushed-leaf / galbanum green accord.",
+      "character": "Sharp crushed-stem, cut-grass, sap; cool, natural, spring-garden.",
+      "components": [
+        { "role": "green sap (trace, powerful)", "material": "cis-3-Hexenol", "proportion": 0.5, "dilution": "10% solution" },
+        { "role": "bitter-green resinous", "material": "Galbanum", "proportion": 3 },
+        { "role": "green-floral", "material": "Violet leaf absolute", "proportion": 1 },
+        { "role": "soft floral", "material": "Linalool", "proportion": 2 },
+        { "role": "green base", "material": "Iso E Super / vetiver", "proportion": 3 }
+      ],
+      "notes_expected": { "topo": ["folhas esmagadas", "galbano"], "coracao": ["folha de violeta"], "base": ["vetiver", "amadeirado"] }
+    },
+    {
+      "name": "Fruity",
+      "family": "fruity",
+      "confidence": "approx",
+      "description": "Modern fruity accord built on gamma-lactones and fruit esters.",
+      "character": "Juicy peach/apricot, ripe berries; sweet, soft, playful.",
+      "components": [
+        { "role": "peach-apricot lactone", "material": "gamma-Undecalactone (aldehyde C-14)", "proportion": 2, "dilution": "10% solution" },
+        { "role": "creamy lactone", "material": "gamma-Nonalactone", "proportion": 1.5 },
+        { "role": "fruity-rosy", "material": "Damascone (beta)", "proportion": 0.5, "dilution": "10% solution", "note": "powerful" },
+        { "role": "fruity ester", "material": "Ethyl maltol", "proportion": 0.3, "dilution": "10% solution" },
+        { "role": "floral support", "material": "Hedione / benzyl acetate", "proportion": 4 }
+      ],
+      "notes_expected": { "topo": ["frutas (pessego/framboesa)"], "coracao": ["floral frutado"], "base": ["baunilha/musk suave"] }
+    },
+    {
+      "name": "Spiced (oriental spice)",
+      "family": "spicy",
+      "confidence": "approx",
+      "description": "Warm spice accord for orientals.",
+      "character": "Warm, dry, pungent spices; carnation-clove, cinnamon, pepper; cozy and intense.",
+      "components": [
+        { "role": "clove-carnation", "material": "Eugenol / clove bud", "proportion": 2, "note": "IFRA-limited" },
+        { "role": "warm-sweet spice", "material": "Cinnamon bark / cinnamaldehyde", "proportion": 1, "note": "IFRA-limited; sensitizer" },
+        { "role": "peppery lift", "material": "Black pepper", "proportion": 1.5 },
+        { "role": "aromatic spice", "material": "Cardamom", "proportion": 1.5 },
+        { "role": "resinous base", "material": "Labdanum / benzoin", "proportion": 3 }
+      ],
+      "notes_expected": { "topo": ["pimenta", "cardamomo"], "coracao": ["cravo", "canela"], "base": ["labdano", "baunilha"] }
+    },
+    {
+      "name": "Tobacco",
+      "family": "tobacco",
+      "confidence": "approx",
+      "description": "Sweet honeyed tobacco accord.",
+      "character": "Dried tobacco leaf with honey, hay and dried-fruit warmth; rich, cozy, ambery.",
+      "components": [
+        { "role": "tobacco body", "material": "Tobacco absolute", "proportion": 2, "note": "IFRA-restricted" },
+        { "role": "sweet-hay", "material": "Coumarin / tonka absolute", "proportion": 2 },
+        { "role": "honeyed", "material": "Phenylacetic acid / honey base", "proportion": 0.5, "dilution": "trace" },
+        { "role": "dried-fruit warmth", "material": "Immortelle / Davana", "proportion": 1 },
+        { "role": "resinous base", "material": "Labdanum / benzoin", "proportion": 3 }
+      ],
+      "notes_expected": { "topo": [], "coracao": ["tabaco", "feno"], "base": ["tonka", "labdano", "mel"] }
+    },
+    {
+      "name": "Aromatic (lavender-aromatic)",
+      "family": "aromatic",
+      "confidence": "approx",
+      "description": "Herbal-aromatic accord centered on lavender and aromatic herbs.",
+      "character": "Cool, clean, herbal-camphoraceous; fresh, masculine-classic, barbershop.",
+      "components": [
+        { "role": "aromatic core", "material": "Lavender", "proportion": 4 },
+        { "role": "herbal lift", "material": "Rosemary / clary sage", "proportion": 2 },
+        { "role": "aromatic-camphor", "material": "Eucalyptus / cineole", "proportion": 1 },
+        { "role": "citrus top", "material": "Bergamot", "proportion": 2 },
+        { "role": "woody base", "material": "Vetiver / oakmoss", "proportion": 2 }
+      ],
+      "notes_expected": { "topo": ["lavanda", "bergamota", "eucalipto"], "coracao": ["alecrim", "salvia"], "base": ["vetiver", "musgo"] }
+    },
+    {
+      "name": "Cedar (dry woody)",
+      "family": "woody-cedar",
+      "confidence": "approx",
+      "description": "Dry pencil-shaving cedar accord.",
+      "character": "Sharp, dry, pencil-shaving cedar; clean, sober, transparent.",
+      "components": [
+        { "role": "cedar body", "material": "Virginia cedarwood", "proportion": 4 },
+        { "role": "dry woody amplifier", "material": "Vertofix / cedryl acetate", "proportion": 3 },
+        { "role": "diffusive woody", "material": "Iso E Super", "proportion": 3 },
+        { "role": "resinous lift", "material": "Cypress / juniper", "proportion": 1 }
+      ],
+      "notes_expected": { "topo": ["conifera/cipreste"], "coracao": ["cedro"], "base": ["amadeirado seco (Iso E)"] }
+    },
+    {
+      "name": "Sandalwood (creamy woody)",
+      "family": "woody-sandal",
+      "confidence": "approx",
+      "description": "Creamy milky sandalwood accord (natural + synthetics).",
+      "character": "Soft, milky, creamy woods with a warm buttery drydown; smooth and comforting.",
+      "components": [
+        { "role": "sandal body", "material": "Sandalwood EO (Santalum album) or Santalum spicatum", "proportion": 3 },
+        { "role": "creamy sandal synthetic", "material": "Ebanol", "proportion": 4 },
+        { "role": "creamy sandal synthetic", "material": "Sandalore / Bacdanol", "proportion": 3 },
+        { "role": "sandal radiance (trace)", "material": "Javanol", "proportion": 0.5, "dilution": "10% solution" },
+        { "role": "soft musk fixative", "material": "Galaxolide", "proportion": 2 }
+      ],
+      "notes_expected": { "topo": [], "coracao": ["sandalo cremoso"], "base": ["sandalo", "musk"] }
+    },
+    {
+      "name": "Almond / Heliotrope (powdery)",
+      "family": "powdery-gourmand",
+      "confidence": "approx",
+      "description": "Powdery almond-heliotrope accord.",
+      "character": "Soft powdery almond-cherry, marzipan, baby-powder; sweet and cozy.",
+      "components": [
+        { "role": "powdery-heliotrope", "material": "Heliotropin (piperonal)", "proportion": 3, "note": "IFRA-limited" },
+        { "role": "almond-cherry", "material": "Benzaldehyde", "proportion": 0.5, "dilution": "trace/volatile" },
+        { "role": "sweet body", "material": "Vanillin", "proportion": 1 },
+        { "role": "powdery floral", "material": "Methyl ionone", "proportion": 2 },
+        { "role": "balsamic base", "material": "Tonka / benzoin", "proportion": 2 }
+      ],
+      "notes_expected": { "topo": ["amendoa"], "coracao": ["heliotropo"], "base": ["baunilha", "tonka"] }
+    },
+    {
+      "name": "Oakmoss / Mossy base",
+      "family": "chypre-mossy",
+      "confidence": "approx",
+      "description": "Mossy-green base foundation (chypre / fougere anchor).",
+      "character": "Damp forest floor, bitter-green, earthy; deep and enveloping.",
+      "components": [
+        { "role": "mossy core (IFRA-restricted)", "material": "Oakmoss absolute (atranol-reduced)", "proportion": 2, "note": "single-digit % of total" },
+        { "role": "earthy", "material": "Patchouli", "proportion": 2 },
+        { "role": "green-woody", "material": "Vetiver", "proportion": 1 },
+        { "role": "moss reconstruction", "material": "Evernyl (veramoss) / IBQ", "proportion": 1, "dilution": "for IBQ use <1%" }
+      ],
+      "notes_expected": { "topo": [], "coracao": [], "base": ["musgo de carvalho", "patchouli", "vetiver"] }
+    },
+    {
+      "name": "Vanilla (rich)",
+      "family": "gourmand-oriental",
+      "confidence": "approx",
+      "description": "Rich boozy vanilla base.",
+      "character": "Deep, boozy, resinous vanilla; sweet, warm, addictive.",
+      "components": [
+        { "role": "vanilla body", "material": "Vanillin", "proportion": 5 },
+        { "role": "deeper vanilla", "material": "Ethyl vanillin", "proportion": 1, "note": "~3x stronger than vanillin" },
+        { "role": "natural depth", "material": "Vanilla absolute / tincture", "proportion": 2 },
+        { "role": "balsamic fixative", "material": "Benzoin / Peru balsam", "proportion": 3, "note": "Peru balsam IFRA-capped ~0.4%" },
+        { "role": "boozy facet", "material": "Ethanol / rum ethyl esters", "proportion": 1 }
+      ],
+      "notes_expected": { "topo": [], "coracao": ["baunilha"], "base": ["benzoin", "balsamo", "tonka"] }
+    },
+    {
+      "name": "Iris / Orris (powdery-rooty)",
+      "family": "floral-powdery",
+      "confidence": "approx",
+      "description": "Cool rooty-powdery iris accord (irones).",
+      "character": "Cold, powdery, carrot-earthy, suede; elegant, austere, luxurious.",
+      "components": [
+        { "role": "orris signature", "material": "Orris butter / irones", "proportion": 0.3, "note": "0.05-0.5%; extremely expensive" },
+        { "role": "orris booster", "material": "Methyl ionone gamma", "proportion": 4 },
+        { "role": "powdery support", "material": "alpha-Ionone", "proportion": 2 },
+        { "role": "rooty-earthy", "material": "Carrot seed / Orris resinoid", "proportion": 1 },
+        { "role": "suede base", "material": "Suederal / Iso E Super", "proportion": 3 }
+      ],
+      "notes_expected": { "topo": [], "coracao": ["iris", "violeta"], "base": ["suede", "amadeirado seco"] }
+    },
+    {
+      "name": "Incense / Resinous",
+      "family": "resinous",
+      "confidence": "approx",
+      "description": "Smoky sacred-incense accord.",
+      "character": "Cool smoky resin, church incense, dry pine-citrus lift; meditative, austere.",
+      "components": [
+        { "role": "incense core", "material": "Frankincense/olibanum EO", "proportion": 4 },
+        { "role": "smoky-woody", "material": "Cade / birch tar", "proportion": 0.5, "note": "trace; IFRA-restricted" },
+        { "role": "balsamic depth", "material": "Myrrh / opoponax", "proportion": 2 },
+        { "role": "resinous amber", "material": "Labdanum", "proportion": 2 },
+        { "role": "dry woody", "material": "Iso E Super / cedar", "proportion": 3 }
+      ],
+      "notes_expected": { "topo": ["olibano (pinho-citrico)"], "coracao": ["incenso fumado"], "base": ["mirra", "labdano", "amadeirado"] }
+    },
+    {
+      "name": "Coumarin / Hay (new-mown hay)",
+      "family": "aromatic-gourmand",
+      "confidence": "approx",
+      "description": "New-mown-hay coumarinic base.",
+      "character": "Sweet dried hay, tonka, almond-tobacco warmth; the fougere/tabac sweet backbone.",
+      "components": [
+        { "role": "hay-sweet core", "material": "Coumarin", "proportion": 4, "note": "IFRA-restricted" },
+        { "role": "tonka depth", "material": "Tonka bean absolute", "proportion": 2 },
+        { "role": "hay-green", "material": "Hay absolute / flouve", "proportion": 1 },
+        { "role": "sweet body", "material": "Vanillin", "proportion": 1 },
+        { "role": "balsamic base", "material": "Benzoin", "proportion": 2 }
+      ],
+      "notes_expected": { "topo": [], "coracao": ["feno", "tonka"], "base": ["cumarina", "baunilha", "benzoin"] }
+    }
+  ]
+}

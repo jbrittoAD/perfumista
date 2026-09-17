@@ -1,0 +1,238 @@
+[
+  {
+    "id": "m7",
+    "title": "Montando uma Fórmula",
+    "level": "intermediário-avançado",
+    "summary": "Como transformar ideias e acordes soltos em uma fórmula estruturada: proporção topo/coração/base com números reais, o caminho do acorde ao perfume completo, o trabalho de ajuste e maturação, e os erros que quase todo iniciante comete — com o passo a passo para corrigi-los.",
+    "lessons": [
+      {
+        "id": "l7-1",
+        "title": "Estrutura e proporção topo/coração/base",
+        "duration_min": 16,
+        "body_md": "Um perfume não é uma lista aleatória de matérias — é uma **arquitetura no tempo**. As moléculas evaporam em velocidades diferentes, e o perfumista organiza a fórmula em três camadas conforme essa volatilidade: **topo** (o impacto dos primeiros minutos), **coração** (o tema, que domina por horas) e **base** (o rastro e a fixação, que pode durar de horas a dias na fita).\n\n### A pergunta central: quanto de cada camada?\n\nNão existe uma proporção única \"certa\", mas há um ponto de partida clássico muito citado, a estrutura de **Jean Carles** para o chipre: **Base ~55% + Coração/Modificadores ~20% + Topo ~25%**. Repare que a base é a MAIOR fatia. Isso surpreende iniciantes, que tendem a empilhar topo (é o que sentem primeiro no frasco). Mas materiais de topo são voláteis: se você não ancorá-los com uma base generosa, o perfume \"desmancha\" em 15 minutos.\n\nPor que a base domina em peso? Porque as notas de base são de baixa força odorífera relativa por grama e evaporam devagar — você precisa de muito material para construir presença que dure. Já as notas de topo (cítricos, aldeídos) são potentes e voláteis: pouco já grita.\n\n### Variações de proporção por estilo\n\nA proporção muda conforme o efeito desejado:\n\n| Estilo | Topo | Coração | Base | Racional |\n|---|---|---|---|---|\n| Chipre clássico (Carles) | 25 | 20 | 55 | base musgo-âmbar domina; topo cintila e some |\n| Colônia / cítrico fresco | 45–55 | 25–30 | 15–25 | frescor é o produto; base só \"segura\" o cítrico |\n| Oriental / âmbar | 15–20 | 20–25 | 55–65 | quase tudo é drydown quente e resinoso |\n| Floral moderno equilibrado | 25–30 | 40–45 | 30 | o coração floral É o tema |\n| Amadeirado transparente | 10–20 | 30 | 50–60 | Iso E Super / madeiras seguram tudo |\n\n**Exemplo numérico (fougère de 100 partes):** Topo 25 (bergamota 15 + lavanda 10) · Coração 20 (gerânio 6 + cumarina como ponte 10 + heart floral 4) · Base 55 (oakmoss ≤5, vetiver 20, cumarina/tonka, almíscar). Note que a cumarina aparece nas duas camadas porque é uma **ponte** — material que costura coração e base.\n\n### Regra prática dos fixadores\n\nA literatura de blending recomenda que as **notas de base fiquem em torno de 15–30% do concentrado** no mínimo, mesmo em fórmulas frescas, senão não há longevidade. Em orientais, sobe para 55–65%. Fixadores como Ambroxan (0,1–1%), Iso E Super (5–25%) e almíscares fazem ponte entre camadas: têm baixa volatilidade mas alta difusão, então prolongam o topo em vez de só sentar na base.\n\n### Como usar isto na prática\n\n1. Decida a **família e o efeito** (fresco? oriental? floral?).\n2. Escolha a proporção-alvo das três camadas na tabela acima.\n3. Distribua materiais por camada segundo a volatilidade (cítricos/aldeídos = topo; florais/especiarias = coração; madeiras/resinas/almíscares = base).\n4. Materiais-traço potentes (indol, damascona, rose oxide) contam pouco em peso mas dominam a percepção — dose-os em frações de 1% e conte-os à parte.",
+        "key_points": [
+          "Estrutura clássica de Jean Carles: Base ~55% / Coração ~20% / Topo ~25% — a base é a MAIOR fatia em peso.",
+          "A proporção muda por estilo: colônia é 45–55% topo; oriental é 55–65% base.",
+          "Notas de base devem ser ~15–30% do concentrado no mínimo, ou não há longevidade.",
+          "Pontes (cumarina, Iso E Super, Ambroxan) aparecem em mais de uma camada porque costuram coração e base.",
+          "Materiais-traço potentes pesam pouco mas percebem-se muito; dose em frações de 1%."
+        ],
+        "exercise": "No app, vá em /direto e monte uma fórmula com proporção-alvo 25/20/55 (topo/coração/base) usando bergamota + lavanda no topo, gerânio + cumarina no coração e oakmoss + vetiver + tonka na base. Observe a pirâmide e a curva de projeção gerada. Depois refaça com 50/30/20 (estilo colônia) e compare como a projeção/duração muda na visualização.",
+        "app_links": [
+          { "label": "Montar fórmula e ver pirâmide/projeção", "href": "/direto" },
+          { "label": "Estudar acordes prontos por proporção", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "Olfactive Aesthetics — Fragrance Building Principles (55/20/25 de Jean Carles)", "url": "https://olfactiveaesthetics.com/fragrance-building-principles-method-of-perfume-creation/" },
+          { "title": "Jean Carles — A Method of Creation in Perfumery (PDF completo)", "url": "http://quintescential.ca/wp-content/uploads/2014/04/Jean-Carles-Complete.pdf" },
+          { "title": "Clive Christian — Top, heart and base notes", "url": "https://us.clivechristian.com/blogs/perfume-facts/what-are-the-top-heart-and-base-notes-in-a-perfume" }
+        ]
+      },
+      {
+        "id": "l7-2",
+        "title": "Do acorde ao perfume completo",
+        "duration_min": 18,
+        "body_md": "Um **acorde** é um bloco pronto — três a oito materiais que já cheiram como uma coisa só (um acorde de âmbar, de rosa, de couro). Um **perfume** é a montagem de vários acordes em uma estrutura topo/coração/base coerente. Este é o segredo do método profissional: você não constrói com 40 matérias-primas soltas, você constrói com **poucos acordes-bloco** que já domina.\n\n### O método Jean Carles: construir com \"coeurs\"\n\nJean Carles pré-montava bases e corações (que ele chamava de *coeurs*) e os tratava como um único ingrediente. Para criar um perfume novo, ele combinava dois ou três desses blocos e depois usava **modificadores** (materiais-ponte) para fundi-los. A vantagem: em vez de equilibrar 30 variáveis, você equilibra 3 ou 4.\n\n### Exemplo: construindo um chipre floral do zero\n\nComecemos por três acordes-bloco (todos do nosso banco de acordes):\n\n1. **Base chipre** (musgoso): oakmoss ≤5% + patchouli + labdanum. Dá o chão terroso-amargo.\n2. **Coração de rosa**: citronelol + PEA + geraniol + traço de damascona. Dá o tema floral.\n3. **Topo cítrico**: bergamota + um toque de laranja doce. Dá o cintilar de abertura.\n\nAgora a montagem, em 100 partes, mirando ~25/20/55:\n\n- Topo (25): acorde cítrico 25\n- Coração (20): acorde de rosa 18 + jasmim base 2\n- Base (55): base chipre 50 + almíscar 5\n\nO problema típico: o topo cítrico \"salta fora\" e a base musgosa fica pesada e desconectada. **A ponte** resolve: patchouli e um pouco de **Iso E Super** (5–10%) costuram o coração à base; a **damascona** em traço (~0,05%) faz a rosa \"conversar\" com o musgo chipre, e o **hedione** (2–10%) dá transparência e evita que tudo pareça \"sentado\". Repare que damascona + rosa e patchouli + oakmoss + bergamota são combinações reais documentadas (Coco Mademoiselle, Portrait of a Lady são chipres florais construídos exatamente assim).\n\n### A escala do acorde\n\nCada acorde deve primeiro funcionar sozinho na fita antes de entrar na fórmula. Monte o acorde de rosa, cheire, ajuste. Só então combine. Assim, quando o perfume completo dá errado, você sabe se o problema é DENTRO de um acorde ou na PONTE entre acordes. É debug modular.\n\n### Do esboço à fórmula numérica\n\nComece sempre em **partes** (proporções relativas), não em gramas. Depois normalize para 100 e escale ao volume final. Se um acorde-bloco já vem diluído (ex.: jasmim base a 10%, indol a 1%), some a diluição ao converter — 15 partes de indol a 1% são apenas ~0,15% de indol puro no concentrado.\n\n### Resumo do fluxo\n\n1. Defina 2–4 acordes-bloco que carregam a ideia.\n2. Valide cada acorde isolado na fita.\n3. Monte na proporção-alvo topo/coração/base.\n4. Adicione modificadores-ponte (Iso E, hedione, damascona, patchouli) para fundir.\n5. Ajuste (próxima aula).",
+        "key_points": [
+          "Perfume = montagem de poucos ACORDES-bloco, não de dezenas de matérias soltas (método Jean Carles / coeurs).",
+          "Valide cada acorde isolado na fita ANTES de combinar — isso permite depurar de forma modular.",
+          "Modificadores-ponte (Iso E Super, hedione, patchouli, damascona) fundem acordes que senão ficam desconectados.",
+          "Chipres florais reais (Coco Mademoiselle, Portrait of a Lady) são montados com base chipre + coração de rosa + ponte.",
+          "Trabalhe em PARTES primeiro; normalize para 100 e desconte as diluições dos blocos pré-diluídos."
+        ],
+        "exercise": "No app, em /formulas, estude o acorde 'Chypre (classic)' e o acorde 'Rose (citronellol-dominant)'. Depois, em /direto, monte um chipre floral combinando os dois como blocos, mais um topo de bergamota. Ajuste a proporção até 25/20/55 e adicione ~8% de Iso E Super como ponte. Compare a pirâmide antes e depois de adicionar a ponte.",
+        "app_links": [
+          { "label": "Ver acordes-bloco (chipre, rosa, âmbar)", "href": "/formulas" },
+          { "label": "Montar o perfume combinando acordes", "href": "/direto" },
+          { "label": "Entender o que cada combinação faz", "href": "/combinacoes" }
+        ],
+        "references": [
+          { "title": "Jean Carles — A Method of Creation in Perfumery (PDF)", "url": "http://quintescential.ca/wp-content/uploads/2014/04/Jean-Carles-Complete.pdf" },
+          { "title": "Olfactive Aesthetics — Oakmoss replacers / chypre floral moderno", "url": "https://olfactiveaesthetics.com/oakmoss-replacers-a-working-perfumers-field-guide/" },
+          { "title": "Scentspiracy — Hedione (transparência e ponte)", "url": "https://www.scentspiracy.com/fragrance-ingredients/p/hedione" }
+        ]
+      },
+      {
+        "id": "l7-3",
+        "title": "Ajuste, rebalanceamento e maturação",
+        "duration_min": 15,
+        "body_md": "A primeira versão de uma fórmula quase nunca é a final. O trabalho real do perfumista está no **ajuste iterativo** e na **maturação** — e há uma armadilha psicofísica que muda tudo: a intensidade percebida NÃO é proporcional à quantidade.\n\n### A regra que evita catástrofes: dobrar não é dobrar\n\nO olfato obedece à **lei de potência de Stevens** (`ψ = k · I^a`), com expoente **a < 1** (compressivo). Valor canônico do olfato ≈ 0,6. Consequência prática: **multiplicar a concentração por 10 aumenta a intensidade só ~4×** (10^0,6). Com a ≈ 0,5, 10× → ~3×.\n\nIsso tem duas implicações no ajuste:\n\n1. **Para corrigir um material fraco, aumentos pequenos fazem pouco.** Se a rosa está sumida, adicionar +10% dela mal se nota; muitas vezes é preciso dobrar ou triplicar.\n2. **Em baixa concentração, pequenas mudanças mexem muito** (Weber-Fechner: o passo perceptível é uma FRAÇÃO do estímulo). Perto do limiar, 0,05% → 0,1% de um material-traço pode virar a fórmula. Por isso materiais potentes se ajustam em passos multiplicativos minúsculos.\n\n### O método de ajuste por dois caminhos\n\nQuando algo está errado, há sempre duas alavancas: **aumentar o que falta** OU **reduzir o que sobra**. Prefira reduzir o excesso — mantém a fórmula mais enxuta e barata. Trabalhe **uma variável por vez** e anote cada iteração (v1, v2, v3...) com a mudança exata. Nunca mude três coisas juntas: você não saberá qual funcionou.\n\n### Rebalanceamento das camadas\n\nSintomas comuns e a alavanca certa:\n\n| Sintoma | Diagnóstico | Ajuste |\n|---|---|---|\n| Some em 20 min | base insuficiente / topo demais | +base (madeiras, almíscar, Ambroxan), −topo |\n| \"Buraco\" após 1 h | falta coração ou ponte | +coração, +hedione/Iso E como ponte |\n| Abertura estridente/alcoólica | topo cru, sem fusão | +blenders (linalol, hedione), deixar macerar |\n| Base pesada/\"sentada\" | falta transparência | +hedione, +Iso E Super; −resinas pesadas |\n\n### Maturação (descanso): o tempo é ingrediente\n\nPerfume recém-misturado cheira \"cru\", alcoólico e desarmônico. Ele precisa **descansar**. O processo tem duas fases:\n\n- **Maceração** — o concentrado (óleos) repousa junto, permitindo reações lentas (formação de bases de Schiff entre aldeídos e aminas, esterificações leves) que arredondam as arestas. Alguns dias a semanas.\n- **Maturação em álcool** — depois de diluído em etanol, a solução descansa mais. Faixa prática comum na comunidade DIY: **de 2–4 semanas a alguns meses**; orientais e chipres com muita resina/aldeído ganham mais com descanso longo, cítricos frescos precisam de menos.\n\nGuarde ao abrigo de luz e calor. Cada +10 °C ~dobra a taxa de reações/evaporação — então maturação é fria e no escuro, não no parapeito da janela. Avalie a MESMA fórmula em fita fresca, em 24 h, em 1 semana e em 1 mês: você verá o \"cru\" dar lugar à harmonia.",
+        "key_points": [
+          "Lei de Stevens (a≈0,6): 10× na concentração ≈ só 4× na intensidade — para corrigir uma nota fraca, dobre/triplique, não some 10%.",
+          "Perto do limiar (Weber-Fechner) pequenas mudanças mexem muito; ajuste materiais-traço em passos multiplicativos minúsculos.",
+          "Ajuste UMA variável por vez, versione (v1, v2...) e prefira reduzir o excesso a aumentar o que falta.",
+          "Maceração (óleos juntos) arredonda arestas em dias/semanas; maturação em álcool leva de ~2–4 semanas a meses.",
+          "Guarde frio e no escuro: cada +10 °C dobra a taxa de reações/evaporação."
+        ],
+        "exercise": "No app, em /direto, monte uma fórmula que 'some rápido' de propósito (muito topo, pouca base). Veja a curva de projeção curta. Depois aplique o ajuste da tabela: adicione base (Ambroxan/almíscar/vetiver) e reduza o topo, mantendo o total. Compare as duas curvas de projeção lado a lado e anote qual mudança teve mais efeito.",
+        "app_links": [
+          { "label": "Ajustar e comparar curvas de projeção", "href": "/direto" },
+          { "label": "Consultar combinações para escolher a ponte certa", "href": "/combinacoes" }
+        ],
+        "references": [
+          { "title": "Wikipedia — Stevens's power law (expoente do olfato)", "url": "https://en.wikipedia.org/wiki/Stevens's_power_law" },
+          { "title": "Poucher substantividade / evaporação (PMC3574685)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3574685/" },
+          { "title": "House of Sultan — Molecular weight & longevity (temperatura e evaporação)", "url": "https://houseofsultan.in/blog/molecular-weight-perfume-longevity" }
+        ]
+      },
+      {
+        "id": "l7-4",
+        "title": "Erros comuns e como corrigir",
+        "duration_min": 14,
+        "body_md": "Quase todo erro de iniciante cai em um punhado de padrões. Reconhecê-los pelo nome já é meio caminho para corrigir.\n\n### 1. Sobredosar materiais potentes\n\nO erro mais frequente. Indol, damascona, rose oxide, Calone, etil maltol, IBQ, aldeídos e geosmina são **potentíssimos** — uma gota neat pode dominar um lote inteiro. O indol, por exemplo, é floral em traço (<0,1%) e vira **fecal/naftalina** acima de ~1%: é um \"penhasco perceptivo\". **Correção:** trabalhe SEMPRE com diluições (100% → 10% → 1%). Avalie materiais fortes a 1% ou menos. Se sobredosou, não tente mascarar — refaça o lote diluindo o material problemático.\n\n### 2. Topo demais, base de menos\n\nO perfume abre lindo e some em 15 minutos. Iniciantes empilham cítricos e aldeídos porque é o que sentem no frasco. **Correção:** garanta base ≥15–30% do concentrado; ancore com madeiras, almíscares, Ambroxan (ponte topo-base). Reveja a proporção-alvo da aula 7.1.\n\n### 3. \"Sopa\" — materiais demais sem função\n\nAdicionar 30 matérias \"porque cheiram bem\" produz lama marrom sem identidade. **Correção:** pense em acordes-bloco (aula 7.2), não em ingredientes soltos. Cada material deve ter um PAPEL (corpo, ponte, lift, fixação). Se não sabe por que está ali, tire-o.\n\n### 4. Ignorar as diluições ao calcular\n\nSomar \"15 partes de indol\" esquecendo que é uma solução a 1% infla o cálculo em 100×. **Correção:** rastreie a força de cada estoque e converta para % de material puro no concentrado ao fechar a conta.\n\n### 5. Julgar cru / não deixar descansar\n\nAvaliar a fórmula nos primeiros minutos após misturar leva a \"consertar\" algo que só era imaturo. **Correção:** deixe macerar; reavalie em 24 h, 1 semana, 1 mês (aula 7.3). Só ajuste o que persistir.\n\n### 6. Furar limites IFRA de sensibilizantes\n\nOakmoss tem teto de **0,10%** no produto acabado (Cat 4); rose ketones (damascona/damascenona) compartilham orçamento de **0,043%**; cinamaldeído ~0,25%; **Lilial e Lyral/HICC estão BANIDOS**. Furar isso não é só \"mais forte\" — é inseguro e não-conforme. **Correção:** consulte o limite antes de dosar e use substitutos modernos (ex.: patchouli/Evernyl no lugar de oakmoss em excesso; Nympheal no lugar de Lilial).\n\n### 7. Mudar várias coisas de uma vez\n\nSem versionamento, você não aprende com o erro. **Correção:** uma variável por iteração, anotada.\n\n### 8. Esperar que a soma seja a intensidade\n\nMistura é **sub-aditiva**: o conjunto é mais \"quieto\" que a soma das partes isoladas. Um material que gritava sozinho pode sumir na mistura. **Correção:** avalie sempre no contexto da fórmula inteira, não isolado.\n\n### Fluxo de correção\n\nDiagnostique o sintoma → identifique qual dos 8 padrões é → aplique a alavanca (reduzir excesso de preferência) → versione → deixe descansar → reavalie.",
+        "key_points": [
+          "Sobredosar potentes (indol, damascona, Calone) é o erro nº1 — trabalhe com diluições e avalie fortes a ≤1%.",
+          "Topo demais/base de menos faz o perfume sumir; garanta base ≥15–30% e ancore com fixadores.",
+          "Evite a 'sopa': cada material precisa de um papel (corpo, ponte, lift, fixação) ou sai.",
+          "Respeite IFRA: oakmoss 0,10%, rose ketones 0,043%; Lilial e Lyral/HICC BANIDOS — use substitutos.",
+          "Mistura é sub-aditiva e o perfume cru mente: avalie no contexto e só depois de macerar."
+        ],
+        "exercise": "No app, em /direto, recrie deliberadamente dois erros: (a) uma fórmula com base <10% (some rápido) e (b) uma com indol sobredosado. Observe como a pirâmide/projeção reflete o problema. Depois corrija cada um e, em /combinacoes, confira o efeito real do indol em traço vs. excesso no par 'jasmim + indol'.",
+        "app_links": [
+          { "label": "Testar e corrigir fórmulas problemáticas", "href": "/direto" },
+          { "label": "Ver o penhasco perceptivo do indol (jasmim+indol)", "href": "/combinacoes" }
+        ],
+        "references": [
+          { "title": "Scentspiracy — Indol (traço floral vs. excesso fecal)", "url": "https://www.scentspiracy.com/fragrance-ingredients/p/indol" },
+          { "title": "Perfumer's Apprentice / Basenotes — escada de diluição 100/10/1%", "url": "https://basenotes.com/threads/dilution-of-aroma-chemicals.468173/" },
+          { "title": "IFRA Standards (limites de sensibilizantes, 51ª emenda)", "url": "https://ifrafragrance.org/standards" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m8",
+    "title": "Avaliação Olfativa",
+    "level": "intermediário",
+    "summary": "A disciplina de CHEIRAR com método: como avaliar uma fórmula na fita ao longo do tempo, construir um vocabulário e um diário olfativo que capturem o que você sente, e criticar comparando contra referências (benchmark). Avaliar bem é o que separa quem melhora de quem só mistura.",
+    "lessons": [
+      {
+        "id": "l8-1",
+        "title": "Avaliando na fita ao longo do tempo",
+        "duration_min": 15,
+        "body_md": "A **fita de teste** (mouillette / blotter) é o instrumento de medição do perfumista. Avaliar não é dar uma cheirada e opinar — é acompanhar a **evolução no tempo**, porque um perfume é um objeto que muda de forma enquanto evapora.\n\n### Preparando a fita\n\nUse tiras de papel absorvente próprias. Mergulhe ~1 cm da ponta (sempre a mesma profundidade, para comparabilidade) e **etiquete a outra ponta** com o nome/versão e a hora. Se estiver comparando fórmulas, mergulhe todas ao mesmo tempo e na mesma quantidade — variáveis controladas.\n\n### O protocolo de tempos\n\nO cheiro que importa não é só o de agora. Avalie em intervalos e anote cada um:\n\n| Momento | O que você avalia | Camada dominante |\n|---|---|---|\n| 0–2 min | impacto de abertura, \"pega\" | topo |\n| 15–30 min | o topo já caiu; surge o tema | transição topo→coração |\n| 1–3 h | o coração pleno, o \"caráter\" | coração |\n| 4–8 h | o drydown, o rastro | base |\n| 24 h / dias | o que resta na fita (fixação) | base persistente |\n\nOs tempos são ordem de grandeza — as fontes divergem (topo \"5–20 min\" em algumas, \"até 2 h\" em outras) e as fronteiras são propositalmente difusas. Na fita, a base pode durar muito mais que na pele: materiais de base como Sandalore chegam a ~3 semanas detectáveis na fita; Ambroxan e vanilina passam de 400 h de substantividade em teste.\n\n### Fita vs. pele\n\nA fita é reprodutível e neutra — ideal para comparar versões. Mas a **pele** aquece, tem gordura e pH próprios, e muda o cheiro (o calor acelera a evaporação; cada +10 °C ~dobra a taxa). Avalie primeiro na fita (controle) e depois valide na pele (realidade de uso). Nunca julgue só pelo frasco: o cheiro do concentrado no vidro não é o que o nariz sentirá projetado.\n\n### Higiene do nariz\n\nO olfato **fadiga** (adaptação): depois de alguns segundos você para de sentir o que está constante. Cheire em rajadas curtas, faça pausas, e \"resete\" o nariz cheirando o próprio antebraço/lã ou tomando ar. Não avalie mais que 3–4 fitas seguidas sem pausa. Evite café, perfume próprio e ambiente carregado.\n\n### O que registrar em cada tempo\n\nEm cada intervalo anote: (1) intensidade (0–5), (2) notas percebidas, (3) impressão geral, (4) defeitos (estridente? buraco? pesado?). Essa série temporal é o dado bruto para o ajuste da aula 7.3 e para o diário da próxima aula.",
+        "key_points": [
+          "Mergulhe sempre a mesma profundidade (~1 cm) e etiquete a fita com versão e hora.",
+          "Avalie em tempos fixos: 0–2 min, 15–30 min, 1–3 h, 4–8 h, 24 h+ — o perfume muda de forma no tempo.",
+          "Na fita a base dura muito mais que na pele (Sandalore ~3 semanas; Ambroxan/vanilina >400 h).",
+          "Fita = controle reprodutível; pele = realidade (calor acelera evaporação). Use as duas, nunca só o frasco.",
+          "O nariz fadiga por adaptação: cheire em rajadas curtas, faça pausas, resete no antebraço."
+        ],
+        "exercise": "No app, em /direto, gere uma fórmula e leia a curva de projeção prevista. Depois reproduza fisicamente (se tiver materiais) OU apenas registre a previsão do app em tempos 0/30min/2h/6h. Compare a evolução prevista pela pirâmide do app com o protocolo de tempos desta aula e anote onde topo vira coração.",
+        "app_links": [
+          { "label": "Ver pirâmide e curva de projeção no tempo", "href": "/direto" },
+          { "label": "Comparar fórmulas de acorde na fita", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "Poucher — substantividade e tempos de evaporação (PMC3574685)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3574685/" },
+          { "title": "Pell Wall — como usar blotters / smelling strips", "url": "https://pellwall.com/blog/how-to-use-smelling-strips/" },
+          { "title": "Perfumer's Apprentice — Sandalore (persistência na fita)", "url": "https://shop.perfumersapprentice.com/p-6199-sandalore.aspx" }
+        ]
+      },
+      {
+        "id": "l8-2",
+        "title": "Vocabulário de avaliação e o diário olfativo",
+        "duration_min": 16,
+        "body_md": "Você só consegue ajustar o que consegue **nomear**. Um vocabulário preciso transforma \"não gostei\" em \"o coração está oco entre 30 min e 1 h e a base está aldeídica demais\" — e essa segunda frase diz exatamente o que fazer.\n\n### As dimensões da avaliação\n\nDescreva cada perfume em eixos, não em um adjetivo só:\n\n- **Família/caráter:** floral, chipre, fougère, âmbar, amadeirado, gourmand, cítrico... (use a roda de Michael Edwards ou as 7 famílias da SFP).\n- **Facetas:** as sub-qualidades — empoado, ceroso, esfumaçado, verde, mel, terroso, metálico, animálico, lactônico (leitoso), balsâmico, resinoso, aquoso.\n- **Intensidade / projeção:** o quanto grita e o quanto viaja (sillage). Dirigida por volatilidade + baixo threshold.\n- **Tenacidade / longevidade:** quanto dura. Dirigida por baixa volatilidade + alto peso molecular.\n- **Volume / textura:** transparente vs. denso, radiante vs. sentado, aveludado vs. afiado.\n- **Evolução:** como muda do topo à base (linear? com buraco? bem costurado?).\n\n### Vocabulário de defeitos (o mais útil)\n\n| Termo | O que significa | Causa provável |\n|---|---|---|\n| \"buraco\" / hole | vazio entre duas fases | falta coração ou ponte |\n| estridente / harsh | abertura crua, agressiva | topo sem fusão, aldeído cru |\n| sentado / flat | base sem vida, pesada | falta transparência (hedione/Iso E) |\n| enjoativo / cloying | doce demais, cansa | excesso de baunilha/etil maltol sem contraste |\n| fecal / naftalina | indol/animálico em excesso | sobredose de material animálico |\n| oleoso / gorduroso | lactonas ou aldeídos demais | γ-lactonas acima de ~0,2% |\n| linear demais | não evolui, monótono | falta contraste de camadas |\n\n### O diário olfativo\n\nO hábito que mais acelera o aprendizado. Para CADA material, acorde e fórmula, registre:\n\n1. **Nome e diluição** (ex.: hedione neat; indol 1%).\n2. **Descritores** nos eixos acima, na sua própria linguagem.\n3. **Curva no tempo** (0/30min/2h/6h/24h — da aula anterior).\n4. **Associações e memória** (\"lembra sabonete da vovó\", \"praia\") — a memória olfativa é a sua biblioteca.\n5. **Comparações** (\"parecido com X mas mais verde\").\n\nRegistre matérias-primas isoladas também: só depois de conhecer o cheiro de linalol, hedione, Iso E, damascona sozinhos você consegue \"ouvir\" cada um dentro de uma mistura. Reavalie os mesmos materiais periodicamente — sua percepção afina com o treino, e o diário mostra sua evolução.\n\n### Calibrar entre pessoas\n\nDescritores são parcialmente subjetivos e culturais. Ancore o seu vocabulário em referências físicas (cheire um material e associe a palavra a ele) e em fontes públicas (fichas da Scentspiracy, The Good Scents) para falar a mesma língua que outros perfumistas.",
+        "key_points": [
+          "Descreva em EIXOS: família, facetas, intensidade/projeção, tenacidade, volume/textura, evolução.",
+          "O vocabulário de defeitos (buraco, estridente, sentado, enjoativo, oleoso) aponta direto para a correção.",
+          "Diário olfativo por material/acorde/fórmula: nome+diluição, descritores, curva no tempo, memória, comparações.",
+          "Cheire matérias-primas isoladas primeiro — só assim você reconhece cada uma dentro de uma mistura.",
+          "Ancore descritores subjetivos em referências físicas e fontes públicas para calibrar com outros."
+        ],
+        "exercise": "No app, em /combinacoes, abra 3 combinações diferentes (ex.: 'rosa + patchouli', 'cumarina + baunilha', 'Iso E Super + madeiras') e escreva no seu diário os descritores de cada uma nos eixos desta aula. Depois use /reverso: parta de notas desejadas (ex.: 'esfumaçado e couro') e veja quais materiais o app sugere — compare com o vocabulário que você registrou.",
+        "app_links": [
+          { "label": "Estudar facetas em combinações reais", "href": "/combinacoes" },
+          { "label": "Partir de notas desejadas para materiais", "href": "/reverso" }
+        ],
+        "references": [
+          { "title": "SFP — Famílias olfativas (vocabulário oficial)", "url": "https://www.sfp-parfumeurs.com/en/article/olfactive-families-introductions-62" },
+          { "title": "Wikipedia — Fragrance wheel de Michael Edwards", "url": "https://en.wikipedia.org/wiki/Fragrance_wheel" },
+          { "title": "Scentspiracy — fichas de ingredientes (descritores de referência)", "url": "https://www.scentspiracy.com/fragrance-ingredients" }
+        ]
+      },
+      {
+        "id": "l8-3",
+        "title": "Comparando e criticando (benchmark contra referências)",
+        "duration_min": 15,
+        "body_md": "A crítica mais poderosa é **comparativa**. Avaliar uma fórmula no vácuo leva a auto-engano; avaliá-la **lado a lado com uma referência** revela na hora o que falta. É o método de trabalho das casas de perfume, que treinam narizes contra bibliotecas de referência.\n\n### O que é benchmarking olfativo\n\nEscolha um **perfume-referência** que represente o alvo (o efeito que você quer atingir ou o arquétipo da família) e compare sua fórmula contra ele em fitas simultâneas. Não é copiar — é **calibrar**: entender a distância entre o que você fez e um exemplar bem-resolvido.\n\nReferências arquetípicas úteis por família:\n\n| Família | Referência arquetípica | O que estudar |\n|---|---|---|\n| Chipre | Coty Chypre (1917) / Mitsouko | contraste bergamota↔oakmoss, pêssego-musgo |\n| Fougère | Fougère Royale (1882) | lavanda→cumarina→oakmoss, calor de feno |\n| Âmbar/oriental | Shalimar | baunilha-labdanum-benzoin, calor resinoso |\n| Aldeídico | Chanel Nº 5 | trio C10/C11/C12 abstraindo o floral |\n| Amadeirado transparente | Terre d'Hermès | Iso E Super (~55%) + toranja + vetiver |\n| Gourmand | Angel | patchouli↔etil maltol↔baunilha |\n\n### O protocolo lado a lado\n\n1. Prepare fitas idênticas da SUA fórmula e da referência, mergulhadas juntas.\n2. Avalie nos mesmos tempos (0–2 min, 30 min, 2 h, 6 h).\n3. Em cada tempo pergunte: **onde diferem?** Mais/menos projeção? Mais doce? Buraco no coração? Base mais/menos rica?\n4. Traduza cada diferença em uma **ação** (aula 7.3/7.4): \"minha base é mais fina → +madeiras/almíscar\".\n\n### Crítica construtiva estruturada\n\nAo criticar (a sua ou a de outro), use um roteiro fixo para não virar \"gostei/não gostei\":\n\n- **Conceito:** a ideia é clara? Você reconhece a família/tema?\n- **Execução:** as camadas estão equilibradas? Bem costuradas ou com buraco?\n- **Qualidade das matérias:** cru, sintético demais, ou refinado?\n- **Evolução:** interessante do topo à base ou monótona?\n- **Segurança/conformidade:** está dentro de IFRA?\n- **Ação:** as 1–3 mudanças de maior impacto.\n\n### Cuidados com a comparação\n\nUm perfume comercial já passou por maturação industrial, tem dezenas de matérias e orçamento de matéria-prima que você não tem — não espere paridade total. Compare a **estrutura e o efeito**, não a identidade exata. E lembre da sub-aditividade: sua fórmula soará mais \"quieta\" que a soma das partes, então benchmark de intensidade é sempre relativo, não absoluto.\n\nDocumente a comparação no diário olfativo. Ao longo de meses, comparar suas versões sucessivas contra a mesma referência mostra, objetivamente, se você está chegando mais perto do alvo.",
+        "key_points": [
+          "Benchmark = avaliar sua fórmula lado a lado com uma referência-alvo em fitas simultâneas; calibra, não copia.",
+          "Use referências arquetípicas por família (Nº 5 aldeídico, Terre d'Hermès amadeirado, Angel gourmand).",
+          "Em cada tempo pergunte 'onde diferem?' e traduza cada diferença em uma AÇÃO de ajuste.",
+          "Critique por roteiro fixo: conceito, execução, qualidade, evolução, conformidade IFRA, ações.",
+          "Compare estrutura e efeito, não identidade exata — o comercial tem maturação, escala e orçamento diferentes."
+        ],
+        "exercise": "No app, em /formulas, escolha um acorde arquetípico (ex.: 'Aldehydic (Chanel No 5 style)' ou 'Woody (Iso E Super)'). Em /direto, monte a sua versão e compare a pirâmide/projeção do app contra a do acorde de referência. Liste as 3 diferenças de maior impacto e a ação de ajuste para cada uma.",
+        "app_links": [
+          { "label": "Acordes de referência para benchmark", "href": "/formulas" },
+          { "label": "Montar sua versão e comparar", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Blog Delacourte — a faceta aldeídica (Chanel Nº 5)", "url": "https://blog.delacourte.com/en/the-aldehyde-facet/" },
+          { "title": "Scentspiracy — Iso E Super (Terre d'Hermès ~55%)", "url": "https://www.scentspiracy.com/fragrance-ingredients/p/iso-e-super" },
+          { "title": "Calkin & Jellinek — Perfumery: Practice and Principles (referência de método)", "url": "https://www.wiley.com/en-us/Perfumery%3A+Practice+and+Principles-p-9780471589341" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m9",
+    "title": "Combinações e Efeitos",
+    "level": "intermediário",
+    "summary": "O 'porquê' das combinações: os cinco mecanismos que explicam o que acontece quando você junta dois ou mais materiais (contraste, fusão, mascaramento, fixação, boosting), e estudos de caso dos grandes acordes — chypre, fougère, âmbar — mostrando exatamente o que a combinação cria e por quê.",
+    "lessons": [
+      {
+        "id": "l9-1",
+        "title": "O que cada combinação faz — os 5 mecanismos",
+        "duration_min": 18,
+        "body_md": "Quando você junta dois materiais, o resultado quase nunca é \"A + B\". É um dos **cinco mecanismos** abaixo (ou uma combinação deles). Saber qual mecanismo está em jogo é o que permite prever o efeito antes de misturar.\n\n### 1. Contraste — a tensão que o nariz lê como interessante\n\nDois materiais em polos opostos criam uma tensão que o cérebro percebe como \"tridimensional\". O exemplo canônico é o **chipre**: bergamota (cítrico frio, volátil, de topo) contra oakmoss + labdanum (base escura, terrosa, pesada). A tensão fresco↔profundo É o que se lê como \"chipre\". Outros: **patchouli + etil maltol** (terra amarga vs. açúcar) no gourmand tipo Angel; **toranja + vetiver** (cítrico suculento vs. raiz terrosa). O contraste também é temporal: topo volátil e base tenaz ocupam extremos da curva de evaporação.\n\n### 2. Fusão (blending) — dois viram um\n\nMateriais que **compartilham moléculas** se fundem numa impressão única, sem costura. **Rosa + gerânio** funde porque ambos têm geraniol, citronelol, nerol — o gerânio lê-se como \"extensão\" da rosa, só que mais verde. **Neroli + petitgrain + flor de laranjeira** fundem porque vêm da MESMA planta (Citrus aurantium amara), separados só pelo método de extração — a química de linalol compartilhada solda tudo. **Ylang + jasmim** fundem via acetato de benzila comum. Fusão é a base de acordes que soam \"naturais\".\n\n### 3. Mascaramento — um material esconde a faceta ruim do outro\n\nUma faceta indesejada é encoberta por outro material. O caso clássico é **jasmim + indol**: o acetato de benzila do jasmim domina perceptivamente o indol, que passa a ler-se como \"profundidade\" e não \"fecal\" — mas isso é **dependente de dose** (<0,1% floral; >1% fecal, um penhasco perceptivo). **Cumarina + baunilha** se mascaram mutuamente: a baunilha suaviza o amargor da cumarina; a cumarina deixa a baunilha mais seca e menos plana. **Rosa + oud**: a damascenona/PEA da rosa temperam as facetas \"curral\" medicinais do oud.\n\n### 4. Fixação — segurar o volátil, prolongar tudo\n\nMateriais de baixa volatilidade **retardam a evaporação** dos voláteis e estendem a longevidade. **Vetiver + cítricos**: o vetiver \"segura\" o cítrico fugaz e estende sua frescura. **Sândalo + rosa**: o santalol lactônico ancora o floral volátil, dando o rastro cremoso longo. **Almíscares brancos + florais**: quase inodoros como assinatura mas de altíssima substantividade, formam um \"forro de veludo\" que prolonga e arredonda o buquê. Fixadores clássicos: benzoin (>24 h), labdanum, almíscares macrocíclicos, Ambroxan.\n\n### 5. Boosting — amplificar sem competir\n\nUm material **aumenta a presença/radiância** dos outros sem adicionar cheiro próprio dominante. **Iso E Super + madeiras**: ele quase não cheira sozinho (muita gente é anósmica a ele), mas ESTENDE e DESFOCA as madeiras num halo aveludado (efeito Molecule 01 / Terre d'Hermès ~55%). **Hedione + florais**: dá volume, difusão e transparência — faz tudo parecer mais brilhante e \"flutuar\" (assinatura pós-Eau Sauvage). **Damascenona + rosa** em traço (~0,01–0,2%): não se cheira \"maçã\", a rosa só fica mais rica e dourada — restaura a fração de decaimento de carotenoide que dá \"realismo\". **Etil maltol + doce**: amplifica a doçura percebida.\n\n### Combinando mecanismos\n\nA maioria dos acordes reais usa VÁRIOS ao mesmo tempo. **Baunilha + labdanum + benzoin** (âmbar) = fusão (facetas balsâmicas comuns) + mascaramento (baunilha suaviza resinas) + fixação (todos de baixa volatilidade). Ao analisar uma combinação, pergunte: qual mecanismo domina? É o que prevê o efeito.",
+        "key_points": [
+          "Contraste: polos opostos criam tensão 'tridimensional' (bergamota↔oakmoss no chipre; patchouli↔etil maltol no gourmand).",
+          "Fusão: materiais que compartilham moléculas viram um só (rosa+gerânio; neroli+petitgrain+flor de laranjeira da mesma planta).",
+          "Mascaramento: um esconde a faceta ruim do outro, muitas vezes dependente de dose (jasmim mascara o indol até ~1%).",
+          "Fixação: baixa volatilidade segura o volátil e prolonga (vetiver+cítrico; almíscares+florais; sândalo+rosa).",
+          "Boosting: amplifica sem competir (Iso E Super e hedione dão radiância; damascenona em traço 'realça' a rosa).",
+          "Acordes reais quase sempre combinam vários mecanismos (âmbar = fusão + mascaramento + fixação)."
+        ],
+        "exercise": "No app, em /combinacoes, escolha uma combinação de cada mecanismo: contraste (bergamota+oakmoss+labdano), fusão (rosa+gerânio), mascaramento (jasmim+indol), fixação (sândalo+rosa) e boosting (Iso E Super+madeiras). Para cada uma, leia o campo 'mecanismo' e escreva com suas palavras por que a combinação cheira assim. Depois, em /direto, teste um boosting: monte madeiras sem e com Iso E Super e compare a difusão na projeção.",
+        "app_links": [
+          { "label": "Explorar os 5 mecanismos em combinações reais", "href": "/combinacoes" },
+          { "label": "Testar boosting/fixação na projeção", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Premiere Peau — família chypre (contraste bergamota↔oakmoss)", "url": "https://premierepeau.com/blogs/news/chypre-fragrance-family" },
+          { "title": "Olfactive Aesthetics — jasmim, indol e florais brancos (mascaramento por dose)", "url": "https://olfactiveaesthetics.com/the-molecular-seduction-of-jasmine-chemistry-indole-and-the-art-of-white-floral-accords/" },
+          { "title": "Scentspiracy — Iso E Super (boosting/difusão)", "url": "https://www.scentspiracy.com/fragrance-ingredients/p/iso-e-super" },
+          { "title": "Premiere Peau — beta-damascenona (boosting subliminar da rosa)", "url": "https://premierepeau.com/pages/glossary-terms/beta-damascenone" }
+        ]
+      },
+      {
+        "id": "l9-2",
+        "title": "Estudos de caso: chypre, fougère e âmbar",
+        "duration_min": 18,
+        "body_md": "Três acordes fundaram famílias inteiras. Analisá-los pelos cinco mecanismos mostra COMO uma combinação simples cria uma identidade olfativa completa.\n\n### CHYPRE — o contraste que virou família\n\n**Combinação:** bergamota (topo) + oakmoss + labdanum (base), codificada pelo *Coty Chypre* (1917).\n\n**O que cria:** um contraste agridoce e sofisticado — cintilar cítrico brilhante e amargo que dá lugar a uma terrosidade escura, úmida, verde-tintosa, sobre cama quente, balsâmica-couro. Lê-se como \"seco, musgoso, refinado, retrô\".\n\n**Mecanismos em jogo:** **contraste temporal** (topo volátil vs. base pesada nos extremos da curva) + **fixação** (o labdanum tempera a aspereza do oakmoss e prolonga tudo). O labdanum é o \"tecido conjuntivo\": faz ponte entre o topo cítrico e a base musgosa, e impede o musgo de ler-se áspero.\n\n**Proporção (Jean Carles):** Base ~55% (oakmoss/cumarina/labdanum/patchouli + almíscar) + Modificadores ~20% + Topo ~25% (bergamota + laranja doce). Variação moderna: com oakmoss restrito por IFRA (0,10%), usa-se **patchouli** como corpo terroso substituto — o \"pink chypre\" (Coco Mademoiselle, Portrait of a Lady) troca o musgo por patchouli + rosa.\n\n### FOUGÈRE — a fusão química da barbearia\n\n**Combinação:** lavanda (topo) + cumarina (coração-ponte) + oakmoss (base), arquétipo *Fougère Royale* (Houbigant, 1882) — o primeiro perfume a usar um sintético (a cumarina).\n\n**O que cria:** frescor aromático de \"barbearia\" que amacia e aconchega — lavanda canforada-herbácea derretendo num coração quente e doce de feno cortado/tabaco, aterrado num chão escuro e amargo. Um \"verde agridoce\", melancólico mas fofinho.\n\n**Mecanismos:** **fusão por afinidade química** (a lavanda JÁ contém cumarina naturalmente, então há afinidade embutida) + **contraste amargo de base** (o oakmoss impede a cumarina de enjoar). A cumarina \"costura\" a lavanda fria ao chão terroso e adoça sem apagar o verde; é também fixador. Figura histórica muito citada: cumarina a ~10% da fórmula final do Fougère Royale.\n\n**Nota de construção:** fougère e chipre compartilham a base oakmoss-cumarina; a diferença é o topo (lavanda aromática no fougère vs. bergamota cítrica no chipre) e o papel da cumarina como ponte doce.\n\n### ÂMBAR — a fusão que converge numa só impressão\n\n**Combinação:** baunilha + labdanum + benzoin (o \"triângulo do âmbar\"). Regra clássica ~20:5:1 (benzoin:labdanum:baunilha, Aftel) ou simplificado 3:2:1.\n\n**O que cria:** brilho quente, doce, envolvente, resinoso-balsâmico que parece irradiar calor da pele. Baunilha dá doçura cremosa; benzoin acrescenta maciez caramelizada e empoada; labdanum contribui âmbar seco, couro e profundidade animálica. Sensação \"âmbar\" — aconchegante, empoado-doce, reconfortante, tenaz.\n\n**Mecanismos (três ao mesmo tempo):** **fusão** (os três compartilham facetas balsâmicas) + **mascaramento** (a baunilha suaviza a aspereza das resinas) + **fixação** (todos de baixa volatilidade). O trio converge numa ÚNICA impressão \"âmbar\" — nenhum se lê separadamente. Reforço moderno: Ambroxan 0,1–1% (até ~10% em \"ambrox bombs\") adiciona radiância mineral-salgada e projeção.\n\n### O padrão geral\n\nRepare: cada família nasce de um mecanismo dominante — **chipre = contraste**, **fougère = fusão química + contraste**, **âmbar = fusão + fixação**. Quando você entende o mecanismo, pode variar os materiais (substituir oakmoss por patchouli, cumarina por tonka) mantendo o EFEITO. É assim que se cria dentro de uma família sem copiar uma fórmula.",
+        "key_points": [
+          "Chipre (Coty 1917): contraste bergamota↔oakmoss + fixação do labdanum; proporção 25/20/55. Versão moderna troca oakmoss por patchouli ('pink chypre').",
+          "Fougère (Fougère Royale 1882): fusão química (lavanda já contém cumarina) + contraste amargo do oakmoss; cumarina ~10% e faz ponte doce.",
+          "Âmbar (triângulo 20:5:1 ou 3:2:1): fusão + mascaramento + fixação convergindo numa única impressão; Ambroxan moderniza.",
+          "Fougère e chipre partilham a base oakmoss-cumarina; diferem no topo (lavanda vs. bergamota).",
+          "Entender o mecanismo dominante permite trocar materiais (oakmoss→patchouli, cumarina→tonka) mantendo o efeito."
+        ],
+        "exercise": "No app, em /combinacoes, estude os três casos: 'bergamota + oakmoss + labdano' (chipre), 'lavanda + cumarina + oakmoss' (fougère) e 'baunilha + labdano + benzoim' (âmbar). Anote o mecanismo dominante de cada. Depois, em /formulas, abra os acordes 'Chypre', 'Fougere' e 'Amber' e, em /direto, monte um deles na proporção indicada e observe a pirâmide. Bônus: refaça o chipre trocando oakmoss por patchouli e compare.",
+        "app_links": [
+          { "label": "Ver os três casos em /combinacoes", "href": "/combinacoes" },
+          { "label": "Acordes chypre/fougère/âmbar com proporções", "href": "/formulas" },
+          { "label": "Montar e visualizar a pirâmide", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Premiere Peau — acorde chypre", "url": "https://premierepeau.com/blogs/news/chypre-fragrance-family" },
+          { "title": "Premiere Peau — acorde fougère (cumarina, Fougère Royale)", "url": "https://premierepeau.com/pages/glossary-terms/fougere-accord" },
+          { "title": "Scentspiracy — cistus/labdanum absolute (triângulo do âmbar)", "url": "https://www.scentspiracy.com/fragrance-ingredients/p/cistus-absolute" },
+          { "title": "Olfactive Aesthetics — oakmoss replacers (chipre moderno com patchouli)", "url": "https://olfactiveaesthetics.com/oakmoss-replacers-a-working-perfumers-field-guide/" }
+        ]
+      }
+    ]
+  }
+]

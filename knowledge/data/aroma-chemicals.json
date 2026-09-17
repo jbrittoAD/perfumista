@@ -1,0 +1,4895 @@
+[
+  {
+    "name": "Limonene (d-)",
+    "name_pt": "Limoneno",
+    "synonyms": [
+      "d-Limonene",
+      "R-Limonene",
+      "Orange terpenes",
+      "(R)-(+)-Limonene",
+      "Limoneno D"
+    ],
+    "cas": "5989-27-5",
+    "odor_family": "citrus",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "orange peel",
+      "fresh",
+      "citrus",
+      "light",
+      "sweet-terpenic"
+    ],
+    "typical_use_pct": "0.3-20",
+    "ifra_limit_pct": null,
+    "key_uses": "Cheap citrus lift; bulk of orange/lemon terpene fraction. IFRA has a Specification (peroxide value/antioxidant), not a fixed Cat 4 % cap."
+  },
+  {
+    "name": "Linalool",
+    "name_pt": "Linalol",
+    "synonyms": [
+      "3,7-Dimethyl-1,6-octadien-3-ol",
+      "Linalool",
+      "Linalol",
+      "Coriandrol",
+      "Licareol"
+    ],
+    "cas": "78-70-6",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "floral",
+      "woody",
+      "citrus",
+      "fresh",
+      "lavender",
+      "soft"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Ubiquitous fresh-floral lift; core of lavender/bergamot/coriander accords. IFRA Specification on peroxides rather than a fixed Cat 4 % (autoxidation sensitizer)."
+  },
+  {
+    "name": "Linalyl acetate",
+    "name_pt": "Acetato de linalila",
+    "synonyms": [
+      "Linalyl acetate",
+      "Bergamiol",
+      "Acetato de linalol"
+    ],
+    "cas": "115-95-7",
+    "odor_family": "floral",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "bergamot",
+      "lavender",
+      "sweet",
+      "green",
+      "fruity-floral"
+    ],
+    "typical_use_pct": "0.5-15",
+    "ifra_limit_pct": null,
+    "key_uses": "Bergamot/lavender heart; classic fougère and cologne accords. Not IFRA-restricted (converts to linalool)."
+  },
+  {
+    "name": "Dihydromyrcenol",
+    "name_pt": "Dihidromircenol",
+    "synonyms": [
+      "Dihydromyrcenol",
+      "2,6-Dimethyl-7-octen-2-ol",
+      "DHM",
+      "Dihidromirceno l"
+    ],
+    "cas": "18479-58-8",
+    "odor_family": "citrus",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "fresh",
+      "lime",
+      "citrus",
+      "clean",
+      "soapy",
+      "metallic-fresh"
+    ],
+    "typical_use_pct": "1-40",
+    "ifra_limit_pct": null,
+    "key_uses": "Signature 'fresh/aquatic-citrus' of 80s-90s masculines (Cool Water). Huge diffusive lime-cologne character. Not IFRA-restricted."
+  },
+  {
+    "name": "Bergamot oil (expressed)",
+    "name_pt": "Óleo de bergamota (prensado)",
+    "synonyms": [
+      "Bergamot oil",
+      "Citrus bergamia oil",
+      "Óleo essencial de bergamota"
+    ],
+    "cas": "8007-75-8",
+    "odor_family": "citrus",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "citrus",
+      "floral",
+      "fresh",
+      "earl-grey",
+      "sparkling",
+      "slightly bitter"
+    ],
+    "typical_use_pct": "1-30",
+    "ifra_limit_pct": 0.4,
+    "key_uses": "Backbone of colognes, fougères, chypres. IFRA Restriction (phototoxic furocoumarins); Cat 4 ~0.4% for expressed oil unless bergapten-reduced (FCF) which is exempt."
+  },
+  {
+    "name": "Lemon oil (expressed)",
+    "name_pt": "Óleo de limão-siciliano",
+    "synonyms": [
+      "Lemon oil",
+      "Citrus limon oil",
+      "Óleo de limão"
+    ],
+    "cas": "8008-56-8",
+    "odor_family": "citrus",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "zesty",
+      "sharp",
+      "clean",
+      "fresh",
+      "bright"
+    ],
+    "typical_use_pct": "1-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Bright citrus top; colognes/eaux. IFRA Specification (phototoxicity managed via peroxide/furocoumarin spec); high but not a simple single Cat 4 cap."
+  },
+  {
+    "name": "Sweet orange oil",
+    "name_pt": "Óleo de laranja-doce",
+    "synonyms": [
+      "Orange oil sweet",
+      "Citrus sinensis oil",
+      "Óleo de laranja doce"
+    ],
+    "cas": "8008-57-9",
+    "odor_family": "citrus",
+    "note": "topo",
+    "strength": "baixa",
+    "descriptors": [
+      "orange",
+      "sweet",
+      "juicy",
+      "bright",
+      "candied"
+    ],
+    "typical_use_pct": "1-30",
+    "ifra_limit_pct": null,
+    "key_uses": "Sweet fruity-citrus top; cheap volume in colognes and gourmands. Not phototoxic-restricted like bergamot."
+  },
+  {
+    "name": "Grapefruit oil",
+    "name_pt": "Óleo de toranja / grapefruit",
+    "synonyms": [
+      "Grapefruit oil",
+      "Citrus paradisi oil",
+      "Óleo de toranja"
+    ],
+    "cas": "8016-20-4",
+    "odor_family": "citrus",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "grapefruit",
+      "bitter",
+      "fresh",
+      "sulfury-fruity",
+      "sparkling"
+    ],
+    "typical_use_pct": "1-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Tart citrus top; boosted with nootkatone/thio-grapefruit specialties. Mildly phototoxic (Specification)."
+  },
+  {
+    "name": "Citral",
+    "name_pt": "Citral",
+    "synonyms": [
+      "Citral",
+      "Geranial + Neral",
+      "Lemarome",
+      "3,7-Dimethyl-2,6-octadienal"
+    ],
+    "cas": "5392-40-5",
+    "odor_family": "citrus",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "lemon",
+      "sharp",
+      "intense",
+      "lemongrass",
+      "green-citrus"
+    ],
+    "typical_use_pct": "0.1-1",
+    "ifra_limit_pct": 0.6,
+    "key_uses": "Powerful lemon note; used in trace with limonene/geraniol as quencher. IFRA Restriction; Cat 4 ~0.6% (sensitizer)."
+  },
+  {
+    "name": "Nerol",
+    "name_pt": "Nerol",
+    "synonyms": [
+      "Nerol",
+      "cis-Geraniol",
+      "(Z)-3,7-Dimethyl-2,6-octadien-1-ol"
+    ],
+    "cas": "106-25-2",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "rose",
+      "fresh",
+      "citrus",
+      "green",
+      "sweet"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Fresher/greener rose alcohol vs geraniol; neroli and rose accords. Not individually IFRA-capped (isomer of geraniol)."
+  },
+  {
+    "name": "Geraniol",
+    "name_pt": "Geraniol",
+    "synonyms": [
+      "Geraniol",
+      "trans-Geraniol",
+      "(E)-3,7-Dimethyl-2,6-octadien-1-ol",
+      "Lemonol"
+    ],
+    "cas": "106-24-1",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "rose",
+      "sweet",
+      "waxy",
+      "citronella",
+      "floral"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": 0.056,
+    "key_uses": "Rose/geranium heart; core rose alcohol. IFRA 51 Restriction ~0.056% Cat 4 (established allergen). Supplier certs may state slightly different %."
+  },
+  {
+    "name": "Citronellol",
+    "name_pt": "Citronelol",
+    "synonyms": [
+      "Citronellol",
+      "Rhodinol (mainly l-)",
+      "3,7-Dimethyl-6-octen-1-ol",
+      "Citronelol"
+    ],
+    "cas": "106-22-9",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "rose",
+      "fresh",
+      "waxy",
+      "citrusy",
+      "geranium",
+      "bud"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": 0.076,
+    "key_uses": "Rose-bud freshness; rose/geranium/muguet accords. IFRA 51 Restriction ~0.076% Cat 4 (allergen)."
+  },
+  {
+    "name": "Phenylethyl alcohol",
+    "name_pt": "Álcool feniletílico (PEA)",
+    "synonyms": [
+      "Phenethyl alcohol",
+      "PEA",
+      "2-Phenylethanol",
+      "Benzyl carbinol",
+      "Álcool feniletílico"
+    ],
+    "cas": "60-12-8",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "baixa",
+    "descriptors": [
+      "rose",
+      "honey",
+      "fresh",
+      "soft",
+      "watery-floral"
+    ],
+    "typical_use_pct": "5-30",
+    "ifra_limit_pct": null,
+    "key_uses": "Backbone of rose accords; huge dosages tolerated. Fresh watery-rose. Not IFRA-restricted."
+  },
+  {
+    "name": "Geranium oil",
+    "name_pt": "Óleo de gerânio",
+    "synonyms": [
+      "Geranium oil",
+      "Pelargonium graveolens oil",
+      "Geranium Bourbon",
+      "Óleo de gerânio"
+    ],
+    "cas": "8000-46-2",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "rosy",
+      "green",
+      "minty",
+      "leafy",
+      "fresh"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Natural rose-green heart; fougère and masculine hearts. Restricted indirectly via citronellol/geraniol content."
+  },
+  {
+    "name": "Rose oxide",
+    "name_pt": "Óxido de rosa",
+    "synonyms": [
+      "Rose oxide",
+      "cis-Rose oxide",
+      "Tetrahydro-4-methyl-2-(2-methylprop-1-enyl)pyran",
+      "Óxido de rosa"
+    ],
+    "cas": "16409-43-1",
+    "odor_family": "floral",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "rose",
+      "green",
+      "metallic",
+      "fresh",
+      "lychee",
+      "penetrating"
+    ],
+    "typical_use_pct": "0.01-0.2",
+    "ifra_limit_pct": null,
+    "key_uses": "Sharp green-metallic rose top-sparkle; lychee/rose accords. Extremely potent, dosed in traces. Not IFRA-restricted."
+  },
+  {
+    "name": "alpha-Damascone",
+    "name_pt": "alfa-Damascona",
+    "synonyms": [
+      "alpha-Damascone",
+      "(E)-1-(2,6,6-Trimethyl-2-cyclohexen-1-yl)-2-buten-1-one",
+      "Damascona alfa"
+    ],
+    "cas": "24720-09-0",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "rose",
+      "apple",
+      "fruity",
+      "wine",
+      "plum"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": 0.043,
+    "key_uses": "Fruity-rose diffusion; part of 'rose ketones' group. IFRA Restriction (rose ketones combined) ~0.043% Cat 4."
+  },
+  {
+    "name": "beta-Damascone",
+    "name_pt": "beta-Damascona",
+    "synonyms": [
+      "beta-Damascone",
+      "(E)-1-(2,6,6-Trimethyl-1-cyclohexen-1-yl)-2-buten-1-one",
+      "Damascona beta"
+    ],
+    "cas": "23726-91-2",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "fruity",
+      "rose",
+      "plum",
+      "berry",
+      "tobacco"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": 0.043,
+    "key_uses": "Plummy fruity-rose; rose ketones group. IFRA Restriction (rose ketones combined) ~0.043% Cat 4."
+  },
+  {
+    "name": "delta-Damascone",
+    "name_pt": "delta-Damascona",
+    "synonyms": [
+      "delta-Damascone",
+      "Damascona delta"
+    ],
+    "cas": "57378-68-4",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "rose",
+      "fruity",
+      "apple",
+      "green-fruity",
+      "floral"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": 0.043,
+    "key_uses": "Green-fruity rose; rose ketones group. IFRA Restriction (rose ketones combined) ~0.043% Cat 4."
+  },
+  {
+    "name": "beta-Damascenone",
+    "name_pt": "beta-Damascenona",
+    "synonyms": [
+      "Damascenone",
+      "beta-Damascenone",
+      "1-(2,6,6-Trimethylcyclohexa-1,3-dienyl)but-2-en-1-one",
+      "Damascenona"
+    ],
+    "cas": "23696-85-7",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "rose",
+      "fruity",
+      "apple",
+      "honey",
+      "cooked-fruit",
+      "wine"
+    ],
+    "typical_use_pct": "0.005-0.1",
+    "ifra_limit_pct": 0.043,
+    "key_uses": "Extremely powerful fruity-rose; damask rose key impact compound. IFRA Restriction (rose ketones combined) ~0.043% Cat 4."
+  },
+  {
+    "name": "alpha-Ionone",
+    "name_pt": "alfa-Ionona",
+    "synonyms": [
+      "alpha-Ionone",
+      "4-(2,6,6-Trimethyl-2-cyclohexen-1-yl)-3-buten-2-one",
+      "Ionona alfa"
+    ],
+    "cas": "127-41-3",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "violet",
+      "orris",
+      "woody",
+      "powdery",
+      "raspberry"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Violet/orris heart; softer, more floral than beta. Not individually IFRA-restricted."
+  },
+  {
+    "name": "beta-Ionone",
+    "name_pt": "beta-Ionona",
+    "synonyms": [
+      "beta-Ionone",
+      "4-(2,6,6-Trimethyl-1-cyclohexen-1-yl)-3-buten-2-one",
+      "Ionona beta"
+    ],
+    "cas": "14901-07-6",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "violet",
+      "woody",
+      "berry",
+      "dry",
+      "cedar"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Dry woody-violet; more diffusive/woody than alpha. Not individually IFRA-restricted."
+  },
+  {
+    "name": "Methyl ionone (alpha-iso / gamma)",
+    "name_pt": "Metil-ionona",
+    "synonyms": [
+      "alpha-Isomethyl ionone",
+      "gamma-Methyl ionone",
+      "Iso Raldeine",
+      "Raldeine",
+      "Metil ionona"
+    ],
+    "cas": "127-51-5",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "violet",
+      "orris",
+      "powdery",
+      "woody",
+      "soft-floral"
+    ],
+    "typical_use_pct": "1-15",
+    "ifra_limit_pct": null,
+    "key_uses": "Powdery orris-violet; classic in florals, chypres, fougères (Raldeine=Firmenich iso-E-methyl-ionone). IFRA Restriction on methyl ionones as a group (verify exact Cat 4 %); alpha-isomethyl ionone is a labeled allergen."
+  },
+  {
+    "name": "Alpha-Isomethyl ionone",
+    "name_pt": "alfa-Isometil-ionona",
+    "synonyms": [
+      "alpha-Isomethyl ionone",
+      "Isoraldeine 70",
+      "Cetone alpha",
+      "Metil ionona iso"
+    ],
+    "cas": "127-51-5",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "orris",
+      "violet",
+      "powdery",
+      "woody",
+      "sweet"
+    ],
+    "typical_use_pct": "1-15",
+    "ifra_limit_pct": null,
+    "key_uses": "The iso-isomer marketed as Isoraldeine; powdery orris. EU-labeled allergen; IFRA has a Restriction on methyl ionone isomers (exact Cat 4 % not confirmed here)."
+  },
+  {
+    "name": "Ionone (Irone alpha-cis)",
+    "name_pt": "Irona",
+    "synonyms": [
+      "alpha-Irone",
+      "cis-alpha-Irone",
+      "Orris ketone",
+      "Irona"
+    ],
+    "cas": "79-69-6",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "orris",
+      "violet",
+      "powdery",
+      "buttery",
+      "sweet-woody"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "The true orris-butter note; premium violet/iris. Very expensive, dosed low. IFRA status not confirmed."
+  },
+  {
+    "name": "Hedione (methyl dihydrojasmonate)",
+    "name_pt": "Hedione (metil dihidrojasmonato)",
+    "synonyms": [
+      "Hedione",
+      "Methyl dihydrojasmonate",
+      "Methyl jasmonate hydrogenated",
+      "Kharismal",
+      "Hedione HC"
+    ],
+    "cas": "24851-98-7",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "baixa",
+    "descriptors": [
+      "jasmine",
+      "transparent",
+      "radiant",
+      "fresh",
+      "citrus-floral",
+      "airy"
+    ],
+    "typical_use_pct": "2-35",
+    "ifra_limit_pct": null,
+    "key_uses": "Radiant transparent jasmine; diffusion/lift booster used at very high % (Eau Sauvage, CK One). Not IFRA-restricted."
+  },
+  {
+    "name": "Benzyl acetate",
+    "name_pt": "Acetato de benzila",
+    "synonyms": [
+      "Benzyl acetate",
+      "Acetic acid benzyl ester",
+      "Acetato de benzila"
+    ],
+    "cas": "140-11-4",
+    "odor_family": "floral",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "jasmine",
+      "sweet",
+      "fruity",
+      "solventy",
+      "floral"
+    ],
+    "typical_use_pct": "0.5-15",
+    "ifra_limit_pct": null,
+    "key_uses": "Cheap jasmine/white-floral volume; ylang, gardenia accords. Not IFRA-restricted."
+  },
+  {
+    "name": "Benzyl salicylate",
+    "name_pt": "Salicilato de benzila",
+    "synonyms": [
+      "Benzyl salicylate",
+      "Salicilato de benzila"
+    ],
+    "cas": "118-58-1",
+    "odor_family": "balsamic",
+    "note": "base",
+    "strength": "baixa",
+    "descriptors": [
+      "balsamic",
+      "floral",
+      "sweet",
+      "soft",
+      "powdery",
+      "sunscreen"
+    ],
+    "typical_use_pct": "1-20",
+    "ifra_limit_pct": null,
+    "key_uses": "Soft floral-balsamic fixative; 'sunscreen'/tanning accord, floral bouquets. IFRA Restriction (Cat 4 % relatively high; verify exact — historically several %)."
+  },
+  {
+    "name": "Jasmine absolute (Grandiflorum)",
+    "name_pt": "Absoluto de jasmim",
+    "synonyms": [
+      "Jasmine absolute",
+      "Jasminum grandiflorum absolute",
+      "Absoluto de jasmim"
+    ],
+    "cas": "8022-96-6",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "jasmine",
+      "indolic",
+      "waxy",
+      "tea",
+      "animalic",
+      "fruity"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Rich narcotic white floral heart. Restricted indirectly via constituents (benzyl acetate/salicylate, farnesol, isoeugenol)."
+  },
+  {
+    "name": "Indole",
+    "name_pt": "Indol",
+    "synonyms": [
+      "Indole",
+      "Benzo[b]pyrrole",
+      "Indol"
+    ],
+    "cas": "120-72-9",
+    "odor_family": "animalic",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "fecal",
+      "animalic",
+      "mothball",
+      "floral-in-trace",
+      "naphthalene"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "White-floral naturalness (jasmine/orange blossom); trace animalic dirtiness. Usually as 1-10% dilution. Not IFRA-restricted."
+  },
+  {
+    "name": "Benzyl benzoate",
+    "name_pt": "Benzoato de benzila",
+    "synonyms": [
+      "Benzyl benzoate",
+      "Benzoato de benzila"
+    ],
+    "cas": "120-51-4",
+    "odor_family": "balsamic",
+    "note": "base",
+    "strength": "baixa",
+    "descriptors": [
+      "faint balsamic",
+      "sweet",
+      "oily",
+      "soft"
+    ],
+    "typical_use_pct": "1-30",
+    "ifra_limit_pct": null,
+    "key_uses": "Near-odorless solvent/diluent and mild fixative; carries resinoids. IFRA Restriction (low-level allergen); Cat 4 fairly permissive — verify exact %."
+  },
+  {
+    "name": "Benzyl alcohol",
+    "name_pt": "Álcool benzílico",
+    "synonyms": [
+      "Benzyl alcohol",
+      "Phenylmethanol",
+      "Álcool benzílico"
+    ],
+    "cas": "100-51-6",
+    "odor_family": "balsamic",
+    "note": "base",
+    "strength": "baixa",
+    "descriptors": [
+      "faint",
+      "sweet",
+      "balsamic",
+      "floral",
+      "solvent"
+    ],
+    "typical_use_pct": "1-20",
+    "ifra_limit_pct": null,
+    "key_uses": "Solvent/diluent, mild floral-balsamic. IFRA Restriction (labeled allergen); Cat 4 relatively high — verify exact %."
+  },
+  {
+    "name": "Hydroxycitronellal",
+    "name_pt": "Hidroxicitronelal",
+    "synonyms": [
+      "Hydroxycitronellal",
+      "Muguet aldehyde",
+      "7-Hydroxy-3,7-dimethyloctanal",
+      "Hidroxicitronelal"
+    ],
+    "cas": "107-75-5",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "muguet",
+      "lily",
+      "sweet",
+      "melon",
+      "green-floral"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": 1.0,
+    "key_uses": "Classic lily-of-the-valley (muguet); Lyral replacement contexts. IFRA Restriction; Cat 4 ~1.0% (verify exact against 51st)."
+  },
+  {
+    "name": "Lilial (SUBSTITUTE NEEDED)",
+    "name_pt": "Lilial (PROIBIDO)",
+    "synonyms": [
+      "Lilial",
+      "Butylphenyl methylpropional",
+      "BMHCA",
+      "p-BMHCA",
+      "Lysmeral"
+    ],
+    "cas": "80-54-6",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "muguet",
+      "watery-floral",
+      "cyclamen",
+      "fresh",
+      "clean"
+    ],
+    "typical_use_pct": "0",
+    "ifra_limit_pct": 0.0,
+    "key_uses": "PROHIBITED. Formerly a muguet/cyclamen workhorse. Banned in EU (CMR reprotoxic) and IFRA-prohibited. Replace with Florhydral/Bourgeonal/Mefranal/Lilybelle. Included as a flag."
+  },
+  {
+    "name": "Lyral / HICC (PROHIBITED)",
+    "name_pt": "Lyral / HICC (PROIBIDO)",
+    "synonyms": [
+      "Lyral",
+      "HICC",
+      "Hydroxyisohexyl 3-cyclohexene carboxaldehyde",
+      "Kovanol"
+    ],
+    "cas": "31906-04-4",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "muguet",
+      "lily",
+      "sweet",
+      "linden",
+      "watery"
+    ],
+    "typical_use_pct": "0",
+    "ifra_limit_pct": 0.0,
+    "key_uses": "PROHIBITED (strong sensitizer). Was a major muguet material. Flagged so the engine never recommends it."
+  },
+  {
+    "name": "Florhydral",
+    "name_pt": "Florhydral",
+    "synonyms": [
+      "Florhydral",
+      "3-(3-Isopropylphenyl)butanal",
+      "Cyclamen-type aldehyde"
+    ],
+    "cas": "125109-85-5",
+    "odor_family": "green",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "muguet",
+      "green",
+      "watery",
+      "cyclamen",
+      "fresh",
+      "aldehydic"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Powerful modern muguet/green-floral, Lilial/Lyral replacement. Givaudan captive-origin. IFRA status: check current STD."
+  },
+  {
+    "name": "Bourgeonal",
+    "name_pt": "Bourgeonal",
+    "synonyms": [
+      "Bourgeonal",
+      "3-(4-tert-Butylphenyl)propanal"
+    ],
+    "cas": "18127-01-0",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "muguet",
+      "green",
+      "marine-lily",
+      "fresh",
+      "watery"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Marine-muguet aldehyde; Lilial alternative. IFRA Restriction likely — verify Cat 4 %."
+  },
+  {
+    "name": "Lily aldehyde / Cyclamen aldehyde",
+    "name_pt": "Aldeído ciclâmen",
+    "synonyms": [
+      "Cyclamen aldehyde",
+      "Cyclamal",
+      "2-Methyl-3-(p-isopropylphenyl)propionaldehyde",
+      "Aldeído ciclâmen"
+    ],
+    "cas": "103-95-7",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "cyclamen",
+      "muguet",
+      "green",
+      "melon",
+      "watery-floral"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Fresh green-melon muguet; modern florals and functional. IFRA Restriction; verify Cat 4 %."
+  },
+  {
+    "name": "Iso E Super",
+    "name_pt": "Iso E Super",
+    "synonyms": [
+      "Iso E Super",
+      "OTNE",
+      "1-(2,3,8,8-Tetramethyl-1,2,3,4,5,6,7,8-octahydronaphthalen-2-yl)ethan-1-one",
+      "Iso Gamma"
+    ],
+    "cas": "54464-57-2",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "baixa",
+    "descriptors": [
+      "woody",
+      "amber",
+      "cedar",
+      "velvety",
+      "transparent",
+      "radiant"
+    ],
+    "typical_use_pct": "5-40",
+    "ifra_limit_pct": null,
+    "key_uses": "Smooth radiant woody-amber; the ubiquitous modern base/volumizer (Molecule 01, Terre d'Hermes). IFRA STD applies to OTNE; historically a high Cat 4 (~20%) — verify current."
+  },
+  {
+    "name": "Iso E Super Plus / Georgywood",
+    "name_pt": "Georgywood",
+    "synonyms": [
+      "Georgywood",
+      "Iso E Super Plus",
+      "Herbawood"
+    ],
+    "cas": "68155-66-8",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "baixa",
+    "descriptors": [
+      "woody",
+      "amber",
+      "orris",
+      "dry",
+      "refined",
+      "velvety"
+    ],
+    "typical_use_pct": "1-10",
+    "ifra_limit_pct": null,
+    "key_uses": "More refined, orris-woody, higher-impact fraction relative to Iso E Super. IFRA status: verify."
+  },
+  {
+    "name": "Ambroxan",
+    "name_pt": "Ambroxan",
+    "synonyms": [
+      "Ambroxan",
+      "Ambroxide",
+      "Cetalox",
+      "Amberlyn",
+      "Ambrofix",
+      "Ambrox",
+      "Ambroxano"
+    ],
+    "cas": "6790-58-5",
+    "odor_family": "amber",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "ambergris",
+      "dry",
+      "woody",
+      "musky",
+      "mineral",
+      "salty-amber"
+    ],
+    "typical_use_pct": "0.1-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Dry ambergris/amber; ubiquitous base and diffusion driver (Sauvage-style 'ambrox bombs'). Not IFRA-restricted."
+  },
+  {
+    "name": "Cetalox (racemic Ambrox)",
+    "name_pt": "Cetalox",
+    "synonyms": [
+      "Cetalox",
+      "Dodecahydro-tetramethyl-naphthofuran"
+    ],
+    "cas": "3738-00-9",
+    "odor_family": "amber",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "amber",
+      "woody",
+      "dry",
+      "musky",
+      "ambergris"
+    ],
+    "typical_use_pct": "0.1-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Firmenich racemic ambrox-type; same amber role as Ambroxan. Not IFRA-restricted. (CAS 3738-00-9 = racemic form; note ambiguity vs 6790-58-5)."
+  },
+  {
+    "name": "Ambrocenide",
+    "name_pt": "Ambrocenide",
+    "synonyms": [
+      "Ambrocenide",
+      "Symrise Ambrocenide"
+    ],
+    "cas": "211299-54-6",
+    "odor_family": "amber",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "amber",
+      "woody",
+      "dry",
+      "intense",
+      "spicy-woody"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Ultra-potent dry woody-amber booster; small doses give big amber projection. CAS may refer to the crystals/solution — verify."
+  },
+  {
+    "name": "Cashmeran",
+    "name_pt": "Cashmeran",
+    "synonyms": [
+      "Cashmeran",
+      "DPMI",
+      "Cashmere wood",
+      "Cashmeran"
+    ],
+    "cas": "33704-61-9",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "musky",
+      "woody",
+      "spicy",
+      "pine",
+      "powdery",
+      "velvety",
+      "ambery"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Abstract velvety musk-woody-spicy; 'cashmere' base warmth. IFRA Restriction historically (~3-4% Cat 4) — verify current."
+  },
+  {
+    "name": "Sandalore",
+    "name_pt": "Sandalore",
+    "synonyms": [
+      "Sandalore",
+      "3-Methyl-5-(2,2,3-trimethylcyclopent-3-en-1-yl)pentan-2-ol"
+    ],
+    "cas": "65113-99-7",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "sandalwood",
+      "creamy",
+      "warm",
+      "musky",
+      "sweet-woody"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Warm creamy synthetic sandalwood; sandalwood accords. IFRA status: verify (may be restricted)."
+  },
+  {
+    "name": "Javanol",
+    "name_pt": "Javanol",
+    "synonyms": [
+      "Javanol",
+      "Givaudan Javanol"
+    ],
+    "cas": "198404-98-7",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "sandalwood",
+      "creamy",
+      "rosy",
+      "milky",
+      "powerful",
+      "smooth"
+    ],
+    "typical_use_pct": "0.02-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Extremely powerful creamy-rosy sandalwood; tiny doses. Not IFRA-restricted (added recent amendments)."
+  },
+  {
+    "name": "Ebanol",
+    "name_pt": "Ebanol",
+    "synonyms": [
+      "Ebanol",
+      "3-Methyl-5-(2,2,3-trimethyl-3-cyclopenten-1-yl)-4-penten-2-ol"
+    ],
+    "cas": "67801-20-1",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "sandalwood",
+      "creamy",
+      "dry",
+      "woody",
+      "milky"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Givaudan sandalwood note, drier than Sandalore. IFRA status: verify."
+  },
+  {
+    "name": "Polysantol / Firsantol",
+    "name_pt": "Polysantol",
+    "synonyms": [
+      "Polysantol",
+      "Firsantol"
+    ],
+    "cas": "107898-54-4",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "sandalwood",
+      "creamy",
+      "powerful",
+      "warm",
+      "spicy-woody"
+    ],
+    "typical_use_pct": "0.1-3",
+    "ifra_limit_pct": null,
+    "key_uses": "Firmenich powerful sandalwood; sandal accords. IFRA status: verify."
+  },
+  {
+    "name": "Sandalwood oil (Santalum album)",
+    "name_pt": "Óleo de sândalo (S. album)",
+    "synonyms": [
+      "Sandalwood oil",
+      "East Indian sandalwood oil",
+      "Santalum album oil",
+      "Óleo de sândalo"
+    ],
+    "cas": "8006-87-9",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "sandalwood",
+      "creamy",
+      "milky",
+      "lactonic",
+      "soft",
+      "balsamic"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "The real thing (santalols); creamy soft woody base. Not IFRA-restricted; expensive/sustainability-limited."
+  },
+  {
+    "name": "Cedarwood Virginia oil",
+    "name_pt": "Óleo de cedro Virgínia",
+    "synonyms": [
+      "Cedarwood Virginia",
+      "Juniperus virginiana oil",
+      "Red cedar oil",
+      "Óleo de cedro"
+    ],
+    "cas": "8000-27-9",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "cedar",
+      "dry",
+      "pencil-shavings",
+      "woody",
+      "balsamic"
+    ],
+    "typical_use_pct": "1-15",
+    "ifra_limit_pct": null,
+    "key_uses": "Dry pencil-shaving cedar; cheap woody base/fixative. Virginia type generally not restricted."
+  },
+  {
+    "name": "Cedryl acetate",
+    "name_pt": "Acetato de cedrila",
+    "synonyms": [
+      "Cedryl acetate",
+      "Cedryl acetate",
+      "Acetato de cedrila"
+    ],
+    "cas": "77-54-3",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "baixa",
+    "descriptors": [
+      "cedar",
+      "dry",
+      "woody",
+      "soft",
+      "ambery"
+    ],
+    "typical_use_pct": "1-15",
+    "ifra_limit_pct": null,
+    "key_uses": "Soft dry cedar fixative, smoother than cedar oil. Not IFRA-restricted."
+  },
+  {
+    "name": "Vertofix Coeur / Methyl cedryl ketone",
+    "name_pt": "Vertofix",
+    "synonyms": [
+      "Vertofix Coeur",
+      "Acetyl cedrene",
+      "Methyl cedryl ketone",
+      "Lixetone"
+    ],
+    "cas": "32388-55-9",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "woody",
+      "amber",
+      "cedar",
+      "vetiver-like",
+      "dry"
+    ],
+    "typical_use_pct": "1-15",
+    "ifra_limit_pct": null,
+    "key_uses": "Vetiver/woody-amber base extender; cheap woody fixative. IFRA status: generally unrestricted — verify."
+  },
+  {
+    "name": "Patchouli oil",
+    "name_pt": "Óleo de patchouli",
+    "synonyms": [
+      "Patchouli oil",
+      "Pogostemon cablin oil",
+      "Óleo de patchouli",
+      "Patchuli"
+    ],
+    "cas": "8014-09-3",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "earthy",
+      "woody",
+      "camphoraceous",
+      "balsamic",
+      "damp",
+      "sweet-woody"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Earthy woody base; chypre and oriental cornerstone. Not IFRA-restricted."
+  },
+  {
+    "name": "Patchoulol",
+    "name_pt": "Patchoulol",
+    "synonyms": [
+      "Patchoulol",
+      "Patchouli alcohol"
+    ],
+    "cas": "5986-55-0",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "earthy",
+      "woody",
+      "patchouli",
+      "dry",
+      "clean-patchouli"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Main odor alcohol of patchouli; cleaner isolate. Not IFRA-restricted."
+  },
+  {
+    "name": "Clearwood / Norlimbanol-adjacent (Firmenich Clearwood)",
+    "name_pt": "Clearwood",
+    "synonyms": [
+      "Clearwood",
+      "biotech patchouli base"
+    ],
+    "cas": null,
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "patchouli",
+      "woody",
+      "dry",
+      "clean",
+      "ambery"
+    ],
+    "typical_use_pct": "1-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Biotech clean-patchouli/woody base (Firmenich). CAS is a proprietary composition — left null (not a single-molecule CAS)."
+  },
+  {
+    "name": "Vetiver oil (Haiti/Java)",
+    "name_pt": "Óleo de vetiver",
+    "synonyms": [
+      "Vetiver oil",
+      "Vetiveria zizanioides oil",
+      "Chrysopogon zizanioides oil",
+      "Óleo de vetiver"
+    ],
+    "cas": "8016-96-4",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "earthy",
+      "woody",
+      "smoky",
+      "rooty",
+      "grapefruit-vetiver",
+      "dry"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Rooty smoky woody base; masculine and chypre cornerstone; excellent fixative. Not IFRA-restricted."
+  },
+  {
+    "name": "Vetiveryl acetate",
+    "name_pt": "Acetato de vetiverila",
+    "synonyms": [
+      "Vetiveryl acetate",
+      "Vetiver acetate",
+      "Acetato de vetiver"
+    ],
+    "cas": "117-98-6",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "vetiver",
+      "woody",
+      "cleaner",
+      "dry",
+      "less-earthy"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Cleaner, less-earthy vetiver; refined vetiver bases. IFRA status: verify."
+  },
+  {
+    "name": "Guaiacwood oil",
+    "name_pt": "Óleo de guaiaco",
+    "synonyms": [
+      "Guaiacwood oil",
+      "Guaiac wood",
+      "Bulnesia sarmientoi oil",
+      "Óleo de guaiaco"
+    ],
+    "cas": "8016-23-7",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "woody",
+      "smoky",
+      "rosy",
+      "tea",
+      "soft-balsamic"
+    ],
+    "typical_use_pct": "1-15",
+    "ifra_limit_pct": null,
+    "key_uses": "Soft smoky-rosy woody base and fixative. Not IFRA-restricted (species conservation concerns)."
+  },
+  {
+    "name": "Galaxolide",
+    "name_pt": "Galaxolide",
+    "synonyms": [
+      "Galaxolide",
+      "HHCB",
+      "1,3,4,6,7,8-Hexahydro-4,6,6,7,8,8-hexamethylcyclopenta[g]-2-benzopyran",
+      "Abbalide",
+      "Pearlide"
+    ],
+    "cas": "1222-05-5",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "musk",
+      "clean",
+      "sweet",
+      "woody",
+      "laundry",
+      "floral-musk"
+    ],
+    "typical_use_pct": "1-10",
+    "ifra_limit_pct": 1.5,
+    "key_uses": "The 'clean laundry' polycyclic musk; volume and fixation. IFRA Restriction (environmental/PBT); Cat 4 leave-on ~1.5%."
+  },
+  {
+    "name": "Habanolide",
+    "name_pt": "Habanolide",
+    "synonyms": [
+      "Habanolide",
+      "Pentadecenolide (mixture)"
+    ],
+    "cas": "34902-57-3",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "musk",
+      "clean",
+      "metallic",
+      "ironed-linen",
+      "smooth",
+      "slightly-animalic"
+    ],
+    "typical_use_pct": "0.5-8",
+    "ifra_limit_pct": null,
+    "key_uses": "Macrocyclic musk; clean 'ironed linen'. Biodegradable modern musk. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Globalide",
+    "name_pt": "Globalide",
+    "synonyms": [
+      "Globalide",
+      "15-Pentadecen-15-olide? / Hexadecenolide"
+    ],
+    "cas": "111879-80-2",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "musk",
+      "clean",
+      "powerful",
+      "smooth",
+      "slightly-fruity-musk"
+    ],
+    "typical_use_pct": "0.5-8",
+    "ifra_limit_pct": null,
+    "key_uses": "Symrise macrocyclic musk (Habanolide analog). Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Ethylene brassylate",
+    "name_pt": "Brassilato de etileno",
+    "synonyms": [
+      "Ethylene brassylate",
+      "Musk MHA",
+      "Musk T",
+      "Musk R1",
+      "Brassilato de etileno"
+    ],
+    "cas": "105-95-3",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "musk",
+      "clean",
+      "soft",
+      "sweet",
+      "powdery",
+      "warm"
+    ],
+    "typical_use_pct": "1-15",
+    "ifra_limit_pct": null,
+    "key_uses": "Cheapest widely used macrocyclic musk; soft warm musk volume. Not IFRA-restricted."
+  },
+  {
+    "name": "Muscone",
+    "name_pt": "Muscona",
+    "synonyms": [
+      "Muscone",
+      "3-Methylcyclopentadecan-1-one",
+      "Muscona"
+    ],
+    "cas": "541-91-3",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "musk",
+      "animalic",
+      "powdery",
+      "sweet",
+      "warm",
+      "skin"
+    ],
+    "typical_use_pct": "0.2-3",
+    "ifra_limit_pct": null,
+    "key_uses": "The natural deer-musk molecule; warm animalic-powdery musk, exceptional tenacity. Expensive. Not IFRA-restricted."
+  },
+  {
+    "name": "Exaltolide",
+    "name_pt": "Exaltolide",
+    "synonyms": [
+      "Exaltolide",
+      "Pentadecanolide",
+      "Cyclopentadecanolide",
+      "15-Pentadecanolide"
+    ],
+    "cas": "106-02-5",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "musk",
+      "clean",
+      "warm",
+      "powdery",
+      "soft",
+      "skin"
+    ],
+    "typical_use_pct": "1-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Classic warm nitro-free macrocyclic musk; skin-warmth. Not IFRA-restricted."
+  },
+  {
+    "name": "Ambrettolide",
+    "name_pt": "Ambretolida",
+    "synonyms": [
+      "Ambrettolide",
+      "Ambretolida",
+      "16-Hexadecenolide"
+    ],
+    "cas": "7779-50-2",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "musk",
+      "fruity",
+      "floral",
+      "soft",
+      "ambrette-seed",
+      "warm"
+    ],
+    "typical_use_pct": "0.5-8",
+    "ifra_limit_pct": null,
+    "key_uses": "Fruity-floral macrocyclic musk of ambrette seed. Not IFRA-restricted."
+  },
+  {
+    "name": "Musk ketone",
+    "name_pt": "Musk ketone",
+    "synonyms": [
+      "Musk ketone",
+      "Cetona de almíscar",
+      "4-tert-Butyl-2,6-dimethyl-3,5-dinitroacetophenone"
+    ],
+    "cas": "81-14-1",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "musk",
+      "sweet",
+      "powdery",
+      "nitro-musk",
+      "warm"
+    ],
+    "typical_use_pct": "0.1-1",
+    "ifra_limit_pct": 1.4,
+    "key_uses": "Classic nitromusk (vintage character). IFRA Restriction; Cat 4 ~1.4% (verify current; many houses avoid nitromusks)."
+  },
+  {
+    "name": "Vanillin",
+    "name_pt": "Vanilina",
+    "synonyms": [
+      "Vanillin",
+      "4-Hydroxy-3-methoxybenzaldehyde",
+      "Vanilina"
+    ],
+    "cas": "121-33-5",
+    "odor_family": "gourmand",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "vanilla",
+      "sweet",
+      "creamy",
+      "balsamic",
+      "powdery"
+    ],
+    "typical_use_pct": "0.5-8",
+    "ifra_limit_pct": null,
+    "key_uses": "Vanilla base; gourmand/oriental cornerstone. Not IFRA-restricted (can discolor bases yellow)."
+  },
+  {
+    "name": "Ethyl vanillin",
+    "name_pt": "Etilvanilina",
+    "synonyms": [
+      "Ethyl vanillin",
+      "3-Ethoxy-4-hydroxybenzaldehyde",
+      "Bourbonal",
+      "Etilvanilina"
+    ],
+    "cas": "121-32-4",
+    "odor_family": "gourmand",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "vanilla",
+      "sweet",
+      "caramel",
+      "intense",
+      "creamy"
+    ],
+    "typical_use_pct": "0.5-8",
+    "ifra_limit_pct": null,
+    "key_uses": "3-4x stronger, more caramellic than vanillin. Gourmand/vanilla bases. Not IFRA-restricted."
+  },
+  {
+    "name": "Ethyl maltol",
+    "name_pt": "Etilmaltol",
+    "synonyms": [
+      "Ethyl maltol",
+      "2-Ethyl-3-hydroxy-4-pyrone",
+      "Veltol Plus",
+      "Etilmaltol"
+    ],
+    "cas": "4940-11-8",
+    "odor_family": "gourmand",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "cotton-candy",
+      "caramel",
+      "sweet",
+      "strawberry",
+      "sugary"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Cotton-candy sweetness (La Vie Est Belle/Angel style). Very potent, low dose. Not IFRA-restricted."
+  },
+  {
+    "name": "Maltol",
+    "name_pt": "Maltol",
+    "synonyms": [
+      "Maltol",
+      "2-Methyl-3-hydroxy-4-pyrone",
+      "3-Hydroxy-2-methyl-4H-pyran-4-one"
+    ],
+    "cas": "118-71-8",
+    "odor_family": "gourmand",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "caramel",
+      "cotton-candy",
+      "toasted",
+      "sweet",
+      "bready"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Toasted-caramel sweetness; softer than ethyl maltol. Not IFRA-restricted."
+  },
+  {
+    "name": "Coumarin",
+    "name_pt": "Cumarina",
+    "synonyms": [
+      "Coumarin",
+      "1,2-Benzopyrone",
+      "2H-Chromen-2-one",
+      "Cumarina"
+    ],
+    "cas": "91-64-5",
+    "odor_family": "gourmand",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "hay",
+      "tonka",
+      "sweet",
+      "almond",
+      "warm",
+      "new-mown-hay"
+    ],
+    "typical_use_pct": "0.5-3",
+    "ifra_limit_pct": 1.5,
+    "key_uses": "Hay/tonka; the fougère base signature. IFRA Restriction; Cat 4 1.5% (confirmed 51st Amendment)."
+  },
+  {
+    "name": "Tonka bean absolute",
+    "name_pt": "Absoluto de fava tonka",
+    "synonyms": [
+      "Tonka absolute",
+      "Dipteryx odorata absolute",
+      "Absoluto de tonka"
+    ],
+    "cas": "8046-22-8",
+    "odor_family": "gourmand",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "tonka",
+      "hay",
+      "almond",
+      "tobacco",
+      "sweet",
+      "nutty"
+    ],
+    "typical_use_pct": "0.5-3",
+    "ifra_limit_pct": null,
+    "key_uses": "Rich warm coumarinic-nutty base. Restricted indirectly via coumarin content."
+  },
+  {
+    "name": "Eugenol",
+    "name_pt": "Eugenol",
+    "synonyms": [
+      "Eugenol",
+      "4-Allyl-2-methoxyphenol",
+      "Clove alcohol"
+    ],
+    "cas": "97-53-0",
+    "odor_family": "spicy",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "clove",
+      "spicy",
+      "phenolic",
+      "warm",
+      "dental",
+      "carnation"
+    ],
+    "typical_use_pct": "0.1-1",
+    "ifra_limit_pct": 0.178,
+    "key_uses": "Clove/carnation spice; oriental warmth. IFRA 51 Restriction ~0.178% Cat 4 (allergen). Supplier certs may vary."
+  },
+  {
+    "name": "Isoeugenol",
+    "name_pt": "Isoeugenol",
+    "synonyms": [
+      "Isoeugenol",
+      "2-Methoxy-4-propenylphenol"
+    ],
+    "cas": "97-54-1",
+    "odor_family": "spicy",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "clove",
+      "carnation",
+      "spicy",
+      "floral",
+      "sweet-phenolic"
+    ],
+    "typical_use_pct": "0.005-0.05",
+    "ifra_limit_pct": 0.008,
+    "key_uses": "Carnation/clove floral-spice. Strong sensitizer: IFRA 51 Restriction ~0.008% Cat 4 (very low)."
+  },
+  {
+    "name": "Eugenyl acetate",
+    "name_pt": "Acetato de eugenila",
+    "synonyms": [
+      "Eugenyl acetate",
+      "Acetyleugenol",
+      "Acetato de eugenila"
+    ],
+    "cas": "93-28-7",
+    "odor_family": "spicy",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "clove",
+      "spicy",
+      "sweet",
+      "balsamic",
+      "softer-clove"
+    ],
+    "typical_use_pct": "0.1-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Softer, sweeter clove than eugenol. Restricted via eugenol equivalence — verify."
+  },
+  {
+    "name": "Cinnamaldehyde",
+    "name_pt": "Cinamaldeído",
+    "synonyms": [
+      "Cinnamaldehyde",
+      "Cinnamic aldehyde",
+      "3-Phenyl-2-propenal",
+      "Cinamaldeído"
+    ],
+    "cas": "104-55-2",
+    "odor_family": "spicy",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "cinnamon",
+      "spicy",
+      "sweet",
+      "warm",
+      "balsamic"
+    ],
+    "typical_use_pct": "0.05-0.25",
+    "ifra_limit_pct": 0.25,
+    "key_uses": "Cinnamon heart; oriental/gourmand spice. IFRA Restriction; Cat 4 0.25% (older sources cite 0.05% for some categories — 0.25% is the fine-fragrance figure)."
+  },
+  {
+    "name": "Cinnamyl alcohol",
+    "name_pt": "Álcool cinâmico",
+    "synonyms": [
+      "Cinnamyl alcohol",
+      "3-Phenyl-2-propen-1-ol",
+      "Álcool cinâmico"
+    ],
+    "cas": "104-54-1",
+    "odor_family": "balsamic",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "balsamic",
+      "sweet",
+      "floral",
+      "hyacinth",
+      "spicy"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Sweet balsamic-hyacinth; part of cinnamon/balsam accords. IFRA Restriction (allergen) — verify Cat 4 %."
+  },
+  {
+    "name": "Methyl eugenol",
+    "name_pt": "Metileugenol",
+    "synonyms": [
+      "Methyl eugenol",
+      "Eugenol methyl ether",
+      "4-Allyl-1,2-dimethoxybenzene",
+      "Metileugenol"
+    ],
+    "cas": "93-15-2",
+    "odor_family": "spicy",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "clove",
+      "spicy",
+      "sweet",
+      "waxy",
+      "carnation"
+    ],
+    "typical_use_pct": "0.001-0.01",
+    "ifra_limit_pct": 0.01,
+    "key_uses": "Trace constituent (rose/basil/clove oils); IFRA Restriction ~0.01% Cat 4 (genotoxicity concern). Usually not added neat."
+  },
+  {
+    "name": "Clove bud oil",
+    "name_pt": "Óleo de cravo (botão)",
+    "synonyms": [
+      "Clove bud oil",
+      "Eugenia caryophyllus oil",
+      "Óleo de cravo"
+    ],
+    "cas": "8000-34-8",
+    "odor_family": "spicy",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "clove",
+      "spicy",
+      "warm",
+      "phenolic",
+      "sweet-spice"
+    ],
+    "typical_use_pct": "0.1-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Natural clove (high eugenol); oriental spice. Restricted via eugenol/isoeugenol content."
+  },
+  {
+    "name": "Cinnamon bark oil",
+    "name_pt": "Óleo de canela (casca)",
+    "synonyms": [
+      "Cinnamon bark oil",
+      "Cinnamomum zeylanicum oil",
+      "Óleo de canela"
+    ],
+    "cas": "8015-91-6",
+    "odor_family": "spicy",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "cinnamon",
+      "spicy",
+      "warm",
+      "sweet",
+      "hot"
+    ],
+    "typical_use_pct": "0.05-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Hot spicy cinnamon; orientals. Restricted via cinnamaldehyde/eugenol content."
+  },
+  {
+    "name": "Black pepper oil",
+    "name_pt": "Óleo de pimenta-preta",
+    "synonyms": [
+      "Black pepper oil",
+      "Piper nigrum oil",
+      "Óleo de pimenta preta"
+    ],
+    "cas": "8006-82-4",
+    "odor_family": "spicy",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "peppery",
+      "spicy",
+      "dry",
+      "woody",
+      "fresh-spice"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Dry peppery lift; masculine and spicy accords. Not IFRA-restricted."
+  },
+  {
+    "name": "Cardamom oil",
+    "name_pt": "Óleo de cardamomo",
+    "synonyms": [
+      "Cardamom oil",
+      "Elettaria cardamomum oil",
+      "Óleo de cardamomo"
+    ],
+    "cas": "8000-66-6",
+    "odor_family": "spicy",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "cardamom",
+      "spicy",
+      "fresh",
+      "eucalyptus-cineole",
+      "aromatic"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Fresh-spicy cineole top; modern masculines and gourmand-spice. Not IFRA-restricted."
+  },
+  {
+    "name": "Nutmeg oil",
+    "name_pt": "Óleo de noz-moscada",
+    "synonyms": [
+      "Nutmeg oil",
+      "Myristica fragrans oil",
+      "Óleo de noz-moscada"
+    ],
+    "cas": "8008-45-5",
+    "odor_family": "spicy",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "nutmeg",
+      "warm-spice",
+      "terpenic",
+      "aromatic",
+      "woody-spice"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Warm spice top-heart; masculines and orientals. Specification on safrole/myristicin content."
+  },
+  {
+    "name": "Ginger oil",
+    "name_pt": "Óleo de gengibre",
+    "synonyms": [
+      "Ginger oil",
+      "Zingiber officinale oil",
+      "Óleo de gengibre"
+    ],
+    "cas": "8007-08-7",
+    "odor_family": "spicy",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "ginger",
+      "fresh",
+      "spicy",
+      "lemony",
+      "warm",
+      "zingy"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Fresh zingy ginger; modern masculines. Not IFRA-restricted (phototox specification for some fractions)."
+  },
+  {
+    "name": "Aldehyde C-8 (Octanal)",
+    "name_pt": "Aldeído C-8 (octanal)",
+    "synonyms": [
+      "Octanal",
+      "Aldehyde C-8",
+      "Caprylic aldehyde",
+      "Aldeído C8"
+    ],
+    "cas": "124-13-0",
+    "odor_family": "aldehydic",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "orange",
+      "aldehydic",
+      "fatty",
+      "citrus-peel",
+      "fresh"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Citrus-peel aldehydic sparkle; used in dilution. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Aldehyde C-9 (Nonanal)",
+    "name_pt": "Aldeído C-9 (nonanal)",
+    "synonyms": [
+      "Nonanal",
+      "Aldehyde C-9",
+      "Pelargonaldehyde",
+      "Aldeído C9"
+    ],
+    "cas": "124-19-6",
+    "odor_family": "aldehydic",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "aldehydic",
+      "rosy",
+      "waxy",
+      "fatty",
+      "citrus"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Rosy-waxy aldehyde; classic aldehydic floral top. Used diluted. Verify IFRA."
+  },
+  {
+    "name": "Aldehyde C-10 (Decanal)",
+    "name_pt": "Aldeído C-10 (decanal)",
+    "synonyms": [
+      "Decanal",
+      "Aldehyde C-10",
+      "Capraldehyde",
+      "Aldeído C10"
+    ],
+    "cas": "112-31-2",
+    "odor_family": "aldehydic",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "orange-peel",
+      "waxy",
+      "aldehydic",
+      "citrus",
+      "fatty"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": 1.0,
+    "key_uses": "Waxy orange-peel aldehyde; aldehydic florals (No.5 family). IFRA Restriction ~1.0% concentrate (verify)."
+  },
+  {
+    "name": "Aldehyde C-11 undecylenic",
+    "name_pt": "Aldeído C-11 undecilênico",
+    "synonyms": [
+      "Undecylenic aldehyde",
+      "10-Undecenal",
+      "Aldehyde C-11 undecylenic",
+      "Aldeído C11"
+    ],
+    "cas": "112-45-8",
+    "odor_family": "aldehydic",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "waxy",
+      "rosy",
+      "citrus",
+      "soapy",
+      "aldehydic",
+      "metallic"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Waxy-rosy 'soap' aldehyde; classic aldehydic accord. Verify IFRA (historically ~limited)."
+  },
+  {
+    "name": "Aldehyde C-11 undecanal (lenic)",
+    "name_pt": "Aldeído C-11 undecanal",
+    "synonyms": [
+      "Undecanal",
+      "Aldehyde C-11 lenic",
+      "Hendecanal",
+      "Aldeído C-11 undecílico"
+    ],
+    "cas": "112-44-7",
+    "odor_family": "aldehydic",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "aldehydic",
+      "waxy",
+      "citrus",
+      "floral",
+      "clean"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Saturated C-11; cleaner aldehydic. Verify IFRA."
+  },
+  {
+    "name": "Aldehyde C-12 lauric (Dodecanal)",
+    "name_pt": "Aldeído C-12 láurico (dodecanal)",
+    "synonyms": [
+      "Dodecanal",
+      "Aldehyde C-12 lauric",
+      "Lauraldehyde",
+      "Aldeído C12"
+    ],
+    "cas": "112-54-9",
+    "odor_family": "aldehydic",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "waxy",
+      "soapy",
+      "floral",
+      "clean",
+      "fatty",
+      "violet-leaf"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Soapy-waxy floral aldehyde. Verify IFRA (~2% historically)."
+  },
+  {
+    "name": "Aldehyde C-12 MNA",
+    "name_pt": "Aldeído C-12 MNA",
+    "synonyms": [
+      "2-Methylundecanal",
+      "Aldehyde C-12 MNA",
+      "Methyl nonyl acetaldehyde",
+      "Aldeído C-12 MNA"
+    ],
+    "cas": "110-41-8",
+    "odor_family": "aldehydic",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "aldehydic",
+      "fresh",
+      "ambery",
+      "mossy",
+      "metallic",
+      "clean"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Fresh metallic-ambery aldehyde (No.5 signature). Verify IFRA."
+  },
+  {
+    "name": "Aldehyde C-14 (gamma-Undecalactone, 'peach')",
+    "name_pt": "Aldeído C-14 (gama-undecalactona)",
+    "synonyms": [
+      "gamma-Undecalactone",
+      "Peach lactone",
+      "Undecalactona"
+    ],
+    "cas": "104-67-6",
+    "odor_family": "gourmand",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "peach",
+      "creamy",
+      "fruity",
+      "coconut-lactonic",
+      "sweet"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "'Aldehyde C-14' is actually a peach lactone; creamy peach (Mitsouko). Not IFRA-restricted."
+  },
+  {
+    "name": "Aldehyde C-16 ('strawberry')",
+    "name_pt": "Aldeído C-16 (morango)",
+    "synonyms": [
+      "Ethyl methylphenylglycidate",
+      "Strawberry aldehyde",
+      "Aldeído C-16"
+    ],
+    "cas": "77-83-8",
+    "odor_family": "gourmand",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "strawberry",
+      "fruity",
+      "sweet",
+      "jammy",
+      "candy"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "'Aldehyde C-16' is a glycidate ester = strawberry note. Fruity accords. Verify IFRA."
+  },
+  {
+    "name": "gamma-Decalactone",
+    "name_pt": "gama-Decalactona",
+    "synonyms": [
+      "gamma-Decalactone",
+      "Decanolactona"
+    ],
+    "cas": "706-14-9",
+    "odor_family": "gourmand",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "peach",
+      "creamy",
+      "fruity",
+      "fatty",
+      "coconut"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Creamy peach-apricot lactone; fruity florals. Not IFRA-restricted."
+  },
+  {
+    "name": "gamma-Nonalactone",
+    "name_pt": "gama-Nonalactona",
+    "synonyms": [
+      "gamma-Nonalactone",
+      "Aldehyde C-18 so-called",
+      "Coconut lactone",
+      "Nonalactona"
+    ],
+    "cas": "104-61-0",
+    "odor_family": "gourmand",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "coconut",
+      "creamy",
+      "fatty",
+      "sweet",
+      "waxy"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Coconut/creamy lactone; tropical and gourmand accords. Not IFRA-restricted."
+  },
+  {
+    "name": "Calone 1951",
+    "name_pt": "Calone 1951",
+    "synonyms": [
+      "Calone",
+      "Calone 1951",
+      "Methylbenzodioxepinone",
+      "7-Methyl-3,4-dihydro-2H-1,5-benzodioxepin-3-one"
+    ],
+    "cas": "28940-11-6",
+    "odor_family": "aquatic",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "marine",
+      "ozonic",
+      "watermelon",
+      "melon",
+      "sea-breeze",
+      "oyster"
+    ],
+    "typical_use_pct": "0.05-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "The 90s marine/aquatic molecule (L'Eau d'Issey, Escape). Melon-oceanic. Not IFRA-restricted."
+  },
+  {
+    "name": "Helional",
+    "name_pt": "Helional",
+    "synonyms": [
+      "Helional",
+      "alpha-Methyl-1,3-benzodioxole-5-propanal",
+      "Aldeído heliotropo-marinho"
+    ],
+    "cas": "1205-17-0",
+    "odor_family": "aquatic",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "marine",
+      "green",
+      "melon",
+      "cyclamen",
+      "watery-floral",
+      "fresh"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Green-marine floral aldehyde; aquatic and ozonic accords. IFRA Restriction reported with conflicting values (~2.6% vs 5.3%) — left null pending 51st confirmation."
+  },
+  {
+    "name": "Floralozone",
+    "name_pt": "Floralozone",
+    "synonyms": [
+      "Floralozone",
+      "3-(4-Ethylphenyl)-2,2-dimethylpropanal"
+    ],
+    "cas": "67634-15-5",
+    "odor_family": "aquatic",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "ozonic",
+      "marine",
+      "green",
+      "fresh-air",
+      "watery",
+      "metallic"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Fresh-air ozonic; marine/clean accords. IFRA status: verify."
+  },
+  {
+    "name": "Melonal",
+    "name_pt": "Melonal",
+    "synonyms": [
+      "Melonal",
+      "2,6-Dimethyl-5-heptenal"
+    ],
+    "cas": "106-72-9",
+    "odor_family": "aquatic",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "melon",
+      "green",
+      "fresh",
+      "watery",
+      "cucumber",
+      "aldehydic"
+    ],
+    "typical_use_pct": "0.01-0.3",
+    "ifra_limit_pct": null,
+    "key_uses": "Green-melon/cucumber aldehyde; aquatic-fruity accords. Verify IFRA."
+  },
+  {
+    "name": "cis-3-Hexenol",
+    "name_pt": "cis-3-Hexenol (álcool de folha)",
+    "synonyms": [
+      "cis-3-Hexen-1-ol",
+      "Leaf alcohol",
+      "(Z)-3-Hexen-1-ol",
+      "Hexenol foliar"
+    ],
+    "cas": "928-96-1",
+    "odor_family": "green",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "leafy",
+      "grassy",
+      "fresh-cut-grass",
+      "sharp",
+      "watery-green"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Fresh-cut grass/leaf; green top-notes and fruity-green accords. Very potent, low dose. Not IFRA-restricted."
+  },
+  {
+    "name": "cis-3-Hexenyl acetate",
+    "name_pt": "Acetato de cis-3-hexenila",
+    "synonyms": [
+      "cis-3-Hexenyl acetate",
+      "Leaf acetate",
+      "(Z)-3-Hexenyl acetate",
+      "Acetato de hexenila"
+    ],
+    "cas": "3681-71-8",
+    "odor_family": "green",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "fruity-green",
+      "banana-leaf",
+      "fresh",
+      "leafy"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Fruity-green leaf; softer than the alcohol. Green accords. Not IFRA-restricted."
+  },
+  {
+    "name": "Galbanum oil",
+    "name_pt": "Óleo de gálbano",
+    "synonyms": [
+      "Galbanum oil",
+      "Ferula galbaniflua oil",
+      "Óleo de gálbano"
+    ],
+    "cas": "8023-91-4",
+    "odor_family": "green",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "sharp",
+      "bitter",
+      "resinous",
+      "pine",
+      "leafy"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Intense bitter-green; green florals and chypres (No.19, Vent Vert). Not IFRA-restricted."
+  },
+  {
+    "name": "Triplal / Ligustral",
+    "name_pt": "Triplal",
+    "synonyms": [
+      "Triplal",
+      "Ligustral",
+      "Vertoliff",
+      "2,4-Dimethyl-3-cyclohexene-1-carboxaldehyde"
+    ],
+    "cas": "68039-49-6",
+    "odor_family": "green",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "leafy",
+      "aldehydic",
+      "sharp",
+      "foliage",
+      "watery-green"
+    ],
+    "typical_use_pct": "0.01-0.3",
+    "ifra_limit_pct": null,
+    "key_uses": "Sharp green foliage aldehyde; green accords, tomato-leaf, muguet greenery. IFRA Restriction likely — verify."
+  },
+  {
+    "name": "Stemone",
+    "name_pt": "Stemone",
+    "synonyms": [
+      "Stemone",
+      "5-Methyl-3-heptanone oxime",
+      "green oxime"
+    ],
+    "cas": "22457-23-4",
+    "odor_family": "green",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "leafy",
+      "fig-leaf",
+      "tomato-leaf",
+      "herbal-green"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Fig-leaf/tomato-leaf green; modern green accords. Verify IFRA."
+  },
+  {
+    "name": "Violet leaf absolute",
+    "name_pt": "Absoluto de folha de violeta",
+    "synonyms": [
+      "Violet leaf absolute",
+      "Viola odorata leaf absolute",
+      "Absoluto de folha de violeta"
+    ],
+    "cas": "8024-08-6",
+    "odor_family": "green",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "leafy",
+      "cucumber",
+      "earthy",
+      "metallic-green",
+      "vegetal"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Metallic-green cucumber leaf; green and violet accords. Restricted indirectly; verify."
+  },
+  {
+    "name": "Lavender oil",
+    "name_pt": "Óleo de lavanda",
+    "synonyms": [
+      "Lavender oil",
+      "Lavandula angustifolia oil",
+      "Óleo de lavanda",
+      "Alfazema"
+    ],
+    "cas": "8000-28-0",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "lavender",
+      "herbal",
+      "floral",
+      "camphoraceous",
+      "fresh",
+      "aromatic"
+    ],
+    "typical_use_pct": "1-15",
+    "ifra_limit_pct": null,
+    "key_uses": "Fougère cornerstone; aromatic top-heart. Restricted indirectly via linalool/linalyl acetate specs."
+  },
+  {
+    "name": "Lavandin oil",
+    "name_pt": "Óleo de lavandin",
+    "synonyms": [
+      "Lavandin oil",
+      "Lavandula intermedia oil",
+      "Óleo de lavandin"
+    ],
+    "cas": "8022-15-9",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "lavender",
+      "camphoraceous",
+      "herbal",
+      "sharp",
+      "fresh"
+    ],
+    "typical_use_pct": "1-15",
+    "ifra_limit_pct": null,
+    "key_uses": "Sharper, more camphor lavender; cheaper fougère volume. Restricted indirectly via constituents."
+  },
+  {
+    "name": "Rosemary oil",
+    "name_pt": "Óleo de alecrim",
+    "synonyms": [
+      "Rosemary oil",
+      "Rosmarinus officinalis oil",
+      "Óleo de alecrim"
+    ],
+    "cas": "8000-25-7",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "herbal",
+      "camphoraceous",
+      "cineole",
+      "fresh",
+      "aromatic",
+      "green-herbal"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Aromatic herbal top; fougère and aromatic accords. Not IFRA-restricted."
+  },
+  {
+    "name": "Clary sage oil",
+    "name_pt": "Óleo de sálvia-esclareia",
+    "synonyms": [
+      "Clary sage oil",
+      "Salvia sclarea oil",
+      "Óleo de sálvia esclareia"
+    ],
+    "cas": "8016-63-5",
+    "odor_family": "herbal",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "herbal",
+      "aromatic",
+      "ambery-tea",
+      "wine-like",
+      "musky-herbal",
+      "hay"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Aromatic ambery-herbal; masculine and fougère hearts (source of sclareol->Ambrox). Not IFRA-restricted."
+  },
+  {
+    "name": "Basil oil",
+    "name_pt": "Óleo de manjericão",
+    "synonyms": [
+      "Basil oil",
+      "Ocimum basilicum oil",
+      "Óleo de manjericão"
+    ],
+    "cas": "8015-73-4",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "herbal",
+      "anisic",
+      "green",
+      "spicy",
+      "fresh",
+      "aromatic"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Anisic-green herbal top; aromatic masculines. Specification on methyl chavicol/methyl eugenol content."
+  },
+  {
+    "name": "Peppermint oil",
+    "name_pt": "Óleo de hortelã-pimenta",
+    "synonyms": [
+      "Peppermint oil",
+      "Mentha piperita oil",
+      "Óleo de hortelã pimenta"
+    ],
+    "cas": "8006-90-4",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "minty",
+      "cooling",
+      "fresh",
+      "menthol",
+      "herbal"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Cooling mint top; fresh/aromatic accents. Not IFRA-restricted."
+  },
+  {
+    "name": "Eucalyptus oil",
+    "name_pt": "Óleo de eucalipto",
+    "synonyms": [
+      "Eucalyptus oil",
+      "Eucalyptus globulus oil",
+      "Óleo de eucalipto"
+    ],
+    "cas": "8000-48-4",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "cineole",
+      "camphoraceous",
+      "fresh",
+      "medicinal",
+      "cooling"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Cineole medicinal freshness; fresh/functional accents. Not IFRA-restricted."
+  },
+  {
+    "name": "Thyme oil",
+    "name_pt": "Óleo de tomilho",
+    "synonyms": [
+      "Thyme oil",
+      "Thymus vulgaris oil",
+      "Óleo de tomilho"
+    ],
+    "cas": "8007-46-3",
+    "odor_family": "herbal",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "herbal",
+      "phenolic",
+      "thymol",
+      "spicy",
+      "medicinal",
+      "warm-herbal"
+    ],
+    "typical_use_pct": "0.05-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Phenolic herbal; aromatic and fougère accents. IFRA Restriction (phenols) — verify."
+  },
+  {
+    "name": "Labdanum / Cistus (absolute/resinoid)",
+    "name_pt": "Labdano / Cisto",
+    "synonyms": [
+      "Labdanum",
+      "Cistus",
+      "Cistus ladaniferus",
+      "Ciste",
+      "Labdano"
+    ],
+    "cas": "8016-26-0",
+    "odor_family": "amber",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "amber",
+      "balsamic",
+      "leathery",
+      "resinous",
+      "sweet",
+      "animalic-warm"
+    ],
+    "typical_use_pct": "0.1-3",
+    "ifra_limit_pct": null,
+    "key_uses": "The heart of 'amber' accords (with vanillin); leathery-balsamic base. Restricted indirectly via allergen constituents."
+  },
+  {
+    "name": "Benzoin resinoid (Siam)",
+    "name_pt": "Benjoim (Siam)",
+    "synonyms": [
+      "Benzoin",
+      "Styrax tonkinensis resinoid",
+      "Benjoim",
+      "Benzoin Siam"
+    ],
+    "cas": "9000-05-9",
+    "odor_family": "balsamic",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "balsamic",
+      "vanilla",
+      "sweet",
+      "resinous",
+      "warm",
+      "caramellic"
+    ],
+    "typical_use_pct": "1-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Sweet vanillic-balsamic fixative; amber and oriental bases. Restricted via benzyl benzoate/cinnamate content."
+  },
+  {
+    "name": "Peru balsam",
+    "name_pt": "Bálsamo do Peru",
+    "synonyms": [
+      "Peru balsam",
+      "Myroxylon balsamum oil",
+      "Bálsamo do Peru"
+    ],
+    "cas": "8007-00-9",
+    "odor_family": "balsamic",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "balsamic",
+      "vanilla",
+      "cinnamon",
+      "sweet",
+      "resinous",
+      "warm"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Warm balsamic-vanilla; oriental bases. IFRA Restriction (crude balsam restricted; extracts specification) — verify."
+  },
+  {
+    "name": "Tolu balsam",
+    "name_pt": "Bálsamo de Tolu",
+    "synonyms": [
+      "Tolu balsam",
+      "Myroxylon balsamum var. resinoid",
+      "Bálsamo de Tolu"
+    ],
+    "cas": "9000-64-0",
+    "odor_family": "balsamic",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "balsamic",
+      "cinnamon",
+      "vanilla",
+      "sweet",
+      "floral-balsamic"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Sweet cinnamic-balsamic; oriental and amber bases. Restricted via constituents."
+  },
+  {
+    "name": "Styrax resinoid",
+    "name_pt": "Estoraque",
+    "synonyms": [
+      "Styrax",
+      "Liquidambar resinoid",
+      "Estoraque",
+      "Storax"
+    ],
+    "cas": "8046-19-3",
+    "odor_family": "balsamic",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "balsamic",
+      "cinnamic",
+      "leathery",
+      "sweet",
+      "styrene-like"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Cinnamic-leathery balsam; leather and amber accords. IFRA Restriction (crude styrax) — verify."
+  },
+  {
+    "name": "Frankincense / Olibanum oil",
+    "name_pt": "Olíbano / Incenso",
+    "synonyms": [
+      "Olibanum",
+      "Frankincense",
+      "Boswellia oil",
+      "Incenso",
+      "Olíbano"
+    ],
+    "cas": "8016-36-2",
+    "odor_family": "balsamic",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "resinous",
+      "incense",
+      "citrus-pine",
+      "peppery",
+      "balsamic",
+      "meditative"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Resinous incense; incense/amber accords. Specification on peroxides; not simply Cat 4 capped."
+  },
+  {
+    "name": "Myrrh resinoid",
+    "name_pt": "Mirra",
+    "synonyms": [
+      "Myrrh",
+      "Commiphora myrrha oil",
+      "Mirra"
+    ],
+    "cas": "8016-37-3",
+    "odor_family": "balsamic",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "resinous",
+      "balsamic",
+      "medicinal",
+      "mushroom-earthy",
+      "warm",
+      "spicy"
+    ],
+    "typical_use_pct": "0.2-3",
+    "ifra_limit_pct": null,
+    "key_uses": "Warm medicinal-balsamic resin; incense and oriental bases. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Opoponax resinoid",
+    "name_pt": "Opoponax",
+    "synonyms": [
+      "Opoponax",
+      "Sweet myrrh",
+      "Commiphora erythraea resinoid",
+      "Opopônax"
+    ],
+    "cas": "8021-36-1",
+    "odor_family": "balsamic",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "balsamic",
+      "sweet",
+      "resinous",
+      "spicy",
+      "honeyed",
+      "warm"
+    ],
+    "typical_use_pct": "0.2-3",
+    "ifra_limit_pct": null,
+    "key_uses": "Sweet balsamic resin; oriental amber. IFRA Restriction (phototoxic/allergen) — verify."
+  },
+  {
+    "name": "Oakmoss absolute",
+    "name_pt": "Absoluto de musgo de carvalho",
+    "synonyms": [
+      "Oakmoss absolute",
+      "Evernia prunastri absolute",
+      "Mousse de chene",
+      "Musgo de carvalho"
+    ],
+    "cas": "9000-50-4",
+    "odor_family": "green",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "mossy",
+      "earthy",
+      "forest-floor",
+      "woody",
+      "leathery",
+      "phenolic"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": 0.1,
+    "key_uses": "Chypre cornerstone (with bergamot/labdanum). IFRA Restriction + Specification (atranol/chloroatranol <100 ppm); Cat 4 ~0.1% (verify exact 51st)."
+  },
+  {
+    "name": "Treemoss absolute",
+    "name_pt": "Absoluto de musgo de árvore",
+    "synonyms": [
+      "Treemoss absolute",
+      "Evernia furfuracea absolute",
+      "Mousse d'arbre",
+      "Musgo de árvore"
+    ],
+    "cas": "9000-50-4",
+    "odor_family": "green",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "mossy",
+      "smoky",
+      "tarry",
+      "phenolic",
+      "woody",
+      "leathery"
+    ],
+    "typical_use_pct": "0.05-0.5",
+    "ifra_limit_pct": 0.1,
+    "key_uses": "Smokier, more phenolic moss; chypre/leather. IFRA Restriction + atranol Specification (note: CAS often shared/overlaps with oakmoss listings — verify)."
+  },
+  {
+    "name": "Evernyl (Veramoss)",
+    "name_pt": "Evernil (Veramoss)",
+    "synonyms": [
+      "Evernyl",
+      "Veramoss",
+      "Methyl atrarate",
+      "Methyl 2,4-dihydroxy-3,6-dimethylbenzoate",
+      "Musgo sintético"
+    ],
+    "cas": "4707-47-5",
+    "odor_family": "green",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "mossy",
+      "dry",
+      "phenolic",
+      "woody",
+      "green-moss",
+      "chypre"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Synthetic oakmoss facet (atranol-free); the IFRA-safe way to build chypre moss. Not IFRA-restricted."
+  },
+  {
+    "name": "Isobutyl quinoline",
+    "name_pt": "Isobutil quinolina",
+    "synonyms": [
+      "Isobutyl quinoline",
+      "IBQ",
+      "6-Isobutylquinoline",
+      "Isobutilquinolina"
+    ],
+    "cas": "93619-90-0",
+    "odor_family": "leather",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "leather",
+      "dry",
+      "earthy",
+      "green-bitter",
+      "woody-leather",
+      "tobacco"
+    ],
+    "typical_use_pct": "0.01-0.3",
+    "ifra_limit_pct": null,
+    "key_uses": "Dry bitter leather (Bandit, Cuir de Russie). Very potent. IFRA Restriction likely — verify."
+  },
+  {
+    "name": "Safraleine",
+    "name_pt": "Safraleine",
+    "synonyms": [
+      "Safraleine",
+      "leather-saffron base"
+    ],
+    "cas": "54440-17-4",
+    "odor_family": "leather",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "saffron",
+      "leather",
+      "tobacco",
+      "rose-leather",
+      "dry",
+      "spicy"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Saffron-leather (Givaudan); oud/leather accords. IFRA status: verify."
+  },
+  {
+    "name": "Suederal LT",
+    "name_pt": "Suederal",
+    "synonyms": [
+      "Suederal LT",
+      "suede leather base"
+    ],
+    "cas": null,
+    "odor_family": "leather",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "suede",
+      "leather",
+      "soft",
+      "powdery-leather",
+      "dry"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Soft suede-leather base (IFF). CAS is a proprietary blend — left null (not a single molecule)."
+  },
+  {
+    "name": "Birch tar oil (rectified)",
+    "name_pt": "Alcatrão de bétula",
+    "synonyms": [
+      "Birch tar oil",
+      "Betula tar",
+      "Rectified birch tar",
+      "Alcatrão de bétula"
+    ],
+    "cas": "8001-88-5",
+    "odor_family": "leather",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "smoky",
+      "tar",
+      "leather",
+      "birch",
+      "phenolic",
+      "campfire"
+    ],
+    "typical_use_pct": "0.05-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Smoky-tarry leather (Cuir de Russie); campfire accents. IFRA Restriction + Specification (crude prohibited; rectified restricted) — verify."
+  },
+  {
+    "name": "Castoreum absolute/replacer",
+    "name_pt": "Castóreo",
+    "synonyms": [
+      "Castoreum",
+      "Castoreum absolute",
+      "Castóreo"
+    ],
+    "cas": "8023-83-4",
+    "odor_family": "animalic",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "leathery",
+      "animalic",
+      "smoky",
+      "warm",
+      "birch-tar",
+      "medicinal"
+    ],
+    "typical_use_pct": "0.05-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Warm leathery-animalic (traditionally beaver; now mostly recreated bases). Leather/chypre depth. Verify IFRA/ethics."
+  },
+  {
+    "name": "Civetone",
+    "name_pt": "Civetona",
+    "synonyms": [
+      "Civetone",
+      "9-Cycloheptadecen-1-one",
+      "Civetona"
+    ],
+    "cas": "542-46-1",
+    "odor_family": "animalic",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "animalic",
+      "musky",
+      "warm",
+      "fecal-in-conc",
+      "fatty",
+      "skin"
+    ],
+    "typical_use_pct": "0.01-0.3",
+    "ifra_limit_pct": null,
+    "key_uses": "Musky-animalic (synthetic civet macrocycle); animalic warmth in florals. Very low dose. Verify IFRA."
+  },
+  {
+    "name": "Skatole",
+    "name_pt": "Escatol",
+    "synonyms": [
+      "Skatole",
+      "3-Methylindole",
+      "Escatol"
+    ],
+    "cas": "83-34-1",
+    "odor_family": "animalic",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "fecal",
+      "animalic",
+      "naphthalene",
+      "floral-in-trace",
+      "barnyard"
+    ],
+    "typical_use_pct": "0.001-0.05",
+    "ifra_limit_pct": null,
+    "key_uses": "Intense fecal-animalic; trace dirtiness in white florals/orange blossom. Extreme dilution. Verify IFRA."
+  },
+  {
+    "name": "Ylang ylang oil",
+    "name_pt": "Óleo de ylang-ylang",
+    "synonyms": [
+      "Ylang ylang oil",
+      "Cananga odorata oil",
+      "Óleo de ylang ylang"
+    ],
+    "cas": "8006-81-3",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "floral",
+      "banana-fruity",
+      "creamy",
+      "narcotic",
+      "spicy-floral",
+      "custard"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Creamy exotic white floral; floral bouquets and orientals. Restricted via benzyl benzoate/salicylate, isoeugenol, farnesol content."
+  },
+  {
+    "name": "Neroli oil / Orange blossom",
+    "name_pt": "Óleo de neroli / flor de laranjeira",
+    "synonyms": [
+      "Neroli oil",
+      "Orange blossom",
+      "Citrus aurantium flower oil",
+      "Neroli",
+      "Flor de laranjeira"
+    ],
+    "cas": "8016-38-4",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "orange-blossom",
+      "fresh-floral",
+      "green",
+      "honeyed",
+      "citrus-floral",
+      "clean"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Fresh green orange-blossom; colognes and florals. Restricted via constituents (linalool, etc.)."
+  },
+  {
+    "name": "Petitgrain bigarade oil",
+    "name_pt": "Óleo de petitgrain",
+    "synonyms": [
+      "Petitgrain oil",
+      "Petitgrain bigarade",
+      "Citrus aurantium leaf oil",
+      "Óleo de petitgrain"
+    ],
+    "cas": "8014-17-3",
+    "odor_family": "citrus",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "green",
+      "citrus",
+      "woody",
+      "floral",
+      "bittersweet",
+      "fresh"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Green-woody citrus; colognes and aromatic fougères. Restricted via constituents."
+  },
+  {
+    "name": "Methyl anthranilate",
+    "name_pt": "Antranilato de metila",
+    "synonyms": [
+      "Methyl anthranilate",
+      "Methyl 2-aminobenzoate",
+      "Antranilato de metila"
+    ],
+    "cas": "134-20-3",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "orange-blossom",
+      "grape",
+      "fruity",
+      "floral",
+      "concord-grape",
+      "sweet"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Grape/orange-blossom; neroli and fruity accords. Not IFRA-restricted."
+  },
+  {
+    "name": "Aurantiol (methyl anthranilate Schiff base)",
+    "name_pt": "Aurantiol",
+    "synonyms": [
+      "Aurantiol",
+      "Hydroxycitronellal-methyl anthranilate Schiff base",
+      "Verosphene"
+    ],
+    "cas": "89-43-0",
+    "odor_family": "floral",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "orange-blossom",
+      "sweet",
+      "powdery",
+      "balsamic",
+      "floral",
+      "fixative"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Long-lasting orange-blossom fixative (Schiff base). Restricted via hydroxycitronellal content — verify."
+  },
+  {
+    "name": "p-Anisaldehyde",
+    "name_pt": "Anisaldeído",
+    "synonyms": [
+      "p-Anisaldehyde",
+      "4-Methoxybenzaldehyde",
+      "Aubepine",
+      "Anisaldeído"
+    ],
+    "cas": "123-11-5",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "hawthorn",
+      "sweet",
+      "anisic",
+      "powdery",
+      "almond-floral",
+      "mimosa"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Hawthorn/mimosa powdery-anisic; floral and gourmand accents. Not IFRA-restricted."
+  },
+  {
+    "name": "Heliotropin (Piperonal)",
+    "name_pt": "Heliotropina (piperonal)",
+    "synonyms": [
+      "Heliotropin",
+      "Piperonal",
+      "3,4-Methylenedioxybenzaldehyde",
+      "Heliotropina"
+    ],
+    "cas": "120-57-0",
+    "odor_family": "gourmand",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "heliotrope",
+      "almond",
+      "vanilla",
+      "cherry",
+      "powdery",
+      "sweet"
+    ],
+    "typical_use_pct": "0.1-3",
+    "ifra_limit_pct": null,
+    "key_uses": "Almond-vanilla-cherry powder; heliotrope and gourmand accords. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Benzaldehyde",
+    "name_pt": "Benzaldeído",
+    "synonyms": [
+      "Benzaldehyde",
+      "Bitter almond aldehyde",
+      "Benzaldeído"
+    ],
+    "cas": "100-52-7",
+    "odor_family": "gourmand",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "bitter-almond",
+      "cherry",
+      "marzipan",
+      "sweet",
+      "nutty"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Bitter-almond/cherry; gourmand and heliotrope accords. IFRA Restriction (specification) — verify Cat 4."
+  },
+  {
+    "name": "Dihydrocoumarin (Melilot)",
+    "name_pt": "Dihidrocumarina",
+    "synonyms": [
+      "Dihydrocoumarin",
+      "Melilotine",
+      "3,4-Dihydrocoumarin",
+      "Dihidrocumarina"
+    ],
+    "cas": "119-84-6",
+    "odor_family": "gourmand",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "tonka",
+      "hay",
+      "sweet",
+      "coconut-hay",
+      "creamy",
+      "coumarinic"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Creamy coumarinic-hay; tonka and gourmand bases. IFRA Restriction likely — verify."
+  },
+  {
+    "name": "Raspberry ketone",
+    "name_pt": "Cetona de framboesa",
+    "synonyms": [
+      "Raspberry ketone",
+      "Frambinone",
+      "4-(4-Hydroxyphenyl)butan-2-one",
+      "Cetona de framboesa"
+    ],
+    "cas": "5471-51-2",
+    "odor_family": "gourmand",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "raspberry",
+      "fruity",
+      "jammy",
+      "sweet",
+      "berry"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Jammy raspberry; fruity and gourmand accords. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Furaneol",
+    "name_pt": "Furaneol",
+    "synonyms": [
+      "Furaneol",
+      "4-Hydroxy-2,5-dimethyl-3(2H)-furanone",
+      "DMHF",
+      "Strawberry furanone"
+    ],
+    "cas": "3658-77-3",
+    "odor_family": "gourmand",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "caramel",
+      "strawberry",
+      "cotton-candy",
+      "burnt-sugar",
+      "jammy",
+      "sweet"
+    ],
+    "typical_use_pct": "0.01-0.3",
+    "ifra_limit_pct": null,
+    "key_uses": "Caramel-strawberry; gourmand and fruity accords. Very potent. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Isoamyl acetate",
+    "name_pt": "Acetato de isoamila",
+    "synonyms": [
+      "Isoamyl acetate",
+      "Isopentyl acetate",
+      "Banana ester",
+      "Acetato de isoamila"
+    ],
+    "cas": "123-92-2",
+    "odor_family": "gourmand",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "banana",
+      "fruity",
+      "sweet",
+      "pear-drop",
+      "solventy"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Banana/pear-drop; fruity top accents. Not IFRA-restricted."
+  },
+  {
+    "name": "Allyl amyl glycolate",
+    "name_pt": "Allyl amyl glycolato",
+    "synonyms": [
+      "Allyl amyl glycolate",
+      "Allyl 3-methylbutoxyacetate? (approx)",
+      "AAG",
+      "Allyl amyl glicolato"
+    ],
+    "cas": "67634-00-8",
+    "odor_family": "green",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "fruity",
+      "pineapple",
+      "galbanum",
+      "fresh",
+      "sweet-green"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Green-fruity pineapple/galbanum booster; modern florals and fruity accords. IFRA Restriction — verify Cat 4."
+  },
+  {
+    "name": "Fructone",
+    "name_pt": "Fructone",
+    "synonyms": [
+      "Fructone",
+      "Ethyl methyl-1,3-dioxolane-2-acetate",
+      "apple fruity"
+    ],
+    "cas": "6413-10-1",
+    "odor_family": "gourmand",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "apple",
+      "fruity",
+      "green-apple",
+      "sweet",
+      "jammy"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Green-apple fruity; fruity florals. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Manzanate (ethyl 2-methylpentanoate)",
+    "name_pt": "Manzanate",
+    "synonyms": [
+      "Manzanate",
+      "Ethyl 2-methylpentanoate",
+      "green apple ester"
+    ],
+    "cas": "39255-32-8",
+    "odor_family": "gourmand",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "green-apple",
+      "fruity",
+      "fresh",
+      "juicy",
+      "sweet"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Juicy green-apple; fruity accords. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Triethyl citrate",
+    "name_pt": "Citrato de trietila",
+    "synonyms": [
+      "Triethyl citrate",
+      "TEC",
+      "Citrato de trietila"
+    ],
+    "cas": "77-93-0",
+    "odor_family": "balsamic",
+    "note": "base",
+    "strength": "baixa",
+    "descriptors": [
+      "odorless",
+      "faint",
+      "solvent"
+    ],
+    "typical_use_pct": "1-20",
+    "ifra_limit_pct": null,
+    "key_uses": "Near-odorless solvent/fixative and antioxidant carrier. Not a fragrance per se. Not IFRA-restricted."
+  },
+  {
+    "name": "Verdox (2-tert-butylcyclohexyl acetate)",
+    "name_pt": "Verdox",
+    "synonyms": [
+      "Verdox",
+      "2-tert-Butylcyclohexyl acetate",
+      "woody-fruity acetate"
+    ],
+    "cas": "88-41-5",
+    "odor_family": "woody",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "woody",
+      "fruity",
+      "fresh",
+      "green-woody",
+      "clean"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Fresh woody-fruity; florals and functional. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Vertenex (para-tert-butylcyclohexyl acetate)",
+    "name_pt": "Vertenex",
+    "synonyms": [
+      "Vertenex",
+      "4-tert-Butylcyclohexyl acetate",
+      "para-t-butylcyclohexyl acetate"
+    ],
+    "cas": "32210-23-4",
+    "odor_family": "woody",
+    "note": "coracao",
+    "strength": "baixa",
+    "descriptors": [
+      "woody",
+      "fresh",
+      "floral-woody",
+      "soft",
+      "clean"
+    ],
+    "typical_use_pct": "1-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Soft fresh woody-floral; huge in functional and fine fragrance volume. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Norlimbanol / Timberol",
+    "name_pt": "Norlimbanol / Timberol",
+    "synonyms": [
+      "Norlimbanol",
+      "Timberol",
+      "dry amber woody"
+    ],
+    "cas": "1153-09-5",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "woody",
+      "dry",
+      "amber",
+      "leathery-dry",
+      "fir",
+      "intense-dry-wood"
+    ],
+    "typical_use_pct": "0.1-3",
+    "ifra_limit_pct": null,
+    "key_uses": "Extremely dry woody-amber; modern dry-wood/oud accords. IFRA status: verify (CAS may map to Timberol specifically)."
+  },
+  {
+    "name": "Karanal",
+    "name_pt": "Karanal",
+    "synonyms": [
+      "Karanal",
+      "amber woody Quest/Givaudan"
+    ],
+    "cas": "117933-89-8",
+    "odor_family": "amber",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "amber",
+      "woody",
+      "dry",
+      "ambergris",
+      "mineral"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Powerful dry amber-woody; amber bases. Verify IFRA."
+  },
+  {
+    "name": "Kephalis",
+    "name_pt": "Kephalis",
+    "synonyms": [
+      "Kephalis",
+      "woody amber ambrette"
+    ],
+    "cas": "36306-87-3",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "woody",
+      "amber",
+      "tobacco",
+      "dry",
+      "ambrette-floral"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Woody-tobacco-amber; masculine and amber bases (Givaudan). Verify IFRA."
+  },
+  {
+    "name": "Okoumal",
+    "name_pt": "Okoumal",
+    "synonyms": [
+      "Okoumal",
+      "amber woody Givaudan"
+    ],
+    "cas": "131812-67-4",
+    "odor_family": "amber",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "amber",
+      "woody",
+      "sweet",
+      "labdanum",
+      "balsamic-amber"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Sweet amber-woody fixative; amber accords. Verify IFRA."
+  },
+  {
+    "name": "Sylvamber / Amber Xtreme (Firmenich)",
+    "name_pt": "Amber Xtreme",
+    "synonyms": [
+      "Amber Xtreme",
+      "Sylvamber",
+      "ultra-potent dry amber"
+    ],
+    "cas": null,
+    "odor_family": "amber",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "amber",
+      "dry",
+      "woody",
+      "extremely-powerful",
+      "mineral-amber"
+    ],
+    "typical_use_pct": "0.01-0.5",
+    "ifra_limit_pct": null,
+    "key_uses": "Ultra-potent dry amber (Firmenich captive); dosed in ppm. CAS left null (proprietary/composition). Verify."
+  },
+  {
+    "name": "Serenolide",
+    "name_pt": "Serenolide",
+    "synonyms": [
+      "Serenolide",
+      "Givaudan alicyclic musk"
+    ],
+    "cas": "1123748-72-6",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "musk",
+      "clean",
+      "powdery",
+      "soft",
+      "fruity-musk",
+      "long-lasting"
+    ],
+    "typical_use_pct": "0.5-8",
+    "ifra_limit_pct": null,
+    "key_uses": "Modern clean powdery musk (Givaudan). Verify IFRA/CAS (recent material)."
+  },
+  {
+    "name": "Helvetolide",
+    "name_pt": "Helvetolide",
+    "synonyms": [
+      "Helvetolide",
+      "Firmenich alicyclic musk",
+      "fruity musk"
+    ],
+    "cas": "141773-73-1",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "musk",
+      "fruity",
+      "pear",
+      "clean",
+      "powdery",
+      "soft"
+    ],
+    "typical_use_pct": "0.5-8",
+    "ifra_limit_pct": null,
+    "key_uses": "Fruity-pear clean musk (Firmenich alicyclic). Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Romandolide",
+    "name_pt": "Romandolide",
+    "synonyms": [
+      "Romandolide",
+      "Firmenich alicyclic musk",
+      "amber musk"
+    ],
+    "cas": "236391-76-7",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "musk",
+      "clean",
+      "ambery",
+      "fresh",
+      "metallic-musk",
+      "linen"
+    ],
+    "typical_use_pct": "0.5-8",
+    "ifra_limit_pct": null,
+    "key_uses": "Clean ambery-linen musk (Firmenich). Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Nirvanolide",
+    "name_pt": "Nirvanolide",
+    "synonyms": [
+      "Nirvanolide",
+      "Givaudan macrocyclic musk"
+    ],
+    "cas": "374718-01-9",
+    "odor_family": "musk",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "musk",
+      "clean",
+      "sweet",
+      "powdery",
+      "soft",
+      "long-lasting"
+    ],
+    "typical_use_pct": "0.3-5",
+    "ifra_limit_pct": null,
+    "key_uses": "High-impact clean-sweet macrocyclic musk (Givaudan). Verify IFRA/CAS."
+  },
+  {
+    "name": "Bacdanol",
+    "name_pt": "Bacdanol",
+    "synonyms": [
+      "Bacdanol",
+      "IFF sandalwood",
+      "2-ethyl-4-(2,2,3-trimethyl-3-cyclopenten-1-yl)-2-buten-1-ol"
+    ],
+    "cas": "28219-61-6",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "sandalwood",
+      "creamy",
+      "rosy",
+      "woody",
+      "milky"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Creamy rosy sandalwood (IFF); sandal accords. Verify IFRA."
+  },
+  {
+    "name": "Cedramber",
+    "name_pt": "Cedramber",
+    "synonyms": [
+      "Cedramber",
+      "Cedryl methyl ether",
+      "Madrol"
+    ],
+    "cas": "19870-74-7",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "cedar",
+      "amber",
+      "woody",
+      "dry",
+      "ambery-wood"
+    ],
+    "typical_use_pct": "0.5-8",
+    "ifra_limit_pct": null,
+    "key_uses": "Dry cedar-amber; woody-amber bases. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Sclareolide",
+    "name_pt": "Esclareolida",
+    "synonyms": [
+      "Sclareolide",
+      "Norambreinolide",
+      "Esclareolida"
+    ],
+    "cas": "564-20-5",
+    "odor_family": "amber",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "amber",
+      "woody",
+      "dry",
+      "tobacco",
+      "sweet-amber"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Ambrox precursor with own soft amber-tobacco odor; amber bases. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Farnesol",
+    "name_pt": "Farnesol",
+    "synonyms": [
+      "Farnesol",
+      "3,7,11-Trimethyl-2,6,10-dodecatrien-1-ol"
+    ],
+    "cas": "4602-84-0",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "baixa",
+    "descriptors": [
+      "floral",
+      "soft",
+      "lily",
+      "green",
+      "waxy",
+      "muguet"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Soft floral, muguet/lime-blossom; floral bouquets and deodorant use. IFRA Restriction (allergen) — verify Cat 4 %."
+  },
+  {
+    "name": "Amyl salicylate",
+    "name_pt": "Salicilato de amila",
+    "synonyms": [
+      "Amyl salicylate",
+      "Isoamyl salicylate",
+      "Pentyl salicylate",
+      "Salicilato de amila"
+    ],
+    "cas": "2050-08-0",
+    "odor_family": "green",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "green",
+      "floral",
+      "orchid",
+      "clover",
+      "herbal-floral",
+      "trefle"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Green-floral 'trefle'/clover; classic floral bouquets and fougères. IFRA Restriction — verify Cat 4."
+  },
+  {
+    "name": "Hexyl salicylate",
+    "name_pt": "Salicilato de hexila",
+    "synonyms": [
+      "Hexyl salicylate",
+      "Salicilato de hexila"
+    ],
+    "cas": "6259-76-3",
+    "odor_family": "green",
+    "note": "coracao",
+    "strength": "baixa",
+    "descriptors": [
+      "green",
+      "floral",
+      "soft",
+      "orchid",
+      "musky-floral",
+      "creamy-green"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Soft green-floral salicylate; modern floral volume and fixation. IFRA Restriction — verify Cat 4."
+  },
+  {
+    "name": "Methyl salicylate",
+    "name_pt": "Salicilato de metila",
+    "synonyms": [
+      "Methyl salicylate",
+      "Wintergreen",
+      "Salicilato de metila"
+    ],
+    "cas": "119-36-8",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "wintergreen",
+      "minty",
+      "medicinal",
+      "sweet",
+      "root-beer"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Wintergreen; minty/medicinal accents, root-beer accords. IFRA Restriction — verify Cat 4."
+  },
+  {
+    "name": "alpha-Amylcinnamaldehyde (Jasmonal A)",
+    "name_pt": "Aldeído amil-cinâmico",
+    "synonyms": [
+      "alpha-Amylcinnamaldehyde",
+      "Amyl cinnamic aldehyde",
+      "Jasmonal A",
+      "Flosal",
+      "Aldeído amil cinâmico"
+    ],
+    "cas": "122-40-7",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "jasmine",
+      "floral",
+      "fatty",
+      "waxy",
+      "sweet-floral"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Cheap jasmine/floral volume; white-floral bouquets. IFRA Restriction (allergen) — verify Cat 4."
+  },
+  {
+    "name": "Hexyl cinnamic aldehyde (Jasmonal H)",
+    "name_pt": "Aldeído hexil-cinâmico",
+    "synonyms": [
+      "alpha-Hexylcinnamaldehyde",
+      "Hexyl cinnamic aldehyde",
+      "Jasmonal H",
+      "HCA",
+      "Aldeído hexil cinâmico"
+    ],
+    "cas": "101-86-0",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "baixa",
+    "descriptors": [
+      "jasmine",
+      "floral",
+      "fatty",
+      "soft",
+      "waxy-floral",
+      "chamomile"
+    ],
+    "typical_use_pct": "0.5-15",
+    "ifra_limit_pct": null,
+    "key_uses": "Very common cheap jasmine/floral filler; huge in functional and fine. IFRA Restriction (allergen) — verify Cat 4."
+  },
+  {
+    "name": "Methyl heptine carbonate (MHC)",
+    "name_pt": "Metil heptino carbonato",
+    "synonyms": [
+      "Methyl heptine carbonate",
+      "Methyl 2-octynoate",
+      "MHC",
+      "Violet leaf note"
+    ],
+    "cas": "111-12-6",
+    "odor_family": "green",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "violet-leaf",
+      "cucumber",
+      "fatty-green",
+      "waxy",
+      "metallic-green"
+    ],
+    "typical_use_pct": "0.01-0.3",
+    "ifra_limit_pct": null,
+    "key_uses": "Violet-leaf/cucumber green; green florals. IFRA Restriction (usually combined with methyl octine carbonate; Cat 4 low ~0.01% area) — verify."
+  },
+  {
+    "name": "Nootkatone",
+    "name_pt": "Nootkatone",
+    "synonyms": [
+      "Nootkatone",
+      "grapefruit ketone"
+    ],
+    "cas": "4674-50-4",
+    "odor_family": "citrus",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "grapefruit",
+      "citrus",
+      "woody-citrus",
+      "fresh",
+      "bitter-fruity"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "The grapefruit impact molecule; boosts citrus/grapefruit. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "alpha-Terpineol",
+    "name_pt": "alfa-Terpineol",
+    "synonyms": [
+      "alpha-Terpineol",
+      "Terpineol",
+      "Terpineol alfa"
+    ],
+    "cas": "98-55-5",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "baixa",
+    "descriptors": [
+      "lilac",
+      "floral",
+      "pine-floral",
+      "soft",
+      "sweet",
+      "clean"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Lilac/pine-floral; cheap floral and functional volume. Not IFRA-restricted."
+  },
+  {
+    "name": "Terpinyl acetate",
+    "name_pt": "Acetato de terpenila",
+    "synonyms": [
+      "Terpinyl acetate",
+      "alpha-Terpinyl acetate",
+      "Acetato de terpenila"
+    ],
+    "cas": "80-26-2",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "baixa",
+    "descriptors": [
+      "pine",
+      "herbal",
+      "bergamot-lavender",
+      "fresh",
+      "green-woody"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Pine/herbal-bergamot; lavender and pine accords, functional. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Pinene (alpha-)",
+    "name_pt": "alfa-Pineno",
+    "synonyms": [
+      "alpha-Pinene",
+      "2-Pinene",
+      "Pineno alfa"
+    ],
+    "cas": "80-56-8",
+    "odor_family": "woody",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "pine",
+      "resinous",
+      "fresh",
+      "terpenic",
+      "forest",
+      "woody-green"
+    ],
+    "typical_use_pct": "0.1-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Pine/forest freshness; coniferous and fougère top-notes. Specification (peroxides)."
+  },
+  {
+    "name": "Camphor",
+    "name_pt": "Cânfora",
+    "synonyms": [
+      "Camphor",
+      "2-Camphanone",
+      "Cânfora"
+    ],
+    "cas": "76-22-2",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "camphoraceous",
+      "cooling",
+      "medicinal",
+      "penetrating",
+      "minty-woody"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Cooling camphor lift; fougère/aromatic and medicinal accents. Not IFRA-restricted (usage low)."
+  },
+  {
+    "name": "Menthol",
+    "name_pt": "Mentol",
+    "synonyms": [
+      "Menthol",
+      "l-Menthol",
+      "Mentol"
+    ],
+    "cas": "89-78-1",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "minty",
+      "cooling",
+      "fresh",
+      "peppermint",
+      "icy"
+    ],
+    "typical_use_pct": "0.01-0.3",
+    "ifra_limit_pct": null,
+    "key_uses": "Cooling mint; fresh accents and physical cooling effect. Not IFRA-restricted (usage low)."
+  },
+  {
+    "name": "Eucalyptol (1,8-Cineole)",
+    "name_pt": "Eucaliptol (cineol)",
+    "synonyms": [
+      "Eucalyptol",
+      "1,8-Cineole",
+      "Cineole",
+      "Cineol"
+    ],
+    "cas": "470-82-6",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "cineole",
+      "eucalyptus",
+      "cooling",
+      "fresh",
+      "camphoraceous",
+      "medicinal"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Fresh cineole; aromatic-fresh and functional. Not IFRA-restricted."
+  },
+  {
+    "name": "trans-Anethole",
+    "name_pt": "Anetol",
+    "synonyms": [
+      "trans-Anethole",
+      "Anethole",
+      "4-Methoxypropenylbenzene",
+      "Anetol"
+    ],
+    "cas": "4180-23-8",
+    "odor_family": "herbal",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "anise",
+      "licorice",
+      "sweet",
+      "spicy",
+      "warm-herbal"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Anise/licorice; aromatic and gourmand-spice accords. IFRA Restriction — verify Cat 4."
+  },
+  {
+    "name": "Coriander oil",
+    "name_pt": "Óleo de coentro",
+    "synonyms": [
+      "Coriander oil",
+      "Coriandrum sativum oil",
+      "Óleo de coentro"
+    ],
+    "cas": "8008-52-4",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "linalool-fresh",
+      "herbal",
+      "spicy",
+      "woody",
+      "aldehydic-green"
+    ],
+    "typical_use_pct": "0.2-3",
+    "ifra_limit_pct": null,
+    "key_uses": "Linalool-rich fresh-herbal; masculine and aromatic hearts. Restricted via linalool spec."
+  },
+  {
+    "name": "Juniper berry oil",
+    "name_pt": "Óleo de zimbro",
+    "synonyms": [
+      "Juniper berry oil",
+      "Juniperus communis oil",
+      "Óleo de zimbro",
+      "Gin note"
+    ],
+    "cas": "8002-68-4",
+    "odor_family": "herbal",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "gin",
+      "pine",
+      "fresh",
+      "terpenic",
+      "green-woody",
+      "resinous"
+    ],
+    "typical_use_pct": "0.2-3",
+    "ifra_limit_pct": null,
+    "key_uses": "Gin/pine freshness; aromatic and fresh accords. Specification (peroxides)."
+  },
+  {
+    "name": "Pink pepper oil",
+    "name_pt": "Óleo de pimenta-rosa",
+    "synonyms": [
+      "Pink pepper oil",
+      "Schinus molle oil",
+      "Baies roses",
+      "Óleo de pimenta rosa"
+    ],
+    "cas": "68917-52-2",
+    "odor_family": "spicy",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "peppery",
+      "fresh",
+      "fruity-spice",
+      "sparkling",
+      "rosy-pepper",
+      "juniper-like"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Sparkling fruity-pink-pepper; ubiquitous modern top. Specification (peroxides) — verify."
+  },
+  {
+    "name": "Saffron (Safranal)",
+    "name_pt": "Safranal",
+    "synonyms": [
+      "Safranal",
+      "2,6,6-Trimethyl-1,3-cyclohexadiene-1-carboxaldehyde",
+      "Saffron aldehyde"
+    ],
+    "cas": "116-26-7",
+    "odor_family": "spicy",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "saffron",
+      "leathery",
+      "dry",
+      "metallic-spicy",
+      "hay",
+      "medicinal-spice"
+    ],
+    "typical_use_pct": "0.01-0.3",
+    "ifra_limit_pct": null,
+    "key_uses": "Saffron impact; oud/leather and amber-spice accords. Verify IFRA."
+  },
+  {
+    "name": "Cumin oil",
+    "name_pt": "Óleo de cominho",
+    "synonyms": [
+      "Cumin oil",
+      "Cuminum cyminum oil",
+      "Óleo de cominho"
+    ],
+    "cas": "8014-13-9",
+    "odor_family": "spicy",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "cumin",
+      "sweaty",
+      "spicy",
+      "warm",
+      "animalic-spice"
+    ],
+    "typical_use_pct": "0.01-0.3",
+    "ifra_limit_pct": null,
+    "key_uses": "Sweaty-cumin skin-spice; masculine and skin accords. Specification (phototoxic) — verify."
+  },
+  {
+    "name": "Cocoa absolute",
+    "name_pt": "Absoluto de cacau",
+    "synonyms": [
+      "Cocoa absolute",
+      "Theobroma cacao absolute",
+      "Absoluto de cacau"
+    ],
+    "cas": "8002-31-1",
+    "odor_family": "gourmand",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "cocoa",
+      "chocolate",
+      "roasted",
+      "sweet",
+      "nutty",
+      "bitter-cocoa"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Chocolate/cocoa; gourmand accords. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Coffee absolute",
+    "name_pt": "Absoluto de café",
+    "synonyms": [
+      "Coffee absolute",
+      "Coffea arabica absolute",
+      "Absoluto de café"
+    ],
+    "cas": "8001-67-0",
+    "odor_family": "gourmand",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "coffee",
+      "roasted",
+      "burnt",
+      "bitter",
+      "smoky",
+      "nutty"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Roasted coffee; gourmand and modern masculines. Verify IFRA."
+  },
+  {
+    "name": "Immortelle / Everlasting absolute",
+    "name_pt": "Absoluto de immortelle (helicriso)",
+    "synonyms": [
+      "Immortelle absolute",
+      "Helichrysum italicum absolute",
+      "Everlasting",
+      "Sempre-viva"
+    ],
+    "cas": "8023-95-8",
+    "odor_family": "gourmand",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "curry",
+      "maple",
+      "honey",
+      "hay",
+      "fenugreek",
+      "warm-sweet"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Maple-honey-curry; gourmand and amber accords (Sables). Verify IFRA."
+  },
+  {
+    "name": "Osmanthus absolute",
+    "name_pt": "Absoluto de osmanthus",
+    "synonyms": [
+      "Osmanthus absolute",
+      "Osmanthus fragrans absolute",
+      "Absoluto de osmanthus"
+    ],
+    "cas": "68917-05-5",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "apricot",
+      "leather",
+      "floral",
+      "fruity",
+      "tea",
+      "raisin"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Apricot-leather floral; fruity-floral and tea accords. Restricted via constituents (ionones, etc.)."
+  },
+  {
+    "name": "Tuberose absolute",
+    "name_pt": "Absoluto de tuberosa",
+    "synonyms": [
+      "Tuberose absolute",
+      "Polianthes tuberosa absolute",
+      "Absoluto de tuberosa",
+      "Nardo"
+    ],
+    "cas": "8024-05-3",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "tuberose",
+      "white-floral",
+      "creamy",
+      "narcotic",
+      "green-floral",
+      "medicinal-floral"
+    ],
+    "typical_use_pct": "0.2-3",
+    "ifra_limit_pct": null,
+    "key_uses": "Heady narcotic white floral; big white-floral centerpieces. Restricted via constituents."
+  },
+  {
+    "name": "Rose absolute / otto",
+    "name_pt": "Absoluto / otto de rosa",
+    "synonyms": [
+      "Rose absolute",
+      "Rose otto",
+      "Rosa damascena",
+      "Rosa centifolia",
+      "Óleo de rosa"
+    ],
+    "cas": "8007-01-0",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "rose",
+      "honeyed",
+      "spicy-rose",
+      "green",
+      "waxy",
+      "deep-floral"
+    ],
+    "typical_use_pct": "0.2-3",
+    "ifra_limit_pct": null,
+    "key_uses": "The natural rose; rose accords and florals. Restricted via citronellol/geraniol/methyl eugenol content."
+  },
+  {
+    "name": "Cananga oil",
+    "name_pt": "Óleo de cananga",
+    "synonyms": [
+      "Cananga oil",
+      "Cananga odorata (Java) oil",
+      "Óleo de cananga"
+    ],
+    "cas": "8006-81-3",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "floral",
+      "woody-floral",
+      "leathery",
+      "spicy",
+      "less-sweet-than-ylang"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Rougher, woodier ylang relative; cheap floral volume. Restricted via constituents (shares CAS grouping with ylang)."
+  },
+  {
+    "name": "Mimosa absolute",
+    "name_pt": "Absoluto de mimosa",
+    "synonyms": [
+      "Mimosa absolute",
+      "Acacia dealbata absolute",
+      "Absoluto de mimosa"
+    ],
+    "cas": "8031-03-6",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "baixa",
+    "descriptors": [
+      "powdery",
+      "floral",
+      "green",
+      "honey",
+      "soft",
+      "anisic-floral"
+    ],
+    "typical_use_pct": "0.2-3",
+    "ifra_limit_pct": null,
+    "key_uses": "Powdery-honeyed soft floral; mimosa and powdery accords. Restricted via anisaldehyde/allergens — verify."
+  },
+  {
+    "name": "Cyclohexal (Cyclal)",
+    "name_pt": "Cyclal C / Cyclohexal (verde-muguet)",
+    "synonyms": [
+      "Cyclohexal",
+      "Vernaldehyde",
+      "4-(4-Methyl-3-pentenyl)-3-cyclohexene-1-carboxaldehyde"
+    ],
+    "cas": "37677-14-8",
+    "odor_family": "green",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "muguet",
+      "melon",
+      "watery-green",
+      "leafy",
+      "fresh"
+    ],
+    "typical_use_pct": "0.01-0.3",
+    "ifra_limit_pct": null,
+    "key_uses": "Green-muguet-melon aldehyde; green floral and aquatic accords. IFRA Restriction likely — verify."
+  },
+  {
+    "name": "Aldehyde C-6 (Hexanal)",
+    "name_pt": "Aldeído C-6 (hexanal)",
+    "synonyms": [
+      "Hexanal",
+      "Aldehyde C-6",
+      "Caproaldehyde",
+      "Aldeído C6"
+    ],
+    "cas": "66-25-1",
+    "odor_family": "green",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "grassy",
+      "fatty",
+      "apple-green",
+      "fresh-cut",
+      "aldehydic"
+    ],
+    "typical_use_pct": "0.005-0.1",
+    "ifra_limit_pct": null,
+    "key_uses": "Green-grassy fatty aldehyde; green top-notes. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Aldehyde C-7 (Heptanal)",
+    "name_pt": "Aldeído C-7 (heptanal)",
+    "synonyms": [
+      "Heptanal",
+      "Aldehyde C-7",
+      "Oenanthal",
+      "Aldeído C7"
+    ],
+    "cas": "111-71-7",
+    "odor_family": "aldehydic",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "fatty",
+      "citrus",
+      "aldehydic",
+      "ozone-fresh"
+    ],
+    "typical_use_pct": "0.005-0.1",
+    "ifra_limit_pct": null,
+    "key_uses": "Green-fatty aldehyde; aldehydic accords. Verify IFRA."
+  },
+  {
+    "name": "Phenylacetaldehyde",
+    "name_pt": "Fenilacetaldeído",
+    "synonyms": [
+      "Phenylacetaldehyde",
+      "Hyacinthin",
+      "Fenilacetaldeído"
+    ],
+    "cas": "122-78-1",
+    "odor_family": "floral",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "hyacinth",
+      "green",
+      "honey",
+      "floral",
+      "rose-honey",
+      "sharp"
+    ],
+    "typical_use_pct": "0.01-0.3",
+    "ifra_limit_pct": 0.015,
+    "key_uses": "Hyacinth-honey green floral; hyacinth and narcissus accords. IFRA Restriction ~0.015% Cat 4 (allergen; supplier certs vary)."
+  },
+  {
+    "name": "Phenylethyl acetate",
+    "name_pt": "Acetato de feniletila",
+    "synonyms": [
+      "Phenylethyl acetate",
+      "PEA acetate",
+      "2-Phenylethyl acetate",
+      "Acetato de feniletila"
+    ],
+    "cas": "103-45-7",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "rose",
+      "honey",
+      "fruity",
+      "sweet",
+      "floral"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Sweet fruity-rose; rose and honey accords. Not IFRA-restricted."
+  },
+  {
+    "name": "Ethyl linalool",
+    "name_pt": "Etil linalol",
+    "synonyms": [
+      "Ethyl linalool",
+      "3,7-Dimethyl-1,6-nonadien-3-ol",
+      "Etil linalol"
+    ],
+    "cas": "10339-55-6",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "floral",
+      "fresh",
+      "linalool-like",
+      "muguet",
+      "soft",
+      "woody-floral"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Softer, more floral/muguet linalool variant; less citrusy, more stable. Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "Tetrahydrolinalool",
+    "name_pt": "Tetrahidrolinalol",
+    "synonyms": [
+      "Tetrahydrolinalool",
+      "3,7-Dimethyloctan-3-ol",
+      "THL"
+    ],
+    "cas": "78-69-3",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "baixa",
+    "descriptors": [
+      "floral",
+      "fresh",
+      "citrus",
+      "clean",
+      "soft",
+      "stable-linalool"
+    ],
+    "typical_use_pct": "0.5-10",
+    "ifra_limit_pct": null,
+    "key_uses": "Very stable, base/functional-friendly linalool; clean floral in soap and bleach-stable products. Not IFRA-restricted."
+  },
+  {
+    "name": "Scentenal (Precyclemone B)",
+    "name_pt": "Scentenal (Precyclemone B)",
+    "synonyms": [
+      "Scentenal",
+      "Precyclemone B",
+      "4-(4-Methyl-3-pentenyl)-3-cyclohexene-1-carbaldehyde"
+    ],
+    "cas": "37677-14-8",
+    "odor_family": "aquatic",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "marine",
+      "green",
+      "melon",
+      "aldehydic",
+      "fresh",
+      "muguet-green"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Marine-green aldehyde; aquatic and green accords (note: shares CAS/identity with Cyclal/Cyclohexal-type — verify)."
+  },
+  {
+    "name": "Dupical",
+    "name_pt": "Dupical",
+    "synonyms": [
+      "Dupical",
+      "green foliage aldehyde"
+    ],
+    "cas": "30021-74-0",
+    "odor_family": "green",
+    "note": "topo",
+    "strength": "alta",
+    "descriptors": [
+      "green",
+      "foliage",
+      "leafy",
+      "aldehydic",
+      "fresh",
+      "waxy-green"
+    ],
+    "typical_use_pct": "0.05-1",
+    "ifra_limit_pct": null,
+    "key_uses": "Green foliage aldehyde; muguet-green and leafy accords (IFF). Verify IFRA/CAS."
+  },
+  {
+    "name": "Florol",
+    "name_pt": "Florol",
+    "synonyms": [
+      "Florol",
+      "Tetrahydro-2-isobutyl-4-methylpyran-4-ol",
+      "Floralia"
+    ],
+    "cas": "63500-71-0",
+    "odor_family": "floral",
+    "note": "coracao",
+    "strength": "média",
+    "descriptors": [
+      "muguet",
+      "floral",
+      "green",
+      "fresh",
+      "linden",
+      "watery-floral"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Fresh muguet/linden-blossom; modern floral accords (Firmenich). Not IFRA-restricted (verify)."
+  },
+  {
+    "name": "para-Cresyl methyl ether",
+    "name_pt": "para-Cresil metil éter",
+    "synonyms": [
+      "para-Cresyl methyl ether",
+      "4-Methylanisole",
+      "Methyl p-cresol",
+      "p-Cresil metil éter"
+    ],
+    "cas": "104-93-8",
+    "odor_family": "animalic",
+    "note": "coracao",
+    "strength": "alta",
+    "descriptors": [
+      "narcissus",
+      "animalic",
+      "ylang",
+      "phenolic",
+      "narcotic",
+      "horsey"
+    ],
+    "typical_use_pct": "0.001-0.05",
+    "ifra_limit_pct": null,
+    "key_uses": "Narcissus/animalic phenolic; ylang and white-floral naturalness in trace. Verify IFRA."
+  },
+  {
+    "name": "Nerolidol",
+    "name_pt": "Nerolidol",
+    "synonyms": [
+      "Nerolidol",
+      "Peruviol",
+      "3,7,11-Trimethyl-1,6,10-dodecatrien-3-ol"
+    ],
+    "cas": "7212-44-4",
+    "odor_family": "floral",
+    "note": "base",
+    "strength": "baixa",
+    "descriptors": [
+      "floral",
+      "woody",
+      "soft",
+      "waxy",
+      "green-floral",
+      "apple-rose"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Soft woody-floral fixative; floral bases and neroli. IFRA Restriction (allergen) — verify Cat 4."
+  },
+  {
+    "name": "Bergamot FCF (bergaptene-free)",
+    "name_pt": "Bergamota FCF (sem bergapteno)",
+    "synonyms": [
+      "Bergamot FCF",
+      "Bergaptene-free bergamot",
+      "Furocoumarin-free bergamot",
+      "Bergamota FCF"
+    ],
+    "cas": "8007-75-8",
+    "odor_family": "citrus",
+    "note": "topo",
+    "strength": "média",
+    "descriptors": [
+      "citrus",
+      "floral",
+      "fresh",
+      "earl-grey",
+      "clean-bergamot"
+    ],
+    "typical_use_pct": "1-30",
+    "ifra_limit_pct": null,
+    "key_uses": "Bergapten-removed bergamot; not phototoxicity-capped, so usable at high % unlike expressed oil. Same CAS grouping."
+  },
+  {
+    "name": "Cypriol oil (Nagarmotha)",
+    "name_pt": "Óleo de cipriol (nagarmotha)",
+    "synonyms": [
+      "Cypriol oil",
+      "Nagarmotha",
+      "Cyperus scariosus oil",
+      "Óleo de cipriol"
+    ],
+    "cas": "91771-62-9",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "woody",
+      "smoky",
+      "earthy",
+      "leathery",
+      "oud-like",
+      "dry"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Smoky-woody oud/leather substitute; oud and woody accords. Verify IFRA."
+  },
+  {
+    "name": "Oud / Agarwood oil",
+    "name_pt": "Óleo de oud (agarwood)",
+    "synonyms": [
+      "Oud oil",
+      "Agarwood oil",
+      "Aoud",
+      "Aquilaria oil",
+      "Óleo de oud"
+    ],
+    "cas": "94350-09-1",
+    "odor_family": "woody",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "woody",
+      "animalic",
+      "barnyard",
+      "balsamic",
+      "smoky",
+      "resinous-sweet"
+    ],
+    "typical_use_pct": "0.05-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Complex animalic-woody agarwood; oud centerpieces (usually synthetic-reconstructed in commercial). Verify IFRA/CAS (many CAS variants)."
+  },
+  {
+    "name": "Tobacco absolute",
+    "name_pt": "Absoluto de tabaco",
+    "synonyms": [
+      "Tobacco absolute",
+      "Nicotiana tabacum absolute",
+      "Absoluto de tabaco"
+    ],
+    "cas": "8037-19-2",
+    "odor_family": "balsamic",
+    "note": "base",
+    "strength": "alta",
+    "descriptors": [
+      "tobacco",
+      "hay",
+      "sweet",
+      "dried-fruit",
+      "balsamic",
+      "honeyed"
+    ],
+    "typical_use_pct": "0.1-2",
+    "ifra_limit_pct": null,
+    "key_uses": "Sweet dried-tobacco; tobacco and amber accords. Verify IFRA."
+  },
+  {
+    "name": "Ambergris tincture (natural)",
+    "name_pt": "Âmbar-gris (tintura natural)",
+    "synonyms": [
+      "Ambergris tincture",
+      "Ambre gris",
+      "Âmbar cinzento"
+    ],
+    "cas": null,
+    "odor_family": "amber",
+    "note": "base",
+    "strength": "média",
+    "descriptors": [
+      "marine",
+      "animalic",
+      "sweet",
+      "mineral",
+      "skin",
+      "salty-warm"
+    ],
+    "typical_use_pct": "0.5-5",
+    "ifra_limit_pct": null,
+    "key_uses": "Rare natural ambergris (mostly replaced by Ambroxan). CAS null (natural exudate, no single CAS)."
+  }
+]

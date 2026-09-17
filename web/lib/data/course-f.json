@@ -1,0 +1,307 @@
+[
+  {
+    "id": "m15",
+    "title": "Biblioteca de Matérias-Primas",
+    "level": "referencia",
+    "summary": "Um módulo de consulta: monografias agrupadas dos aromáticos que sustentam a perfumaria moderna. Cada aula reúne 6 a 8 materiais com perfil completo — odor, família, nota, força, dose típica, em que acordes entram, substitutos e cuidados de IFRA. Use como dicionário de bancada: leia a família que está formulando, cruze com o catálogo do app e com as fórmulas. Os dados vêm da base de matérias-primas do Perfumista; percentuais de IFRA são da 51ª Emenda e sempre devem ser reconferidos no Standard vigente e no laudo do fornecedor.",
+    "lessons": [
+      {
+        "id": "m15l1",
+        "title": "Cítricos e aldeídos-chave",
+        "duration_min": 12,
+        "body_md": "## O andar de cima da pirâmide\n\nCítricos e aldeídos são o que o nariz encontra primeiro: **notas de topo**, voláteis, brilhantes e efêmeras. Os cítricos naturais são quase todos ricos em **limoneno** (o hidrocarboneto terpênico da casca) e evaporam rápido; os aldeídos graxos dão o 'sopro' abstrato e ceroso que abriu Chanel Nº 5 em 1921. Como oxidam depressa, guarde-os em frasco âmbar, cheio e bem fechado (veja o módulo de Segurança).\n\n## Monografias\n\n| Material | Odor | Nota | Força | Dose típica | Usa em |\n|---|---|---|---|---|---|\n| **Limoneno (d-)** | casca de laranja, fresco, doce-terpênico | topo | média | 0,3–20% | volume cítrico barato; fração terpênica de laranja/limão |\n| **Óleo de bergamota (prensado)** | cítrico, floral, Earl-Grey, faiscante | topo | média | 1–30% | espinha de colônias, fougères, chipres |\n| **Óleo de limão-siciliano** | cítrico afiado, limpo, brilhante | topo | alta | 1–10% | topo brilhante de colônias e eaux |\n| **Óleo de laranja-doce** | laranja doce, suculento, cristalizado | topo | baixa | 1–30% | topo frutado; volume barato em colônias e gourmands |\n| **Óleo de toranja/grapefruit** | grapefruit, amargo, sulfuroso-frutado | topo | média | 1–10% | topo cítrico ácido; realçado com nootkatona |\n| **Citral** | limão intenso, capim-limão, verde-cítrico | topo | alta | 0,1–1% | nota de limão potente; traço com limoneno/geraniol |\n| **Aldeído C-10 (decanal)** | casca de laranja cerosa, aldeídico | coração | alta | 0,01–0,5% | florais aldeídicos (família Nº 5) |\n| **Aldeído C-12 MNA** | aldeídico fresco, metálico-ambarado, mossy | topo | alta | 0,01–0,5% | assinatura aldeídica (Nº 5) |\n\n## Como pensar cada um\n\n- **Bergamota** é o cítrico mais 'perfumístico' porque carrega **acetato de linalila** (floral) além do limoneno — por isso ancora colônias e chipres. Mas é **fototóxica** (furocumarinas): IFRA restringe a ~0,4% na Categoria 4, a menos que você use a versão **FCF/bergapten-reduzida**, que é isenta.\n- **Citral** é o coração odorífero do limão e do capim-limão. Poderosíssimo e **sensibilizante**: IFRA ~0,6% na Cat 4. Na prática, dosa-se em traço e frequentemente com um 'quencher' (limoneno, geraniol) para reduzir o potencial alergênico.\n- **Aldeídos graxos (C-8 a C-12)** são a mágica abstrata dos aldeídicos. Trabalhe sempre com **diluições a 10% e 1%** — puros são violentos e enganam o nariz. O 'Aldeído C-14' e o 'C-16' não são aldeídos de verdade (são uma lactona de pêssego e um éster de morango, respectivamente); é jargão histórico.\n\n## Substitutos e economia\n\nPara volume cítrico barato sem oxidação, o **dihidromircenol** (fresco/lima, muito difusivo) e o **limoneno** isolado substituem parte dos óleos naturais. Para 'segurar' o cítrico que foge, ancore com uma pitada de **Iso E Super** ou almíscar (veja m15l4 e m15l5).",
+        "key_points": [
+          "Cítricos são notas de topo ricas em limoneno; oxidam rápido — frasco âmbar, cheio e vedado.",
+          "Bergamota prensada é fototóxica: IFRA ~0,4% Cat 4; a versão FCF (bergapten-reduzida) é isenta.",
+          "Citral é potente e sensibilizante (~0,6% Cat 4); dosa-se em traço, muitas vezes com quencher.",
+          "Aldeídos graxos C-8 a C-12 dão o 'sopro' aldeídico abstrato; use sempre diluídos a 10%/1%.",
+          "'Aldeído C-14' é uma lactona de pêssego e 'C-16' um éster de morango — nomenclatura histórica enganosa."
+        ],
+        "exercise": "Abra o catálogo filtrado pela família cítrica e liste os cinco materiais de topo. Depois monte, no papel, um acorde de colônia simples (ex.: bergamota + limão + laranja-doce + traço de aldeído C-10) e estime o % de citral total se incluir 2% de óleo de limão (assuma 3% de citral). Compare com o teto de 0,6% da Cat 4 num EDC a 5%.",
+        "app_links": [
+          { "label": "Catálogo — família cítrica", "href": "/?family=citrus" },
+          { "label": "Catálogo — família aldeídica", "href": "/?family=aldehydic" },
+          { "label": "Fórmulas que usam cítricos", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "The Good Scents Company — Limonene", "url": "https://www.thegoodscentscompany.com/data/rw1002771.html" },
+          { "title": "The Good Scents Company — Citral", "url": "https://www.thegoodscentscompany.com/data/rw1004181.html" },
+          { "title": "Perfumer's Apprentice — Aldehydes / citrus materials", "url": "https://shop.perfumersapprentice.com/" },
+          { "title": "IFRA — Standards library (bergamota, citral)", "url": "https://ifrafragrance.org/standards-library" },
+          { "title": "Pell Wall — Aldehydes in perfumery", "url": "https://pellwall.com/blog/" }
+        ]
+      },
+      {
+        "id": "m15l2",
+        "title": "Rosa e florais — PEA, geraniol, citronelol, damasconas, Hedione",
+        "duration_min": 14,
+        "body_md": "## Construir uma rosa\n\nRosa não é um material — é um **acorde**. Uma rosa de perfumaria nasce de três blocos: o corpo (álcoois rosados: **feniletanol, geraniol, citronelol, nerol**), o brilho frutado (as **cetonas de rosa** — damasconas e damascenona) e o topo verde-metálico (**óxido de rosa**). Some radiância transparente com **Hedione** e você tem uma rosa que respira.\n\n## Monografias\n\n| Material | Odor | Nota | Força | Dose típica | Usa em |\n|---|---|---|---|---|---|\n| **Álcool feniletílico (PEA)** | rosa, mel, aquoso, macio | coração | baixa | 5–30% | espinha da rosa; tolera doses altíssimas |\n| **Geraniol** | rosa, doce, ceroso, citronela | coração | média | 0,5–5% | álcool rosado central; gerânio |\n| **Citronelol** | rosa-botão, fresco, ceroso | coração | média | 0,5–5% | frescor de rosa; gerânio, muguet |\n| **Nerol** | rosa fresca, verde, cítrica | coração | média | 0,5–5% | rosa/neroli mais verdes que o geraniol |\n| **Óxido de rosa** | rosa verde-metálica, lichia, penetrante | topo | alta | 0,01–0,2% | faísca de topo da rosa; acordes de lichia |\n| **beta-Damascenona** | rosa frutada, maçã, mel, vinho | coração | alta | 0,005–0,1% | impacto da rosa damascena; potentíssima |\n| **alfa-Damascona** | rosa, maçã, vinho, ameixa | coração | alta | 0,01–0,5% | difusão frutada-rosada |\n| **Hedione** | jasmim transparente, radiante, arejado | coração | baixa | 2–35% | lift e difusão em qualquer floral |\n| **alfa-Ionona / Metil-ionona** | violeta, orris, pó, amadeirado | coração | média | 0,5–15% | violeta/íris; suaviza florais |\n\n## Pontos de atenção\n\n- **PEA** é generoso: aceita 20–30% sem pesar, e é o jeito mais barato de dar volume a uma rosa. Não tem restrição IFRA.\n- **Geraniol e citronelol** são **alérgenos de declaração** e têm restrição de segurança na 51ª Emenda (geraniol ~0,056%, citronelol ~0,076% na Cat 4 — reconfira). Como aparecem em muitos naturais (gerânio, palmarosa, citronela), some **todas as fontes** ao calcular.\n- **Cetonas de rosa** (damasconas + damascenona) compartilham um **orçamento IFRA combinado** muito baixo (~0,043% Cat 4). A damascenona é tão forte que se dosa em partes por milhão.\n- **Hedione** (metil dihidrojasmonato) não cheira a muita coisa sozinha, mas dá radiância e 'ar' — foi usada a ~15% em Eau Sauvage e CK One. Sem restrição.\n\n## Substitutos\n\nSem óleo de rosa (caríssimo), reconstrua com PEA + geraniol + citronelol + traço de óxido de rosa e damascenona — é literalmente como a indústria faz. Para íris real (irona), que é proibitivo, use **metil-ionona** para o efeito pó-violeta.",
+        "key_points": [
+          "Rosa é um acorde: álcoois rosados (PEA, geraniol, citronelol, nerol) + cetonas de rosa + óxido de rosa + Hedione.",
+          "PEA aceita 5–30% e é o volume barato da rosa; sem restrição IFRA.",
+          "Geraniol e citronelol são alérgenos com teto baixo na Cat 4 — some todas as fontes (gerânio, palmarosa, citronela).",
+          "Damasconas + damascenona dividem um orçamento IFRA combinado ínfimo (~0,043% Cat 4); a damascenona dosa-se em ppm.",
+          "Hedione dá radiância transparente e é dosada muito alta; metil-ionona entrega o efeito pó-violeta-íris."
+        ],
+        "exercise": "Monte uma rosa mínima de 5 materiais (PEA, geraniol, citronelol, óxido de rosa diluído a 1%, damascenona a 1%) e escreva os percentuais. Depois calcule o citronelol+geraniol totais e verifique se você está dentro dos tetos da Cat 4 num EDP a 20%.",
+        "app_links": [
+          { "label": "Catálogo — família floral", "href": "/?family=floral" },
+          { "label": "Acordes de rosa e florais", "href": "/combinacoes" },
+          { "label": "Fórmulas florais", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "The Good Scents Company — Phenethyl alcohol", "url": "https://www.thegoodscentscompany.com/data/rw1000131.html" },
+          { "title": "The Good Scents Company — beta-Damascenone", "url": "https://www.thegoodscentscompany.com/data/rw1025191.html" },
+          { "title": "The Good Scents Company — Hedione / Methyl dihydrojasmonate", "url": "https://www.thegoodscentscompany.com/data/rw1009951.html" },
+          { "title": "IFRA — Standards library (rose ketones, geraniol, citronellol)", "url": "https://ifrafragrance.org/standards-library" },
+          { "title": "Scentspiracy — building a rose accord", "url": "https://www.scentspiracy.com/" }
+        ]
+      },
+      {
+        "id": "m15l3",
+        "title": "Jasmim, brancos e indólicos",
+        "duration_min": 13,
+        "body_md": "## Os florais brancos e o lado 'sujo'\n\nJasmim, flor de laranjeira, gardênia e ylang formam a família dos **florais brancos**: opulentos, cremosos, muitas vezes 'narcóticos'. O que os torna vivos e carnais é uma pitada de **indólicos** — moléculas fecais-animálicas (indol, escatol) que, em traço, leem como pétala real em decomposição doce. Sem elas, um jasmim fica plástico; com demais, fica de banheiro.\n\n## Monografias\n\n| Material | Odor | Nota | Força | Dose típica | Usa em |\n|---|---|---|---|---|---|\n| **Acetato de benzila** | jasmim, doce, frutado, solvente | topo | média | 0,5–15% | volume barato de jasmim/branco; ylang, gardênia |\n| **Absoluto de jasmim (grandiflorum)** | jasmim, indólico, ceroso, chá, frutado | coração | alta | 0,5–5% | coração branco rico e narcótico |\n| **Indol** | fecal, animálico, naftalina; floral em traço | base | alta | 0,01–0,5% | naturalidade de jasmim/flor de laranjeira |\n| **Escatol (3-metilindol)** | fecal, animálico, barnyard | base | alta | 0,001–0,05% | sujeira em traço em brancos e flor de laranjeira |\n| **Óleo de ylang-ylang** | floral, banana-frutado, cremoso, custard | coração | alta | 0,5–5% | brancos exóticos, orientais |\n| **Salicilato de benzila** | balsâmico, floral macio, pó, 'protetor solar' | base | baixa | 1–20% | fixador floral-balsâmico; buquês |\n| **Antranilato de metila** | flor de laranjeira, uva, frutado | coração | média | 0,1–2% | neroli, acordes frutados |\n| **Hidroxicitronelal** | muguet, lírio, doce, melão | coração | média | 0,5–5% | lírio-do-vale (contexto substituto de Lyral) |\n\n## Como manejar os indólicos\n\n- **Indol** e **escatol** só existem em diluição de trabalho (1% ou menos). Uma gota errada arruína um mililitro. O indol amarela/escurece bases com o tempo — normal.\n- **Absoluto de jasmim** já vem com indol, jasmona e ésteres embutidos — é o material completo. O restringimento de IFRA vem indireto, pelos constituintes (acetato/salicilato de benzila, isoeugenol, farnesol).\n- **Salicilato de benzila** é um curinga: fixa florais e dá aquele halo 'protetor solar'. Tem restrição IFRA, mas com teto relativamente alto (reconfira o Standard).\n\n## Substitutos e cuidados\n\n- **Muguet (lírio-do-vale):** o **Lilial** e o **Lyral/HICC** — antes os cavalos de batalha — hoje estão **PROIBIDOS**. Use **hidroxicitronelal** (com teto ~1% Cat 4), **Florhydral**, **Bourgeonal** ou aldeído ciclâmen. Se uma fórmula antiga pedir Lilial/Lyral, troque sem exceção.\n- Sem absoluto de jasmim, reconstrua: acetato de benzila (volume) + Hedione (radiância) + indol (naturalidade) + jasmona + um toque de salicilato de benzila.",
+        "key_points": [
+          "Florais brancos ganham realismo com indólicos (indol, escatol) em traço — em excesso viram fecal.",
+          "Indol e escatol só se usam em diluição a 1% ou menos; indol amarela a base (normal).",
+          "Acetato de benzila dá volume barato de jasmim; absoluto de jasmim é o material 'completo'.",
+          "Lilial e Lyral/HICC estão PROIBIDOS — substitua muguet por hidroxicitronelal, Florhydral, Bourgeonal ou aldeído ciclâmen.",
+          "Salicilato de benzila fixa florais e dá halo 'protetor solar'; tem restrição IFRA com teto alto (reconferir)."
+        ],
+        "exercise": "Pegue uma diluição de indol a 1%. Monte um jasmim de bancada com acetato de benzila + Hedione e adicione o indol gota a gota em tiras de teste, anotando quantas gotas transformam 'plástico' em 'vivo' e a partir de quantas vira 'sujo demais'. Registre o ponto ideal.",
+        "app_links": [
+          { "label": "Catálogo — família floral", "href": "/?family=floral" },
+          { "label": "Catálogo — família animálica (indol, escatol)", "href": "/?family=animalic" },
+          { "label": "Acordes de florais brancos", "href": "/combinacoes" }
+        ],
+        "references": [
+          { "title": "The Good Scents Company — Indole", "url": "https://www.thegoodscentscompany.com/data/rw1002851.html" },
+          { "title": "The Good Scents Company — Benzyl acetate", "url": "https://www.thegoodscentscompany.com/data/rw1001301.html" },
+          { "title": "Eden Botanicals — Jasmine grandiflorum absolute", "url": "https://www.edenbotanicals.com/" },
+          { "title": "IFRA — Prohibited: Lilial (BMHCA), Lyral (HICC)", "url": "https://ifrafragrance.org/standards-library" },
+          { "title": "Scentspiracy — white florals & indolics", "url": "https://www.scentspiracy.com/" }
+        ]
+      },
+      {
+        "id": "m15l4",
+        "title": "Amadeirados — Iso E Super, cedro, Javanol e sândalos sintéticos",
+        "duration_min": 14,
+        "body_md": "## A estrutura que sustenta o resto\n\nAmadeirados são a **coluna vertebral** da base: dão corpo, tenacidade e uma textura seca-a-cremosa que ancora os voláteis. Aqui convivem naturais (cedro, patchouli, vetiver, sândalo real) e uma geração de sintéticos que revolucionou a perfumaria — do **Iso E Super** transparente aos sândalos ultrapotentes como o **Javanol**.\n\n## Monografias\n\n| Material | Odor | Nota | Força | Dose típica | Usa em |\n|---|---|---|---|---|---|\n| **Iso E Super** | amadeirado-âmbar, cedro, aveludado, radiante | base | baixa | 5–40% | volumizador/base ubíquo (Molecule 01, Terre d'Hermès) |\n| **Georgywood (Iso E Super Plus)** | amadeirado-âmbar, orris, seco, refinado | base | baixa | 1–10% | fração mais refinada e de maior impacto |\n| **Óleo de cedro Virgínia** | cedro seco, lápis apontado, balsâmico | base | média | 1–15% | base amadeirada barata e fixador |\n| **Acetato de cedrila** | cedro seco, macio, ambarado | base | baixa | 1–15% | cedro suave, mais limpo que o óleo |\n| **Vertofix (acetil cedreno)** | amadeirado-âmbar, cedro, tipo vetiver | base | média | 1–15% | extensor de base vetiver/amadeirado barato |\n| **Sândalo (Santalum album)** | sândalo cremoso, leitoso, lactônico | base | média | 0,5–10% | base amadeirada macia; santalóis reais |\n| **Javanol** | sândalo cremoso, rosado, leitoso, potentíssimo | base | alta | 0,02–2% | sândalo moderno em doses ínfimas |\n| **Sandalore / Ebanol / Polysantol** | sândalo cremoso a seco | base | alta | 0,1–10% | acordes de sândalo sintético |\n| **Óleo de patchouli** | terroso, amadeirado, canforáceo, balsâmico | base | alta | 0,5–10% | pedra angular de chipres e orientais |\n| **Óleo de vetiver** | terroso, esfumaçado, radicular, seco | base | alta | 0,5–10% | base masculina/chipre; ótimo fixador |\n\n## O papel de cada família\n\n- **Iso E Super** é o material mais usado do mundo moderno: transparente, difusivo, 'aveludado', ele estica e conecta tudo. Costuma-se usar 5–40% do concentrado. O IFRA aplica um Standard ao OTNE — historicamente um teto Cat 4 alto (~20%); **reconfira a versão vigente**.\n- **Cedro** dá o 'lápis apontado' seco e barato; **acetato de cedrila** é mais macio; **Vertofix** puxa para o vetiver-âmbar.\n- **Sândalos:** o natural (S. album) é caro e limitado por sustentabilidade (veja m16l3). Os sintéticos resolvem: **Javanol** é o mais espetacular (cremoso-rosado, potentíssimo — 0,02–2%), enquanto **Sandalore/Ebanol/Polysantol** variam do cremoso ao seco.\n\n## Substitutos\n\nPara 'sândalo' sem sândalo: **Javanol** + **Sandalore** + um toque de lactona (gamma-nonalactona) para o leite. Para volume amadeirado difusivo barato: **Iso E Super** + **cedro** + **Vertofix**. Vetiver e patchouli não têm restrição IFRA e envelhecem bem.",
+        "key_points": [
+          "Amadeirados formam a base estrutural: corpo, tenacidade e textura que ancora os voláteis.",
+          "Iso E Super é o volumizador transparente ubíquo (5–40%); Standard IFRA sobre OTNE, teto Cat 4 historicamente alto — reconferir.",
+          "Cedro dá o seco 'lápis'; acetato de cedrila é mais macio; Vertofix puxa para vetiver-âmbar.",
+          "Sândalo natural é caro/limitado; Javanol (0,02–2%) e Sandalore/Ebanol/Polysantol reconstroem o efeito.",
+          "Patchouli e vetiver não têm restrição IFRA, são ótimos fixadores e melhoram com o tempo."
+        ],
+        "exercise": "Compare, em tiras, Iso E Super puro vs. a 10% e observe como o odor 'aparece' melhor diluído. Depois monte um mini-acorde de sândalo com Javanol (a 1%) + Sandalore e anote quantas partes de cada dão o equilíbrio cremoso ideal.",
+        "app_links": [
+          { "label": "Catálogo — família amadeirada", "href": "/?family=woody" },
+          { "label": "Catálogo — notas de base", "href": "/?note=base" },
+          { "label": "Fórmulas amadeiradas", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "The Good Scents Company — Iso E Super (OTNE)", "url": "https://www.thegoodscentscompany.com/data/rw1005301.html" },
+          { "title": "The Good Scents Company — Javanol", "url": "https://www.thegoodscentscompany.com/data/rw1454431.html" },
+          { "title": "Pell Wall — Iso E Super profile", "url": "https://pellwall.com/product/iso-e-super/" },
+          { "title": "IFRA — Standards library (OTNE / Iso E Super)", "url": "https://ifrafragrance.org/standards-library" },
+          { "title": "Scentspiracy — woody amber materials", "url": "https://www.scentspiracy.com/" }
+        ]
+      },
+      {
+        "id": "m15l5",
+        "title": "Âmbar e almíscares — Ambroxan, Galaxolide e muscs macrocíclicos",
+        "duration_min": 14,
+        "body_md": "## O que 'segura' o perfume na pele\n\nÂmbar (no sentido de **ambergris/âmbar seco**, não a resina) e **almíscares** são o motor de fundo: pouco voláteis, dão calor, projeção prolongada e aquele efeito 'segunda pele'. Substituíram materiais animais (ambar-gris, almíscar de veado) por moléculas sintéticas seguras e reprodutíveis.\n\n> Cuidado com a palavra 'âmbar': em perfumaria ela designa **duas coisas diferentes** — o acorde doce-balsâmico labdano+baunilha (veja m15l6/resinas) e o âmbar **seco-mineral** tipo ambergris do Ambroxan. Aqui falamos do segundo.\n\n## Monografias\n\n| Material | Odor | Nota | Força | Dose típica | Usa em |\n|---|---|---|---|---|---|\n| **Ambroxan** | ambergris, seco, amadeirado, salino-mineral | base | alta | 0,1–10% | base e motor de difusão ('ambrox bombs') |\n| **Cetalox** | âmbar, amadeirado, seco, musky | base | alta | 0,1–10% | mesma função ambergris (forma racêmica) |\n| **Ambrocenide** | âmbar, amadeirado, seco, intenso | base | alta | 0,05–1% | booster de âmbar seco ultrapotente |\n| **Cashmeran** | musky, amadeirado, especiado, aveludado | base | alta | 0,5–5% | calor 'cashmere' musk-woody |\n| **Galaxolide (HHCB)** | almíscar limpo, doce, amadeirado, 'roupa lavada' | base | média | 1–10% | volume e fixação; almíscar policíclico |\n| **Etileno brassilato** | almíscar limpo, macio, doce, pó | base | média | 1–15% | almíscar macrocíclico mais barato; volume |\n| **Exaltolida (pentadecanolida)** | almíscar limpo, quente, pó, pele | base | média | 1–10% | calor de pele, macrocíclico clássico |\n| **Habanolide / Globalide** | almíscar limpo, metálico, 'linho passado' | base | alta | 0,5–8% | almíscar macrocíclico biodegradável |\n| **Muscona** | almíscar animálico, pó, quente, pele | base | alta | 0,2–3% | a molécula do almíscar de veado; tenacidade |\n\n## Famílias de almíscar\n\n- **Policíclicos** (Galaxolide, e o antigo Tonalide): 'roupa lavada', muito usados em funcional. Galaxolide tem restrição IFRA **ambiental (PBT)** — Cat 4 leave-on ~1,5%.\n- **Macrocíclicos** (etileno brassilato, exaltolida, Habanolide, ambrettolida, muscona): mais 'nobres', quentes e limpos, biodegradáveis. Em geral **sem restrição IFRA**. São a escolha moderna.\n- **Nitromusks** (musk ketone): caráter vintage; muitas casas evitam. Ainda restritos (~1,4% Cat 4) mas caindo em desuso.\n\n## O truque do Ambroxan\n\nO **Ambroxan** faz duas coisas: dá o âmbar-ambergris seco E **empurra** a fragrância para longe (difusão). É o segredo dos perfumes 'que enchem o ambiente'. Comece baixo (1–3%): em excesso, achata tudo num muro salgado-amadeirado. Sem restrição IFRA.\n\n## Substitutos\n\nPara ambergris (proibido/inviável coletar), use **Ambroxan/Cetalox**. Para almíscar 'de pele' animálico sem material animal, combine **muscona** + **exaltolida** + um toque de **Cashmeran**.",
+        "key_points": [
+          "'Âmbar' tem dois sentidos: o balsâmico labdano+baunilha e o seco-mineral ambergris do Ambroxan (este módulo).",
+          "Ambroxan dá âmbar seco E difusão — comece a 1–3%; em excesso vira muro salgado-amadeirado. Sem restrição IFRA.",
+          "Almíscares macrocíclicos (etileno brassilato, exaltolida, Habanolide, muscona) são a escolha moderna: quentes, limpos, biodegradáveis, em geral sem restrição.",
+          "Galaxolide (policíclico) tem restrição IFRA ambiental (~1,5% Cat 4 leave-on); nitromusks estão em desuso.",
+          "Muscona reproduz o almíscar de veado sem material animal; ótima tenacidade."
+        ],
+        "exercise": "Cheire Ambroxan a 10% em tira e observe a evolução por 24h (persistência). Depois monte três variações de um almíscar de fundo (só macrocíclicos; policíclico; mistura) e descreva a diferença de 'limpeza' e calor.",
+        "app_links": [
+          { "label": "Catálogo — família âmbar", "href": "/?family=amber" },
+          { "label": "Catálogo — família almíscar (musk)", "href": "/?family=musk" },
+          { "label": "Fórmulas com base âmbar/almíscar", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "The Good Scents Company — Ambroxan / Ambroxide", "url": "https://www.thegoodscentscompany.com/data/rw1449401.html" },
+          { "title": "The Good Scents Company — Galaxolide (HHCB)", "url": "https://www.thegoodscentscompany.com/data/rw1006701.html" },
+          { "title": "Pell Wall — Musks: macrocyclic vs polycyclic", "url": "https://pellwall.com/blog/" },
+          { "title": "IFRA — Standards library (Galaxolide/HHCB, musk ketone)", "url": "https://ifrafragrance.org/standards-library" },
+          { "title": "Scentspiracy — amber & musk materials", "url": "https://www.scentspiracy.com/" }
+        ]
+      },
+      {
+        "id": "m15l6",
+        "title": "Baunilha e gourmand — vanilina, etil vanilina, etil maltol e cumarina",
+        "duration_min": 13,
+        "body_md": "## O doce comestível\n\nGourmand é a família que cheira a **comida** — baunilha, caramelo, algodão-doce, amêndoa, feno adocicado. Nasceu como categoria de perfumaria em 1992 com Angel (Mugler). São quase todas **notas de base ou coração** doces e tenazes; a dose certa é o que separa 'aconchegante' de 'enjoativo'.\n\n## Monografias\n\n| Material | Odor | Nota | Força | Dose típica | Usa em |\n|---|---|---|---|---|---|\n| **Vanilina** | baunilha, doce, cremoso, balsâmico, pó | base | alta | 0,5–8% | pedra angular de baunilha/oriental |\n| **Etilvanilina** | baunilha, caramelo, intensa, cremosa | base | alta | 0,5–8% | 3–4× mais forte e caramelada que a vanilina |\n| **Etilmaltol** | algodão-doce, caramelo, morango, açúcar | coração | alta | 0,05–1% | doçura 'La Vie Est Belle / Angel'; muito potente |\n| **Maltol** | caramelo, algodão-doce, torrado, pão | coração | média | 0,05–1% | doçura torrada, mais macia que o etilmaltol |\n| **Cumarina** | feno, tonka, doce, amêndoa, feno recém-cortado | base | média | 0,5–3% | assinatura da base fougère; tonka |\n| **Absoluto de fava tonka** | tonka, feno, amêndoa, tabaco, noz | base | alta | 0,5–3% | base quente coumarínica-oleaginosa |\n| **Heliotropina (piperonal)** | heliotrópio, amêndoa, baunilha, cereja, pó | coração | média | 0,1–3% | pó amêndoa-baunilha; heliotrópio e gourmand |\n| **gamma-Undecalactona (pêssego)** | pêssego, cremoso, frutado, coco-lactônico | coração | alta | 0,1–2% | pêssego cremoso (Mitsouko) |\n| **gamma-Nonalactona (coco)** | coco, cremoso, gorduroso, doce | coração | média | 0,1–2% | coco/cremoso; tropical e gourmand |\n\n## Manejo prático\n\n- **Vanilina vs etilvanilina:** a etilvanilina é 3–4× mais forte e mais 'caramelo/cereja'; a vanilina é mais 'baunilha real'. Muitas fórmulas usam as duas. Ambas **amarelam** a base com o tempo (esperado, não é defeito). Sem restrição IFRA.\n- **Etilmaltol** é a doçura 'de sobremesa' das últimas duas décadas — mas é tão forte que 0,1–0,5% já domina. Comece bem baixo. Sem restrição IFRA.\n- **Cumarina** é a única do grupo com **restrição IFRA firme: 1,5% no produto acabado (Cat 4)**, confirmado na 51ª Emenda. Como o **absoluto de tonka** é rico em cumarina, some as fontes.\n- **Lactonas** (undecalactona/pêssego, nonalactona/coco, decalactona/damasco) trazem cremosidade frutada — chave em florais-frutados e gourmands.\n\n## Substitutos e o acorde 'âmbar doce'\n\nO clássico **acorde âmbar** (aquele quente-doce-balsâmico, não o ambergris de m15l5) se faz com **vanilina + labdano + benjoim**. Para tonka sem o absoluto: **cumarina** (respeitando 1,5%) + heliotropina + um toque de dihidrocumarina.",
+        "key_points": [
+          "Gourmand cheira a comida (baunilha, caramelo, amêndoa, feno); quase tudo base/coração doce e tenaz.",
+          "Etilvanilina é 3–4× mais forte e mais caramelo/cereja que a vanilina; ambas amarelam a base (normal).",
+          "Etilmaltol dá a doçura algodão-doce moderna e é potentíssimo — comece a 0,1–0,5%.",
+          "Cumarina tem restrição IFRA firme de 1,5% Cat 4 (51ª); some a cumarina do absoluto de tonka.",
+          "O acorde 'âmbar' doce = vanilina + labdano + benjoim (distinto do âmbar-ambergris do Ambroxan)."
+        ],
+        "exercise": "Faça duas versões de uma base baunilha: uma só com vanilina, outra 70% vanilina + 30% etilvanilina. Compare intensidade e o caráter 'cereja/caramelo'. Depois calcule quanto de cumarina você poderia usar no concentrado de um EDP a 20% para não passar de 1,5% no acabado.",
+        "app_links": [
+          { "label": "Catálogo — família gourmand", "href": "/?family=gourmand" },
+          { "label": "Catálogo — família balsâmica (labdano, benjoim)", "href": "/?family=balsamic" },
+          { "label": "Fórmulas gourmand/orientais", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "The Good Scents Company — Vanillin", "url": "https://www.thegoodscentscompany.com/data/rw1000921.html" },
+          { "title": "The Good Scents Company — Ethyl maltol", "url": "https://www.thegoodscentscompany.com/data/rw1006831.html" },
+          { "title": "The Good Scents Company — Coumarin", "url": "https://www.thegoodscentscompany.com/data/rw1002501.html" },
+          { "title": "IFRA — Standard for Coumarin (1.5% Cat 4)", "url": "https://ifrafragrance.org/standards-library" },
+          { "title": "Scentspiracy — vanilla & gourmand materials", "url": "https://www.scentspiracy.com/" }
+        ]
+      },
+      {
+        "id": "m15l7",
+        "title": "Especiarias e verdes — eugenol, cis-3-hexenol, Calone e canela",
+        "duration_min": 13,
+        "body_md": "## Calor e clorofila\n\nDois mundos opostos que dão **relevo** e realismo. As **especiarias** (cravo, canela, pimenta, cardamomo) aquecem e dão mordida; os **verdes** (folha esmagada, galbanum, pepino) trazem frescor vegetal e 'natureza recém-cortada'. Junto entra o **marine/aquático** (Calone), que abriu a perfumaria dos anos 90.\n\n## Monografias\n\n| Material | Odor | Nota | Força | Dose típica | Usa em |\n|---|---|---|---|---|---|\n| **Eugenol** | cravo, especiado, fenólico, quente, cravina | coração | alta | 0,1–1% | cravo/cravina; calor oriental |\n| **Isoeugenol** | cravo, cravina, especiado, floral | coração | alta | 0,005–0,05% | cravina floral; sensibilizante forte |\n| **Cinamaldeído** | canela, especiado, doce, quente | coração | alta | 0,05–0,25% | coração de canela; orientais/gourmand |\n| **Óleo de cardamomo** | cardamomo, fresco, cineol, aromático | topo | média | 0,1–2% | topo especiado fresco; masculinos modernos |\n| **Óleo de pimenta-preta** | pimenta, seco, amadeirado, especiado | topo | média | 0,1–2% | lift picante seco; masculinos |\n| **cis-3-Hexenol** | verde, folha, grama recém-cortada, afiado | topo | alta | 0,01–0,5% | topo verde e acordes verde-frutados |\n| **Acetato de cis-3-hexenila** | verde, folha, banana-leaf, frutado-verde | topo | alta | 0,05–1% | folha frutada, mais macia que o álcool |\n| **Óleo de gálbano** | verde intenso, afiado, amargo, resinoso | topo | alta | 0,05–1% | verdes e chipres (Nº 19, Vent Vert) |\n| **Calone 1951** | marine, ozônico, melancia, brisa do mar | topo | alta | 0,05–0,5% | a molécula aquática dos anos 90 (L'Eau d'Issey) |\n| **Helional** | marine, verde, melão, ciclâmen, aquoso | coração | média | 0,1–2% | florais aquáticos e ozônicos |\n\n## Segurança das especiarias\n\nO grupo dos **fenilpropanóides** (eugenol, isoeugenol, cinamaldeído, cinamálcool, metileugenol) é o mais **regulado** por serem sensibilizantes:\n\n- **Eugenol:** ~0,178% Cat 4 (51ª) — reconfira; some cravo, canela-folha, pimenta-da-jamaica.\n- **Isoeugenol:** muito baixo, ~0,008% Cat 4 — sensibilizante forte.\n- **Cinamaldeído:** ~0,25% Cat 4 (fine fragrance).\n- **Metileugenol:** ~0,01% Cat 4 (preocupação genotóxica) — normalmente entra só como constituinte-traço de naturais, não puro.\n\n## Manejo dos verdes e do marine\n\n- **cis-3-Hexenol** é 'grama cortada' pura; potentíssimo, use 0,01–0,5% e sempre diluído. Não restrito.\n- **Gálbano** é o verde-amargo dos grandes verdes vintage — intenso, use com parcimônia.\n- **Calone** e **Helional** dão o efeito 'brisa marinha/melão'. Calone envelheceu (muito ligado aos anos 90), mas em traço ainda dá transparência aquática. Nenhum restrito.\n\n## Substitutos\n\nPara canela sem estourar o teto de cinamaldeído: apoie-se em **eugenol/eugenil acetato** (mais macio) e um toque de **cinamaldeído** dentro do limite. Para verde sem gálbano: **cis-3-hexenol** + **Triplal** + acetato de hexenila.",
+        "key_points": [
+          "Especiarias (fenilpropanóides) são o grupo mais regulado: eugenol ~0,178%, isoeugenol ~0,008%, cinamaldeído ~0,25% Cat 4 (reconferir).",
+          "Metileugenol (~0,01% Cat 4, genotóxico) normalmente entra só como traço de naturais, não puro.",
+          "cis-3-Hexenol é 'grama cortada' potentíssima — 0,01–0,5%, sempre diluído; não restrito.",
+          "Gálbano é o verde-amargo dos verdes clássicos (Nº 19, Vent Vert); usar com parcimônia.",
+          "Calone/Helional dão o efeito marine-melão dos anos 90; sem restrição, mas Calone soa datado em excesso."
+        ],
+        "exercise": "Monte um acorde verde de topo (cis-3-hexenol a 1% + acetato de hexenila + traço de gálbano) e cheire contra uma folha real amassada — ajuste até aproximar. Em separado, calcule o eugenol total de uma fórmula que use 1% de óleo de cravo (assuma 80% eugenol) e diga se cabe na Cat 4.",
+        "app_links": [
+          { "label": "Catálogo — família especiada", "href": "/?family=spicy" },
+          { "label": "Catálogo — família verde", "href": "/?family=green" },
+          { "label": "Catálogo — família aquática", "href": "/?family=aquatic" }
+        ],
+        "references": [
+          { "title": "The Good Scents Company — Eugenol", "url": "https://www.thegoodscentscompany.com/data/rw1001501.html" },
+          { "title": "The Good Scents Company — cis-3-Hexen-1-ol", "url": "https://www.thegoodscentscompany.com/data/rw1001291.html" },
+          { "title": "The Good Scents Company — Calone 1951", "url": "https://www.thegoodscentscompany.com/data/rw1074321.html" },
+          { "title": "IFRA — Standards library (eugenol, isoeugenol, cinnamaldehyde, methyl eugenol)", "url": "https://ifrafragrance.org/standards-library" },
+          { "title": "Pell Wall — green materials in perfumery", "url": "https://pellwall.com/blog/" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m16",
+    "title": "Naturais em Profundidade",
+    "level": "intermediario",
+    "summary": "Um mergulho no lado natural da paleta: como os aromáticos saem da planta (destilação, expressão, CO2, solvente/absoluto, enfleurage), por que dois lotes do 'mesmo' óleo cheiram diferente (quimiotipo, safra, terroir), como se detecta adulteração, e quais materiais estão sob pressão de sustentabilidade e regulação (sândalo, pau-rosa, oud, oakmoss). Fecha com um capítulo dedicado aos botânicos BRASILEIROS — pau-rosa, copaíba, breu-branco, priprioca, cumaru, cabreúva, alecrim-do-campo, capim-limão e os cítricos nacionais. Os percentuais são aproximados e variam por lote; sempre cheque o laudo de GC-MS do fornecedor.",
+    "lessons": [
+      {
+        "id": "m16l1",
+        "title": "Métodos de extração — como o cheiro sai da planta",
+        "duration_min": 15,
+        "body_md": "## O método muda o cheiro\n\nUma mesma planta gera materiais **diferentes** conforme o método de extração. A flor de laranjeira **destilada** vira neroli (fresco, verde); **extraída com solvente** vira absoluto de flor de laranjeira (mais mel, mais rico). Entender o processo explica preço, perfil e por que certos materiais 'não existem' como óleo essencial (jasmim, por exemplo, não sobrevive à destilação).\n\n## Os métodos\n\n| Método | O que faz | Serve para | Produto |\n|---|---|---|---|\n| **Destilação a vapor / hidrodestilação** | vapor arrasta os voláteis; condensa em óleo + hidrolato | maioria das folhas, madeiras, especiarias, ervas | **óleo essencial** |\n| **Expressão / prensagem a frio** | espreme a casca mecanicamente, sem calor | cascas cítricas (limão, laranja, bergamota) | **óleo essencial** (fototóxico) |\n| **Extração por CO2** | CO2 supercrítico/subcrítico como solvente; evapora sem resíduo | gengibre, pimenta-preta, baunilha, especiarias, resinas | **extrato CO2** ('select' ou 'total') |\n| **Solvente → concreto → absoluto** | hexano extrai; evapora-se; lava-se com álcool | flores frágeis (jasmim, rosa, tuberosa), musgos | **concreto** e depois **absoluto** |\n| **Enfleurage** | gordura fria/quente absorve o perfume das flores | histórico; flores que exalam após colhidas (jasmim, tuberosa) | **pommade** → **absoluto de enfleurage** |\n\n## Detalhando\n\n- **Destilação a vapor** é o burro de carga: barata, robusta, gera a maioria dos óleos essenciais. O calor, porém, altera moléculas termossensíveis — por isso o óleo destilado difere do absoluto.\n- **Expressão** é 'a frio': preserva o brilho vivo dos cítricos, mas arrasta **furocumarinas fototóxicas** (bergapteno). Daí a bergamota FCF (bergapten-reduzida) para produtos de pele.\n- **CO2** é o método 'limpo' moderno: sem resíduo de solvente, sem calor destrutivo. O **CO2 select** (subcrítico) puxa só os voláteis (mais próximo do óleo essencial); o **CO2 total** puxa também ceras e resinas (mais próximo do material bruto). Excelente para gengibre e pimenta 'realistas'.\n- **Solvente → absoluto:** flores como jasmim seriam destruídas pelo vapor. O hexano extrai um **concreto** (ceroso, sólido); lavando o concreto com álcool e evaporando obtém-se o **absoluto** (líquido, concentrado, o material de perfumaria). Oakmoss, benjoim e muitos florais são absolutos.\n- **Enfleurage** é o método artesanal histórico de Grasse: pétalas frescas deitadas sobre gordura (chassis), trocadas por dias, até saturar a **pommade**; depois lava-se com álcool. Praticamente extinto comercialmente (caríssimo), mas didático e ainda praticado por artesãos.\n\n## Contexto moderno\n\n- **Destilação molecular / fracionamento:** redestila um óleo sob vácuo para separar frações (ex.: retirar terpenos, isolar santalol, 'desterpenar' cítricos para maior estabilidade).\n- **Headspace:** não é extração, é **análise** — captura por GC-MS o ar em volta de uma flor viva para depois **reconstruir** o cheiro com sintéticos (única forma de ter 'lírio-do-vale' ou 'gardênia', que não rendem óleo utilizável).",
+        "key_points": [
+          "O método define o material: neroli (destilado) ≠ absoluto de flor de laranjeira (solvente), da mesma flor.",
+          "Destilação a vapor gera a maioria dos óleos essenciais; o calor altera moléculas termossensíveis.",
+          "Expressão (cítricos) preserva o brilho mas arrasta furocumarinas fototóxicas — daí as versões FCF.",
+          "Solvente extrai concreto → absoluto; é como se obtêm jasmim, oakmoss e florais que não resistem ao vapor.",
+          "CO2 (select vs total) é limpo e realista; enfleurage é histórico; headspace serve para reconstruir cheiros que não rendem óleo."
+        ],
+        "exercise": "Escolha três materiais do catálogo do app e identifique o método de extração de cada (dica: cítricos = expressão, jasmim = absoluto/solvente, cravo = destilação). Explique numa frase por que o método faz sentido para cada planta.",
+        "app_links": [
+          { "label": "Catálogo completo de matérias-primas", "href": "/" },
+          { "label": "Catálogo — cítricos (expressão)", "href": "/?family=citrus" },
+          { "label": "Catálogo — florais (absolutos)", "href": "/?family=floral" }
+        ],
+        "references": [
+          { "title": "Eden Botanicals — Extraction methods (distillation, CO2, absolute)", "url": "https://www.edenbotanicals.com/aromatherapy-info/extraction-methods/" },
+          { "title": "The Good Scents Company — material data (método por material)", "url": "https://www.thegoodscentscompany.com/" },
+          { "title": "Perfumer's Apprentice — naturals: absolutes vs oils vs CO2", "url": "https://shop.perfumersapprentice.com/" },
+          { "title": "Arctander — Perfume and Flavor Materials of Natural Origin (referência clássica)", "url": "https://archive.org/details/perfumeflavormat0000arct" },
+          { "title": "Pell Wall — how naturals are made", "url": "https://pellwall.com/blog/" }
+        ]
+      },
+      {
+        "id": "m16l2",
+        "title": "Quimiotipos, safra, autenticidade e adulteração",
+        "duration_min": 15,
+        "body_md": "## Por que dois lotes do 'mesmo' óleo cheiram diferente\n\nUm óleo essencial não é uma substância única — é uma **mistura viva** que muda com a genética da planta, o solo, o clima, a época da colheita e até o tempo de destilação. Duas armadilhas para o iniciante: achar que 'óleo de alecrim' é sempre igual (não é — depende do **quimiotipo**) e confiar que o rótulo diz a verdade (nem sempre — existe **adulteração**).\n\n## Quimiotipo (CT)\n\nQuimiotipo é uma **mesma espécie botânica** que produz **composições químicas diferentes** conforme a variedade/ambiente. Exemplos reais:\n\n| Planta | Quimiotipos | Diferença no cheiro/uso |\n|---|---|---|\n| **Alecrim** (*Rosmarinus officinalis*) | CT cineol · CT cânfora · CT verbenona | cineol = fresco medicinal; cânfora = mais penetrante; verbenona = mais suave |\n| **Tomilho** (*Thymus vulgaris*) | CT timol · CT linalol · CT geraniol | timol = fenólico agressivo; linalol = macio e seguro |\n| **Manjericão** (*Ocimum basilicum*) | CT linalol · CT metilchavicol (estragol) | perfil e perfil de segurança bem distintos |\n\n> Sempre peça o **quimiotipo** ao comprar alecrim, tomilho, manjericão, eucalipto e lavandas — o rótulo genérico esconde diferenças enormes.\n\n## Safra, terroir e destilação\n\n- **Época da colheita:** a lavanda colhida no auge tem mais acetato de linalila (mais 'doce'); fora de época, mais canforácea.\n- **Terroir:** solo, altitude e clima mudam o perfil — gerânio Bourbon (Reunião) ≠ gerânio egípcio ≠ chinês.\n- **Tempo de destilação:** os primeiros minutos trazem os voláteis leves; frações longas trazem os pesados. Cortar cedo ou tarde muda o óleo.\n\n## Autenticidade — como se verifica\n\n- **GC-MS (cromatografia gasosa + espectrometria de massa):** o 'RG do óleo' — identifica e quantifica os constituintes. É o laudo que você deve exigir do fornecedor.\n- **GC quiral:** separa enantiômeros (formas 'espelho'). O linalol natural tem uma proporção de isômeros que o linalol sintético não reproduz — pega adulteração 'invisível' ao GC comum.\n- **Razão isotópica (IRMS / SNIF-NMR):** distingue carbono de origem natural vs. petroquímica — detecta 'natural' falsificado com sintético.\n- **Normas ISO:** definem faixas de composição para óleos comerciais. Ex.: **ISO 3518** para sândalo (santalol mínimo — α-santalol ≥ 41%, β-santalol ≥ 16%); **ISO 3515** para lavanda. Fora da faixa ISO = suspeito.\n\n## Adulteração — as fraudes clássicas\n\n1. **Diluição:** cortar o óleo com solvente barato, óleo vegetal ou DPG.\n2. **'Reforço' com isolado sintético:** adicionar **linalol sintético** ao pau-rosa/lavanda, **citral** sintético ao capim-limão/litsea, para 'melhorar' o número da GC.\n3. **Troca de espécie mais barata:** cortar hortelã-pimenta com **cornmint** (Mentha arvensis), rosa otto com palmarosa/gerânio.\n4. **Reconstituição total:** vender um blend sintético como 'óleo essencial natural'.\n\n> Defesa do amador: compre de fornecedores confiáveis, exija GC-MS, desconfie de preço baixo demais (rosa e sândalo baratos não existem) e aprenda o cheiro do material autêntico.",
+        "key_points": [
+          "Óleo essencial é mistura viva: genética, terroir, safra e tempo de destilação mudam a composição.",
+          "Quimiotipo = mesma espécie, química diferente (alecrim CT cineol/cânfora/verbenona; tomilho CT timol/linalol) — peça sempre o CT.",
+          "GC-MS é o laudo essencial; GC quiral e IRMS/SNIF-NMR pegam adulteração 'invisível'.",
+          "Normas ISO definem faixas (ISO 3518 sândalo: α-santalol ≥41%, β-santalol ≥16%; ISO 3515 lavanda).",
+          "Fraudes clássicas: diluição, reforço com isolado sintético (linalol no pau-rosa, citral na litsea), troca por espécie barata, reconstituição total."
+        ],
+        "exercise": "Peça (ou procure online) o GC-MS de um óleo que você tenha e compare o constituinte principal com a faixa esperada nesta e nas outras aulas (ex.: lavanda ~35% acetato de linalila + ~32% linalol). Anote se bate. Depois liste três óleos seus que exigiriam quimiotipo no rótulo.",
+        "app_links": [
+          { "label": "Catálogo — óleos herbais (alecrim, tomilho, manjericão)", "href": "/?family=herbal" },
+          { "label": "Catálogo — amadeirados (sândalo, cedro)", "href": "/?family=woody" },
+          { "label": "Ver detalhe e constituintes de um material", "href": "/material" }
+        ],
+        "references": [
+          { "title": "Tisserand & Young — Essential Oil Safety (quimiotipos e composição)", "url": "https://www.tisserandinstitute.org/essential-oil-safety/" },
+          { "title": "ISO 3518 — Sandalwood oil (Santalum album) specification", "url": "https://www.iso.org/standard/8888.html" },
+          { "title": "ISO 3515 — Lavender oil specification", "url": "https://www.iso.org/standard/8882.html" },
+          { "title": "The Good Scents Company — composições de referência", "url": "https://www.thegoodscentscompany.com/" },
+          { "title": "Scentspiracy — adulteration & authenticity of naturals", "url": "https://www.scentspiracy.com/" }
+        ]
+      },
+      {
+        "id": "m16l3",
+        "title": "Sustentabilidade e questões — sândalo, pau-rosa, oud e oakmoss",
+        "duration_min": 15,
+        "body_md": "## O custo escondido dos naturais\n\nAlguns dos materiais mais amados da perfumaria vêm de espécies **ameaçadas**, práticas destrutivas ou animais. Conhecer os pontos críticos é parte do ofício — tanto por ética quanto porque a regulação (CITES, IFRA, UE) determina o que você pode comprar e usar.\n\n## Os quatro flashpoints botânicos\n\n### Sândalo (*Santalum album*)\nO sândalo indiano foi tão explorado que a Índia impôs **controle estatal** da colheita; a árvore leva **décadas** para formar o cerne aromático. A resposta moderna é o **cultivo em plantação na Austrália** (*S. album* e *S. spicatum*), hoje a principal fonte sustentável. Na bancada, os **sintéticos** (Javanol, Sandalore, Ebanol, Polysantol) fazem o trabalho pesado sem tocar na árvore.\n\n### Pau-rosa (*Aniba rosaeodora*)\nAmazônico, historicamente destilado do **tronco** (a árvore era **derrubada** por ~1% de óleo). A superexploração o levou à lista de espécies ameaçadas e ao **CITES Apêndice II** (desde 2010, CoP15). No Brasil, o **IBAMA** exige Plano de Manejo Florestal Sustentável. A alternativa sustentável é destilar **folhas e galhos** (não mata a árvore) — e, na prática, quase todo o 'linalol de pau-rosa' foi substituído por **linalol sintético** ou por **ho wood** (*Cinnamomum camphora* CT linalol).\n\n### Oud / agarwood (*Aquilaria* spp.)\nO oud é a resina que a árvore *Aquilaria* produz **em resposta a uma infecção** por fungo. É raríssimo na natureza — e a demanda derrubou populações selvagens drasticamente. Todo o gênero *Aquilaria* (e *Gyrinops*, *Gonystylus*) está no **CITES Apêndice II**. A saída sustentável é a **inoculação em plantação** (feridas induzidas em árvores cultivadas), além dos muitos **acordes de 'oud' sintéticos**.\n\n### Oakmoss / treemoss (*Evernia*)\nO 'problema do chipre'. O musgo de carvalho é a alma dos chipres clássicos, mas contém **atranol e cloroatranol**, sensibilizantes potentes. O IFRA restringe o extrato de musgo (~0,1% / 1000 ppm no acabado, Cat 4) **e** exige que atranol e cloroatranol fiquem **cada um abaixo de 100 ppm** no extrato. Resultado: as fórmulas clássicas foram reformuladas; hoje se usa **Evernyl (Veramoss)** e bases de musgo 'baixo em atranol' para reconstruir o efeito de forma segura.\n\n## Os materiais de origem animal\n\n| Material | Origem tradicional | Situação | Substituto |\n|---|---|---|---|\n| **Âmbar-gris (ambergris)** | secreção do cachalote | uso restrito/ilegal em vários países; coleta de praia é área cinzenta | **Ambroxan / Cetalox** |\n| **Almíscar de veado (musk)** | glândula do veado-almiscarado | animal em CITES; proibido | **muscona sintética, muscs macrocíclicos** |\n| **Civeta** | glândula do civeta | ético/legal problemático | **civetona sintética** |\n| **Castóreo** | glândula do castor | hoje quase sempre recriado | **bases de castóreo sintéticas** |\n\n> A perfumaria moderna substituiu praticamente **todos** os materiais animais por sintéticos idênticos ou por bases. Não há necessidade ética de usar o material animal — o resultado olfativo é o mesmo ou melhor.\n\n## O que isso significa para você\n\nAo formular, prefira: sândalo de plantação ou sintético; linalol sintético/ho wood no lugar de pau-rosa selvagem; oud de plantação ou acorde sintético; Evernyl no lugar de oakmoss bruto; e sempre os substitutos sintéticos dos materiais animais. É mais barato, mais estável, mais seguro e mais sustentável.",
+        "key_points": [
+          "Sândalo indiano é sobre-explorado (décadas para o cerne); use plantação australiana (S. album/spicatum) ou sintéticos (Javanol, Sandalore).",
+          "Pau-rosa está no CITES Apêndice II (2010); destile folhas/galhos ou use linalol sintético / ho wood.",
+          "Oud (Aquilaria, Gyrinops, Gonystylus) está no CITES Apêndice II; prefira oud de plantação inoculada ou acordes sintéticos.",
+          "Oakmoss: IFRA restringe (~0,1% Cat 4) e exige atranol e cloroatranol <100 ppm cada; reconstrua com Evernyl (Veramoss).",
+          "Materiais animais (ambergris, almíscar, civeta, castóreo) foram substituídos por sintéticos (Ambroxan, muscona, civetona) — sem perda olfativa."
+        ],
+        "exercise": "Escolha uma fórmula clássica que dependa de um material problemático (um chipre com oakmoss, um oriental com sândalo real) e reescreva a base usando substitutos sustentáveis do catálogo (Evernyl, Javanol, Ambroxan). Justifique cada troca em uma linha.",
+        "app_links": [
+          { "label": "Catálogo — amadeirados (sândalos sintéticos)", "href": "/?family=woody" },
+          { "label": "Catálogo — âmbar (Ambroxan) e almíscares", "href": "/?family=amber" },
+          { "label": "Catálogo — verdes (Evernyl/musgo sintético)", "href": "/?family=green" }
+        ],
+        "references": [
+          { "title": "CITES — Aniba rosaeodora (rosewood) Appendix II, CoP15 (2010)", "url": "https://cites.org/sites/default/files/eng/notif/2010/E036.pdf" },
+          { "title": "CITES — Agarwood (Aquilaria/Gyrinops) sustainability", "url": "https://cites.org/eng/news/towards-sustainability-one-worlds-valuable-essential-oils" },
+          { "title": "IFRA Standard 067 — Oakmoss extracts (atranol/chloroatranol)", "url": "https://d3t14p1xronwr0.cloudfront.net/docs/standards/IFRA_STD_067.pdf" },
+          { "title": "IUCN Red List — Santalum album", "url": "https://www.iucnredlist.org/species/31852/2807668" },
+          { "title": "Nez — Oakmoss: an exemplary case of IFRA's role", "url": "https://mag.bynez.com/en/perfume/oakmoss-an-exemplary-case-of-ifras-role/" }
+        ]
+      },
+      {
+        "id": "m16l4",
+        "title": "Botânicos brasileiros — origem, odor e uso",
+        "duration_min": 16,
+        "body_md": "## A paleta que nasce no Brasil\n\nO Brasil é potência em aromáticos: maior produtor mundial de laranja, casa de tesouros amazônicos (breu-branco, priprioca, copaíba) e origem de clássicos da perfumaria (pau-rosa, cumaru). Conhecer esses materiais é abrir uma paleta com identidade — e uma responsabilidade de sustentabilidade, já que vários vêm da floresta.\n\n## Monografias\n\n| Material | Odor | Nota | Extração | Constituinte-chave | Usa em |\n|---|---|---|---|---|---|\n| **Pau-rosa** (*Aniba rosaeodora*) | rosado-amadeirado, macio, levemente especiado | coração/fixador | destilação (madeira; hoje folhas/galhos) | linalol ~80–90% | fonte natural de linalol; fixador |\n| **Copaíba** (*Copaifera* spp.) | balsâmico-amadeirado, macio, levemente apimentado | base/fixador | oleorresina do tronco (sangria) | β-cariofileno (varia muito por espécie) | fixador natural barato; amadeirados/âmbar |\n| **Breu-branco** (*Protium* spp.) | resina fresca cítrico-pinho, tipo elemi/incenso | topo-coração | hidrodestilação da resina | α-pineno/limoneno/terpinoleno (varia) | notas de incenso/resina amazônicas |\n| **Priprioca** (*Cyperus articulatus*) | amadeirado-terroso, especiado, cristalino no topo | coração/base | destilação/CO2 do rizoma | mustacona, cyperene (varia) | nota amadeirada assinatura (Natura Ekos) |\n| **Cumaru / tonka BR** (*Dipteryx odorata*) | tonka, feno, amêndoa, tabaco, caramelo | base/fixador | solvente (semente) → absoluto | cumarina (semente ~1–3%; absoluto muito maior) | base doce fougère/oriental/gourmand |\n| **Cabreúva** (*Myrocarpus* spp.) | amadeirado-floral seco e doce, madeira nobre | base/fixador | destilação da madeira | nerolidol ~55–80% | fixador amadeirado-floral; naturaliza florais |\n| **Alecrim-do-campo** (*Baccharis dracunculifolia*) | verde-amadeirado-floral, nuance de mel | coração | hidrodestilação das folhas | (E)-nerolidol, espatulenol (varia) | modificador verde/amadeirado; origem do própolis verde |\n| **Capim-limão** (*Cymbopogon citratus*) | limão fresco, herbáceo, verde | topo | destilação das folhas | citral (neral+geranial) ~70–85% | topo cítrico; matéria-prima de citral |\n| **Laranja-doce BR** (*Citrus sinensis*) | laranja doce, suculento, frutado | topo | prensagem a frio (subproduto do suco) | d-limoneno ~90–95% | topo frutado; volume cítrico |\n| **Limão-taiti** (*Citrus latifolia*) | lima fresca, ácida, faiscante | topo | prensagem a frio | limoneno ~42–58% + γ-terpineno/citral | topo de lima brilhante |\n\n## Notas de campo\n\n- **Pau-rosa** é o exemplo perfeito do dilema natural: material lindo, mas **CITES Apêndice II** — historicamente derrubava-se a árvore. Prefira o de **folhas/galhos** (com manejo IBAMA) ou substitua por **linalol sintético / ho wood** (veja m16l3).\n- **Copaíba, breu-branco e priprioca** são joias amazônicas de **baixo impacto** (oleorresina por sangria, resina exsudada, rizoma). A **priprioca** ganhou o mundo pela linha **Ekos da Natura**, mostrando que um aromático nativo pode virar assinatura de marca. Ensine copaíba e priprioca como 'varia muito por lote' — a composição oscila bastante.\n- **Cumaru** é a nossa **fava tonka**: cumarina, feno e amêndoa. A cumarina tem **restrição IFRA** (1,5% Cat 4 no acabado) — some as fontes ao usar cumaru + cumarina pura.\n- **Cabreúva** é um fixador amadeirado-floral riquíssimo em **nerolidol** (também presente no alecrim-do-campo); nerolidol e farnesol são **alérgenos de declaração** na UE — verifique o rótulo.\n- **Capim-limão** é fonte renovável e barata de **citral** (~70–85%); lembre que o citral é sensibilizante e tem teto IFRA.\n- **Cítricos nacionais:** o Brasil é o **maior produtor mundial de laranja** e o óleo é um **subproduto da indústria de suco** (São Paulo) — daí abundante e barato. Alto limoneno **oxida** rápido (guarde bem); prensados são **fototóxicos** (limão-taiti).\n\n## Como montar um acorde 'Brasil'\n\nUm acorde amazônico-amadeirado didático: **breu-branco** (topo resinoso) + **priprioca** ou **cabreúva** (coração/base amadeirado) + **copaíba** (fixador balsâmico) + um toque de **cumaru** (doçura de feno). Cítrico brasileiro no topo (laranja-doce ou limão-taiti) para abrir. Sempre com laudo de GC-MS, porque esses naturais variam muito.",
+        "key_points": [
+          "Brasil é maior produtor mundial de laranja; o óleo cítrico é subproduto do suco — abundante, barato, mas oxida rápido.",
+          "Pau-rosa está no CITES Apêndice II: prefira folhas/galhos com manejo IBAMA ou substitua por linalol sintético / ho wood.",
+          "Copaíba (sangria), breu-branco (resina) e priprioca (rizoma) são joias amazônicas de baixo impacto; priprioca é assinatura da linha Natura Ekos.",
+          "Cumaru é a fava tonka brasileira (cumarina, feno, amêndoa) — respeite o teto IFRA de cumarina (1,5% Cat 4) somando fontes.",
+          "Cabreúva e alecrim-do-campo são ricos em nerolidol (alérgeno de declaração UE); capim-limão é fonte de citral ~70–85%.",
+          "Composição de copaíba, breu-branco, priprioca e alecrim-do-campo varia muito por espécie/lote — ensine como faixa, não número fixo, e exija GC-MS."
+        ],
+        "exercise": "Monte no papel um acorde 'amazônico' de 5 materiais brasileiros (ex.: laranja-doce no topo, breu-branco, priprioca/cabreúva, copaíba, cumaru na base). Marque a nota de cada um e aponte qual constituinte-chave você esperaria ver no GC-MS. Depois localize no catálogo do app os materiais equivalentes (limoneno, β-cariofileno, cumarina, nerolidol) e ligue seu acorde a eles.",
+        "app_links": [
+          { "label": "Catálogo — amadeirados (priprioca, cabreúva, copaíba)", "href": "/?family=woody" },
+          { "label": "Catálogo — cítricos nacionais (laranja, limão)", "href": "/?family=citrus" },
+          { "label": "Catálogo — gourmand (cumarina/tonka)", "href": "/?family=gourmand" }
+        ],
+        "references": [
+          { "title": "Embrapa — Pau-rosa (Aniba rosaeodora), Documentos 13", "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/673129/4/Doc13.pdf" },
+          { "title": "Eden Botanicals — Copaiba Balsam", "url": "https://www.edenbotanicals.com/copaiba-balsam.html" },
+          { "title": "Terpenoids from Copaifera oleoresins (β-caryophyllene por espécie) — PMC6269112", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6269112/" },
+          { "title": "Priprioca (Cyperus articulatus) rhizome essential oil — PMC8541438", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8541438/" },
+          { "title": "The Good Scents Company — Cabreuva wood oil", "url": "https://www.thegoodscentscompany.com/data/es1014101.html" },
+          { "title": "The Good Scents Company — Lemongrass oil (citral)", "url": "https://www.thegoodscentscompany.com/data/es1025531.html" },
+          { "title": "USDA FAS — Citrus Annual Brazil (2025), maior produtor de laranja", "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Update+to+Citrus+Annual+Report+for+Brazil_Brasilia_Brazil_BR2025-0002.pdf" }
+        ]
+      }
+    ]
+  }
+]

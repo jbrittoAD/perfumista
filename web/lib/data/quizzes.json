@@ -1,0 +1,1362 @@
+{
+  "m1": [
+    {
+      "question": "O que é, tecnicamente, o 'concentrado' (compound / jus) de um perfume?",
+      "options": [
+        "O álcool de cereais usado para diluir a fragrância",
+        "A mistura de matérias-primas aromáticas (naturais + sintéticas) antes de diluir em álcool",
+        "A água adicionada para reduzir a intensidade",
+        "O corante que dá cor ao líquido"
+      ],
+      "answer": 1,
+      "explanation": "O concentrado é o composto odorífero formado pelas matérias-primas aromáticas; ele é depois dissolvido em álcool para virar o perfume."
+    },
+    {
+      "question": "A palavra 'perfume' vem do latim 'per fumum'. O que isso significa e por quê?",
+      "options": [
+        "'Perfeito aroma', pela busca da fragrância ideal",
+        "'Através da fumaça', porque tudo começou com a queima de resinas e incensos em rituais",
+        "'Por meio da flor', em referência aos florais de Grasse",
+        "'Sem fumaça', porque o perfume moderno é destilado"
+      ],
+      "answer": 1,
+      "explanation": "'Per fumum' significa 'através da fumaça': a perfumaria nasceu do incenso ritual, cujo aroma subia com a fumaça."
+    },
+    {
+      "question": "Segundo as faixas típicas de concentração vistas na aula, qual porcentagem de concentrado corresponde a um Eau de Parfum (EDP)?",
+      "options": [
+        "~2–5%",
+        "~5–15%",
+        "~15–20%",
+        "~30–40%"
+      ],
+      "answer": 2,
+      "explanation": "As faixas típicas são EDC ~2–5%, EDT ~5–15%, EDP ~15–20% e Parfum/Extrait ~20–30% (até ~40%)."
+    },
+    {
+      "question": "Por que um mesmo perfume em EDT e em EDP pode cheirar diferente, e não apenas 'mais forte'?",
+      "options": [
+        "Porque a marca costuma reformular a composição para cada concentração",
+        "Porque o EDP usa sempre álcool de pior qualidade",
+        "Porque o EDT não contém notas de base",
+        "Porque a concentração não afeta o cheiro, só a duração"
+      ],
+      "answer": 0,
+      "explanation": "Um EDP não é só um EDT diluído a mais: o perfumista frequentemente muda proporções para que a fragrância se expresse bem em cada nível de concentração."
+    },
+    {
+      "question": "Na pirâmide olfativa, o que caracteriza as notas de base?",
+      "options": [
+        "Moléculas leves e voláteis que dão a primeira impressão",
+        "Materiais florais que formam o corpo do perfume",
+        "Moléculas pesadas e pouco voláteis que duram muito e funcionam como fixadores",
+        "Cítricos que evaporam em poucos minutos"
+      ],
+      "answer": 2,
+      "explanation": "As notas de base (madeiras, resinas, baunilha, almíscares) são pouco voláteis, duram até 24h ou mais e ajudam a fixar as notas mais leves."
+    },
+    {
+      "question": "Qual é a diretriz didática clássica de proporção entre as camadas de um perfume?",
+      "options": [
+        "~50% topo, ~30% coração, ~20% base",
+        "~15–25% topo, ~30–40% coração, ~40–50% base",
+        "Partes iguais de topo, coração e base",
+        "~60% coração e o resto dividido entre topo e base"
+      ],
+      "answer": 1,
+      "explanation": "A diretriz didática sugere ~15–25% de topo, ~30–40% de coração e ~40–50% de base, pois a base tenaz ocupa fatia maior para dar estrutura e duração."
+    }
+  ],
+  "m2": [
+    {
+      "question": "Aproximadamente quantos tipos funcionais de receptores olfativos o ser humano possui?",
+      "options": [
+        "Cerca de 40",
+        "Cerca de 400",
+        "Cerca de 4.000",
+        "Um único receptor universal"
+      ],
+      "answer": 1,
+      "explanation": "Temos cerca de 400 tipos funcionais de receptores (de ~800 genes, quase metade pseudogenes) — a maior família gênica do genoma humano."
+    },
+    {
+      "question": "Como o ser humano distingue milhares de cheiros tendo apenas ~400 receptores?",
+      "options": [
+        "Cada cheiro tem seu próprio receptor exclusivo",
+        "Pelo código combinatório: cada odor ativa uma combinação única de receptores",
+        "Pela velocidade com que a molécula chega ao nariz",
+        "Pela temperatura do ar inspirado"
+      ],
+      "answer": 1,
+      "explanation": "Pelo código combinatório descoberto por Buck e Axel (Nobel 2004): um receptor reconhece vários odorantes e cada odor gera uma combinação única de receptores ativados."
+    },
+    {
+      "question": "Por que o olfato tem uma ligação tão forte com memória e emoção?",
+      "options": [
+        "Porque é o sentido mais lento a chegar ao cérebro",
+        "Porque o sinal liga-se diretamente ao sistema límbico (amígdala e hipocampo), sem o mesmo desvio obrigatório pelo tálamo",
+        "Porque envolve o maior número de neurônios do corpo",
+        "Porque as moléculas de cheiro alteram o DNA"
+      ],
+      "answer": 1,
+      "explanation": "O olfato chega quase direto ao sistema límbico (amígdala/hipocampo), o que explica sua força emocional e o chamado fenômeno de Proust."
+    },
+    {
+      "question": "Qual afirmação sobre a fadiga olfativa e o 'reset' do nariz está correta?",
+      "options": [
+        "Cheirar grãos de café reseta comprovadamente o nariz",
+        "A fadiga olfativa é permanente e exige tratamento médico",
+        "Cheirar a própria pele/cotovelo e respirar ar fresco ajuda mais do que café, e a fadiga é normal e temporária",
+        "Deve-se cheirar dezenas de materiais seguidos para treinar resistência"
+      ],
+      "answer": 2,
+      "explanation": "A fadiga olfativa é normal e temporária; o mito do café é falso (Grosofsky et al., 2011). Ar fresco e cheirar a própria pele ajudam, e o ideal é limitar a 3–5 materiais por sessão."
+    },
+    {
+      "question": "Em junho de 2021, que mudança Michael Edwards fez em sua Roda das Fragrâncias?",
+      "options": [
+        "Substituiu o termo 'Oriental' por 'Amber' (ambarado)",
+        "Eliminou a família Floral",
+        "Reduziu de 4 para 2 famílias principais",
+        "Renomeou 'Woody' para 'Chypre'"
+      ],
+      "answer": 0,
+      "explanation": "Em junho de 2021 Edwards trocou 'Oriental' por 'Amber' para descrever melhor o caráter quente-resinoso-baunilhado e abandonar a conotação geográfica."
+    },
+    {
+      "question": "Qual combinação define olfativamente a família fougère?",
+      "options": [
+        "Bergamota + oakmoss + labdano",
+        "Baunilha + benjoim + labdano",
+        "Lavanda + cumarina + musgo de carvalho",
+        "Calone + hedione + dihidromircenol"
+      ],
+      "answer": 2,
+      "explanation": "A fougère é lavanda + cumarina (feno/tonka) + musgo de carvalho; o nome vem de Fougère Royale (Houbigant, 1882). Bergamota + oakmoss + labdano é o chipre."
+    }
+  ],
+  "m3": [
+    {
+      "question": "Por que jasmim e tuberosa existem apenas como absoluto, e não como óleo essencial destilado?",
+      "options": [
+        "Porque suas flores não têm cheiro suficiente",
+        "Porque seus compostos aromáticos são destruídos pelo calor da destilação",
+        "Porque a lei proíbe destilá-los",
+        "Porque são flores sintéticas"
+      ],
+      "answer": 1,
+      "explanation": "Essas flores são delicadas demais: o calor da destilação destrói seus compostos, então só a extração suave por solvente (concreto → absoluto) captura o cheiro real."
+    },
+    {
+      "question": "Qual método de extração é usado quase exclusivamente para cascas de cítricos?",
+      "options": [
+        "Destilação a vapor",
+        "Extração por solvente (absoluto)",
+        "Prensagem a frio (expressão)",
+        "Enfleurage"
+      ],
+      "answer": 2,
+      "explanation": "A prensagem a frio é mecânica e sem calor, preservando o topo fresco e brilhante dos cítricos como bergamota, limão e laranja."
+    },
+    {
+      "question": "Sobre naturais versus sintéticos na paleta moderna, qual afirmação é correta?",
+      "options": [
+        "A paleta é composta majoritariamente de naturais",
+        "A paleta tem cerca de 3.000 sintéticos para ~1.000 naturais",
+        "Sintéticos são sempre inferiores em qualidade",
+        "Não se usam mais materiais naturais"
+      ],
+      "answer": 1,
+      "explanation": "Estima-se ~4.000–5.000 materiais na paleta, dos quais cerca de 3.000 são sintéticos e ~1.000 naturais; a maioria das fragrâncias comerciais é majoritariamente sintética."
+    },
+    {
+      "question": "O que significa dizer que um material tem ODT (limiar de detecção) baixo?",
+      "options": [
+        "Que ele é fraco e precisa de muita quantidade para ser notado",
+        "Que ele é muito potente — basta pouquíssimo para ser percebido",
+        "Que ele evapora muito devagar",
+        "Que ele não tem cheiro"
+      ],
+      "answer": 1,
+      "explanation": "ODT baixo = material muito potente (percebido em concentração mínima); ODT alto = material fraco. Ex.: a mercaptana de toranja (~0,0001 ppb) é uma das mais potentes conhecidas."
+    },
+    {
+      "question": "Como se deve tratar um material sintético muito potente antes de dosá-lo numa fórmula?",
+      "options": [
+        "Usá-lo sempre puro para maior precisão",
+        "Pré-diluí-lo (tipicamente 10%, e os mais fortes a 1% ou 0,1%) e dosar em frações de porcentagem",
+        "Aquecê-lo até evaporar parte",
+        "Misturá-lo com água antes"
+      ],
+      "answer": 1,
+      "explanation": "Materiais potentes nunca entram puros: são pré-diluídos (10%, 1% ou até 0,1%) e dosados em frações de % — prática padrão de bancada."
+    },
+    {
+      "question": "Sobre a compra de matérias-primas no Brasil, o que a aula recomenda?",
+      "options": [
+        "Comprar tudo apenas por importação, pois no Brasil não há fornecedores",
+        "Comprar grandes volumes de imediato para economizar",
+        "Comprar pequeno e pré-diluído, priorizar fornecedores nacionais e pedir a ficha técnica/GC-MS",
+        "Ignorar as normas da IFRA ao comprar para uso próprio"
+      ],
+      "answer": 2,
+      "explanation": "Dá para montar boa bancada com fornecedores nacionais; a recomendação é comprar pequeno e pré-diluído, pedir ficha técnica/GC-MS e respeitar a IFRA. A importação vale para sintéticos específicos indisponíveis aqui."
+    }
+  ],
+  "m4": [
+    {
+      "question": "Segundo a regra prática de bancada, um material com peso molecular acima de ~220 g/mol tende a ser nota de:",
+      "options": [
+        "Topo",
+        "Coração",
+        "Base",
+        "Solvente"
+      ],
+      "answer": 2,
+      "explanation": "A heurística é: MW <160 tende a topo, 160–220 coração e >220 base. É uma orientação prática, não lei física."
+    },
+    {
+      "question": "Qual é a regra de bancada sobre o efeito da temperatura na evaporação?",
+      "options": [
+        "A temperatura não afeta a evaporação",
+        "Cada +10 °C aproximadamente dobra a taxa de evaporação",
+        "Cada +10 °C reduz a evaporação pela metade",
+        "Só o frio acelera a evaporação"
+      ],
+      "answer": 1,
+      "explanation": "Cada +10 °C dobra aproximadamente a taxa de evaporação — por isso o perfume 'abre' mais forte e some mais rápido na pele quente."
+    },
+    {
+      "question": "Na estrutura clássica de composição citada, qual é a distribuição aproximada do concentrado?",
+      "options": [
+        "Topo ~55%, coração ~20%, base ~25%",
+        "Base ~55%, coração/modificadores ~20%, topo ~25%",
+        "Partes iguais nas três camadas",
+        "Coração ~55%, topo ~25%, base ~20%"
+      ],
+      "answer": 1,
+      "explanation": "A estrutura clássica distribui base ~55%, coração/modificadores ~20% e topo ~25%: pouco topo já entrega impacto, e a base discreta precisa de massa para durar."
+    },
+    {
+      "question": "O que é um fixador e como ele atua?",
+      "options": [
+        "Um material volátil que faz o perfume evaporar mais rápido",
+        "Um material de baixa volatilidade que retarda a evaporação das voláteis e estende a longevidade",
+        "Um corante que estabiliza a cor",
+        "Um solvente que dilui o concentrado"
+      ],
+      "answer": 1,
+      "explanation": "O fixador é pouco volátil e retarda a evaporação das moléculas leves, prolongando a fragrância — por fixação física ou química reversível (bases de Schiff, ligações-H)."
+    },
+    {
+      "question": "Projeção (sillage) e longevidade são propriedades:",
+      "options": [
+        "Sempre iguais — quem projeta muito dura muito",
+        "Independentes, com drivers quase opostos (volátil/leve projeta; pesado/lento dura)",
+        "Determinadas apenas pela cor do perfume",
+        "Impossíveis de coexistir num mesmo material"
+      ],
+      "answer": 1,
+      "explanation": "São independentes: sillage vem de alta volatilidade + baixo threshold; longevidade de baixa volatilidade + alto peso molecular. Materiais como Ambroxan entregam os dois."
+    },
+    {
+      "question": "Pela lei de potência de Stevens (expoente ~0,5–0,6 para o olfato), aumentar a concentração em 10× produz aproximadamente:",
+      "options": [
+        "10× mais intensidade percebida",
+        "Só ~3–4× mais intensidade percebida",
+        "100× mais intensidade percebida",
+        "Nenhuma mudança na intensidade"
+      ],
+      "answer": 1,
+      "explanation": "A percepção é comprimida (não-linear): com expoente <1, aumentar a concentração 10× rende apenas cerca de 3–4× mais intensidade percebida."
+    }
+  ],
+  "m5": [
+    {
+      "question": "Cite um dos três motivos principais para diluir os materiais antes de formular.",
+      "options": [
+        "Para economizar álcool",
+        "Precisão de dosagem, proteção do nariz e avaliação do caráter real do material",
+        "Para deixar o perfume mais barato de vender",
+        "Para acelerar a maceração"
+      ],
+      "answer": 1,
+      "explanation": "Diluir dá precisão (pesar quantidades viáveis), protege o nariz da fadiga e revela o caráter real do material — que puro muitas vezes engana (ex.: indol puro é fecal, a 0,1% vira floral)."
+    },
+    {
+      "question": "Como se prepara uma solução a 10% a partir do material puro, em 10 g de solução final?",
+      "options": [
+        "1 g de material + 9 g de solvente",
+        "5 g de material + 5 g de solvente",
+        "9 g de material + 1 g de solvente",
+        "10 g de material sem solvente"
+      ],
+      "answer": 0,
+      "explanation": "10% em 10 g = 1 g de material + 9 g de solvente. A escada padrão divide por 10 a cada passo (100% → 10% → 1% → 0,1%), sempre 1 parte + 9 de solvente."
+    },
+    {
+      "question": "Para converter partes em porcentagem, qual fórmula se usa?",
+      "options": [
+        "% = partes do material × total de partes",
+        "% = (partes do material ÷ total de partes) × 100",
+        "% = total de partes ÷ partes do material",
+        "% = partes do material + 100"
+      ],
+      "answer": 1,
+      "explanation": "A porcentagem de cada material é (partes do material ÷ total de partes) × 100. As partes são independentes de escala."
+    },
+    {
+      "question": "Uma receita pede '3 partes de damascona a 10%' com 1 parte = 1 g. Quanto de damascona PURA isso representa?",
+      "options": [
+        "3 g de damascona pura",
+        "0,3 g de damascona pura",
+        "0,03 g de damascona pura",
+        "10 g de damascona pura"
+      ],
+      "answer": 1,
+      "explanation": "A 'parte' refere-se à solução: 3 g de solução a 10% contêm apenas 0,3 g de material puro (3 g × 10%). Sempre confira se a proporção é do puro ou do diluído."
+    },
+    {
+      "question": "Você tem 10 g de concentrado e quer um EDP a 20%. Qual a massa total de perfume e quanto de álcool adicionar?",
+      "options": [
+        "Total 20 g; adicionar 10 g de álcool",
+        "Total 50 g; adicionar 40 g de álcool",
+        "Total 100 g; adicionar 90 g de álcool",
+        "Total 12 g; adicionar 2 g de álcool"
+      ],
+      "answer": 1,
+      "explanation": "Massa final = concentrado ÷ fração = 10 ÷ 0,20 = 50 g; então 10 g de concentrado + 40 g de álcool = 50 g de EDP a 20%."
+    },
+    {
+      "question": "Como se calcula o percentual de um material no PRODUTO ACABADO para checar limite IFRA?",
+      "options": [
+        "Usando diretamente o % no concentrado",
+        "Multiplicando o % no concentrado pelo % de diluição (concentração do perfume)",
+        "Dividindo o % no concentrado pela massa do lote",
+        "Somando o % no concentrado com a concentração do perfume"
+      ],
+      "answer": 1,
+      "explanation": "% no produto final = % no concentrado × % de diluição. Ex.: 23% de oakmoss num concentrado a 20% (EDP) = 4,6% no frasco — muito acima do teto de 0,10%."
+    }
+  ],
+  "m6": [
+    {
+      "question": "O que distingue um 'acorde' de uma simples mistura de materiais?",
+      "options": [
+        "O acorde usa apenas materiais naturais",
+        "No acorde os componentes se fundem numa impressão única e nova, com proporções calibradas e caráter emergente",
+        "O acorde tem sempre exatamente três materiais",
+        "A mistura é mais cara que o acorde"
+      ],
+      "answer": 1,
+      "explanation": "Um acorde é uma mistura calibrada em que surge um caráter emergente (o 'jasmim', o 'couro') que não estava em nenhuma peça isolada; é o 'tijolo' da perfumaria."
+    },
+    {
+      "question": "No método Jean Carles, como se estuda um par de materiais na Fase 2?",
+      "options": [
+        "Misturando os dois sempre em 50:50",
+        "Combinando-os em razões incrementais (9:1, 8:2, 7:3... 1:9) e comparando em fitas",
+        "Cheirando apenas um de cada vez, em dias diferentes",
+        "Diluindo ambos a 0,1% antes de tudo"
+      ],
+      "answer": 1,
+      "explanation": "O coração do método é estudar pares em razões incrementais (9:1 até 1:9) lado a lado em fita, observando onde o caráter migra e onde um material começa a dominar o outro."
+    },
+    {
+      "question": "Na estrutura de composição de Jean Carles, qual bloco ocupa a maior porcentagem e é montado primeiro?",
+      "options": [
+        "O topo (~55%)",
+        "Os modificadores (~55%)",
+        "A base (~55%), construindo de baixo para cima",
+        "Não há bloco dominante"
+      ],
+      "answer": 2,
+      "explanation": "Carles usava base ~55%, modificadores ~20% e topo ~25%, construindo de baixo para cima — o oposto do iniciante, que começa pelo topo e vê o perfume 'desabar'."
+    },
+    {
+      "question": "Qual é a proporção canônica do acorde âmbar (benzoin : labdanum : baunilha), atribuída a Mandy Aftel?",
+      "options": [
+        "1 : 1 : 1",
+        "20 : 5 : 1",
+        "5 : 20 : 1",
+        "1 : 5 : 20"
+      ],
+      "answer": 1,
+      "explanation": "O acorde âmbar canônico é benzoin : labdanum : baunilha = 20 : 5 : 1 (simplificado 3:2:1). A baunilha é a menor parte porque domina rápido."
+    },
+    {
+      "question": "No acorde de rosa estilo rose otto, qual material forma o 'corpo' (cerca de 48%)?",
+      "options": [
+        "Rose oxide",
+        "Citronelol",
+        "Damascona",
+        "Geraniol"
+      ],
+      "answer": 1,
+      "explanation": "O citronelol é ~48% do total, o corpo da rosa; o rose oxide a ~1% dá o traço verde-metálico ('orvalho') e as damasconas dão o frutado."
+    },
+    {
+      "question": "Ao construir seu primeiro acorde âmbar, o que fazer se a vanilina 'engoliu' o âmbar e sobrou só baunilha?",
+      "options": [
+        "Adicionar mais vanilina para equilibrar",
+        "Você colocou vanilina demais — recomece com metade",
+        "Adicionar água",
+        "Aumentar o benzoin até dobrar"
+      ],
+      "answer": 1,
+      "explanation": "A vanilina domina rápido; se ela engolir o âmbar, houve excesso — a recomendação é recomeçar com metade da dose de vanilina."
+    }
+  ],
+  "m7": [
+    {
+      "question": "Na estrutura clássica de Jean Carles para o chipre, qual camada é a MAIOR fatia em peso?",
+      "options": [
+        "O topo (~55%)",
+        "A base (~55%)",
+        "O coração (~55%)",
+        "As três são iguais"
+      ],
+      "answer": 1,
+      "explanation": "A base é a maior fatia (~55%), com coração/modificadores ~20% e topo ~25%; sem base generosa o perfume 'desmancha' em 15 minutos."
+    },
+    {
+      "question": "No mínimo, quanto do concentrado as notas de base devem representar mesmo em fórmulas frescas, segundo a literatura de blending?",
+      "options": [
+        "1–3%",
+        "15–30%",
+        "60–70%",
+        "Zero, se for cítrico"
+      ],
+      "answer": 1,
+      "explanation": "As notas de base devem ficar em torno de 15–30% do concentrado no mínimo; em orientais sobem para 55–65%. Menos que isso e não há longevidade."
+    },
+    {
+      "question": "O que é um material-'ponte' e por que a cumarina aparece em mais de uma camada num fougère?",
+      "options": [
+        "Porque a cumarina é volátil demais",
+        "Porque ela costura coração e base, fazendo a transição entre as camadas de forma fluida",
+        "Porque foi um erro de dosagem",
+        "Porque a cumarina só existe como base"
+      ],
+      "answer": 1,
+      "explanation": "Pontes (cumarina, Iso E Super, Ambroxan) têm baixa volatilidade mas alta difusão e costuram as camadas — por isso a cumarina aparece no coração e na base."
+    },
+    {
+      "question": "No método de montar um perfume a partir de acordes-bloco, por que se valida cada acorde isolado na fita antes de combiná-los?",
+      "options": [
+        "Para economizar material",
+        "Para permitir depuração modular: saber se o problema está DENTRO de um acorde ou na PONTE entre acordes",
+        "Porque a IFRA exige",
+        "Porque acordes isolados cheiram melhor"
+      ],
+      "answer": 1,
+      "explanation": "Validar cada acorde sozinho é debug modular: quando o perfume completo dá errado, você sabe se a falha está dentro de um acorde ou na ligação entre eles."
+    },
+    {
+      "question": "Pela lei de Stevens (a≈0,6), o que fazer para corrigir uma nota que está fraca na fórmula?",
+      "options": [
+        "Adicionar apenas +10% dela",
+        "Muitas vezes é preciso dobrar ou triplicar, porque pequenos aumentos quase não se notam",
+        "Reduzir todos os outros materiais pela metade",
+        "Trocar o solvente"
+      ],
+      "answer": 1,
+      "explanation": "Como a intensidade percebida cresce mais devagar que a concentração, +10% mal se nota; para corrigir uma nota fraca geralmente é preciso dobrar ou triplicar."
+    },
+    {
+      "question": "Qual é o erro nº1 de iniciante ao montar fórmulas, e a correção recomendada?",
+      "options": [
+        "Usar poucos materiais; adicionar mais 30 ingredientes",
+        "Sobredosar materiais potentes; corrigir trabalhando com diluições e avaliando os fortes a ≤1%",
+        "Diluir demais; usar tudo puro",
+        "Macerar por tempo demais; envasar no mesmo dia"
+      ],
+      "answer": 1,
+      "explanation": "O erro mais frequente é sobredosar potentes (indol, damascona, Calone). A correção é trabalhar sempre com diluições e avaliar materiais fortes a 1% ou menos."
+    }
+  ],
+  "m8": [
+    {
+      "question": "Ao preparar fitas para comparar duas fórmulas, qual cuidado garante comparabilidade?",
+      "options": [
+        "Molhar cada fita numa profundidade diferente",
+        "Mergulhar sempre a mesma profundidade (~1 cm), ao mesmo tempo e na mesma quantidade, e etiquetar",
+        "Cheirar apenas o frasco, sem fita",
+        "Aquecer as fitas antes de cheirar"
+      ],
+      "answer": 1,
+      "explanation": "Para comparar, mergulhe todas as fitas na mesma profundidade e ao mesmo tempo, etiquetando versão e hora — variáveis controladas."
+    },
+    {
+      "question": "Qual é o protocolo de tempos para avaliar a evolução de uma fórmula na fita?",
+      "options": [
+        "Só cheirar no minuto 0",
+        "Cheirar aos 0–2 min, 15–30 min, 1–3 h, 4–8 h e 24 h+ para mapear topo, coração e base",
+        "Cheirar apenas depois de 24 horas",
+        "Cheirar a cada 5 segundos por uma hora"
+      ],
+      "answer": 1,
+      "explanation": "O perfume muda de forma no tempo; avalia-se em tempos fixos (0–2 min, 15–30 min, 1–3 h, 4–8 h, 24 h+) para mapear a pirâmide."
+    },
+    {
+      "question": "Por que a fita é preferida à pele para ANALISAR uma fórmula?",
+      "options": [
+        "A fita é mais barata que a pele",
+        "A fita é neutra e reprodutível; a pele aquece, tem cheiro próprio e reage quimicamente",
+        "A pele não sente cheiro nenhum",
+        "A fita acelera a maceração"
+      ],
+      "answer": 1,
+      "explanation": "A fita é controle reprodutível; a pele aquece (cada +10 °C dobra a evaporação), tem gordura e pH próprios. Usa-se a fita para analisar e a pele para a decisão final."
+    },
+    {
+      "question": "No vocabulário de defeitos, o que indica um 'buraco' (hole) na fórmula?",
+      "options": [
+        "Excesso de baunilha",
+        "Um vazio entre duas fases, geralmente por falta de coração ou de ponte",
+        "Um furo físico na fita",
+        "Que o perfume está perfeito"
+      ],
+      "answer": 1,
+      "explanation": "O 'buraco' é um vazio entre duas fases da evolução, causado por falta de coração ou de material-ponte; a correção é +coração ou +hedione/Iso E."
+    },
+    {
+      "question": "Por que é importante cheirar as matérias-primas isoladas antes de avaliar misturas?",
+      "options": [
+        "Porque isoladas duram mais",
+        "Só conhecendo o cheiro de cada material sozinho você consegue 'ouvir' cada um dentro de uma mistura",
+        "Porque a IFRA proíbe misturas sem esse passo",
+        "Porque materiais isolados não têm defeitos"
+      ],
+      "answer": 1,
+      "explanation": "Cheirar linalol, hedione, Iso E, damascona etc. sozinhos primeiro é o que permite reconhecê-los depois dentro de uma fórmula complexa."
+    },
+    {
+      "question": "O que é benchmarking olfativo?",
+      "options": [
+        "Copiar exatamente a fórmula de um perfume comercial",
+        "Avaliar sua fórmula lado a lado com uma referência-alvo em fitas simultâneas, para calibrar (não copiar)",
+        "Vender o perfume mais barato que o concorrente",
+        "Medir a temperatura da bancada"
+      ],
+      "answer": 1,
+      "explanation": "Benchmarking é comparar sua fórmula com um perfume-referência em fitas simultâneas para entender a distância até um exemplar bem-resolvido — calibrar, não copiar."
+    }
+  ],
+  "m9": [
+    {
+      "question": "No chipre, a tensão entre bergamota (topo fresco) e oakmoss+labdanum (base escura) é exemplo de qual mecanismo de combinação?",
+      "options": [
+        "Fusão",
+        "Contraste",
+        "Mascaramento",
+        "Boosting"
+      ],
+      "answer": 1,
+      "explanation": "É contraste: dois materiais em polos opostos criam uma tensão que o nariz lê como 'tridimensional' — a assinatura do chipre."
+    },
+    {
+      "question": "Rosa + gerânio se fundem numa impressão única. Qual mecanismo explica isso?",
+      "options": [
+        "Fixação, porque o gerânio é pesado",
+        "Fusão, porque ambos compartilham moléculas (geraniol, citronelol, nerol)",
+        "Mascaramento, porque o gerânio esconde a rosa",
+        "Boosting, porque o gerânio não tem cheiro"
+      ],
+      "answer": 1,
+      "explanation": "É fusão: materiais que compartilham moléculas se fundem sem costura; o gerânio lê-se como uma 'extensão' mais verde da rosa."
+    },
+    {
+      "question": "O jasmim faz o indol ler-se como 'profundidade' em vez de 'fecal'. Que mecanismo é esse, e do que ele depende?",
+      "options": [
+        "Fusão, e depende da temperatura",
+        "Mascaramento, e é dependente de dose (<0,1% floral; >1% fecal)",
+        "Boosting, e independe da quantidade",
+        "Contraste, e depende do solvente"
+      ],
+      "answer": 1,
+      "explanation": "É mascaramento: o acetato de benzila do jasmim domina o indol perceptivamente, mas é dependente de dose — abaixo de ~0,1% lê floral, acima de ~1% fecal."
+    },
+    {
+      "question": "O Iso E Super amplia e desfoca as madeiras num halo aveludado quase sem cheiro próprio dominante. Que mecanismo é esse?",
+      "options": [
+        "Mascaramento",
+        "Fixação",
+        "Boosting",
+        "Contraste"
+      ],
+      "answer": 2,
+      "explanation": "É boosting: o Iso E Super aumenta a presença/radiância dos outros materiais sem adicionar cheiro próprio dominante (efeito Molecule 01 / Terre d'Hermès)."
+    },
+    {
+      "question": "O que diferencia o topo do fougère do topo do chipre, apesar de ambos usarem a base oakmoss-cumarina?",
+      "options": [
+        "O fougère usa lavanda aromática; o chipre usa bergamota cítrica",
+        "O fougère não tem topo",
+        "O chipre usa lavanda; o fougère usa bergamota",
+        "Ambos usam exatamente o mesmo topo"
+      ],
+      "answer": 0,
+      "explanation": "Fougère e chipre partilham a base oakmoss-cumarina; a diferença é o topo — lavanda aromática no fougère, bergamota cítrica no chipre — e o papel doce da cumarina como ponte."
+    },
+    {
+      "question": "O acorde âmbar (baunilha + labdanum + benzoin) combina quais mecanismos ao mesmo tempo?",
+      "options": [
+        "Apenas contraste",
+        "Fusão + mascaramento + fixação",
+        "Apenas boosting",
+        "Apenas mascaramento"
+      ],
+      "answer": 1,
+      "explanation": "O âmbar usa três mecanismos: fusão (facetas balsâmicas comuns), mascaramento (baunilha suaviza as resinas) e fixação (todos de baixa volatilidade), convergindo numa única impressão."
+    }
+  ],
+  "m10": [
+    {
+      "question": "Qual é a versão do IFRA Standards vigente citada na aula (notificada em 30/06/2023)?",
+      "options": [
+        "43ª Emenda",
+        "49ª Emenda",
+        "51ª Emenda",
+        "52ª Emenda"
+      ],
+      "answer": 2,
+      "explanation": "A versão vigente é a 51ª Emenda, notificada em 30 de junho de 2023. A 52ª ainda estava só em consulta."
+    },
+    {
+      "question": "Qual categoria IFRA corresponde à perfumaria fina hidroalcoólica (EDP, EDT, colônia)?",
+      "options": [
+        "Categoria 1 (produtos labiais)",
+        "Categoria 4 (fine fragrance)",
+        "Categoria 9 (sabonete rinse-off)",
+        "Categoria 12 (velas)"
+      ],
+      "answer": 1,
+      "explanation": "A Categoria 4 é a da perfumaria fina hidroalcoólica; é a mais permissiva porque o produto fica numa área restrita da pele."
+    },
+    {
+      "question": "Qual destes materiais está PROIBIDO (não apenas restrito) pela regulação atual?",
+      "options": [
+        "Cumarina",
+        "Citral",
+        "Lilial (butylphenyl methylpropional)",
+        "Oakmoss"
+      ],
+      "answer": 2,
+      "explanation": "O Lilial está proibido (CMR, tóxico reprodutivo), assim como o Lyral/HICC. Cumarina, citral e oakmoss são restritos, não proibidos."
+    },
+    {
+      "question": "Ao calcular o limite IFRA, como se contabiliza um material que vem dentro de um óleo essencial?",
+      "options": [
+        "Ele não conta se veio de fonte natural",
+        "Conta contra o teto somando TODAS as fontes (o material dentro do óleo essencial conta igual ao puro)",
+        "Conta apenas metade do valor",
+        "Só conta se o óleo for sintético"
+      ],
+      "answer": 1,
+      "explanation": "O limite é % no produto acabado somando todas as fontes: o componente conta venha ele puro ou dentro de um óleo essencial (orçamento compartilhado)."
+    },
+    {
+      "question": "Qual é o teto IFRA de cumarina na Categoria 4 (51ª Emenda), no produto acabado?",
+      "options": [
+        "0,10%",
+        "0,60%",
+        "1,50%",
+        "5,0%"
+      ],
+      "answer": 2,
+      "explanation": "A cumarina é restrita a 1,50% no produto acabado na Cat 4; o oakmoss é 0,10% e o citral 0,60%."
+    },
+    {
+      "question": "Sobre EPI e armazenamento na bancada, qual afirmação está correta?",
+      "options": [
+        "Luvas de látex são as ideais e o álcool não é inflamável",
+        "Use luvas de nitrilo, ventilação e óculos; guarde em frasco âmbar bem vedado, fresco e escuro",
+        "Basta guardar em frasco plástico transparente ao sol",
+        "Não é preciso ventilação se o ambiente for pequeno"
+      ],
+      "answer": 1,
+      "explanation": "O EPI mínimo é nitrilo (não látex), óculos e ventilação; o álcool é inflamável e os inimigos do armazenamento são luz, calor, ar e tempo — daí o frasco âmbar vedado em local fresco e escuro."
+    }
+  ],
+  "m11": [
+    {
+      "question": "No Projeto 1 (água de colônia cítrica), como é a estrutura da fórmula em relação a um perfume clássico?",
+      "options": [
+        "Base dominante, como um oriental",
+        "Topo dominante (cítricos ~65%), coração leve e base mínima",
+        "Coração dominante, sem topo",
+        "Todas as camadas iguais"
+      ],
+      "answer": 1,
+      "explanation": "A colônia inverte a estrutura clássica: o topo domina (~65% cítricos), com coração leve e base mínima — é feita para explodir fresca e ir embora."
+    },
+    {
+      "question": "Para eliminar a fototoxicidade da bergamota e do limão numa colônia, o que se recomenda?",
+      "options": [
+        "Usar mais quantidade para 'diluir' o problema",
+        "Usar as versões FCF (livres de bergapteno / furocumarinas) ou respeitar o teto de furocumarinas",
+        "Aplicar apenas à noite",
+        "Aquecer o óleo antes de usar"
+      ],
+      "answer": 1,
+      "explanation": "Usar bergamota/limão FCF (bergapten-free) elimina a fototoxicidade; se usar prensado a frio, respeite o teto (bergamota expressa Cat 4 = 0,40%)."
+    },
+    {
+      "question": "No Projeto 2 (fougère), qual é a lição central ao converter a fórmula para o produto acabado?",
+      "options": [
+        "Que a cumarina não tem limite",
+        "Que um acorde bonito pode estourar o IFRA (cumarina 1,50% e oakmoss 0,10%) e precisa ser recalibrado",
+        "Que fougères não usam oakmoss",
+        "Que basta dobrar tudo para ficar seguro"
+      ],
+      "answer": 1,
+      "explanation": "A lição é que um acorde pode soar ótimo e ainda assim estourar dois limites IFRA (cumarina 1,50%, oakmoss 0,10% no acabado) — reduzir dose ou concentração faz parte do ofício."
+    },
+    {
+      "question": "No Projeto 3 (base âmbar), qual referência histórica de proporção é usada?",
+      "options": [
+        "Bergamota : oakmoss : labdanum = 5 : 3 : 1",
+        "Benzoin : labdanum : baunilha = 20 : 5 : 1 (Mandy Aftel)",
+        "Lavanda : cumarina : musgo = 2 : 2 : 1",
+        "Citronelol : PEA : linalol = 480 : 200 : 120"
+      ],
+      "answer": 1,
+      "explanation": "A base âmbar segue a referência de Mandy Aftel: benzoin : labdanum : baunilha = 20 : 5 : 1; o Ambroxan amplifica a projeção seca."
+    },
+    {
+      "question": "No Projeto 4, o que faz o Modo Reverso do app?",
+      "options": [
+        "Diz a fórmula secreta de perfumes comerciais",
+        "Parte do desejo olfativo (notas/famílias + estrutura) e sugere materiais e dosagens de partida",
+        "Remove automaticamente todos os materiais restritos",
+        "Converte gramas em gotas"
+      ],
+      "answer": 1,
+      "explanation": "O Modo Reverso parte de um briefing (notas/famílias desejadas + estrutura topo/coração/base) e sugere materiais candidatos com dosagens iniciais — é ponto de partida, não oráculo."
+    },
+    {
+      "question": "Qual é o fluxo profissional completo descrito para usar Modo Direto e Reverso juntos?",
+      "options": [
+        "Direto → vender → Reverso",
+        "Briefing → Reverso (gerar) → Direto (prever + checar IFRA) → fita (validar) → iterar → macerar",
+        "Apenas montar no Direto e envasar",
+        "Reverso → macerar → Reverso de novo"
+      ],
+      "answer": 1,
+      "explanation": "O ciclo é: briefing → Reverso para gerar candidatos → Direto para prever e checar IFRA → fita para validar → iterar → macerar. Reverso gera, Direto valida."
+    }
+  ],
+  "m12": [
+    {
+      "question": "Segundo o glossário, o que é 'substantividade'?",
+      "options": [
+        "A velocidade com que o material evapora",
+        "Quanto tempo um material persiste (na pele ou na fita); alta substantividade = mais duração",
+        "A cor do material",
+        "O preço por grama do material"
+      ],
+      "answer": 1,
+      "explanation": "Substantividade é a persistência de um material ao longo do tempo; quanto maior, mais o cheiro dura."
+    },
+    {
+      "question": "No glossário, qual é a diferença entre projeção e sillage?",
+      "options": [
+        "São exatamente a mesma coisa",
+        "Projeção é o quão longe é percebido logo após aplicado; sillage é o rastro deixado no ar quando você passa",
+        "Projeção é a duração; sillage é a cor",
+        "Sillage é a intensidade no frasco; projeção é a validade"
+      ],
+      "answer": 1,
+      "explanation": "Projeção é o quão longe do corpo o perfume é percebido logo após aplicado; sillage (do francês 'esteira') é o rastro que ele deixa no ar."
+    },
+    {
+      "question": "Segundo o glossário, o que significa OAV (Odor Activity Value)?",
+      "options": [
+        "Concentração × peso molecular",
+        "Concentração ÷ ODT; o material só contribui ao cheiro quando OAV ≥ 1",
+        "O valor comercial do óleo",
+        "A idade do material em anos"
+      ],
+      "answer": 1,
+      "explanation": "OAV = concentração ÷ ODT; um material só contribui ao aroma percebido quando OAV ≥ 1."
+    },
+    {
+      "question": "O que é um 'concentrado' (juice / compound) no glossário?",
+      "options": [
+        "O perfume já diluído em álcool e pronto para venda",
+        "A mistura só dos materiais aromáticos, antes de diluir em álcool",
+        "O álcool de cereais puro",
+        "A embalagem de vidro"
+      ],
+      "answer": 1,
+      "explanation": "O concentrado é a mistura apenas dos materiais aromáticos, antes da diluição em álcool; a concentração (%) em álcool é o que define EDT, EDP etc."
+    },
+    {
+      "question": "Entre os recursos recomendados, qual livro é apontado como o melhor para iniciantes (prático, com projetos)?",
+      "options": [
+        "Steffen Arctander — Perfume and Flavor Materials",
+        "Karen Gilbert — Perfume: The Art and Craft of Fragrance",
+        "Philip Kraft — Perfumes: Art, Science and Technology",
+        "Calkin & Jellinek — Perfumery: Practice and Principles"
+      ],
+      "answer": 1,
+      "explanation": "Karen Gilbert (Perfume: The Art and Craft of Fragrance) é indicado como o melhor livro para iniciantes, prático e com projetos e fórmulas."
+    },
+    {
+      "question": "Quais são apontadas como as referências técnicas gratuitas mais confiáveis para checar dados de materiais e limites?",
+      "options": [
+        "Instagram e TikTok",
+        "The Good Scents Company e o site oficial do IFRA",
+        "Apenas fóruns de hobbyistas",
+        "Catálogos de lojas de departamento"
+      ],
+      "answer": 1,
+      "explanation": "The Good Scents Company (fichas técnicas) e o site oficial do IFRA (limites reais e emendas) são as referências técnicas gratuitas mais confiáveis."
+    }
+  ],
+  "m13": [
+    {
+      "question": "Segundo o modelo dominante, o que decide principalmente o cheiro de uma molécula?",
+      "options": [
+        "A cor da molécula",
+        "A forma tridimensional e os grupos funcionais que encaixam no receptor (odotopo)",
+        "Apenas a vibração das ligações",
+        "O peso molecular exato em números pares"
+      ],
+      "answer": 1,
+      "explanation": "O modelo mais aceito é o de forma-e-funcionalidade (odotopo): o receptor reconhece o formato 3D e a posição dos grupos funcionais. A teoria vibracional explica poucos casos."
+    },
+    {
+      "question": "Um éster (terminação -ato) tende a trazer qual caráter olfativo geral?",
+      "options": [
+        "Medicinal e fumado",
+        "Frutado e doce (ex.: acetato de benzila = jasmim)",
+        "Terroso e mofado",
+        "Metálico e ozônico"
+      ],
+      "answer": 1,
+      "explanation": "Ésteres são a assinatura do frutado-doce; o acetato de benzila (jasmim) e o acetato de isoamila (banana) são exemplos."
+    },
+    {
+      "question": "Terpenoides diferem dos terpenos porque:",
+      "options": [
+        "São sempre sintéticos",
+        "Ganharam oxigênio (–OH, C=O etc.), o que costuma trazer o cheiro 'fino'",
+        "Têm menos carbonos",
+        "Não têm cheiro"
+      ],
+      "answer": 1,
+      "explanation": "Terpenoides são terpenos oxigenados; o oxigênio traz o cheiro fino (linalol, geraniol), enquanto os terpenos puros tendem a ser mais 'terebentinados'."
+    },
+    {
+      "question": "Apesar do nome comercial 'Aldeído C-14', a γ-undecalactona é na verdade:",
+      "options": [
+        "Um aldeído verdadeiro de cheiro cítrico",
+        "Uma lactona (éster cíclico) de cheiro de pêssego cremoso",
+        "Uma cetona de violeta",
+        "Um fenol medicinal"
+      ],
+      "answer": 1,
+      "explanation": "É uma lactona (éster cíclico), com cheiro de pêssego cremoso; o nome 'aldeído' é jargão histórico de comércio, enganoso."
+    },
+    {
+      "question": "Qual classe de almíscar é descrita como a escolha moderna, quente/'pele' e biodegradável?",
+      "options": [
+        "Nitroalmíscares (musk ketone, musk xylene)",
+        "Policíclicos (Galaxolide, Tonalide)",
+        "Macrocíclicos (muscona, exaltolida, ethylene brassylate)",
+        "Nenhum almíscar é biodegradável"
+      ],
+      "answer": 2,
+      "explanation": "Os macrocíclicos (anel de 14–17 carbonos) são quentes, tipo 'pele', biodegradáveis e os mais próximos do almíscar natural — a escolha moderna. Os nitroalmíscares caíram em desuso."
+    },
+    {
+      "question": "A R-(−)-carvona cheira a hortelã e a S-(+)-carvona a cominho. Que fenômeno isso ilustra?",
+      "options": [
+        "Isomeria de posição",
+        "Quiralidade: enantiômeros (imagens no espelho) que os receptores quirais leem como cheiros diferentes",
+        "Oxidação",
+        "Fadiga olfativa"
+      ],
+      "answer": 1,
+      "explanation": "É quiralidade: os dois enantiômeros da carvona (mesma fórmula, imagens especulares) cheiram totalmente diferentes porque os receptores olfativos são eles próprios quirais."
+    }
+  ],
+  "m14": [
+    {
+      "question": "Por que uma colônia cítrica precisa sempre de um fixador (musk, madeira, Iso E Super)?",
+      "options": [
+        "Para escurecer o líquido",
+        "Porque os cítricos são muito voláteis e sem âncora o perfume dura só minutos",
+        "Porque a IFRA exige fixador em toda colônia",
+        "Para deixar o topo mais forte"
+      ],
+      "answer": 1,
+      "explanation": "Os cítricos são dominados por monoterpenos leves que evaporam rápido; sem um fixador (musk, madeira ambarada, Iso E Super) a colônia dura poucos minutos."
+    },
+    {
+      "question": "Ao reconstruir uma rosa, qual material forma o 'corpo' e tolera doses altíssimas (5–30%)?",
+      "options": [
+        "Rose oxide",
+        "β-Damascenona",
+        "Feniletanol (PEA)",
+        "Indol"
+      ],
+      "answer": 2,
+      "explanation": "O PEA (feniletanol) é o corpo da rosa e o volume barato, tolerando 5–30% sem pesar; rose oxide e damasconas entram apenas em traço."
+    },
+    {
+      "question": "Para reconstruir um acorde de muguet (lírio-do-vale), o que NÃO se deve usar hoje?",
+      "options": [
+        "Hidroxicitronelal",
+        "Florhydral ou Bourgeonal",
+        "Lilial ou Lyral/HICC",
+        "Aldeído ciclâmen"
+      ],
+      "answer": 2,
+      "explanation": "Lilial e Lyral/HICC estão proibidos; para muguet usam-se hidroxicitronelal, Florhydral, Bourgeonal ou aldeído ciclâmen."
+    },
+    {
+      "question": "Qual é a principal diferença de eixo entre chipre e fougère?",
+      "options": [
+        "Chipre = cítrico↔musgo (seco-amargo); fougère = lavanda↔cumarina (doce-feno)",
+        "Chipre não usa musgo; fougère usa muito",
+        "Ambos têm exatamente o mesmo eixo",
+        "Fougère é sempre gourmand"
+      ],
+      "answer": 0,
+      "explanation": "Ambos usam musgo, mas o chipre se define pelo eixo cítrico (bergamota)↔musgo seco-amargo, e o fougère pelo eixo lavanda↔cumarina doce-feno."
+    },
+    {
+      "question": "O Iso E Super (OTNE) é descrito como a 'madeira transparente' onipresente. O que ocorre acima de ~15%?",
+      "options": [
+        "Ele desaparece completamente",
+        "Ele ganha caráter próprio (Molecule 01 é praticamente só ele)",
+        "Ele vira um cítrico",
+        "Ele fica fototóxico"
+      ],
+      "answer": 1,
+      "explanation": "Abaixo de ~10% o Iso E Super dá radiância quase invisível; acima de ~15% ganha caráter próprio (Molecule 01 é essencialmente só ele; Terre d'Hermès o usa em peso)."
+    },
+    {
+      "question": "Na família couro, qual é a molécula-assinatura do couro verde-amargo, potente a ponto de 'uma gota dominar'?",
+      "options": [
+        "Calone 1951",
+        "Isobutil quinolina (IBQ)",
+        "Vanilina",
+        "cis-3-hexenol"
+      ],
+      "answer": 1,
+      "explanation": "A isobutil quinolina (IBQ) é a molécula-assinatura do couro verde-amargo; uma gota domina, então dosa-se <0,1% a partir de solução ≤1%."
+    }
+  ],
+  "m15": [
+    {
+      "question": "Por que a bergamota prensada a frio tem restrição IFRA (~0,4% Cat 4)?",
+      "options": [
+        "Porque é muito cara",
+        "Porque é fototóxica (contém furocumarinas/bergapteno)",
+        "Porque escurece o produto",
+        "Porque é um almíscar"
+      ],
+      "answer": 1,
+      "explanation": "A bergamota prensada é fototóxica por causa das furocumarinas; a versão FCF (bergapten-reduzida) é isenta desse limite."
+    },
+    {
+      "question": "As cetonas de rosa (α/β-damascona e damascenona) têm que característica de segurança IFRA?",
+      "options": [
+        "Não têm nenhuma restrição",
+        "Compartilham um orçamento IFRA combinado muito baixo (~0,043% Cat 4)",
+        "Podem ser usadas até 10%",
+        "São proibidas"
+      ],
+      "answer": 1,
+      "explanation": "As rose ketones dividem um orçamento IFRA combinado ínfimo (~0,043% Cat 4); a damascenona é tão forte que se dosa em ppm."
+    },
+    {
+      "question": "O que fazem o indol e o escatol nos florais brancos, e como se dosam?",
+      "options": [
+        "Dão frescor cítrico, em qualquer dose",
+        "Dão realismo carnal/animálico em traço (só em diluição a 1% ou menos); em excesso viram fecal",
+        "Servem como fixadores de base a 10%",
+        "Não têm efeito perceptível"
+      ],
+      "answer": 1,
+      "explanation": "Em traço, indol e escatol dão o 'realismo sujo' das flores brancas; usam-se sempre diluídos a ≤1%, pois em excesso viram fecal/naftalina."
+    },
+    {
+      "question": "O Javanol, sândalo sintético, é descrito como:",
+      "options": [
+        "Fraco, exigindo doses de 20–40%",
+        "Cremoso-rosado e potentíssimo, dosado em frações ínfimas (0,02–2%)",
+        "Um cítrico de topo",
+        "Um almíscar policíclico"
+      ],
+      "answer": 1,
+      "explanation": "O Javanol é um sândalo moderno ultrapotente (cremoso, leitoso, rosado), dosado em 0,02–2% — reconstrói o sândalo sem tocar na árvore."
+    },
+    {
+      "question": "O que faz o Ambroxan além de dar o âmbar-ambergris seco, e qual o cuidado de dose?",
+      "options": [
+        "Ele escurece o líquido; use 20% no mínimo",
+        "Ele empurra a fragrância para longe (difusão); comece baixo (1–3%), pois em excesso vira um muro salgado-amadeirado",
+        "Ele adoça a fórmula; use quanto quiser",
+        "Ele não tem cheiro nenhum"
+      ],
+      "answer": 1,
+      "explanation": "O Ambroxan dá âmbar seco E difusão (perfumes 'que enchem o ambiente'); comece a 1–3%, pois em excesso achata tudo. Não tem restrição IFRA."
+    },
+    {
+      "question": "Qual material da família baunilha/gourmand tem restrição IFRA firme de 1,5% na Cat 4?",
+      "options": [
+        "Vanilina",
+        "Etilmaltol",
+        "Cumarina",
+        "Etilvanilina"
+      ],
+      "answer": 2,
+      "explanation": "A cumarina é a única do grupo com restrição IFRA firme (1,5% Cat 4, 51ª Emenda); como o absoluto de tonka é rico em cumarina, some as fontes. Vanilina, etilvanilina e etilmaltol não têm restrição."
+    }
+  ],
+  "m16": [
+    {
+      "question": "Por que a mesma flor pode gerar materiais diferentes conforme a extração (ex.: neroli vs. absoluto de flor de laranjeira)?",
+      "options": [
+        "Porque são flores de espécies diferentes",
+        "Porque o método de extração muda quais compostos são capturados: destilação (neroli) vs. solvente (absoluto)",
+        "Porque a cor da flor muda",
+        "Porque um é natural e o outro sintético"
+      ],
+      "answer": 1,
+      "explanation": "O método define o material: a mesma flor destilada vira neroli (fresco, verde) e extraída com solvente vira o absoluto (mais mel, mais rico)."
+    },
+    {
+      "question": "O que é o headspace?",
+      "options": [
+        "Um método de destilação a vácuo",
+        "Uma técnica de análise: captura por GC-MS o ar em volta de uma flor viva para depois reconstruir o cheiro com sintéticos",
+        "Um tipo de solvente",
+        "A gordura usada no enfleurage"
+      ],
+      "answer": 1,
+      "explanation": "Headspace não extrai óleo — analisa por GC-MS o ar ao redor da flor viva e serve para reconstruir cheiros que não rendem óleo utilizável (muguet, gardênia)."
+    },
+    {
+      "question": "O que é um quimiotipo (CT)?",
+      "options": [
+        "Um número de lote do fornecedor",
+        "Uma mesma espécie botânica que produz composições químicas diferentes conforme variedade/ambiente",
+        "Um sinônimo de espécie sintética",
+        "O grau de diluição de um óleo"
+      ],
+      "answer": 1,
+      "explanation": "Quimiotipo é a mesma espécie com química diferente (ex.: alecrim CT cineol, cânfora ou verbenona); por isso se deve pedir o CT ao comprar alecrim, tomilho, manjericão etc."
+    },
+    {
+      "question": "Qual laudo é o 'RG do óleo', que identifica e quantifica os constituintes e deve ser exigido do fornecedor?",
+      "options": [
+        "A ficha de segurança (FISPQ)",
+        "O GC-MS (cromatografia gasosa + espectrometria de massa)",
+        "O certificado de origem",
+        "A nota fiscal"
+      ],
+      "answer": 1,
+      "explanation": "O GC-MS é o 'RG do óleo'; GC quiral e IRMS/SNIF-NMR ajudam a pegar adulterações 'invisíveis' ao GC comum."
+    },
+    {
+      "question": "Sândalo, pau-rosa e oud têm em comum qual questão de sustentabilidade/regulação?",
+      "options": [
+        "São sintéticos proibidos",
+        "Vêm de espécies sob pressão de conservação; pau-rosa e oud estão no CITES Apêndice II",
+        "Não têm nenhuma restrição",
+        "São animais protegidos"
+      ],
+      "answer": 1,
+      "explanation": "Sândalo é sobre-explorado (use plantação/sintéticos); pau-rosa e oud (Aquilaria) estão no CITES Apêndice II — prefira manejo sustentável ou substitutos sintéticos."
+    },
+    {
+      "question": "Sobre os botânicos brasileiros, qual afirmação está correta?",
+      "options": [
+        "O Brasil não produz cítricos relevantes",
+        "O cumaru é a 'fava tonka brasileira' (rica em cumarina) e deve respeitar o teto IFRA de cumarina (1,5% Cat 4)",
+        "A priprioca é um cítrico de topo",
+        "A copaíba é um óleo essencial destilado da flor"
+      ],
+      "answer": 1,
+      "explanation": "O cumaru (Dipteryx odorata) é a fava tonka brasileira, rica em cumarina — some as fontes para respeitar o teto de 1,5% Cat 4. O Brasil é ainda o maior produtor mundial de laranja."
+    }
+  ],
+  "m17": [
+    {
+      "question": "Qual é o princípio central que o Chanel Nº5 ilustra?",
+      "options": [
+        "Que naturais são sempre superiores a sintéticos",
+        "Que um material dosado muito acima do usual (overdose de aldeídos) deixa de ser 'uma nota' e vira a arquitetura do perfume",
+        "Que perfumes devem imitar uma flor específica",
+        "Que a fórmula do Nº5 é pública"
+      ],
+      "answer": 1,
+      "explanation": "O Nº5 é o floral aldeídico arquetípico: a overdose de aldeídos alifáticos funciona como 'lift'/cintilância e vira a arquitetura, não uma nota isolada. A lenda da overdose acidental é folclore."
+    },
+    {
+      "question": "Jicky e Shalimar (Guerlain) compartilham qual esqueleto olfativo?",
+      "options": [
+        "Chipre: bergamota + oakmoss + labdano",
+        "Oriental/âmbar: baunilha/vanilina + cumarina + bergamota + nota animálica",
+        "Aquático: Calone + hedione",
+        "Couro: IBQ + birch tar"
+      ],
+      "answer": 1,
+      "explanation": "Ambos compartilham o esqueleto oriental (vanilina + cumarina + bergamota + animálico); Jicky é o primeiro perfume 'para a frente' a partir de sintéticos e Shalimar leva a baunilha ao extremo."
+    },
+    {
+      "question": "O 'pêssego' de Mitsouko, comercialmente chamado 'Aldeído C-14', é na verdade:",
+      "options": [
+        "Um aldeído verdadeiro",
+        "A γ-undecalactona, uma lactona (éster cíclico) que suaviza e faz ponte entre topo e base",
+        "Uma cetona de rosa",
+        "Um almíscar macrocíclico"
+      ],
+      "answer": 1,
+      "explanation": "É a γ-undecalactona, uma lactona; o nome 'Aldeído C-14' é equívoco histórico de comércio. A lactona tempera o musgo austero e liga o topo bergamota à base."
+    },
+    {
+      "question": "Em Cool Water (Davidoff, 1988), qual material foi usado em overdose massiva, reconstruindo o fougère?",
+      "options": [
+        "Etil maltol",
+        "Ambroxan",
+        "Dihidromircenol (DHM)",
+        "Vanilina"
+      ],
+      "answer": 2,
+      "explanation": "Cool Water é um fougère reconstruído em torno de uma overdose de dihidromircenol (~20%, estimativa atribuída a Chandler Burr), que dá a leitura fresca-metálica-aquática."
+    },
+    {
+      "question": "Em Angel (Mugler, 1992), qual afirmação sobre chocolate e mel é correta?",
+      "options": [
+        "São os materiais principais da fórmula",
+        "São ILUSÕES — não há material de cacau; a impressão vem de etil maltol + vanilina + faceta praliné do patchouli",
+        "Vêm de absoluto de cacau importado",
+        "Foram adicionados por acidente"
+      ],
+      "answer": 1,
+      "explanation": "Chocolate e mel são ilusões: não existe material de cacau em Angel; a impressão surge de etil maltol + vanilina + a faceta praliné do patchouli. Acorde ≠ notas literais."
+    },
+    {
+      "question": "Qual tríade de materiais domina os masculinos de designer pós-2010 (Aventus/Sauvage)?",
+      "options": [
+        "Bergamota, oakmoss e labdano",
+        "Ambroxan, Iso E Super e dihidromircenol",
+        "Vanilina, cumarina e civeta",
+        "Calone, hedione e indol"
+      ],
+      "answer": 1,
+      "explanation": "A tríade Ambroxan / Iso E Super / dihidromircenol domina os masculinos de designer da década; aprendê-la permite 'ler' quase todo lançamento moderno."
+    }
+  ],
+  "m18": [
+    {
+      "question": "O que é, com precisão, uma 'overdose' em perfumaria?",
+      "options": [
+        "Usar muito de um material barato só para encher",
+        "Usar um material muito acima da dose funcional para pôr seu caráter distintivo em primeiro plano como assinatura",
+        "Ultrapassar o limite IFRA de propósito",
+        "Diluir um material a 0,1%"
+      ],
+      "answer": 1,
+      "explanation": "Overdose é usar um material acima da dose convencional para que seu caráter (radiância, transparência, textura) vire a declaração-assinatura — não é 'encher de material barato'."
+    },
+    {
+      "question": "Por que o Molecule 01 (100% Iso E Super) ilustra que 'quantidade adicionada ≠ odor entregue'?",
+      "options": [
+        "Porque o Iso E Super não tem cheiro nenhum",
+        "Porque o impacto odorífero vem de um isômero minoritário (~5%, a Arborona), e a anosmia/adaptação parcial é comum",
+        "Porque ele evapora instantaneamente",
+        "Porque a IFRA o proíbe"
+      ],
+      "answer": 1,
+      "explanation": "O odor do Iso E Super é dominado por um isômero minoritário (~5%, Arborona); o dominante é quase inodoro — por isso a percepção não escala com a massa e há anosmia parcial."
+    },
+    {
+      "question": "O que é uma 'base' no sentido do módulo (ex.: Mousse de Saxe, Ambre 83)?",
+      "options": [
+        "A nota de fundo de um perfume",
+        "Um acorde complexo pré-montado, vendido como se fosse um único 'ingrediente'",
+        "O álcool usado para diluir",
+        "Uma categoria IFRA"
+      ],
+      "answer": 1,
+      "explanation": "Uma base é um mini-acorde acabado, um bloco de construção pronto vendido como 'ingrediente'; serviu historicamente para domar sintéticos ásperos e para simplificar/economizar."
+    },
+    {
+      "question": "O que é um 'captive' e por que as casas o mantêm?",
+      "options": [
+        "Uma molécula proibida",
+        "Uma molécula nova mantida exclusiva pela casa inventora, porque a fórmula não pode ser patenteada mas a molécula pode (proteção temporária)",
+        "Um perfume vintage descontinuado",
+        "Um material animal"
+      ],
+      "answer": 1,
+      "explanation": "Captive é uma molécula nova mantida para uso interno exclusivo: como fórmulas não se patenteiam mas moléculas sim, isso estende a proteção — mas é temporário (dura a patente; o Iso E Super virou commodity)."
+    },
+    {
+      "question": "Uma fórmula 'não abre' (sem lift/difusão). Qual é o conserto recomendado?",
+      "options": [
+        "Adicionar mais resinas e almíscares pesados",
+        "Adicionar voláteis em traço: aldeídos alifáticos (C8–C13), cítricos, ésteres leves, ozônicos",
+        "Aumentar o Ambroxan a 20%",
+        "Deixar macerar por um ano"
+      ],
+      "answer": 1,
+      "explanation": "'Não abre' significa topo dominado por material pesado; o conserto é adicionar 'marca-textos' voláteis em traço (aldeídos C8–C13, cítricos, ésteres leves, ozônicos) que projetam o coração."
+    },
+    {
+      "question": "Pela lei de Stevens no motor do app, por que a POTÊNCIA entra como fator linear separado, e não dentro da compressão de Stevens?",
+      "options": [
+        "Por engano de programação",
+        "Porque, se ficasse dentro da compressão, seria achatada junto com a massa e a massa dominaria — o traço potente perderia sua assinatura",
+        "Porque a potência não afeta o cheiro",
+        "Porque a IFRA determina isso"
+      ],
+      "answer": 1,
+      "explanation": "Se a potência fosse comprimida junto com a massa, a massa venceria; separando-a como fator linear (proxy de 1/ODT), o traço potente ganha um multiplicador que a massa de um material fraco não alcança — implementação direta de OAV = conc/ODT."
+    }
+  ],
+  "m19": [
+    {
+      "question": "Por que álcool e óleo se comportam de forma tão diferente como base de perfume?",
+      "options": [
+        "Porque o óleo é mais barato",
+        "Pela volatilidade do solvente: o álcool evapora e arrasta o topo (mais projeção/sillage); o óleo cola na pele (mais discreto e lento)",
+        "Porque o óleo não carrega aromáticos",
+        "Porque o álcool não deixa o cheiro durar"
+      ],
+      "answer": 1,
+      "explanation": "O álcool é volátil: evapora em segundos e joga o topo no ar, dando burst e sillage; o óleo não tem solvente volátil, então o cheiro 'cola' na pele (skin scent), projeta menos e libera devagar."
+    },
+    {
+      "question": "Numa vela, o teto de fragrância (~6–10% em soja) é definido principalmente por quê?",
+      "options": [
+        "Pelo limite de sensibilização dérmica",
+        "Pelo desempenho (scent throw) e pela queima — fragrância demais 'sua' a vela e afoga o pavio",
+        "Pela cor da cera",
+        "Pela categoria 4 do IFRA"
+      ],
+      "answer": 1,
+      "explanation": "A vela não toca a pele (Cat 12, sem limite dérmico); o teto vem do scent throw e da queima: fragrância demais 'sua' a vela e faz a chama chiar ou apagar."
+    },
+    {
+      "question": "Por que o MESMO material tem tetos IFRA diferentes em cada categoria de produto?",
+      "options": [
+        "Porque os fabricantes escolhem arbitrariamente",
+        "Porque o limite escala com a exposição: dose por área de pele, tempo, se é lavado (rinse-off) ou fica (leave-on) e risco de ingestão",
+        "Porque produtos caros podem usar mais",
+        "Porque a cor do produto muda o limite"
+      ],
+      "answer": 1,
+      "explanation": "Os limites vêm do modelo QRA de sensibilização dérmica: leave-on de grande área (loção) → % baixa; rinse-off (sabonete) → % maior; sem contato (vela) → sem limite dérmico; lábios/bucal somam toxicidade sistêmica."
+    },
+    {
+      "question": "Quais materiais tendem a descolorir (escurecer) bases claras ao longo do tempo?",
+      "options": [
+        "Limoneno e linalol",
+        "Vanilina, etil-vanilina, cumarina e eugenol",
+        "Iso E Super e Ambroxan",
+        "Calone e hedione"
+      ],
+      "answer": 1,
+      "explanation": "Vanilina, etil-vanilina, cumarina e eugenol puxam a base para o marrom (em sabonete cold process aparece em 24–48 h). Mitigações: etil-vanilina descolora menos, baixar a carga ou colorir de propósito."
+    },
+    {
+      "question": "Por que a IFRA trata limoneno e linalol por 'especificação' (limite de valor de peróxido) e não por teto de %?",
+      "options": [
+        "Porque não têm nenhum risco",
+        "Porque oxidam com o ar formando hidroperóxidos sensibilizantes de pele — um frasco velho pode disparar alergia que o fresco não dispara",
+        "Porque são proibidos",
+        "Porque são almíscares"
+      ],
+      "answer": 1,
+      "explanation": "Limoneno e linalol oxidam formando hidroperóxidos sensibilizantes; por isso o IFRA controla o valor de peróxido (especificação) em vez de um teto de porcentagem."
+    },
+    {
+      "question": "Você tem 9 g de concentrado e quer um EDP a 18%. Qual a massa total e quanto de álcool adicionar?",
+      "options": [
+        "Total 18 g; adicionar 9 g de álcool",
+        "Total 50 g; adicionar 41 g de álcool",
+        "Total 90 g; adicionar 81 g de álcool",
+        "Total 45 g; adicionar 36 g de álcool"
+      ],
+      "answer": 1,
+      "explanation": "Massa total = concentrado ÷ concentração = 9 ÷ 0,18 = 50 g; álcool a adicionar = 50 − 9 = 41 g."
+    }
+  ],
+  "m20": [
+    {
+      "question": "Quais são as quatro rotas reais para virar perfumista descritas na aula?",
+      "options": [
+        "Apenas a ISIPCA, na França",
+        "Escolas de elite, formação interna nas grandes casas, autodidatismo e caminho indie/marca própria",
+        "Somente comprar uma franquia",
+        "Somente autodidatismo pela internet"
+      ],
+      "answer": 1,
+      "explanation": "As quatro rotas são: escolas de elite (ISIPCA/GIP), formação interna nas grandes casas, autodidatismo e caminho indie; a maioria dos independentes combina duas ou três."
+    },
+    {
+      "question": "O que é o 'órgão de perfumista' e por que se organiza por família e volatilidade?",
+      "options": [
+        "Um instrumento musical decorativo",
+        "A bancada com os frascos dispostos em arco/degraus, organizada por família e volatilidade para acesso rápido e memória espacial",
+        "Um software de contabilidade",
+        "Um tipo de destilador"
+      ],
+      "answer": 1,
+      "explanation": "O órgão de perfumista é a bancada onde os frascos ficam dispostos como teclas de órgão; organizar por família e volatilidade dá acesso rápido e memória espacial, sem quebrar o fluxo criativo."
+    },
+    {
+      "question": "Qual é a regra de ouro do versionamento de fórmulas?",
+      "options": [
+        "Mudar várias coisas de uma vez para ir mais rápido",
+        "Mudar uma variável por vez, numerar as versões (v1, v2...) e anotar o que mudou e por quê",
+        "Nunca anotar nada, para manter segredo",
+        "Trabalhar sempre em gotas"
+      ],
+      "answer": 1,
+      "explanation": "Muda-se uma variável por vez e registra-se cada versão (v1, v2, v3...) com a hipótese e o que mudou — o histórico é o que ensina. Mudar cinco coisas de uma vez destrói a rastreabilidade."
+    },
+    {
+      "question": "O que é um 'brief' e para que serve, mesmo trabalhando sozinho?",
+      "options": [
+        "Uma lista de compras de frascos",
+        "Um documento que traduz um desejo/história/público em direção olfativa — criar com intenção, não só misturar o que cheira bem",
+        "O rótulo do produto",
+        "A conta de custo por unidade"
+      ],
+      "answer": 1,
+      "explanation": "O brief traduz conceito, público, família alvo, notas obrigatórias/proibidas e restrições em direção olfativa; escrever um para si mesmo separa 'misturar coisas' de 'criar com intenção'."
+    },
+    {
+      "question": "Segundo a regulação brasileira atual, como um perfume (Grau 1) é regularizado na ANVISA?",
+      "options": [
+        "Por registro formal, como um medicamento",
+        "Por notificação (comunicação prévia), sob a RDC 907/2024; perfume é cosmético Grau 1",
+        "Não precisa de nenhuma regularização para vender",
+        "Apenas por licença municipal"
+      ],
+      "answer": 1,
+      "explanation": "Perfume é cosmético Grau 1, regularizado por notificação (não registro), sob a RDC 907/2024. Ainda assim exige AFE, BPF (RDC 48/2013) e rotulagem conforme a norma."
+    },
+    {
+      "question": "Qual é o erro nº1 do perfumista indie ao precificar, e o que compõe o COGS?",
+      "options": [
+        "Precificar alto demais; o COGS é só a matéria-prima",
+        "Precificar baixo demais, esquecendo custos invisíveis; o COGS soma matéria-prima, embalagem, mão de obra e overhead (incl. custo regulatório)",
+        "Cobrar exatamente o mesmo que o concorrente sempre é o certo",
+        "Ignorar a embalagem, que é irrelevante"
+      ],
+      "answer": 1,
+      "explanation": "O erro nº1 é precificar baixo demais esquecendo o próprio trabalho e custos invisíveis; o COGS soma matérias-primas, embalagem (40–60% do custo!), mão de obra e overhead, incluindo custo regulatório."
+    }
+  ]
+}

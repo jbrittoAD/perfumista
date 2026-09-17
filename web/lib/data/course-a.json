@@ -1,0 +1,346 @@
+[
+  {
+    "id": "m1",
+    "title": "Introdução à Perfumaria",
+    "level": "iniciante",
+    "summary": "Uma porta de entrada ao mundo do perfume: o que é uma fragrância, o que faz um perfumista, de onde veio essa arte, como se lê um rótulo de concentração e como um perfume é montado em camadas.",
+    "lessons": [
+      {
+        "id": "m1l1",
+        "title": "O que é perfume e o que faz um perfumista",
+        "duration_min": 8,
+        "body_md": "## O que é um perfume\n\nUm **perfume** é uma mistura de substâncias aromáticas dissolvidas em um solvente (quase sempre **álcool**, o chamado *álcool de cereais* ou *perfumer's alcohol*, muitas vezes com um pouco de água). O que dá o cheiro é o **concentrado** — também chamado de *compound*, *jus* ou *composto odorífero* —, formado por dezenas ou centenas de matérias-primas.\n\nEssas matérias-primas se dividem em dois grandes grupos, que estudaremos a fundo no Módulo 3:\n\n- **Naturais** — óleos essenciais, absolutos e resinoides extraídos de plantas (lavanda, rosa, patchouli, incenso...).\n- **Sintéticos** — moléculas aromáticas produzidas em laboratório (vanilina, cumarina, Iso E Super, Ambroxan...).\n\nA grande maioria dos perfumes modernos combina os dois. Um perfumista pensa em cada material pela sua **cor olfativa**, pela sua **volatilidade** (se evapora rápido ou devagar) e pela sua **força** (o quanto rende).\n\n## O que faz um perfumista\n\nO perfumista — chamado no jargão francês de *nez* (\"nariz\") — é quem **cria fórmulas**: decide quais materiais entram, em que **quantidade (em gotas, gramas ou porcentagem)** e em que proporção, para chegar a um cheiro com identidade e equilíbrio. O trabalho envolve:\n\n- **Compor** a fórmula, escrevendo-a como uma receita (material + quantidade).\n- **Avaliar** em fitas de papel (as *mouillettes*/blotters) e na pele ao longo de horas, porque o cheiro muda com o tempo.\n- **Ajustar e reformular** — raramente um perfume nasce pronto; ele passa por dezenas de versões.\n- **Respeitar a segurança e a regulação** (as normas da **IFRA**, que limitam o uso de certos materiais em produtos aplicados na pele).\n\nExistem dois grandes perfis de atuação: o perfumista de **grandes casas de fragrância** (Givaudan, DSM-Firmenich, IFF, Symrise), que atende marcas do mundo todo, e o perfumista **independente/artesanal**, que cria em pequena escala — o caminho de quem está começando hoje.\n\n## Perfume não é uma foto: é um filme\n\nA ideia mais importante para um iniciante: **um perfume evolui no tempo**. Nos primeiros minutos você sente uma coisa; uma hora depois, outra; ao fim do dia, outra ainda. Isso acontece porque materiais leves evaporam antes dos pesados. Essa arquitetura em camadas é o que veremos na aula **L1.4 (Anatomia de um perfume)**.\n\n> **Dica de percurso:** ao longo do curso, use o **catálogo de materiais** do app para cheirar (mentalmente, ou de verdade, se você já tiver amostras) cada matéria-prima que citarmos. Conhecer os materiais um a um é 80% do ofício.",
+        "key_points": [
+          "Perfume = concentrado aromático (naturais + sintéticos) diluído em álcool.",
+          "O perfumista compõe, avalia em blotter e na pele, ajusta e respeita a IFRA.",
+          "Cada material tem cor olfativa, volatilidade e força odorífera.",
+          "Um perfume não é estático: ele evolui do topo à base ao longo de horas.",
+          "Dois caminhos de carreira: grandes casas de fragrância e perfumaria independente."
+        ],
+        "exercise": "Abra o catálogo de materiais do app e escolha 3 matérias-primas que você acha que conhece de nome (ex.: lavanda, laranja, patchouli). Para cada uma, escreva em uma frase que cheiro você espera sentir. Guarde essa nota — ao longo do curso vamos confirmar ou corrigir sua intuição.",
+        "app_links": [
+          { "label": "Explorar o catálogo de materiais", "href": "/" },
+          { "label": "Montar uma primeira fórmula no modo Direto", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Perfume — Wikipedia (definição, solvente, concentração)", "url": "https://en.wikipedia.org/wiki/Perfume" },
+          { "title": "Pell Wall — A method for blending (prática de composição e diluição)", "url": "http://pellwall-perfumes.blogspot.com/2012/06/method-for-blending.html" },
+          { "title": "IFRA — International Fragrance Association", "url": "https://ifrafragrance.org/" }
+        ]
+      },
+      {
+        "id": "m1l2",
+        "title": "Breve história da perfumaria",
+        "duration_min": 10,
+        "body_md": "## A palavra e as origens\n\nA palavra **perfume** vem do latim *per fumum*, \"através da fumaça\" — porque tudo começou com a **queima de resinas e incensos** em rituais, cujo aroma subia aos céus. Perfumar era, na origem, um ato religioso.\n\n- **Mesopotâmia (~1200 a.C.):** uma tábua cuneiforme babilônica registra **Tapputi-Belatekallim**, considerada a **primeira química/perfumista da história** de que se tem registro. Ela já usava flores, óleo, cálamo e mirra, com destilação e filtragem repetidas.\n- **Egito antigo:** os egípcios dominaram incensos e óleos perfumados para culto e embalsamamento. O **Kyphi** era um incenso composto queimado nos templos ao entardecer.\n\n## O mundo árabe-persa e a destilação\n\nNa Idade de Ouro islâmica, dois nomes são centrais:\n\n- **Al-Kindi (séc. IX)** escreveu um *Livro da Química dos Perfumes e Destilações* com mais de cem fórmulas.\n- **Avicena / Ibn Sina (~1000 d.C.)** é creditado por **refinar a destilação a vapor** e aplicá-la à **rosa**, dando origem à água de rosas. (A destilação já existia; ele a aperfeiçoou.)\n\n## Europa: luvas, Grasse e a Água de Colônia\n\nNa Europa renascentista virou moda **perfumar luvas de couro**. A cidade de **Grasse**, na Provença francesa — originalmente um polo de curtumes e luvas —, passou a cultivar jasmim, rosa e tuberosa e se tornou a **capital mundial do perfume**.\n\nEm **1709**, **Giovanni Maria Farina** criou em Colônia (Alemanha) a **Eau de Cologne**, misturando bergamota e cítricos ao álcool. A fábrica Farina ainda opera, na mesma família, há mais de 300 anos.\n\n## A revolução dos sintéticos (fim do séc. XIX)\n\nCom a química orgânica, o perfumista ganhou uma paleta inteiramente nova:\n\n- **Fougère Royale (Houbigant, 1882)** — um dos primeiros perfumes finos a usar um sintético, a **cumarina**, e origem de toda uma família olfativa (o *fougère*).\n- **Jicky (Guerlain, 1889)** — de Aimé Guerlain, muitas vezes chamado o **primeiro perfume moderno**, combinando naturais com **vanilina e cumarina**.\n- **Chanel Nº 5 (1921)** — criado por **Ernest Beaux**, marcou época pelo uso ousado de **aldeídos** sobre florais de Grasse. Virou o modelo da perfumaria de prestígio.\n\n## A indústria de hoje\n\nO mercado global é liderado por quatro grandes casas de fragrância: **Givaudan** (Suíça, fundada em 1895), **DSM-Firmenich** (Suíça, fusão de 2023), **IFF** (EUA) e **Symrise** (Alemanha). São elas que produzem boa parte das moléculas e concentrados que vestem os perfumes que você conhece.",
+        "key_points": [
+          "\"Perfume\" vem de *per fumum*: através da fumaça (incenso ritual).",
+          "Tapputi (~1200 a.C.) é a primeira perfumista registrada; Avicena refinou a destilação da rosa (~1000 d.C.).",
+          "Grasse (França) se tornou a capital do perfume; a Eau de Cologne nasceu em 1709 com Farina.",
+          "Os sintéticos (fim do séc. XIX) revolucionaram a arte: Fougère Royale (1882), Jicky (1889), Chanel Nº 5 (1921).",
+          "O mercado atual é dominado por Givaudan, DSM-Firmenich, IFF e Symrise."
+        ],
+        "exercise": "Escolha uma das fragrâncias históricas citadas (Fougère Royale, Jicky ou Chanel Nº 5) e pesquise na Fragrantica suas notas de topo, coração e base. Anote quais materiais dessa fórmula você já viu no catálogo do app.",
+        "app_links": [
+          { "label": "Ver materiais clássicos no catálogo", "href": "/" }
+        ],
+        "references": [
+          { "title": "History of perfume — Wikipedia", "url": "https://en.wikipedia.org/wiki/History_of_perfume" },
+          { "title": "Tapputi — Wikipedia", "url": "https://en.wikipedia.org/wiki/Tapputi" },
+          { "title": "Farina 1709 — história da Eau de Cologne", "url": "https://farina1709.com/en/pages/history-1" },
+          { "title": "Houbigant Fougère Royale — Fragrantica", "url": "https://www.fragrantica.com/perfume/Houbigant/Fougere-Royale-2686.html" },
+          { "title": "Chanel No. 5 — Wikipedia (aldeídos, Ernest Beaux)", "url": "https://en.wikipedia.org/wiki/Chanel_No._5" },
+          { "title": "Givaudan — Wikipedia", "url": "https://en.wikipedia.org/wiki/Givaudan" }
+        ]
+      },
+      {
+        "id": "m1l3",
+        "title": "Concentrações: EDC, EDT, EDP, Parfum e Extrait",
+        "duration_min": 9,
+        "body_md": "## O que a concentração realmente significa\n\nA sigla no rótulo (EDT, EDP...) indica **quanto de concentrado aromático** existe dissolvido no álcool. Quanto maior a porcentagem de concentrado, mais **intenso** e, em geral, mais **duradouro** o perfume — mas não é uma regra rígida (a duração também depende dos materiais usados).\n\n> **Aviso importante:** **não existe padrão legal universal.** Cada marca define suas faixas do seu jeito, e por isso você encontrará números um pouco diferentes de fonte para fonte. As faixas abaixo são as **típicas** do mercado.\n\n## As faixas típicas\n\n| Categoria | Concentrado (aprox.) | Duração típica |\n|---|---|---|\n| **Eau Fraîche / body splash** | ~1–3% | 1–2 h |\n| **Eau de Cologne (EDC)** | ~2–5% | 2–4 h |\n| **Eau de Toilette (EDT)** | ~5–15% | 4–6 h |\n| **Eau de Parfum (EDP)** | ~15–20% | 6–8 h |\n| **Parfum / Extrait de Parfum** | ~20–30% (até ~40%) | 8 h ou mais |\n\n- **Eau de Cologne (EDC):** leve, fresco, tipicamente **cítrico**. Cuidado com a confusão histórica: a \"Água de Colônia\" original é um *estilo* olfativo (cítrico-fresco), mas hoje EDC designa uma **concentração**.\n- **Eau de Toilette (EDT):** a concentração mais comum no dia a dia. Boa projeção nas primeiras horas, ideal para clima quente.\n- **Eau de Parfum (EDP):** o equilíbrio mais popular hoje entre intensidade e versatilidade.\n- **Parfum / Extrait:** a forma mais concentrada, íntima e duradoura. Projeta menos, mas dura muito.\n\n## Um detalhe que confunde os iniciantes\n\nUm **EDP não é simplesmente um EDT \"mais forte\"**. Muitas vezes o perfumista **reformula** a composição para cada concentração — mudando proporções para que a fragrância se expresse bem em cada nível. Por isso o mesmo nome em EDT e em EDP pode cheirar diferente, não só mais ou menos intenso.\n\n## E na sua bancada?\n\nQuando você monta uma fórmula no app, trabalha com o **concentrado** (as porcentagens relativas dos materiais entre si). A **concentração final** é uma etapa posterior: você dilui esse concentrado no álcool para chegar, por exemplo, a um EDP a 18%. Guarde essa separação: **primeiro se cria o compound, depois se decide a concentração.**",
+        "key_points": [
+          "A sigla indica a % de concentrado aromático no álcool — mais % costuma significar mais intensidade e duração.",
+          "Faixas típicas: EDC ~2–5%, EDT ~5–15%, EDP ~15–20%, Parfum/Extrait ~20–30% (até ~40%).",
+          "Não há padrão legal universal: cada marca define as suas faixas.",
+          "EDP não é só um EDT \"mais forte\": muitas vezes a fórmula é reformulada por concentração.",
+          "Na bancada você cria o concentrado; a concentração final é a diluição posterior no álcool."
+        ],
+        "exercise": "Pegue 2 ou 3 perfumes que você tem em casa e leia o rótulo: qual é a concentração de cada um (EDC/EDT/EDP/Parfum)? Cheire e anote sua percepção de intensidade e de quanto tempo dura cada um. Isso calibra sua intuição sobre a tabela.",
+        "app_links": [
+          { "label": "Montar um concentrado no modo Direto", "href": "/direto" },
+          { "label": "Ver fórmulas de referência", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "Perfume concentrations — Wikipedia (faixas de %)", "url": "https://en.wikipedia.org/wiki/Perfume#Concentration_levels" },
+          { "title": "L'ATELIERO — Cologne, EDT, EDP e Extrait comparados", "url": "https://www.lateliero.com/blogs/magazin/differences-between-cologne-eau-de-toilette-eau-de-parfum-and-extrait-de-parfum" },
+          { "title": "Delacourte — Comprendre la concentration (EDT/EDP/Extrait)", "url": "https://blog.delacourte.com/en/perfume-and-concentration/" }
+        ]
+      },
+      {
+        "id": "m1l4",
+        "title": "Anatomia de um perfume: topo, coração e base",
+        "duration_min": 9,
+        "body_md": "## A pirâmide olfativa\n\nUm perfume clássico é pensado em **três camadas**, organizadas pela **volatilidade** (velocidade de evaporação) dos materiais. É a famosa **pirâmide olfativa**, popularizada por Jean Carles.\n\n### Notas de topo (top notes)\nMoléculas **leves e voláteis**, que evaporam primeiro. São a **primeira impressão**, sentida nos primeiros minutos, e desaparecem rápido (poucos minutos a ~1 hora).\n- **Exemplos:** cítricos (bergamota, limão, laranja), aromáticos frescos (alecrim, hortelã), aldeídos.\n\n### Notas de coração (heart / middle notes)\nO **corpo** do perfume: emergem quando o topo se dissipa e sustentam a fragrância por várias horas. Dão a personalidade central.\n- **Exemplos:** florais (rosa, jasmim, gerânio, ylang-ylang), especiarias (canela, cardamomo, pimenta).\n\n### Notas de fundo (base notes)\nMoléculas **pesadas e pouco voláteis**, as últimas a evaporar. São a **memória** do perfume — podem durar 24 horas ou mais na pele e no tecido. Também funcionam como **fixadores**, segurando as notas mais leves.\n- **Exemplos:** madeiras (sândalo, cedro, vetiver, patchouli), resinas/bálsamos (incenso, benjoim, labdano), baunilha, âmbar, almíscares.\n\n## Como as camadas conversam\n\nNa prática, os materiais não vivem em caixas separadas: muitos são de **transição** (topo-coração ou coração-base). No catálogo do app, você verá que a lavanda, por exemplo, é marcada como **topo-coração**, e o incenso como **coração-base**. Um bom perfume tem **continuidade** — as camadas se encadeiam sem \"buracos\", de modo que a passagem de uma para a outra soe fluida.\n\n## Regra prática de proporção\n\nUma diretriz didática clássica para começar (não é lei) é pensar aproximadamente em:\n\n- **~15–25% de topo**\n- **~30–40% de coração**\n- **~40–50% de base**\n\nComo a base é mais tenaz, ela costuma ocupar uma fatia maior do concentrado para dar estrutura e duração. Ajuste sempre pelo cheiro, não só pelos números.\n\n## Fixadores\n\nUm **fixador** é um material de baixa volatilidade que **retarda a evaporação** do conjunto e prolonga a fragrância. Muitos fundos (resinas, madeiras pesadas, almíscares) cumprem esse papel. É por isso que a base é tão decisiva para a duração.",
+        "key_points": [
+          "A pirâmide olfativa organiza o perfume por volatilidade: topo, coração e base.",
+          "Topo = primeira impressão, evapora em minutos (cítricos, aromáticos, aldeídos).",
+          "Coração = corpo e personalidade, dura horas (florais, especiarias).",
+          "Base = memória e duração, dura 24h+ e fixa as demais notas (madeiras, resinas, baunilha, almíscares).",
+          "Diretriz didática de proporção: ~15–25% topo, ~30–40% coração, ~40–50% base — ajustar pelo cheiro."
+        ],
+        "exercise": "Escolha 3 materiais no catálogo — um de topo, um de coração e um de base — e monte um mini-acorde de 3 partes no modo Direto (ex.: bergamota + rosa + sândalo). Depois cheire em intervalos de 5, 30 e 120 minutos numa fita e anote a ordem em que cada nota some. Você acabou de observar a pirâmide funcionando.",
+        "app_links": [
+          { "label": "Filtrar materiais por posição de nota no catálogo", "href": "/" },
+          { "label": "Montar um acorde topo-coração-base no Direto", "href": "/direto" },
+          { "label": "Ver combinações sugeridas", "href": "/combinacoes" }
+        ],
+        "references": [
+          { "title": "Note (perfumery) — Wikipedia (pirâmide topo/coração/base, volatilidade)", "url": "https://en.wikipedia.org/wiki/Note_(perfumery)" },
+          { "title": "Distribuidora Paris — Notas olfativas: topo, coração e fundo (PT)", "url": "https://distribuidoraparis.com.br/notas-olfativas-explicadas-topo-coracao-e-fundo/" },
+          { "title": "The Good Scents Company — dados de tenacidade/substantividade dos materiais", "url": "https://www.thegoodscentscompany.com/" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m2",
+    "title": "O Olfato e a Linguagem Olfativa",
+    "level": "iniciante",
+    "summary": "Como o nariz funciona de verdade, por que o cheiro mexe tanto com memória e emoção, como treinar o próprio olfato de forma disciplinada e como organizar e nomear o que você sente com famílias olfativas e vocabulário técnico.",
+    "lessons": [
+      {
+        "id": "m2l1",
+        "title": "Como funciona o olfato",
+        "duration_min": 10,
+        "body_md": "## O caminho de uma molécula de cheiro\n\nCheirar é um processo **químico**. Um material só tem cheiro se libera **moléculas voláteis** no ar. O caminho é:\n\n1. As moléculas entram pelo nariz e **se dissolvem no muco** que reveste o **epitélio olfativo**, no alto da cavidade nasal.\n2. Ali existem milhões de **neurônios olfativos** (cerca de **6 a 10 milhões** por narina). Cada neurônio carrega um **único tipo de receptor**.\n3. Quando a molécula se encaixa no receptor, o neurônio **dispara** um sinal elétrico.\n4. Os sinais sobem pelos axônios, atravessam o osso (lâmina cribriforme) e chegam ao **bulbo olfativo**.\n5. Do bulbo, o sinal segue direto para o **sistema límbico** — em especial a **amígdala** (emoção) e o **hipocampo** (memória).\n\n## O código combinatório\n\nO ser humano tem cerca de **400 tipos funcionais de receptores olfativos** (de um total de ~800 genes; quase metade são pseudogenes inativos). Isso é a **maior família de genes** do genoma humano.\n\nMas se temos só ~400 receptores, como distinguimos tantos cheiros? Pelo **código combinatório**, descoberto por **Linda Buck e Richard Axel** (que ganharam o **Prêmio Nobel de Medicina em 2004**):\n\n- **Um** receptor reconhece **vários** odorantes diferentes.\n- **Um** odorante ativa **vários** receptores ao mesmo tempo.\n- Cada cheiro gera uma **combinação única** de receptores ativados — como acordes num piano com poucas teclas, mas infinitas melodias.\n\nUma pequena mudança na molécula, ou até na **concentração**, muda o \"acorde\" e, portanto, o cheiro percebido.\n\n## Ortonasal e retronasal\n\nExistem duas formas de sentir cheiro:\n\n- **Ortonasal:** cheirar pelo nariz (o que o perfumista faz).\n- **Retronasal:** os aromas que sobem da boca/garganta ao mastigar e engolir — por isso a comida perde o \"gosto\" quando você está resfriado. Boa parte do que chamamos de \"sabor\" é, na verdade, olfato retronasal.\n\n## Por que o cheiro é tão emocional\n\nEsse é o ponto mais fascinante: o olfato é o **único sentido** cujo sinal chega ao córtex de forma quase direta, com forte ligação ao sistema límbico, **sem o mesmo desvio obrigatório pelo tálamo** que os outros sentidos têm. É por isso que um cheiro pode disparar uma **memória vívida e carregada de emoção** de repente — o famoso **fenômeno de Proust** (o narrador que revive a infância ao sentir uma madeleine no chá). Estudos mostram que memórias evocadas por cheiro tendem a ser mais antigas e mais emocionais que as evocadas por palavras ou imagens.",
+        "key_points": [
+          "Cheiro é química: só sentimos moléculas voláteis dissolvidas no muco do epitélio olfativo.",
+          "Temos ~400 tipos funcionais de receptores (de ~800 genes) — a maior família gênica humana.",
+          "Distinguimos cheiros pelo código combinatório (Buck & Axel, Nobel 2004): cada odor = combinação única de receptores.",
+          "Olfato ortonasal (pelo nariz) vs. retronasal (pela boca ao comer) — este último é boa parte do 'sabor'.",
+          "O olfato liga-se direto ao sistema límbico (amígdala/hipocampo): daí sua força emocional e o fenômeno de Proust."
+        ],
+        "exercise": "Faça o teste retronasal: tampe o nariz com os dedos, coma algo de sabor marcante (um doce ou fruta) e preste atenção ao 'gosto'. Depois solte o nariz enquanto mastiga. Anote a diferença — você acabou de sentir a contribuição do olfato retronasal ao sabor.",
+        "app_links": [
+          { "label": "Explorar materiais e treinar o reconhecimento", "href": "/" }
+        ],
+        "references": [
+          { "title": "StatPearls — Physiology, Olfactory (NCBI/NIH)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK542239/" },
+          { "title": "Niimura & Nei 2009 — genes de receptores olfativos humanos (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2752031/" },
+          { "title": "Malnic, Buck et al. 1999 — código combinatório para odores (Cell)", "url": "https://pubmed.ncbi.nlm.nih.gov/10089886/" },
+          { "title": "Prêmio Nobel de Medicina 2004 — Buck & Axel", "url": "https://www.nobelprize.org/prizes/medicine/2004/summary/" },
+          { "title": "NIDCD — Smell Disorders (ortonasal/retronasal)", "url": "https://www.nidcd.nih.gov/health/smell-disorders" }
+        ]
+      },
+      {
+        "id": "m2l2",
+        "title": "Treinando o nariz: memória olfativa e diário",
+        "duration_min": 9,
+        "body_md": "## O nariz se educa, não se nasce pronto\n\nA boa notícia: **olfato treina**. Perfumistas profissionais não têm narizes \"mágicos\" — eles têm um **vocabulário olfativo** construído por anos de cheirar com atenção e **nomear** o que sentem. Cheirar sem nomear é passatempo; cheirar e nomear é treino.\n\n## Como cheirar uma fita (blotter) do jeito certo\n\nA fita de papel (*mouillette*/blotter) é a ferramenta número um do treino:\n\n1. **Mergulhe só a ponta** (~1 cm) da fita no material, ou borrife de alguns centímetros de distância.\n2. **Etiquete cada fita** na hora com o nome do material — nada de confiar na memória.\n3. **Espere ~10 segundos** para o álcool/solvente evaporar antes de cheirar (senão você sente só o solvente).\n4. Segure a fita a **1–2 dedos de distância** do nariz — **não encoste** na narina.\n5. Faça **cheiradas curtas e suaves**, não inspirações profundas.\n\n## Fadiga olfativa: por que você \"para de sentir\"\n\nDepois de alguns minutos cheirando a mesma coisa, o cheiro parece **sumir**. Isso é a **fadiga olfativa** (ou adaptação): o sistema se dessensibiliza ao constante para ficar alerta ao novo. **É normal e temporário** — some ao sair do ambiente.\n\n- **Cuidado com o mito do café:** cheirar grãos de café **não** \"reseta\" o nariz. Um estudo controlado (Grosofsky et al., 2011) mostrou que o café **não** foi melhor do que apenas cheirar ar puro.\n- **O que funciona:** respirar **ar fresco** e cheirar a **dobra do próprio cotovelo/pele**, à qual você já está adaptado — ela serve de \"neutro\" olfativo. E, sobretudo, **limitar a 3–5 materiais** por sessão antes de descansar.\n\n## O diário olfativo\n\nA ferramenta mais poderosa do estudante é o **diário olfativo**. Para cada material que cheirar, registre:\n\n- **Nome** e origem (natural/sintético, fornecedor).\n- **Família** e **posição na pirâmide** (topo/coração/base).\n- **Descritores** (ex.: \"cítrico, verde, amargo, com um fundo amadeirado\").\n- **A que te lembra** — uma imagem, um lugar, uma memória. Isso ancora o cheiro na sua memória de longo prazo.\n- **Evolução na fita** ao longo do tempo (5 min, 30 min, algumas horas).\n\nRepetição espaçada é o segredo: revisite as mesmas fitas em dias diferentes. Em poucas semanas, você reconhecerá dezenas de materiais de olhos fechados.",
+        "key_points": [
+          "Olfato é treinável: o diferencial do profissional é vocabulário construído cheirando e nomeando.",
+          "Blotter certo: molhar só a ponta, etiquetar, esperar ~10s, manter 1–2 dedos de distância, cheiradas curtas.",
+          "Fadiga olfativa é normal e temporária; limite-se a 3–5 materiais por sessão.",
+          "O mito do café é falso; ar fresco e cheirar a própria pele ajudam mais.",
+          "Mantenha um diário olfativo: nome, família, nota, descritores, memórias e evolução na fita."
+        ],
+        "exercise": "Inicie hoje seu diário olfativo. Escolha 5 materiais no catálogo do app, cheire cada um em uma fita etiquetada e registre para cada: 3 descritores, a família, a posição na pirâmide e uma memória que ele evoca. Amanhã, cheire as mesmas 5 fitas de novo sem olhar suas notas e veja quantas você reconhece.",
+        "app_links": [
+          { "label": "Escolher materiais para a sessão de treino", "href": "/" },
+          { "label": "Ver detalhes de um material (família, notas)", "href": "/material/{id}" }
+        ],
+        "references": [
+          { "title": "Grosofsky et al. 2011 — café e ar não diferem na identificação de odores", "url": "https://www.researchgate.net/publication/51214009_An_Exploratory_Investigation_of_Coffee_and_Lemon_Scents_and_Odor_Identification" },
+          { "title": "The Perfume Society — grãos de café refrescam o nariz? (mito)", "url": "https://perfumesociety.org/do-coffee-beans-help-refresh-your-nose/" },
+          { "title": "Fragrantica Brasil — fitas olfativas (papel cheiroso), como usar", "url": "https://www.fragrantica.com.br/novidades/Nos-Bastidores-do-Papel-Cheiroso-Conhecimentos-Sobres-Fitas-Olfativas-por-Scentis-7142.html" }
+        ]
+      },
+      {
+        "id": "m2l3",
+        "title": "Famílias olfativas e a Roda de Michael Edwards",
+        "duration_min": 11,
+        "body_md": "## Por que classificar cheiros\n\nSão milhares de fragrâncias no mundo. Para estudá-las, comparar e conversar sobre elas, agrupamos por **famílias olfativas** — cheiros que compartilham caráter. Há duas grandes classificações que você precisa conhecer.\n\n## A Roda de Michael Edwards\n\n**Michael Edwards** começou a classificar fragrâncias em **1983** e publicou sua **Roda das Fragrâncias** (Fragrance Wheel) em **1992**. Ela funciona como um **círculo de cores**: famílias **vizinhas** compartilham caráter e se misturam bem; famílias **opostas** contrastam. Hoje ela organiza mais de 50 mil perfumes e é referência da indústria.\n\nSão **4 famílias principais**, cada uma com subfamílias:\n\n- **FLORAL** — Floral · Soft Floral (floral suave/aldeídico) · **Floral Amber** (antes \"Floral Oriental\")\n- **AMBER** (a família antes chamada **Oriental**) — **Soft Amber** · **Amber** · **Woody Amber**\n- **WOODY** (amadeirado) — Woods (madeiras) · Mossy Woods (chipre/musgo) · Dry Woods (madeiras secas, couro/fumaça)\n- **FRESH** (fresco) — Aromatic (aromático/fougère) · Citrus (cítrico) · Water (aquático/marinho) · Green (verde) · Fruity (frutado)\n\n> **Mudança importante:** em **junho de 2021**, Edwards **substituiu o termo \"Oriental\" por \"Amber\"** (ambarado) em toda a classificação, para descrever melhor o caráter (quente, resinoso, baunilhado) e abandonar a conotação geográfica. Você ainda verá \"Oriental\" em textos antigos — saiba que hoje o nome oficial é **Amber/Ambarado**.\n\n## A classificação francesa clássica (SFP)\n\nA **Société Française des Parfumeurs** estabeleceu (1984, revista em 1990) uma classificação com **7 famílias**, muito usada na tradição francesa:\n\n1. **Hespéridés** (cítricos) 2. **Florale** (floral) 3. **Fougère** 4. **Chyprée** (chipre) 5. **Boisée** (amadeirada) 6. **Ambrée/Orientale** 7. **Cuir** (couro) — algumas fontes listam ainda **Aromatique**.\n\n## Dois acordes que viraram famílias\n\nDuas famílias nasceram de perfumes específicos e valem uma nota:\n\n- **Chipre (Chypre):** contraste de **bergamota** (topo) com um fundo escuro de **musgo de carvalho (oakmoss) + labdano**. O nome vem de *Chypre* de **François Coty (1917)**, inspirado na ilha de Chipre. Exemplo arquetípico: **Guerlain Mitsouko (1919)**.\n- **Fougère (\"samambaia\"):** **lavanda + cumarina** (feno/fava tonka) **+ musgo de carvalho**. O nome vem de **Fougère Royale de Houbigant (1882)** — o primeiro perfume fino a usar um sintético (a cumarina). Curiosidade: samambaia não tem cheiro; o nome é evocativo.\n\n## Exemplos icônicos por família\n\n- Floral → Chanel Nº 5 · Amber → Shalimar (Guerlain) · Woody → Terre d'Hermès · Fresh → Acqua di Giò · Chipre → Mitsouko · Fougère → Fougère Royale.",
+        "key_points": [
+          "Famílias olfativas agrupam cheiros por caráter para estudo e comparação.",
+          "Roda de Michael Edwards (1983/1992): 4 famílias — Floral, Amber, Woody, Fresh — com subfamílias, arranjadas como círculo de cores.",
+          "Em junho de 2021 'Oriental' foi renomeado para 'Amber' (ambarado) na classificação de Edwards.",
+          "A classificação francesa (SFP) tem 7 famílias, incluindo Hespéridé, Fougère e Chypre.",
+          "Chipre = bergamota + oakmoss + labdano (Coty, 1917); Fougère = lavanda + cumarina + oakmoss (Houbigant, 1882)."
+        ],
+        "exercise": "Use o catálogo do app filtrando por família (ex.: cítricos, florais, amadeirados) e monte três pequenos grupos de materiais, um por família principal. Depois cheire um material de cada e tente descrever, com suas palavras, o que faz aquela família ser aquela família.",
+        "app_links": [
+          { "label": "Filtrar o catálogo por família (ex.: cítricos)", "href": "/?family=citrus" },
+          { "label": "Filtrar por amadeirados", "href": "/?family=woody-cedar" },
+          { "label": "Ver combinações por família", "href": "/combinacoes" }
+        ],
+        "references": [
+          { "title": "Michael Edwards — Fragrance Wheel (site oficial)", "url": "https://www.fragrancesoftheworld.com/FragranceWheel" },
+          { "title": "Fragrance wheel — Wikipedia", "url": "https://en.wikipedia.org/wiki/Fragrance_wheel" },
+          { "title": "Chypre — Wikipedia (acorde e história, Coty 1917)", "url": "https://en.wikipedia.org/wiki/Chypre" },
+          { "title": "Société Française des Parfumeurs — classificação oficial", "url": "https://www.sfp-parfumeurs.com/fr/article/classification-officielle-des-parfums-24" },
+          { "title": "ELLE Brasil — de Oriental a Ambarado (rename de 2021)", "url": "https://elle.com.br/beleza/perfumaria-oriental-ambarado-familia-olfativa" }
+        ]
+      },
+      {
+        "id": "m2l4",
+        "title": "Vocabulário de descritores olfativos",
+        "duration_min": 8,
+        "body_md": "## Nomear é dominar\n\nVocê só controla um cheiro quando consegue **descrevê-lo**. O vocabulário olfativo é a ponte entre o que o nariz sente e o que a mente pensa. Perfumistas usam um conjunto razoavelmente consensual de **descritores** — muitos emprestados de outros sentidos (\"quente\", \"seco\", \"pesado\").\n\n## Descritores por dimensão\n\n**Por família/caráter:**\n- **Cítrico** — bergamota, limão, laranja: fresco, ácido, ensolarado.\n- **Floral** — rosa, jasmim: pétalas; pode ser **branco** (jasmim, tuberosa, indólico) ou **rosado**.\n- **Verde** — folha amassada, capim cortado, talo.\n- **Aromático/herbal** — lavanda, alecrim, tomilho.\n- **Amadeirado** — cedro, sândalo, vetiver: seco ou cremoso.\n- **Resinoso/balsâmico** — incenso, benjoim, labdano: quente, doce, denso.\n- **Especiado** — canela, cravo, pimenta, cardamomo.\n- **Ambarado** — quente, doce, resinoso (labdano + baunilha).\n- **Amuscarado (musk)** — limpo, aveludado, \"pele\".\n- **Animálico** — civeta, castóreo: quente, sujo, carnal (em traços).\n- **Aquático/marinho, ozônico** — brisa do mar, ar após a chuva.\n- **Gourmand** — comestível: baunilha, caramelo, chocolate.\n\n**Por textura/qualidade (adjetivos transversais):**\n- **Seco × cremoso/leitoso**, **quente × frio**, **doce × amargo**, **pesado × transparente/aéreo**, **limpo × sujo**, **áspero × macio**, **brilhante × abafado (mofado)**, **linear × complexo**.\n\n## Conceitos técnicos de comportamento\n\nAlém do caráter, descrevemos **como** o cheiro se comporta:\n\n- **Projeção (sillage):** o quanto o perfume se espalha no ar ao redor.\n- **Longevidade/tenacidade:** por quanto tempo dura.\n- **Difusão:** velocidade com que preenche o ambiente.\n- **Volume/força:** intensidade percebida.\n- **Facetas:** os \"lados\" de um material (ex.: a rosa tem facetas mel, verde, especiada).\n- **Nuance:** um traço sutil por baixo do caráter dominante.\n\n## Cuidado com o vocabulário emprestado\n\nUse metáforas (\"cheiro de domingo de manhã\") no seu **diário pessoal** — elas ajudam a memória. Mas, ao **conversar tecnicamente** ou escrever uma fórmula, prefira os descritores consensuais acima: eles são compreendidos por qualquer perfumista. A dica de ouro: para cada material, force-se a listar **pelo menos 3 descritores** — quanto mais você pratica, mais fino fica o seu nariz.",
+        "key_points": [
+          "Descrever é dominar: o vocabulário conecta o que o nariz sente ao que a mente pensa.",
+          "Descritores de família: cítrico, floral (branco/rosado), verde, amadeirado, balsâmico, especiado, ambarado, musk, animálico, aquático, gourmand.",
+          "Adjetivos transversais de textura: seco/cremoso, quente/frio, doce/amargo, pesado/transparente, limpo/sujo.",
+          "Comportamento: projeção (sillage), longevidade, difusão, volume, facetas e nuances.",
+          "Metáforas servem ao diário pessoal; para comunicação técnica, use descritores consensuais."
+        ],
+        "exercise": "Volte às fitas do seu diário (L2.2) e reescreva cada descrição usando apenas descritores desta aula: escolha 1 família, 2 adjetivos de textura e note projeção e longevidade. Depois, no catálogo, abra a página de um material e compare os descritores oficiais com os seus.",
+        "app_links": [
+          { "label": "Ver descritores oficiais de um material", "href": "/material/{id}" },
+          { "label": "Explorar o catálogo por caráter olfativo", "href": "/" }
+        ],
+        "references": [
+          { "title": "Michael Edwards — Fragrance Wheel (vocabulário de famílias)", "url": "https://www.fragrancesoftheworld.com/FragranceWheel" },
+          { "title": "The Good Scents Company — descritores e dados de odor por material", "url": "https://www.thegoodscentscompany.com/" },
+          { "title": "Scentspiracy — fichas de ingredientes (descritores olfativos)", "url": "https://www.scentspiracy.com/fragrance-ingredients" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m3",
+    "title": "Matérias-Primas",
+    "level": "iniciante-intermediario",
+    "summary": "O coração do ofício: conhecer os materiais. Naturais (óleos essenciais, absolutos, resinoides) e sintéticos (por que existem e suas vantagens), um starter kit comentado, o conceito de força e limiar de detecção (ODT) — e onde comprar tudo isso no Brasil.",
+    "lessons": [
+      {
+        "id": "m3l1",
+        "title": "Materiais naturais: óleos essenciais, absolutos e resinoides",
+        "duration_min": 11,
+        "body_md": "## De onde vêm os naturais\n\nMateriais naturais são extraídos de plantas (e, historicamente, de animais). O **método de extração** define o tipo de material — e cada método captura o cheiro de um jeito diferente. Conheça os principais:\n\n### Óleo essencial por destilação a vapor\nO material vegetal fica sobre uma grelha; o **vapor d'água** atravessa as plantas, arrasta os compostos voláteis, é condensado e o óleo se separa da água por densidade. É o método mais comum.\n- **Exemplos:** lavanda, rosa otto, alecrim, incenso, patchouli.\n\n### Óleo essencial por prensagem a frio (cítricos)\nMétodo **mecânico** e **sem calor**, usado quase só para **cascas de cítricos**: a casca é raspada/perfurada, liberando o óleo, depois separado por centrifugação. O frio preserva o topo fresco e brilhante.\n- **Exemplos:** bergamota, limão, laranja, toranja. (No catálogo, elas aparecem como cítricos de topo.)\n\n### Concreto → Absoluto (extração por solvente)\nAlgumas flores são **delicadas demais** para o calor. Nelas usa-se solvente:\n1. O material fresco é extraído com um solvente (ex.: hexano), gerando o **concreto** — massa cerosa e perfumada.\n2. O concreto é lavado em **álcool**, resfriado para as ceras solidificarem e serem filtradas; evaporado o álcool, sobra o **absoluto**.\n- **Por que jasmim e tuberosa só existem como absoluto:** seus compostos aromáticos são **destruídos pelo calor** da destilação, então só a extração suave por solvente captura o cheiro real da flor.\n- **Exemplos:** jasmim, rosa (absoluto), tuberosa, oakmoss.\n\n### Extrato de CO₂ supercrítico\nSob pressão, o **CO₂** vira um solvente que depois evapora como gás, **sem deixar resíduo**. Trabalha em temperatura baixa e entrega um extrato muito fiel ao material natural. Ótimo para especiarias, raízes e florais delicados.\n\n### Resinoides e tinturas\n- **Resinoide:** extrato de uma **resina, goma-resina ou bálsamo** — materiais tenazes, usados como **fixadores**. Exemplos: **benjoim** (bálsamo de *Styrax*), **labdano** (resina do *Cistus*), **mirra** (goma-resina).\n- **Tintura:** maceração do material em álcool por semanas/meses (ex.: tintura de baunilha, de âmbar-cinzento).\n\n## A grande vantagem — e o grande limite — dos naturais\n\nNaturais têm uma **complexidade** difícil de imitar: um só óleo pode conter dezenas ou centenas de moléculas. Em compensação, **variam** de safra para safra, de origem para origem, e alguns são **caros** ou **restritos** (por sustentabilidade ou por segurança/IFRA). Por isso a perfumaria moderna combina naturais **e** sintéticos — tema da próxima aula.",
+        "key_points": [
+          "O método de extração define o tipo de material natural e como o cheiro é capturado.",
+          "Destilação a vapor: método mais comum (lavanda, rosa otto, patchouli).",
+          "Prensagem a frio: só para cítricos, sem calor, preserva o topo fresco (bergamota, limão).",
+          "Concreto→absoluto (solvente): para florais delicados; jasmim e tuberosa só existem como absoluto por serem sensíveis ao calor.",
+          "Resinoides (benjoim, labdano, mirra) são extratos de resinas/bálsamos usados como fixadores."
+        ],
+        "exercise": "No catálogo, separe um cítrico prensado a frio (ex.: bergamota), um destilado (ex.: lavanda ou incenso) e um absoluto (ex.: jasmim ou rosa). Cheire os três em fitas e anote a diferença de 'temperatura' e complexidade entre eles. Consulte a ficha de cada material no app para confirmar o método de extração.",
+        "app_links": [
+          { "label": "Ver cítricos (prensados a frio) no catálogo", "href": "/?family=citrus" },
+          { "label": "Ver resinas e balsâmicos", "href": "/?family=resinous-balsamic" },
+          { "label": "Abrir a ficha de um material", "href": "/material/{id}" }
+        ],
+        "references": [
+          { "title": "Scentspiracy — técnicas de extração (visão geral)", "url": "https://www.scentspiracy.com/blog/extractions-techniques" },
+          { "title": "Eden Botanicals — extraction methods (destilação, expressão, concreto/absoluto, CO₂)", "url": "https://www.edenbotanicals.com/extraction-methods" },
+          { "title": "Absolute (perfumery) — Wikipedia (concreto→absoluto)", "url": "https://en.wikipedia.org/wiki/Absolute_(perfumery)" },
+          { "title": "Edens Garden — jasmim não rende óleo por destilação (só absoluto)", "url": "https://www.edensgarden.com/blogs/news/whats-the-difference-between-absolutes-and-essential-oils" },
+          { "title": "In the Box (PT) — o absoluto de jasmim e a sensibilidade ao calor", "url": "https://blog.intheboxperfumes.com.br/o-ouro-da-perfumaria-fina-o-absoluto-de-jasmim/" }
+        ]
+      },
+      {
+        "id": "m3l2",
+        "title": "Materiais sintéticos: por que existem e suas vantagens",
+        "duration_min": 10,
+        "body_md": "## Sintético não é sinônimo de \"pior\"\n\nUm dos maiores mal-entendidos do iniciante é achar que \"natural = bom, sintético = ruim\". Na verdade, **os sintéticos são o que tornou a perfumaria moderna possível**. Estima-se que a paleta de um perfumista tenha na ordem de **4.000–5.000 materiais**, dos quais **~3.000 são sintéticos** e ~1.000 naturais — e a maioria das fragrâncias comerciais é majoritariamente sintética.\n\n## Por que os sintéticos existem — as vantagens\n\n1. **Cheiros impossíveis na natureza.** Algumas flores **não rendem óleo** (o lírio-do-vale/muguet, por exemplo) — só existem via síntese. E famílias inteiras — **aquático/marinho, ozônico** — não têm equivalente natural. O **Calone** (\"cetona de melancia\", descoberto pela Pfizer em 1966) criou sozinho a onda marinha dos anos 1990.\n2. **Consistência e pureza.** Um sintético é **igual todo lote**, sem variação de safra; é mais limpo e fácil de manusear (cristais de vanilina vs. o absoluto de baunilha, pegajoso e escuro).\n3. **Custo e disponibilidade.** Muitas vezes muito mais baratos e sempre disponíveis, sem depender de clima ou geopolítica.\n4. **Sustentabilidade e ética.** Substituem naturais **ameaçados** (o **sândalo indiano**, *Santalum album*, foi classificado como \"Vulnerável\" pela IUCN em 1998) e **materiais animais** (almíscar de cervo, civeta, castóreo, âmbar-cinzento de baleia) — hoje quase totalmente substituídos por sintéticos. O **Ambroxan**, por exemplo, reproduz o âmbar-cinzento a partir do sclareol da sálvia-esclareia.\n\n## Um pouco de história\n\nOs sintéticos entraram na perfumaria no fim do séc. XIX:\n\n- **Cumarina** — sintetizada em 1868 (Perkin); estreou em fragrância fina no **Fougère Royale (1882)**.\n- **Vanilina** — isolada em 1858, sintetizada em 1874; central no **Jicky (Guerlain, 1889)**.\n- **Aldeídos** — protagonistas do **Chanel Nº 5 (1921)**.\n\n## Sintéticos que você vai encontrar sempre\n\n- **Iso E Super** — amadeirado-ambarado seco e aveludado, transparente (IFF, anos 1970).\n- **Hedione** — jasmim transparente e radiante, com lift cítrico; estreou no Eau Sauvage (1966).\n- **Galaxolide** — musk limpo e difuso, tipo \"roupa lavada\".\n- **Ambroxan** — âmbar quente, seco, amadeirado; substituto do âmbar-cinzento.\n- **Vanilina** e **cumarina** — os \"tijolos\" doces de base, herdados da história acima.\n\nConclusão prática: um bom perfumista **não escolhe lado**. Usa o natural pela complexidade e o sintético pela força, pela pureza e por acessar cheiros que a natureza não dá.",
+        "key_points": [
+          "Sintético não é 'pior': a paleta moderna tem ~3.000 sintéticos para ~1.000 naturais.",
+          "Vantagens: cheiros impossíveis (muguet, marinho/Calone), consistência, pureza, custo e disponibilidade.",
+          "Ética/sustentabilidade: substituem naturais ameaçados (sândalo) e materiais animais (Ambroxan ≈ âmbar-cinzento).",
+          "História: cumarina (Fougère Royale, 1882), vanilina (Jicky, 1889), aldeídos (Chanel Nº 5, 1921).",
+          "Clássicos de bancada: Iso E Super, Hedione, Galaxolide, Ambroxan, vanilina, cumarina."
+        ],
+        "exercise": "Escolha um natural do catálogo e pesquise seu 'par' sintético ou reconstituição (ex.: sândalo natural × Javanol/Iso E Super; baunilha × vanilina; âmbar × Ambroxan). Anote que vantagem prática o sintético traz em cada caso (custo, força, pureza ou sustentabilidade).",
+        "app_links": [
+          { "label": "Ver materiais amadeirados-ambarados no catálogo", "href": "/?family=woody-cedar" },
+          { "label": "Montar um acorde no Direto misturando natural e sintético", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Pell Wall — méritos dos sintéticos vs. naturais (substituição de materiais animais)", "url": "http://pellwall-perfumes.blogspot.com/2011/12/article-on-merits-of-synthetic-vs.html" },
+          { "title": "Coumarin — Wikipedia (1868; Fougère Royale 1882)", "url": "https://en.wikipedia.org/wiki/Coumarin" },
+          { "title": "Ambroxide (Ambroxan) — Wikipedia (substituto do âmbar-cinzento)", "url": "https://en.wikipedia.org/wiki/Ambroxide" },
+          { "title": "Santalum album — Wikipedia (IUCN 'Vulnerável', 1998)", "url": "https://en.wikipedia.org/wiki/Santalum_album" },
+          { "title": "Delacourte — natural vs. sintético (~1.000 vs. ~3.000 materiais)", "url": "https://blog.delacourte.com/en/duel-synthesis-natural/" },
+          { "title": "Scentspiracy — Calone (Pfizer, 1966)", "url": "https://www.scentspiracy.com/fragrance-ingredients/p/calone" }
+        ]
+      },
+      {
+        "id": "m3l3",
+        "title": "Principais materiais e o starter kit",
+        "duration_min": 12,
+        "body_md": "## Um kit inicial comentado\n\nVocê não precisa de centenas de materiais para começar. Um **starter kit** bem escolhido cobre topo, coração e base e permite montar acordes completos. Abaixo, materiais comuns e o que cada um faz. (Muitos aparecem no catálogo do app.)\n\n### Topo (frescor, primeira impressão)\n- **Bergamota** — cítrico doce e amadeirado; o topo mais elegante que existe.\n- **Limão siciliano** — cítrico afiado e brilhante.\n- **Citral** — limão-verde muito forte; um reforço de cítrico (use pouco).\n- **Aldeído C-12 MNA** — efeito gasoso, ceroso e difusivo; a assinatura \"aldeídica\" — potentíssimo, use em traços.\n- **Calone** — marinho/ozônico, melão; abre a família aquática.\n\n### Topo-coração (transição aromática)\n- **Lavanda** — herbal-floral, balsâmica; alma do fougère.\n- **Linalol** — floral-cítrico macio, madeira-de-rosa; suaviza e liga a fórmula.\n\n### Coração (o corpo)\n- **Gerânio** — rosado-fresco, com facetas de menta e lichia; ótima \"rosa econômica\".\n- **Rosa (absoluto)** — floral rico, mel e verde; a rainha dos florais.\n- **Jasmim (absoluto) / Hedione** — floral branco indólico (jasmim) ou jasmim transparente e radiante (Hedione).\n- **Ylang-ylang** — floral doce, frutado e cremoso, com topo brilhante.\n\n### Base (estrutura, fixação, duração)\n- **Patchouli** — amadeirado, terroso, canforado; espinha dorsal de muitos chipres.\n- **Vetiver** — terroso, amadeirado, esfumaçado, com lado apimentado.\n- **Cedro** — amadeirado seco, tipo lápis; barato e útil.\n- **Sândalo (indiano) / Javanol** — cremoso, leitoso, aveludado (natural) ou sintético potente e fixador (Javanol).\n- **Iso E Super** — amadeirado-ambarado seco, transparente; adiciona volume e aveludado.\n- **Vanilina** — baunilha doce, cremosa; muito tenaz.\n- **Cumarina** — feno/fava tonka, amêndoa doce; base do fougère.\n- **Ambroxan** — âmbar quente, seco, radiante.\n- **Galaxolide** — musk limpo, roupa lavada.\n- **Benjoim (resinoide)** — baunilha balsâmica, quente; fixador doce.\n- **Labdano (absoluto)** — âmbar-couro, balsâmico; coração do acorde ambarado.\n- **Oakmoss** ou **Evernyl/Veramoss** — verde, terroso, mofado (oakmoss) ou seu substituto seguro/IFRA (Evernyl = Veramoss, a mesma molécula com nomes de marca diferentes).\n\n## Como dosar\n\nA maioria dos sintéticos potentes deve ser **pré-diluída** (10% em álcool; alguns a 1%) e dosada em **frações de porcentagem** da fórmula. Comece sempre pela base e pelo coração (que dão estrutura), e ajuste o topo por último — ele evapora e engana.\n\n> **Regra de ouro do iniciante:** compre **poucos materiais, em amostras pequenas e pré-diluídas**, e **domine cada um** antes de aumentar a paleta. É melhor conhecer 20 materiais profundamente do que ter 200 desconhecidos na gaveta.",
+        "key_points": [
+          "Um starter kit cobre topo, coração e base e já permite acordes completos.",
+          "Topo: bergamota, limão, citral, aldeído C-12, Calone. Coração: gerânio, rosa, jasmim/Hedione, ylang.",
+          "Base: patchouli, vetiver, cedro, sândalo/Javanol, Iso E Super, vanilina, cumarina, Ambroxan, Galaxolide, benjoim, labdano, oakmoss.",
+          "Evernyl e Veramoss são a mesma molécula (substituto de oakmoss) — não confundir com veratraldeído.",
+          "Sintéticos potentes devem ser pré-diluídos (10% ou 1%) e dosados em frações de %."
+        ],
+        "exercise": "Monte um fougère didático de 3 blocos no modo Direto: lavanda (topo-coração) + cumarina (base) + um toque de oakmoss/Evernyl (base), com uma ponta de bergamota no topo. Cheire e ajuste as proporções até sentir a assinatura 'samambaia'. Compare depois com o acorde fougère nas combinações do app.",
+        "app_links": [
+          { "label": "Ver todo o catálogo de materiais", "href": "/" },
+          { "label": "Montar o kit e acordes no modo Direto", "href": "/direto" },
+          { "label": "Explorar combinações e acordes prontos", "href": "/combinacoes" },
+          { "label": "Ver fórmulas de referência", "href": "/formulas" }
+        ],
+        "references": [
+          { "title": "Note (perfumery) — Wikipedia (topo/coração/base por volatilidade)", "url": "https://en.wikipedia.org/wiki/Note_(perfumery)" },
+          { "title": "Scentspiracy — fichas de ingredientes (Iso E Super, Hedione, Ambroxan, Evernyl, Veramoss)", "url": "https://www.scentspiracy.com/fragrance-ingredients" },
+          { "title": "The Good Scents Company — dados de odor por material", "url": "https://www.thegoodscentscompany.com/" },
+          { "title": "Pell Wall — introdução aos kits de aromaquímicos (pré-diluição)", "url": "http://pellwall-perfumes.blogspot.com/2013/03/introduction-to-aroma-chemicals-kits.html" }
+        ]
+      },
+      {
+        "id": "m3l4",
+        "title": "Força odorífera e limiar de detecção (ODT)",
+        "duration_min": 10,
+        "body_md": "## Nem todo cheiro tem o mesmo 'peso'\n\nDois materiais podem estar na mesma quantidade na fórmula e um dominar totalmente o outro. Isso é a **força odorífera** — e ela varia enormemente de material para material. A medida técnica dessa força é o **limiar de detecção olfativa** (em inglês, **ODT — Odor Detection Threshold**).\n\n## O que é o ODT\n\nO **ODT** é a **menor concentração** em que um composto ainda é **perceptível** pelo olfato — convencionalmente, a concentração em que ~50% de um painel treinado detecta o cheiro (mesmo sem identificá-lo).\n\n- **ODT baixo = material muito potente** (basta pouquíssimo para sentir).\n- **ODT alto = material fraco** (precisa de mais para ser notado).\n\nO ODT é expresso em unidades pequenas: **ppm** (partes por milhão), **ppb** (partes por bilhão), até **ppt** (partes por trilhão), ou em **ng/L de ar** (nanogramas por litro de ar).\n\n## Alguns números reais (para calibrar a intuição)\n\nValores publicados na tabela de referência de Leffingwell & Associates (ppb em água) mostram a escala impressionante da potência de certas moléculas:\n\n- **Ambroxan** (isômero −Ambrox): **~0,3 ppb**.\n- **Mercaptana de toranja** (1-p-menteno-8-tiol): **~0,0001 ppb** — uma das mais potentes conhecidas.\n- **β-damascenona** (rosa/frutado): **~0,002 ppb**.\n- **β-ionona** (violeta): **~0,007 ppb**.\n- Pirazinas de pimentão: na casa de **0,001–0,016 ppb**.\n\nCompare: **etilvanilina** fica na casa de **~100 ppb**. Ou seja, a mercaptana de toranja é cerca de **um milhão de vezes** mais potente que a etilvanilina. Moléculas de enxofre (tióis) e pirazinas dominam a faixa ultra-potente.\n\n> **Aviso:** ODTs variam conforme o método de medição e a fonte. Trate os números acima como **ordens de grandeza** verificadas em fonte publicada, não como valores absolutos universais.\n\n## Consequência prática: pré-diluição\n\nPor isso, materiais potentes **nunca** entram puros: são **pré-diluídos** (tipicamente 10% em álcool; os mais fortes a 1% ou até 0,1%) e dosados em **frações de porcentagem** da fórmula. É prática padrão de bancada — como recomenda a Pell Wall, diluir tudo a 10% e reservar diluições ainda menores para os materiais poderosos (ex.: vanilina 1%, civeta 0,1%).\n\n## Força × tenacidade: não confunda\n\n- **Volatilidade** — velocidade de evaporação (alta = topo; baixa = base).\n- **Tenacidade / substantividade** — por quanto tempo o cheiro **persiste** na fita/pele (medida em horas). Ex.: a cumarina tem substantividade da ordem de **centenas de horas**.\n\nUm material pode ser **potente mas fugaz** (aldeídos), ou **discreto mas eterno** (alguns musks). O perfumista equilibra as duas coisas: quanto rende **e** quanto dura.",
+        "key_points": [
+          "Força odorífera = o quanto um material 'pesa' na mistura; a medida técnica é o ODT (limiar de detecção).",
+          "ODT baixo = material potente; ODT alto = material fraco. Unidades: ppm, ppb, ppt, ng/L de ar.",
+          "Exemplos reais (Leffingwell): Ambroxan ~0,3 ppb; mercaptana de toranja ~0,0001 ppb; etilvanilina ~100 ppb.",
+          "Tióis e pirazinas estão entre as moléculas mais potentes conhecidas.",
+          "Materiais potentes são pré-diluídos (10%, 1%, 0,1%) e dosados em frações de %; força ≠ tenacidade."
+        ],
+        "exercise": "Faça um teste de potência com 2 materiais do kit (ex.: um cítrico 'fraco' como laranja e um potente como Iso E Super ou vanilina). Prepare ambos a 10% em álcool, coloque 1 gota de cada em fitas separadas e compare a intensidade. Depois some 1 gota do potente a 5 gotas do fraco e observe quem domina. Registre no diário.",
+        "app_links": [
+          { "label": "Ver força/notas dos materiais no catálogo", "href": "/" },
+          { "label": "Abrir a ficha de um material", "href": "/material/{id}" },
+          { "label": "Testar dosagens no modo Direto", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Leffingwell & Associates — GRAS Flavor Chemicals: Detection Thresholds (PDF)", "url": "http://www.leffingwell.com/GRAS%20Flavor%20Chemicals.pdf" },
+          { "title": "Odor detection threshold — Wikipedia (definição, unidades, exemplos ppt)", "url": "https://en.wikipedia.org/wiki/Odor_detection_threshold" },
+          { "title": "Pell Wall — A method for blending (pré-diluição 10%/1%/0,1%)", "url": "http://pellwall-perfumes.blogspot.com/2012/06/method-for-blending.html" },
+          { "title": "The Good Scents Company — cumarina (substantividade)", "url": "https://www.thegoodscentscompany.com/data/rw1003832.html" }
+        ]
+      },
+      {
+        "id": "m3l5",
+        "title": "Onde comprar matérias-primas no Brasil",
+        "duration_min": 9,
+        "body_md": "## Comprar no Brasil é totalmente viável\n\nAo contrário do que muita gente pensa, dá para montar uma boa bancada com fornecedores **nacionais**. Abaixo, um mapa das categorias e de lojas **confirmadas** (sempre verifique preço, pureza e ficha técnica/GC-MS antes de comprar).\n\n### Óleos essenciais e vegetais (grau perfumaria/aromaterapia)\n- **Ferquima** (ferquima.com.br) — fabricante desde 1979, óleos puros, inclusive raros.\n- **Laszlo / Aromatologia** (laszlo.com.br) — de Belo Horizonte; catálogo grande, com absolutos e espécies nativas brasileiras.\n- **WNF – World Natural Fragrances** (wnf.com.br) — fazenda própria em Monte Verde/MG, cultivo e destilação próprios.\n\n### Químicos aromáticos (sintéticos) e insumos de perfumaria fina\n- **Perfumístico – A Casa do Perfumista** (perfumistico.com.br) — voltado à criação; químicos, fórmulas e conteúdo educativo.\n- **Casa do Saboeiro** (casadosaboeiro.com.br) — 200+ químicos aromáticos.\n- **Anita K Essências** (anitak.com.br) — químicos individuais.\n- **Eu Perfumista** (euperfumista.com.br) — químicos de várias marcas.\n- **Flavorist Brasil** (flavorist.com.br) — importador/distribuidor de químicos, óleos e insumos.\n\n### Casas de essências, fixadores, álcool e corantes\n- **Casa das Essências SS** (casadasessencias.com.br) — matérias-primas, corantes, **álcool de cereais**, kits.\n- **Império das Essências** (imperiodasessencias.com.br) — insumos + frascos.\n- **Palácio das Artes e Essências** (palaciodasessencias.com.br) e **Paris Essências** (parisessencias.com.br).\n\n### Frascos, vidros e embalagens\n- **Rizzo Embalagens** (rizzoembalagens.com.br) — lojas físicas (25 de Março/SP e BH) e envio nacional.\n- **Casa do Perfumista – Curitiba** (casadoperfumista.com.br) — frascos rosqueáveis e difusores.\n\n## Importação (opção avançada)\n- **Perfumer's Apprentice** (EUA, shop.perfumersapprentice.com) — envia ao Brasil; forte em naturais.\n- **Pell Wall** (Reino Unido, pellwall.com) — grande variedade de aromaquímicos.\n- **Atenção:** o frete é caro e insumos aromáticos podem passar por **inspeção aduaneira/Anvisa**, com possível análise laboratorial e taxas. Vale mais a pena para sintéticos específicos indisponíveis aqui.\n\n## Dicas práticas para começar\n1. **Compre pequeno e pré-diluído** (amostras a 5–10%): sintéticos são potentes e caros.\n2. Tenha **álcool de cereais** (perfumer's alcohol) como veículo — vendido pelas casas de essência.\n3. Compre **fixadores e vidros** junto para já montar o kit.\n4. Priorize **fornecedores nacionais** para óleos e químicos comuns; reserve a importação para o que não se acha aqui.\n5. **Peça a ficha técnica/GC-MS** e cheire amostras antes de comprar volume.\n\n> **Nota:** o mercado brasileiro muda rápido; confirme se cada loja está ativa e compare fornecedores. Sempre respeite as normas da **IFRA** e a rotulagem/segurança ao produzir para a pele.",
+        "key_points": [
+          "Dá para montar uma boa bancada só com fornecedores nacionais.",
+          "Óleos essenciais: Ferquima, Laszlo, WNF. Químicos aromáticos: Perfumístico, Casa do Saboeiro, Anita K, Eu Perfumista, Flavorist.",
+          "Casas de essências (álcool de cereais, fixadores, corantes) e lojas de frascos (Rizzo, Casa do Perfumista) completam o kit.",
+          "Importar (Perfumer's Apprentice, Pell Wall) vale para sintéticos específicos, mas envolve frete alto e inspeção aduaneira/Anvisa.",
+          "Comece pequeno e pré-diluído, tenha álcool de cereais, peça ficha técnica/GC-MS e respeite a IFRA."
+        ],
+        "exercise": "Monte sua lista de compras inicial: escolha 8 a 10 materiais do starter kit (L3.3) e cote cada um em pelo menos dois fornecedores nacionais desta aula. Anote preço por mL, se é natural ou sintético e se há pré-diluição disponível. Você terá seu primeiro orçamento de bancada real.",
+        "app_links": [
+          { "label": "Definir os materiais do kit no catálogo", "href": "/" },
+          { "label": "Ver o starter kit e acordes no Direto", "href": "/direto" }
+        ],
+        "references": [
+          { "title": "Ferquima — óleos essenciais e vegetais", "url": "https://www.ferquima.com.br/" },
+          { "title": "Laszlo — aromatologia e óleos essenciais", "url": "https://www.laszlo.com.br/" },
+          { "title": "Perfumístico — A Casa do Perfumista (químicos e fórmulas)", "url": "https://www.perfumistico.com.br/" },
+          { "title": "Casa das Essências — insumos e álcool de cereais", "url": "https://casadasessencias.com.br/" },
+          { "title": "Perfumer's Apprentice — loja (importação)", "url": "https://shop.perfumersapprentice.com/" },
+          { "title": "IFRA — normas de segurança para uso de materiais", "url": "https://ifrafragrance.org/" }
+        ]
+      }
+    ]
+  }
+]

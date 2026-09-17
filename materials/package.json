@@ -1,0 +1,28 @@
+{
+  "name": "perfumista-materials",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Base de dados de químicos aromáticos: scraping (fornecedores BR) + enriquecimento técnico (TGSC/PubChem) + matching",
+  "scripts": {
+    "flavorist": "tsx src/scrape-flavorist.ts",
+    "perfumoteca": "tsx src/scrape-perfumoteca.ts",
+    "perfumistico": "tsx src/scrape-perfumistico.ts",
+    "euperfumista": "tsx src/scrape-euperfumista.ts",
+    "tgsc": "tsx src/crawl-tgsc.ts",
+    "pubchem": "tsx src/enrich-pubchem.ts",
+    "match": "tsx src/build-materials.ts",
+    "stats": "tsx src/stats.ts",
+    "pipeline": "tsx src/build-materials.ts && tsx src/compute-price-per-g.ts && tsx src/classify-materials.ts && tsx src/enrich-pubchem.ts && tsx src/enrich-tgsc.ts && tsx src/derive-notes.ts",
+    "refresh": "LIMIT=9999 tsx src/scrape-flavorist.ts && LIMIT=9999 tsx src/scrape-perfumoteca.ts && LIMIT=9999 tsx src/scrape-perfumistico.ts && tsx src/scrape-euperfumista.ts && npm run pipeline"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "playwright": "^1.49.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

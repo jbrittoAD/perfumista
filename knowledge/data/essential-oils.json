@@ -1,0 +1,492 @@
+{
+  "_meta": {
+    "description": "Common essential oils with approximate main-constituent profiles for the Perfumista heuristic engine.",
+    "caveats": "Percentages are APPROXIMATE ranges. Natural oils vary by chemotype, origin, harvest and grade. Oil-level CAS numbers refer to the natural extract; constituent CAS refer to the pure compound. Values marked null are uncertain and were NOT invented. Always cross-check against a supplier GC-MS certificate before formulating.",
+    "sources": [
+      "Tisserand & Young, Essential Oil Safety, 2nd ed. (2014)",
+      "The Good Scents Company (TGSC)",
+      "ISO monographs (3515, 3518, 770, 3520, 856, etc.)",
+      "Arctander, Perfume and Flavor Materials of Natural Origin (1960)",
+      "PubChem (compound CAS confirmation)"
+    ],
+    "constituent_pct_note": "pct_approx is the midpoint or a representative value inside the cited range; see pct_range for the full range where relevant."
+  },
+  "oils": [
+    {
+      "name": "Lavender (true)",
+      "name_pt": "Lavanda (verdadeira)",
+      "botanical": "Lavandula angustifolia",
+      "cas": "8000-28-0",
+      "family": "aromatic-herbal",
+      "note": "topo-coracao",
+      "main_constituents": [
+        { "compound": "Linalyl acetate", "cas": "115-95-7", "pct_approx": 35, "pct_range": "25-45", "note": "coracao", "family": "ester-floral" },
+        { "compound": "Linalool", "cas": "78-70-6", "pct_approx": 32, "pct_range": "25-38", "note": "topo-coracao", "family": "floral-terpenic" },
+        { "compound": "(Z)-beta-ocimene", "cas": "3338-55-4", "pct_approx": 4, "pct_range": "2-6", "note": "topo", "family": "green-terpenic" },
+        { "compound": "Terpinen-4-ol", "cas": "562-74-3", "pct_approx": 4, "pct_range": "2-6", "note": "coracao", "family": "herbal" },
+        { "compound": "Lavandulyl acetate", "cas": "25905-14-0", "pct_approx": 4, "pct_range": "2-6", "note": "coracao", "family": "ester-herbal" },
+        { "compound": "1,8-Cineole", "cas": "470-82-6", "pct_approx": 1.5, "pct_range": "<2", "note": "topo", "family": "camphoraceous" }
+      ]
+    },
+    {
+      "name": "Bergamot",
+      "name_pt": "Bergamota",
+      "botanical": "Citrus bergamia (expressed)",
+      "cas": "8007-75-8",
+      "family": "citrus",
+      "note": "topo",
+      "main_constituents": [
+        { "compound": "Limonene (d-)", "cas": "5989-27-5", "pct_approx": 38, "pct_range": "25-53", "note": "topo", "family": "citrus-terpenic" },
+        { "compound": "Linalyl acetate", "cas": "115-95-7", "pct_approx": 30, "pct_range": "15-40", "note": "coracao", "family": "ester-floral" },
+        { "compound": "Linalool", "cas": "78-70-6", "pct_approx": 10, "pct_range": "2-20", "note": "topo-coracao", "family": "floral-terpenic" },
+        { "compound": "gamma-Terpinene", "cas": "99-85-4", "pct_approx": 7, "pct_range": "5-11", "note": "topo", "family": "terpenic" },
+        { "compound": "beta-Pinene", "cas": "127-91-3", "pct_approx": 7, "pct_range": "4-11", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "Bergapten (5-MOP, phototoxic furocoumarin)", "cas": "484-20-8", "pct_approx": 0.25, "pct_range": "0.1-0.4", "note": "base", "family": "coumarin-phototoxic" }
+      ]
+    },
+    {
+      "name": "Sweet Orange",
+      "name_pt": "Laranja doce",
+      "botanical": "Citrus sinensis (expressed)",
+      "cas": "8008-57-9",
+      "family": "citrus",
+      "note": "topo",
+      "main_constituents": [
+        { "compound": "Limonene (d-)", "cas": "5989-27-5", "pct_approx": 93, "pct_range": "90-96", "note": "topo", "family": "citrus-terpenic" },
+        { "compound": "Myrcene", "cas": "123-35-3", "pct_approx": 2, "pct_range": "1-3", "note": "topo", "family": "green-terpenic" },
+        { "compound": "alpha-Pinene", "cas": "80-56-8", "pct_approx": 0.7, "pct_range": "0.4-1", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "Linalool", "cas": "78-70-6", "pct_approx": 0.6, "pct_range": "0.2-1", "note": "topo-coracao", "family": "floral-terpenic" },
+        { "compound": "Decanal / octanal (aldehydes, odor-key trace)", "cas": null, "pct_approx": null, "pct_range": "trace", "note": "topo", "family": "aldehydic" }
+      ]
+    },
+    {
+      "name": "Lemon",
+      "name_pt": "Limao siciliano",
+      "botanical": "Citrus limon (expressed)",
+      "cas": "8008-56-8",
+      "family": "citrus",
+      "note": "topo",
+      "main_constituents": [
+        { "compound": "Limonene (d-)", "cas": "5989-27-5", "pct_approx": 66, "pct_range": "56-76", "note": "topo", "family": "citrus-terpenic" },
+        { "compound": "beta-Pinene", "cas": "127-91-3", "pct_approx": 11, "pct_range": "7-16", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "gamma-Terpinene", "cas": "99-85-4", "pct_approx": 9, "pct_range": "6-13", "note": "topo", "family": "terpenic" },
+        { "compound": "alpha-Pinene", "cas": "80-56-8", "pct_approx": 2.5, "pct_range": "1.5-4", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "Citral (geranial + neral, odor-key)", "cas": "5392-40-5", "pct_approx": 3, "pct_range": "1-5", "note": "topo", "family": "citrus-aldehydic" }
+      ]
+    },
+    {
+      "name": "Lime",
+      "name_pt": "Lima / Limao taiti",
+      "botanical": "Citrus aurantifolia",
+      "cas": "8008-26-2",
+      "family": "citrus",
+      "note": "topo",
+      "main_constituents": [
+        { "compound": "Limonene (d-)", "cas": "5989-27-5", "pct_approx": 50, "pct_range": "40-65", "note": "topo", "family": "citrus-terpenic" },
+        { "compound": "beta-Pinene", "cas": "127-91-3", "pct_approx": 15, "pct_range": "10-20", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "gamma-Terpinene", "cas": "99-85-4", "pct_approx": 11, "pct_range": "8-15", "note": "topo", "family": "terpenic" },
+        { "compound": "Citral (odor-key; higher in distilled)", "cas": "5392-40-5", "pct_approx": null, "pct_range": "trace-few%", "note": "topo", "family": "citrus-aldehydic" }
+      ],
+      "notes": "Expressed lime is phototoxic; distilled lime is non-phototoxic and richer in terpinolene/alpha-terpineol/cineole."
+    },
+    {
+      "name": "Grapefruit",
+      "name_pt": "Toranja / Grapefruit",
+      "botanical": "Citrus paradisi (expressed)",
+      "cas": "8016-20-4",
+      "family": "citrus",
+      "note": "topo",
+      "main_constituents": [
+        { "compound": "Limonene (d-)", "cas": "5989-27-5", "pct_approx": 91, "pct_range": "88-95", "note": "topo", "family": "citrus-terpenic" },
+        { "compound": "Myrcene", "cas": "123-35-3", "pct_approx": 2.5, "pct_range": "1-4", "note": "topo", "family": "green-terpenic" },
+        { "compound": "alpha-Pinene", "cas": "80-56-8", "pct_approx": 0.5, "pct_range": "0.3-0.7", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "Nootkatone (odor-key grapefruit ketone)", "cas": "4674-50-4", "pct_approx": 0.4, "pct_range": "0.1-0.8", "note": "coracao", "family": "ketone-fruity" }
+      ]
+    },
+    {
+      "name": "Petitgrain (bigarade)",
+      "name_pt": "Petitgrain (folha de laranjeira amarga)",
+      "botanical": "Citrus aurantium (leaf/twig, distilled)",
+      "cas": "8014-17-3",
+      "family": "citrus-aromatic",
+      "note": "topo-coracao",
+      "main_constituents": [
+        { "compound": "Linalyl acetate", "cas": "115-95-7", "pct_approx": 48, "pct_range": "40-55", "note": "coracao", "family": "ester-floral" },
+        { "compound": "Linalool", "cas": "78-70-6", "pct_approx": 24, "pct_range": "20-28", "note": "topo-coracao", "family": "floral-terpenic" },
+        { "compound": "alpha-Terpineol", "cas": "98-55-5", "pct_approx": 6, "pct_range": "4-8", "note": "coracao", "family": "floral-terpenic" },
+        { "compound": "Geranyl acetate", "cas": "105-87-3", "pct_approx": 3.5, "pct_range": "3-4", "note": "coracao", "family": "ester-floral" },
+        { "compound": "Geraniol", "cas": "106-24-1", "pct_approx": 3, "pct_range": "2-4", "note": "coracao", "family": "floral-rosy" }
+      ]
+    },
+    {
+      "name": "Neroli",
+      "name_pt": "Neroli (flor de laranjeira, destilada)",
+      "botanical": "Citrus aurantium (flower, distilled)",
+      "cas": "8016-38-4",
+      "family": "floral-citrus",
+      "note": "topo-coracao",
+      "main_constituents": [
+        { "compound": "Linalool", "cas": "78-70-6", "pct_approx": 36, "pct_range": "28-44", "note": "topo-coracao", "family": "floral-terpenic" },
+        { "compound": "Limonene (d-)", "cas": "5989-27-5", "pct_approx": 12, "pct_range": "7-17", "note": "topo", "family": "citrus-terpenic" },
+        { "compound": "beta-Pinene", "cas": "127-91-3", "pct_approx": 8, "pct_range": "5-12", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "Linalyl acetate", "cas": "115-95-7", "pct_approx": 8, "pct_range": "2-15", "note": "coracao", "family": "ester-floral" },
+        { "compound": "(E)-beta-ocimene", "cas": "3779-61-1", "pct_approx": 5, "pct_range": "3-8", "note": "topo", "family": "green-terpenic" },
+        { "compound": "Methyl anthranilate (odor-key trace)", "cas": "134-20-3", "pct_approx": null, "pct_range": "trace", "note": "coracao", "family": "floral-orange-blossom" }
+      ]
+    },
+    {
+      "name": "Geranium (bourbon)",
+      "name_pt": "Geranio (bourbon / Reuniao)",
+      "botanical": "Pelargonium graveolens",
+      "cas": "8000-46-2",
+      "family": "floral-rosy",
+      "note": "coracao",
+      "main_constituents": [
+        { "compound": "Citronellol", "cas": "106-22-9", "pct_approx": 30, "pct_range": "20-40", "note": "coracao", "family": "floral-rosy" },
+        { "compound": "Geraniol", "cas": "106-24-1", "pct_approx": 14, "pct_range": "8-20", "note": "coracao", "family": "floral-rosy" },
+        { "compound": "Citronellyl formate", "cas": "105-85-1", "pct_approx": 8, "pct_range": "5-12", "note": "coracao", "family": "ester-fruity" },
+        { "compound": "Geranyl formate", "cas": "105-86-2", "pct_approx": 5, "pct_range": "3-7", "note": "coracao", "family": "ester-fruity" },
+        { "compound": "Isomenthone", "cas": "491-07-6", "pct_approx": 6, "pct_range": "5-8", "note": "coracao", "family": "minty-herbal" },
+        { "compound": "Linalool", "cas": "78-70-6", "pct_approx": 6, "pct_range": "3-10", "note": "coracao", "family": "floral-terpenic" }
+      ]
+    },
+    {
+      "name": "Rose otto",
+      "name_pt": "Rosa (otto / destilada)",
+      "botanical": "Rosa damascena (steam-distilled)",
+      "cas": "8007-01-0",
+      "family": "floral-rosy",
+      "note": "coracao",
+      "main_constituents": [
+        { "compound": "Citronellol", "cas": "106-22-9", "pct_approx": 30, "pct_range": "16-45", "note": "coracao", "family": "floral-rosy" },
+        { "compound": "Geraniol", "cas": "106-24-1", "pct_approx": 14, "pct_range": "5-22", "note": "coracao", "family": "floral-rosy" },
+        { "compound": "Nonadecane (n-C19 alkane)", "cas": "629-92-5", "pct_approx": 11, "pct_range": "8-15", "note": "base", "family": "waxy-alkane" },
+        { "compound": "Nerol", "cas": "106-25-2", "pct_approx": 6, "pct_range": "3-9", "note": "coracao", "family": "floral-rosy" },
+        { "compound": "beta-Phenylethanol (low in otto, high in absolute)", "cas": "60-12-8", "pct_approx": 2, "pct_range": "1-3", "note": "coracao", "family": "floral-rosy" },
+        { "compound": "Rose oxide (trace, odor-key)", "cas": "16409-43-1", "pct_approx": 1, "pct_range": "0.3-2", "note": "topo-coracao", "family": "green-floral-metallic" }
+      ],
+      "notes": "Otto has high alkane content and low phenylethanol; rose absolute (solvent-extracted) is much higher in phenylethanol."
+    },
+    {
+      "name": "Jasmine absolute",
+      "name_pt": "Jasmim (absoluto)",
+      "botanical": "Jasminum grandiflorum / J. sambac (solvent-extracted)",
+      "cas": "8022-96-6",
+      "family": "floral-white",
+      "note": "coracao",
+      "main_constituents": [
+        { "compound": "Benzyl acetate", "cas": "140-11-4", "pct_approx": 20, "pct_range": "15-25 (grandiflorum)", "note": "coracao", "family": "floral-fruity-ester" },
+        { "compound": "Benzyl benzoate", "cas": "120-51-4", "pct_approx": 14, "pct_range": "8-20", "note": "base", "family": "balsamic-ester" },
+        { "compound": "Linalool", "cas": "78-70-6", "pct_approx": 5, "pct_range": "3-8", "note": "coracao", "family": "floral-terpenic" },
+        { "compound": "(Z)-Jasmone", "cas": "488-10-8", "pct_approx": 3, "pct_range": "2-4", "note": "coracao", "family": "floral-jasmine" },
+        { "compound": "Indole", "cas": "120-72-9", "pct_approx": 2, "pct_range": "1-3 (higher in sambac)", "note": "coracao", "family": "animalic-floral" },
+        { "compound": "Methyl anthranilate (sambac marker)", "cas": "134-20-3", "pct_approx": null, "pct_range": "trace-few%", "note": "coracao", "family": "floral-orange-blossom" }
+      ]
+    },
+    {
+      "name": "Ylang-ylang",
+      "name_pt": "Ylang-ylang",
+      "botanical": "Cananga odorata",
+      "cas": "8006-81-3",
+      "family": "floral-white",
+      "note": "coracao",
+      "main_constituents": [
+        { "compound": "Linalool", "cas": "78-70-6", "pct_approx": 15, "pct_range": "10-20 (higher in Extra)", "note": "coracao", "family": "floral-terpenic" },
+        { "compound": "Benzyl acetate", "cas": "140-11-4", "pct_approx": 10, "pct_range": "5-15", "note": "coracao", "family": "floral-fruity-ester" },
+        { "compound": "Germacrene D", "cas": "23986-74-5", "pct_approx": 12, "pct_range": "5-20 (higher in lower grades)", "note": "base", "family": "woody-sesquiterpene" },
+        { "compound": "(E,E)-alpha-farnesene", "cas": "502-61-4", "pct_approx": 12, "pct_range": "5-20", "note": "coracao", "family": "green-floral" },
+        { "compound": "Benzyl benzoate", "cas": "120-51-4", "pct_approx": 7, "pct_range": "4-10", "note": "base", "family": "balsamic-ester" },
+        { "compound": "p-Cresyl methyl ether (odor-key)", "cas": "104-93-8", "pct_approx": 6, "pct_range": "1-16", "note": "coracao", "family": "narcotic-floral" }
+      ]
+    },
+    {
+      "name": "Palmarosa",
+      "name_pt": "Palmarosa",
+      "botanical": "Cymbopogon martinii",
+      "cas": "8014-19-5",
+      "family": "floral-rosy",
+      "note": "coracao",
+      "main_constituents": [
+        { "compound": "Geraniol", "cas": "106-24-1", "pct_approx": 78, "pct_range": "70-85", "note": "coracao", "family": "floral-rosy" },
+        { "compound": "Geranyl acetate", "cas": "105-87-3", "pct_approx": 8, "pct_range": "5-12", "note": "coracao", "family": "ester-floral" },
+        { "compound": "Linalool", "cas": "78-70-6", "pct_approx": 3, "pct_range": "2-4", "note": "coracao", "family": "floral-terpenic" },
+        { "compound": "(E)-beta-caryophyllene", "cas": "87-44-5", "pct_approx": 2, "pct_range": "1-3", "note": "base", "family": "woody-spicy" }
+      ]
+    },
+    {
+      "name": "Citronella (Java)",
+      "name_pt": "Citronela (tipo Java)",
+      "botanical": "Cymbopogon winterianus",
+      "cas": "8000-29-1",
+      "family": "citrus-herbal",
+      "note": "topo-coracao",
+      "main_constituents": [
+        { "compound": "Citronellal", "cas": "106-23-0", "pct_approx": 38, "pct_range": "30-45", "note": "topo-coracao", "family": "citrus-aldehydic" },
+        { "compound": "Geraniol", "cas": "106-24-1", "pct_approx": 22, "pct_range": "20-25", "note": "coracao", "family": "floral-rosy" },
+        { "compound": "Citronellol", "cas": "106-22-9", "pct_approx": 11, "pct_range": "8-15", "note": "coracao", "family": "floral-rosy" },
+        { "compound": "Geranyl acetate", "cas": "105-87-3", "pct_approx": 5, "pct_range": "3-8", "note": "coracao", "family": "ester-floral" },
+        { "compound": "Limonene", "cas": "5989-27-5", "pct_approx": 3.5, "pct_range": "2-5", "note": "topo", "family": "citrus-terpenic" }
+      ]
+    },
+    {
+      "name": "Lemongrass",
+      "name_pt": "Capim-limao (lemongrass)",
+      "botanical": "Cymbopogon flexuosus / C. citratus",
+      "cas": "8007-02-1",
+      "family": "citrus-herbal",
+      "note": "topo",
+      "main_constituents": [
+        { "compound": "Geranial (citral a)", "cas": "141-27-5", "pct_approx": 45, "pct_range": "40-50", "note": "topo", "family": "citrus-aldehydic" },
+        { "compound": "Neral (citral b)", "cas": "106-26-3", "pct_approx": 34, "pct_range": "30-38", "note": "topo", "family": "citrus-aldehydic" },
+        { "compound": "Geraniol", "cas": "106-24-1", "pct_approx": 4.5, "pct_range": "3-6", "note": "coracao", "family": "floral-rosy" },
+        { "compound": "Geranyl acetate", "cas": "105-87-3", "pct_approx": 3.5, "pct_range": "2-5", "note": "coracao", "family": "ester-floral" },
+        { "compound": "Myrcene", "cas": "123-35-3", "pct_approx": 8, "pct_range": "1-15 (higher West Indian)", "note": "topo", "family": "green-terpenic" }
+      ]
+    },
+    {
+      "name": "Clove bud",
+      "name_pt": "Cravo-da-india (botao)",
+      "botanical": "Syzygium aromaticum",
+      "cas": "8000-34-8",
+      "family": "spicy",
+      "note": "coracao-base",
+      "main_constituents": [
+        { "compound": "Eugenol", "cas": "97-53-0", "pct_approx": 80, "pct_range": "70-88", "note": "coracao", "family": "spicy-phenolic" },
+        { "compound": "Eugenyl acetate", "cas": "93-28-7", "pct_approx": 11, "pct_range": "5-17", "note": "coracao", "family": "spicy-balsamic" },
+        { "compound": "beta-Caryophyllene", "cas": "87-44-5", "pct_approx": 9, "pct_range": "5-14", "note": "base", "family": "woody-spicy" },
+        { "compound": "alpha-Humulene", "cas": "6753-98-6", "pct_approx": 1.5, "pct_range": "1-2", "note": "base", "family": "woody" }
+      ]
+    },
+    {
+      "name": "Cinnamon bark",
+      "name_pt": "Canela (casca)",
+      "botanical": "Cinnamomum verum / zeylanicum (bark)",
+      "cas": "8015-91-6",
+      "family": "spicy",
+      "note": "coracao",
+      "main_constituents": [
+        { "compound": "(E)-Cinnamaldehyde", "cas": "104-55-2", "pct_approx": 65, "pct_range": "55-75", "note": "coracao", "family": "spicy-aldehydic" },
+        { "compound": "Eugenol", "cas": "97-53-0", "pct_approx": 10, "pct_range": "5-18", "note": "coracao", "family": "spicy-phenolic" },
+        { "compound": "Cinnamyl acetate", "cas": "103-54-8", "pct_approx": 4, "pct_range": "1-8", "note": "coracao", "family": "spicy-balsamic" },
+        { "compound": "beta-Caryophyllene", "cas": "87-44-5", "pct_approx": 4, "pct_range": "1-7", "note": "base", "family": "woody-spicy" },
+        { "compound": "Linalool", "cas": "78-70-6", "pct_approx": 3, "pct_range": "1-7", "note": "coracao", "family": "floral-terpenic" }
+      ]
+    },
+    {
+      "name": "Cinnamon leaf",
+      "name_pt": "Canela (folha)",
+      "botanical": "Cinnamomum verum (leaf)",
+      "cas": "8015-91-6",
+      "family": "spicy",
+      "note": "coracao",
+      "main_constituents": [
+        { "compound": "Eugenol", "cas": "97-53-0", "pct_approx": 80, "pct_range": "70-90", "note": "coracao", "family": "spicy-phenolic" },
+        { "compound": "Eugenyl acetate", "cas": "93-28-7", "pct_approx": 4, "pct_range": "1-8", "note": "coracao", "family": "spicy-balsamic" },
+        { "compound": "beta-Caryophyllene", "cas": "87-44-5", "pct_approx": 5, "pct_range": "1-9", "note": "base", "family": "woody-spicy" },
+        { "compound": "Cinnamaldehyde (low, opposite of bark)", "cas": "104-55-2", "pct_approx": 3, "pct_range": "1-5", "note": "coracao", "family": "spicy-aldehydic" },
+        { "compound": "Benzyl benzoate", "cas": "120-51-4", "pct_approx": 2.5, "pct_range": "1-4", "note": "base", "family": "balsamic-ester" }
+      ]
+    },
+    {
+      "name": "Black pepper",
+      "name_pt": "Pimenta-do-reino",
+      "botanical": "Piper nigrum",
+      "cas": "8006-82-4",
+      "family": "spicy",
+      "note": "topo-coracao",
+      "main_constituents": [
+        { "compound": "beta-Caryophyllene", "cas": "87-44-5", "pct_approx": 25, "pct_range": "15-35", "note": "coracao", "family": "woody-spicy" },
+        { "compound": "Limonene", "cas": "5989-27-5", "pct_approx": 17, "pct_range": "10-25", "note": "topo", "family": "citrus-terpenic" },
+        { "compound": "beta-Pinene", "cas": "127-91-3", "pct_approx": 10, "pct_range": "5-15", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "delta-3-Carene", "cas": "13466-78-9", "pct_approx": 9, "pct_range": "3-15", "note": "topo", "family": "terpenic" },
+        { "compound": "alpha-Pinene", "cas": "80-56-8", "pct_approx": 7, "pct_range": "2-12", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "Sabinene", "cas": "3387-41-5", "pct_approx": 3.5, "pct_range": "1-6", "note": "topo", "family": "terpenic-woody" }
+      ]
+    },
+    {
+      "name": "Cardamom",
+      "name_pt": "Cardamomo",
+      "botanical": "Elettaria cardamomum",
+      "cas": "8000-66-6",
+      "family": "spicy-aromatic",
+      "note": "topo-coracao",
+      "main_constituents": [
+        { "compound": "alpha-Terpinyl acetate", "cas": "80-26-2", "pct_approx": 35, "pct_range": "25-45", "note": "coracao", "family": "ester-floral-spicy" },
+        { "compound": "1,8-Cineole", "cas": "470-82-6", "pct_approx": 32, "pct_range": "20-45", "note": "topo", "family": "camphoraceous" },
+        { "compound": "Linalool", "cas": "78-70-6", "pct_approx": 5, "pct_range": "3-8", "note": "coracao", "family": "floral-terpenic" },
+        { "compound": "Limonene", "cas": "5989-27-5", "pct_approx": 6, "pct_range": "2-14", "note": "topo", "family": "citrus-terpenic" },
+        { "compound": "Sabinene", "cas": "3387-41-5", "pct_approx": 3.5, "pct_range": "2-5", "note": "topo", "family": "terpenic-woody" },
+        { "compound": "alpha-Terpineol", "cas": "98-55-5", "pct_approx": 3, "pct_range": "1-5", "note": "coracao", "family": "floral-terpenic" }
+      ]
+    },
+    {
+      "name": "Rosemary",
+      "name_pt": "Alecrim",
+      "botanical": "Rosmarinus officinalis (chemotype-dependent)",
+      "cas": "8000-25-7",
+      "family": "aromatic-herbal",
+      "note": "topo",
+      "main_constituents": [
+        { "compound": "1,8-Cineole", "cas": "470-82-6", "pct_approx": 35, "pct_range": "15-55 (cineole CT)", "note": "topo", "family": "camphoraceous" },
+        { "compound": "Camphor", "cas": "76-22-2", "pct_approx": 15, "pct_range": "5-25", "note": "topo-coracao", "family": "camphoraceous" },
+        { "compound": "alpha-Pinene", "cas": "80-56-8", "pct_approx": 15, "pct_range": "10-25", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "Camphene", "cas": "79-92-5", "pct_approx": 7, "pct_range": "5-10", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "beta-Pinene", "cas": "127-91-3", "pct_approx": 5, "pct_range": "2-9", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "Borneol", "cas": "507-70-0", "pct_approx": 4, "pct_range": "2-7", "note": "coracao", "family": "camphoraceous-woody" }
+      ]
+    },
+    {
+      "name": "Peppermint",
+      "name_pt": "Hortela-pimenta",
+      "botanical": "Mentha x piperita",
+      "cas": "8006-90-4",
+      "family": "minty",
+      "note": "topo",
+      "main_constituents": [
+        { "compound": "Menthol", "cas": "89-78-1", "pct_approx": 42, "pct_range": "30-55", "note": "topo-coracao", "family": "minty-cooling" },
+        { "compound": "Menthone", "cas": "89-80-5", "pct_approx": 23, "pct_range": "14-32", "note": "topo-coracao", "family": "minty" },
+        { "compound": "Menthyl acetate", "cas": "89-48-5", "pct_approx": 6, "pct_range": "2-10", "note": "coracao", "family": "ester-minty" },
+        { "compound": "1,8-Cineole", "cas": "470-82-6", "pct_approx": 5, "pct_range": "3-8", "note": "topo", "family": "camphoraceous" },
+        { "compound": "Menthofuran", "cas": "494-90-6", "pct_approx": 4, "pct_range": "1-9", "note": "coracao", "family": "minty-musty" },
+        { "compound": "Isomenthone", "cas": "491-07-6", "pct_approx": 3.5, "pct_range": "2-5", "note": "coracao", "family": "minty" }
+      ]
+    },
+    {
+      "name": "Eucalyptus",
+      "name_pt": "Eucalipto",
+      "botanical": "Eucalyptus globulus",
+      "cas": "8000-48-4",
+      "family": "camphoraceous",
+      "note": "topo",
+      "main_constituents": [
+        { "compound": "1,8-Cineole", "cas": "470-82-6", "pct_approx": 78, "pct_range": "70-85", "note": "topo", "family": "camphoraceous" },
+        { "compound": "alpha-Pinene", "cas": "80-56-8", "pct_approx": 10, "pct_range": "5-15", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "Limonene", "cas": "5989-27-5", "pct_approx": 5, "pct_range": "2-8", "note": "topo", "family": "citrus-terpenic" },
+        { "compound": "p-Cymene", "cas": "99-87-6", "pct_approx": 4, "pct_range": "1-8", "note": "topo", "family": "terpenic" },
+        { "compound": "Aromadendrene", "cas": "489-39-4", "pct_approx": 3, "pct_range": "1-5", "note": "coracao", "family": "woody" }
+      ]
+    },
+    {
+      "name": "Cypress",
+      "name_pt": "Cipreste",
+      "botanical": "Cupressus sempervirens",
+      "cas": "8013-86-3",
+      "family": "woody-coniferous",
+      "note": "topo-coracao",
+      "main_constituents": [
+        { "compound": "alpha-Pinene", "cas": "80-56-8", "pct_approx": 35, "pct_range": "20-53", "note": "topo", "family": "terpenic-pine" },
+        { "compound": "delta-3-Carene", "cas": "13466-78-9", "pct_approx": 20, "pct_range": "15-25", "note": "topo", "family": "terpenic" },
+        { "compound": "Limonene", "cas": "5989-27-5", "pct_approx": 4.5, "pct_range": "3-6", "note": "topo", "family": "citrus-terpenic" },
+        { "compound": "Cedrol", "cas": "77-53-2", "pct_approx": 4, "pct_range": "2-7", "note": "base", "family": "woody-cedar" },
+        { "compound": "alpha-Terpinyl acetate", "cas": "80-26-2", "pct_approx": 3.5, "pct_range": "2-5", "note": "coracao", "family": "ester-woody" },
+        { "compound": "Terpinolene", "cas": "586-62-9", "pct_approx": 4, "pct_range": "2-6", "note": "topo", "family": "terpenic" }
+      ]
+    },
+    {
+      "name": "Cedarwood (Virginia)",
+      "name_pt": "Cedro (Virginia)",
+      "botanical": "Juniperus virginiana",
+      "cas": "8000-27-9",
+      "family": "woody-cedar",
+      "note": "base",
+      "main_constituents": [
+        { "compound": "alpha-Cedrene", "cas": "469-61-4", "pct_approx": 28, "pct_range": "20-38", "note": "base", "family": "woody-cedar" },
+        { "compound": "Thujopsene", "cas": "470-40-6", "pct_approx": 25, "pct_range": "15-35", "note": "base", "family": "woody" },
+        { "compound": "beta-Cedrene", "cas": "546-28-1", "pct_approx": 7, "pct_range": "5-10", "note": "base", "family": "woody-cedar" },
+        { "compound": "Cedrol", "cas": "77-53-2", "pct_approx": 12, "pct_range": "5-19", "note": "base", "family": "woody-cedar" }
+      ]
+    },
+    {
+      "name": "Cedarwood (Atlas)",
+      "name_pt": "Cedro (Atlas)",
+      "botanical": "Cedrus atlantica",
+      "cas": "8023-85-6",
+      "family": "woody-cedar",
+      "note": "base",
+      "main_constituents": [
+        { "compound": "beta-Himachalene", "cas": "1461-03-6", "pct_approx": 38, "pct_range": "30-45", "note": "base", "family": "woody" },
+        { "compound": "alpha-Himachalene", "cas": "3853-83-6", "pct_approx": 13, "pct_range": "10-16", "note": "base", "family": "woody" },
+        { "compound": "gamma-Himachalene", "cas": null, "pct_approx": 10, "pct_range": "8-12", "note": "base", "family": "woody" },
+        { "compound": "Atlantones (alpha/beta/gamma, odor-key)", "cas": null, "pct_approx": 12, "pct_range": "5-20 total", "note": "base", "family": "woody-warm" },
+        { "compound": "Himachalol", "cas": "1891-45-8", "pct_approx": 4, "pct_range": "2-6", "note": "base", "family": "woody" }
+      ]
+    },
+    {
+      "name": "Sandalwood (East Indian)",
+      "name_pt": "Sandalo (indiano)",
+      "botanical": "Santalum album",
+      "cas": "8006-87-9",
+      "family": "woody-sandal",
+      "note": "base",
+      "main_constituents": [
+        { "compound": "(Z)-alpha-santalol", "cas": "115-71-9", "pct_approx": 48, "pct_range": "41-55", "note": "base", "family": "woody-sandal" },
+        { "compound": "(Z)-beta-santalol", "cas": "77-42-9", "pct_approx": 20, "pct_range": "16-24", "note": "base", "family": "woody-sandal" },
+        { "compound": "(Z)-alpha-trans-bergamotol", "cas": null, "pct_approx": 5, "pct_range": "4-6", "note": "base", "family": "woody" },
+        { "compound": "epi-beta-santalol", "cas": null, "pct_approx": 4.5, "pct_range": "3-6", "note": "base", "family": "woody-sandal" }
+      ],
+      "notes": "ISO 3518 requires alpha-santalol >=41% and beta-santalol >=16%."
+    },
+    {
+      "name": "Vetiver",
+      "name_pt": "Vetiver",
+      "botanical": "Chrysopogon zizanioides",
+      "cas": "8016-96-4",
+      "family": "woody-earthy",
+      "note": "base",
+      "main_constituents": [
+        { "compound": "Khusimol", "cas": null, "pct_approx": 9, "pct_range": "3-15", "note": "base", "family": "woody-earthy" },
+        { "compound": "beta-Vetivone", "cas": null, "pct_approx": 4.5, "pct_range": "2-7", "note": "base", "family": "woody-earthy" },
+        { "compound": "alpha-Vetivone", "cas": null, "pct_approx": 4, "pct_range": "2-6", "note": "base", "family": "woody-earthy" },
+        { "compound": "Khusimone / vetiselinenol / zizaene (complex sesquiterpenoids)", "cas": null, "pct_approx": null, "pct_range": "variable", "note": "base", "family": "woody-earthy" }
+      ],
+      "notes": ">150 sesquiterpenoids, no single dominant compound; individual CAS uncertain, treat as approximate."
+    },
+    {
+      "name": "Patchouli",
+      "name_pt": "Patchouli",
+      "botanical": "Pogostemon cablin",
+      "cas": "8014-09-3",
+      "family": "woody-earthy",
+      "note": "base",
+      "main_constituents": [
+        { "compound": "Patchoulol (patchouli alcohol)", "cas": "5986-55-0", "pct_approx": 33, "pct_range": "28-40", "note": "base", "family": "woody-earthy" },
+        { "compound": "alpha-Bulnesene", "cas": "3691-11-0", "pct_approx": 16, "pct_range": "12-20", "note": "base", "family": "woody" },
+        { "compound": "alpha-Guaiene", "cas": "3691-12-1", "pct_approx": 14, "pct_range": "10-18", "note": "base", "family": "woody" },
+        { "compound": "Seychellene", "cas": "20085-93-2", "pct_approx": 7, "pct_range": "5-9", "note": "base", "family": "woody" },
+        { "compound": "alpha-Patchoulene", "cas": "560-32-7", "pct_approx": 5, "pct_range": "3-7", "note": "base", "family": "woody" },
+        { "compound": "Norpatchoulenol (odor-key trace)", "cas": "41429-52-1", "pct_approx": null, "pct_range": "trace", "note": "base", "family": "woody-earthy" }
+      ]
+    },
+    {
+      "name": "Frankincense / Olibanum",
+      "name_pt": "Incenso / Olibano",
+      "botanical": "Boswellia carterii / sacra / serrata (species-dependent)",
+      "cas": "8016-36-2",
+      "family": "resinous-balsamic",
+      "note": "coracao-base",
+      "main_constituents": [
+        { "compound": "alpha-Pinene", "cas": "80-56-8", "pct_approx": 30, "pct_range": "10-45 (dominant in carterii/sacra)", "note": "topo-coracao", "family": "terpenic-pine" },
+        { "compound": "Limonene", "cas": "5989-27-5", "pct_approx": 12, "pct_range": "5-20", "note": "topo", "family": "citrus-terpenic" },
+        { "compound": "alpha-Thujene", "cas": "2867-05-2", "pct_approx": 6, "pct_range": "2-10", "note": "topo", "family": "terpenic" },
+        { "compound": "Sabinene", "cas": "3387-41-5", "pct_approx": 5, "pct_range": "2-8", "note": "topo", "family": "terpenic-woody" },
+        { "compound": "p-Cymene", "cas": "99-87-6", "pct_approx": 5, "pct_range": "2-8", "note": "topo", "family": "terpenic" },
+        { "compound": "Octyl acetate", "cas": "112-14-1", "pct_approx": 6, "pct_range": "2-13 (higher in some carterii)", "note": "coracao", "family": "fruity-ester" }
+      ]
+    },
+    {
+      "name": "Myrrh",
+      "name_pt": "Mirra",
+      "botanical": "Commiphora myrrha",
+      "cas": "8016-37-3",
+      "family": "resinous-balsamic",
+      "note": "base",
+      "main_constituents": [
+        { "compound": "Furanoeudesma-1,3-diene (odor/marker)", "cas": null, "pct_approx": 20, "pct_range": "10-35", "note": "base", "family": "resinous" },
+        { "compound": "Curzerene", "cas": null, "pct_approx": 18, "pct_range": "10-30", "note": "base", "family": "resinous" },
+        { "compound": "Lindestrene", "cas": null, "pct_approx": 9, "pct_range": "5-15", "note": "base", "family": "resinous" },
+        { "compound": "beta-Elemene", "cas": "515-13-9", "pct_approx": 5, "pct_range": "2-10", "note": "coracao", "family": "green-woody" }
+      ],
+      "notes": "Furanosesquiterpene-dominant; several individual CAS uncertain, treat as approximate."
+    }
+  ]
+}
