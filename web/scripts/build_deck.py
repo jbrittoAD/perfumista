@@ -111,9 +111,50 @@ MARKETING_RE = re.compile(
     r"|melhor\s+pre[çc]o\b)", re.I)
 
 # Sobra de CSS/HTML que denuncia que o texto não é utilizável.
+# Sobra de ficha técnica do fornecedor ("FEMA - Vestígios - 224031-71-4"): não é
+# descrição de cheiro, e ler isso na carta é pior que ler a lista de facetas.
+SPECSHEET_MARKERS = re.compile(
+    r"(\b\d{2,7}-\d{2}-\d\b|\bFEMA\b|\bvestígios\b|\bponto\s+de\s+fulgor\b"
+    r"|\bsolubilidade\b|\bdensidade\b|\bvalidade\b|\bpureza\s*:|\bíndice\s+de\s+refra)",
+    re.I)
+
 CSS_MARKERS = re.compile(
     r"(font-family|font-size|!important|box-sizing|line-height|border-bottom"
     r"|margin\s*:|padding\s*:|color\s*:\s*#|\brem\b\s*;|\bpx\b\s*[;0-9])", re.I)
+
+
+# O scraper juntou <li>/<p> sem separador, então 259 descrições vêm com frases
+# coladas ("Limão fresco e luminoso Cítrico aldeídico elegante Toque floral").
+# A fronteira é minúscula seguida de Maiúscula — mas isso também acontece DENTRO
+# de nome de molécula ("Trimetil Pirazina", "Acetato Cis-3-Hexenila"), então o
+# nome do próprio material entra como guarda.
+SENTENCE_SPLIT = re.compile(r"(?<=[a-zçãõéíóúâêôàü])\s+(?=[A-ZÁÉÍÓÚÂÊÔÃÕÀÜ][a-zà-ÿ])")
+
+CONNECTORS = {"de", "da", "do", "das", "dos", "e", "em", "com", "para", "por", "a",
+              "o", "no", "na", "tipo", "marca", "base", "como", "ao", "the", "of"}
+PROPER_NOUNS = {"givaudan", "firmenich", "iff", "symrise", "takasago", "robertet",
+                "mane", "dsm", "biolandes", "cas", "fema", "ifra", "dep", "dpg",
+                "ipm", "usp", "brasil", "italia", "franca", "india", "china",
+                "madagascar", "haiti", "java", "bulgaria", "egito", "turquia"}
+
+
+def split_runon(text, name):
+    """Repõe o ponto entre frases coladas, sem cortar nome de molécula."""
+    hay_name = norm(name or "")
+    parts = SENTENCE_SPLIT.split(text)
+    if len(parts) == 1:
+        return text
+    out = [parts[0]]
+    for seg in parts[1:]:
+        strip = " ,.;:()[]\"'"
+        prev = norm(out[-1].split()[-1].strip(strip)) if out[-1].split() else ""
+        nxt = norm(seg.split()[0].strip(strip)) if seg.split() else ""
+        bigram = f"{prev} {nxt}"
+        if prev in CONNECTORS or nxt in PROPER_NOUNS or (bigram and bigram in hay_name):
+            out[-1] = out[-1] + " " + seg
+        else:
+            out.append(seg)
+    return ". ".join(p.strip().rstrip(".") for p in out if p.strip())
 
 
 def strip_css(s):
@@ -148,6 +189,8 @@ def extract_pairs(raw):
 TAIL_CUT_RE = re.compile(
     r"\s*(?:Compre\b|Adquira\b|Garanta\b|Pe[çc]a\s+j[áa]\b|Adicione\s+(?:frescor|sofistica|elegância)"
     r"|Eleve\s+su|Surpreenda\b|Realce\s+su|Transforme\s+su|Confira\b|Aproveite\b"
+    r"|Potencialize\b|Experimente\b|Leve\s+j[áa]\b|N[ãa]o\s+perca\b|Encomende\b"
+    r"|Escolha\s+a\s+qualidade|D[êe]\s+vida\s+a|Crie\s+fragr[âa]ncias"
     r"|,?\s*ideal\s+para\s+(?:perfumes|perfumaria|cosm[ée]ticos|fragr[âa]ncias|aromatiza)"
     r"|,?\s*perfeito\s+para\s+(?:perfumes|criar|suas)).*$", re.I | re.S)
 
@@ -158,12 +201,19 @@ def drop_marketing(text):
     keep = [p for p in re.split(r"(?<=[.!?])\s+", text) if p.strip() and not MARKETING_RE.search(p)]
     out = " ".join(keep).strip()
     # "Descubra X da Givaudan, molécula ..." → começa na aposição informativa
-    out = re.sub(r"^Descubra\s+", "", out, flags=re.I)
+    # O split de frases transforma "Descubra Manzanate®…" em "Descubra. Manzanate®…",
+    # então o verbo de vitrine tem que sair com ou sem o ponto.
+    out = re.sub(r"^(?:Descubra|Conhe[çc]a|Apresentamos|Veja)\b[.\s]+", "", out, flags=re.I)
     return out.strip()
 
 
-def clean_desc(raw):
-    """Devolve prosa limpa (<=2 linhas) ou None se o que sobrou for lixo."""
+def clean_desc(raw, name="", strict=True):
+    """Prosa limpa (<=2 linhas) ou None.
+
+    `strict=True` (exibição) recusa o que ainda cheira a ficha técnica do
+    fornecedor. `strict=False` (extração de facetas) aceita, porque mesmo uma
+    ficha técnica ruim costuma listar descritores aproveitáveis.
+    """
     if not raw:
         return None
     s = strip_css(str(raw))
@@ -176,8 +226,13 @@ def clean_desc(raw):
     s = LABEL_RE.sub("", s)
     s = s.replace("\x96", "–").replace("\xa0", " ")
     s = re.sub(r"\s+", " ", s).strip(" -–—•;:,.")
+    # separa as frases ANTES de podar propaganda: assim "Compre agora!" vira uma
+    # frase própria e cai inteira, em vez de ficar pendurada na descrição.
+    s = split_runon(s, name)
     s = drop_marketing(s)
     if len(s) < 18 or CSS_MARKERS.search(s):
+        return None
+    if strict and SPECSHEET_MARKERS.search(s):
         return None
     # Corta em fronteira de frase, mirando ~190 caracteres.
     if len(s) > 200:
@@ -289,20 +344,129 @@ def derive_uses(m, family, facets):
     if kind == "solvent":
         return ("Não é material de cheiro: serve para diluir os potentes e carregar "
                 "resinoides. Entra como veículo, não como nota.")
+    # A carta já mostra família, faixa na pirâmide, tipo e facetas como rótulo.
+    # Repetir isso em prosa só ocupa a tela; aqui fica o que os badges NÃO dizem.
     parts = [FAMILY_USE.get(family, "Entra na composição como matéria-prima de cheiro.")]
     if kind == "essential_oil":
-        parts.append("Óleo essencial: traz várias notas de uma vez, com variação de lote.")
+        parts.append("Sendo óleo essencial, traz várias notas de uma vez e varia de lote para lote.")
     elif kind == "base":
-        parts.append("É uma base pronta — um acorde inteiro em um frasco só.")
-    nt = m.get("note_type")
-    if nt in NOTE_ROLE:
-        parts.append(NOTE_ROLE[nt])
+        parts.append("É uma base pronta: um acorde inteiro em um frasco só.")
     st = m.get("odor_strength")
     if st in STRENGTH_TIP:
         parts.append(STRENGTH_TIP[st])
-    if facets[:2]:
-        parts.append("Facetas para segurar no nariz: " + ", ".join(facets[:3]).lower() + ".")
     return " ".join(parts)
+
+
+# ---------------------------------------------------------------------------
+# Posição na pirâmide (faixa, não ponto)
+# ---------------------------------------------------------------------------
+# Matéria-prima quase nunca ocupa UM degrau só: Hedione é coração que puxa topo,
+# óleo essencial é mistura e cobre dois ou três. O banco guarda um rótulo único
+# (e só para 371 dos 593), então aqui a faixa é montada cruzando três evidências:
+#
+#   1. o note_type da fonte, quando existe;
+#   2. a física — ponto de ebulição (melhor sinal) ou massa molar. Os cortes
+#      abaixo saíram da mediana real do próprio banco: topo 155 °C, coração
+#      227 °C, base 283 °C;
+#   3. o comportamento típico da família, quando não há nem rótulo nem física.
+#
+# Se fonte e física discordam, as duas entram — é justamente o caso do material
+# que fica entre dois degraus. Óleo essencial e base pronta sempre abrem pelo
+# menos dois degraus, porque são mistura. Solvente não tem posição nenhuma.
+
+SLOTS = ["topo", "coracao", "base"]
+
+# (corte topo|coração, corte coração|base) por evidência física.
+BP_CUTS = (195.0, 255.0)
+MW_CUTS = (165.0, 195.0)
+# Margem de "em cima da linha": dentro disso, o degrau vizinho também conta.
+BOUNDARY_MARGIN = 0.08
+
+# Onde cada família costuma cair quando não há nenhuma outra evidência.
+FAMILY_SPAN = {
+    "citrus": ["topo"], "aldehydic": ["topo"], "green": ["topo"],
+    "herbal": ["topo", "coracao"], "aquatic": ["topo", "coracao"],
+    "fruity": ["topo", "coracao"], "floral": ["coracao"], "spicy": ["coracao"],
+    "woody": ["coracao", "base"], "balsamic": ["base"], "amber": ["base"],
+    "gourmand": ["coracao", "base"], "leather": ["base"], "animalic": ["base"],
+    "musk": ["base"],
+}
+
+
+def _slot_from(value, cuts):
+    """Degrau + vizinho quando o valor está na fronteira."""
+    lo, hi = cuts
+    if value < lo:
+        out = ["topo"]
+        if value > lo * (1 - BOUNDARY_MARGIN):
+            out.append("coracao")
+    elif value < hi:
+        out = ["coracao"]
+        if value < lo * (1 + BOUNDARY_MARGIN):
+            out.insert(0, "topo")
+        elif value > hi * (1 - BOUNDARY_MARGIN):
+            out.append("base")
+    else:
+        out = ["base"]
+        if value < hi * (1 + BOUNDARY_MARGIN):
+            out.insert(0, "coracao")
+    return out
+
+
+def derive_notes(m, family):
+    """→ (faixa ordenada topo→base, origem da informação)."""
+    if m.get("material_kind") == "solvent":
+        return [], "solvente"
+
+    found = set()
+    origin = []
+
+    src = m.get("note_type")
+    if src in SLOTS:
+        found.add(src)
+        origin.append("fonte")
+
+    bp = m.get("boiling_point_c")
+    mw = m.get("molecular_weight")
+    phys = None
+    if bp and 40 < bp < 500:            # fora disso é ruído do scraping
+        phys = _slot_from(bp, BP_CUTS)
+    elif mw and 80 < mw < 500:
+        phys = _slot_from(mw, MW_CUTS)
+    if phys:
+        found.update(phys)
+        origin.append("física")
+
+    if not found:
+        found.update(FAMILY_SPAN.get(family, ["coracao"]))
+        origin.append("família")
+
+    # Mistura ocupa mais de um degrau por definição.
+    if m.get("material_kind") in ("essential_oil", "base") and len(found) == 1:
+        only = next(iter(found))
+        i = SLOTS.index(only)
+        found.add(SLOTS[min(i + 1, 2)] if i < 2 else SLOTS[1])
+        if only == "coracao":
+            found.add("topo")
+
+    idx = sorted(SLOTS.index(x) for x in found)
+    # A faixa é CONTÍNUA: "topo e base, sem coração" não existe na prática — se a
+    # fonte diz topo e a física diz base, o material passa pelo meio.
+    span = SLOTS[idx[0]: idx[-1] + 1]
+
+    # Três degraus só para mistura (óleo essencial, base pronta). Molécula única
+    # que caiu em três é discordância fonte × física: fica com a fonte + o degrau
+    # vizinho na direção que a física indicou.
+    if len(span) == 3 and m.get("material_kind") not in ("essential_oil", "base"):
+        if src == "topo":
+            span = ["topo", "coracao"]
+        elif src == "base":
+            span = ["coracao", "base"]
+        elif src == "coracao":
+            span = ["topo", "coracao"] if (phys and phys[0] == "topo") else ["coracao", "base"]
+        else:
+            span = span[:2]
+    return span, "+".join(origin)
 
 
 # ---------------------------------------------------------------------------
@@ -555,7 +719,8 @@ def order_by_proximity(cards, family):
     for key in chain:
         members = sorted(
             groups[key],
-            key=lambda c: (NOTE_RANK.get(c["note"], 1), -c.get("_offers_n", 0), c["name"]),
+            key=lambda c: (NOTE_RANK.get((c["notes"] or [None])[0], 1),
+                           -c.get("_offers_n", 0), c["name"]),
         )
         ordered.extend(members)
     return ordered
@@ -716,13 +881,15 @@ def main():
         syns = [s for s in (m.get("synonyms") or []) if norm(s) != norm(name)][:3]
 
         raw_desc = m.get("odor_description")
-        desc = clean_desc(raw_desc)
+        desc = clean_desc(raw_desc, name)
+        # texto só para minerar faceta — pode ser pior que o exibido
+        desc_loose = clean_desc(raw_desc, name, strict=False) or ""
         pairs = extract_pairs(raw_desc)
 
         ku_pt = USES_PT.get(m.get("key_uses") or "", "")
         hay_strong = norm(name + " " + " ".join(syns))
         # facetas só sobre texto JÁ LIMPO — senão "margin:" do CSS vira "Maresia"
-        hay_weak = norm(" ".join([desc or "", pairs or "", str(m.get("odor_family") or ""), ku_pt]))
+        hay_weak = norm(" ".join([desc_loose, pairs or "", str(m.get("odor_family") or ""), ku_pt]))
 
         facets = extract_facets(hay_strong, hay_weak)
         family, moved = revote_family(raw_family, facets)
@@ -745,6 +912,7 @@ def main():
         if photo != FAMILY_PHOTO.get(family):
             stats["foto_kw"] += 1
 
+        notes, notes_origin = derive_notes(m, family)
         dose = tuple(round_pct(v) for v in parse_dose(m))
 
         offers = sorted(
@@ -762,6 +930,8 @@ def main():
             "familyRaw": raw_family if moved else None,
             "cap": fam["cap"],
             "note": m.get("note_type"),
+            "notes": notes,
+            "notesOrigin": notes_origin,
             "kind": m.get("material_kind"),
             "strength": m.get("odor_strength"),
             "smell": smell,

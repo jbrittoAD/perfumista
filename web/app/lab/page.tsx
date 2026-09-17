@@ -19,7 +19,8 @@ import Link from "next/link";
 import Detail from "../detail";
 import Photo from "../photo";
 import {
-  FAMILIES, familyMeta, getCard, noteLabel, perGram, type FamilySlug, type Ingredient,
+  FAMILIES, familyMeta, getCard, kindLabel, notesShort, perGram,
+  type FamilySlug, type Ingredient,
 } from "@/lib/deck";
 import { clearSwipe, recordSwipe, useDeckState } from "@/lib/deck-store";
 
@@ -269,7 +270,8 @@ function Row({
         <p className="truncate text-[14px] font-semibold leading-tight">{card.name}</p>
         <p className="mt-0.5 truncate text-[11.5px] text-[var(--muted)]">
           <span style={{ color: fam.hex }}>{fam.emoji} {fam.label}</span>
-          {card.note && ` · ${noteLabel(card.note)}`}
+          {` · ${notesShort(card.notes)}`}
+          {card.kind !== "aroma_chemical" && kindLabel(card.kind) && ` · ${kindLabel(card.kind)}`}
           {card.facets.length > 0 && ` · ${card.facets.slice(0, 2).join(", ")}`}
         </p>
         <p className="mt-0.5 text-[11.5px] text-[var(--fg-dim)]">{perGram(card.price.perG)}</p>

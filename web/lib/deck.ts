@@ -45,7 +45,12 @@ export interface Ingredient {
   /** Família que vinha da fonte, quando o build corrigiu a classificação. */
   familyRaw: string | null;
   cap: string;
+  /** Rótulo único da fonte (pode ser null). Preferir `notes`. */
   note: NoteSlot;
+  /** Faixa contínua na pirâmide: ["topo"], ["topo","coracao"], ["coracao","base"]… */
+  notes: Exclude<NoteSlot, null>[];
+  /** De onde saiu a faixa: "fonte", "física", "família", ou combinação. */
+  notesOrigin: string;
   kind: string | null;
   strength: "baixa" | "média" | "alta" | null;
   /** Descrição do cheiro, 1–2 linhas. */
@@ -176,6 +181,46 @@ export const SOURCE_LABEL: Record<string, string> = {
 
 export function noteLabel(n: NoteSlot): string {
   return n ? NOTE_LABEL[n] ?? "—" : "—";
+}
+
+/** "Topo", "Topo → Coração", "Topo → Coração → Base", ou "Sem nota" (solvente). */
+export function notesLabel(notes: string[]): string {
+  if (!notes || notes.length === 0) return "Sem nota";
+  return notes.map((n) => NOTE_LABEL[n] ?? n).join(" → ");
+}
+
+/** Versão curta para caber em badge: "Topo", "Topo-Coração", "Topo→Base". */
+export function notesShort(notes: string[]): string {
+  if (!notes || notes.length === 0) return "Sem nota";
+  const short: Record<string, string> = { topo: "Topo", coracao: "Coração", base: "Base" };
+  if (notes.length === 3) return "Topo→Base";
+  return notes.map((n) => short[n] ?? n).join("-");
+}
+
+/**
+ * Como a faixa foi determinada — o app diz isso porque só 371 dos 593 materiais
+ * trazem a posição na fonte; o resto é derivado.
+ */
+export function notesOriginLabel(origin: string): string {
+  const parts: Record<string, string> = {
+    fonte: "fornecedor",
+    "física": "ponto de ebulição",
+    "família": "típico da família",
+    solvente: "não tem nota",
+  };
+  return origin.split("+").map((o) => parts[o] ?? o).join(" + ");
+}
+
+/** Rótulo curto do tipo de material, para o badge da carta. */
+export function kindLabel(kind: string | null): string | null {
+  if (!kind) return null;
+  const short: Record<string, string> = {
+    aroma_chemical: "Químico aromático",
+    essential_oil: "Óleo essencial",
+    base: "Base pronta",
+    solvent: "Solvente",
+  };
+  return short[kind] ?? null;
 }
 
 export function brl(v: number | null | undefined): string {

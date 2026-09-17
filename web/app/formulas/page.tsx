@@ -17,7 +17,8 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import Photo from "../photo";
 import {
-  familyLabelFromEngine, familyMeta, getCard, noteLabel, num, type Ingredient,
+  familyLabelFromEngine, familyMeta, getCard, noteLabel, notesShort, num,
+  type Ingredient,
 } from "@/lib/deck";
 import { deleteBlend, saveBlend, useDeckState, type Blend } from "@/lib/deck-store";
 import { simulate } from "@/lib/deck-engine";
@@ -182,7 +183,7 @@ export default function Formulas() {
                           <p className="truncate text-[13.5px] font-semibold leading-tight">{r.card.name}</p>
                           <p className="text-[11px] text-[var(--muted)]">
                             <span style={{ color: fam.hex }}>{fam.label}</span>
-                            {r.card.note && ` · ${noteLabel(r.card.note)}`}
+                            {` · ${notesShort(r.card.notes)}`}
                             {` · ${pct.toFixed(1)}%`}
                           </p>
                         </div>

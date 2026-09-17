@@ -89,7 +89,12 @@ export default function Discover() {
   const nextRef = useRef<HTMLDivElement>(null);
   const likeRef = useRef<HTMLDivElement>(null);
   const passRef = useRef<HTMLDivElement>(null);
-  const drag = useRef({ on: false, x0: 0, y0: 0, dx: 0, dy: 0, t0: 0, moved: false });
+  // `axis` trava o gesto no primeiro movimento: horizontal é swipe, vertical é
+  // leitura da ficha dentro da carta. Sem isso, rolar o texto jogava a carta fora.
+  const drag = useRef({
+    on: false, x0: 0, y0: 0, dx: 0, dy: 0, t0: 0, moved: false,
+    axis: null as null | "x" | "y",
+  });
 
   const paint = useCallback((dx: number, dy: number, instant = true) => {
     const el = topRef.current;
@@ -156,8 +161,10 @@ export default function Discover() {
   function onDown(e: React.PointerEvent) {
     if (flying || !current) return;
     (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
-    drag.current = { on: true, x0: e.clientX, y0: e.clientY, dx: 0, dy: 0, t0: performance.now(), moved: false };
-    paint(0, 0);
+    drag.current = {
+      on: true, x0: e.clientX, y0: e.clientY, dx: 0, dy: 0,
+      t0: performance.now(), moved: false, axis: null,
+    };
   }
 
   function onMove(e: React.PointerEvent) {
@@ -165,13 +172,28 @@ export default function Discover() {
     if (!d.on) return;
     d.dx = e.clientX - d.x0;
     d.dy = e.clientY - d.y0;
-    if (Math.abs(d.dx) > 6 || Math.abs(d.dy) > 6) d.moved = true;
+
+    if (!d.axis) {
+      if (Math.abs(d.dx) < 8 && Math.abs(d.dy) < 8) return; // ainda indefinido
+      d.axis = Math.abs(d.dx) > Math.abs(d.dy) ? "x" : "y";
+      if (d.axis === "y") {
+        // é rolagem da ficha: solta o gesto e deixa o navegador cuidar
+        d.on = false;
+        return;
+      }
+      d.moved = true;
+    }
+    d.moved = true;
     paint(d.dx, d.dy);
   }
 
   function onUp() {
     const d = drag.current;
-    if (!d.on) return;
+    if (!d.on) {
+      // gesto virou rolagem vertical: nada a decidir
+      drag.current.axis = null;
+      return;
+    }
     d.on = false;
     const dt = performance.now() - d.t0;
     const vel = d.dx / Math.max(1, dt); // px/ms
@@ -308,8 +330,9 @@ export default function Discover() {
                 onPointerCancel={onUp}
                 role="button"
                 tabIndex={0}
-                aria-label={`${current.name}. Toque para ver a ficha; arraste para a direita para salvar, esquerda para descartar.`}
-                className="absolute inset-0 cursor-grab touch-none active:cursor-grabbing"
+                aria-label={`${current.name}. Arraste para a direita para salvar no laboratório, para a esquerda para descartar. Toque para ver ofertas e ficha técnica.`}
+                className="absolute inset-0 cursor-grab active:cursor-grabbing"
+                style={{ touchAction: "pan-y" }}
               >
                 <Card card={current} eager />
                 <div
@@ -343,7 +366,7 @@ export default function Discover() {
               >
                 ↺
               </ActionButton>
-              <ActionButton label="Ver ficha" onClick={() => setDetail(current)} color="var(--fam)" size="sm">
+              <ActionButton label="Ofertas e ficha técnica" onClick={() => setDetail(current)} color="var(--fam)" size="sm">
                 ℹ
               </ActionButton>
               <ActionButton label="Gostei" onClick={() => commit("like")} color="var(--like)" size="lg">

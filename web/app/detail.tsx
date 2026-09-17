@@ -17,8 +17,8 @@
 import { useEffect, useRef, useState } from "react";
 import Photo from "./photo";
 import {
-  KIND_LABEL, SOURCE_LABEL, brl, familyMeta, noteLabel, offerLine, pct, perGram,
-  photoMeta, usefulSynonyms, type Ingredient,
+  KIND_LABEL, SOURCE_LABEL, brl, familyMeta, notesLabel, notesOriginLabel, offerLine,
+  pct, perGram, photoMeta, usefulSynonyms, type Ingredient,
 } from "@/lib/deck";
 
 interface Credit {
@@ -132,11 +132,9 @@ export default function Detail({
                 <span aria-hidden>{fam.emoji}</span>
                 {fam.label}
               </span>
-              {card.note && (
-                <span className="rounded-full border border-white/15 bg-black/45 px-2.5 py-1 text-white/85 backdrop-blur-md">
-                  {noteLabel(card.note)}
-                </span>
-              )}
+              <span className="rounded-full border border-white/15 bg-black/45 px-2.5 py-1 text-white/85 backdrop-blur-md">
+                {notesLabel(card.notes)}
+              </span>
               {card.kind && KIND_LABEL[card.kind] && (
                 <span className="rounded-full border border-white/15 bg-black/45 px-2.5 py-1 text-white/70 backdrop-blur-md">
                   {KIND_LABEL[card.kind]}
@@ -280,7 +278,12 @@ export default function Detail({
                 label="Força do odor"
                 value={card.strength ? card.strength[0].toUpperCase() + card.strength.slice(1) : null}
               />
+              <Fact label="Posição na pirâmide" value={notesLabel(card.notes)} />
+              <Fact label="Tipo" value={card.kind ? KIND_LABEL[card.kind] ?? null : null} />
             </dl>
+            <p className="mt-3 text-[11.5px] leading-snug text-[var(--muted)]">
+              Posição na pirâmide determinada por: {notesOriginLabel(card.notesOrigin)}.
+            </p>
             {card.familyRaw && (
               <p className="mt-3 text-[11.5px] leading-snug text-[var(--muted)]">
                 A fonte classificava como <em>{card.familyRaw}</em>; o app reclassificou para{" "}

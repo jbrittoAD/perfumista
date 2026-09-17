@@ -1,16 +1,28 @@
 /**
- * card.tsx — A face da carta no deck.
+ * card.tsx — A face da carta. É a FICHA INTEIRA, não uma prévia.
  *
- * Leitura em 1 segundo, de cima para baixo: foto de tela cheia → família e
- * posição na pirâmide → nome → cheiro em 1–2 linhas → facetas → dose e preço.
- * Todo o resto (aplicação, percepção por concentração, ofertas, ficha técnica)
- * fica na folha de detalhe, que abre no toque.
+ * Decisão de produto: nada que importa para decidir "quero ou não quero" pode
+ * exigir um toque a mais. Então a carta traz, sem abrir nada:
+ *
+ *   família · faixa na pirâmide (topo, topo-coração, coração-base…) · tipo do
+ *   material (químico aromático / óleo essencial / base / solvente) · descrição
+ *   do cheiro · facetas · para que serve · dose típica · o que cada faixa de
+ *   concentração provoca · preço.
+ *
+ * A folha de detalhe continua existindo (toque ou botão ℹ), mas só para o que é
+ * consulta e não decisão: ofertas por fornecedor, CAS, massa molar, IFRA, foto.
+ *
+ * Layout: foto ocupa o topo; o resto rola DENTRO da carta (`touch-action: pan-y`,
+ * com o deck travando o eixo no primeiro movimento) para que o arrasto lateral
+ * continue sendo swipe e o vertical continue sendo leitura.
  */
 
 "use client";
 
 import Photo from "./photo";
-import { familyMeta, noteLabel, pct, perGram, type Ingredient } from "@/lib/deck";
+import {
+  familyMeta, kindLabel, notesShort, pct, perGram, type Ingredient,
+} from "@/lib/deck";
 
 export default function Card({
   card,
@@ -22,76 +34,139 @@ export default function Card({
   dimmed?: boolean;
 }) {
   const fam = familyMeta(card.family);
+  const kind = kindLabel(card.kind);
 
   return (
-    <div className="card-shell" style={{ ["--fam" as string]: fam.hex }}>
-      <Photo photoKey={card.photo} seed={card.id} eager={eager} />
-      <div className="card-scrim absolute inset-0" />
-
-      {dimmed && <div className="absolute inset-0 bg-black/45" />}
-
-      {/* topo: família + posição na pirâmide */}
-      <div className="absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-4">
-        <span
-          className="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[11px]
-                     font-semibold backdrop-blur-md"
+    <div className="card-shell flex flex-col" style={{ ["--fam" as string]: fam.hex }}>
+      {/* ---------- foto ---------- */}
+      <div className="relative h-[31%] shrink-0 overflow-hidden">
+        <Photo photoKey={card.photo} seed={card.id} eager={eager} />
+        <div
+          className="absolute inset-0"
           style={{
-            background: "color-mix(in srgb, var(--fam) 22%, rgb(0 0 0 / 0.5))",
-            color: "color-mix(in srgb, var(--fam) 70%, white)",
-            border: "1px solid color-mix(in srgb, var(--fam) 45%, transparent)",
+            background:
+              "linear-gradient(to top, rgb(22 22 28) 0%, rgb(22 22 28 / .55) 28%, rgb(0 0 0 / .1) 60%, rgb(0 0 0 / .35) 100%)",
           }}
-        >
-          <span aria-hidden>{fam.emoji}</span>
-          {fam.label}
-        </span>
-        {card.note && (
-          <span className="rounded-full border border-white/15 bg-black/45 px-2.5 py-1
-                           text-[11px] font-semibold text-white/85 backdrop-blur-md">
-            {noteLabel(card.note)}
-          </span>
-        )}
+        />
+        {dimmed && <div className="absolute inset-0 bg-black/45" />}
+
+        {/* os três rótulos que o usuário precisa ver de cara */}
+        <div className="absolute inset-x-0 top-0 flex flex-wrap gap-1.5 p-3">
+          <Badge tint>
+            <span aria-hidden>{fam.emoji}</span> {fam.label}
+          </Badge>
+          <Badge>{notesShort(card.notes)}</Badge>
+          {kind && <Badge>{kind}</Badge>}
+        </div>
       </div>
 
-      {/* rodapé: o conteúdo da carta */}
-      <div className="absolute inset-x-0 bottom-0 p-5 pb-5">
-        <h2 className="text-[26px] font-bold leading-[1.1] tracking-[-0.02em] text-white">
+      {/* ---------- ficha (rola dentro da carta) ---------- */}
+      <div
+        className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-2"
+        style={{ touchAction: "pan-y" }}
+      >
+        <h2 className="pt-0.5 text-[21px] font-bold leading-[1.12] tracking-[-0.02em]">
           {card.name}
         </h2>
 
-        <p className="mt-2 line-clamp-2 text-[13.5px] leading-snug text-white/78">
-          {card.smell}
-        </p>
+        <p className="mt-1.5 text-[13px] leading-snug text-[var(--fg-dim)]">{card.smell}</p>
 
         {card.facets.length > 0 && (
-          <div className="mt-3 flex flex-wrap gap-1.5">
-            {card.facets.slice(0, 4).map((f) => (
-              <span
-                key={f}
-                className="rounded-full border border-white/15 bg-white/10 px-2 py-[3px]
-                           text-[11px] font-medium text-white/85 backdrop-blur-sm"
-              >
+          <div className="mt-2 flex flex-wrap gap-1.5">
+            {card.facets.slice(0, 5).map((f) => (
+              <span key={f} className="chip chip-fam !px-2 !py-[2px] !text-[10.5px]">
                 {f}
               </span>
             ))}
           </div>
         )}
 
-        <div className="mt-4 flex items-center gap-3 border-t border-white/12 pt-3
-                        text-[11.5px] text-white/60">
-          <span>
-            Dose típica{" "}
-            <strong className="font-semibold text-white/85">
-              {pct(card.dose.low)}–{pct(card.dose.high)}
-            </strong>
-          </span>
-          <span aria-hidden className="text-white/25">•</span>
-          <span className="truncate">{perGram(card.price.perG)}</span>
-        </div>
+        <Block title="Para que serve">
+          <p className="text-[12.5px] leading-snug text-[var(--fg-dim)]">{card.uses}</p>
+        </Block>
 
-        <p className="mt-2.5 text-[10.5px] font-medium uppercase tracking-[0.1em] text-white/35">
-          Toque para ver a ficha completa
+        <Block title={`Dose típica ${pct(card.dose.low)}–${pct(card.dose.high)} · o que cada faixa faz`}>
+          <ul className="space-y-1">
+            {card.perception.map((p, i) => (
+              <li key={p.band} className="flex gap-2">
+                <span
+                  className="mt-[5px] h-1.5 w-1.5 shrink-0 rounded-full"
+                  style={{ background: "var(--fam)", opacity: 0.4 + i * 0.3 }}
+                />
+                <p className="text-[12px] leading-snug text-[var(--fg-dim)]">
+                  <strong className="font-semibold text-[var(--fg)]">
+                    {p.band} ({p.pct})
+                  </strong>{" "}
+                  {p.effect}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </Block>
+
+        {card.tech.ifra != null && (
+          <p
+            className="mt-2.5 rounded-[var(--r-sm)] border px-2.5 py-1.5 text-[11.5px] leading-snug"
+            style={{ borderColor: "rgb(255 95 109 / .35)", background: "rgb(255 95 109 / .1)", color: "#ffb3b8" }}
+          >
+            {card.tech.ifra === 0
+              ? "⛔ Proibido pela IFRA — está aqui só para você reconhecer."
+              : `⚠️ Teto IFRA: ${pct(card.tech.ifra)} do produto final (Cat 4).`}
+          </p>
+        )}
+      </div>
+
+      {/* ---------- preço, sempre visível ---------- */}
+      <div className="shrink-0 border-t border-white/10 px-4 py-2.5">
+        <p className="flex items-baseline gap-2 text-[12.5px]">
+          <strong className="text-[15px] font-bold" style={{ color: "var(--fam)" }}>
+            {perGram(card.price.perG)}
+          </strong>
+          {card.price.min != null && (
+            <span className="text-[var(--muted)]">
+              menor frasco{" "}
+              {card.price.min.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
+            </span>
+          )}
+          <span className="ml-auto shrink-0 text-[10.5px] uppercase tracking-wide text-[var(--muted)]">
+            ℹ ofertas
+          </span>
         </p>
       </div>
     </div>
+  );
+}
+
+function Badge({ children, tint = false }: { children: React.ReactNode; tint?: boolean }) {
+  return (
+    <span
+      className="inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[10.5px] font-semibold backdrop-blur-md"
+      style={
+        tint
+          ? {
+              background: "color-mix(in srgb, var(--fam) 24%, rgb(0 0 0 / .55))",
+              color: "color-mix(in srgb, var(--fam) 72%, white)",
+              border: "1px solid color-mix(in srgb, var(--fam) 50%, transparent)",
+            }
+          : {
+              background: "rgb(0 0 0 / .55)",
+              color: "rgb(255 255 255 / .88)",
+              border: "1px solid rgb(255 255 255 / .18)",
+            }
+      }
+    >
+      {children}
+    </span>
+  );
+}
+
+function Block({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <section className="mt-3">
+      <h3 className="mb-1 text-[9.5px] font-bold uppercase tracking-[0.12em] text-[var(--muted)]">
+        {title}
+      </h3>
+      {children}
+    </section>
   );
 }
