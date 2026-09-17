@@ -1,2 +1,2 @@
-:HL["/perfumista/_next/static/chunks/0nkcxqri0e4cy.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"8nkPVfzOtOqMUS4GTExCC"}
+:HL["/perfumista/_next/static/chunks/1kx517pemck3p.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"HRDPjQ5jqtjjkwhv6dEuN"}
