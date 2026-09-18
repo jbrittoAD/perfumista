@@ -12,7 +12,7 @@
  * hora de formular é você, na aba Fórmulas.
  */
 
-import { CARDS, type Ingredient } from "./deck";
+import { CARDS, compraPara, type Ingredient } from "./deck";
 
 export interface AlvoPapel {
   papel: string;
@@ -45,7 +45,7 @@ export const ALVOS: Alvo[] = [
     papeis: [
       // --- topo cítrico
       { papel: "bergamota", buscar: ["bergamota"], pct: 10 },
-      { papel: "limão", buscar: ["citral", "lemonile", "limao siciliano"], pct: 5 },
+      { papel: "limão", buscar: ["lemonile", "limao siciliano", "citral"], pct: 5 },
       { papel: "tangerina", buscar: ["mandarina", "tangerin", "clonal"], pct: 4 },
       { papel: "o fresco masculino", buscar: ["dihidromircenol"], pct: 8 },
 
@@ -55,7 +55,10 @@ export const ALVOS: Alvo[] = [
       { papel: "pólvora · mineral ozônico", buscar: ["helional"], pct: 3 },
       { papel: "pólvora · metálico frio", buscar: ["c12 mna"], pct: 2 },
       { papel: "pólvora · traço defumado", buscar: ["guaiacol", "betula"], pct: 1 },
-      { papel: "zimbro (alpino, gin)", buscar: ["juniper berry", "zimbro", "sabineno"], pct: 3 },
+            // Sabineno é o constituinte que faz a baga de zimbro cheirar a zimbro, e
+      // custa R$ 42 contra R$ 213 da baga inteira. Perde a parte resinosa e
+      // terrosa do óleo — quando sobrar orçamento, o Juniper Berry é o certo.
+      { papel: "zimbro (alpino, gin)", buscar: ["sabineno", "juniper berry", "zimbro"], pct: 3 },
       { papel: "pimenta preta", buscar: ["pimenta preta", "black pepper"], pct: 3 },
       { papel: "lavanda (a espinha fougère)", buscar: ["lavanda", "lavandin"], pct: 6 },
       { papel: "jasmim transparente", buscar: ["hedione"], pct: 8 },
@@ -64,7 +67,9 @@ export const ALVOS: Alvo[] = [
       { papel: "corpo amadeirado", buscar: ["iso e super"], pct: 16 },
       { papel: "sândalo cremoso", buscar: ["bacdanol", "sandalore", "ebanol"], pct: 8 },
       { papel: "cedro seco", buscar: ["acetato de cedrila", "cedramber"], pct: 6 },
-      { papel: "vetiver", buscar: ["vetiver"], pct: 4 },
+            // Acetato de vetiveril: vetiver sem a parte de raiz úmida, mais limpo e
+      // um terço do preço do óleo do Haiti. Para masculino é até preferível.
+      { papel: "vetiver", buscar: ["acetato de vetivert", "vetiver"], pct: 4 },
       { papel: "projeção ambarada", buscar: ["ambroxan", "ambrox"], pct: 6 },
       { papel: "almíscar limpo", buscar: ["galaxolide", "habanolide"], pct: 5 },
       { papel: "almíscar de pele", buscar: ["exaltolide", "ambrettolide"], pct: 2 },
@@ -102,8 +107,10 @@ export const ALVOS: Alvo[] = [
       // "Patchouli Terpenes" é subproduto da destilação e ganhava por começar
       // com o termo; o óleo Light é o material de verdade.
       { papel: "patchouli (a terra que sobra do original)", buscar: ["patchouli light", "patchoulol", "patchouli"], pct: 8 },
-      { papel: "olíbano (seriedade sem fuligem)", buscar: ["olibano", "olibanum"], pct: 4 },
-      { papel: "opoponax / mirra", buscar: ["opoponax", "mirra"], pct: 3 },
+      { papel: "olíbano (seriedade sem fuligem)", buscar: ["olibano", "olibanum"], pct: 6 },
+      // Opoponax e mirra estavam aqui como reforço resinoso, mas nenhum dos
+      // dois está na pirâmide do Khalid e a menor embalagem sai por R$ 159–199.
+      // O olíbano cobre o papel sozinho, por R$ 34.
 
       // --- base. Bálsamo de tolu NÃO existe em nenhum fornecedor mapeado;
       // benjoim + estoraque + um traço de vanilina cobrem o mesmo território
@@ -126,7 +133,7 @@ export const ALVOS: Alvo[] = [
 ];
 
 /** Resolve os papéis do alvo para cartas reais do catálogo. */
-export function resolverAlvo(alvo: Alvo): { papel: AlvoPapel; card: Ingredient | null }[] {
+export function resolverAlvo(alvo: Alvo, gramas = 10): { papel: AlvoPapel; card: Ingredient | null }[] {
   const norm = (s: string) =>
     s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
   return alvo.papeis.map((papel) => {
@@ -142,7 +149,13 @@ export function resolverAlvo(alvo: Alvo): { papel: AlvoPapel; card: Ingredient |
         const pa = norm(a.name).startsWith(termo) ? 0 : 1;
         const pb = norm(b.name).startsWith(termo) ? 0 : 1;
         if (pa !== pb) return pa - pb;
-        return (a.price.perG ?? 9e9) - (b.price.perG ?? 9e9);
+        // Desempate pelo DESEMBOLSO REAL, não pelo preço por grama. Ordenando
+        // por perG o alvo escolhia o Opoponax a R$ 6,49/g cuja menor
+        // embalagem é 20 g por R$ 199 — mais caro de comprar que um
+        // concorrente "mais caro por grama" vendido em 10 g.
+        const ca = compraPara(a, gramas)?.price ?? 9e9;
+        const cb = compraPara(b, gramas)?.price ?? 9e9;
+        return ca - cb;
       });
       if (hits.length) {
         melhor = hits[0];

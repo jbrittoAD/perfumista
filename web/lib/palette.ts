@@ -15,7 +15,7 @@
  * Função pura, sem React e sem estado — dá para testar com um array na mão.
  */
 
-import { CARDS, cardsOfFamily, type FamilySlug, type Ingredient } from "./deck";
+import { CARDS, cardsOfFamily, compraPara, type FamilySlug, type Ingredient } from "./deck";
 
 export interface PaletteOptions {
   /** Quantos frascos por família. Família ausente = zero. */
@@ -43,6 +43,15 @@ export interface PaletteOptions {
    * um parecido. Aqui se reserva a vaga.
    */
   mustInclude?: number[];
+  /**
+   * Trata a bancada como consumível: compra em `bancadaGrams` e a deixa FORA
+   * da contagem de frascos e das cotas, liberando os 110 lugares para nota.
+   */
+  bancadaSeparada?: boolean;
+  /** Quanto comprar de cada item da bancada. Padrão 250 g. */
+  bancadaGrams?: number;
+  /** Teto de gasto das NOTAS (a bancada tem orçamento próprio). */
+  budget?: number;
 }
 
 export interface PaletteResult {
@@ -53,8 +62,10 @@ export interface PaletteResult {
   workhorses: Ingredient[];
   /** Cotas que o catálogo não consegue atender. */
   shortfalls: { family: FamilySlug; asked: number; available: number }[];
-  /** Custo estimado comprando `grams` de cada. */
-  cost: { known: number; missingPrice: number };
+  /** Consumível comprado a granel, fora da contagem de frascos. */
+  bancada: Ingredient[];
+  /** Custo real das embalagens. `bancada` é o gasto do granel. */
+  cost: { known: number; missingPrice: number; bancada: number };
 }
 
 /**
@@ -94,6 +105,29 @@ const WORKHORSE_KEYS = [
 
   // fixador frutado de dose alta
   "isobutirato de fenoxietila", "fenirat",
+];
+
+/**
+ * A BANCADA. Não são paleta, são consumível: entram em quase toda fórmula em
+ * dose alta, e o frasco de 10 g acaba antes do terceiro ensaio. Compram-se em
+ * 250–500 g de uma vez, como o álcool, e por isso não disputam vaga com as
+ * notas — quem ocupa um dos 110 lugares é aroma que se escolhe, não solvente.
+ *
+ * O critério para estar aqui é duplo: dose alta em fórmula real E embalagem
+ * grande com preço por grama que compensa. Habanolide e Exaltolide seriam
+ * candidatos óbvios pela função, mas a menor embalagem sai por mais de R$ 600
+ * cada — ficam na paleta, em frasco pequeno.
+ */
+export const BANCADA_KEYS = [
+  // diluente — o "álcool" da bancada
+  "dipropileno", "miristato de isopropila",
+  // corpo e difusão, dose 10–30%
+  "iso e super", "hedione", "dihidromircenol",
+  "alcool feniletilico", "hexil cinamico", "salicilato de benzila",
+  // âmbar e madeira de volume
+  "ambroxan", "cedramber",
+  // almíscar de fixação, dose alta
+  "galaxolide", "etileno brassilato",
 ];
 
 const SOLVENT_KEYS = ["dpg", "dipropileno", "ipm", "miristato de isopropila", "dep", "dietilftalato"];
@@ -153,9 +187,14 @@ function similarityPenalty(c: Ingredient, chosen: Ingredient[]): number {
   return p * fator;
 }
 
-/** Custo de um frasco do material no tamanho pedido. */
+/**
+ * Custo de um frasco do material no tamanho pedido — o que SE PAGA, não
+ * `perG × gramas`. Ver a nota em deck.ts: a diferença entre os dois chega a 5x
+ * no conjunto da paleta, porque o preço por grama bom quase sempre vem de uma
+ * embalagem grande que ninguém quer comprar de 90 materiais diferentes.
+ */
 export function bottleCost(c: Ingredient, grams: number): number | null {
-  return c.price.perG == null ? null : c.price.perG * grams;
+  return compraPara(c, grams)?.price ?? null;
 }
 
 /** Acima do teto? Material sem preço passa: não dá para afirmar que é caro. */
@@ -208,6 +247,35 @@ function matchesAny(c: Ingredient, keys: string[]): boolean {
 export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
   const chosenIds = new Set<number>();
   const workhorses: Ingredient[] = [];
+  const bancada: Ingredient[] = [];
+  let custoBancada = 0;
+
+  // -1) A bancada sai da frente antes de tudo. Ela não gasta vaga nem cota: é
+  //     consumível. Sai também do pool, para não voltar como obreira ou nota.
+  if (opts.bancadaSeparada) {
+    const bg = opts.bancadaGrams ?? 250;
+    // Um item por PAPEL, e dentro do papel o que sai mais barato no tamanho
+    // pedido — não o primeiro que casa. Sem isto o DPG entrava no pote de
+    // 200 g por R$ 19,99 enquanto o mesmo solvente existe em 1 L por R$ 44,50,
+    // que é menos da metade do preço por grama.
+    for (const key of BANCADA_KEYS) {
+      const cands = CARDS.filter(
+        (c) => !c.banned && !chosenIds.has(c.id) && matchesAny(c, [key]),
+      );
+      let melhor: Ingredient | null = null;
+      let melhorPpg = Infinity;
+      for (const c of cands) {
+        const o = compraPara(c, bg);
+        if (!o?.price || !o.size) continue;
+        const ppg = o.price / Math.min(o.size, bg * 4); // não premia embalagem gigante
+        if (ppg < melhorPpg) { melhorPpg = ppg; melhor = c; }
+      }
+      if (!melhor) continue;
+      bancada.push(melhor);
+      chosenIds.add(melhor.id);
+      custoBancada += compraPara(melhor, bg)?.price ?? 0;
+    }
+  }
   const cap = opts.maxBottles ?? Infinity;
   const room = () => cap - chosenIds.size;
 
@@ -248,6 +316,15 @@ export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
   }
 
   // 2) Cotas por família, descontando quem já entrou como obreira.
+  //    Com `budget`, a cota é um teto e não uma promessa: quando o dinheiro
+  //    acaba a família fica incompleta, e isso aparece em `shortfalls`. É
+  //    preferível a devolver uma lista que não cabe no bolso de quem pediu.
+  let gasto = [...required, ...workhorses].reduce(
+    (t, c) => t + (bottleCost(c, grams) ?? 0), 0,
+  );
+  const cabe = (c: Ingredient) =>
+    opts.budget == null || gasto + (bottleCost(c, grams) ?? 0) <= opts.budget;
+
   const byFamily: PaletteResult["byFamily"] = [];
   const shortfalls: PaletteResult["shortfalls"] = [];
   const picks: Ingredient[] = [...required, ...workhorses];
@@ -258,7 +335,11 @@ export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
     const already = [...required, ...workhorses].filter((c) => c.family === fam);
     const pool = cardsOfFamily(fam).filter((c) => !chosenIds.has(c.id) && !c.banned);
     const need = Math.max(0, Math.min(asked - already.length, room()));
-    const got = pickDiverse(pool, need, opts, grams);
+    const got = pickDiverse(pool, need, opts, grams).filter((c) => {
+      if (!cabe(c)) return false;
+      gasto += bottleCost(c, grams) ?? 0;
+      return true;
+    });
     for (const c of got) {
       chosenIds.add(c.id);
       picks.push(c);
@@ -274,9 +355,13 @@ export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
   let known = 0;
   let missingPrice = 0;
   for (const c of picks) {
-    if (c.price.perG != null) known += c.price.perG * grams;
+    const v = bottleCost(c, grams);
+    if (v != null) known += v;
     else missingPrice++;
   }
 
-  return { picks, required, byFamily, workhorses, shortfalls, cost: { known, missingPrice } };
+  return {
+    picks, required, byFamily, workhorses, bancada, shortfalls,
+    cost: { known, missingPrice, bancada: custoBancada },
+  };
 }

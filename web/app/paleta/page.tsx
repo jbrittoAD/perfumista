@@ -25,12 +25,12 @@ import Detail from "../detail";
 import Photo from "../photo";
 import {
   FAMILIES, brlPrecise, familyMeta, getCard, notesShort, perGram,
-  type FamilySlug, type Ingredient,
-} from "@/lib/deck";
+  type FamilySlug, type Ingredient, compraPara, menorCompra,} from "@/lib/deck";
 import {
   palettePick, paletteRemove, paletteReset, paletteSkip, setPalette, useDeckState,
 } from "@/lib/deck-store";
 import { buildSteps } from "@/lib/palette-flow";
+import { bottleCost, buildPalette } from "@/lib/palette";
 import { ALVOS, resolverAlvo } from "@/lib/alvos";
 
 type Fase = "plano" | "escolha" | "lista";
@@ -84,8 +84,19 @@ export default function Paleta() {
     [pal.picks],
   );
   const totalPlanejado = Object.values(pal.quotas).reduce((s, n) => s + (n || 0), 0);
-  const custo = escolhidos.reduce((s, c) => s + (c.price.perG ?? 0) * pal.grams, 0);
-  const semPreco = escolhidos.filter((c) => c.price.perG == null).length;
+  // Custo REAL: a embalagem que a loja vende, não perG × gramas. Ver a nota
+  // em deck.ts — a diferença entre os dois chega a 5x no total da paleta.
+  const custo = escolhidos.reduce((s, c) => s + (bottleCost(c, pal.grams) ?? 0), 0);
+  const semPreco = escolhidos.filter((c) => menorCompra(c) == null).length;
+
+  // A bancada é consumível e não disputa vaga com as notas.
+  const banc = useMemo(
+    () =>
+      pal.bancada
+        ? buildPalette({ quotas: {}, bancadaSeparada: true, bancadaGrams: pal.bancadaGrams }, 10)
+        : null,
+    [pal.bancada, pal.bancadaGrams],
+  );
 
   const stepAtivo = steps.find((s) => s.family === famAtiva) ?? steps.find((s) => !s.done);
   const candidato = stepAtivo?.candidates[0] ?? null;
@@ -100,10 +111,20 @@ export default function Paleta() {
   async function copiar() {
     const linhas = escolhidos
       .sort((a, b) => familyMeta(a.family).order - familyMeta(b.family).order)
-      .map((c) => `• ${c.name} — ${familyMeta(c.family).label} — ${perGram(c.price.perG)}`);
+      .map((c) => {
+        const o = compraPara(c, pal.grams);
+        return `• ${c.name} — ${familyMeta(c.family).label} — ${o ? `${o.size}${o.unit} ${brlPrecise(o.price)}` : "sem oferta"}`;
+      });
+    const bancLinhas = (banc?.bancada ?? []).map((c: Ingredient) => {
+      const o = compraPara(c, pal.bancadaGrams);
+      return `• ${c.name} — ${o ? `${o.size}${o.unit} ${brlPrecise(o.price)}` : "sem oferta"}`;
+    });
     try {
       await navigator.clipboard.writeText(
-        `Paleta Perfumista — ${escolhidos.length} frascos de ${pal.grams}g\n\n${linhas.join("\n")}`,
+        `Paleta Perfumista — ${escolhidos.length} frascos de ${pal.grams}g\n\n${linhas.join("\n")}` +
+          (bancLinhas.length
+            ? `\n\nBANCADA (granel, ~${pal.bancadaGrams}g)\n${bancLinhas.join("\n")}`
+            : ""),
       );
     } catch {
       /* clipboard bloqueado */
@@ -154,6 +175,7 @@ export default function Paleta() {
           onGramas={(v) => setPalette({ grams: v })}
           onComecar={() => setFase("escolha")}
           onReservar={(ids) => ids.forEach(palettePick)}
+          banc={banc}
         />
       )}
 
@@ -198,7 +220,7 @@ export default function Paleta() {
 /* ------------------------------------------------------------------ */
 
 function Plano({
-  pal, total, onAjustar, onPreset, onTeto, onGramas, onComecar, onReservar,
+  pal, total, onAjustar, onPreset, onTeto, onGramas, onComecar, onReservar, banc,
 }: {
   pal: ReturnType<typeof useDeckState>["palette"];
   total: number;
@@ -208,6 +230,7 @@ function Plano({
   onGramas: (v: number) => void;
   onComecar: () => void;
   onReservar: (ids: number[]) => void;
+  banc: ReturnType<typeof buildPalette> | null;
 }) {
   return (
     <div className="flex-1 space-y-4 px-4 pb-8">
@@ -226,6 +249,63 @@ function Plano({
             </button>
           ))}
         </div>
+      </section>
+
+      <section className="panel p-3">
+        <h2 className="eyebrow mb-1">A bancada</h2>
+        <p className="mb-2 text-[11.5px] leading-snug text-[var(--muted)]">
+          Não são paleta, são consumível: entram em quase toda fórmula em dose alta
+          e o frasco de 10 g acaba no terceiro ensaio. Compra-se a granel, como o
+          álcool — e por isso ficam fora da contagem de frascos.
+        </p>
+        <label className="flex items-center justify-between py-1.5 text-[13px]">
+          <span>Comprar a bancada à parte</span>
+          <input
+            type="checkbox"
+            checked={pal.bancada}
+            onChange={(e) => setPalette({ bancada: e.target.checked })}
+            className="h-4 w-4 accent-[var(--fam)]"
+          />
+        </label>
+        {pal.bancada && banc && (
+          <>
+            <label className="flex items-center justify-between py-1.5 text-[13px]">
+              <span>Tamanho</span>
+              <span className="flex gap-1">
+                {[100, 250, 500].map((g) => (
+                  <button
+                    key={g}
+                    type="button"
+                    onClick={() => setPalette({ bancadaGrams: g })}
+                    className="rounded-full px-2.5 py-1 text-[12px] font-semibold"
+                    style={{
+                      background: pal.bancadaGrams === g ? "var(--fam)" : "var(--surface-2)",
+                      color: pal.bancadaGrams === g ? "#000" : "var(--muted)",
+                    }}
+                  >
+                    {g}g
+                  </button>
+                ))}
+              </span>
+            </label>
+            <ul className="mt-1 space-y-0.5">
+              {banc.bancada.map((c: Ingredient) => {
+                const o = compraPara(c, pal.bancadaGrams);
+                return (
+                  <li key={c.id} className="flex justify-between gap-2 text-[11.5px]">
+                    <span className="truncate text-[var(--muted)]">{c.name}</span>
+                    <span className="shrink-0 tabular-nums">
+                      {o ? `${o.size}${o.unit} · ${brlPrecise(o.price)}` : "—"}
+                    </span>
+                  </li>
+                );
+              })}
+            </ul>
+            <p className="mt-2 text-[13px] font-semibold">
+              {banc.bancada.length} itens · {brlPrecise(banc.cost.bancada)}
+            </p>
+          </>
+        )}
       </section>
 
       <section>
@@ -484,7 +564,7 @@ function Lista({
 
       {porFamilia.map(([fam, cs]) => {
         const f = familyMeta(fam);
-        const sub = cs.reduce((s, c) => s + (c.price.perG ?? 0) * gramas, 0);
+        const sub = cs.reduce((s, c) => s + (bottleCost(c, gramas) ?? 0), 0);
         return (
           <section key={fam}>
             <h2 className="eyebrow mb-1.5">
@@ -506,7 +586,15 @@ function Lista({
                     <p className="truncate text-[13.5px] font-semibold">{c.name}</p>
                     <p className="text-[11px] text-[var(--muted)]">
                       {notesShort(c.notes)} · {perGram(c.price.perG)} ·{" "}
-                      {brlPrecise((c.price.perG ?? 0) * gramas)} o frasco
+                      {(() => {
+                        const o = compraPara(c, gramas);
+                        // O que se paga é a embalagem que existe. Quando ela é
+                        // maior que o frasco pedido, dizer isso — senão o total
+                        // da lista não bate com o do carrinho.
+                        return o
+                          ? `${brlPrecise(o.price)} (${o.size}${o.unit})`
+                          : "sem oferta";
+                      })()}
                     </p>
                   </button>
                   <button

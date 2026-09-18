@@ -10,7 +10,7 @@
  */
 
 import { cardsOfFamily, type FamilySlug, type Ingredient } from "./deck";
-import { rankCandidates } from "./palette";
+import { bottleCost, rankCandidates } from "./palette";
 
 export interface FamilyStep {
   family: FamilySlug;
@@ -42,7 +42,7 @@ export function buildSteps(
         !pickSet.has(c.id) &&
         !skipSet.has(c.id) &&
         !c.banned &&
-        (maxPerBottle == null || c.price.perG == null || c.price.perG * grams <= maxPerBottle),
+        (maxPerBottle == null || bottleCost(c, grams) == null || bottleCost(c, grams)! <= maxPerBottle),
     );
     steps.push({
       family: fam,

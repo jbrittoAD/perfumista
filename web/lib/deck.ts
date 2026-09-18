@@ -346,3 +346,50 @@ export function offerLine(o: Offer): string {
   const dil = o.dil ? ` (${o.dil})` : "";
   return `${size}${dil}`;
 }
+
+/* ------------------------------------------------------------------ compra
+
+   ATENÇÃO — a diferença entre `price.perG` e o que se paga de verdade.
+
+   `perG` é o preço por grama da MELHOR faixa de todas as ofertas. Serve para
+   comparar dois materiais entre si, e é isso que o cartão mostra. Só que
+   ninguém vende uma grama: o Iso E Super sai a R$ 0,18/g porque existe balde
+   de 1 L, e a menor embalagem que a Flavorist tem dele é 500 ml por R$ 120,84.
+   Uma paleta orçada em `perG × 10 g` dava R$ 1.270 para 110 frascos; comprando
+   as embalagens que realmente existem, os mesmos 110 custam R$ 6.752.
+
+   Daqui para baixo tudo trabalha com embalagem real. */
+
+/** Ofertas do material puro (sem diluição), sem repetição, da menor para a maior. */
+export function ofertasPuras(c: Ingredient): Offer[] {
+  const vistas = new Set<string>();
+  const out: Offer[] = [];
+  for (const o of c.price.offers) {
+    if (o.dil || o.size == null || o.price == null) continue;
+    const k = `${o.size}|${o.unit}|${o.price}`;
+    if (vistas.has(k)) continue;
+    vistas.add(k);
+    out.push(o);
+  }
+  return out.sort((a, b) => a.size! - b.size! || a.price! - b.price!);
+}
+
+/** O desembolso mínimo para ter o material em casa: a embalagem mais barata que existe. */
+export function menorCompra(c: Ingredient): Offer | null {
+  const o = ofertasPuras(c);
+  if (!o.length) return null;
+  return o.reduce((m, x) => (x.price! < m.price! ? x : m));
+}
+
+/**
+ * A compra mais barata que entrega pelo menos `g` gramas. Se nenhuma embalagem
+ * chega lá, devolve a maior que existe — comprar duas da mesma é assunto de
+ * quem está no carrinho, não desta função.
+ */
+export function compraPara(c: Ingredient, g: number): Offer | null {
+  const puras = ofertasPuras(c);
+  if (!puras.length) return null;
+  const servem = puras.filter((o) => o.size! >= g);
+  if (servem.length) return servem.reduce((m, x) => (x.price! < m.price! ? x : m));
+  return puras[puras.length - 1];
+}

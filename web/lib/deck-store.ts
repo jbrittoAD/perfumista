@@ -60,10 +60,15 @@ export interface PaletteState {
   grams: number;
   /** Fórmula cujos materiais têm vaga reservada. */
   reservedFormula: string | null;
+  /** Comprar a bancada a granel e deixá-la fora da contagem de frascos. */
+  bancada: boolean;
+  /** Quanto comprar de cada item da bancada. */
+  bancadaGrams: number;
 }
 
 export const EMPTY_PALETTE: PaletteState = {
   quotas: {}, picks: [], skipped: [], maxPerBottle: 120, grams: 10, reservedFormula: null,
+  bancada: true, bancadaGrams: 100,
 };
 
 export interface DeckState {
