@@ -80,6 +80,17 @@ químicos aromáticos, marca o que quer na paleta, e simula acordes com o que ma
     posição na pirâmide.
   - `fetch_photos.py` — fotos e variantes do Wikimedia Commons.
 
+### Fornecedores mapeados (e os que ficaram de fora)
+| Loja | Status | Por quê |
+|---|---|---|
+| Eu Perfumista | ✅ raspada | químicos + óleos essenciais |
+| Flavorist | ✅ raspada | químicos consagrados |
+| Perfumístico | ✅ raspada | químicos + bases |
+| Perfumoteca | ✅ raspada | moléculas isoladas |
+| **Neuroaroma** | ✅ **só a seção de químicos** | 72 das 127 URLs são contratipo; o scraper descarta fragrância por regex de nome |
+| **Big Essências** | ❌ **não raspada** | loja de artesanato/saboaria: ~1050 das 2060 URLs são essência pronta, e em "matéria-prima" só 6 de 78 itens são químico de perfumaria |
+| Symrise (e as outras casas) | ❌ não aplicável | fabricante B2B: pedido em quilos, exige CNPJ, sem preço público. As moléculas delas chegam pelas lojas acima (879 ofertas Givaudan, 84 IFF, 60 Firmenich, 29 Symrise) |
+
 ### Sobre fontes externas (decisão registrada)
 O **The Good Scents Company** seria a melhor fonte para descrição perceptual, força do odor
 e substantividade — mas o `robots.txt` deles bloqueia agentes de IA explicitamente

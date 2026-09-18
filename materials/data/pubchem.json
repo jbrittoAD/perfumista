@@ -2819,5 +2819,77 @@
   "bp": 257.9,
   "vp": 0.02,
   "found": true
+ },
+ "123-66-0": {
+  "cid": 31265,
+  "mw": 144.21,
+  "logp": 2.4,
+  "iupac": "ethyl hexanoate",
+  "bp": 167.0,
+  "vp": 1.56,
+  "found": true
+ },
+ "7787-20-4": {
+  "cid": 82229,
+  "mw": 152.23,
+  "logp": 2.3,
+  "iupac": "(1R,4S)-1,3,3-trimethylbicyclo[2.2.1]heptan-2-one",
+  "found": true
+ },
+ "102-13-6": {
+  "cid": 60998,
+  "mw": 192.25,
+  "logp": 3.2,
+  "iupac": "2-methylpropyl 2-phenylacetate",
+  "bp": 247.0,
+  "found": true
+ },
+ "706-14-9": {
+  "cid": 12813,
+  "mw": 170.25,
+  "logp": 2.7,
+  "iupac": "5-hexyloxolan-2-one",
+  "bp": 115.0,
+  "vp": 0.00512,
+  "found": true
+ },
+ "1322-17-4": {
+  "cid": 234237,
+  "mw": 202.29,
+  "logp": 2.7,
+  "iupac": "3-hydroxynonyl acetate",
+  "bp": 275.5,
+  "found": true
+ },
+ "19819-98-8": {
+  "cid": 88267,
+  "mw": 136.19,
+  "logp": 2.3,
+  "iupac": "2-(2-methylphenyl)ethanol",
+  "found": true
+ },
+ "1506-02-1": {
+  "cid": 89440,
+  "mw": 258.4,
+  "logp": 5.3,
+  "iupac": "1-(3,5,5,6,8,8-hexamethyl-6,7-dihydronaphthalen-2-yl)ethanone",
+  "bp": 4.0,
+  "vp": 0.000512,
+  "found": true
+ },
+ "338735-71-0": {
+  "cid": 57357974,
+  "mw": 250.4,
+  "logp": 5.1,
+  "iupac": "2,6,6,7,8,8-hexamethyl-3,3a,4,5,5a,7,8a,8b-octahydro-2H-cyclopenta[g][1]benzofuran",
+  "found": true
+ },
+ "5471-51-2": {
+  "cid": 21648,
+  "mw": 164.2,
+  "logp": 1.5,
+  "iupac": "4-(4-hydroxyphenyl)butan-2-one",
+  "bp": 200.0,
+  "found": true
  }
 }
