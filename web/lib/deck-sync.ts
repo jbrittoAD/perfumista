@@ -24,7 +24,7 @@
 
 import { createClient } from "@supabase/supabase-js";
 import {
-  currentState, replaceState, setCommitHook,
+  currentState, replaceState, setCommitHook, EMPTY_PALETTE,
   type Blend, type DeckState, type SwipeRecord,
 } from "./deck-store";
 
@@ -105,9 +105,14 @@ function mergeDeck(local: DeckState, remote: Partial<DeckState> | undefined): De
   }
 
   const remoteNewer = (remote.updatedAt ?? 0) > local.updatedAt;
+  // A paleta é um plano inteiro, não um conjunto de itens independentes:
+  // mesclar cotas de dois aparelhos daria um plano que ninguém montou. Vence a
+  // versão mais recente, por inteiro.
+  const palette = remoteNewer ? (remote.palette ?? local.palette) : local.palette;
   return {
     swipes,
     cursor,
+    palette: palette ?? EMPTY_PALETTE,
     last: remoteNewer ? (remote.last ?? local.last) : local.last,
     blends: [...byId.values()].sort((a, b) => b.updatedAt - a.updatedAt),
     updatedAt: Math.max(local.updatedAt, remote.updatedAt ?? 0),

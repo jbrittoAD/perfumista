@@ -16,6 +16,7 @@ import { useDeckState } from "@/lib/deck-store";
 const TABS = [
   { href: "/", label: "Descobrir", icon: DeckIcon },
   { href: "/lab", label: "Laboratório", icon: FlaskIcon },
+  { href: "/paleta", label: "Paleta", icon: GridIcon },
   { href: "/formulas", label: "Fórmulas", icon: DropIcon },
 ];
 
@@ -82,6 +83,20 @@ function FlaskIcon({ active }: { active: boolean }) {
         stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round"
         fill={active ? "currentColor" : "none"} fillOpacity={active ? 0.18 : 0} />
       <path d="M8.2 3h7.6M6.8 14h10.4" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function GridIcon({ active }: { active: boolean }) {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
+      {[
+        [4, 4], [13.5, 4], [4, 13.5], [13.5, 13.5],
+      ].map(([x, y], i) => (
+        <rect key={i} x={x} y={y} width="6.5" height="6.5" rx="1.6"
+          stroke="currentColor" strokeWidth="1.7"
+          fill={active ? "currentColor" : "none"} fillOpacity={active ? 0.18 : 0} />
+      ))}
     </svg>
   );
 }

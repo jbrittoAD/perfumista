@@ -61,6 +61,8 @@ export interface Ingredient {
   diff: string | null;
   /** Nota escrita à mão sobre o que distingue este material na sua classe. */
   insight: string | null;
+  /** Proibido pela IFRA/UE — nunca deve ser recomendado. */
+  banned: boolean;
   facets: string[];
   uses: string;
   dose: { low: number; mid: number; high: number; label: string | null };

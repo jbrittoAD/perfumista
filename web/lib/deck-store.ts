@@ -47,6 +47,25 @@ export interface Blend {
   updatedAt: number;
 }
 
+/** O plano de compra da paleta: cotas, escolhidos e pulados. */
+export interface PaletteState {
+  quotas: Partial<Record<FamilySlug, number>>;
+  /** Ids que o usuário aprovou, um a um. */
+  picks: number[];
+  /** Ids recusados nesta montagem (não voltam a aparecer). */
+  skipped: number[];
+  /** Teto de R$ por frasco; null = sem teto. */
+  maxPerBottle: number | null;
+  /** Tamanho do frasco considerado no custo. */
+  grams: number;
+  /** Fórmula cujos materiais têm vaga reservada. */
+  reservedFormula: string | null;
+}
+
+export const EMPTY_PALETTE: PaletteState = {
+  quotas: {}, picks: [], skipped: [], maxPerBottle: 120, grams: 10, reservedFormula: null,
+};
+
 export interface DeckState {
   swipes: Record<number, SwipeRecord>;
   /** Última posição vista em cada família (índice dentro da família). */
@@ -54,13 +73,15 @@ export interface DeckState {
   /** Id da última carta exibida — é por onde o app reabre. */
   last: { id: number; family: FamilySlug } | null;
   blends: Blend[];
+  palette: PaletteState;
   updatedAt: number;
   /** false até o IndexedDB responder: a UI não pode montar a fila antes disso. */
   ready: boolean;
 }
 
 const EMPTY: DeckState = {
-  swipes: {}, cursor: {}, last: null, blends: [], updatedAt: 0, ready: false,
+  swipes: {}, cursor: {}, last: null, blends: [], palette: EMPTY_PALETTE,
+  updatedAt: 0, ready: false,
 };
 
 const DB_NAME = "perfumista-deck";
@@ -156,6 +177,7 @@ function sanitize(raw: unknown): DeckState {
     cursor: (s.cursor ?? {}) as DeckState["cursor"],
     last: (s.last as DeckState["last"]) ?? null,
     blends: Array.isArray(s.blends) ? (s.blends as Blend[]) : [],
+    palette: { ...EMPTY_PALETTE, ...((s.palette as PaletteState) ?? {}) },
     updatedAt: Number(s.updatedAt) || 0,
     ready: true,
   };
@@ -274,6 +296,34 @@ export function resetAll() {
 export function saveBlend(blend: Blend) {
   const rest = state.blends.filter((b) => b.id !== blend.id);
   commit({ ...state, blends: [{ ...blend, updatedAt: Date.now() }, ...rest] });
+}
+
+export function setPalette(patch: Partial<PaletteState>) {
+  commit({ ...state, palette: { ...state.palette, ...patch } });
+}
+
+/** Aprova o material para a paleta. */
+export function palettePick(id: number) {
+  const p = state.palette;
+  if (p.picks.includes(id)) return;
+  setPalette({ picks: [...p.picks, id], skipped: p.skipped.filter((x) => x !== id) });
+}
+
+/** Recusa o material nesta montagem. */
+export function paletteSkip(id: number) {
+  const p = state.palette;
+  if (p.skipped.includes(id)) return;
+  setPalette({ skipped: [...p.skipped, id], picks: p.picks.filter((x) => x !== id) });
+}
+
+/** Tira da paleta (volta a ser candidato). */
+export function paletteRemove(id: number) {
+  const p = state.palette;
+  setPalette({ picks: p.picks.filter((x) => x !== id), skipped: p.skipped.filter((x) => x !== id) });
+}
+
+export function paletteReset() {
+  setPalette({ picks: [], skipped: [] });
 }
 
 export function deleteBlend(id: string) {

@@ -951,6 +951,20 @@ def price_word(a, b):
 NOTES_SORTED = sorted(NOTES_PT.items(), key=lambda kv: -len(kv[0]))
 
 
+# "PROIBIDO" em CAIXA ALTA é a declaração de que o material é banido. Em
+# minúscula não vale: a nota da bétula diz "o bruto é proibido, o retificado é
+# restrito", e o retificado — que é o que se vende — pode ser usado.
+BANNED_RE = re.compile(r"\bPROIBID[OA]\b")
+
+
+def is_banned(m, note, uses):
+    """Banido pela IFRA/UE. O teto zerado é um sinal; o texto curado é o outro,
+    e é o que pega os casos em que a fonte não trouxe o teto."""
+    if m.get("ifra_limit_pct") == 0:
+        return True
+    return bool(BANNED_RE.search((note or "") + " " + (uses or "")))
+
+
 def curated_note(name, syns):
     """A nota escrita à mão para este material, se existir.
 
@@ -1325,6 +1339,8 @@ def main():
 
         notes, notes_origin = derive_notes(m, family)
         uses = derive_uses(m, family, facets, notes)
+        insight = curated_note(name, syns)
+        banned = is_banned(m, insight, uses)
         if m.get("key_uses") in USES_PT:
             stats["uses_curado"] += 1
 
@@ -1365,7 +1381,8 @@ def main():
             "strength": m.get("odor_strength"),
             "smell": smell,
             "pairs": pairs,
-            "insight": curated_note(name, syns),
+            "insight": insight,
+            "banned": banned,
             "facets": facets,
             "uses": uses,
             "dose": {"low": dose[0], "mid": dose[1], "high": dose[2],
@@ -1478,6 +1495,7 @@ def main():
     print(f"  famílias corrigidas por voto de faceta: {stats['reclassificados']}")
     print(f"  completadas pelo PubChem: {stats['pubchem']}")
     print(f"  notas curadas aplicadas: {sum(1 for c in ordered if c.get('insight'))}")
+    print(f"  materiais banidos marcados: {sum(1 for c in ordered if c.get('banned'))}")
     nofacet = sum(1 for c in ordered if not c["facets"])
     print(f"  cartas sem nenhuma faceta: {nofacet}")
 
