@@ -1,3 +1,3 @@
-:HL["/perfumista/_next/static/chunks/3h2t52j8u3itb.css","style"]
+:HL["/perfumista/_next/static/chunks/3fnheyhr1fk11.css","style"]
 :HL["/perfumista/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"formulas","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"8N0vewkX16d2dIDRzs2aK"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"formulas","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"DkJ2D33-4Z4H_fmpzsL5s"}
