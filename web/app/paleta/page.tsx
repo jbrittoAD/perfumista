@@ -290,7 +290,9 @@ function Plano({
             </label>
             <ul className="mt-1 space-y-0.5">
               {banc.bancada.map((c: Ingredient) => {
-                const o = compraPara(c, pal.bancadaGrams);
+                // O álcool e o BHT têm tamanho próprio (ver TAMANHO_FIXO).
+                const fixo = /cereais/i.test(c.name) ? 1000 : /bht/i.test(c.name) ? 100 : null;
+                const o = compraPara(c, fixo ?? pal.bancadaGrams);
                 return (
                   <li key={c.id} className="flex justify-between gap-2 text-[11.5px]">
                     <span className="truncate text-[var(--muted)]">{c.name}</span>

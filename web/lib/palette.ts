@@ -119,7 +119,9 @@ const WORKHORSE_KEYS = [
  * cada — ficam na paleta, em frasco pequeno.
  */
 export const BANCADA_KEYS = [
-  // diluente — o "álcool" da bancada
+  // o veículo e o que o protege
+  "cereais", "bht",
+  // diluente
   "dipropileno", "miristato de isopropila",
   // corpo e difusão, dose 10–30%
   "iso e super", "hedione", "dihidromircenol",
@@ -129,6 +131,14 @@ export const BANCADA_KEYS = [
   // almíscar de fixação, dose alta
   "galaxolide", "etileno brassilato",
 ];
+
+/**
+ * Itens da bancada que não seguem o tamanho escolhido. O álcool é o veículo —
+ * 80% do frasco pronto — e comprá-lo em 100 g não faz sentido nenhum. O BHT
+ * entra a 0,1%: o menor pote que existe (500 g) já é suprimento vitalício, e
+ * pedir mais é desperdício.
+ */
+const TAMANHO_FIXO: Record<string, number> = { cereais: 1000, bht: 100 };
 
 const SOLVENT_KEYS = ["dpg", "dipropileno", "ipm", "miristato de isopropila", "dep", "dietilftalato"];
 
@@ -259,21 +269,22 @@ export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
     // 200 g por R$ 19,99 enquanto o mesmo solvente existe em 1 L por R$ 44,50,
     // que é menos da metade do preço por grama.
     for (const key of BANCADA_KEYS) {
+      const alvo = TAMANHO_FIXO[key] ?? bg;
       const cands = CARDS.filter(
         (c) => !c.banned && !chosenIds.has(c.id) && matchesAny(c, [key]),
       );
       let melhor: Ingredient | null = null;
       let melhorPpg = Infinity;
       for (const c of cands) {
-        const o = compraPara(c, bg);
+        const o = compraPara(c, alvo);
         if (!o?.price || !o.size) continue;
-        const ppg = o.price / Math.min(o.size, bg * 4); // não premia embalagem gigante
+        const ppg = o.price / Math.min(o.size, alvo * 4); // não premia embalagem gigante
         if (ppg < melhorPpg) { melhorPpg = ppg; melhor = c; }
       }
       if (!melhor) continue;
       bancada.push(melhor);
       chosenIds.add(melhor.id);
-      custoBancada += compraPara(melhor, bg)?.price ?? 0;
+      custoBancada += compraPara(melhor, alvo)?.price ?? 0;
     }
   }
   const cap = opts.maxBottles ?? Infinity;
