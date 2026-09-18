@@ -31,10 +31,22 @@ import {
   palettePick, paletteRemove, paletteReset, paletteSkip, setPalette, useDeckState,
 } from "@/lib/deck-store";
 import { buildSteps } from "@/lib/palette-flow";
+import { ALVOS, resolverAlvo } from "@/lib/alvos";
 
 type Fase = "plano" | "escolha" | "lista";
 
 const PRESETS: { nome: string; nota: string; quotas: Partial<Record<FamilySlug, number>> }[] = [
+  {
+    // Pesos invertidos em relação ao genérico: a aromática dobra (é a espinha do
+    // fougère e a maior família do catálogo), madeira e especiaria sobem, floral
+    // cai — mas aldeído NÃO cai: o masculino ensaboado é feito de C-10/C-11/C-12
+    // com almíscar branco, e é o perfil mais vendido no Brasil.
+    nome: "Masculino · 110",
+    nota: "fougère, amadeirado e ensaboado — o eixo masculino",
+    quotas: { herbal: 18, woody: 17, citrus: 12, aldehydic: 10, amber: 10, musk: 9,
+              spicy: 7, green: 6, balsamic: 5, aquatic: 4, floral: 4, leather: 3,
+              gourmand: 3, fruity: 2 },
+  },
   {
     nome: "Cobertura completa · 110",
     nota: "todas as famílias, peso no fresco",
@@ -141,6 +153,7 @@ export default function Paleta() {
           onTeto={(v) => setPalette({ maxPerBottle: v })}
           onGramas={(v) => setPalette({ grams: v })}
           onComecar={() => setFase("escolha")}
+          onReservar={(ids) => ids.forEach(palettePick)}
         />
       )}
 
@@ -185,7 +198,7 @@ export default function Paleta() {
 /* ------------------------------------------------------------------ */
 
 function Plano({
-  pal, total, onAjustar, onPreset, onTeto, onGramas, onComecar,
+  pal, total, onAjustar, onPreset, onTeto, onGramas, onComecar, onReservar,
 }: {
   pal: ReturnType<typeof useDeckState>["palette"];
   total: number;
@@ -194,6 +207,7 @@ function Plano({
   onTeto: (v: number | null) => void;
   onGramas: (v: number) => void;
   onComecar: () => void;
+  onReservar: (ids: number[]) => void;
 }) {
   return (
     <div className="flex-1 space-y-4 px-4 pb-8">
@@ -211,6 +225,36 @@ function Plano({
               <p className="text-[11.5px] text-[var(--muted)]">{p.nota}</p>
             </button>
           ))}
+        </div>
+      </section>
+
+      <section>
+        <h2 className="eyebrow mb-2">Garantir que dá para fazer</h2>
+        <p className="mb-2 text-[11.5px] leading-snug text-[var(--muted)]">
+          Reserva vaga para os materiais do eixo. Reconstrução a partir da pirâmide
+          divulgada — a fórmula real é do fabricante.
+        </p>
+        <div className="space-y-2">
+          {ALVOS.map((a) => {
+            const itens = resolverAlvo(a).filter((x) => x.card);
+            const jaTem = itens.filter((x) => pal.picks.includes(x.card!.id)).length;
+            return (
+              <button
+                key={a.id}
+                type="button"
+                onClick={() => onReservar(itens.map((x) => x.card!.id))}
+                className="panel w-full p-3 text-left"
+              >
+                <p className="text-[13.5px] font-semibold">{a.nome}</p>
+                <p className="text-[11.5px] text-[var(--muted)]">{a.nota}</p>
+                <p className="mt-1 text-[11.5px]" style={{ color: jaTem === itens.length ? "var(--like)" : "var(--fam)" }}>
+                  {jaTem === itens.length
+                    ? `✓ os ${itens.length} materiais já estão na paleta`
+                    : `reservar ${itens.length} materiais (${jaTem} já escolhidos)`}
+                </p>
+              </button>
+            );
+          })}
         </div>
       </section>
 
