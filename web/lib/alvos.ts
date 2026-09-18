@@ -121,8 +121,15 @@ export const ALVOS: Alvo[] = [
       { papel: "feno doce", buscar: ["cumarina"], pct: 2 },
 
       // --- "oud" sem curral: madeira seca ambarada faz o mesmo peso escuro
-      { papel: "oud · madeira seca", buscar: ["norlimbanol"], pct: 5 },
-      { papel: "oud · âmbar-madeira", buscar: ["kephalis", "okoumal"], pct: 3 },
+      // Estes dois NÃO são intercambiáveis, apesar de eu os ter agrupado como
+      // "madeira seca" na primeira versão. Norlimbanol é álcool (logP 5,2),
+      // trabalha a 0,55% e traz oud/animálico/mineral: é esqueleto e rastro.
+      // Kephalis é cetona (logP 3,1), trabalha a 1,6% e traz tabaco/couro: é
+      // corpo. Só compartilham "âmbar" e "amadeirado". Para ESTE alvo o
+      // Kephalis é o mais fiel — tabaco e couro estão na descrição do Khalid,
+      // e o animálico do Norlimbanol é justo o que se pediu para baixar.
+      { papel: "corpo tabaco-couro", buscar: ["kephalis"], pct: 4 },
+      { papel: "esqueleto de madeira seca (traço)", buscar: ["norlimbanol"], pct: 4 },
       { papel: "cedro seco", buscar: ["cedramber", "acetato de cedrila"], pct: 4 },
       { papel: "corpo amadeirado", buscar: ["iso e super"], pct: 14 },
       { papel: "projeção ambarada", buscar: ["ambroxan", "ambrox"], pct: 6 },
