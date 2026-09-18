@@ -30,7 +30,7 @@ import {
   palettePick, paletteRemove, paletteReset, paletteSkip, setPalette, useDeckState,
 } from "@/lib/deck-store";
 import { buildSteps } from "@/lib/palette-flow";
-import { bottleCost, buildPalette } from "@/lib/palette";
+import { bottleCost, buildPalette, gramasParaLote } from "@/lib/palette";
 import { ALVOS, resolverAlvo } from "@/lib/alvos";
 
 type Fase = "plano" | "escolha" | "lista";
@@ -74,9 +74,17 @@ export default function Paleta() {
   const [famAtiva, setFamAtiva] = useState<FamilySlug | null>(null);
   const [detalhe, setDetalhe] = useState<Ingredient | null>(null);
 
+  // Quanto comprar de CADA material. Por lote, é o que a dose dele consome;
+  // senão, o frasco fixo.
+  const gDe = useMemo(
+    () => (c: Ingredient) =>
+      pal.porLote ? gramasParaLote(c, pal.loteMl, pal.lotePct) : pal.grams,
+    [pal.porLote, pal.loteMl, pal.lotePct, pal.grams],
+  );
+
   const steps = useMemo(
-    () => buildSteps(pal.quotas, pal.picks, pal.skipped, pal.maxPerBottle, pal.grams),
-    [pal.quotas, pal.picks, pal.skipped, pal.maxPerBottle, pal.grams],
+    () => buildSteps(pal.quotas, pal.picks, pal.skipped, pal.maxPerBottle, pal.grams, gDe),
+    [pal.quotas, pal.picks, pal.skipped, pal.maxPerBottle, pal.grams, gDe],
   );
 
   const escolhidos = useMemo(
@@ -86,7 +94,7 @@ export default function Paleta() {
   const totalPlanejado = Object.values(pal.quotas).reduce((s, n) => s + (n || 0), 0);
   // Custo REAL: a embalagem que a loja vende, não perG × gramas. Ver a nota
   // em deck.ts — a diferença entre os dois chega a 5x no total da paleta.
-  const custo = escolhidos.reduce((s, c) => s + (bottleCost(c, pal.grams) ?? 0), 0);
+  const custo = escolhidos.reduce((s, c) => s + (bottleCost(c, gDe(c)) ?? 0), 0);
   const semPreco = escolhidos.filter((c) => menorCompra(c) == null).length;
 
   // A bancada é consumível e não disputa vaga com as notas.
@@ -112,7 +120,7 @@ export default function Paleta() {
     const linhas = escolhidos
       .sort((a, b) => familyMeta(a.family).order - familyMeta(b.family).order)
       .map((c) => {
-        const o = compraPara(c, pal.grams);
+        const o = compraPara(c, gDe(c));
         return `• ${c.name} — ${familyMeta(c.family).label} — ${o ? `${o.size}${o.unit} ${brlPrecise(o.price)}` : "sem oferta"}`;
       });
     const bancLinhas = (banc?.bancada ?? []).map((c: Ingredient) => {
@@ -196,6 +204,7 @@ export default function Paleta() {
           custo={custo}
           semPreco={semPreco}
           gramas={pal.grams}
+          gDe={gDe}
           onRemover={paletteRemove}
           onDetalhe={setDetalhe}
           onCopiar={copiar}
@@ -343,6 +352,67 @@ function Plano({
       <section className="panel p-3">
         <h2 className="eyebrow mb-2">Regras da compra</h2>
         <label className="flex items-center justify-between py-1.5 text-[13px]">
+          <span>
+            Comprar pelo lote
+            <span className="block text-[11px] text-[var(--muted)]">
+              de cada material, o que a dose dele consome
+            </span>
+          </span>
+          <input
+            type="checkbox"
+            checked={pal.porLote}
+            onChange={(e) => setPalette({ porLote: e.target.checked })}
+            className="h-4 w-4 accent-[var(--fam)]"
+          />
+        </label>
+        {pal.porLote ? (
+          <>
+            <label className="flex items-center justify-between py-1.5 text-[13px]">
+              <span>Lote de perfume pronto</span>
+              <span className="flex gap-1">
+                {[100, 250, 500, 1000].map((v) => (
+                  <button
+                    key={v}
+                    type="button"
+                    onClick={() => setPalette({ loteMl: v })}
+                    className="rounded-full px-2.5 py-1 text-[12px] font-semibold"
+                    style={{
+                      background: pal.loteMl === v ? "var(--fam)" : "var(--surface-2)",
+                      color: pal.loteMl === v ? "#000" : "var(--muted)",
+                    }}
+                  >
+                    {v}ml
+                  </button>
+                ))}
+              </span>
+            </label>
+            <label className="flex items-center justify-between py-1.5 text-[13px]">
+              <span>
+                Concentração
+                <span className="block text-[11px] text-[var(--muted)]">
+                  use a mais alta que pretende fazer — diluir depois é de graça
+                </span>
+              </span>
+              <span className="flex gap-1">
+                {[15, 20, 30].map((v) => (
+                  <button
+                    key={v}
+                    type="button"
+                    onClick={() => setPalette({ lotePct: v })}
+                    className="rounded-full px-2.5 py-1 text-[12px] font-semibold"
+                    style={{
+                      background: pal.lotePct === v ? "var(--fam)" : "var(--surface-2)",
+                      color: pal.lotePct === v ? "#000" : "var(--muted)",
+                    }}
+                  >
+                    {v}%
+                  </button>
+                ))}
+              </span>
+            </label>
+          </>
+        ) : (
+        <label className="flex items-center justify-between py-1.5 text-[13px]">
           <span>Tamanho do frasco</span>
           <span className="flex gap-1">
             {[5, 10, 20].map((g) => (
@@ -361,6 +431,7 @@ function Plano({
             ))}
           </span>
         </label>
+        )}
         <label className="flex items-center justify-between py-1.5 text-[13px]">
           <span>
             Teto por frasco
@@ -517,12 +588,13 @@ function Escolha({
 }
 
 function Lista({
-  escolhidos, custo, semPreco, gramas, onRemover, onDetalhe, onCopiar, onZerar,
+  escolhidos, custo, semPreco, gramas, gDe, onRemover, onDetalhe, onCopiar, onZerar,
 }: {
   escolhidos: Ingredient[];
   custo: number;
   semPreco: number;
   gramas: number;
+  gDe: (c: Ingredient) => number;
   onRemover: (id: number) => void;
   onDetalhe: (c: Ingredient) => void;
   onCopiar: () => void;
@@ -566,7 +638,7 @@ function Lista({
 
       {porFamilia.map(([fam, cs]) => {
         const f = familyMeta(fam);
-        const sub = cs.reduce((s, c) => s + (bottleCost(c, gramas) ?? 0), 0);
+        const sub = cs.reduce((s, c) => s + (bottleCost(c, gDe(c)) ?? 0), 0);
         return (
           <section key={fam}>
             <h2 className="eyebrow mb-1.5">
@@ -589,7 +661,7 @@ function Lista({
                     <p className="text-[11px] text-[var(--muted)]">
                       {notesShort(c.notes)} · {perGram(c.price.perG)} ·{" "}
                       {(() => {
-                        const o = compraPara(c, gramas);
+                        const o = compraPara(c, gDe(c));
                         // O que se paga é a embalagem que existe. Quando ela é
                         // maior que o frasco pedido, dizer isso — senão o total
                         // da lista não bate com o do carrinho.

@@ -60,6 +60,17 @@ export interface PaletteState {
   grams: number;
   /** Fórmula cujos materiais têm vaga reservada. */
   reservedFormula: string | null;
+  /**
+   * Dimensionar a compra pelo LOTE de perfume, e não por um tamanho fixo de
+   * frasco: de cada material se compra o que a dose dele consome. É a diferença
+   * entre comprar 500 g de Ambroxan e comprar os 6 g que 500 ml de perfume
+   * pedem.
+   */
+  porLote: boolean;
+  /** Tamanho do lote de perfume PRONTO, em ml. */
+  loteMl: number;
+  /** Concentração do lote (%). Comprar pela mais alta que se pretende fazer. */
+  lotePct: number;
   /** Comprar a bancada a granel e deixá-la fora da contagem de frascos. */
   bancada: boolean;
   /** Quanto comprar de cada item da bancada. */
@@ -68,7 +79,7 @@ export interface PaletteState {
 
 export const EMPTY_PALETTE: PaletteState = {
   quotas: {}, picks: [], skipped: [], maxPerBottle: 120, grams: 10, reservedFormula: null,
-  bancada: true, bancadaGrams: 100,
+  porLote: true, loteMl: 500, lotePct: 20, bancada: false, bancadaGrams: 100,
 };
 
 export interface DeckState {

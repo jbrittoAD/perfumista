@@ -27,6 +27,8 @@ export function buildSteps(
   skipped: number[],
   maxPerBottle: number | null,
   grams: number,
+  /** Gramas por carta, quando a compra é dimensionada por lote. */
+  gDe?: (c: Ingredient) => number,
 ): FamilyStep[] {
   const pickSet = new Set(picks);
   const skipSet = new Set(skipped);
@@ -42,7 +44,9 @@ export function buildSteps(
         !pickSet.has(c.id) &&
         !skipSet.has(c.id) &&
         !c.banned &&
-        (maxPerBottle == null || bottleCost(c, grams) == null || bottleCost(c, grams)! <= maxPerBottle),
+        (maxPerBottle == null ||
+          bottleCost(c, gDe?.(c) ?? grams) == null ||
+          bottleCost(c, gDe?.(c) ?? grams)! <= maxPerBottle),
     );
     steps.push({
       family: fam,

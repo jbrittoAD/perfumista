@@ -52,6 +52,11 @@ export interface PaletteOptions {
   bancadaGrams?: number;
   /** Teto de gasto das NOTAS (a bancada tem orçamento próprio). */
   budget?: number;
+  /**
+   * Comprar de cada material o que um lote de perfume consome, em vez de um
+   * tamanho fixo de frasco. Dimensiona pela dose típica de cada um.
+   */
+  lote?: { ml: number; pct: number };
 }
 
 export interface PaletteResult {
@@ -154,8 +159,13 @@ function norm(s: string): string {
  * Prioriza o que é referência (tem nota curada), o que dá para comprar (tem
  * preço e várias ofertas) e o que tem dado suficiente para estudar.
  */
-function baseScore(c: Ingredient, opts: PaletteOptions): number {
+function baseScore(c: Ingredient, opts: PaletteOptions, grams = 10): number {
   let s = 0;
+  // Preço REAL da compra pesa na escolha. Sem isto a paleta enchia de
+  // Amberketal a R R$ 239 o frasco quando havia âmbar equivalente a R$ 12 —
+  // ela só perguntava se havia preço, nunca qual era.
+  const pago = bottleCost(c, grams);
+  if (pago != null) s -= Math.min(4, pago / 22);
   if (c.insight) s += 4;                          // material de referência
   if (c.price.perG != null) s += 3;               // dá para comprar
   // Muita oferta = material que o mercado inteiro usa, logo material que as
@@ -198,6 +208,20 @@ function similarityPenalty(c: Ingredient, chosen: Ingredient[]): number {
 }
 
 /**
+ * Quantos gramas deste material um lote de perfume consome.
+ *
+ * É o dimensionamento honesto de uma paleta: ninguém compra 500 g de Ambroxan,
+ * compra o que 500 ml de perfume pedem. 500 ml a 20% são 100 ml de
+ * concentrado, ~95 g; um material que entra a 6% consome 5,7 g dele, e um que
+ * entra a 0,5% consome menos de meio grama. O piso de 1 g existe porque
+ * ninguém vende frações e porque abaixo disso a balança de bancada não lê.
+ */
+export function gramasParaLote(c: Ingredient, ml: number, pct: number): number {
+  const concentrado = ml * (pct / 100) * 0.95;   // ml -> g, densidade ~0,95
+  return Math.max(1, concentrado * ((c.dose.mid ?? 2) / 100));
+}
+
+/**
  * Custo de um frasco do material no tamanho pedido — o que SE PAGA, não
  * `perG × gramas`. Ver a nota em deck.ts: a diferença entre os dois chega a 5x
  * no conjunto da paleta, porque o preço por grama bom quase sempre vem de uma
@@ -228,16 +252,20 @@ export function rankCandidates(pool: Ingredient[], chosen: Ingredient[]): Ingred
 }
 
 /** Escolhe `n` cartas de uma lista, maximizando cobertura em vez de repetir. */
-function pickDiverse(pool: Ingredient[], n: number, opts: PaletteOptions, grams = 10): Ingredient[] {
+function pickDiverse(
+  pool: Ingredient[], n: number, opts: PaletteOptions,
+  grams = 10, gDe?: (c: Ingredient) => number,
+): Ingredient[] {
+  const g = (c: Ingredient) => gDe?.(c) ?? grams;
   const chosen: Ingredient[] = [];
   // `banned` cobre o que a fonte não marcou: Lysmeral vinha sem teto IFRA e
   // passaria no filtro, apesar de ser Lilial com outro nome.
-  const remaining = pool.filter((c) => !c.banned && !overBudget(c, opts, grams));
+  const remaining = pool.filter((c) => !c.banned && !overBudget(c, opts, g(c)));
   while (chosen.length < n && remaining.length > 0) {
     let best = 0;
     let bestScore = -Infinity;
     for (let i = 0; i < remaining.length; i++) {
-      const s = baseScore(remaining[i], opts) - similarityPenalty(remaining[i], chosen);
+      const s = baseScore(remaining[i], opts, g(remaining[i])) - similarityPenalty(remaining[i], chosen);
       if (s > bestScore) {
         bestScore = s;
         best = i;
@@ -255,6 +283,9 @@ function matchesAny(c: Ingredient, keys: string[]): boolean {
 }
 
 export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
+  // Quanto comprar de CADA material: o que o lote pede, ou o frasco fixo.
+  const gDe = (c: Ingredient) =>
+    opts.lote ? gramasParaLote(c, opts.lote.ml, opts.lote.pct) : grams;
   const chosenIds = new Set<number>();
   const workhorses: Ingredient[] = [];
   const bancada: Ingredient[] = [];
@@ -269,7 +300,7 @@ export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
     // 200 g por R$ 19,99 enquanto o mesmo solvente existe em 1 L por R$ 44,50,
     // que é menos da metade do preço por grama.
     for (const key of BANCADA_KEYS) {
-      const alvo = TAMANHO_FIXO[key] ?? bg;
+      const alvo = TAMANHO_FIXO[key] ?? bg;   // a bancada mantém tamanho próprio
       const cands = CARDS.filter(
         (c) => !c.banned && !chosenIds.has(c.id) && matchesAny(c, [key]),
       );
@@ -309,7 +340,7 @@ export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
     const cands = CARDS.filter(
       (c) => matchesAny(c, WORKHORSE_KEYS) && !c.banned && !chosenIds.has(c.id)
     );
-    for (const c of pickDiverse(cands, Math.min(cands.length, 14, room()), opts, grams)) {
+    for (const c of pickDiverse(cands, Math.min(cands.length, 14, room()), opts, grams, gDe)) {
       workhorses.push(c);
       chosenIds.add(c.id);
     }
@@ -331,10 +362,27 @@ export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
   //    acaba a família fica incompleta, e isso aparece em `shortfalls`. É
   //    preferível a devolver uma lista que não cabe no bolso de quem pediu.
   let gasto = [...required, ...workhorses].reduce(
-    (t, c) => t + (bottleCost(c, grams) ?? 0), 0,
+    (t, c) => t + (bottleCost(c, gDe(c)) ?? 0), 0,
   );
-  const cabe = (c: Ingredient) =>
-    opts.budget == null || gasto + (bottleCost(c, grams) ?? 0) <= opts.budget;
+
+  // COTA DE DINHEIRO POR FAMÍLIA. Sem isto o orçamento é gasto na ordem das
+  // chaves do objeto e as últimas famílias ficam vazias — a paleta saía com
+  // verde 2/6, aquática 1/4 e couro 1/3 não porque falta material barato, mas
+  // porque a amadeirada, que vem antes, já tinha levado o caixa. Cada família
+  // recebe a fatia proporcional à cota que pediu; o que sobrar volta para o
+  // bolo comum na segunda passada.
+  const pedidoTotal = Object.values(opts.quotas).reduce((t, n) => t + (n || 0), 0) || 1;
+  const sobra = Math.max(0, (opts.budget ?? Infinity) - gasto);
+  const fatia = (fam: FamilySlug) =>
+    opts.budget == null ? Infinity : (sobra * (opts.quotas[fam] || 0)) / pedidoTotal;
+
+  let gastoFam = 0;
+  let tetoFam = Infinity;
+  const cabe = (c: Ingredient) => {
+    const v = bottleCost(c, gDe(c)) ?? 0;
+    if (opts.budget != null && gasto + v > opts.budget) return false;
+    return gastoFam + v <= tetoFam;
+  };
 
   const byFamily: PaletteResult["byFamily"] = [];
   const shortfalls: PaletteResult["shortfalls"] = [];
@@ -346,9 +394,13 @@ export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
     const already = [...required, ...workhorses].filter((c) => c.family === fam);
     const pool = cardsOfFamily(fam).filter((c) => !chosenIds.has(c.id) && !c.banned);
     const need = Math.max(0, Math.min(asked - already.length, room()));
-    const got = pickDiverse(pool, need, opts, grams).filter((c) => {
+    gastoFam = 0;
+    tetoFam = fatia(fam);
+    const got = pickDiverse(pool, need, opts, grams, gDe).filter((c) => {
       if (!cabe(c)) return false;
-      gasto += bottleCost(c, grams) ?? 0;
+      const v = bottleCost(c, gDe(c)) ?? 0;
+      gasto += v;
+      gastoFam += v;
       return true;
     });
     for (const c of got) {
@@ -363,10 +415,37 @@ export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
     if (room() <= 0) break;
   }
 
+  // Segunda passada: o dinheiro que as famílias baratas não usaram preenche as
+  // que ficaram incompletas, agora sem teto por família.
+  if (opts.budget != null && shortfalls.length) {
+    tetoFam = Infinity;
+    gastoFam = 0;
+    for (const sf of [...shortfalls]) {
+      const pool = cardsOfFamily(sf.family).filter((c) => !chosenIds.has(c.id) && !c.banned);
+      const falta = Math.min(sf.asked - sf.available, room());
+      if (falta <= 0) continue;
+      const extra = pickDiverse(pool, falta, opts, grams, gDe).filter((c) => {
+        if (!cabe(c)) return false;
+        gasto += bottleCost(c, gDe(c)) ?? 0;
+        return true;
+      });
+      for (const c of extra) {
+        chosenIds.add(c.id);
+        picks.push(c);
+      }
+      sf.available += extra.length;
+      const bf = byFamily.find((b) => b.family === sf.family);
+      if (bf) { bf.got += extra.length; bf.picks.push(...extra); }
+    }
+    for (let i = shortfalls.length - 1; i >= 0; i--) {
+      if (shortfalls[i].available >= shortfalls[i].asked) shortfalls.splice(i, 1);
+    }
+  }
+
   let known = 0;
   let missingPrice = 0;
   for (const c of picks) {
-    const v = bottleCost(c, grams);
+    const v = bottleCost(c, gDe(c));
     if (v != null) known += v;
     else missingPrice++;
   }
