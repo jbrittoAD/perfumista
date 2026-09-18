@@ -165,6 +165,12 @@ export default function Detail({
             )}
           </Section>
 
+          {card.diff && (
+            <Section title="Diferença para o vizinho de baralho">
+              <p className="text-[14px] leading-relaxed text-[var(--fg-dim)]">{card.diff}</p>
+            </Section>
+          )}
+
           <Section title="Para que serve">
             <p className="text-[14.5px] leading-relaxed text-[var(--fg-dim)]">{card.uses}</p>
             {card.pairs && (

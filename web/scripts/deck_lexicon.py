@@ -66,6 +66,12 @@ FAMILIES = [
     dict(slug="musk",      label="Almíscar",             cap="branco",       hex="#e8e8ee",
          emoji="🤍", order=15, anchor=["almiscar", "musk", "limpo", "pele", "macio"],
          blurb="Pele limpa e lençol seco. Quase invisível sozinho, indispensável no conjunto."),
+    # Não é família olfativa: é o que você compra para diluir e carregar. Existe
+    # como categoria própria porque antes caía em "âmbar" (a família-padrão) e
+    # aparecia no baralho com texto de perfume, o que é simplesmente errado.
+    dict(slug="tecnica",   label="Diluentes e auxiliares", cap="branco",     hex="#8f96a3",
+         emoji="⚗️", order=16, anchor=["solvente", "diluente", "dpg", "dep", "ipm"],
+         blurb="Não têm cheiro próprio: servem para diluir os potentes, carregar resinoides e conservar."),
 ]
 
 FAMILY_BY_SLUG = {f["slug"]: f for f in FAMILIES}
@@ -196,6 +202,45 @@ LEX = {
     "suave": ("Suave", 1), "soft": ("Suave", 1), "seco": ("Seco", 1), "dry": ("Seco", 1),
     "medicinal": ("Medicinal", 2), "phenolic": ("Fenólico", 2), "fenolico": ("Fenólico", 2),
     "verde-agua": ("Aquático", 1),
+    "isobutilquinolein": ("Couro", 3), "quinoleina": ("Couro", 3),
+    "acetoacetato": ("Frutado", 2),
+
+    # --- lacunas encontradas na auditoria das cartas sem faceta ---
+    # (o casamento exige >=6 letras para aceitar sufixo; termos curtos precisam
+    #  da forma exata, por isso várias grafias do mesmo material aparecem aqui)
+    "mentol": ("Menta", 3), "menthol": ("Menta", 3), "menthe": ("Menta", 3),
+    "pineno": ("Pinho", 3), "pinene": ("Pinho", 3), "terpineno": ("Cítrico", 2),
+    "terpinene": ("Cítrico", 2), "terpineol": ("Lilás", 3), "limoneno": ("Limão", 3),
+    "feniletil": ("Rosa", 3), "fenil etil": ("Rosa", 3), "phenylethyl": ("Rosa", 3),
+    "phenyl ethyl": ("Rosa", 3), "feniletilico": ("Rosa", 3), "rosetone": ("Rosa", 3),
+    "rhodinol": ("Rosa", 3), "rodinol": ("Rosa", 3), "citronelol": ("Rosa", 3),
+    "ionona": ("Violeta", 3), "ionone": ("Violeta", 3), "iononas": ("Violeta", 3),
+    "quinolein": ("Couro", 3), "quinolin": ("Couro", 3),
+    "benjoin": ("Benjoim", 3), "benzoin": ("Benjoim", 3), "siam": ("Benjoim", 2),
+    "copaiba": ("Amadeirado", 3), "copaifera": ("Amadeirado", 3),
+    "cinamato": ("Balsâmico", 3), "cinnamate": ("Balsâmico", 3), "cinamic": ("Balsâmico", 3),
+    "caproate": ("Frutado", 2), "caproato": ("Frutado", 2), "caprilato": ("Frutado", 2),
+    "butirato": ("Frutado", 2), "butyrate": ("Frutado", 2), "valerianate": ("Frutado", 2),
+    "isovaler": ("Frutado", 2), "hexanoato": ("Frutado", 2),
+    "lactona": ("Lactônico", 3), "lactone": ("Lactônico", 3), "decalacton": ("Pêssego", 3),
+    "nonalacton": ("Coco", 3), "dodecalacton": ("Coco", 3),
+    "prunela": ("Ameixa", 3), "prunelle": ("Ameixa", 3), "tamarine": ("Tropical", 3),
+    "tamarindo": ("Tropical", 3), "davana": ("Frutado", 2),
+    "lavandin": ("Lavanda", 3), "lavandim": ("Lavanda", 3), "lavandula": ("Lavanda", 3),
+    "carvona": ("Menta", 3), "carvone": ("Menta", 3), "pamplemousse": ("Grapefruit", 3),
+    "pamplemusse": ("Grapefruit", 3), "litsea": ("Limão", 3), "cubeba": ("Limão", 3),
+    "verbena": ("Limão", 3), "lindenblossom": ("Flor de laranjeira", 3),
+    "tilia": ("Flor de laranjeira", 3), "capiliotrop": ("Heliotrópio", 3),
+    "heliotropex": ("Heliotrópio", 3), "santalex": ("Sândalo", 3), "santalol": ("Sândalo", 3),
+    "santalum": ("Sândalo", 3), "wardia": ("Floral", 2), "rhubofix": ("Amadeirado", 2),
+    "viotril": ("Violeta", 3), "oxyoctaline": ("Amadeirado", 3),
+    "peru balsamo": ("Balsâmico", 3), "balsamo": ("Balsâmico", 3),
+    "isoamyl": ("Frutado", 2), "isoamil": ("Frutado", 2), "allyl": ("Abacaxi", 2),
+    "lilial": ("Muguet", 3), "lysmeral": ("Muguet", 3), "lyral": ("Muguet", 3),
+    "ciclohexal": ("Muguet", 3), "hexinila": ("Verde", 3), "hexenila": ("Verde", 3),
+    "olibanum": ("Olíbano", 3), "salicilato": ("Balsâmico", 2), "salicylate": ("Balsâmico", 2),
+    "carbinol": ("Floral", 2), "linalol": ("Lavanda", 2), "linalool": ("Lavanda", 2),
+    "serenity": ("Fresco", 1), "bicyclononalactone": ("Coco", 3),
 }
 
 # ---------------------------------------------------------------------------
@@ -260,7 +305,7 @@ PHOTO_KEYS = [
     # ---- aldeídico
     P("champanhe", "Taça de champanhe", "🥂", ["#e6d9a0", "#4a3c14"], "champagne glass bubbles", ["aldehydic", "aldeidico", "aldeido", "aldehyde", "champagne", "efervescente"]),
     P("cera-vela", "Cera de vela", "🕯️", ["#e3d6bd", "#463b28"], "candle wax close up", ["waxy", "ceroso", "cera", "wax"]),
-    P("lencol", "Lençol branco ao sol", "🏳️", ["#e8ecef", "#3c444c"], "white linen laundry hanging line", ["laundry", "roupa", "linen", "lencol", "clean", "limpo", "fresh air"]),
+    P("lencol", "Lençol branco ao sol", "🏳️", ["#e8ecef", "#3c444c"], "white linen laundry hanging line", ["laundry", "roupa lavada", "roupa limpa", "linen", "lencol", "amaciante"]),
     # ---- frutas
     P("maca-verde", "Maçã verde", "🍏", ["#b8dd6a", "#2f4a13"], "green apples Malus fruit", ["apple", "maca", "hexyl acetate"]),
     P("pera", "Pêra", "🍐", ["#d8dd8a", "#46491c"], "pear fruit close up", ["pear", "pera"]),
@@ -330,7 +375,7 @@ PHOTO_KEYS = [
     P("pele-animal", "Pelo / almíscar animal", "🐾", ["#a08a72", "#241a12"], "animal fur pelt brown macro", ["animalic", "animalico", "civet", "civeta", "castoreum", "castoreo", "indol", "fecal"]),
     # ---- almíscar / limpo
     P("algodao", "Algodão branco", "🤍", ["#e8e8ee", "#3c3c48"], "white cotton fabric texture", ["musk", "almiscar", "galaxolide", "habanolide", "muscone", "ambrettolide", "exaltolide"]),
-    P("sabonete", "Sabonete", "🧼", ["#dfe6ea", "#39424a"], "soap bars white bathroom", ["soap", "sabonete", "sabao", "soapy", "ensaboad", "clean", "limpo"]),
+    P("sabonete", "Sabonete", "🧼", ["#dfe6ea", "#39424a"], "soap bars white bathroom", ["soap", "sabonete", "sabao", "soapy", "ensaboad"]),
     P("po-arroz", "Pó de arroz", "🤍", ["#e6ddd2", "#443c33"], "face powder cosmetic compact", ["powdery", "empoado", "atalcad", "talco"]),
     # ---- técnico
     P("frasco", "Frasco de laboratório", "⚗️", ["#b9c4cc", "#2b3238"], "laboratory glass bottles chemistry", ["solvent", "solvente", "dpg", "ipm", "dietil ftalato", "diluente", "alcohol", "carrier"]),
@@ -378,13 +423,19 @@ VARIANT_CATS = {
     "eucalipto": ["Category:Eucalyptus"],
     "muguet": ["Category:Convallaria majalis"],
     "alecrim": ["Category:Salvia rosmarinus", "Category:Rosmarinus officinalis"],
-    "maca-verde": ["Category:Green apples", "Category:Apples"],
+    "maca-verde": ["Category:Green apples", "Category:Apples", "Category:Malus domestica fruit", "Category:Apple (fruit)"],
     "lencol": ["Category:Laundry", "Category:Bed sheets", "Category:Clotheslines"],
     "flor-laranjeira": ["Category:Citrus flowers", "Category:Orange blossoms"],
     "galbano": ["Category:Resins", "Category:Ferula"],
     "baunilha": ["Category:Vanilla (spice)", "Category:Vanilla planifolia"],
     "caramelo": ["Category:Caramel", "Category:Toffee"],
     "pele-animal": ["Category:Fur", "Category:Animal hair"],
+    "violeta": ["Category:Viola odorata", "Category:Violet flowers", "Category:Viola (plant)"],
+    "gardenia": ["Category:Gardenia jasminoides", "Category:Gardenia"],
+    "jasmim": ["Category:Jasminum", "Category:Jasminum officinale"],
+    "cedro": ["Category:Cedrus", "Category:Cedar wood"],
+    "patchouli": ["Category:Pogostemon cablin"],
+    "vetiver": ["Category:Chrysopogon zizanioides", "Category:Vetiver"],
 }
 
 PHOTO_BY_ID = {p["id"]: p for p in PHOTO_KEYS}

@@ -132,11 +132,39 @@ CSS_MARKERS = re.compile(
 SENTENCE_SPLIT = re.compile(r"(?<=[a-zçãõéíóúâêôàü])\s+(?=[A-ZÁÉÍÓÚÂÊÔÃÕÀÜ][a-zà-ÿ])")
 
 CONNECTORS = {"de", "da", "do", "das", "dos", "e", "em", "com", "para", "por", "a",
-              "o", "no", "na", "tipo", "marca", "base", "como", "ao", "the", "of"}
+              "o", "no", "na", "tipo", "marca", "base", "como", "ao", "the", "of",
+              "oleo", "essencia", "essencial", "extrato", "absoluto", "resinoide",
+              "concreto", "tintura", "acorde", "nota", "notas"}
 PROPER_NOUNS = {"givaudan", "firmenich", "iff", "symrise", "takasago", "robertet",
                 "mane", "dsm", "biolandes", "cas", "fema", "ifra", "dep", "dpg",
                 "ipm", "usp", "brasil", "italia", "franca", "india", "china",
                 "madagascar", "haiti", "java", "bulgaria", "egito", "turquia"}
+
+
+def strip_leading_name(text, name):
+    """Tira o nome do produto repetido no começo da descrição.
+
+    Padrão comum nos fornecedores: "Óleo Essencial Litsea Cubeba O óleo essencial
+    de litsea cubeba possui…". A primeira metade não informa nada e ainda come o
+    espaço das duas linhas que a carta tem para o cheiro.
+    """
+    if not name:
+        return text
+    words = [w for w in norm(name).split() if len(w) > 2]
+    if not words:
+        return text
+    toks = text.split()
+    i = 0
+    while i < len(toks) and i < 8:
+        t = re.sub(r"[^a-z0-9]", "", norm(toks[i]))
+        if t and (t in words or t in {"oleo", "essencial", "essencia", "de", "da", "do"}):
+            i += 1
+            continue
+        break
+    # só corta se o que sobra ainda é uma descrição de verdade
+    if i >= 2 and len(toks) - i >= 6:
+        return " ".join(toks[i:]).lstrip(" -–—:,.")
+    return text
 
 
 def split_runon(text, name):
@@ -262,6 +290,7 @@ def clean_desc(raw, name="", strict=True):
     s = LABEL_RE.sub("", s)
     s = s.replace("\x96", "–").replace("\xa0", " ")
     s = re.sub(r"\s+", " ", s).strip(" -–—•;:,.")
+    s = strip_leading_name(s, name)
     # separa as frases ANTES de podar propaganda: assim "Compre agora!" vira uma
     # frase própria e cai inteira, em vez de ficar pendurada na descrição.
     s = split_runon(s, name)
@@ -279,6 +308,22 @@ def clean_desc(raw, name="", strict=True):
     s = s.strip(" -–—•;:,")
     if len(s) < 10 or len(s.split()) < 2:
         return None
+    # Descrição que é só o nome do produto repetido ("TERPENO DE LIMÃO") não
+    # descreve cheiro nenhum — melhor cair na lista de facetas.
+    if name:
+        a = re.sub(r"[^a-z0-9]", "", norm(s))
+        b = re.sub(r"[^a-z0-9]", "", norm(name))
+        if a and b and (a in b or b in a) and len(a) < len(b) * 1.6:
+            return None
+        # tira do texto as palavras do próprio nome e o enchimento de catálogo;
+        # se sobrar quase nada, a "descrição" era só o nome do produto
+        filler = {"oleo", "essencial", "essencia", "de", "da", "do", "base", "puro",
+                  "natural", "extrato", "absoluto", "resinoide", "aroma", "produto"}
+        nome_tokens = set(norm(name).split()) | filler
+        resto = [w for w in re.findall(r"[a-zç]+", norm(s)) if w not in nome_tokens]
+        if len(resto) < 3:
+            return None
+
     if s and s[-1] not in ".!?…":
         s += "."
     return s[0].upper() + s[1:]
@@ -341,53 +386,107 @@ def facets_to_phrase(facets, family_label, _kind=None):
 # ---------------------------------------------------------------------------
 # Para que serve (fallback por template)
 # ---------------------------------------------------------------------------
+# O que o material FAZ estruturalmente, pela posição na pirâmide.
 NOTE_ROLE = {
-    "topo": "Nota de topo: é o que se sente nos primeiros minutos e evapora primeiro.",
-    "coracao": "Nota de coração: sustenta a fórmula depois que o topo some.",
-    "base": "Nota de base: é o rastro — o que ainda está na pele horas depois.",
+    "topo": "abre a fórmula e evapora primeiro",
+    "coracao": "sustenta o corpo depois que o topo some",
+    "base": "fica no rastro e segura o resto",
 }
 
+# Onde a faceta APARECE, também pela posição — usado na frase de percepção.
+NOTE_WHEN = {
+    "topo": "assina a abertura",
+    "coracao": "ocupa o coração",
+    "base": "constrói o rastro",
+}
+
+# O que a família constrói. Duas redações por família: a de topo e a de fundo.
+# Sem isso, 29 cítricos recebiam a mesma frase.
 FAMILY_USE = {
-    "citrus": "Abre a fórmula com frescor e dá o impacto inicial de colônias e cítricos.",
-    "aldehydic": "Dá a faísca ensaboada e o efeito 'roupa passada' dos florais aldeídicos.",
-    "green": "Traz talo e folha — corta doçura e dá realismo a florais e frutados.",
-    "herbal": "Constrói o eixo aromático de fougères, masculinos e águas de colônia.",
-    "aquatic": "Monta o efeito maresia/ozônio dos frescos modernos e transparentes.",
-    "fruity": "Dá polpa e apelo imediato; arredonda florais e sustenta gourmands.",
-    "floral": "Compõe o coração floral — buquês, reconstituições e volume de flor.",
-    "spicy": "Acende a fórmula com calor e atrito; clássico em orientais e masculinos.",
-    "woody": "Dá estrutura seca e duração; é o esqueleto que segura o resto.",
-    "balsamic": "Fecha a base com resina quente, fumaça e doçura escura.",
-    "amber": "Entra no bloco quente âmbar/oriental e aumenta fixação e envolvimento.",
-    "gourmand": "Traz o comestível — caramelo, baunilha, leite — em gourmands e orientais doces.",
-    "leather": "Constrói couro, fumaça e tabaco; dá caráter adulto à fórmula.",
-    "animalic": "Em traço, dá calor de pele e tira o ar de sabonete da fórmula.",
-    "musk": "Dá pele limpa, volume e fixação; costura tudo sem chamar atenção.",
+    "citrus": ("monta a abertura de colônias, cítricos e frescos",
+               "dá lift cítrico ao coração sem estourar a saída"),
+    "aldehydic": ("dá a faísca ensaboada dos florais aldeídicos",
+                  "deixa um fundo ceroso de roupa passada"),
+    "green": ("traz talo e folha, cortando doçura",
+              "põe um verde seco embaixo do floral"),
+    "herbal": ("constrói o eixo aromático de fougères e masculinos",
+               "dá um fundo de erva seca e feno"),
+    "aquatic": ("monta o efeito maresia/ozônio dos frescos modernos",
+                "deixa uma transparência salina no fundo"),
+    "fruity": ("dá polpa e apelo imediato na abertura",
+               "arredonda o coração com fruta madura"),
+    "floral": ("compõe o buquê e o volume de flor",
+               "deixa um floral empoado no fundo"),
+    "spicy": ("acende a fórmula com calor e atrito",
+              "dá especiaria quente ao rastro"),
+    "woody": ("dá um amadeirado seco já na saída",
+              "é o esqueleto que segura tudo que está por cima"),
+    "balsamic": ("traz resina e fumaça ao corpo",
+                 "fecha a base com doçura escura e resinosa"),
+    "amber": ("aquece o coração sem pesar",
+              "entra no bloco âmbar e aumenta fixação e projeção"),
+    "gourmand": ("traz o comestível logo na abertura",
+                 "dá o fundo doce de caramelo, baunilha e leite"),
+    "leather": ("põe fumaça e couro no corpo",
+                "constrói couro e tabaco no rastro"),
+    "animalic": ("dá calor de pele em traço",
+                 "tira o ar de sabonete e adiciona tensão ao fundo"),
+    "musk": ("dá pele limpa e maciez",
+             "costura a fórmula e alonga o rastro"),
 }
 
 STRENGTH_TIP = {
-    "alta": "Material potente: comece em diluição (1–10%) e vá por traço.",
-    "média": "Potência média: aceita dose de trabalho sem dominar a fórmula.",
+    "alta": "Material potente: comece diluído (1–10%) e vá por traço.",
+    "média": "Potência média: aceita dose de trabalho sem dominar.",
     "baixa": "Potência baixa: precisa de dose generosa para aparecer.",
 }
 
 
-def derive_uses(m, family, facets):
-    """PT curado quando existe; senão monta uma frase a partir do que se sabe."""
+def _list_pt(items):
+    """['Limão','Verde'] → 'limão e verde'."""
+    low = [i[0].lower() + i[1:] for i in items]
+    if len(low) == 1:
+        return low[0]
+    return ", ".join(low[:-1]) + " e " + low[-1]
+
+
+def family_clause(family, notes):
+    """A redação de topo ou a de fundo, conforme onde o material cai."""
+    top, deep = FAMILY_USE.get(family, ("entra na composição", "entra na composição"))
+    return top if (notes and notes[0] == "topo") else deep
+
+
+def derive_uses(m, family, facets, notes):
+    """PT curado quando existe (167 casos); senão monta a partir do que É a carta.
+
+    A frase LIDERA pelas facetas, que variam material a material, e só depois
+    fala da família. Antes era o contrário, e o resultado é que 29 das 67 cartas
+    cítricas recebiam exatamente o mesmo texto — inútil para decidir.
+    """
     ku = m.get("key_uses")
     if ku and ku in USES_PT:
         return USES_PT[ku]
+
     kind = m.get("material_kind")
     if kind == "solvent":
         return ("Não é material de cheiro: serve para diluir os potentes e carregar "
                 "resinoides. Entra como veículo, não como nota.")
-    # A carta já mostra família, faixa na pirâmide, tipo e facetas como rótulo.
-    # Repetir isso em prosa só ocupa a tela; aqui fica o que os badges NÃO dizem.
-    parts = [FAMILY_USE.get(family, "Entra na composição como matéria-prima de cheiro.")]
+
+    parts = []
+    if facets:
+        parts.append(f"Traz {_list_pt(facets[:3])} para a fórmula.")
+    role = NOTE_ROLE.get(notes[0] if notes else None)
+    clause = family_clause(family, notes)
+    if role:
+        parts.append(f"{clause[0].upper()}{clause[1:]} — {role}.")
+    else:
+        parts.append(f"{clause[0].upper()}{clause[1:]}.")
+
     if kind == "essential_oil":
-        parts.append("Sendo óleo essencial, traz várias notas de uma vez e varia de lote para lote.")
+        parts.append("Sendo óleo essencial, traz várias notas de uma vez e varia de lote.")
     elif kind == "base":
         parts.append("É uma base pronta: um acorde inteiro em um frasco só.")
+
     st = m.get("odor_strength")
     if st in STRENGTH_TIP:
         parts.append(STRENGTH_TIP[st])
@@ -565,99 +664,77 @@ def fmt_pct(v):
     return s.replace(".", ",") + "%"
 
 
-# (baixa, média, alta) — o que a dose faz PERCEPTIVAMENTE, por família.
-PERCEPTION = {
-    "citrus": (
-        "Só brilho: o nariz sente frescor sem identificar a fruta.",
-        "A casca cítrica aparece nítida e assina a abertura.",
-        "Domina a saída, fica ácido/limpa-pisos e some rápido demais.",
-    ),
-    "aldehydic": (
-        "Dá lift e uma sensação de limpo sem se denunciar.",
-        "Entra o efeito champanhe/roupa passada, marca registrada do aldeídico.",
-        "Vira cera de vela e sufoca o resto da fórmula.",
-    ),
-    "green": (
-        "Um fio de seiva que tira o doce e dá naturalidade.",
-        "Talo e folha ficam legíveis; a fórmula 'abre' o verde.",
-        "Amarga, fica com gosto de grama e engole o floral.",
-    ),
-    "herbal": (
-        "Dá um ar limpo de erva, quase imperceptível.",
-        "O eixo aromático aparece — território de fougère e masculino.",
-        "Vira chá de ervas medicinal e canforado.",
-    ),
-    "aquatic": (
-        "Transparência: parece que alguém abriu a janela.",
-        "Maresia e ozônio ficam claros; é o frescor moderno.",
-        "Fica sabão de máquina de lavar, sintético e plano.",
-    ),
-    "fruity": (
-        "Arredonda e dá suculência sem virar 'perfume de fruta'.",
-        "A fruta é reconhecível e puxa o apelo imediato.",
-        "Vira bala/xarope artificial e achata a fórmula.",
-    ),
-    "floral": (
-        "Só macieza — dá corpo ao coração sem nomear a flor.",
-        "A flor fica identificável e ocupa o centro da composição.",
-        "Satura, fica enjoativo e some a leitura das outras notas.",
-    ),
-    "spicy": (
-        "Um calor de fundo que acende a fórmula sem virar tempero.",
-        "A especiaria aparece e dá atrito ao acorde.",
-        "Vira armário de tempero e arranha, com risco de irritação.",
-    ),
-    "woody": (
-        "Dá lastro e faz o topo durar mais, sem aparecer.",
-        "A madeira fica audível e estrutura o rastro.",
-        "Seca demais, vira serragem/lápis e engessa a fórmula.",
-    ),
-    "balsamic": (
-        "Um fundo quente que cola as notas umas nas outras.",
-        "Resina e fumaça ficam nítidas na base.",
-        "Pesa, escurece tudo e deixa um rastro pegajoso.",
-    ),
-    "amber": (
-        "Calor discreto e mais projeção sem mudar o caráter.",
-        "O bloco ambarado aparece e envolve a fórmula.",
-        "Vira 'bomba de âmbar': volume demais, nuance de menos.",
-    ),
-    "gourmand": (
-        "Uma doçura de fundo que dá conforto sem virar sobremesa.",
-        "O comestível fica explícito — caramelo, baunilha, leite.",
-        "Enjoa: fica xarope e apaga topo e coração.",
-    ),
-    "leather": (
-        "Uma sujeirinha seca que dá caráter à base.",
-        "Couro e fumaça ficam legíveis e adultos.",
-        "Vira alcatrão/cinzeiro e domina tudo.",
-    ),
-    "animalic": (
-        "O truque clássico: em traço, tira o ar de sabonete e dá calor de pele.",
-        "Fica perceptível como 'sujo bom' e adiciona tensão.",
-        "Vira fecal/estábulo e arruína a fórmula.",
-    ),
-    "musk": (
-        "Invisível sozinho, mas já costura e alonga o rastro.",
-        "Dá pele limpa, volume e fixação claros.",
-        "Fica amaciante de roupa e abafa as nuances de cima.",
-    ),
+# O MODO DE FALHAR em dose alta é, esse sim, característico da família: todo
+# cítrico exagerado vira limpa-pisos, todo gourmand exagerado enjoa. As duas
+# primeiras faixas, não — elas dependem do material, e por isso são montadas a
+# partir das facetas dele (ver build_perception).
+FAMILY_OVERDOSE = {
+    "citrus": "domina a saída, fica ácido tipo limpa-pisos e some rápido demais",
+    "aldehydic": "vira cera de vela e sufoca o resto da fórmula",
+    "green": "amarga, fica com gosto de grama e engole o floral",
+    "herbal": "vira chá de ervas medicinal e canforado",
+    "aquatic": "fica sabão de máquina de lavar, sintético e plano",
+    "fruity": "vira bala e xarope artificial, achatando a fórmula",
+    "floral": "satura, fica enjoativo e apaga a leitura das outras notas",
+    "spicy": "vira armário de tempero, arranha e pode irritar a pele",
+    "woody": "seca demais, vira serragem e engessa a fórmula",
+    "balsamic": "pesa, escurece tudo e deixa um rastro pegajoso",
+    "amber": "vira bomba de âmbar: volume demais, nuance de menos",
+    "gourmand": "enjoa, fica xarope e apaga topo e coração",
+    "leather": "vira alcatrão e cinzeiro, dominando tudo",
+    "animalic": "vira fecal e estábulo, e arruína a fórmula",
+    "musk": "fica amaciante de roupa e abafa as nuances de cima",
 }
 
+# Como a dose baixa se comporta, conforme a POTÊNCIA do material.
+LOW_BY_STRENGTH = {
+    "alta": "Traço já registra: {f} aparece como brilho, sem o nariz nomear o material.",
+    "média": "Discreto — soma {f} ao conjunto sem puxar atenção para si.",
+    "baixa": "Quase inaudível nessa dose; só arredonda o que já está lá.",
+}
+LOW_DEFAULT = "Presença de fundo: dá {f} sem se anunciar."
 
-def perception(m, family, dose):
+
+def build_perception(m, family, facets, notes, dose):
+    """Monta as três faixas a partir DESTE material, não só da família.
+
+    Antes as 67 cartas cítricas recebiam os mesmos três textos, o que as deixava
+    indistinguíveis no deck. Agora as duas primeiras faixas usam as facetas (que
+    variam carta a carta) e a posição na pirâmide; só o modo de falhar em dose
+    alta continua vindo da família, porque aí ele realmente é da família.
+    """
     lo, mid, hi = dose
     if m.get("material_kind") == "solvent":
         return [
-            {"band": "Baixa", "pct": fmt_pct(lo), "effect": "Ajuste fino de viscosidade; quase não muda nada."},
-            {"band": "Média", "pct": fmt_pct(mid), "effect": "Diluição de trabalho — o que se usa para pesar material potente."},
-            {"band": "Alta", "pct": fmt_pct(hi), "effect": "Veículo principal da fórmula; enfraquece o cheiro por diluição."},
+            {"band": "Baixa", "pct": fmt_pct(lo),
+             "effect": "Ajuste fino de viscosidade; quase não muda nada."},
+            {"band": "Média", "pct": fmt_pct(mid),
+             "effect": "Diluição de trabalho — o que se usa para pesar material potente."},
+            {"band": "Alta", "pct": fmt_pct(hi),
+             "effect": "Veículo principal da fórmula; enfraquece o cheiro por diluição."},
         ]
-    a, b, c = PERCEPTION.get(family, PERCEPTION["floral"])
+
+    f1 = facets[0].lower() if facets else "o caráter da família"
+    f2 = facets[1].lower() if len(facets) > 1 else None
+    st = m.get("odor_strength")
+    when = NOTE_WHEN.get(notes[0] if notes else None, "aparece na fórmula")
+
+    baixa = LOW_BY_STRENGTH.get(st, LOW_DEFAULT).format(f=f1)
+
+    if f2:
+        media = f"{f1[0].upper()}{f1[1:]} fica nítido com {f2} atrás, e {when}."
+    else:
+        media = f"{f1[0].upper()}{f1[1:]} fica nítido e {when}."
+
+    over = FAMILY_OVERDOSE.get(family, "satura e desequilibra a fórmula")
+    alta = f"{over[0].upper()}{over[1:]}."
+    if st == "alta":
+        alta = f"Nessa altura já é exagero para um material potente: {over}."
+
     return [
-        {"band": "Baixa", "pct": fmt_pct(lo), "effect": a},
-        {"band": "Média", "pct": fmt_pct(mid), "effect": b},
-        {"band": "Alta", "pct": fmt_pct(hi), "effect": c},
+        {"band": "Baixa", "pct": fmt_pct(lo), "effect": baixa},
+        {"band": "Média", "pct": fmt_pct(mid), "effect": media},
+        {"band": "Alta", "pct": fmt_pct(hi), "effect": alta},
     ]
 
 
@@ -742,13 +819,23 @@ GENERIC_PHOTOS = {
 GENERIC_PENALTY = 0.55
 
 
-def pick_photo(hay_strong, hay_weak, family):
+def pick_photo(hay_strong, hay_weak, family, facets=()):
+    """As FACETAS entram no casamento com peso alto.
+
+    Elas são o sinal mais limpo que o build produz — já passaram por limpeza,
+    léxico curado e voto de família. Casar a foto só pelo texto cru deixava
+    "Litsea Cubeba" (óleo cítrico) na foto de roupa no varal, porque a descrição
+    dizia "limpo".
+    """
+    hay_facets = norm(" ".join(facets))
     best, best_score = None, 0.0
     for p, rxs in PHOTO_RE:
         score = 0
         for rx in rxs:
             if rx.search(hay_strong):
                 score += 3
+            elif rx.search(hay_facets):
+                score += 2
             elif rx.search(hay_weak):
                 score += 1
         if not score:
@@ -830,6 +917,60 @@ def order_by_proximity(cards, family):
 
 
 # ---------------------------------------------------------------------------
+# "Qual a diferença para o vizinho?"
+# ---------------------------------------------------------------------------
+# O baralho põe lado a lado os materiais mais parecidos — é o que faz sentido
+# para treinar o nariz, mas cria a pergunta óbvia: se estes dois são vizinhos,
+# por que eu compraria um e não o outro? Esta função responde comparando a carta
+# com o vizinho imediato do mesmo balde: o que ela tem a mais, o que tem a menos
+# e como está de preço.
+#
+# Quando os dois têm exatamente o mesmo perfil mapeado, a resposta honesta é
+# dizer isso e mandar decidir por preço — e não inventar uma distinção.
+
+def price_word(a, b):
+    """Comparação de preço por grama entre duas cartas, em palavra."""
+    pa, pb = a["price"]["perG"], b["price"]["perG"]
+    if not pa or not pb:
+        return None
+    r = pa / pb
+    if r <= 0.5:
+        return "e custa menos da metade"
+    if r <= 0.8:
+        return "e sai mais barato"
+    if r >= 2:
+        return "e custa mais que o dobro"
+    if r >= 1.25:
+        return "e sai mais caro"
+    return "e o preço é parecido"
+
+
+def build_diff(card, neighbor):
+    """Uma linha dizendo o que separa esta carta da vizinha de baralho."""
+    if neighbor is None:
+        return None
+    mine = [f for f in card["facets"] if f not in neighbor["facets"]]
+    theirs = [f for f in neighbor["facets"] if f not in card["facets"]]
+    nome = neighbor["name"]
+    money = price_word(card, neighbor)
+
+    if mine and theirs:
+        base = f"Perto de {nome}, mas puxa {_list_pt(mine[:2])} onde o outro puxa {_list_pt(theirs[:2])}"
+    elif mine:
+        base = f"É {nome} com {_list_pt(mine[:2])} a mais"
+    elif theirs:
+        base = f"Versão mais simples que {nome}, sem {_list_pt(theirs[:2])}"
+    else:
+        # Sem diferença nos dados: dizer isso vale mais que inventar nuance.
+        base = f"Mesmo perfil mapeado que {nome}"
+        if money:
+            return f"{base} — a escolha é por preço: este {money[2:]}."
+        return f"{base}. A fonte não registra o que os separa; compare no fornecedor."
+
+    return f"{base}{', ' + money if money else ''}."
+
+
+# ---------------------------------------------------------------------------
 # Nome
 # ---------------------------------------------------------------------------
 # O catálogo raspado inclui alguns itens de bancada (pipeta, frasco, kit de
@@ -838,8 +979,18 @@ NOT_A_MATERIAL_RE = re.compile(
     r"\b(pipeta|frasco|proveta|b[eé]quer|becker|balan[çc]a|esp[áa]tula|fita\s+olfativa"
     r"|tira\s+de\s+teste|seringa|etiqueta|embalagem|r[óo]tulo|luva|almofariz|funil"
     r"|conta-gotas|gotejador|v[áa]lvula|borrifador|atomizador|bast[ãa]o|kit\s+\d"
-    r"|estojo|vareta|difusor\s+de\s+vareta|painel\s+olfativo|tira\s+olfativa"
-    r"|blotter|kit\s+de\s+estudo)\b", re.I)
+    r"|estojo|vareta|difusor\s+de\s+vareta|painel\s+olfativo|tiras?\s+olfativas?"
+    r"|fitas?\s+olfativas?|blotter|kit\s+de\s+estudo)\b", re.I)
+
+# Auxiliares de bancada: têm uso real (diluir, carregar, conservar) mas NÃO são
+# nota. Sem isto eles caem na família-padrão e ganham texto de perfume.
+TECHNICAL_RE = re.compile(
+    r"\b(dipropileno\s+glicol|dipropylene\s+glycol|dpg|dietilftalato|diethyl\s+phthalate"
+    r"|dep|miristato\s+de\s+isopropila|isopropyl\s+myristate|ipm|triacetina"
+    r"|citrato\s+de\s+trietila|triethyl\s+citrate|benzoato\s+de\s+benzila|benzyl\s+benzoate"
+    r"|jojoba|[óo]leo\s+vegetal|[áa]lcool\s+neutro|[áa]lcool\s+de\s+cereais|etanol"
+    r"|butil\s+hidroxitolueno|bht|bha|antioxidante|tocoferol"
+    r"|propilenoglicol|glicerina|dowanol|mct)\b", re.I)
 
 
 def clean_name(raw):
@@ -945,12 +1096,14 @@ def revote_family(current, facets):
             continue
         votes[fam] = votes.get(fam, 0) + (3 if i == 0 else 2 if i == 1 else 1)
     if not votes:
-        return current, False
-    if votes.get(current, 0) > 0:
+        return current or "amber", False
+    if current and votes.get(current, 0) > 0:
         return current, False
     ranked = sorted(votes.items(), key=lambda kv: -kv[1])
     top, top_v = ranked[0]
     second_v = ranked[1][1] if len(ranked) > 1 else 0
+    if not current:                      # sem família na fonte: a faceta decide
+        return top, True
     if top_v >= 3 and top_v > second_v:
         return top, True
     return current, False
@@ -966,21 +1119,122 @@ def round_pct(v):
 
 
 # ---------------------------------------------------------------------------
+# Fusão de registros duplicados
+# ---------------------------------------------------------------------------
+# O banco tem o mesmo material cadastrado mais de uma vez — ora por grafia
+# ("Lavandin" x "Lavandim"), ora por acento, ora porque dois fornecedores
+# entraram separados. No baralho isso aparece como cartas idênticas em sequência,
+# que é exatamente a reclamação que motivou esta revisão.
+#
+# Fundir é seguro quando os dois falam do mesmo material: mesmo nome normalizado
+# E sem CAS conflitante. A carta resultante fica com o texto mais completo dos
+# dois e com a UNIÃO das ofertas — então o preço mostrado passa a ser o menor
+# entre todos os fornecedores, que é melhor do que era antes da fusão.
+
+MERGE_STRIP = re.compile(
+    r"\b(oleo\s+essencial\s+de|oleo\s+essencial|essencia\s+de|base\s+de|base|puro|natural"
+    r"|tipo|extra|cristalizado|cristal|flakes|grau\s+aromatico\s+e\s+tecnico|nota[s]?)\b")
+
+
+def merge_key(name):
+    """Chave de identidade tolerante a grafia (pt/en, acento, sufixo comercial)."""
+    k = norm(name)
+    k = re.sub(r"\(.*?\)", " ", k)
+    k = MERGE_STRIP.sub(" ", k)
+    k = re.sub(r"[^a-z0-9]", "", k)
+    for a, b in (("ph", "f"), ("y", "i"), ("ck", "c"), ("k", "c"), ("z", "s"), ("ll", "l")):
+        k = k.replace(a, b)
+    return re.sub(r"(im|in)$", "in", k)
+
+
+def completeness(c):
+    """Quão informativa é a carta — decide qual sobrevive à fusão."""
+    return (
+        len(c["facets"]),
+        0 if "não trouxe descritor" in c["smell"] else 1,
+        1 if c["cas"] else 0,
+        1 if c["tech"]["mw"] else 0,
+        len(c["uses"]),
+    )
+
+
+def merge_duplicates(cards):
+    groups = {}
+    for c in cards:
+        groups.setdefault(merge_key(c["name"]), []).append(c)
+
+    out, merged = [], 0
+    for group in groups.values():
+        if len(group) == 1:
+            out.append(group[0])
+            continue
+        cas = {c["cas"] for c in group if c["cas"]}
+        if len(cas) > 1:                      # CAS conflitante: são materiais diferentes
+            out.extend(group)
+            continue
+
+        winner = max(group, key=completeness)
+        losers = [c for c in group if c is not winner]
+
+        offers, seen = list(winner["price"]["offers"]), set()
+        for o in offers:
+            seen.add((o["s"], o["size"], o["price"]))
+        for l in losers:
+            for o in l["price"]["offers"]:
+                sig = (o["s"], o["size"], o["price"])
+                if sig not in seen:
+                    seen.add(sig)
+                    offers.append(o)
+        offers.sort(key=lambda o: (o["ppg"] if o["ppg"] is not None else 1e9,
+                                   o["price"] if o["price"] is not None else 1e9))
+
+        ppgs = [o["ppg"] for o in offers if o["ppg"] is not None]
+        mins = [o["price"] for o in offers if o["price"] is not None]
+        winner["price"]["offers"] = offers[:6]
+        winner["price"]["perG"] = round(min(ppgs), 3) if ppgs else winner["price"]["perG"]
+        winner["price"]["min"] = min(mins) if mins else winner["price"]["min"]
+        winner["price"]["count"] = sum(c["price"]["count"] for c in group)
+        winner["price"]["inUse"] = cost_in_use(winner["price"]["perG"], winner["dose"]["mid"])
+        winner["cas"] = winner["cas"] or next(iter(cas), None)
+        # grafias alternativas viram sinônimo, para a busca continuar achando
+        alt = [l["name"] for l in losers if norm(l["name"]) != norm(winner["name"])]
+        winner["syn"] = list(dict.fromkeys(winner["syn"] + alt))[:4]
+        out.append(winner)
+        merged += len(losers)
+    return out, merged
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+def available_photo_keys():
+    """Chaves que realmente têm arquivo em disco."""
+    photo_dir = ROOT / "public" / "photos"
+    return {p["id"] for p in PHOTO_KEYS if (photo_dir / f"{p['id']}.webp").exists()}
+
+
 def main():
     materials = json.loads(SRC.read_text(encoding="utf-8"))
+    have_photo = available_photo_keys()
     cards = []
     stats = {"desc_prosa": 0, "desc_facetas": 0, "uses_curado": 0, "foto_kw": 0,
              "reclassificados": 0}
 
     for m in materials:
-        raw_family = m.get("family_canon") or "amber"
-        if raw_family not in FAMILY_BY_SLUG:
-            raw_family = "amber"
-
         name = normalize_aldehyde(title_case_ok(clean_name(
             m.get("name_pt") or m.get("name_canonical"))))
+        if TECHNICAL_RE.search(name) and not re.search(r"\d\s*%", name):
+            # A fonte marca vários auxiliares como 'aroma_chemical'; corrigir aqui
+            # é o que faz a carta parar de fingir que tem pirâmide e percepção.
+            m = {**m, "material_kind": "solvent", "family_canon": "tecnica"}
+
+        raw_family = m.get("family_canon") or ""
+        if raw_family not in FAMILY_BY_SLUG:
+            # Sem família na fonte: deixa VAZIO para o voto das facetas decidir.
+            # Usar "amber" como padrão despejava o desconhecido numa família real
+            # e enchia o âmbar de material que não era âmbar.
+            raw_family = "tecnica" if m.get("material_kind") == "solvent" else ""
+
         syns = [s for s in (m.get("synonyms") or []) if norm(s) != norm(name)][:3]
 
         raw_desc = m.get("odor_description")
@@ -996,6 +1250,8 @@ def main():
 
         facets = extract_facets(hay_strong, hay_weak)
         family, moved = revote_family(raw_family, facets)
+        if family not in FAMILY_BY_SLUG:
+            family = "tecnica" if m.get("material_kind") == "solvent" else "amber"
         fam = FAMILY_BY_SLUG[family]
         if moved:
             stats["reclassificados"] += 1
@@ -1007,15 +1263,20 @@ def main():
             smell = facets_to_phrase(facets, fam["label"], m.get("kind_label"))
             stats["desc_facetas"] += 1
 
-        uses = derive_uses(m, family, facets)
+        notes, notes_origin = derive_notes(m, family)
+        uses = derive_uses(m, family, facets, notes)
         if m.get("key_uses") in USES_PT:
             stats["uses_curado"] += 1
 
-        photo = pick_photo(hay_strong, hay_weak, family)
+        photo = pick_photo(hay_strong, hay_weak, family, facets)
+        if photo not in have_photo:
+            # chave sem arquivo baixado: a carta ficaria só com o gradiente
+            photo = FAMILY_PHOTO.get(family, "frasco")
+            if photo not in have_photo:
+                photo = next(iter(have_photo)) if have_photo else photo
         if photo != FAMILY_PHOTO.get(family):
             stats["foto_kw"] += 1
 
-        notes, notes_origin = derive_notes(m, family)
         dose = tuple(round_pct(v) for v in parse_dose(m))
 
         offers = sorted(
@@ -1048,7 +1309,7 @@ def main():
             "uses": uses,
             "dose": {"low": dose[0], "mid": dose[1], "high": dose[2],
                      "label": m.get("typical_use_pct") or m.get("recommended_dosage") or None},
-            "perception": perception(m, family, dose),
+            "perception": build_perception(m, family, facets, notes, dose),
             "photo": photo,
             "price": {
                 "perG": round(ppg, 3) if ppg else None,
@@ -1077,6 +1338,10 @@ def main():
             "_offers_n": m.get("offer_count") or 0,
         })
 
+    cards, merged_n = merge_duplicates(cards)
+    if merged_n:
+        print(f"  registros duplicados fundidos: {merged_n}")
+
     dropped = [c for c in cards if NOT_A_MATERIAL_RE.search(c["name"])]
     if dropped:
         cards = [c for c in cards if c not in dropped]
@@ -1098,6 +1363,12 @@ def main():
         for idx, c in enumerate(chain):
             c["seq"] = idx
             ordered.append(c)
+        # vizinho = carta anterior do MESMO balde de foto (a mais parecida);
+        # a primeira de cada balde compara com a seguinte.
+        for i, c in enumerate(chain):
+            prev = chain[i - 1] if i > 0 and chain[i - 1]["photo"] == c["photo"] else None
+            nxt = chain[i + 1] if i + 1 < len(chain) and chain[i + 1]["photo"] == c["photo"] else None
+            c["diff"] = build_diff(c, prev or nxt)
         families_meta.append({
             "slug": fam["slug"], "label": fam["label"], "cap": fam["cap"],
             "hex": fam["hex"], "emoji": fam["emoji"], "blurb": fam["blurb"],

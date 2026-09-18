@@ -41,7 +41,7 @@ export default function Card({
   return (
     <div className="card-shell flex flex-col" style={{ ["--fam" as string]: fam.hex }}>
       {/* ---------- foto ---------- */}
-      <div className="relative h-[31%] shrink-0 overflow-hidden">
+      <div className="relative h-[27%] shrink-0 overflow-hidden">
         <Photo photoKey={card.photo} seed={card.seq} eager={eager} />
         <div
           className="absolute inset-0"
@@ -68,14 +68,14 @@ export default function Card({
         className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-2"
         style={{ touchAction: "pan-y" }}
       >
-        <h2 className="pt-0.5 text-[21px] font-bold leading-[1.12] tracking-[-0.02em]">
+        <h2 className="pt-1 text-[20px] font-bold leading-[1.1] tracking-[-0.02em]">
           {card.name}
         </h2>
 
-        <p className="mt-1.5 text-[13px] leading-snug text-[var(--fg-dim)]">{card.smell}</p>
+        <p className="mt-1 line-clamp-2 text-[12.5px] leading-snug text-[var(--fg-dim)]">{card.smell}</p>
 
         {card.facets.length > 0 && (
-          <div className="mt-2 flex flex-wrap gap-1.5">
+          <div className="mt-1.5 flex flex-wrap gap-1">
             {card.facets.slice(0, 5).map((f) => (
               <span key={f} className="chip chip-fam !px-2 !py-[2px] !text-[10.5px]">
                 {f}
@@ -84,12 +84,25 @@ export default function Card({
           </div>
         )}
 
+        {/* O baralho põe os parecidos lado a lado; sem isso a pergunta "por que
+            este e não o anterior?" fica sem resposta. */}
+        {card.diff && (
+          <p
+            className="mt-2 rounded-[var(--r-sm)] border-l-2 py-1 pl-2.5 text-[11.5px]
+                       leading-snug text-[var(--fg-dim)]"
+            style={{ borderColor: "var(--fam)", background: "color-mix(in srgb, var(--fam) 7%, transparent)" }}
+          >
+            <span className="font-semibold text-[var(--fg)]">Diferença: </span>
+            {card.diff}
+          </p>
+        )}
+
         <Block title="Para que serve">
           <p className="text-[12.5px] leading-snug text-[var(--fg-dim)]">{card.uses}</p>
         </Block>
 
         <Block title={`Dose típica ${pct(card.dose.low)}–${pct(card.dose.high)} · o que cada faixa faz`}>
-          <ul className="space-y-1">
+          <ul className="space-y-0.5">
             {card.perception.map((p, i) => (
               <li key={p.band} className="flex gap-2">
                 <span
@@ -185,7 +198,7 @@ function Badge({
 
 function Block({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="mt-3">
+    <section className="mt-2.5">
       <h3 className="mb-1 text-[9.5px] font-bold uppercase tracking-[0.12em] text-[var(--muted)]">
         {title}
       </h3>

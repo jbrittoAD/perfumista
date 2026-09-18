@@ -57,6 +57,8 @@ export interface Ingredient {
   smell: string;
   /** "Combina bem com ..." quando a fonte trouxe. */
   pairs: string | null;
+  /** O que separa esta carta da vizinha de baralho (a mais parecida). */
+  diff: string | null;
   facets: string[];
   uses: string;
   dose: { low: number; mid: number; high: number; label: string | null };
