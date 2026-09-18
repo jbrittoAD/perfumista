@@ -1191,6 +1191,38 @@ def completeness(c):
     )
 
 
+def escada_de_ofertas(ofertas, chave, limite=12):
+    """Uma oferta por FAIXA DE TAMANHO, a mais barata de cada — não as N mais
+    baratas por grama.
+
+    Este era o defeito que inflava o orçamento inteiro. Ordenando por
+    price_per_g e cortando em 6, as seis sobreviventes eram sempre as
+    embalagens grandes (é delas que vem o bom preço por grama), e o app nunca
+    via que o Perfumístico vende Norlimbanol em 5 g por R$ 23,60 — só a lata de
+    100 ml por R$ 149 da Flavorist. Quem monta paleta de 100 materiais compra
+    pouco de cada, então a escada pequena é justamente a que importa.
+
+    `chave` extrai (tamanho, unidade, diluicao, preco) de uma oferta, porque o
+    dicionário tem nomes diferentes antes e depois da serialização.
+    """
+    melhor = {}
+    for o in ofertas:
+        sz, un, dil, pr = chave(o)
+        if pr is None or sz is None:
+            continue
+        k = (sz, (un or "").lower(), dil or "")
+        if k not in melhor or pr < chave(melhor[k])[3]:
+            melhor[k] = o
+    # da menor embalagem para a maior: é a ordem em que se decide a compra
+    escada = sorted(melhor.values(), key=lambda o: (chave(o)[0], chave(o)[3]))
+    if len(escada) <= limite:
+        return escada
+    # Cortar pelas pontas descaracterizaria a escada. Mantém a menor, a maior e
+    # amostra o meio uniformemente.
+    passo = (len(escada) - 1) / (limite - 1)
+    return [escada[round(i * passo)] for i in range(limite)]
+
+
 def merge_duplicates(cards):
     groups = {}
     for c in cards:
@@ -1218,12 +1250,11 @@ def merge_duplicates(cards):
                 if sig not in seen:
                     seen.add(sig)
                     offers.append(o)
-        offers.sort(key=lambda o: (o["ppg"] if o["ppg"] is not None else 1e9,
-                                   o["price"] if o["price"] is not None else 1e9))
-
         ppgs = [o["ppg"] for o in offers if o["ppg"] is not None]
         mins = [o["price"] for o in offers if o["price"] is not None]
-        winner["price"]["offers"] = offers[:6]
+        winner["price"]["offers"] = escada_de_ofertas(
+            offers, lambda o: (o["size"], o["unit"], o["dil"], o["price"]),
+        )
         winner["price"]["perG"] = round(min(ppgs), 3) if ppgs else winner["price"]["perG"]
         winner["price"]["min"] = min(mins) if mins else winner["price"]["min"]
         winner["price"]["count"] = sum(c["price"]["count"] for c in group)
@@ -1355,10 +1386,11 @@ def main():
 
         dose = tuple(round_pct(v) for v in parse_dose(m))
 
-        offers = sorted(
+        offers = escada_de_ofertas(
             [o for o in (m.get("offers") or []) if o.get("price")],
-            key=lambda o: (o.get("price_per_g") or 1e9, o.get("price") or 1e9),
-        )[:6]
+            lambda o: (o.get("size_value"), o.get("size_unit"),
+                       o.get("dilution"), o.get("price")),
+        )
 
         dil = detect_dilution(m)
         ppg = m.get("min_price_per_g")
