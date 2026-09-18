@@ -59,6 +59,8 @@ export interface Ingredient {
   pairs: string | null;
   /** O que separa esta carta da vizinha de baralho (a mais parecida). */
   diff: string | null;
+  /** Nota escrita à mão sobre o que distingue este material na sua classe. */
+  insight: string | null;
   facets: string[];
   uses: string;
   dose: { low: number; mid: number; high: number; label: string | null };

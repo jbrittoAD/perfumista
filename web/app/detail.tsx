@@ -165,8 +165,14 @@ export default function Detail({
             )}
           </Section>
 
+          {card.insight && (
+            <Section title="O que distingue este material">
+              <p className="text-[14px] leading-relaxed text-[var(--fg-dim)]">{card.insight}</p>
+            </Section>
+          )}
+
           {card.diff && (
-            <Section title="Diferença para o vizinho de baralho">
+            <Section title="Comparado com o vizinho de baralho">
               <p className="text-[14px] leading-relaxed text-[var(--fg-dim)]">{card.diff}</p>
             </Section>
           )}

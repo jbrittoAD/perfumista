@@ -39,10 +39,12 @@ from deck_lexicon import (  # noqa: E402
     FAMILIES, FAMILY_BY_SLUG, CAP_LABEL, LEX, PHOTO_KEYS, PHOTO_BY_ID, FAMILY_PHOTO,
 )
 from deck_uses_pt import USES_PT  # noqa: E402
+from deck_notes_pt import NOTES_PT  # noqa: E402
 from deck_families import FACET_FAMILY, NEUTRAL  # noqa: E402
 
 ROOT = HERE.parent
 SRC = ROOT / "lib" / "data" / "materials.json"
+PUBCHEM = ROOT.parent / "materials" / "data" / "pubchem.json"
 OUT = ROOT / "lib" / "data" / "deck.json"
 
 
@@ -945,6 +947,23 @@ def price_word(a, b):
     return "e o preço é parecido"
 
 
+# Chave mais longa primeiro: "aldeido c12 mna" tem de vencer "aldeido c12".
+NOTES_SORTED = sorted(NOTES_PT.items(), key=lambda kv: -len(kv[0]))
+
+
+def curated_note(name, syns):
+    """A nota escrita à mão para este material, se existir.
+
+    Vale mais que a comparação automática com o vizinho: diz o que o material É
+    dentro da sua classe, e não só quais facetas ele tem a mais que o da frente.
+    """
+    hay = norm(name + " " + " ".join(syns or []))
+    for key, text in NOTES_SORTED:
+        if key in hay:
+            return text
+    return None
+
+
 def build_diff(card, neighbor):
     """Uma linha dizendo o que separa esta carta da vizinha de baralho."""
     if neighbor is None:
@@ -1213,12 +1232,49 @@ def available_photo_keys():
     return {p["id"] for p in PHOTO_KEYS if (photo_dir / f"{p['id']}.webp").exists()}
 
 
+def load_pubchem():
+    """Cache do enrich_pubchem.py: CAS → massa molar, ponto de ebulição, logP.
+
+    Mais da metade do catálogo veio dos fornecedores sem física nenhuma, e é a
+    física que decide a posição na pirâmide. O PubChem é API pública do NCBI,
+    feita para acesso programático.
+    """
+    if not PUBCHEM.exists():
+        return {}
+    try:
+        return {k: v for k, v in json.loads(PUBCHEM.read_text(encoding="utf-8")).items()
+                if v.get("found")}
+    except Exception:
+        return {}
+
+
+def apply_pubchem(m, pubchem):
+    """Completa o que falta — nunca sobrescreve o que a fonte já trazia."""
+    cas = (m.get("cas") or "").strip()
+    p = pubchem.get(cas)
+    if not p:
+        return m, False
+    out = dict(m)
+    used = False
+    for src_key, dst_key in (("mw", "molecular_weight"), ("bp", "boiling_point_c"),
+                             ("logp", "logp"), ("vp", "vapor_pressure")):
+        if out.get(dst_key) in (None, "") and p.get(src_key) is not None:
+            out[dst_key] = p[src_key]
+            used = True
+    if not out.get("pubchem_cid") and p.get("cid"):
+        out["pubchem_cid"] = p["cid"]
+    if not out.get("iupac_name") and p.get("iupac"):
+        out["iupac_name"] = p["iupac"]
+    return out, used
+
+
 def main():
     materials = json.loads(SRC.read_text(encoding="utf-8"))
+    pubchem = load_pubchem()
     have_photo = available_photo_keys()
     cards = []
     stats = {"desc_prosa": 0, "desc_facetas": 0, "uses_curado": 0, "foto_kw": 0,
-             "reclassificados": 0}
+             "reclassificados": 0, "pubchem": 0}
 
     for m in materials:
         name = normalize_aldehyde(title_case_ok(clean_name(
@@ -1227,6 +1283,10 @@ def main():
             # A fonte marca vários auxiliares como 'aroma_chemical'; corrigir aqui
             # é o que faz a carta parar de fingir que tem pirâmide e percepção.
             m = {**m, "material_kind": "solvent", "family_canon": "tecnica"}
+
+        m, enriched = apply_pubchem(m, pubchem)
+        if enriched:
+            stats["pubchem"] += 1
 
         raw_family = m.get("family_canon") or ""
         if raw_family not in FAMILY_BY_SLUG:
@@ -1305,6 +1365,7 @@ def main():
             "strength": m.get("odor_strength"),
             "smell": smell,
             "pairs": pairs,
+            "insight": curated_note(name, syns),
             "facets": facets,
             "uses": uses,
             "dose": {"low": dose[0], "mid": dose[1], "high": dose[2],
@@ -1415,6 +1476,8 @@ def main():
     print(f"  foto por palavra-chave: {stats['foto_kw']} | por família (fallback): {len(ordered)-stats['foto_kw']}")
     print(f"  fotos distintas usadas: {len(used_photos)}/{len(PHOTO_KEYS)}")
     print(f"  famílias corrigidas por voto de faceta: {stats['reclassificados']}")
+    print(f"  completadas pelo PubChem: {stats['pubchem']}")
+    print(f"  notas curadas aplicadas: {sum(1 for c in ordered if c.get('insight'))}")
     nofacet = sum(1 for c in ordered if not c["facets"])
     print(f"  cartas sem nenhuma faceta: {nofacet}")
 

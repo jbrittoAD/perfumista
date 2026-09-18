@@ -19,6 +19,12 @@ Meu Laboratório / Fórmulas). Antes de mexer, leia `README.md` e `../ESTADO.md`
   mesma imagem em cartas seguidas mata o deck. Crédito sempre pela variante em uso.
 - **A carta mostra tudo que decide compra sem exigir toque.** Se precisar de um dado novo
   para decidir, ele vai na carta; a folha de detalhe é só para consulta.
+- **NÃO raspar o The Good Scents Company.** O robots.txt deles bloqueia ClaudeBot e
+  anthropic-ai no site inteiro. Dado perceptual entra por curadoria (`deck_notes_pt.py`);
+  dado físico vem do PubChem (`enrich_pubchem.py`), que é API pública.
+- **Texto de carta tem que variar por MATERIAL, não por família.** Já aconteceu de 67
+  cartas cítricas dividirem um único texto de percepção — é o pior defeito possível num
+  app cuja função é comparar materiais parecidos.
 - **Posição na pirâmide é FAIXA (`notes`), não rótulo único.** Use `notesLabel`/`notesShort`;
   o campo `note` da fonte existe só por compatibilidade e está vazio em 222 materiais.
 - **Tailwind v4:** `@apply` não compõe classes de componente. Repita a base em cada variante.

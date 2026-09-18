@@ -86,14 +86,16 @@ export default function Card({
 
         {/* O baralho põe os parecidos lado a lado; sem isso a pergunta "por que
             este e não o anterior?" fica sem resposta. */}
-        {card.diff && (
+        {(card.insight || card.diff) && (
           <p
             className="mt-2 rounded-[var(--r-sm)] border-l-2 py-1 pl-2.5 text-[11.5px]
                        leading-snug text-[var(--fg-dim)]"
             style={{ borderColor: "var(--fam)", background: "color-mix(in srgb, var(--fam) 7%, transparent)" }}
           >
-            <span className="font-semibold text-[var(--fg)]">Diferença: </span>
-            {card.diff}
+            <span className="font-semibold text-[var(--fg)]">
+              {card.insight ? "O que distingue: " : "Diferença: "}
+            </span>
+            {card.insight ?? card.diff}
           </p>
         )}
 

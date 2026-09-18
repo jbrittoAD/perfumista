@@ -64,9 +64,28 @@ químicos aromáticos, marca o que quer na paleta, e simula acordes com o que ma
   - Crédito e licença de CADA arquivo (inclusive variantes) em `public/photos/credits.json`,
     exibidos na ficha. A ficha resolve o crédito pela variante em uso, não pela chave base —
     atribuir a foto errada violaria a CC-BY.
-- Scripts do deck: `web/scripts/` — `build_deck.py`, `deck_lexicon.py` (95 fotos + 334
-  descritores + 15 famílias), `deck_families.py` (voto de reclassificação), `deck_uses_pt.py`
-  (157 textos técnicos traduzidos à mão), `fetch_photos.py`.
+- Scripts do deck, em `web/scripts/`:
+  - `build_deck.py` — o gerador.
+  - `deck_lexicon.py` — 95 chaves de foto (+ categorias de variante), ~420 descritores e
+    as 16 famílias.
+  - `deck_families.py` — de faceta para família (voto de reclassificação).
+  - `deck_uses_pt.py` — os 157 `key_uses` do banco traduzidos à mão.
+  - **`deck_notes_pt.py`** — ~270 notas escritas à mão dizendo **o que distingue cada
+    material do vizinho mais parecido** (por que Javanol e não Sandalore). Cobre ~55% do
+    baralho, concentrada nos grupos que mais confundem: sândalos, almíscares, âmbares,
+    muguets, iononas, aldeídos graxos, álcoois de rosa, ésteres frutados, verdes e mentas.
+  - **`enrich_pubchem.py`** — completa massa molar, ponto de ebulição, logP e pressão de
+    vapor pela API pública do PubChem (NCBI), com cache em `materials/data/pubchem.json`.
+    Metade do catálogo veio dos fornecedores sem física nenhuma, e é a física que decide a
+    posição na pirâmide.
+  - `fetch_photos.py` — fotos e variantes do Wikimedia Commons.
+
+### Sobre fontes externas (decisão registrada)
+O **The Good Scents Company** seria a melhor fonte para descrição perceptual, força do odor
+e substantividade — mas o `robots.txt` deles bloqueia agentes de IA explicitamente
+(`ClaudeBot`, `Claude-Web`, `anthropic-ai`: `Disallow: /`). **Não raspar.** O que ele daria
+de perceptual entra por curadoria em `deck_notes_pt.py`; o que é físico vem do PubChem, que
+é API pública feita para acesso programático.
 
 ## 🧠 Persistência
 - **IndexedDB** `perfumista-deck` (primária) + **localStorage** `perfumista:deck-state`
