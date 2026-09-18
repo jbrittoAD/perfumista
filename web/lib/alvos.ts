@@ -70,6 +70,59 @@ export const ALVOS: Alvo[] = [
       { papel: "almíscar de pele", buscar: ["exaltolide", "ambrettolide"], pct: 2 },
     ],
   },
+  {
+    id: "khalid-limpo",
+    nome: "DNA Lattafa Khalid (sem defumado)",
+    nota: "couro de açafrão sobre resinas quentes — o Khalid com a fuligem removida",
+    fonte:
+      "Pirâmide divulgada do Lattafa Niche Emarati Khalid (2023): topo couro, " +
+      "labdano, açafrão · coração bétula, óleo de cade, patchouli · base couro, " +
+      "oud, bálsamo de tolu, benjoim. AQUI ESTÁ ALTERADA DE PROPÓSITO: bétula e " +
+      "cade são exatamente o defumado, então saem, e o couro/oud entram em versão " +
+      "domesticada. O que sai de fuligem é reposto por resina seca (olíbano, " +
+      "opoponax) e madeira seca ambarada, para o benjoim não puxar tudo para o doce.",
+    papeis: [
+      // --- a assinatura: Safraleine é açafrão E couro no mesmo material.
+      // É o coração do brief — couro quente, sem alcatrão.
+      // Safraleine sozinha dá açafrão E couro sem alcatrão. O Suederal, que
+      // seria o reforço óbvio de camurça, traz "defumado · castóreo" no próprio
+      // descritor — exatamente o que este alvo tira. Fora.
+      { papel: "açafrão · couro (a assinatura)", buscar: ["safraleine"], pct: 8 },
+
+      // --- topo: o Khalid original quase não tem abertura, quem abria era a
+      // aspereza da fumaça. Sem ela o começo fica chapado e doce — daí o topo
+      // resinoso-cítrico, mesmo truque dos couros de açafrão modernos.
+      { papel: "bergamota", buscar: ["bergamota"], pct: 6 },
+      { papel: "pimenta rosa", buscar: ["pimenta rosa", "pink pepper"], pct: 2 },
+      { papel: "elemi (ponte cítrico→resina)", buscar: ["elemi"], pct: 2 },
+      { papel: "cardamomo", buscar: ["cardamomo"], pct: 2 },
+
+      // --- coração
+      { papel: "labdano (âmbar de resina)", buscar: ["labdano", "cistus"], pct: 7 },
+      // "Patchouli Terpenes" é subproduto da destilação e ganhava por começar
+      // com o termo; o óleo Light é o material de verdade.
+      { papel: "patchouli (a terra que sobra do original)", buscar: ["patchouli light", "patchoulol", "patchouli"], pct: 8 },
+      { papel: "olíbano (seriedade sem fuligem)", buscar: ["olibano", "olibanum"], pct: 4 },
+      { papel: "opoponax / mirra", buscar: ["opoponax", "mirra"], pct: 3 },
+
+      // --- base. Bálsamo de tolu NÃO existe em nenhum fornecedor mapeado;
+      // benjoim + estoraque + um traço de vanilina cobrem o mesmo território
+      // (resina cinâmica adocicada).
+      { papel: "benjoim", buscar: ["benjoim", "benzoin"], pct: 9 },
+      { papel: "estoraque (tolu, parte 2)", buscar: ["styrax", "estoraque"], pct: 4 },
+      { papel: "vanilina (tolu, parte 3 — traço)", buscar: ["vanilina"], pct: 2 },
+      { papel: "feno doce", buscar: ["cumarina"], pct: 2 },
+
+      // --- "oud" sem curral: madeira seca ambarada faz o mesmo peso escuro
+      { papel: "oud · madeira seca", buscar: ["norlimbanol"], pct: 5 },
+      { papel: "oud · âmbar-madeira", buscar: ["kephalis", "okoumal"], pct: 3 },
+      { papel: "cedro seco", buscar: ["cedramber", "acetato de cedrila"], pct: 4 },
+      { papel: "corpo amadeirado", buscar: ["iso e super"], pct: 14 },
+      { papel: "projeção ambarada", buscar: ["ambroxan", "ambrox"], pct: 6 },
+      { papel: "almíscar limpo", buscar: ["galaxolide", "habanolide"], pct: 6 },
+      { papel: "almíscar de pele (o pouco animálico que fica)", buscar: ["exaltolide", "ambrettolide"], pct: 3 },
+    ],
+  },
 ];
 
 /** Resolve os papéis do alvo para cartas reais do catálogo. */
