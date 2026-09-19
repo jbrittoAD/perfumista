@@ -31,6 +31,20 @@ export interface Alvo {
   papeis: AlvoPapel[];
 }
 
+/**
+ * ATENÇÃO À PROCEDÊNCIA DE CADA PORCENTAGEM.
+ *
+ * As do Imagination são as partes reais de uma fórmula publicada. As do
+ * Himalaya e do Khalid são MINHAS, deduzidas da pirâmide e do rótulo, e por
+ * isso ficam dentro da dose máxima que a própria carta do material declara.
+ *
+ * Isso importa: a primeira versão do Khalid punha Safraleine a 8% quando a
+ * ficha dela diz 0,05–1% e avisa que a 1% "vira alcatrão e cinzeiro, dominando
+ * tudo". Oito vezes o teto arruinaria o perfume e ainda fazia comprar 7,6 g de
+ * um material que se usa a 0,9 g. O Imagination excede a dose de carta em
+ * quatro materiais e está certo assim — ali o número é de quem formulou de
+ * verdade, e a dose da carta é sugestão conservadora do fornecedor.
+ */
 export const ALVOS: Alvo[] = [
   {
     id: "himalaya",
@@ -49,27 +63,27 @@ export const ALVOS: Alvo[] = [
       "empoada, muguet, a dupla da rosa e cravo, que eu não tinha posto.",
     papeis: [
       // --- topo cítrico
-      { papel: "bergamota", buscar: ["bergamota"], pct: 10 },
+      { papel: "bergamota", buscar: ["bergamota"], pct: 5 },
       // Citral estava trocado por Lemonile para economizar, quando o menor
       // pacote de Citral parecia ser 500 g por R$ 107. Com a escada de ofertas
       // corrigida ele sai por R$ 3,57 em 5 g — e o rótulo prova que é citral
       // mesmo que está lá dentro.
-      { papel: "limão", buscar: ["citral", "lemonile", "limao siciliano"], pct: 5 },
+      { papel: "limão", buscar: ["citral", "lemonile", "limao siciliano"], pct: 1 },
       { papel: "limoneno (o 1º do rótulo)", buscar: ["limoneno"], pct: 4 },
-      { papel: "tangerina", buscar: ["mandarina", "tangerin", "clonal"], pct: 4 },
+      { papel: "tangerina", buscar: ["mandarina", "tangerin", "clonal"], pct: 2 },
       { papel: "o fresco masculino", buscar: ["dihidromircenol"], pct: 8 },
 
       // --- o coração: é aqui que mora o caráter do Himalaya
       // "Pólvora" é acorde, não material: pedra fria e sílex. Monta-se com
       // mineral-ozônico + metálico + um traço defumado.
-      { papel: "pólvora · mineral ozônico", buscar: ["helional"], pct: 3 },
-      { papel: "pólvora · metálico frio", buscar: ["c12 mna"], pct: 2 },
+      { papel: "pólvora · mineral ozônico", buscar: ["helional"], pct: 2 },
+      { papel: "pólvora · metálico frio", buscar: ["c12 mna"], pct: 0.5 },
       { papel: "pólvora · traço defumado", buscar: ["guaiacol", "betula"], pct: 1 },
             // Sabineno é o constituinte que faz a baga de zimbro cheirar a zimbro, e
       // custa R$ 42 contra R$ 213 da baga inteira. Perde a parte resinosa e
       // terrosa do óleo — quando sobrar orçamento, o Juniper Berry é o certo.
-      { papel: "zimbro (alpino, gin)", buscar: ["sabineno", "juniper berry", "zimbro"], pct: 3 },
-      { papel: "pimenta preta", buscar: ["pimenta preta", "black pepper"], pct: 3 },
+      { papel: "zimbro (alpino, gin)", buscar: ["sabineno", "juniper berry", "zimbro"], pct: 2 },
+      { papel: "pimenta preta", buscar: ["pimenta preta", "black pepper"], pct: 2 },
       { papel: "lavanda (a espinha fougère)", buscar: ["lavanda", "lavandin"], pct: 6 },
       { papel: "jasmim transparente", buscar: ["hedione"], pct: 8 },
 
@@ -82,13 +96,13 @@ export const ALVOS: Alvo[] = [
       { papel: "rosa · citronelol (do rótulo)", buscar: ["citronelol"], pct: 2 },
       { papel: "rosa · geraniol (do rótulo)", buscar: ["geraniol"], pct: 1.5 },
       { papel: "cravo (do rótulo)", buscar: ["eugenol"], pct: 1 },
-      { papel: "cravo · isoeugenol (do rótulo)", buscar: ["isoeugenol"], pct: 0.5 },
+      { papel: "cravo · isoeugenol (do rótulo)", buscar: ["isoeugenol"], pct: 0.05 },
       { papel: "feno doce (do rótulo)", buscar: ["cumarina"], pct: 3 },
       { papel: "salicilato solar (do rótulo)", buscar: ["salicilato de benzila"], pct: 3 },
 
       // --- base
       { papel: "corpo amadeirado", buscar: ["iso e super"], pct: 16 },
-      { papel: "sândalo cremoso", buscar: ["bacdanol", "sandalore", "ebanol"], pct: 8 },
+      { papel: "sândalo cremoso", buscar: ["bacdanol", "sandalore", "ebanol"], pct: 5 },
       { papel: "cedro seco", buscar: ["acetato de cedrila", "cedramber"], pct: 6 },
             // Acetato de vetiveril: vetiver sem a parte de raiz úmida, mais limpo e
       // um terço do preço do óleo do Haiti. Para masculino é até preferível.
@@ -115,22 +129,22 @@ export const ALVOS: Alvo[] = [
       // Safraleine sozinha dá açafrão E couro sem alcatrão. O Suederal, que
       // seria o reforço óbvio de camurça, traz "defumado · castóreo" no próprio
       // descritor — exatamente o que este alvo tira. Fora.
-      { papel: "açafrão · couro (a assinatura)", buscar: ["safraleine"], pct: 8 },
+      { papel: "açafrão · couro (a assinatura)", buscar: ["safraleine"], pct: 1 },
 
       // --- topo: o Khalid original quase não tem abertura, quem abria era a
       // aspereza da fumaça. Sem ela o começo fica chapado e doce — daí o topo
       // resinoso-cítrico, mesmo truque dos couros de açafrão modernos.
-      { papel: "bergamota", buscar: ["bergamota"], pct: 6 },
-      { papel: "pimenta rosa", buscar: ["pimenta rosa", "pink pepper"], pct: 2 },
-      { papel: "elemi (ponte cítrico→resina)", buscar: ["elemi"], pct: 2 },
-      { papel: "cardamomo", buscar: ["cardamomo"], pct: 2 },
+      { papel: "bergamota", buscar: ["bergamota"], pct: 5 },
+      { papel: "pimenta rosa", buscar: ["pimenta rosa", "pink pepper"], pct: 3 },
+      { papel: "elemi (ponte cítrico→resina)", buscar: ["elemi"], pct: 1 },
+      { papel: "cardamomo", buscar: ["cardamomo"], pct: 3 },
 
       // --- coração
-      { papel: "labdano (âmbar de resina)", buscar: ["labdano", "cistus"], pct: 7 },
+      { papel: "labdano (âmbar de resina)", buscar: ["labdano", "cistus"], pct: 3 },
       // "Patchouli Terpenes" é subproduto da destilação e ganhava por começar
       // com o termo; o óleo Light é o material de verdade.
-      { papel: "patchouli (a terra que sobra do original)", buscar: ["patchouli light", "patchoulol", "patchouli"], pct: 8 },
-      { papel: "olíbano (seriedade sem fuligem)", buscar: ["olibano", "olibanum"], pct: 6 },
+      { papel: "patchouli (a terra que sobra do original)", buscar: ["patchouli light", "patchoulol", "patchouli"], pct: 10 },
+      { papel: "olíbano (seriedade sem fuligem)", buscar: ["olibano", "olibanum"], pct: 5 },
       // Opoponax e mirra estavam aqui como reforço resinoso, mas nenhum dos
       // dois está na pirâmide do Khalid e a menor embalagem sai por R$ 159–199.
       // O olíbano cobre o papel sozinho, por R$ 34.
@@ -138,10 +152,10 @@ export const ALVOS: Alvo[] = [
       // --- base. Bálsamo de tolu NÃO existe em nenhum fornecedor mapeado;
       // benjoim + estoraque + um traço de vanilina cobrem o mesmo território
       // (resina cinâmica adocicada).
-      { papel: "benjoim", buscar: ["benjoim", "benzoin"], pct: 9 },
-      { papel: "estoraque (tolu, parte 2)", buscar: ["styrax", "estoraque"], pct: 4 },
-      { papel: "vanilina (tolu, parte 3 — traço)", buscar: ["vanilina"], pct: 2 },
-      { papel: "feno doce", buscar: ["cumarina"], pct: 2 },
+      { papel: "benjoim", buscar: ["benjoim", "benzoin"], pct: 5 },
+      { papel: "estoraque (tolu, parte 2)", buscar: ["styrax", "estoraque"], pct: 2 },
+      { papel: "vanilina (tolu, parte 3 — traço)", buscar: ["vanilina"], pct: 3 },
+      { papel: "feno doce", buscar: ["cumarina"], pct: 3 },
 
       // --- "oud" sem curral: madeira seca ambarada faz o mesmo peso escuro
       // Estes dois NÃO são intercambiáveis, apesar de eu os ter agrupado como
@@ -151,13 +165,13 @@ export const ALVOS: Alvo[] = [
       // corpo. Só compartilham "âmbar" e "amadeirado". Para ESTE alvo o
       // Kephalis é o mais fiel — tabaco e couro estão na descrição do Khalid,
       // e o animálico do Norlimbanol é justo o que se pediu para baixar.
-      { papel: "corpo tabaco-couro", buscar: ["kephalis"], pct: 4 },
-      { papel: "esqueleto de madeira seca (traço)", buscar: ["norlimbanol"], pct: 4 },
-      { papel: "cedro seco", buscar: ["cedramber", "acetato de cedrila"], pct: 4 },
-      { papel: "corpo amadeirado", buscar: ["iso e super"], pct: 14 },
-      { papel: "projeção ambarada", buscar: ["ambroxan", "ambrox"], pct: 6 },
-      { papel: "almíscar limpo", buscar: ["galaxolide", "habanolide"], pct: 6 },
-      { papel: "almíscar de pele (o pouco animálico que fica)", buscar: ["exaltolide", "ambrettolide"], pct: 3 },
+      { papel: "corpo tabaco-couro", buscar: ["kephalis"], pct: 5 },
+      { papel: "esqueleto de madeira seca (traço)", buscar: ["norlimbanol"], pct: 3 },
+      { papel: "cedro seco", buscar: ["cedramber", "acetato de cedrila"], pct: 6 },
+      { papel: "corpo amadeirado", buscar: ["iso e super"], pct: 20 },
+      { papel: "projeção ambarada", buscar: ["ambroxan", "ambrox"], pct: 9 },
+      { papel: "almíscar limpo", buscar: ["galaxolide", "habanolide"], pct: 9 },
+      { papel: "almíscar de pele (o pouco animálico que fica)", buscar: ["exaltolide", "ambrettolide"], pct: 4 },
     ],
   },
   {
