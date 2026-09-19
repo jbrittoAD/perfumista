@@ -249,7 +249,11 @@ function baseScore(c: Ingredient, opts: PaletteOptions, grams = 10): number {
   if (c.notesOrigin && c.notesOrigin !== "família") s += 1;  // pirâmide com evidência
   if (opts.preferIsolates !== false) {
     if (c.kind === "base") s -= 3;                // base é atalho, não estudo
-    if (c.kind === "essential_oil") s -= 0.5;     // varia de lote
+    // Regra do dono: o máximo de sintético que der. Não é só preço — óleo
+    // essencial varia de lote, oxida, e traz dezenas de moléculas que você não
+    // escolheu (inclusive alérgenos declaráveis). A molécula isolada é o que se
+    // estuda. Onde não existe sintético que preste, o óleo entra assim mesmo.
+    if (c.kind === "essential_oil") s -= 4;
   }
   return s;
 }

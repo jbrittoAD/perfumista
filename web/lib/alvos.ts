@@ -83,8 +83,15 @@ export const ALVOS: Alvo[] = [
       // custa R$ 42 contra R$ 213 da baga inteira. Perde a parte resinosa e
       // terrosa do óleo — quando sobrar orçamento, o Juniper Berry é o certo.
       { papel: "zimbro (alpino, gin)", buscar: ["sabineno", "juniper berry", "zimbro"], pct: 2 },
-      { papel: "pimenta preta", buscar: ["pimenta preta", "black pepper"], pct: 2 },
-      { papel: "lavanda (a espinha fougère)", buscar: ["lavanda", "lavandin"], pct: 6 },
+            // Cariofileno beta É a molécula que faz pimenta cheirar a pimenta, e
+      // custa R$ 3,61 contra R$ 44,56 do óleo.
+      { papel: "pimenta preta", buscar: ["cariofileno", "pimenta preta"], pct: 2 },
+            // Lavanda reconstruída: o óleo é ~30% linalol e ~35% acetato de linalila,
+      // e os dois já estão comprados para outros papéis. Sai o óleo de R$ 23,90
+      // e não entra frasco novo nenhum. Perde a nuance de cânfora e cumarina
+      // do natural — que aqui é bônus, já que cânfora está no veto.
+      { papel: "lavanda · linalol", buscar: ["linalol"], pct: 3.5 },
+      { papel: "lavanda · acetato de linalila", buscar: ["acetato de linalila"], pct: 2.5 },
       { papel: "jasmim transparente", buscar: ["hedione"], pct: 8 },
 
       // --- A CAMADA QUE O RÓTULO REVELOU e a pirâmide escondia.
@@ -135,15 +142,20 @@ export const ALVOS: Alvo[] = [
       // aspereza da fumaça. Sem ela o começo fica chapado e doce — daí o topo
       // resinoso-cítrico, mesmo truque dos couros de açafrão modernos.
       { papel: "bergamota", buscar: ["bergamota"], pct: 5 },
-      { papel: "pimenta rosa", buscar: ["pimenta rosa", "pink pepper"], pct: 3 },
-      { papel: "elemi (ponte cítrico→resina)", buscar: ["elemi"], pct: 1 },
+            // Pimenta rosa é majoritariamente terpênica (pineno, limoneno) com um
+      // picante leve. Reconstruída sai por R$ 14 contra R$ 69 do óleo.
+      { papel: "pimenta rosa · terpênica", buscar: ["alfa-pineno", "pimenta rosa"], pct: 2 },
+      { papel: "pimenta rosa · picante", buscar: ["cariofileno"], pct: 1 },
+            // Elemi = limoneno + felandreno + elemol. O alfa terpineol cobre o lado
+      // resinoso-lilás por R$ 3,62 contra R$ 44,90.
+      { papel: "elemi (ponte cítrico→resina)", buscar: ["alfa terpineol", "elemi"], pct: 1 },
       { papel: "cardamomo", buscar: ["cardamomo"], pct: 3 },
 
       // --- coração
       { papel: "labdano (âmbar de resina)", buscar: ["labdano", "cistus"], pct: 3 },
       // "Patchouli Terpenes" é subproduto da destilação e ganhava por começar
       // com o termo; o óleo Light é o material de verdade.
-      { papel: "patchouli (a terra que sobra do original)", buscar: ["patchouli light", "patchoulol", "patchouli"], pct: 10 },
+      { papel: "patchouli (a terra que sobra do original)", buscar: ["patchone", "patchouli light", "patchouli"], pct: 10 },
       { papel: "olíbano (seriedade sem fuligem)", buscar: ["olibano", "olibanum"], pct: 5 },
       // Opoponax e mirra estavam aqui como reforço resinoso, mas nenhum dos
       // dois está na pirâmide do Khalid e a menor embalagem sai por R$ 159–199.
@@ -193,6 +205,8 @@ export const ALVOS: Alvo[] = [
       { papel: "bergamota", buscar: ["bergamota"], pct: 7.6 },
       { papel: "linalol", buscar: ["linalol"], pct: 4.1 },
       { papel: "laranja doce", buscar: ["laranja doce", "laranja"], pct: 3.3 },
+            // Único papel dos três alvos sem sintético que compense: o "Ginger Fresh"
+      // custa R$ 211 contra R$ 73 do óleo. Fica natural.
       { papel: "gengibre", buscar: ["gengibre"], pct: 1.0 },
       { papel: "limão (traço)", buscar: ["citral"], pct: 0.4 },
 
@@ -213,9 +227,9 @@ export const ALVOS: Alvo[] = [
       { papel: "rosa · nerol (traço)", buscar: ["nerol"], pct: 0.03 },
 
       // --- fundo
-      { papel: "guaiacwood", buscar: ["guaiacwood", "guaiaco"], pct: 1.1 },
+      { papel: "guaiacwood", buscar: ["acetato de guaiaco", "guaiacwood"], pct: 1.1 },
       { papel: "feno doce", buscar: ["cumarina"], pct: 0.8 },
-      { papel: "flor de laranjeira", buscar: ["neroli"], pct: 0.2 },
+      { papel: "flor de laranjeira", buscar: ["nerolin", "neroli"], pct: 0.2 },
       { papel: "canela (traço)", buscar: ["aldeido cinamico", "cinamico"], pct: 0.3 },
       { papel: "indol (traço)", buscar: ["indol"], pct: 0.03 },
     ],
