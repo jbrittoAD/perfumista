@@ -517,6 +517,18 @@ SLOTS = ["topo", "coracao", "base"]
 # (corte topo|coração, corte coração|base) por evidência física.
 BP_CUTS = (195.0, 255.0)
 MW_CUTS = (165.0, 195.0)
+# Pressão de vapor (mmHg a 25 °C). A ordem é INVERSA das outras — mais pressão
+# é mais volátil — e por isso _slot_from recebe o logaritmo negativo.
+#
+# É a melhor evidência das três e estava sem uso. Massa e ponto de ebulição são
+# indícios de volatilidade; a pressão de vapor É a volatilidade, medida a 25 °C,
+# que é a temperatura em que a pessoa usa o perfume — o ponto de ebulição é
+# medido a 200 ou 300 graus, onde a molécula já se comporta de outro jeito.
+#
+# Cortes calibrados contra as 80 cartas cujo degrau veio DECLARADO pela fonte,
+# sem circularidade: a mediana dá 0,74 mmHg para topo, 0,029 para coração e
+# 0,00076 para base — uma ordem e meia de grandeza entre degraus.
+VP_CUTS = (0.1, 0.001)
 # Margem de "em cima da linha": dentro disso, o degrau vizinho também conta.
 BOUNDARY_MARGIN = 0.08
 
@@ -581,9 +593,20 @@ def derive_notes(m, family):
     bp = m.get("boiling_point_c")
     mw = m.get("molecular_weight")
     bp = bp_confiavel(m)
+    vp = m.get("vapor_pressure")
     phys = None
     vacuo = False
-    if bp and 40 < bp < 500:            # fora disso é ruído do scraping
+    if vp and 1e-9 < vp < 1e4:
+        # -log10 inverte a escala (pressão alta = volátil = topo) e a comprime,
+        # que é o que faz uma faixa de nove ordens de grandeza caber em cortes
+        # comparáveis aos de temperatura.
+        phys = _slot_from(-math.log10(vp), (-math.log10(VP_CUTS[0]), -math.log10(VP_CUTS[1])))
+        origin.append("pressão de vapor")
+        # Abaixo de 1e-4 mmHg a molécula não chega ao nariz a tempo de ser
+        # topo, por mais que o catálogo do fornecedor diga que é.
+        if vp < 1e-4:
+            vacuo = True
+    elif bp and 40 < bp < 500:          # fora disso é ruído do scraping
         phys = _slot_from(bp, BP_CUTS)
     elif m.get("bp_vacuo"):
         # Só há ponto de ebulição a vácuo: a fonte precisou baixar a pressão
@@ -599,13 +622,14 @@ def derive_notes(m, family):
         phys = _slot_from(mw, MW_CUTS)
     if phys:
         found.update(phys)
-        origin.append("física")
+        if "pressão de vapor" not in origin:
+            origin.append("física")
 
-    # O vácuo DESMENTE a fonte quando ela diz topo. Precisar baixar a pressão
-    # para destilar é prova direta de baixa volatilidade, e vale mais que um
-    # note_type de catálogo de fornecedor: o Etileno Brassilato e o Exaltolide
-    # vinham marcados como topo, e são almíscares macrocíclicos — dos materiais
-    # mais persistentes que existem.
+    # MEDIDA DESMENTE RÓTULO. Duas evidências diretas de baixa volatilidade —
+    # ter precisado de vácuo para destilar, ou pressão de vapor abaixo de
+    # 1e-4 mmHg — valem mais que o note_type do catálogo do fornecedor.
+    # Etileno Brassilato e Exaltolide vinham marcados como topo e são
+    # almíscares macrocíclicos; o Farnesol, com 3,9e-05 mmHg, idem.
     if vacuo and "topo" in found:
         found.discard("topo")
         if "fonte" in origin:
@@ -1481,6 +1505,11 @@ def main():
                 # aparece na ficha. Mostrar "ferve a 75 °C" num éster que ferve
                 # a 212 é pior que não mostrar nada.
                 "mw": m.get("molecular_weight"), "bp": bp_confiavel(m),
+                # Pressão de vapor (mmHg a 25 °C) — a medida DIRETA de quanto
+                # o material demora a sair da pele. Estava sendo coletada e
+                # jogada fora: massa e ponto de ebulição são indícios dela, e
+                # estavam no lugar do número de verdade.
+                "vp": m.get("vapor_pressure"),
                 "logp": m.get("logp"), "formula": m.get("molecular_formula"),
                 "ifra": m.get("ifra_limit_pct"), "tgsc": m.get("tgsc_url"),
                 "cid": m.get("pubchem_cid"),

@@ -84,6 +84,8 @@ export interface Ingredient {
   };
   tech: {
     mw: number | null; bp: number | null; logp: number | null;
+    /** Pressão de vapor em mmHg a 25 °C: quanto MENOR, mais o material dura. */
+    vp: number | null;
     formula: string | null; ifra: number | null;
     tgsc: string | null; cid: number | string | null;
   };

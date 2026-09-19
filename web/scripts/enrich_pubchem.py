@@ -89,7 +89,44 @@ def _num(v):
 
 # "177.6 °C" | "175-177 °C" | "348 to 349 °F at 760 mmHg"
 TEMP_RE = re.compile(r"(-?\d+(?:\.\d+)?)\s*(?:to|-|–)?\s*(-?\d+(?:\.\d+)?)?\s*°?\s*([CF])\b", re.I)
-VP_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(?:\[)?mm\s*Hg", re.I)
+# Pressão de vapor. Dois cuidados que a versão anterior não tinha:
+#
+# 1. NOTAÇÃO CIENTÍFICA. A PubChem escreve "3.00X10-7 mm Hg at 25 °C". O regex
+#    antigo procurava dígitos colados em "mm Hg" e casava com "7 mm Hg" — o
+#    EXPOENTE lido como se fosse o valor. O almíscar cetona, cuja pressão real
+#    é 3e-7, entrava no banco como 7: sete milímetros de mercúrio, que é
+#    pressão de solvente, num material que dura semanas.
+# 2. TEMPERATURA. O Citral traz "5 mmHg at 194 °F; 1 mmHg at 143.1 °F" — medidas
+#    a 90 °C e 62 °C. A 25 °C ele é 0,09. Comparar pressão de vapor só faz
+#    sentido à mesma temperatura.
+VP_RE = re.compile(
+    r"(\d+(?:\.\d+)?)"
+    r"(?:\s*[X\u00d7x]\s*10\s*\^?\s*(-?\d+)|\s*[Ee]\s*(-?\d+))?"
+    r"\s*\[?\s*mm\s*Hg",
+    re.I,
+)
+VP_TEMP_RE = re.compile(r"(?:at|@)\s*(-?\d+(?:\.\d+)?)\s*\u00b0?\s*([CF])", re.I)
+
+
+def parse_vp(text):
+    """mmHg a ~25 °C, ou None. Ignora medida declarada a outra temperatura."""
+    for m in VP_RE.finditer(text):
+        try:
+            val = float(m.group(1))
+        except ValueError:
+            continue
+        exp = m.group(2) or m.group(3)
+        if exp:
+            val *= 10 ** int(exp)
+        mt = VP_TEMP_RE.search(text[m.end():m.end() + 30])
+        if mt:
+            t = float(mt.group(1))
+            if mt.group(2).upper() == "F":
+                t = (t - 32) * 5 / 9
+            if not (15 <= t <= 30):
+                continue
+        return val
+    return None
 
 
 PRESSAO_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(?:\[)?mm\s*Hg", re.I)
@@ -169,13 +206,10 @@ def experimental(cid):
         out["bp_vacuo"] = vacuo[0]
         out["bp_vacuo_mmhg"] = vacuo[1]
     for t in vp_texts:
-        m = VP_RE.search(t)
-        if m:
-            try:
-                out["vp"] = float(m.group(1))
-                break
-            except ValueError:
-                pass
+        v = parse_vp(t)
+        if v is not None:
+            out["vp"] = v
+            break
     return out
 
 
