@@ -57,6 +57,8 @@ export interface PaletteOptions {
    * tamanho fixo de frasco. Dimensiona pela dose típica de cada um.
    */
   lote?: { ml: number; pct: number };
+  /** Preferências de nariz — ver Gostos. */
+  gostos?: Gostos;
   /**
    * Dose (%) que uma fórmula-alvo pede de cada material, por id. Prevalece
    * sobre a dose típica da carta quando é maior — ver dosesDosAlvos().
@@ -160,6 +162,65 @@ function norm(s: string): string {
 }
 
 /**
+ * O nariz de quem vai comprar.
+ *
+ * A paleta sabia escolher por mérito e por preço, mas não por gosto — e uma
+ * paleta boa no papel que o dono não gosta de cheirar não serve para nada.
+ * Um exemplo real: a primeira lista veio com dezessete aromáticas, das quais
+ * eucaliptol, cânfora, timol, mentol e salicilato de metila. São canônicas e
+ * baratas, e eram exatamente o que o dono desta paleta não suporta.
+ *
+ * Os pesos são por FACETA, não por família: quem odeia medicinal não odeia
+ * "aromática" inteira, odeia a cânfora que mora dentro dela.
+ */
+export interface Gostos {
+  /** Faceta -> quanto procurar. */
+  amo?: Record<string, number>;
+  /** Faceta -> quanto evitar (valor positivo, entra subtraindo). */
+  odeio?: Record<string, number>;
+  /**
+   * Facetas que EXCLUEM a carta, não apenas a penalizam.
+   *
+   * Existe porque penalidade não resolve quando há cota a cumprir: a aromática
+   * pedia 9 vagas, o catálogo dela é meio medicinal, e a Cânfora em Pó entrava
+   * mesmo levando 7 pontos negativos — não havia nono candidato melhor. Quem
+   * diz que odeia cânfora prefere a família incompleta à cânfora no armário.
+   *
+   * Não se aplica a `mustInclude`: se a receita pede, a receita manda. A
+   * lavanda do Himalaya é canforada por natureza e entra assim mesmo.
+   */
+  veto?: string[];
+  /**
+   * Peso para material de base substantivo — molécula pesada, que fica no
+   * tecido por dias. Mede por massa molar e ponto de ebulição, que é o que o
+   * catálogo tem de objetivo sobre permanência.
+   */
+  pesadas?: number;
+}
+
+function vetado(c: Ingredient, g: Gostos | undefined): boolean {
+  return !!g?.veto?.some((f) => c.facets.includes(f));
+}
+
+function pesoDoGosto(c: Ingredient, g: Gostos | undefined): number {
+  if (!g) return 0;
+  let s = 0;
+  for (const f of c.facets) {
+    s += g.amo?.[f] ?? 0;
+    s -= g.odeio?.[f] ?? 0;
+  }
+  if (g.pesadas) {
+    const mw = c.tech.mw ?? 0;
+    const bp = c.tech.bp ?? 0;
+    // 240 g/mol e 300 °C são o patamar em que um material deixa de evaporar
+    // no dia e passa a durar no tecido.
+    const nota = (mw >= 240 ? 1 : 0) + (bp >= 300 ? 1 : 0) + (c.notes.includes("base") ? 1 : 0);
+    s += g.pesadas * (nota / 3);
+  }
+  return s;
+}
+
+/**
  * Quanto ESTE material merece uma vaga, antes de considerar a paleta já montada.
  * Prioriza o que é referência (tem nota curada), o que dá para comprar (tem
  * preço e várias ofertas) e o que tem dado suficiente para estudar.
@@ -171,6 +232,7 @@ function baseScore(c: Ingredient, opts: PaletteOptions, grams = 10): number {
   // ela só perguntava se havia preço, nunca qual era.
   const pago = bottleCost(c, grams);
   if (pago != null) s -= Math.min(4, pago / 22);
+  s += pesoDoGosto(c, opts.gostos);
   if (c.insight) s += 4;                          // material de referência
   if (c.price.perG != null) s += 3;               // dá para comprar
   // Muita oferta = material que o mercado inteiro usa, logo material que as
@@ -179,6 +241,11 @@ function baseScore(c: Ingredient, opts: PaletteOptions, grams = 10): number {
   s += Math.min(4, Math.log2(1 + (c.price.count || 0)) * 1.1);
   if (c.strength) s += 1;
   if (c.facets.length >= 2) s += 1;               // perfil definido
+  // Produto técnico entrava na paleta de cheirar: "Quatercap DM-50", "Augeo
+  // Clean Multi", "Verdyl Acetate" — a descrição da fonte fala de detergente e
+  // difusor, não de cheiro. Se a fonte não registrou faceta, não há o que
+  // estudar no frasco.
+  if (c.facets.length <= 1) s -= 3;
   if (c.notesOrigin && c.notesOrigin !== "família") s += 1;  // pirâmide com evidência
   if (opts.preferIsolates !== false) {
     if (c.kind === "base") s -= 3;                // base é atalho, não estudo
@@ -265,7 +332,9 @@ function pickDiverse(
   const chosen: Ingredient[] = [];
   // `banned` cobre o que a fonte não marcou: Lysmeral vinha sem teto IFRA e
   // passaria no filtro, apesar de ser Lilial com outro nome.
-  const remaining = pool.filter((c) => !c.banned && !overBudget(c, opts, g(c)));
+  const remaining = pool.filter(
+    (c) => !c.banned && !vetado(c, opts.gostos) && !overBudget(c, opts, g(c)),
+  );
   while (chosen.length < n && remaining.length > 0) {
     let best = 0;
     let bestScore = -Infinity;

@@ -32,10 +32,22 @@ import {
 import { buildSteps } from "@/lib/palette-flow";
 import { bottleCost, buildPalette, gramasParaLote } from "@/lib/palette";
 import { ALVOS, dosesDosAlvos, resolverAlvo } from "@/lib/alvos";
+import { GOSTOS_JOAO } from "@/lib/gostos";
 
 type Fase = "plano" | "escolha" | "lista";
 
+
 const PRESETS: { nome: string; nota: string; quotas: Partial<Record<FamilySlug, number>> }[] = [
+  {
+    // Cotas moldadas ao gosto declarado em lib/gostos.ts: aldeído inteiro,
+    // madeira e almíscar altos, aromática cortada quase pela metade (é onde
+    // mora o medicinal), frutado e gourmand reduzidos ao mínimo.
+    nome: "O seu nariz · 115",
+    nota: "aldeídos todos, couro limpo, íris nas duas versões, sem medicinal",
+    quotas: { aldehydic: 15, woody: 20, musk: 14, citrus: 14, amber: 10, herbal: 9,
+              floral: 8, leather: 5, green: 5, balsamic: 4, aquatic: 4, spicy: 3,
+              gourmand: 2, fruity: 2 },
+  },
   {
     // Pesos invertidos em relação ao genérico: a aromática dobra (é a espinha do
     // fougère e a maior família do catálogo), madeira e especiaria sobem, floral
