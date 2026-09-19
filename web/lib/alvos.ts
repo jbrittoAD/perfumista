@@ -37,15 +37,25 @@ export const ALVOS: Alvo[] = [
     nome: "Tipo Creed Himalaya",
     nota: "fougère aromático com frio mineral de pólvora",
     fonte:
-      "Reconstrução a partir da descrição da própria Creed (topo bergamota, limão, " +
-      "tangerina · coração pólvora, zimbro, noz-moscada, pimenta, suavizados por " +
-      "lavanda e jasmim · base sândalo, vetiver, cedro) e da classificação " +
-      "'aromatic fougère' com que a Creative Formulas cataloga a versão tipo, de 67 " +
-      "ingredientes. A fórmula real é proprietária e não é pública.",
+      "Pirâmide da própria Creed (topo bergamota, limão, tangerina · coração " +
+      "pólvora, zimbro, noz-moscada, pimenta, suavizados por lavanda e jasmim · " +
+      "base sândalo, vetiver, cedro) CRUZADA COM A LISTA INCI DO RÓTULO, que é " +
+      "dado verificável: limoneno, linalol, salicilato de benzila, cumarina, " +
+      "alfa-isometil ionona, hidroxicitronelal, citral, citronelol, isoeugenol, " +
+      "geraniol, eugenol — nessa ordem, ou seja, decrescente. O rótulo declara só " +
+      "os 26 alérgenos da lista europeia, então ele não prova o que MAIS tem; " +
+      "prova o que TEM. E provou que a primeira versão desta reconstrução estava " +
+      "errada: eu tinha montado um fougère aromático seco e o rótulo mostra ionona " +
+      "empoada, muguet, a dupla da rosa e cravo, que eu não tinha posto.",
     papeis: [
       // --- topo cítrico
       { papel: "bergamota", buscar: ["bergamota"], pct: 10 },
-      { papel: "limão", buscar: ["lemonile", "limao siciliano", "citral"], pct: 5 },
+      // Citral estava trocado por Lemonile para economizar, quando o menor
+      // pacote de Citral parecia ser 500 g por R$ 107. Com a escada de ofertas
+      // corrigida ele sai por R$ 3,57 em 5 g — e o rótulo prova que é citral
+      // mesmo que está lá dentro.
+      { papel: "limão", buscar: ["citral", "lemonile", "limao siciliano"], pct: 5 },
+      { papel: "limoneno (o 1º do rótulo)", buscar: ["limoneno"], pct: 4 },
       { papel: "tangerina", buscar: ["mandarina", "tangerin", "clonal"], pct: 4 },
       { papel: "o fresco masculino", buscar: ["dihidromircenol"], pct: 8 },
 
@@ -62,6 +72,19 @@ export const ALVOS: Alvo[] = [
       { papel: "pimenta preta", buscar: ["pimenta preta", "black pepper"], pct: 3 },
       { papel: "lavanda (a espinha fougère)", buscar: ["lavanda", "lavandin"], pct: 6 },
       { papel: "jasmim transparente", buscar: ["hedione"], pct: 8 },
+
+      // --- A CAMADA QUE O RÓTULO REVELOU e a pirâmide escondia.
+      // Hidroxicitronelal e isometil ionona não vêm de natural nenhum da
+      // pirâmide: foram postos lá de propósito. É o que faz o Himalaya não ser
+      // um fougère seco qualquer — tem flor empoada por baixo do frio.
+      { papel: "muguet (do rótulo)", buscar: ["hidroxicitronelal"], pct: 4 },
+      { papel: "violeta empoada (do rótulo)", buscar: ["n metil ionona", "isoraldeina"], pct: 3 },
+      { papel: "rosa · citronelol (do rótulo)", buscar: ["citronelol"], pct: 2 },
+      { papel: "rosa · geraniol (do rótulo)", buscar: ["geraniol"], pct: 1.5 },
+      { papel: "cravo (do rótulo)", buscar: ["eugenol"], pct: 1 },
+      { papel: "cravo · isoeugenol (do rótulo)", buscar: ["isoeugenol"], pct: 0.5 },
+      { papel: "feno doce (do rótulo)", buscar: ["cumarina"], pct: 3 },
+      { papel: "salicilato solar (do rótulo)", buscar: ["salicilato de benzila"], pct: 3 },
 
       // --- base
       { papel: "corpo amadeirado", buscar: ["iso e super"], pct: 16 },
