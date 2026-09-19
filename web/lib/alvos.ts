@@ -137,7 +137,72 @@ export const ALVOS: Alvo[] = [
       { papel: "almíscar de pele (o pouco animálico que fica)", buscar: ["exaltolide", "ambrettolide"], pct: 3 },
     ],
   },
+  {
+    id: "imagination",
+    nome: "Tipo LV Imagination",
+    nota: "cítrico aromático sobre âmbar amadeirado — quase metade é Hedione e Ambroxan",
+    fonte:
+      "Diferente dos outros dois, este NÃO é reconstrução: é a fórmula tipo " +
+      "publicada pela Creative Formulas (23 materiais, partes por mil), já " +
+      "cadastrada em knowledge/data/formulas-published.json. As porcentagens " +
+      "abaixo são as partes reais divididas por dez, não estimativa.",
+    papeis: [
+      // --- o corpo: 45,6% da fórmula são dois materiais
+      { papel: "jasmim transparente", buscar: ["hedione"], pct: 23.9 },
+      { papel: "âmbar seco", buscar: ["ambroxan", "ambrox"], pct: 21.7 },
+
+      // --- topo cítrico-lavanda
+      { papel: "lavanda cítrica", buscar: ["acetato de linalila"], pct: 10.3 },
+      { papel: "bergamota", buscar: ["bergamota"], pct: 7.6 },
+      { papel: "linalol", buscar: ["linalol"], pct: 4.1 },
+      { papel: "laranja doce", buscar: ["laranja doce", "laranja"], pct: 3.3 },
+      { papel: "gengibre", buscar: ["gengibre"], pct: 1.0 },
+      { papel: "limão (traço)", buscar: ["citral"], pct: 0.4 },
+
+      // --- a assinatura: a ionona amadeirada que dá o "violeta seco"
+      { papel: "ionona amadeirada", buscar: ["dihidro beta ionona"], pct: 9.8 },
+      { papel: "violeta", buscar: ["ionona beta"], pct: 0.1 },
+      { papel: "violeta empoada", buscar: ["n metil ionona", "metil ionona"], pct: 0.1 },
+
+      // --- almíscares: 13,8% somados, é o que dá a pele
+      { papel: "almíscar branco", buscar: ["ambrettolide", "ambretolide"], pct: 7.6 },
+      { papel: "almíscar aveludado", buscar: ["velvione"], pct: 3.5 },
+      { papel: "almíscar de pele", buscar: ["exaltolide"], pct: 2.7 },
+
+      // --- a tríade da rosa, em dose de tempero
+      { papel: "rosa · citronelol", buscar: ["citronelol"], pct: 1.1 },
+      { papel: "rosa · geraniol", buscar: ["geraniol"], pct: 0.4 },
+      { papel: "rosa · acetato de geranila", buscar: ["acetato de geranila"], pct: 0.3 },
+      { papel: "rosa · nerol (traço)", buscar: ["nerol"], pct: 0.03 },
+
+      // --- fundo
+      { papel: "guaiacwood", buscar: ["guaiacwood", "guaiaco"], pct: 1.1 },
+      { papel: "feno doce", buscar: ["cumarina"], pct: 0.8 },
+      { papel: "flor de laranjeira", buscar: ["neroli"], pct: 0.2 },
+      { papel: "canela (traço)", buscar: ["aldeido cinamico", "cinamico"], pct: 0.3 },
+      { papel: "indol (traço)", buscar: ["indol"], pct: 0.03 },
+    ],
+  },
 ];
+
+/**
+ * A dose que os ALVOS pedem de cada material, por id — a maior quando o
+ * material aparece em mais de um.
+ *
+ * Existe porque a dose típica da carta não serve para dimensionar a compra de
+ * uma fórmula específica: o Ambroxan entra a ~2% na média do mercado e a
+ * 21,7% no Imagination. Comprar pela média deixaria faltar dez vezes.
+ */
+export function dosesDosAlvos(gramas = 10): Map<number, number> {
+  const m = new Map<number, number>();
+  for (const alvo of ALVOS) {
+    for (const { papel, card } of resolverAlvo(alvo, gramas)) {
+      if (!card) continue;
+      m.set(card.id, Math.max(m.get(card.id) ?? 0, papel.pct));
+    }
+  }
+  return m;
+}
 
 /** Resolve os papéis do alvo para cartas reais do catálogo. */
 export function resolverAlvo(alvo: Alvo, gramas = 10): { papel: AlvoPapel; card: Ingredient | null }[] {
@@ -153,8 +218,18 @@ export function resolverAlvo(alvo: Alvo, gramas = 10): { papel: AlvoPapel; card:
       const hits = CARDS.filter(
         (c) => !c.banned && norm(c.name + " " + c.syn.join(" ")).includes(termo),
       ).sort((a, b) => {
-        const pa = norm(a.name).startsWith(termo) ? 0 : 1;
-        const pb = norm(b.name).startsWith(termo) ? 0 : 1;
+        // Três níveis, não dois: o nome que É o termo vem antes do nome que
+        // apenas COMEÇA com ele. Sem o primeiro nível, "nerol" casava com
+        // "Neroli Artessence" — que também começa com "nerol" — e os papéis
+        // "rosa · nerol" e "flor de laranjeira" caíam na mesma carta.
+        const grau = (c: Ingredient) => {
+          const nome = norm(c.name);
+          if (!nome.startsWith(termo)) return 2;
+          const depois = nome[termo.length];
+          return depois === undefined || !/[a-z0-9]/.test(depois) ? 0 : 1;
+        };
+        const pa = grau(a);
+        const pb = grau(b);
         if (pa !== pb) return pa - pb;
         // Desempate pelo DESEMBOLSO REAL, não pelo preço por grama. Ordenando
         // por perG o alvo escolhia o Opoponax a R$ 6,49/g cuja menor

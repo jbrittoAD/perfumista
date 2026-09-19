@@ -57,6 +57,11 @@ export interface PaletteOptions {
    * tamanho fixo de frasco. Dimensiona pela dose típica de cada um.
    */
   lote?: { ml: number; pct: number };
+  /**
+   * Dose (%) que uma fórmula-alvo pede de cada material, por id. Prevalece
+   * sobre a dose típica da carta quando é maior — ver dosesDosAlvos().
+   */
+  dosesAlvo?: Map<number, number>;
 }
 
 export interface PaletteResult {
@@ -284,8 +289,14 @@ function matchesAny(c: Ingredient, keys: string[]): boolean {
 
 export function buildPalette(opts: PaletteOptions, grams = 10): PaletteResult {
   // Quanto comprar de CADA material: o que o lote pede, ou o frasco fixo.
-  const gDe = (c: Ingredient) =>
-    opts.lote ? gramasParaLote(c, opts.lote.ml, opts.lote.pct) : grams;
+  const gDe = (c: Ingredient) => {
+    if (!opts.lote) return grams;
+    const base = gramasParaLote(c, opts.lote.ml, opts.lote.pct);
+    const doseAlvo = opts.dosesAlvo?.get(c.id);
+    if (doseAlvo == null) return base;
+    const conc = opts.lote.ml * (opts.lote.pct / 100) * 0.95;
+    return Math.max(base, Math.max(1, conc * (doseAlvo / 100)));
+  };
   const chosenIds = new Set<number>();
   const workhorses: Ingredient[] = [];
   const bancada: Ingredient[] = [];

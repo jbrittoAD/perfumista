@@ -31,7 +31,7 @@ import {
 } from "@/lib/deck-store";
 import { buildSteps } from "@/lib/palette-flow";
 import { bottleCost, buildPalette, gramasParaLote } from "@/lib/palette";
-import { ALVOS, resolverAlvo } from "@/lib/alvos";
+import { ALVOS, dosesDosAlvos, resolverAlvo } from "@/lib/alvos";
 
 type Fase = "plano" | "escolha" | "lista";
 
@@ -76,11 +76,19 @@ export default function Paleta() {
 
   // Quanto comprar de CADA material. Por lote, é o que a dose dele consome;
   // senão, o frasco fixo.
-  const gDe = useMemo(
-    () => (c: Ingredient) =>
-      pal.porLote ? gramasParaLote(c, pal.loteMl, pal.lotePct) : pal.grams,
-    [pal.porLote, pal.loteMl, pal.lotePct, pal.grams],
-  );
+  // A dose da carta é a média do mercado; a do alvo é a da receita. O Ambroxan
+  // entra a ~2% na média e a 21,7% no Imagination — comprar pela média deixaria
+  // faltar dez vezes.
+  const dosesAlvo = useMemo(() => dosesDosAlvos(), []);
+  const gDe = useMemo(() => {
+    const conc = pal.loteMl * (pal.lotePct / 100) * 0.95;
+    return (c: Ingredient) => {
+      if (!pal.porLote) return pal.grams;
+      const base = gramasParaLote(c, pal.loteMl, pal.lotePct);
+      const d = dosesAlvo.get(c.id);
+      return d == null ? base : Math.max(base, Math.max(1, conc * (d / 100)));
+    };
+  }, [pal.porLote, pal.loteMl, pal.lotePct, pal.grams, dosesAlvo]);
 
   const steps = useMemo(
     () => buildSteps(pal.quotas, pal.picks, pal.skipped, pal.maxPerBottle, pal.grams, gDe),
