@@ -4,7 +4,7 @@
   "mw": 168.28,
   "logp": 3.8,
   "iupac": "undec-10-enal",
-  "bp": 99.0,
+  "bp": 235.0,
   "found": true
  },
  "14667-55-1": {
@@ -20,7 +20,8 @@
   "mw": 127.17,
   "logp": 1.0,
   "iupac": "1-(1,3-thiazol-2-yl)ethanone",
-  "bp": 90.0,
+  "bp_vacuo": 90.0,
+  "bp_vacuo_mmhg": 12.0,
   "found": true
  },
  "92-48-8": {
@@ -28,7 +29,7 @@
   "mw": 160.17,
   "logp": 1.8,
   "iupac": "6-methylchromen-2-one",
-  "bp": 302.8,
+  "bp": 304.0,
   "found": true
  },
  "29895-73-6": {
@@ -44,7 +45,8 @@
   "mw": 168.28,
   "logp": 4.2,
   "iupac": "undec-2-enal",
-  "bp": 115.0,
+  "bp_vacuo": 115.0,
+  "bp_vacuo_mmhg": 10.0,
   "found": true
  },
  "123-68-2": {
@@ -67,7 +69,7 @@
   "mw": 128.21,
   "logp": 2.6,
   "iupac": "oct-1-en-3-ol",
-  "bp": 84.5,
+  "bp": 175.1,
   "found": true
  },
  "4180-23-8": {
@@ -95,7 +97,7 @@
   "mw": 142.2,
   "logp": 1.9,
   "iupac": "[(Z)-hex-3-enyl] acetate",
-  "bp": 75.5,
+  "bp": 198.0,
   "found": true
  },
  "90-17-5": {
@@ -134,7 +136,7 @@
   "mw": 164.2,
   "logp": 2.0,
   "iupac": "1-phenylethyl acetate",
-  "bp": 94.5,
+  "bp": 218.5,
   "found": true
  },
  "103-45-7": {
@@ -150,7 +152,8 @@
   "mw": 192.21,
   "logp": 2.1,
   "iupac": "prop-2-enyl 2-phenoxyacetate",
-  "bp": 101.0,
+  "bp_vacuo": 101.0,
+  "bp_vacuo_mmhg": 1.0,
   "found": true
  },
  "105-87-3": {
@@ -200,7 +203,8 @@
   "mw": 196.29,
   "logp": 3.5,
   "iupac": "[(2Z)-3,7-dimethylocta-2,6-dienyl] acetate",
-  "bp": 134.0,
+  "bp_vacuo": 134.0,
+  "bp_vacuo_mmhg": 25.0,
   "found": true
  },
  "128-51-8": {
@@ -215,7 +219,7 @@
   "mw": 128.17,
   "logp": 1.8,
   "iupac": "3-methylbut-2-enyl acetate",
-  "bp": 151.5,
+  "bp": 148.5,
   "found": true
  },
  "117-98-6": {
@@ -301,7 +305,7 @@
   "mw": 184.32,
   "logp": 4.9,
   "iupac": "dodecanal",
-  "bp": 185.0,
+  "bp": 249.0,
   "vp": 0.01,
   "found": true
  },
@@ -310,7 +314,7 @@
   "mw": 170.29,
   "logp": 4.3,
   "iupac": "undecanal",
-  "bp": 112.0,
+  "bp": 223.0,
   "vp": 0.06,
   "found": true
  },
@@ -343,7 +347,7 @@
   "mw": 156.22,
   "logp": 2.2,
   "iupac": "5-pentyloxolan-2-one",
-  "bp": 134.0,
+  "bp": 136.0,
   "found": true
  },
  "124-13-0": {
@@ -403,7 +407,8 @@
   "mw": 216.32,
   "logp": 4.8,
   "iupac": "(2E)-2-benzylideneoctanal",
-  "bp": 174.5,
+  "bp_vacuo": 174.5,
+  "bp_vacuo_mmhg": 15.0,
   "found": true
  },
  "20407-84-5": {
@@ -411,7 +416,7 @@
   "mw": 182.3,
   "logp": 4.8,
   "iupac": "(E)-dodec-2-enal",
-  "bp": 73.5,
+  "bp": 272.0,
   "found": true
  },
  "37677-14-8": {
@@ -466,7 +471,8 @@
   "mw": 196.29,
   "logp": 3.8,
   "iupac": "prop-2-enyl 3-cyclohexylpropanoate",
-  "bp": 91.0,
+  "bp_vacuo": 91.0,
+  "bp_vacuo_mmhg": 1.0,
   "found": true
  },
  "81-14-1": {
@@ -496,7 +502,8 @@
   "mw": 252.39,
   "logp": 5.5,
   "iupac": "(10Z)-1-oxacycloheptadec-10-en-2-one",
-  "bp": 187.5,
+  "bp_vacuo": 1.6,
+  "bp_vacuo_mmhg": 0.1,
   "found": true
  },
  "211299-54-6": {
@@ -518,7 +525,8 @@
   "mw": 236.39,
   "logp": 4.7,
   "iupac": "3a,6,6,9a-tetramethyl-2,4,5,5a,7,8,9,9b-octahydro-1H-benzo[e][1]benzofuran",
-  "bp": 120.5,
+  "bp_vacuo": 120.5,
+  "bp_vacuo_mmhg": 1.4,
   "found": true
  },
  "104-46-1": {
@@ -535,7 +543,8 @@
   "mw": 192.3,
   "logp": 3.7,
   "iupac": "2-(3-methylbutoxy)ethylbenzene",
-  "bp": 109.5,
+  "bp_vacuo": 109.5,
+  "bp_vacuo_mmhg": 8.0,
   "found": true
  },
  "134-20-3": {
@@ -732,7 +741,8 @@
   "mw": 164.24,
   "logp": 2.1,
   "iupac": "2-methyl-4-phenylbutan-2-ol",
-  "bp": 144.0,
+  "bp_vacuo": 144.0,
+  "bp_vacuo_mmhg": 85.0,
   "found": true
  },
  "8023-85-6": {
@@ -768,7 +778,7 @@
   "mw": 170.25,
   "logp": 2.7,
   "iupac": "[(Z)-hex-3-enyl] butanoate",
-  "bp": 96.0,
+  "bp": 192.0,
   "found": true
  },
  "147060-73-9": {
@@ -816,7 +826,7 @@
   "mw": 204.35,
   "logp": 4.4,
   "iupac": "(1R,4E,9S)-4,11,11-trimethyl-8-methylidenebicyclo[7.2.0]undec-4-ene",
-  "bp": 129.4,
+  "bp": 257.5,
   "found": true
  },
  "6485-40-1": {
@@ -891,7 +901,8 @@
   "mw": 238.28,
   "logp": 3.8,
   "iupac": "benzyl (E)-3-phenylprop-2-enoate",
-  "bp": 229.0,
+  "bp_vacuo": 350.0,
+  "bp_vacuo_mmhg": 5.0,
   "vp": 1.0,
   "found": true
  },
@@ -959,7 +970,7 @@
   "mw": 114.17,
   "logp": 1.3,
   "iupac": "furan-2-ylmethanethiol",
-  "bp": 264.0,
+  "bp": 154.5,
   "found": true
  },
  "7493-57-4": {
@@ -967,7 +978,7 @@
   "mw": 208.3,
   "logp": 3.3,
   "iupac": "2-(1-propoxyethoxy)ethylbenzene",
-  "bp": 80.0,
+  "bp": 272.0,
   "found": true
  },
  "38462-22-5": {
@@ -975,7 +986,8 @@
   "mw": 186.32,
   "logp": 2.3,
   "iupac": "5-methyl-2-(2-sulfanylpropan-2-yl)cyclohexan-1-one",
-  "bp": 59.0,
+  "bp_vacuo": 59.0,
+  "bp_vacuo_mmhg": 0.1,
   "found": true
  },
  "259854-70-1": {
@@ -1076,7 +1088,8 @@
   "mw": 192.3,
   "logp": 3.4,
   "iupac": "(E)-1-(2,6,6-trimethylcyclohex-3-en-1-yl)but-2-en-1-one",
-  "bp": 82.0,
+  "bp_vacuo": 82.0,
+  "bp_vacuo_mmhg": 2.0,
   "found": true
  },
  "112-30-1": {
@@ -1093,7 +1106,7 @@
   "mw": 170.25,
   "logp": 2.5,
   "iupac": "6-pentyloxan-2-one",
-  "bp": 118.5,
+  "bp": 281.0,
   "found": true
  },
  "72903-27-6": {
@@ -1156,7 +1169,8 @@
   "mw": 198.3,
   "logp": 3.6,
   "iupac": "6-heptyloxan-2-one",
-  "bp": 140.5,
+  "bp_vacuo": 140.5,
+  "bp_vacuo_mmhg": 1.0,
   "found": true
  },
  "2305-05-7": {
@@ -1230,7 +1244,7 @@
   "mw": 186.29,
   "logp": 4.0,
   "iupac": "ethyl nonanoate",
-  "bp": 119.0,
+  "bp": 229.0,
   "found": true
  },
  "539-82-2": {
@@ -1289,7 +1303,8 @@
   "mw": 270.36,
   "logp": 4.2,
   "iupac": "1,4-dioxacycloheptadecane-5,17-dione",
-  "bp": 140.0,
+  "bp_vacuo": 140.0,
+  "bp_vacuo_mmhg": 1.0,
   "found": true
  },
  "470-82-6": {
@@ -1315,7 +1330,8 @@
   "mw": 240.38,
   "logp": 5.8,
   "iupac": "oxacyclohexadecan-2-one",
-  "bp": 137.0,
+  "bp_vacuo": 137.0,
+  "bp_vacuo_mmhg": 2.0,
   "found": true
  },
  "8006-84-6": {
@@ -1435,7 +1451,8 @@
   "mw": 258.4,
   "logp": 4.8,
   "iupac": "4,6,6,7,8,8-hexamethyl-1,3,4,7-tetrahydrocyclopenta[g]isochromene",
-  "bp": 128.0,
+  "bp_vacuo": 128.0,
+  "bp_vacuo_mmhg": 0.8,
   "vp": 0.00054,
   "found": true
  },
@@ -1485,7 +1502,8 @@
   "mw": 226.31,
   "logp": 2.7,
   "iupac": "methyl 2-(3-oxo-2-pentylcyclopentyl)acetate",
-  "bp": 110.5,
+  "bp_vacuo": 110.5,
+  "bp_vacuo_mmhg": 0.2,
   "found": true
  },
  "1205-17-0": {
@@ -1536,7 +1554,8 @@
   "mw": 174.28,
   "logp": 1.9,
   "iupac": "3,7-dimethyloctane-1,7-diol",
-  "bp": 263.0,
+  "bp_vacuo": 263.0,
+  "bp_vacuo_mmhg": 15.0,
   "found": true
  },
  "79-69-6": {
@@ -1544,7 +1563,8 @@
   "mw": 206.32,
   "logp": 3.2,
   "iupac": "(E)-4-(2,5,6,6-tetramethylcyclohex-2-en-1-yl)but-3-en-2-one",
-  "bp": 111.0,
+  "bp_vacuo": 111.0,
+  "bp_vacuo_mmhg": 3.0,
   "found": true
  },
  "123-92-2": {
@@ -1613,7 +1633,7 @@
   "mw": 192.3,
   "logp": 2.9,
   "iupac": "4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-one",
-  "bp": 140.0,
+  "bp": 271.0,
   "vp": 0.054,
   "found": true
  },
@@ -1629,7 +1649,8 @@
   "mw": 222.24,
   "logp": 2.1,
   "iupac": "(4-formyl-2-methoxyphenyl) 2-methylpropanoate",
-  "bp": 165.5,
+  "bp_vacuo": 165.5,
+  "bp_vacuo_mmhg": 2.0,
   "found": true
  },
  "65442-31-1": {
@@ -1644,7 +1665,8 @@
   "mw": 208.25,
   "logp": 2.8,
   "iupac": "2-phenoxyethyl 2-methylpropanoate",
-  "bp": 126.0,
+  "bp_vacuo": 126.0,
+  "bp_vacuo_mmhg": 4.0,
   "found": true
  },
  "1335-66-6": {
@@ -1675,7 +1697,7 @@
   "mw": 206.32,
   "logp": 3.3,
   "iupac": "(E)-3-methyl-4-(2,6,6-trimethylcyclohex-2-en-1-yl)but-3-en-2-one",
-  "bp": 76.0,
+  "bp": 238.0,
   "found": true
  },
  "61789-91-1": {
@@ -1745,7 +1767,8 @@
   "mw": 170.25,
   "logp": 3.8,
   "iupac": "(E)-dec-2-enoic acid",
-  "bp": 161.5,
+  "bp_vacuo": 161.5,
+  "bp_vacuo_mmhg": 15.0,
   "found": true
  },
  "8022-15-9": {
@@ -1762,7 +1785,8 @@
   "mw": 154.25,
   "logp": 2.4,
   "iupac": "2-ethenyl-2,6,6-trimethyloxane",
-  "bp": 22.0,
+  "bp_vacuo": 22.0,
+  "bp_vacuo_mmhg": 2.5,
   "found": true
  },
  "1365-19-1": {
@@ -1778,7 +1802,7 @@
   "mw": 182.26,
   "logp": 3.3,
   "iupac": "3,7-dimethylocta-1,6-dien-3-yl formate",
-  "bp": 101.5,
+  "bp": 202.0,
   "found": true
  },
  "68855-99-2": {
@@ -1850,7 +1874,8 @@
   "mw": 146.19,
   "logp": 2.2,
   "iupac": "(E)-2-methyl-3-phenylprop-2-enal",
-  "bp": 150.0,
+  "bp_vacuo": 148.0,
+  "bp_vacuo_mmhg": 27.0,
   "found": true
  },
  "110-93-0": {
@@ -1916,7 +1941,8 @@
   "mw": 140.22,
   "logp": 2.5,
   "iupac": "2,6-dimethylhept-5-enal",
-  "bp": 120.0,
+  "bp_vacuo": 120.0,
+  "bp_vacuo_mmhg": 100.0,
   "vp": 0.76,
   "found": true
  },
@@ -1969,7 +1995,7 @@
   "mw": 148.2,
   "logp": 3.4,
   "iupac": "1-methoxy-4-prop-2-enylbenzene",
-  "bp": 216.1,
+  "bp": 215.5,
   "vp": 0.05,
   "found": true
  },
@@ -2001,7 +2027,8 @@
   "mw": 168.23,
   "logp": 3.7,
   "iupac": "methyl non-2-ynoate",
-  "bp": 121.5,
+  "bp_vacuo": 121.5,
+  "bp_vacuo_mmhg": 20.0,
   "found": true
  },
  "110-27-0": {
@@ -2174,7 +2201,7 @@
   "mw": 166.22,
   "logp": 2.1,
   "iupac": "2,2-dimethoxyethylbenzene",
-  "bp": 220.0,
+  "bp": 219.0,
   "found": true
  },
  "8023-99-2": {
@@ -2311,7 +2338,7 @@
   "mw": 154.25,
   "logp": 2.9,
   "iupac": "4-methyl-2-(2-methylprop-1-enyl)oxane",
-  "bp": 86.0,
+  "bp": 182.0,
   "found": true
  },
  "60335-74-2": {
@@ -2358,7 +2385,7 @@
   "mw": 228.24,
   "logp": 3.2,
   "iupac": "benzyl 2-hydroxybenzoate",
-  "bp": 207.8,
+  "bp": 320.0,
   "vp": 5.0,
   "found": true
  },
@@ -2439,7 +2466,8 @@
   "mw": 143.21,
   "logp": 0.8,
   "iupac": "2-(4-methyl-1,3-thiazol-5-yl)ethanol",
-  "bp": 135.0,
+  "bp_vacuo": 135.0,
+  "bp_vacuo_mmhg": 7.0,
   "found": true
  },
  "3239-35-8": {
@@ -2470,7 +2498,7 @@
   "mw": 196.29,
   "logp": 2.4,
   "iupac": "2-(4-methylcyclohex-3-en-1-yl)propan-2-yl acetate",
-  "bp": 115.0,
+  "bp": 220.0,
   "found": true
  },
  "586-62-9": {
@@ -2849,7 +2877,7 @@
   "mw": 170.25,
   "logp": 2.7,
   "iupac": "5-hexyloxolan-2-one",
-  "bp": 115.0,
+  "bp": 281.0,
   "vp": 0.00512,
   "found": true
  },

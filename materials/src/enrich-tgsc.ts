@@ -61,6 +61,40 @@ function minNumber(text: string | null | undefined): number | null {
   return nums.length ? Math.min(...nums) : null;
 }
 
+/**
+ * Ponto de ebulição à pressão atmosférica, em °C.
+ *
+ * NÃO usar minNumber aqui. O TGSC escreve
+ *   "Boiling Point: 202.00 to 203.00 °C. @ 760.00 mm Hg
+ *    Boiling Point: 114.00 to 115.00 °C. @ 50.00 mm Hg"
+ * — várias medidas, cada uma com sua pressão. O menor número do texto é a
+ * PRESSÃO da medida a vácuo, não uma temperatura: era assim que o Nerolidol,
+ * que ferve a 276 °C, entrava no banco como 1,0 °C (o "@ 1.00 mm Hg"). Vinte e
+ * três materiais estavam com a pressão no lugar da temperatura, e como a
+ * pirâmide topo/coração/base é derivada do ponto de ebulição, todos eles
+ * apareciam no app como nota de topo.
+ *
+ * Fica com a medida a 760 mm Hg; não havendo, com a maior temperatura lida,
+ * que é a que mais se aproxima da atmosférica.
+ */
+export function boilingPointC(text: string | null | undefined): number | null {
+  if (!text) return null;
+  const t = text.replace(/&#176;/g, "°").replace(/,/g, "");
+  const re = /(-?\d+(?:\.\d+)?)\s*(?:to\s*(-?\d+(?:\.\d+)?))?\s*°?\s*C\.?(?:\s*@\s*(\d+(?:\.\d+)?)\s*mm\s*Hg)?/gi;
+  const lidas: { c: number; mmHg: number | null }[] = [];
+  for (const m of t.matchAll(re)) {
+    const a = Number(m[1]);
+    const b = m[2] ? Number(m[2]) : a;
+    const c = (a + b) / 2;
+    if (!Number.isFinite(c) || c < -50 || c > 600) continue;
+    lidas.push({ c, mmHg: m[3] ? Number(m[3]) : null });
+  }
+  if (!lidas.length) return null;
+  const atm = lidas.filter((x) => x.mmHg == null || Math.abs(x.mmHg - 760) < 1);
+  const alvo = atm.length ? atm : lidas;
+  return Math.round(Math.max(...alvo.map((x) => x.c)) * 10) / 10;
+}
+
 // -------------------------------------------------------------------------
 // ÍNDICE DE NOMES: {name_norm -> url}
 // -------------------------------------------------------------------------
@@ -165,7 +199,7 @@ function parseMaterial(html: string): MatData {
   const molecular_weight = firstNumber(raw["Molecular Weight"]);
   const molecular_formula =
     (raw["Formula"] ?? raw["Molecular Formula"] ?? "").replace(/\s+/g, "") || null;
-  const boiling_point_c = minNumber(raw["Boiling Point"]);
+  const boiling_point_c = boilingPointC(raw["Boiling Point"]);
   const vapor_pressure = firstNumber(raw["Vapor Pressure"]);
   const logp = firstNumber(raw["logP (o/w)"] ?? raw["logP"] ?? raw["LogP"]);
 

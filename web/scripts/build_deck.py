@@ -551,6 +551,20 @@ def _slot_from(value, cuts):
     return out
 
 
+def bp_confiavel(m):
+    """Ponto de ebulição só quando é fisicamente plausível.
+
+    Composto de massa acima de 120 não ferve abaixo de 150 °C à pressão
+    atmosférica. O que aparece assim é leitura a vácuo, ponto de fusão ou de
+    fulgor caído no campo errado em algum fornecedor.
+    """
+    bp = m.get("boiling_point_c")
+    mw = m.get("molecular_weight")
+    if bp and mw and mw > 120 and bp < 150:
+        return None
+    return bp
+
+
 def derive_notes(m, family):
     """→ (faixa ordenada topo→base, origem da informação)."""
     if m.get("material_kind") == "solvent":
@@ -566,14 +580,36 @@ def derive_notes(m, family):
 
     bp = m.get("boiling_point_c")
     mw = m.get("molecular_weight")
+    bp = bp_confiavel(m)
     phys = None
+    vacuo = False
     if bp and 40 < bp < 500:            # fora disso é ruído do scraping
         phys = _slot_from(bp, BP_CUTS)
+    elif m.get("bp_vacuo"):
+        # Só há ponto de ebulição a vácuo: a fonte precisou baixar a pressão
+        # para destilar, e isso por si é prova de baixa volatilidade. Não dá
+        # para converter em °C atmosféricos com precisão útil, mas dá para
+        # concluir o degrau — é nota de base. Antes, o número do vácuo entrava
+        # como se fosse atmosférico e mandava o Etileno Brassilato, que é dos
+        # materiais mais persistentes que existem, para o topo da pirâmide.
+        phys = ["base"]
+        vacuo = True
+        origin.append("vácuo")
     elif mw and 80 < mw < 500:
         phys = _slot_from(mw, MW_CUTS)
     if phys:
         found.update(phys)
         origin.append("física")
+
+    # O vácuo DESMENTE a fonte quando ela diz topo. Precisar baixar a pressão
+    # para destilar é prova direta de baixa volatilidade, e vale mais que um
+    # note_type de catálogo de fornecedor: o Etileno Brassilato e o Exaltolide
+    # vinham marcados como topo, e são almíscares macrocíclicos — dos materiais
+    # mais persistentes que existem.
+    if vacuo and "topo" in found:
+        found.discard("topo")
+        if "fonte" in origin:
+            origin[origin.index("fonte")] = "fonte(topo descartado)"
 
     if not found:
         found.update(FAMILY_SPAN.get(family, ["coracao"]))
@@ -1302,7 +1338,8 @@ def apply_pubchem(m, pubchem):
     out = dict(m)
     used = False
     for src_key, dst_key in (("mw", "molecular_weight"), ("bp", "boiling_point_c"),
-                             ("logp", "logp"), ("vp", "vapor_pressure")):
+                             ("bp_vacuo", "bp_vacuo"), ("logp", "logp"),
+                             ("vp", "vapor_pressure")):
         if out.get(dst_key) in (None, "") and p.get(src_key) is not None:
             out[dst_key] = p[src_key]
             used = True
@@ -1440,7 +1477,10 @@ def main():
                 } for o in offers],
             },
             "tech": {
-                "mw": m.get("molecular_weight"), "bp": m.get("boiling_point_c"),
+                # Mesma guarda de derive_notes: o que não passa nela também não
+                # aparece na ficha. Mostrar "ferve a 75 °C" num éster que ferve
+                # a 212 é pior que não mostrar nada.
+                "mw": m.get("molecular_weight"), "bp": bp_confiavel(m),
                 "logp": m.get("logp"), "formula": m.get("molecular_formula"),
                 "ifra": m.get("ifra_limit_pct"), "tgsc": m.get("tgsc_url"),
                 "cid": m.get("pubchem_cid"),

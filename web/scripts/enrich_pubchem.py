@@ -92,16 +92,30 @@ TEMP_RE = re.compile(r"(-?\d+(?:\.\d+)?)\s*(?:to|-|–)?\s*(-?\d+(?:\.\d+)?)?\s*
 VP_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(?:\[)?mm\s*Hg", re.I)
 
 
+PRESSAO_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(?:\[)?mm\s*Hg", re.I)
+
+
 def parse_temp_c(text):
+    """(°C, mmHg) da primeira temperatura do texto. mmHg é None se não declarado.
+
+    A pressão importa e era ignorada. A PubChem escreve o ponto de ebulição do
+    Etileno Brassilato como "138.00 to 142.00 °C. @ 1.00 mm Hg" — 140 °C A
+    VÁCUO, não à pressão de quem usa perfume. À atmosférica ele ferve perto de
+    330 °C. Lido como 140, virava nota de TOPO no app um macrociclo que é dos
+    materiais mais persistentes que existem.
+    """
     m = TEMP_RE.search(text)
     if not m:
-        return None
+        return None, None
     a = float(m.group(1))
     b = float(m.group(2)) if m.group(2) else a
     val = (a + b) / 2
     if m.group(3).upper() == "F":
         val = (val - 32) * 5 / 9
-    return round(val, 1) if -50 < val < 600 else None
+    if not (-50 < val < 600):
+        return None, None
+    mp = PRESSAO_RE.search(text[m.end():m.end() + 40]) or PRESSAO_RE.search(text)
+    return round(val, 1), (float(mp.group(1)) if mp else None)
 
 
 def experimental(cid):
@@ -135,11 +149,25 @@ def experimental(cid):
 
     walk(d)
     out = {}
+    # Só vale como ponto de ebulição a leitura à pressão atmosférica. As de
+    # vácuo NÃO são convertidas: a aproximação de Clausius-Clapeyron com a
+    # regra de Trouton erra por mais de 100 °C nesta faixa, e número errado é
+    # pior que número ausente, porque a pirâmide do app trata o PE como prova.
+    # Mas precisar de vácuo para destilar já é sinal de molécula pesada, e isso
+    # fica registrado em bp_vacuo para a pirâmide usar como indício.
+    vacuo = None
     for t in bp_texts:
-        c = parse_temp_c(t)
-        if c is not None:
+        c, mmhg = parse_temp_c(t)
+        if c is None:
+            continue
+        if mmhg is None or abs(mmhg - 760) < 1:
             out["bp"] = c
             break
+        if vacuo is None or mmhg < vacuo[1]:
+            vacuo = (c, mmhg)
+    if "bp" not in out and vacuo:
+        out["bp_vacuo"] = vacuo[0]
+        out["bp_vacuo_mmhg"] = vacuo[1]
     for t in vp_texts:
         m = VP_RE.search(t)
         if m:
@@ -198,7 +226,7 @@ def main():
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
     found = sum(1 for v in cache.values() if v.get("found"))
     print(f"\nencontrados {ok} | sem registro {miss} | cache total {len(cache)} ({found} com dados)")
-    for f in ("mw", "bp", "logp", "vp"):
+    for f in ("mw", "bp", "bp_vacuo", "bp_vacuo_mmhg", "logp", "vp"):
         n = sum(1 for v in cache.values() if v.get(f) is not None)
         print(f"  com {f}: {n}")
 
