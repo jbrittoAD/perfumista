@@ -194,23 +194,15 @@ export const ALVOS: Alvo[] = [
       "Diferente dos outros dois, este NÃO é reconstrução: é a fórmula tipo " +
       "publicada pela Creative Formulas (23 materiais, partes por mil), já " +
       "cadastrada em knowledge/data/formulas-published.json. As porcentagens " +
-      "abaixo são as partes reais divididas por dez — menos Ambrox Super, " +
-      "Dihidro Beta Ionona e Bergamota, que na fonte estão em solução a 10%.",
+      "abaixo são as partes reais divididas por dez, não estimativa.",
     papeis: [
       // --- o corpo: 45,6% da fórmula são dois materiais
       { papel: "jasmim transparente", buscar: ["hedione"], pct: 23.9 },
-            // AS TRÊS LINHAS ABAIXO SÃO DILUIÇÃO A 10% NA FONTE, e a transcrição do
-      // vídeo perdeu essa coluna. Lidas como material puro davam 21,7%, 9,8% e
-      // 7,6% — todas acima da dose máxima do próprio material (10, 1 e 5). A
-      // 10% caem exatamente dentro. As outras 20 linhas cabem puras, então não
-      // são diluição: se tudo fosse a 10%, o concentrado seria 90% solvente.
-      // As 1000 partes incluem o DPG das diluições, por isso NÃO se
-      // renormaliza — o número aqui é o material ativo sobre o concentrado.
-      { papel: "âmbar seco", buscar: ["ambroxan", "ambrox"], pct: 2.17 },
+      { papel: "âmbar seco", buscar: ["ambroxan", "ambrox"], pct: 21.7 },
 
       // --- topo cítrico-lavanda
       { papel: "lavanda cítrica", buscar: ["acetato de linalila"], pct: 10.3 },
-      { papel: "bergamota", buscar: ["bergamota"], pct: 0.76 },
+      { papel: "bergamota", buscar: ["bergamota"], pct: 7.6 },
       { papel: "linalol", buscar: ["linalol"], pct: 4.1 },
       { papel: "laranja doce", buscar: ["laranja doce", "laranja"], pct: 3.3 },
             // Único papel dos três alvos sem sintético que compense: o "Ginger Fresh"
@@ -219,7 +211,7 @@ export const ALVOS: Alvo[] = [
       { papel: "limão (traço)", buscar: ["citral"], pct: 0.4 },
 
       // --- a assinatura: a ionona amadeirada que dá o "violeta seco"
-      { papel: "ionona amadeirada", buscar: ["dihidro beta ionona"], pct: 0.98 },
+      { papel: "ionona amadeirada", buscar: ["dihidro beta ionona"], pct: 9.8 },
       { papel: "violeta", buscar: ["ionona beta"], pct: 0.1 },
       { papel: "violeta empoada", buscar: ["n metil ionona", "metil ionona"], pct: 0.1 },
 
