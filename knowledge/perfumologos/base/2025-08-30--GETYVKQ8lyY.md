@@ -1,0 +1,1156 @@
+# Processo Criativo de um Perfumista | Daniel Química Perfumada
+
+- **vídeo**: https://youtu.be/GETYVKQ8lyY
+- **publicado**: 2025-08-30
+- **duração**: 40min25
+
+## Descrição do autor
+
+Foi um enorme prazer conhecer três perfumes autorais desenvolvidos pelo perfumista Daniel Xavier, Perfumista e Gerente de Pesquisa e Desenvolvimento na Puba!
+
+Cada fragrância carrega sua própria jornada, trazendo uma combinação única de cheiros e lembranças.
+
+Vamos entender um pouco sobre como é o processo de desenvolvimento de perfumes de um perfumista profissional!
+
+➡️ Quer aprender a criar seus próprios perfumes? Conheça nossa playlist: https://youtube.com/playlist?list=PLWTxAdAoS0W3oWFcmhmBAcVoXE9wOOYqt&si=Ptff9llBr-DQ45ri
+
+
+📖 Grupo de Estudos no Whatsapp: disponível apenas para membros nível 2 do canal.
+
+Para comprar os químicos, recomendo:
+Perfumístico (CUPOM PERFUMOLOGOS+5): https://www.perfumistico.com.br/
+Flavorist: https://www.mercadolivre.com.br/pagina/flavorist#from=share_eshop
+Eu Perfumista: https://www.euperfumista.com.br/
+
+## Transcrição
+
+[00:00] Pessoal, vocês estão vendo isso aqui?
+[00:02] Desde que a gente começou aqui o canal,
+[00:04] a gente fala sobre criação de perfumes,
+[00:07] criação de fragrâncias autorais, que é
+[00:10] muito do que a gente comenta aqui no
+[00:11] perfumologos, é o que eu venho
+[00:13] aprendendo cada vez mais. Ainda não
+[00:15] cheguei em uma fragrância autoral 100%,
+[00:19] mas eu tô aqui em minhas mãos com três
+[00:21] projetos. Um deles tá praticamente
+[00:23] acabado, os outros dois eh tão mais no
+[00:26] início. E esses três projetos não são
+[00:28] meus, são aqui do Daniel, que eu trouxe
+[00:31] aqui para conversar com a gente. O
+[00:32] Daniel que trabalha com perfumaria já
+[00:35] há, sei lá, mais de 10 anos, ele vai se
+[00:37] apresentar melhor. Então, se você quer
+[00:39] entender um pouco melhor, a gente vai
+[00:41] provar aqui ao vivo. Então, vou provar
+[00:43] junto com Daniel. Não provei ainda, né?
+[00:45] ele me enviou essas amostras aqui. Eh, e
+[00:48] eu vou provar, fazer minhas primeiras
+[00:49] impressões e Daniel vai também trazer
+[00:52] pra gente um pouco da narrativa, o que é
+[00:54] que ele tem eh pensado para essas
+[00:56] fragrâncias, né? Como ele foi chegando
+[00:58] nessas ideias aqui. E também a gente vai
+[01:00] ter muito aprendizado com alguém que já
+[01:02] tá aí há um bom tempo trabalhando com
+[01:03] isso, trabalha profissionalmente, ganha
+[01:05] dinheiro, eh, criando fragrância, não
+[01:08] perfume fino, né? Mas ele vai contar um
+[01:10] pouco melhor. Então, Daniel, muito
+[01:11] obrigado aí. Tamo junto, né? Eh, Daniel,
+[01:15] além de ser aí um profissional, alguém
+[01:17] que vai trazer conhecimento, eh, também
+[01:20] a gente criou uma amizade aí, então é um
+[01:22] amigo. Então, um grande prazer aí,
+[01:23] Daniel, a gente tá junto aí gravando
+[01:25] esse conteúdo. Então, se apresenta aí
+[01:27] pro pessoal, eh, conta um pouco aí da
+[01:29] tua experiência e qual a ideia aqui
+[01:32] desses desses perfumes.
+[01:34] &gt;&gt; Eu que agradeço a participação, Vitor.
+[01:36] Muito obrigado aí, tá? Eu sou Daniel,
+[01:38] sou químico de formação, já estudo
+[01:40] perfumaria como um hobby há 20 anos,
+[01:42] então eu comecei há 20 anos atrás na
+[01:45] universidade me apaixonei, né, com o
+[01:47] mundo dos óleos essenciais, das
+[01:49] fragrâncias e tudo mais, mas trabalho
+[01:51] profissionalmente mesmo com perfumaria
+[01:53] desde 2017, quando eu comecei a a
+[01:55] trabalhar como professor. E ali eu dava
+[01:58] aulas e consultorias para indústrias de
+[02:00] de fragrâncias, de aromatizadores, de
+[02:03] cosméticos e tudo mais. E aí eu me
+[02:05] aprofundei nos estudos e hoje eu
+[02:07] trabalho como gerente de pesquisa e
+[02:09] desenvolvimento numa fábrica de insumos
+[02:12] para cosméticos e também desenvolvo
+[02:13] fragrância para cosméticos. Então
+[02:15] trabalho hoje profissionalmente com
+[02:16] isso. Mas perfum Maria, antes de tudo, é
+[02:19] para mim uma grande paixão.
+[02:21] &gt;&gt; Que massa, velho. Bom demais. E aí, qual
+[02:23] foi as ideias aqui desses desses três
+[02:26] perfumes que que tu trouxe aqui pra
+[02:27] gente hoje?
+[02:28] &gt;&gt; Beleza. Em primeiríssima mão, né? Acho
+[02:31] só as pessoas ficam mais próximas a mim
+[02:33] e que conhecem um pouco mais minhas
+[02:35] fragrâncias, né?
+[02:36] &gt;&gt; Então, Vitor, mesmo estudando muito
+[02:38] muito perfumaria, eu costumo dizer assim
+[02:40] que eu nunca ousei fazer uma fragrância,
+[02:42] né? Eu estudava muito, mas eu não ousava
+[02:44] fazer porque eu entendia como o processo
+[02:46] era complexo, né? Eu tô falando mais de
+[02:48] perfumaria fina, né? Perfumaria fina a
+[02:50] gente sabe que o que é um processo
+[02:52] longo, a pessoa tem muita resiliência,
+[02:54] né? Todo todo o processo, além de ser
+[02:56] longo, artístico, técnico, exige muita
+[02:59] paciência para macerar. né, para para
+[03:01] ver se deu certo, para ver se não deu
+[03:02] certo, fazer ajustes finos. Então, tudo
+[03:04] isso é bem bem bem complexo. Então, não
+[03:06] ousa fazer uma uma fragrância. Até que
+[03:09] 2019 eu abri um Instagram e um canal no
+[03:11] YouTube que chamava Química Perfumada e
+[03:13] as pessoas começaram a me provocar, né,
+[03:16] Daniel, porque que você não faz
+[03:17] fragrância, por que que você não faz
+[03:18] fragrância, né? Eu já conhecia muita
+[03:19] matéria-pra, já conheci estrutura de
+[03:21] perfume, mas nunca usei fazer. E aí um
+[03:24] dia eu tava viajando assim, fui pra
+[03:26] chapada dos viadeiros e aí vi uma
+[03:30] paisagem na qual eu me deparei com essa
+[03:33] paisagem e eu queria registrar aquela
+[03:35] paisagem na minha memória, né? Foi
+[03:37] durante uma trilha e aí eu cheguei num
+[03:39] córrego. O córrego era um lugar muito
+[03:41] agradável, era muito cedo ainda, era 6
+[03:44] da manhã e aquele cheiro me inspirou, me
+[03:46] deu vontade de pegar aquele cheiro assim
+[03:48] e engarrafar. E aí foi assim que nasceu
+[03:51] o meu primeiro projeto. Esse isso foi em
+[03:53] 2019, né? Esse esse esse episódio foi em
+[03:55] 2019. E aí foi que nasceu esse primeiro
+[03:58] projeto, aquele cheiro que me inspirou,
+[04:00] cheiro da natureza que eu queria
+[04:02] engarrafar. E aí esse é o primeiro
+[04:04] projeto que você tem aí, projeto número
+[04:06] um.
+[04:06] &gt;&gt; Esse aqui então um é o projeto 2019.
+[04:09] &gt;&gt; É, esse é o 2019.
+[04:10] &gt;&gt; Caramba, velho. São quantos anos? 6
+[04:13] anos.
+[04:14] &gt;&gt; Se anos.
+[04:15] &gt;&gt; Mas assim, você terminou ele? Você
+[04:17] começou ele em 2019 já ou foi depois
+[04:19] assim?
+[04:20] &gt;&gt; Foi depois, foi depois. Eu comecei ele
+[04:22] em 2022 e aí
+[04:24] &gt;&gt; quando comecei a
+[04:25] &gt;&gt; Esse processo durou até quando?
+[04:28] Entre as quase 60
+[04:32] e quase 60 tentativas de engarrafar ele,
+[04:36] foram dois anos,
+[04:37] &gt;&gt; caramba, dois anos
+[04:38] &gt;&gt; completos, trabalhando muito focado
+[04:40] nele. No início deu tudo muito errado,
+[04:43] né? a gente sabe que a gente vai vai
+[04:45] colocando as coisas e vai dando meio
+[04:46] errado. E eu digo que foi um projeto
+[04:49] ousado. Eu acho que foi o maior desafio
+[04:52] que eu tive na perfumaria porque eu usei
+[04:53] a técnica do Jeanclaudear, né, de fazer
+[04:57] justa posição de notas, né, para acho
+[04:59] que a galera que não conhece esse essa
+[05:02] técnica, né, que Jeancla Delá cita nos
+[05:04] nos livros dele, ele faz justa posição
+[05:06] de notas. Ele não faz uma pirâmide
+[05:08] convencional.
+[05:09] &gt;&gt; Uhum. Mas ele usa materiais, tanto
+[05:11] naturais quanto sintéticos, com notas
+[05:13] justa apostas. Significa que eh os
+[05:16] materiais todos têm uma curva de
+[05:17] evaporação muito próximas, né? Então
+[05:20] eles têm intensidade próxima e uma curva
+[05:22] de evaporação muito próxima.
+[05:24] &gt;&gt; Isso torna o perfume bem linear. Então
+[05:26] ele consegue ficar do mesmo jeito que
+[05:28] você sente no início, ele vai até o fim.
+[05:32] E também você consegue enxergar o fundo
+[05:34] da fragrância desde a primeira
+[05:35] borrifada. Você cria um efeito de
+[05:37] transparência também, né? Uhum.
+[05:39] &gt;&gt; Então vou na primeira borrifada você já
+[05:40] consegue sentir até a última nota de
+[05:42] topo. Então é um desafio muito técnico,
+[05:45] porque você tem que selecionar materiais
+[05:46] muito específicos, né? Tem que ter curva
+[05:48] de evaporação muito idêntica, né? Ou
+[05:51] seja, eh eles vão borrifar o mesmo, eles
+[05:54] vão cheirar a com mesma intensidade
+[05:56] durante o mesmo tempo, né? Claro que
+[05:59] algumas no meio vão se perdendo, os mais
+[06:00] cítricos, né? Vão ser vão se perdendo,
+[06:02] mas a ideia permanece durante todo o
+[06:04] percurso da fragrância. Então, é um
+[06:05] desafio técnico muito grande, por isso
+[06:08] demorou também do anos, mas era o que eu
+[06:10] queria trazer de inspiração, porque eu
+[06:12] acho que a natureza tem isso, né? A
+[06:13] natureza ela é linear, ela é uma
+[06:17] pintura, né? E é um perfume muito
+[06:18] abstrato também. Esse perfume, esse meu
+[06:20] perfume é muito abstrato. Ele
+[06:24] engraçado que tem um amigo que fala
+[06:25] assim: "Daniel, eu não consigo
+[06:27] diferenciar as notas que tem aqui. Eu
+[06:29] não consigo te dizer assim o que que
+[06:31] tem, porque a mistura de tudo tá cheio
+[06:33] diferente.
+[06:33] &gt;&gt; Tá tão tá tão coeso assim, né? Que você
+[06:35] &gt;&gt; Isso, isso.
+[06:36] &gt;&gt; Bom, vamos lá então, né? Vamos lá.
+[06:39] &gt;&gt; Vamos lá então que depois desse briefing
+[06:41] aí eu tô tô super animado aqui para
+[06:45] provar. Vamos ver. É uma fragrância em
+[06:47] tons de verde. Tem vários tons de verde
+[06:49] aí.
+[06:49] &gt;&gt; Eu espero que minha meu olfato esteja
+[06:52] bom, porque assim, eu tava talvez não
+[06:53] tenha sido a boa ideia. Antes de gravar
+[06:55] aqui, eu tava testando un negócio aqui,
+[06:57] uns musks. Aí eu espero que meu meu
+[07:01] olfato não esteja bloqueado.
+[07:04] Mas vamos lá esperar um pouquinho aqui.
+[07:07] A, vou depois botar na pele também. Acho
+[07:09] que tem nada aqui.
+[07:10] &gt;&gt; É, vale a pena colocar na pele,
+[07:14] &gt;&gt; cara. Muito bom.
+[07:16] Lembra alguma coisa que eu não sei o que
+[07:18] é, mas ao mesmo tempo não lembra nada,
+[07:22] sabe? Tem alguma coisa que eu que me
+[07:25] lembra algo,
+[07:28] &gt;&gt; na minha percepção, é bastante inclinado
+[07:31] pro masculino.
+[07:33] &gt;&gt; Sim,
+[07:34] &gt;&gt; notas mais verdes, aromáticas,
+[07:37] né? Algo bem nessa linha,
+[07:42] mas eu não sei se é impressão minha.
+[07:45] que tem algo, eu não sei se é tipo
+[07:47] resinoso
+[07:49] ou incensado no meio ali lá no fundo. Um
+[07:52] &gt;&gt; pouquinho tem.
+[07:54] &gt;&gt; E eu espero que não não soe alguém pode
+[07:57] achar ruim, mas assim entenda como
+[07:59] elogio, não é não é algo ruim, mas ele
+[08:01] lembra uma fragrância um pouco mais eh
+[08:05] old school assim, aromática.
+[08:07] &gt;&gt; Sim, sim, sim.
+[08:07] &gt;&gt; Então, tipo assim, eu por exemplo gosto
+[08:09] do Azaropo Home,
+[08:11] &gt;&gt; Sim. que é um perfume mega clássico, foi
+[08:13] uma febre gigante. Hoje em dia
+[08:16] &gt;&gt; muitos consideram datado, mas eu ainda
+[08:17] tenho, por exemplo.
+[08:19] &gt;&gt; E assim, não é que parece, mas é uma
+[08:22] vibe nessa linha, porque ele vai trazer
+[08:24] esse frescor, esse aromático que não tem
+[08:27] uma coisa
+[08:28] &gt;&gt; especificamente definida, né? Um uma
+[08:31] uma, por exemplo, tem perfume, pessoal
+[08:33] tenta criar eh foto realístico de um
+[08:36] abacaxi, de uma laranja, não sei. Esse
+[08:39] aqui não é é uma é um cheiro muito bom,
+[08:42] muito, né? Vários várias notas, mas não
+[08:46] é uma coisa específica, né? Não é assim
+[08:49] um tema específico, né? É uma riqueza.
+[08:52] Eh, cara, muito interessante. E ele tem
+[08:55] um tipo mentolado também, alguma coisa
+[08:59] mentolada assim.
+[09:01] &gt;&gt; Tem, tem,
+[09:02] &gt;&gt; cara,
+[09:03] &gt;&gt; ele tá mais para um amadeirado fresco,
+[09:04] né? Então, um perfume amadeirado bem
+[09:06] fresco e como a gente fale, ele super
+[09:09] linear e abstrato, né? E você não
+[09:11] consegue distinguir assim, que que tem
+[09:13] aqui? Eu consigo sentir cheiros, mas a
+[09:15] gente não sabe o que que tem. E essa
+[09:16] realmente foi a ideia. Ele tem um
+[09:18] pezinho no clássico, porque ele tem
+[09:19] algumas notas realmente que são mais
+[09:21] clássicas. Eu particularmente gosto
+[09:23] desse tipo de de perfume também, né, com
+[09:25] essa vibe, mas ele tem uma performance
+[09:26] completamente diferente na pele. Na pele
+[09:28] ele fica mais moderno.
+[09:30] &gt;&gt; Ah, na pele é mais moderno.
+[09:31] &gt;&gt; E mais moderno.
+[09:33] &gt;&gt; Bom, eu não sei se
+[09:34] &gt;&gt; eu posso falar para você as notas que eu
+[09:36] usei, né?
+[09:36] &gt;&gt; Pronto, vamos, vamos falar de notas. Eu
+[09:38] tentei de ser fraco, mas vamos lá.
+[09:42] &gt;&gt; Eh, as pessoas dizem realmente que ele
+[09:43] tem aromático, mas ele não tem aromático
+[09:45] nenhum. Você acredita?
+[09:46] &gt;&gt; Sério?
+[09:47] É, isso foram os efeitos que a gente
+[09:49] conseguiu criar, né, que eu consegui
+[09:50] criar com a junção das notas. Ele abre
+[09:53] com bergamota e tangerina.
+[09:56] &gt;&gt; Muito interessante,
+[09:57] &gt;&gt; mas especificamente mandarina, né? É
+[09:59] bergamota e mandarina.
+[10:00] &gt;&gt; Eh, as notas de de coração são gerâo,
+[10:04] por isso você sentiu o mentolado.
+[10:05] &gt;&gt; Hum.
+[10:06] &gt;&gt; Em gerâio e notas minerais. Eu criei um
+[10:09] efeito mineral fazendo,
+[10:10] &gt;&gt; cara. ia dizer isso. Eh, na hora eu não
+[10:12] comentei não, mas veio na minha mente
+[10:14] tem algo mineral aqui. Eu percebi
+[10:16] &gt;&gt; mineral porque para remeter justamente
+[10:18] as pedras do córego, né, que
+[10:22] minerale
+[10:25] mas estava na minha mente. Eu falei:
+[10:26] "Pô,
+[10:27] &gt;&gt; aham
+[10:28] &gt;&gt; mineral e tal, tipo, a natureza, a água
+[10:31] tem, não sei se tem alguma coisa meio
+[10:32] aquosa, mas dá essa impressão".
+[10:35] &gt;&gt; E e o mineral do da pedra, caramba.
+[10:38] Muito bom. Ficou, ficou bom, velho.
+[10:40] Ficou muito bom.
+[10:42] &gt;&gt; E o fundo tem patiul vetivé,
+[10:46] é ambroxã e o resinoso que você sentiu é
+[10:49] Benjoim.
+[10:50] &gt;&gt; Ah, o Benjo
+[10:52] &gt;&gt; Benjoim,
+[10:54] &gt;&gt; cara, muito bom, hein?
+[10:56] &gt;&gt; Talvez essa impressão meio ou desculpa
+[10:57] pode ter sido pelo Vetiv, pelo pelo
+[11:00] Vetiv com com o Patchuli, né, mistura
+[11:02] dos dois.
+[11:03] &gt;&gt; E como eles estão em uma dosagem um
+[11:05] pouco mais alta para ficar com um pouco
+[11:07] mais de presença, né?
+[11:08] pode ter sido essa essa impressão que
+[11:10] você teve
+[11:12] &gt;&gt; muit muito legal muito muito legal
+[11:13] mesmo. E tem alguma nota aqui eh mais
+[11:16] por curiosidade,
+[11:18] &gt;&gt; sim,
+[11:18] &gt;&gt; que que é mais intensa, tipo aí já
+[11:21] falando de químico, tipo uma
+[11:22] isobutilquinoleína,
+[11:25] &gt;&gt; eh um castório, um CV, tem essas coisas
+[11:27] meio sujinhas aqui.
+[11:29] &gt;&gt; Não,
+[11:30] &gt;&gt; não chegasse a usar nada disso, né? Não,
+[11:31] não,
+[11:32] &gt;&gt; não, não é que eu percebi, era mais por
+[11:33] curiosidade, porque falam sempre que é
+[11:36] interessante, né, você trazer um
+[11:38] &gt;&gt; uma coisa meio animálica
+[11:39] &gt;&gt; que falam que que é importante, né,
+[11:42] utilizar.
+[11:44] &gt;&gt; Ele tem um toquinho de ambrocenide
+[11:47] só assim, de amba mais intenso, né? E o
+[11:50] ambroxan, que também tá aí 5% do total
+[11:54] da fragrância. Aí, então é uma uma
+[11:55] overdose de broxan, porque eu precisava
+[11:58] desse efeito mineral. Esse efeito
+[12:00] mineral. O que me ajudou mesmo foi
+[12:03] exatamente esse essa overdose de
+[12:05] ambroxan. Ele tem aí 40% de ISO super.
+[12:09] &gt;&gt; Caramba,
+[12:09] &gt;&gt; pode não é 40% e ainda assim permanece
+[12:12] intenso. Então a escolha da desses dessa
+[12:16] estrutura também foi muito importante
+[12:17] para suportar eh a quantidade de
+[12:21] cítricos que eu coloquei, né? A
+[12:22] floralidade do gerânio, a as madeiras
+[12:25] que eu coloquei aí junto com que foi o
+[12:26] pai ativer, né? Tem cedro também.
+[12:30] E aí foi, foram tem aproximadamente uns
+[12:32] 41 ingredientes no total.
+[12:34] &gt;&gt; Muito legal. Muito legal. Eu vou
+[12:36] borrifar um pouqu ele é na pele ele
+[12:38] transforma. Transforma mesmo.
+[12:41] Aí agora que eu falei, acho que vai
+[12:42] ficar mais fácil, né? Tem um toquinho de
+[12:44] petigran só um pouquinho.
+[12:46] &gt;&gt; Vou parar um pouco. Mas assim, muito
+[12:48] bom, viu? Essa semana já tem o meu
+[12:51] perfume da semana. Eu vou usar isso aqui
+[12:53] para para
+[12:54] valer aqui, viu?
+[12:57] Super legal. Super legal. Muito bom.
+[13:01] Vamos pro próximo.
+[13:04] &gt;&gt; Vamos lá.
+[13:05] &gt;&gt; Vamos ver esse dois aqui. Tem alguma
+[13:07] introdução ou a gente já vai direto para
+[13:08] ele?
+[13:10] Pode ir borrifando e eu vou falando aí.
+[13:12] &gt;&gt; Boa.
+[13:13] &gt;&gt; Se quiser. Mas foi um perfume que eu fiz
+[13:16] o ano passado. Hum.
+[13:17] &gt;&gt; Essa fragrância foi uma viagem que eu
+[13:19] fiz a Brasília. Brasília era um local
+[13:21] que eu ia muito visitar, trabalho e tudo
+[13:24] mais.
+[13:25] Eu me lembro de um dia, foi exatamente
+[13:26] em agosto de 2024, a gente tá em 30 de
+[13:29] agosto hoje, né, de de 25, mas
+[13:31] &gt;&gt; olha só, um ano atrás,
+[13:32] &gt;&gt; foi agosto de 24 e Brasília, nessa época
+[13:36] de agosto é muito seca, né, muito
+[13:37] quente. Então o tempo fica bem seco,
+[13:39] umaidade de 20%. E aí eu tava tava com
+[13:42] os amigos do trabalho, eles falaram
+[13:43] assim: "Daniel, vamos a gente vamos
+[13:45] almoçar, a gente vai para um restaurante
+[13:46] bacana aqui em Brasília, tal, um
+[13:48] restaurante bem conhecido lá em
+[13:49] Brasília, que é um restaurante mais para
+[13:51] turista, né, que é na Torre de TV, né,
+[13:54] um restaurante lá que chama, acho que é
+[13:55] Mesanino o nome do restaurante. E aí me
+[13:58] lembro de ter pedido um
+[14:01] o menu deles lá e aí tinha um drink
+[14:03] muito interessante para matar aquele
+[14:05] calor, sabe?
+[14:07] E aí, eh, esse drink tinha os
+[14:10] ingredientes do drink era toranja,
+[14:11] maracujá, barbo, eh, limão, laranja. E
+[14:16] aí quando eu peguei aquele copo que eu
+[14:18] senti aquele cheiro, aqueles aqueles
+[14:20] sabores, eu me encantei. Eu falei,
+[14:22] preciso fazer um perfume que tem esse
+[14:24] cheiro para me lembrar desse dia também,
+[14:26] né? Perfumaria muito de memória, né? De
+[14:28] de coisas que a gente vivencia, né? E
+[14:31] viagem inspira muito a gente. E aí, e eu
+[14:34] me inspirei nesse drink para fazer e
+[14:36] esse perfume.
+[14:38] E aí nasceu, é um de toalete, né, mais
+[14:40] fresco, mais cítrico, mas ele ainda tá
+[14:43] sendo desenvolvido, né? Ele ainda tá no
+[14:46] processo de desenvol.
+[14:47] &gt;&gt; Cara, eu amei isso aqui, velho. Esse eu
+[14:49] gostei ainda mais, bicho. Putzes, grila,
+[14:52] cara. De fato, lembra muito algum drink,
+[14:55] velho. Assim, não que eu não que eu seja
+[14:57] um grande tomador de drinks, né?
+[14:59] &gt;&gt; Sim. Eu também não não bebo, né? Mas é,
+[15:02] mas assim, é, é exatamente a é a vibe, a
+[15:05] vibe de
+[15:06] &gt;&gt; É,
+[15:07] &gt;&gt; eh,
+[15:08] &gt;&gt; ele ele é um drink sem álcool, né? Vale
+[15:10] ressaltar, mas ele tem essa, essa
+[15:14] abertura de toranja bem intensa, né?
+[15:15] &gt;&gt; Não tem a parte buing, né, do difóic
+[15:18] &gt;&gt; É, não tem não tem, mas ele vinha com
+[15:20] água com gás, né? E aí eu esse toque de
+[15:22] água com gás foram os musks que eu
+[15:24] escolhi um pouco mais efervescentes, né?
+[15:27] Abanolíde com um pouco mais de
+[15:28] intensidade,
+[15:30] mas eu ainda vou reestruturar esses
+[15:31] musks. Por isso que eu digo que ele não
+[15:33] tá na fase final, né? Ele ele tá um
+[15:35] cítrico, mas ele tá ele é intenso e ele
+[15:38] permanece muito na pele.
+[15:41] Tem um toquinho de maracujá, tem um um
+[15:44] toquinho de ru barbo também, né? Que
+[15:47] fazem parte lá do do drink.
+[15:50] E fresco, muito fresco, né? Ele é um
+[15:53] um frescor assim,
+[15:54] &gt;&gt; cara. Super legal, velho.
+[15:57] &gt;&gt; Mano, que incrível.
+[15:59] &gt;&gt; Mas esse esse projeto dois, ele tá ainda
+[16:01] sendo reestruturado, né? Eu vou mudar um
+[16:02] pouquinho as notas de saída. As
+[16:03] proporções t que mudar um pouquinho.
+[16:06] Essa deve ser a sexta versão. Eu devo
+[16:07] fazer só mais duas no máximo, que ele já
+[16:10] tá num resultado bem próximo do que eu
+[16:12] do que eu gostaria.
+[16:13] &gt;&gt; Muito bom.
+[16:15] &gt;&gt; E tá perto de de finalizar já.
+[16:17] &gt;&gt; Cara, esse tá incrível. É claramente ele
+[16:19] é bem mais leve.
+[16:21] Eh, não sei como é que como é que ele
+[16:23] vai ficar em relação à longevidade,
+[16:25] porque por ser mais cítrico, né?
+[16:28] Que que ele tem de nota assim para de
+[16:30] base? Eh, de base ou ou de corpo?
+[16:35] &gt;&gt; Ah, ele ele abre com toranja, limão e
+[16:37] laranja.
+[16:39] Então, ele ele abre com esse frescor
+[16:41] cítrico bem tenso. Notas de meio ele tem
+[16:44] rosa, um toque de rosas muito leve, mas
+[16:47] e tem ruo e maracujá. são as notas de
+[16:50] corpo. Então você sente um toquinho meio
+[16:52] floral, né? E notas de fundo, ele tem um
+[16:55] pouco de cedro, sândalo, tem um sândalo
+[16:57] um pouco mais intenso e musk.
+[17:00] &gt;&gt; Cara, muito bom, muito bom mesmo, rapaz.
+[17:03] &gt;&gt; Musk aí é bem importante.
+[17:05] &gt;&gt; Tá impressionante isso aqui. Gostei
+[17:08] muito, viu?
+[17:09] &gt;&gt; É, pra gente que é do Nordeste, dá para
+[17:11] usar muito porque ele é muito fresco.
+[17:13] Ele é muito fresco, né? né?
+[17:14] &gt;&gt; Exatamente.
+[17:16] &gt;&gt; Minha esposa adora ele. Ela usa muito,
+[17:18] ela gosta para de sair, ela vai usar,
+[17:19] ela usa ele para ir pra academia também.
+[17:22] &gt;&gt; Cara, achei, eu achei legal porque ele
+[17:24] ficou, ao mesmo tempo que ele ficou
+[17:26] fresco,
+[17:29] ele não tá cara daquele perfume
+[17:31] baratinho que é só para ir pra academia.
+[17:33] É,
+[17:34] &gt;&gt; ele tem uma certa elegância que eu
+[17:35] imagino que vem desse Rui Barbo com
+[17:38] sândalo, que eu acho que é um pouco mais
+[17:40] elegante,
+[17:42] &gt;&gt; mas ele é bem fresco e e tranquilo de
+[17:45] usar, né?
+[17:46] &gt;&gt; Parece ser bem bom de usar assim.
+[17:49] &gt;&gt; dá para experimentar na pele ele também
+[17:50] se quiser.
+[17:51] &gt;&gt; É, eu botei aqui.
+[17:52] &gt;&gt; Tu colocou
+[17:52] &gt;&gt; botei aqui
+[17:55] &gt;&gt; assim. Muito bom, cara. Excelente.
+[17:58] Tô sentindo também o o um, né?
+[18:02] &gt;&gt; Sim. O anterior, que na secagem ele já
+[18:05] fica um pouco mais puxado pro
+[18:08] amadeirado. Beijo aparece mais também.
+[18:12] &gt;&gt; Muito bom, muito bom. Bem legal. Aí,
+[18:15] esse aqui você já teve menos trabalho,
+[18:18] né, do que o primeiro.
+[18:20] &gt;&gt; Sim, sim. Porque não era tão abstrato,
+[18:23] né? Eu peguei as matérias primas, eu
+[18:25] senti, eu degustei. Então, para mim foi
+[18:27] mais fácil desenvolver porque ele foi
+[18:29] mais literal, né? Não foi uma inspiração
+[18:32] de uma natureza, um cheiro muito
+[18:33] abstrato. Então você vê que as notas são
+[18:35] mais diretas, né?
+[18:36] &gt;&gt; Sim.
+[18:36] &gt;&gt; E ele já tem uma estrutura de perfume
+[18:38] mais pirâmide mesmo, né? Você vai ver
+[18:39] que e esse topo cítrico vai baixar com o
+[18:42] tempo, né? As notas de corpo aparecem,
+[18:44] depois ele vai pro fundo e fica aquele
+[18:46] fundinho de musk de perfume eh limpo,
+[18:49] né? Porque ele é um perfume mais limpo.
+[18:51] Então ele já tem uma outra estrutura
+[18:54] também. Ele tem aquela clássica
+[18:56] combinação de musks com iso pedôico,
+[18:59] aquela estrutura que parece um dio
+[19:01] colônia, aquela estrutura mais perfume
+[19:04] limpo
+[19:04] &gt;&gt; que faz com que a fragrância dure mais
+[19:07] tempo sobre a pele, mesmo sendo cítrica,
+[19:09] né? Esse frescor se prolonga até o final
+[19:11] da fragrância.
+[19:12] &gt;&gt; Bem legal. Eh, uma dúvida sobre esse
+[19:15] processo. Quando tu tu quis fazer
+[19:19] toranja, maracujá,
+[19:22] eh,
+[19:24] e quando a gente fala de tempo de
+[19:26] trabalho, né, você,
+[19:29] bom, eu não sei, você já tinha uma nota,
+[19:31] por exemplo, de maracujá que você criou
+[19:34] ou você pegou uma nota que já existia,
+[19:36] uma base pronta, por exemplo,
+[19:40] nesse nesse caso, né, desse perfume.
+[19:42] &gt;&gt; Sim, sim. Eu tive que otimizar, na
+[19:45] verdade, porque a gente não acha
+[19:47] maracujá para trabalhar aqui no Brasil,
+[19:48] né? A gente não acha matériapra para
+[19:50] fazer maracujá como
+[19:53] oxano. Às vezes você tem uma base também
+[19:55] de de maracujá, alguma base pronta
+[19:57] dessas casas de fragrância. Eu tive que
+[19:59] realmente trabalhar de maneira muito
+[20:01] assertiva. Como eu tinha que trabalhar
+[20:03] com acorde de Rui Barbo, o acorde de Rui
+[20:06] Barbo, ele leva Rubofix, ele leva
+[20:09] toranja, ele leva peonile, ele leva
+[20:12] também paradisamida.
+[20:15] Então, até quando eu construí o Rui
+[20:17] Barbo, eu já percebi que o toque de
+[20:20] paradisamida que eu usava para fazer o
+[20:22] Rui Barbo já me trazia, remetia
+[20:23] maracujá. Hum. Uhum.
+[20:25] &gt;&gt; Então, é um maracujá que não é um
+[20:26] maracujá eh que nasceu de uma corda de
+[20:30] maracujá, mas o próprio Rui Barbo já me
+[20:32] deu essa essa coisa do maracujá, né? E
+[20:35] aí um toquinho de cacis base para poder
+[20:38] também prolongar esse topo macítrico.
+[20:40] Então eu usei a o cassis base da da
+[20:42] Firmenich
+[20:44] a dar essa coisa meio maracujá, né?
+[20:45] Então o maracujá também um pouco mais
+[20:47] abstrato, né? Eu tenho aqui uma corda de
+[20:49] maracujá que eu comprei, mas não é da
+[20:52] Givodan, mas eu não gostei. Eh, não
+[20:54] achei que combinava com a fragrância,
+[20:56] não que eu não gostei que era ele é
+[20:58] ruim, não. Eh, porque ele não combinava
+[21:00] realmente com minha fragrância. Então,
+[21:01] eu tentei otimizar o próprio acorde de
+[21:04] Rui Barb quando ele nasceu. Ele nasceu
+[21:06] já lembrando toranja e lembrando
+[21:08] maracujá. Então, eu trabalhei de forma
+[21:10] otimizada mesmo. E aí fica uma dica
+[21:12] também para quem quer, né? Às vezes você
+[21:14] quer fazer um acorde,
+[21:17] eh, e às vezes você faz tudo muito
+[21:18] separadinho e quando junta não fica
+[21:20] muito bom, você já pode pensar nessa
+[21:22] estrutura, né? Então, repara bem, eu o
+[21:26] drink tem muita toranja, tanto que a cor
+[21:28] dele é aquela cor de de toranja, né?
+[21:30] Então ele abriu com toranja e eu pensei:
+[21:32] "Poxa, vou colocar Rubofix para dar o
+[21:34] Rui Brárbo." E Rui Bárbo, o Rubofix
+[21:36] também já lembra toranja. E aí para
+[21:39] melhorar esse tom de toranja, eu
+[21:41] coloquei Magnolã. Magnolã também lembra
+[21:43] toranja, mas dá um uma floralidade no
+[21:46] corpo. E também eu coloquei peonile.
+[21:49] Peonile também lembra toranja e também
+[21:51] vai para para o corpo. Então tudo se
+[21:54] conversava muito.
+[21:56] &gt;&gt; Uhum.
+[21:56] &gt;&gt; Entende?
+[21:57] &gt;&gt; E aí com esse acorde de Rui Barbo, ele
+[21:59] já harmonizou bem com o corpo e com o
+[22:01] topo.
+[22:03] &gt;&gt; Então eu tentei otimizar a fragrância.
+[22:06] &gt;&gt; Bem interessante que que e essa essa
+[22:08] utilização, né, de fato, para disamida
+[22:10] tem essas nuances todas.
+[22:12] Mas o que eu mais fiquei impressionado
+[22:14] foi que você falou que usou a Peonili,
+[22:17] né?
+[22:17] &gt;&gt; Peonil foi um dos primeiros materiais
+[22:20] que eu comprei assim bem na doida.
+[22:21] &gt;&gt; É.
+[22:22] &gt;&gt; E eu tentei usar, eu senti que tudo que
+[22:25] eu colocava ele dominava, assim, ele
+[22:27] tomava conta 100%, ficava um cheiro bem,
+[22:30] na minha opinião, bem horrível assim,
+[22:31] meio amargo. É
+[22:33] &gt;&gt; meio meio
+[22:34] &gt;&gt; sabão
+[22:35] &gt;&gt; é pulvoroso, né? Uma coisa meio
+[22:40] &gt;&gt; sabão em pó, né?
+[22:41] &gt;&gt; Em pó. Mas tu conseguiu usar aqui, ficou
+[22:43] bom, né? Eu imagino que seja uma
+[22:45] quantidade pequena, né?
+[22:46] &gt;&gt; Pequena, pequena. Como ele é é um
+[22:48] nitrilo, né? Os nitrilos geralmente tem
+[22:49] esse essa intensidade e quantidade
+[22:52] pequena.
+[22:54] &gt;&gt; Muito bom, viu?
+[22:55] &gt;&gt; E aí eu aproveitei essa floralidade para
+[22:57] criar um acorde de rosa, um acorde mais
+[22:58] leve de rosa, uma rosa mais
+[23:00] &gt;&gt; mais voltada para óleo essencial, não
+[23:02] para absoluto, né? Para para até esse
+[23:03] frescor do citronelol, do geraniol.
+[23:05] Então, mas volt,
+[23:07] &gt;&gt; mas aí a rosa, você usou uma base
+[23:09] pronta, tipo rose divical ou você fez
+[23:12] uma rosa do zero? Fiz uma rosa do zero.
+[23:14] Fiz uma rosa do zero. É,
+[23:16] &gt;&gt; precisava de uma rosa mais limpa.
+[23:18] &gt;&gt; Ricou é maravilhoso, né? A gente, eu te
+[23:21] mandei um pouquinho, né? Maravilhos.
+[23:23] &gt;&gt; Conheci, conheci agora. Muito bom.
+[23:24] Excelente. Muito bom. Também gosto
+[23:27] demais dessa base. E não usei porque ela
+[23:30] muito tem uma floralidade muito intensa.
+[23:32] Eu quis uma rosa um pouco mais limpa,
+[23:34] né? Eu não não usei damacenonas nem
+[23:36] damascones que tem na no rosto de gic
+[23:38] mesmo em pequena quantidade a gente
+[23:40] percebe que ela tem uma difusão mais
+[23:41] intensa. Eu criei um acorde de rosa
+[23:43] propositalmente para essa fragrância,
+[23:46] &gt;&gt; E de sândalo eu usei aí javanol. Javanol
+[23:48] é uma matéria prima intensa, né? Então
+[23:50] já diluí ele a 10%. Então usei ele
+[23:53] &gt;&gt; já diluído a 10% e tem uma quantidade
+[23:55] pequena foi suficiente para jogar essa
+[23:58] fragrância lá para cima, né? Ele ele
+[24:00] joga essa parte de sândalo bem bem
+[24:02] tenso,
+[24:05] &gt;&gt; cara. Muito bom. Eu eu gostei ainda mais
+[24:07] desse aqui. Ainda mais. Esse aqui eu tô
+[24:09] doido para usar também.
+[24:12] Muito bom, viu? E aí, agora temos o
+[24:14] terceiro, né?
+[24:15] &gt;&gt; Projeto
+[24:16] &gt;&gt; terceiro aqui.
+[24:17] &gt;&gt; E aí, esse aqui como é que foi? Esse
+[24:19] aqui é o mais novo, né?
+[24:19] &gt;&gt; É o mais novo. Ele é versão número um,
+[24:21] né? Aí é bom que que é algo para você
+[24:25] entender também, Víor, que a gente
+[24:26] estava conversando sobre essa
+[24:27] fragrância, né? E a ideia também é a
+[24:29] gente é eu te mostrar como esse processo
+[24:31] vai funcionar
+[24:33] &gt;&gt; para você entender, tipo, que às vezes a
+[24:34] ideia nasce na nossa cabeça, mas nem
+[24:36] sempre dá certo, né? Até pra galera que
+[24:38] tá assistindo o vídeo aí, né?
+[24:39] &gt;&gt; Às vezes você já tem mesmo uma entende
+[24:41] dos seus materiais, entende tudo que
+[24:43] você vai usar e às vezes você mistura
+[24:45] tudo e não dá o resultado que você quer,
+[24:48] né? Então essa é a versão número um de
+[24:51] de dessa fragrância. É uma fragrância de
+[24:54] uma memória afetiva que eu tenho, né? Eu
+[24:56] fui criado na mesma rua que a minha avó
+[24:58] morava. Minha mãe morava na mesma rua da
+[25:01] casa da minha avó. Então, a casa da
+[25:02] minha avó era aquela casa de diversão,
+[25:04] de comer, de brincar com os primos, né?
+[25:07] E eu me lembro que nas brincadeiras com
+[25:08] os primos, eu passava em frente a um
+[25:11] armário e esse armário era um armário
+[25:14] que tinha whiskys e muito tab e e xutos.
+[25:17] Ela guardava os whiskys dela, né? Na era
+[25:20] comum aqui na Bahia as pessoas
+[25:21] colecionarem bebida alcoólica, acho que
+[25:23] naquela época no Brasil, né? anos 90, aí
+[25:26] início dos anos 90, as pessoas tinham
+[25:27] bar em casa e eu me lembro de abrir
+[25:30] aquele armário e sentir aquele cheiro de
+[25:32] whisky com tabaco. Aquele cheiro ficou
+[25:34] muito marcado na minha memória com as
+[25:36] brincadeiras com os primos, né? E eu
+[25:38] quis reconstituir esse cheiro, o cheiro
+[25:40] do armário de madeira,
+[25:42] que tinha um cheiro de sândalo, de
+[25:45] cedro, tabaco, especiarias e
+[25:49] whisky, sabe? Amadeirado de whisky. E
+[25:51] aí, eh, foi esse perfume que é esse
+[25:54] perfume que eu tô tentando desenvolver e
+[25:56] ele é versão número um mesmo, versão
+[25:59] número um. Qual o problema dessa
+[26:01] fragrância?
+[26:03] Os musks foram mal escolhidos para esse
+[26:05] para esse primeiro momento, né? Eu usei
+[26:07] galaxolid e galaxolide deu uma sufocada
+[26:11] no topo dessa fragrância, né? Ela abre
+[26:14] com isque, você sente uma nota buzi, né?
+[26:17] Alcoólica, é perceptível. E o safrale,
+[26:22] &gt;&gt; safrale para ter tabaco especiarias, né?
+[26:25] Se sente bem característico. Tem
+[26:28] &gt;&gt; tem isobotil kinoleína também um
+[26:30] pouquinho aí para para ficar. Ele tem
+[26:32] alcarávia
+[26:34] também para dar o toque especiado. Ele
+[26:36] tem cravo, ele tem sândalo, bastante
+[26:40] sândalo. É um perfume que o fundamento
+[26:41] dele, a base dele é sândalo, né? E eu
+[26:44] usei galaxolid aí como musk, mas eu acho
+[26:47] que ele sufocou um pouco, né? Ainda
+[26:50] assim, tem gente que gosta muito, fala:
+[26:51] "Nossa, tá muito bom e tal". Mas eu
+[26:53] percebo um problema principalmente de
+[26:57] estrutura
+[26:58] e dimensões. As dimensões deles ainda
+[27:00] não não estão boas. Quando você compara
+[27:02] com todos os perfumes, por exemplo, ele
+[27:03] parece que está sufocado e tem uma
+[27:05] dimensão só, né? Ele tá achatado.
+[27:09] &gt;&gt; É isso. É isso. E a impressão que eu
+[27:11] tive assim, eu acho que de cara passou a
+[27:14] vibe que você falou. Então acho que
+[27:16] assim, tá trazendo eh essa ideia de
+[27:19] fato, quando falou armário, whisky, tal,
+[27:22] tabaco, cara, é exatamente isso que a
+[27:24] gente pega. Só que a impressão que me
+[27:26] deu é que o Safrale ele tá bem fora do
+[27:30] que do resto, então na saída ele vem
+[27:33] matando
+[27:34] &gt;&gt; isso.
+[27:34] &gt;&gt; Então você sente ele muito intenso. Não
+[27:36] sei se é a ideia, mas você sente bem
+[27:38] intenso.
+[27:40] &gt;&gt; Eh, e aí quando passa um tempo, você vai
+[27:42] sentindo mais essa parte buzi.
+[27:46] E depois vem todo o resto ali do
+[27:48] amadeirado. Mas como você falou, é como
+[27:50] se ele fosse muito base, né?
+[27:52] &gt;&gt; Isso.
+[27:52] &gt;&gt; É como se você sentir só a base do
+[27:54] perfume praticamente.
+[27:54] &gt;&gt; Exatamente. Perfeito,
+[27:56] &gt;&gt; né? Então tá faltando talvez um esse
+[27:58] espaço para cima, né?
+[27:59] &gt;&gt; Exato. E aí esse espaço para cima eu vou
+[28:02] &gt;&gt; Mas assim já tá é incrível isso aqui,
+[28:04] cara. Isso aqui todo mundo fala quando
+[28:06] sente eu falo assim, mas tá errado
+[28:07] ainda. Ainda não,
+[28:08] &gt;&gt; cara. Isso aqui eh podia perfeitamente
+[28:11] tá enfrascado no no perfume da Granada,
+[28:13] entendeu?
+[28:14] &gt;&gt; Sim. Inclusive, muito melhor que a
+[28:15] Potecária na minha opinião,
+[28:19] porque é a mesma vibe, só que ele tá
+[28:21] mais gostoso. Não sei, eu acho que é o
+[28:22] Buzzi, né?
+[28:23] &gt;&gt; Eu não conheço o apotecário o o perfume,
+[28:26] mas eu até meio que evito, né?
+[28:28] Experimentar muito perfume nessa época,
+[28:30] porque pode dar um bloqueio criativo,
+[28:32] né? A gente pode ficar tendenciando a
+[28:34] querer copiar o perfume, então eu evito
+[28:35] meio que usar perfume nesses processos.
+[28:37] E
+[28:37] &gt;&gt; Ah, interessante. Então, tu não usa
+[28:39] perfume, né?
+[28:40] &gt;&gt; Não, não uso.
+[28:41] &gt;&gt; Olha aí. Parece curioso isso, né, gente?
+[28:44] Eu uso quando a esposa pede, fala assim:
+[28:45] "Bom, usa um perfume pra gente sair
+[28:47] juntos e tal".
+[28:49] &gt;&gt; Ou então tipo quando eu vou para um
+[28:50] evento, um casamento assim. Mas nem
+[28:52] quando eu vou pra igreja eu uso perfume.
+[28:54] &gt;&gt; Que interessante, né,
+[28:57] cara? Mas eu eu gostei, cara. Eu gostei
+[28:59] muito disso aqui, velho.
+[29:00] &gt;&gt; É, então as pessoas gostam muito dele,
+[29:02] mas ele ainda tem defeito técnico,
+[29:04] entende? As pessoas não, as pessoas que
+[29:06] estão fora do mundo da da perfumaria,
+[29:09] provavelmente vão gostar. Aqui tá tudo
+[29:11] certo, tá tudo bem, mas falta
+[29:14] um um impulso nele, né? E eu vou criar
+[29:17] esse impulso com aromáticos. Então tá
+[29:19] faltando aí a toque aromático, um
+[29:21] tomilho, uma lavanda, algo para dar um
+[29:25] uma levantada nele, né? Ele tá
+[29:27] parecendo, como você falou, só nota de
+[29:28] base.
+[29:30] &gt;&gt; Isso, isso. Ele tá tá bem pesadão, mas
+[29:32] ao mesmo tempo ele tem um brilho. É
+[29:35] engraçado isso,
+[29:37] &gt;&gt; cara. Excelente, assim, uma aula aqui,
+[29:40] né? Uma aula. É isso aí, ó. Eu tô aqui
+[29:43] há 30 anos, exagerando, claro. Mas eu tô
+[29:46] aqui há meses criando um bilhão. Nenhum
+[29:49] sai certo. O cara em uma tentativa fez
+[29:51] uma obra prima aqui, ó.
+[29:54] Muito bom.
+[29:55] &gt;&gt; Eu acho que vale a pena também
+[29:56] compartilhar com o pessoal como que como
+[29:58] é que eu criei essa nota de whisky, né?
+[29:59] Porque é difícil a gente encontrar
+[30:02] &gt;&gt; eh matériapra para reproduzir nota buzi,
+[30:05] né? Mas eu usei chipes de carvalho
+[30:08] macerado no no etanol, no álcool, né?
+[30:11] Comprei chipes de carvalho, tosta média
+[30:14] e fiz uma tintura, né? Basicamente uma
+[30:17] tintura, mas eu fiz assistida por
+[30:18] ultrassom, né? Usei uma extração
+[30:20] otimizada por ultrassom. E aí os tipos
+[30:23] de carvalho possuem lactonas de whisky,
+[30:26] né? O cheiro que dá típico do do whisky.
+[30:29] &gt;&gt; Então você consegue sentir um cheiro
+[30:30] meio lactônico, né? Obviamente aí
+[30:32] também, não sei se sentiu, mas tem eh
+[30:35] baunilha aí também, né? Tem uma
+[30:36] baunilhazinha,
+[30:38] mas não, o destaque não é a baunilha, é
+[30:40] só realmente para trazer aquele toque
+[30:41] adocicado mesmo. Mas é muito pouco.
+[30:45] &gt;&gt; É bem pouco. Eu eu não senti nada
+[30:46] adocicado aqui.
+[30:47] &gt;&gt; É, é só vanilina, não é nem etianilina
+[30:50] para não dar aquele doce cremoso, né? Só
+[30:52] vanilina mesmo para arredondar um pouco
+[30:54] e aí para contribuir também para esse
+[30:56] lado meio cremoso lactônico que o whisk
+[30:58] pode remeter junto com essas lactonas de
+[31:00] whisk. Então, é uma dica boa para quem
+[31:02] às vezes tá tá começando. Essa cor que
+[31:04] você tá vendo dele, essa cor meio whisky
+[31:06] é do do Carvalho mesmo,
+[31:08] &gt;&gt; do Carvalho.
+[31:09] &gt;&gt; É porque eu usei ao invés de eu eu criei
+[31:11] ele a
+[31:14] 20% de concentração e aí usei o álcool
+[31:17] para diluir a para chegar nesses 20% o
+[31:20] álcool já pronto e e macerado no
+[31:23] carvalho. Então ele deu esse toque de
+[31:25] whisky.
+[31:26] &gt;&gt; Aí
+[31:28] eh, quer perguntar?
+[31:30] Ah, não. Eu ia dizer primeiro, eu achei
+[31:33] legal porque assim, muitas fragrâncias
+[31:35] que eu provei, não sei se todo mundo
+[31:37] teve a mesma experiência, mas os que eu
+[31:39] conheço é muito da Granado. Eh, por
+[31:42] exemplo, o Fervo Intenso tem uma nota
+[31:45] buzi bem bem forte. Eh, acho que teve
+[31:49] alguns outros, né? E todos que eu
+[31:51] provei, eles têm um doce que para mim
+[31:54] lembra remédio.
+[31:56] &gt;&gt; Eles têm uma coisa que vai pro lado do
+[31:58] remédio, que pessoalmente na minha pele,
+[32:00] na fitofativa fica muito bom, mas na
+[32:02] minha pele ele estraga, ele desanda.
+[32:04] Esse aqui ele não tem para mim esse
+[32:07] defeito. Ele ele é como se fosse eh o
+[32:10] whisky cowboy, né? Então o cara toma ali
+[32:13] só whisky gelo. Sim.
+[32:15] &gt;&gt; Não tem mais nada, né?
+[32:17] Porque ele é bem seco, ele é um buzi
+[32:19] seco, ele não é um buzi doce. E eu achei
+[32:22] isso sensacional. Para mim
+[32:24] &gt;&gt; isso aqui é perfeitamente usável, porque
+[32:26] a maioria dos buses eu não tenho vontade
+[32:28] de usar.
+[32:29] &gt;&gt; mas esse aqui muito usável
+[32:31] &gt;&gt; e muito masculino.
+[32:33] &gt;&gt; ele pende muito pro masculino porque às
+[32:35] vezes o buz ele fica meio naquele meio
+[32:37] termo. Esse aqui
+[32:38] &gt;&gt; ex
+[32:38] &gt;&gt; muito pro masculino. Cara, sensacional,
+[32:41] velho. Três perfumes que eu vou usar,
+[32:44] com certeza. E ainda não não tá pronto,
+[32:46] né? Nem nem o segundo, nem o terceiro.
+[32:50] Todos ainda.
+[32:50] &gt;&gt; Imagina quando tiver.
+[32:52] &gt;&gt; Mas tem uma hora que a gente tem que
+[32:54] parar, sabe? A gente tipo assim, é, a
+[32:56] gente fala assim, ó, tem que est pronto
+[32:57] porque senão não vai sair nunca, sabe?
+[33:00] &gt;&gt; Mas eu entendo que esse terceiro,
+[33:01] principalmente como a primeira
+[33:02] tentativa, eu preciso realmente criar
+[33:03] outras dimensões. Ele tá muito uma
+[33:06] dimensão só, né?
+[33:07] &gt;&gt; Mas é um defeito técnico dos muskos. O
+[33:09] musk foi que achatou, né? o galáxolid
+[33:12] deêu uma uma baixada, porque a ideia não
+[33:15] foi usar um musk que seja muito
+[33:17] fragrante, a ideia era só um musk mais
+[33:20] neutro possível para manter a estrutura
+[33:22] só, né? E aí eu vou ter que mudar essas
+[33:24] proporções, talvez reestudar essa
+[33:26] fragrância, mas a ideia foi criada na
+[33:28] mente, memória fatível, eu anotei a
+[33:29] fórmula possível e aí fui criando e
+[33:32] juntei tudo, deu isso aí, né?
+[33:34] &gt;&gt; Na primeira já,
+[33:35] &gt;&gt; na primeira é
+[33:36] &gt;&gt; já saiu uma obra,
+[33:38] &gt;&gt; não acho ainda uma obra, mas tudo bem.
+[33:40] Na verdade, a gente cansa dos das nossas
+[33:42] criações, né? A gente cansa, a gente
+[33:43] fica meio,
+[33:45] &gt;&gt; né? Tem
+[33:47] &gt;&gt; tem vezes que eu não consigo nem sentir
+[33:48] assim e sentir que tá, nossa, tá muito
+[33:50] gostoso. As pessoas de fora que falam:
+[33:52] "Nossa, tá muito bom, tá muito bom". Mas
+[33:53] eu
+[33:54] &gt;&gt; não consigo.
+[33:55] &gt;&gt; Eu tô muito animado. Eh, pretendo mandar
+[33:58] em breve para você alguma algumas coisas
+[34:00] que eu testei, porque justamente eu
+[34:02] quero ver essa perspectiva de fora.
+[34:05] &gt;&gt; De alguém que não sentiu nenhuma vez
+[34:07] esse essa combinação que eu fiz. Sim,
+[34:09] &gt;&gt; porque para mim às vezes eu fico, pô
+[34:11] bicho, eu vou desistir desse negócio, eu
+[34:13] vou doar todos os meus materiais e eu
+[34:15] vou abandonar esse negócio. É muito
+[34:17] difícil, né?
+[34:18] &gt;&gt; É, é difícil.
+[34:18] &gt;&gt; Mas quando vê o negócio tá bom e a gente
+[34:21] que tá crítico, né? A gente que tá muito
+[34:23] crítico com a gente.
+[34:23] &gt;&gt; Legal. É, nós somos bem críticos
+[34:25] projetos. Por isso que eu acho que é
+[34:27] importante a gente fortalecer esse
+[34:28] ecossistema de compartilhar as nossas
+[34:31] criações, né, com quem tá estudando
+[34:33] perfumaria. Eu, eu, eu e Luiz Fernando,
+[34:34] a gente compartilha muito, né? Ele fez
+[34:36] escola de perfumaria e a gente se se
+[34:38] ajudava muito e compartilhando também
+[34:40] esses essas dores, né? Ai que vontade de
+[34:42] desistir, de vontade de largar, tudo que
+[34:45] eu faço não dá certo. Mas perfumaria
+[34:46] sobre isso, né? Perfumaria. É, é isso
+[34:48] aí. Acho que fica até dica pra galera,
+[34:50] né? Para não desistir, porque faz parte
+[34:51] do processo.
+[34:53] &gt;&gt; A gente vai errar mais do que acerta.
+[34:55] &gt;&gt; Então, e é parte do processo. E é isso
+[34:57] aí. Quando eu vejo grandes perfumistas
+[34:59] falando a mesma coisa assim do tipo
+[35:02] também cansou do do projeto, trabalha em
+[35:05] vários projetos ao mesmo tempo e aí se
+[35:07] perde também no processo criativo, aí dá
+[35:09] um tempo, depois retorna e aí quando eu
+[35:12] vejo que isso não é um sentimento só
+[35:13] meu, a gente se sente consolado, né? E
+[35:16] aí é bom que a gente com essa rede de
+[35:18] apoio assim de de trocar informação e
+[35:20] tudo mais, mandar um perfume um pro
+[35:22] outro para avaliar tecnicamente, acho
+[35:24] que é algo que a gente pode compartilhar
+[35:26] bastante. Seu grupo ajuda muito, né?
+[35:28] &gt;&gt; Grupo que você criou aí, essa essa
+[35:30] comunidade que você tá criando, acho que
+[35:32] &gt;&gt; traz isso para pra gente.
+[35:34] &gt;&gt; Dá um ânimo a mais, dá um ânimo a mais.
+[35:36] Provar as coisas que
+[35:38] amigos estão fazendo. Dá um ânimo. Eu já
+[35:41] tô aqui com mais esperança de que um dia
+[35:43] eu vou fazer um negócio bom.
+[35:46] Certamente, pode ter certeza.
+[35:48] &gt;&gt; Mas excelente, cara. Muito bom. Eu tô
+[35:50] super honrado de ter aqui essas essas
+[35:53] joias aqui. Tô animado para usar
+[35:56] pessoalmente, que eu gosto. Eu ainda,
+[35:58] como eu ainda não sou muito um bom
+[36:00] perfumista, eu uso perfumes. Quando eu
+[36:02] virar um bom perfumista, eu não vou usar
+[36:04] mais. Então, tem que aproveitar.
+[36:06] &gt;&gt; Tô brincando, claro. Mas assim, eh, tô
+[36:09] muito animado para usar mesmo isso aqui,
+[36:11] velho. Caramba. E olha que assim,
+[36:13] compartilhando Daniel, eu sou bem chato
+[36:15] com perfume, assim,
+[36:17] &gt;&gt; eu para eu gostar de um perfume, é, é
+[36:21] muito difícil, velho. Eu provo um bilhão
+[36:23] de perfume no shopping. Nenhum assim, a
+[36:26] maioria, eu boto na pele, que negócio
+[36:29] estranho e tal. Mas esses os três aqui,
+[36:33] o primeiro, eu confesso, ele ele é mais
+[36:35] cheiroso na fita do que na minha pele
+[36:37] para mim. E talvez tenha algo com a
+[36:39] minha pele. Sim.
+[36:42] Ele é bom, mas assim, para mim tá num
+[36:46] num estágio antes do dos outros, sabe?
+[36:48] Os outros eu fiquei empolgado. Os outros
+[36:51] &gt;&gt; eu me empolguei. Esses outros aqui, né?
+[36:54] Eh, esse ele tá bom, mas assim, eu não
+[36:57] sei se foi com a minha pele, não
+[36:58] encaixou tanto,
+[37:00] mas assim, esses outros dois aqui é do
+[37:03] nível assim, se eu visse, se eu
+[37:04] testasse,
+[37:06] provavelmente eu eu pensaria em comprar.
+[37:09] &gt;&gt; Que bom. Eu pensaria em comprar esses
+[37:11] dois aqui. Eu pensaria em comprar com
+[37:13] certeza. em especial o primeiro ou o
+[37:15] primeiro não, o três, porque ele ele tem
+[37:19] algo que eu gosto, que é essa parte
+[37:22] amadeirada e buzi, só que sem a parte
+[37:25] que eu não gosto, que é a parte que
+[37:27] lembra que lembra remédio, aquele
+[37:29] negócio meio coisado assim,
+[37:31] &gt;&gt; que eu pessoalmente não curto muito. Eh,
+[37:35] e eu gosto dessa vibe assim,
+[37:39] eh, ter esse cheiro aqui, você sair
+[37:41] cheirando aí, isso aqui é muito
+[37:43] interessante. Achei muito bom, muito
+[37:45] maduro, mas sem ser datado, sabe?
+[37:47] &gt;&gt; Sim, sim.
+[37:48] &gt;&gt; Ele, esse terceiro, ele é maduro, mas
+[37:50] não é datado.
+[37:52] É muito legal, cara. Excelente. Tô muito
+[37:54] honrado e eu acho que valeu muito de
+[37:57] aprendizado, incentivo aí para todo
+[37:58] mundo que tá assistindo, pra gente não
+[38:00] desistir, pra gente eh continuar
+[38:03] treinando, treinando, praticando,
+[38:05] testando, fazendo experimento,
+[38:07] aprendendo. E uma hora às vezes demora
+[38:10] dois anos, como foi com esse primeiro.
+[38:13] Às vezes é na primeira, como foi no no
+[38:16] último aqui. E às vezes demora um tempo
+[38:18] médio, né? demora uns 6 meses, 10 meses,
+[38:20] um ano. Então assim,
+[38:22] &gt;&gt; eh, não tem uma regra clara, né? Eu acho
+[38:25] que a gente aprendendo,
+[38:27] &gt;&gt; eh, aproveitar o processo, que eu acho
+[38:29] que é uma coisa que eu aprendi muito
+[38:30] contigo também, a gente aprender a
+[38:32] aproveitar o processo de aprendizado, de
+[38:34] teste, de descoberta e não ter pressa,
+[38:38] né? Deixar o tempo que com o tempo vai
+[38:40] chegar, né? um tempo a gente chega num
+[38:43] projeto que realmente a gente diga:
+[38:45] "Não, agora cheguei no momento certo de
+[38:48] liberar isso aí para para o público, né?
+[38:51] Então, muito legal. E é isso. Eu quero
+[38:53] te agradecer, Daniel. Muito obrigado,
+[38:55] meu irmão. Estamos junto demais. Em
+[38:57] breve espero mandar os meus aí para você
+[38:59] testar também.
+[39:01] &gt;&gt; Eh, tamos junto. Tem alguma mensagem que
+[39:03] tu queira deixar aí pro final?
+[39:05] &gt;&gt; Quero agradecer também o espaço aqui,
+[39:06] né, pra gente também conversar, trocar
+[39:09] ideia, né? agradecer pelo pela sua
+[39:11] iniciativa em juntar essa galera de de
+[39:14] fazer perfume, de compartilhar tudo isso
+[39:16] que a gente sente, né? E falar pro
+[39:18] pessoal também para não desanimar, né?
+[39:20] Que é um processo, faz parte do
+[39:22] processo, dá tudo errado, dá tudo certo.
+[39:25] Faz parte do processo a gente comprar às
+[39:26] vezes um óleo essencial contaminado,
+[39:28] porque a gente não sabe tudo que tá
+[39:29] fazendo às vezes, né? E aí tem a
+[39:31] comunidade do Víor para vocês tirarem
+[39:33] dúvida sempre. Víor é um cara super
+[39:36] paciente e tranquilo, porque às vezes
+[39:38] entram pessoas novas no grupo todos os
+[39:40] dias, né? E às vezes a as perguntas são
+[39:43] eh repetitivas e Víor com maior
+[39:46] paciência sempre tá respondendo, a
+[39:48] galera também sempre, né? Então para
+[39:50] vocês que que tão chegando agora, eu
+[39:52] acho que não tenho vergonha de perguntar
+[39:54] porque tá todo mundo aprendendo. Eu
+[39:56] também tô aprendendo, eu não sei tudo
+[39:57] sobre perfumaria. Então a gente tem que
+[40:00] entender que é um aprendizado constante,
+[40:02] né? e que a gente tá aberto também para
+[40:05] tirar dúvidas, né? Então vocês podem me
+[40:06] procurar também, tirar alguma dúvida. Eu
+[40:08] não sei tudo, mas tudo que tá ao meu
+[40:10] alcance de experiência eu quero
+[40:11] compartilhar com vocês também. E
+[40:13] obrigado.
+[40:14] &gt;&gt; Maravilha. Bom demais. É isso aí, gente.

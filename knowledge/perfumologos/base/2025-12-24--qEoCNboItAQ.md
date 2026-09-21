@@ -1,0 +1,413 @@
+# Fixação e Curva de Evaporação | Estudos de Perfumaria #1
+
+- **vídeo**: https://youtu.be/qEoCNboItAQ
+- **publicado**: 2025-12-24
+- **duração**: 16min38
+
+## Descrição do autor
+
+Como aumentar a fixação de um perfume? Essa é a resposta que todos buscamos. Nesse vídeo você vai entender tudo sobre fixadores.
+
+Fixadores, fixação, substantividade e curva de evaporação: aprenda os conceitos básicos de perfumaria e entenda como funcionam os perfumes.
+
+
+Lojas que confio e recomendo:
+Perfumístico (CUPOM PERFUMOLOGOS2025): https://www.perfumistico.com.br/
+Flavorist (CUPOM PERFUMOLOGOS): https://flavorist.com.br/
+Euperfumista (cupom PERFUMOLOGOS10): https://www.euperfumista.com.br/?utm_source=perfumologos
+
+📖 Grupo de Estudos no whatsapp: disponível para membros nível 2!
+
+## Transcrição
+
+[00:00] Hoje a gente vai falar sobre fixação de
+[00:04] perfume e você também vai entender um
+[00:06] conceito bem importante para entender
+[00:09] fixação, que é o conceito de curva de
+[00:11] evaporação. Então, a gente vai conversar
+[00:14] sobre esse conceito básico de perfumaria
+[00:17] voltado para quem tá fazendo criação de
+[00:20] fragrâncias, para quem tá criando
+[00:22] perfume, eh, fazendo em casa e quer ter
+[00:26] um método, quer ter um conhecimento a
+[00:29] nível indústria, a nível perfumista. Eh,
+[00:31] e a gente vai falar sobre isso aqui
+[00:33] hoje. E quem sou eu? Bom, eu sou eh,
+[00:36] Víor Lopes, dono aqui do canal
+[00:38] Perfumologos.
+[00:39] E eu tô aqui nessa jornada eh como um
+[00:42] hobby mesmo de conhecer, de estudar
+[00:45] sobre perfumaria, sobre criação de
+[00:47] perfume. E tô aqui hoje para
+[00:49] compartilhar meu conhecimento com vocês
+[00:51] e a gente fazer uma troca aí também de
+[00:53] tudo que a gente tem aprendido aqui nos
+[00:55] comentários, beleza? Eh, vamos então
+[00:57] começar falando sobre essa história de
+[01:00] fixação, tá? Vamos começar falando sobre
+[01:02] fixação. O que é um perfume? E pra gente
+[01:06] começar a falar sobre fixação, vamos
+[01:07] entender o que que é um perfume, tá? É
+[01:10] um perfume, ele vai ser uma mistura, ele
+[01:13] vai ser ali uma solução que a gente vai
+[01:16] ter o que tá eh diluindo ali, né? Que
+[01:19] seria o solvente, que no nosso caso aqui
+[01:21] a gente tá falando sobre eh perfumes
+[01:24] hidroalcoólicos. Então ela geralmente um
+[01:26] solvente que é álcool, álcool e um pouco
+[01:29] de água. Geralmente se utiliza eh álcool
+[01:33] 97 ou então álcool 100% e adiciona um
+[01:37] pouco de água, mas em geral é isso, né?
+[01:39] Álcool e água seria o solvente. E você
+[01:43] tem ali o resto que é a fragrância, tá?
+[01:46] E aí a fragrância e dentro da fragrância
+[01:49] a gente poderia quebrar e aí a gente vai
+[01:52] ter vários componentes que varia muito
+[01:54] de fragrância para fragrância, né? Eh,
+[01:56] geralmente a fragrância vai ter uma
+[01:58] mistura de componentes naturais e
+[02:00] componentes sintéticos quando é um
+[02:01] perfume eh comercial, né? Existe também
+[02:05] os perfumes que são 100% naturais,
+[02:08] existem perfumes que são 100% sintéticos
+[02:11] e é mais ou menos isso aí que compõe um
+[02:13] perfume. Beleza? E o que é que faz então
+[02:16] alguns perfumes durarem mais que outros
+[02:19] perfumes? Aqui a gente precisa entender
+[02:22] que existem perfumes que eles têm
+[02:24] matérias primas que eles que el essas
+[02:27] matérias primas elas duram mais, tá?
+[02:30] Isso não significa que sejam
+[02:32] matériaspras caras, certo? É uma
+[02:35] confusão que acontece muito no mercado.
+[02:38] Tem muito, muitas pessoas que avaliam
+[02:40] perfume que às vezes associam o preço do
+[02:43] perfume com a matéria-prima fixar mais e
+[02:46] isso não é uma relação direta, beleza?
+[02:49] &gt;&gt; [roncando]
+[02:49] &gt;&gt; Eh, o preço, na verdade, sobe quando
+[02:52] você tem matérias primas que elas são
+[02:54] mais exclusivas ou que elas são mais
+[02:57] escassas ou que elas são até mesmo eh
+[03:01] cativas, que a gente chama, né, que são
+[03:03] matérias primas que somente determinados
+[03:07] fabricantes podem comprar essas matérias
+[03:09] primas, certo? Ou então só a fabricante
+[03:12] é que pode usar aquela matéria-pra. ela
+[03:14] não pode vender para outras pessoas, ela
+[03:16] tem ali a exclusividade daquela
+[03:18] molécula.
+[03:20] Então isso é o que faz a matéria prima
+[03:22] ser mais cara, não significa que ela
+[03:24] fixa mais. Beleza? Eh, então é isso.
+[03:27] Dentro do perfume vai ter a fragrância.
+[03:30] A fragrância ela pode ter matériaspras
+[03:33] que se fixam mais ou menos. O que faz um
+[03:35] perfume fixar muito são matériaspras que
+[03:38] têm essa propriedade de fixar muito, que
+[03:41] a gente chama de substantividade, tá?
+[03:44] Então, substantividade é exatamente o
+[03:46] que faz eh uma molécula ela ficar muito
+[03:49] tempo aderida numa superfície, seja
+[03:51] pele, seja tecido, tá bom? E o segundo
+[03:55] motivo que pode fazer uma uma fragrância
+[03:57] fixar muito é a concentração da da
+[04:01] fragrância, né? a concentração ali do
+[04:04] concentrado, né, da daquela essência de
+[04:06] perfume que a gente chama. Então, quanto
+[04:09] mais concentrado, ele tende a fixar
+[04:13] mais, mas também não é uma regra, tá?
+[04:14] Não é uma regra. E por que que não é uma
+[04:17] regra? Porque que tem parfã que às vezes
+[04:20] fixa menos que algum EDT, algum toalet
+[04:24] que vende de outra marca, de outro
+[04:25] modelo, de outra de outra criação. Por
+[04:28] que que isso acontece? Isso acontece por
+[04:30] um conceito chamado curva de evaporação,
+[04:34] tá? Então eu vou vou falar aqui, vou
+[04:36] falando e a gente vai falar, vai ver
+[04:38] também alguns gráficos para entender
+[04:40] essa curva de evaporação.
+[04:42] Eh, então todo perfume, ele vai ser essa
+[04:45] mistura, né, de moléculas que duram
+[04:47] mais, moléculas que duram menos.
+[04:51] Então, moléculas que duram mais são
+[04:53] moléculas com maior substantividade.
+[04:56] Moléculas que duram menos são moléculas
+[04:58] com menos substantividade. E aí isso é o
+[05:01] que vai geralmente fazer aquela curva
+[05:04] que a gente chama de notas de topo ou
+[05:06] até mesmo notas de saída. a gente vê
+[05:09] notas de corpo ou também notas de
+[05:11] coração e notas de base ou notas de
+[05:13] fundo, como tem nesse gráfico aqui que a
+[05:16] gente vê a curva de evaporação. Então,
+[05:18] assim que o perfume é aplicado, a gente
+[05:21] vê um impulso ali de notas de saída,
+[05:23] notas de topo, que elas evaporam
+[05:26] rapidamente, ou seja, elas têm pouca
+[05:28] substantividade, elas duram pouco na
+[05:30] superfície, depois elas vão evaporando e
+[05:33] vai vindo as notas de meio, depois vai
+[05:36] vindo as notas de base, notas de fundo.
+[05:39] Beleza? Então isso é uma curva de
+[05:40] evaporação. Então você pode ter um
+[05:42] perfume que ele simplesmente ele é muito
+[05:46] fresco, ele é muito eh, sabe, cítrico e
+[05:50] aí ele vai evaporar rápido. Mesmo que
+[05:52] você faça um parfã, ele vai ter uma
+[05:55] curva de evaporação que ele é muito
+[05:58] rápido no notas de topo e corpo porque é
+[06:00] uma propriedade do cheiro, né?
+[06:02] Geralmente perfumes que eles são mais
+[06:05] frescos, eles são mais eh a eh cítricos,
+[06:10] eles vão ter ali uma duração curta, eles
+[06:13] vão eles vão evaporar mais rápido.
+[06:16] Então, mesmo que você faça um parfã, um
+[06:18] extrato de parfã, não adianta. a
+[06:21] propriedade das moléculas é evaporar
+[06:23] logo, enquanto que eh perfumes que eles
+[06:26] são mais densos, resinosos,
+[06:29] eh doces, amadeirados, são notas que as
+[06:34] moléculas, as moléculas doces, as
+[06:37] moléculas amadeiradas, as moléculas
+[06:39] resinosas, elas têm a propriedade disso,
+[06:43] tem uma alta substantividade, então elas
+[06:45] vão sempre durar muito. Então, se você,
+[06:49] às vezes você pode ter um EDT, mas que
+[06:51] ele é muito amadeirado,
+[06:53] resinoso e que ele consegue prolongar
+[06:56] bastante o perfume, porque não porque
+[06:59] ele tem uma concentração alta, mas
+[07:00] porque as moléculas que tem, as poucas
+[07:03] que tem, elas fixam bastante, tá? Então
+[07:05] isso é a curva de evaporação. E é por
+[07:08] isso que alguns parfãs eles podem durar
+[07:11] menos que algum outro EDT, algum outro
+[07:14] adetal, beleza? Então, eh, curva de
+[07:17] evaporação é isso. E aí você entende que
+[07:21] uma curva de evaporação que tem muita
+[07:23] nota de topo, o que acontece? Ele
+[07:24] evapora mais. Em contrapartida, uma
+[07:27] curva de uma uma fragrância que ela tem
+[07:29] uma curva de de evaporação que foca nas
+[07:31] notas de base, nas notas de fundo, eh
+[07:35] vai ser uma uma um perfume que ele vai
+[07:38] projetar menos.
+[07:40] Então, em geral, né, o normal é que
+[07:43] exista uma relação inversa entre
+[07:46] projeção e fixação.
+[07:48] Geralmente quando você quer fixar um
+[07:51] perfume, você acaba abrindo mão de um
+[07:54] pouco de projeção e vice-versa. Às vezes
+[07:57] você quer mais projeção, você vai perder
+[07:59] um pouco, eh, você vai abrir um pouco
+[08:02] mão de fixação, porque um perfume você
+[08:05] vai precisar balancear essas eh essas
+[08:08] equações, né? Você precisa balancear
+[08:11] moléculas que duram muito, mas que não
+[08:13] projetam e por isso duram, né? É
+[08:16] importante entender isso que por que a
+[08:18] molécula fixa muito é porque ela não
+[08:20] evapora.
+[08:22] Ou seja, não evapora. Provavelmente, na
+[08:25] maioria dos casos, elas também não são
+[08:27] facilmente percebidas no ambiente pelo
+[08:29] nariz, no ar. Elas não ficam exalando no
+[08:32] ar e por isso elas fixam. Então,
+[08:36] geralmente você quer, você vai aumentar,
+[08:38] vou botar muito fixador aqui, muitas
+[08:40] moléculas que fixam. Vou botar aqui um
+[08:43] monte de molécula pesada, densa,
+[08:44] amadeirada. Em geral vai virar um
+[08:46] perfume muito denso e que não vai ter
+[08:50] camada, não vai ter expansão, não vai
+[08:51] ter projeção, não vai ser notado, vai
+[08:54] ficar muito rente à pele porque fixa
+[08:56] demais e não tem aquela projeção do
+[08:58] começo, tá? Então o perfumista ele
+[09:02] precisa eh balancear isso. É quase que
+[09:05] você estruturar ali, arquitetar eh essa
+[09:09] criação. É uma é um equilíbrio muito
+[09:11] sutil. Às vezes uma uma pouca você
+[09:15] acrescentar um pouco de uma molécula
+[09:17] pode desequilibrar e trazer muito topo
+[09:19] pro seu perfume ou então apagar muito o
+[09:22] seu perfume, fixando ou abaixando muito
+[09:25] a volatilização, a evaporação do
+[09:27] perfume.
+[09:29] E aí a gente vai [roncando] para um
+[09:31] outro conceito que é esse efeito
+[09:33] fixador.
+[09:35] É, o efeito fixador é quando uma
+[09:37] molécula ela é acrescentada ali no na
+[09:39] sua mistura, no perfume, e essa
+[09:42] molécula, ela pode conseguir se ligar,
+[09:45] fazer ligações ali mais fracas, né, com
+[09:47] outras moléculas de alguma maneira, que
+[09:50] acaba eh diminuindo também essa curva de
+[09:53] evaporação. Ou então essa molécula, ela
+[09:55] pode estar ali por cima diminuindo a
+[09:57] superfície de contato com o ar. e por
+[10:00] vários meios químicos e físicos, essas
+[10:03] moléculas elas podem diminuir a taxa de
+[10:05] evaporação e podem prender um pouco
+[10:08] também as moléculas que são voláteis. E
+[10:11] aí isso provoca o quê? Provoca a o
+[10:14] prolongamento de algum cheiro, sendo que
+[10:17] isso geralmente sacrifica. Lembra que a
+[10:19] gente falou, né? Evapora muito, fixa
+[10:22] pouco. Evapora pouco, fixa muito. Então,
+[10:25] às vezes, esse efeito fixador geralmente
+[10:27] ele tá acompanhado de uma mudança na
+[10:29] curva de evaporação. Então, você
+[10:31] adiciona uma molécula que que tem um
+[10:33] efeito fixador de se ligar a outras
+[10:36] moléculas e tal ou diminuir a taxa de
+[10:39] evaporação.
+[10:40] E aí você vai eh sacrificar um pouco
+[10:43] desse pant inicial, dessa projeção,
+[10:46] dessa expansividade do perfume. você
+[10:48] sacrifica isso e aí você consegue
+[10:50] prolongar um pouco o efeito. Eu vou
+[10:52] trazer aqui um gráfico que eu encontrei,
+[10:54] é onde a gente vê exemplos, né? A gente
+[10:57] vê um exemplo da lavanda, do óleo
+[10:59] essencial de lavanda misturado com ácido
+[11:02] transcinâmico, que tá em verde, eh, a
+[11:05] linha verde, a gente vê a lavanda com
+[11:07] benzofenona, que é a linha, não lembro
+[11:10] qual a cor, mas tá aí. Eh, e a gente tem
+[11:12] lavanda com álcool somente, que seria o
+[11:14] vermelho, tá? E aqui a gente consegue
+[11:16] ver, por exemplo, a lavanda com ácido
+[11:19] transcinâmico, que é o verde, a linha
+[11:21] verde, ele vai ter menos projeção.
+[11:24] Aquele pant ali de evaporar muito no
+[11:26] começo, você vê que ele abaixa um pouco,
+[11:29] porém ele prolonga a linha depois, então
+[11:31] ele consegue aumentar a fixação. Então
+[11:33] ele sacrificou um pouco ali da projeção,
+[11:36] aumentou a fixação.
+[11:38] Já a lavanda com a benzofenona, ela teve
+[11:41] efeito curioso que ela conseguiu
+[11:43] aumentar o efeito, né, aumentar,
+[11:45] prolongar a projeção e também prolongar
+[11:48] a fixação, tá? Então a gente vê que as
+[11:51] moléculas vão ter interações diferentes,
+[11:53] só que o pulo do gato assim que muita
+[11:56] gente não percebe, né? principalmente o
+[11:58] pessoal que tá muito no mundo de criação
+[12:00] de de fazer perfume com contratipo, com
+[12:03] essência de contratipo, é porque às
+[12:05] vezes o pessoal não se toca de que tanto
+[12:08] a o ácido transcinâmico aqui nesse caso
+[12:11] quanto a benzofenona, eles acrescentam
+[12:13] cheiro. Então eles vão acrescentar
+[12:15] perfil ofativo, eles vão acrescentar ali
+[12:17] um cheiro diferente, um aspecto
+[12:19] diferente pro perfume. E na hora de um
+[12:22] perfumista fazer um perfume, cada
+[12:23] detalhe, cada nuance vai importar muito.
+[12:27] Então, às vezes um benzofenona, ela vai
+[12:29] acrescentar um toque rosado, gerâo,
+[12:32] metálico, que às vezes não é o que você
+[12:34] quer, não é o efeito que você quer.
+[12:36] Então prolonga, só que prolonga com um
+[12:39] cheiro que não é o que você deseja, não
+[12:40] é o que a sua criação pede. Então, é
+[12:43] exatamente o grande, a grande arte, né,
+[12:45] do perfumista é conseguir mexer com e
+[12:48] com tudo isso, ao mesmo tempo que cria
+[12:51] uma fragrância que faz sentido, que
+[12:54] corresponde à sua intenção, ao que você
+[12:56] tem em mente. E é realmente um grande
+[12:58] desafio, uma grande arte, requer muito
+[13:00] teste, muito experimento, muito
+[13:02] aprendizado. Eh, e mas é assim, é muito
+[13:05] legal também quando você consegue fazer
+[13:07] isso, você alcança resultados incríveis.
+[13:10] E uma sugestão de teste básico para você
+[13:13] entender o efeito fixador é você pegar
+[13:16] uma uma molécula que geralmente ela fixa
+[13:18] menos, ou um, por exemplo, um óleo
+[13:20] essencial de bergamota, de laranja,
+[13:22] limão, que eles duram menos em geral, e
+[13:26] você misturar com bastante musk, por
+[13:29] exemplo, um musk tea e um galaxolid,
+[13:31] você faz uma mistura ali 5050, né? 50%
+[13:34] 50%. mistura, espera ali um, dois dias e
+[13:38] aí você coloca na sua pele, em uma mão,
+[13:40] bota a mistura e na outra mão você
+[13:43] coloca só a bergamota. E aí você compara
+[13:46] o cheiro ao longo do tempo e você vai
+[13:48] perceber que o galaxolíde ou qualquer
+[13:50] outro musk em geral, ele vai ajudar a
+[13:53] diminuir essa projeção, mas também ele
+[13:55] vai prolongar um pouco mais o efeito, a
+[13:58] sensação da fruta, né, da da nota de
+[14:00] bergamota. ele prolonga um pouco, só que
+[14:03] ele também adiciona o cheiro, então ele
+[14:05] também vai adicionar o fundo ao
+[14:06] mescarado e tudo mais. Beleza? Outra
+[14:10] forma de se usar um efeito fixador,
+[14:12] outra forma de você fixar o perfume, eh,
+[14:16] é uma forma bem mais estratégica e mais
+[14:18] avançada também, é uma técnica mais
+[14:20] avançada, que seria você mesclar, eh,
+[14:24] moléculas e e produt produtos, né,
+[14:28] matériapra que fixa mais,
+[14:31] eh, só que matériaspras que fixam mais e
+[14:34] matérias primas que fixam menos, mas que
+[14:36] elas são parecidas ou que elas têm
+[14:38] relação uma com a outra. com a outra,
+[14:40] tá? Por exemplo, a gente tem o acetato
+[14:42] rosa, que é uma matéria-pra muito de
+[14:46] flor, de rosa, eh, sendo que é uma
+[14:49] matéria-pra que dura muito, tá? dura
+[14:52] muito, mas é também bastante sintético.
+[14:54] Então você pode unir, por exemplo, uma
+[14:58] uma reconstituição de rosa, que
+[14:59] geralmente é uma nota de de corpo, não
+[15:01] dura tanto assim, e você acrescenta um
+[15:04] acetato rosa e você vai prolongar o
+[15:06] efeito de rosa, você vai dar uma
+[15:07] impressão, é quase que a ilusão mesmo,
+[15:10] você tá iludindo a pessoa que tá ali
+[15:12] sentindo o cheiro. Ela acha que a rosa
+[15:14] ela tá durando muito, mas na verdade é
+[15:16] só uma nota que sobrou. Você tem a rosa
+[15:19] toda no começo, depois sobra só aquela
+[15:22] nota sintética,
+[15:24] eh, de uma nota só, né? Aquela coisa bem
+[15:27] simples, mas que para quem tá cheirando,
+[15:29] ele ele sente que a rosa tá prolongando,
+[15:32] mas não é. Na verdade, é uma quase que
+[15:34] uma ilusão que você cria e que fica
+[15:36] legal, que fica bom, né? é uma ilusão
+[15:38] boa, digamos assim, porque você tá, é,
+[15:40] dando essa impressão de de longevidade
+[15:42] da nota de rosa. Tem, por exemplo,
+[15:44] lemonile, que pode prolongar um aspecto
+[15:47] cítrico de limão e tal. [roncando] Você
+[15:50] pode usar um pouquinho para prolongar
+[15:51] esse efeito. Claro que com cuidado, né?
+[15:53] Porque vai mudar o cheiro também. Eh,
+[15:56] enfim, a aldeí do C10, C12 pode
+[15:59] prolongar, Vera para prolongar o efeito
+[16:02] de musgo. Então, em geral, é isso, tá
+[16:04] gente? Então ficou faltando aqui a gente
+[16:06] falar sobre limar e difusividade, que
+[16:09] são dois conceitos importantes que a
+[16:11] gente vai ver no próximo vídeo, beleza?
+[16:14] Então obrigado a todo mundo que esteve
+[16:15] acompanhando até aqui. Lembrem-se que a
+[16:17] gente tem um grupo de estudo no WhatsApp
+[16:20] disponível só para membros nível dois
+[16:22] aqui do canal. Então, se você também tem
+[16:24] interesse em aprender a estudar sobre
+[16:27] perfumaria, eh, de forma profissional,
+[16:30] recomendo que você se torne membro e
+[16:32] entre lá no grupo pra gente conversar e
+[16:34] ir tirando dúvidas, beleza, gente?
+[16:36] Valeu, até o próximo vídeo.

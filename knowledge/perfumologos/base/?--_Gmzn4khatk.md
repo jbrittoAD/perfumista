@@ -1,0 +1,479 @@
+# _Gmzn4khatk
+
+- **vídeo**: https://youtu.be/_Gmzn4khatk
+- **publicado**: ?
+- **duração**: 0min00
+
+## Transcrição
+
+[00:00] Chegou a hora da gente revisar esse
+[00:02] perfume aqui que eu recebi do atelier
+[00:06] Segal e Ibaruti, uma casa de perfume de
+[00:10] nicho brasileira e que traz fragrâncias
+[00:13] há mais de 10 anos, que são fragrâncias
+[00:17] eh muito únicas, que tem o seu DNA, tem
+[00:21] a sua assinatura. Eh, e uma casa que já
+[00:24] começo falando de cara, que se você é um
+[00:27] amante de perfumaria, se você coleciona
+[00:30] perfume, se você principalmente gosta de
+[00:33] perfumes que t nuances mais naturais,
+[00:36] né, que ele se ele se distancia bastante
+[00:39] do cheiro de perfumes muito comerciais,
+[00:41] né, esses perfumes que a gente vê de
+[00:43] designer, perfumes, não sei, um Dior, um
+[00:47] Chanel, se você acha que já tá tudo
+[00:49] muito batido, eh, e que você ou então
+[00:51] Boticário, também Natura e acha tudo
+[00:53] muito batido, eh, muito sintético. Isso
+[00:57] aqui ele vai realmente pro lado do
+[00:59] nicho. Então, é algo muito diferente. Eu
+[01:03] já tenho que começar falando isso desse
+[01:06] desses perfumes da Sega e Barut. São
+[01:09] perfumes bem diferentes, com a
+[01:11] construção, com a proposta, um conceito
+[01:13] que são bem exclusivos. Então, de cara,
+[01:17] eu já digo, não esperem eh um perfume
+[01:20] parecido com designers. Eh, ele vai em
+[01:24] outra linha, eh, realmente numa linha de
+[01:27] arte de perfumaria em um conceito um
+[01:30] pouco diferente. O perfume que a gente
+[01:33] vai trazer hoje é o primeiro dessa série
+[01:36] de avaliações da Casa Segal e Barut, que
+[01:38] é o Cannabis Blue. Eu recebi deles eh eu
+[01:42] acho que cerca de seis fragrâncias, eu
+[01:44] não lembro de cabeça, e eu pretendo
+[01:47] trazer uma resenha de todas, tá? Eu só
+[01:50] peço desculpas até pro pessoal, né, da
+[01:52] casa que eu tô demorando para trazer
+[01:55] porque o meu ritmo de trabalho, eh, e
+[01:58] outros compromissos em geral, assim, tá
+[02:00] bem corrido. E aí, às vezes, no tempo
+[02:03] livre que eu que eu tenho ali, eu tento
+[02:05] fazer teste de perfumaria, criar
+[02:06] acordes, eh fazer teste no perfume que
+[02:09] eu tô criando e aí às vezes não sobra
+[02:11] tempo para eh avaliar com mais calma. Eu
+[02:15] não gosto de trazer uma uma resenha só
+[02:17] por trazer. Então, realmente, eu tô
+[02:19] trazendo com muito carinho, muito, muita
+[02:21] atenção essa resenha aqui, tá? Para ser
+[02:24] muito eh para aproveitar bem tudo que a
+[02:27] gente tem a a oferecer aqui com esse
+[02:31] perfume. Já eu quero trazer aqui
+[02:33] informação interessante eh no unboxing,
+[02:37] né? Eh, tem aí um shorts sobre o
+[02:40] unboxing aqui dessa fragrância. Eu achei
+[02:43] uma coisa muito interessante que fala
+[02:46] aqui no briefingzinho, no card que vem,
+[02:48] fala que é um um perfume sem álcool,
+[02:52] certo? é um perfume sem álcool que tem
+[02:55] 38% de insumos orgânicos
+[02:58] e eh 100% vegano, mas acho que a maioria
+[03:02] dos perfumes hoje em dia são 100%
+[03:04] vegano, porque eh hoje em dia matérias
+[03:08] primas com origem animal na perfumaria
+[03:12] é muito raro, muito raro, porque é muito
+[03:14] caro também, né? Então tudo tem ali uma
+[03:17] origem química, eh, indústria,
+[03:20] sintética, etc.
+[03:22] Eh, mais tem 38% de insumos orgânicos.
+[03:26] Uma coisa que eu não entendi é se
+[03:30] total de produto pronto, né? Ou seja,
+[03:34] disso aqui, 38% é é insumos orgânicos.
+[03:39] Eh, o que eu acharia estranho, porque
+[03:41] álcool é orgânico, então se fosse um
+[03:44] perfume feito de álcool ia ser 90%
+[03:47] eh um negócio orgânico, né?
+[03:49] Aí fica de dúvida aí pro pessoal se 38%
+[03:53] é da construção da fragrância ou se é
+[03:55] 38% do produto pronto, tá? Isso foi a
+[03:59] primeira dúvida que eu tive, mas eu
+[04:01] imagino que como ele é um perfume feito
+[04:03] à base de
+[04:05] eh sem álcool, ele deve usar outro
+[04:07] veículo que eu não sei qual é. Eu não
+[04:09] sei se não tem eu não vi nenhuma
+[04:11] informação se o veículo é sei lá
+[04:15] de propileno glicol. Não sei se se eles
+[04:18] usam isso, não faço a menor ideia, mas
+[04:20] de toda forma tá aí uma coisa bem
+[04:22] interessante sobre um perfume, né? Eh,
+[04:24] bom, perfume cannabis blue, eu gostei
+[04:26] muito do unboxing, eu gostei também da
+[04:30] do frasco, tá? Apesar de que eu fui ver
+[04:33] que isso aqui de cima é igual a um
+[04:35] perfume, ah, ele é igual ao perfume My
+[04:38] Way, né? Então, esse negocinho daqui,
+[04:41] ele tá igual ao perfume MyWay, que é um
+[04:44] perfume designer. Então, mas assim, se
+[04:46] eu não conhecesse o My Way, eu achei
+[04:48] muito bonitinha essa essa essa embalagem
+[04:52] aqui, essa esse frasco. E achei que
+[04:54] super combinou com o conceito do
+[04:56] perfume, inclusive, tá? Eu achei que
+[04:58] super combinou. A única coisa que eu não
+[04:59] gosto muito, particularmente falando, é
+[05:03] do design que eles que eles usam, não só
+[05:06] na comunicação do site, etc., mas nos
+[05:09] rótulos, né? Então, essa construção de
+[05:12] elementos visuais, de tipografia,
+[05:16] eh até a logomarca, eu acho que assim tá
+[05:18] tudo eh precisando de uma atualização.
+[05:21] Eu acho que a marca merece uma
+[05:23] atualização mais profissional, mais
+[05:26] assim eh da parte visual, beleza? Mas é
+[05:29] uma opinião minha, pode ser que eles
+[05:31] eles mantenham assim para dar essa ideia
+[05:33] de coisa feita em casa, eh de algo feito
+[05:36] à mão, né? Eh, mas assim, pessoalmente
+[05:39] falando, eu acho muito importante uma
+[05:41] embalagem transmitir eh uma coisa de
+[05:45] exclusividade, uma coisa mais elegante,
+[05:47] mais sofisticada, requintada e eu acho
+[05:49] que vale a pena, tá? Fica de dica pro
+[05:52] pessoal da Segal e Baruti. Eh, vocês
+[05:56] eventualmente pensarem em alguém para
+[05:58] dar um refresh, uma atualizada na ID
+[06:01] visual de vocês. Não necessariamente
+[06:03] vocês precisariam ir para alguma coisa
+[06:05] fora do que vocês já gostam, mas só
+[06:07] realmente dá uma revitalizada. Eu acho
+[06:09] que vale a pena. Beleza? Mas é opinião
+[06:11] pessoal minha. Agora vamos lá pra parte
+[06:13] que importa mais, que é o cheiro. E eu
+[06:15] vou falar antes um um breve briefing
+[06:17] aqui desse perfume, tá? Esse aqui é o
+[06:20] perfume Cannabis Blue da do Atelier Cal
+[06:23] e Barut. É da coleção Liquid Jury, que
+[06:27] comemora os 10 anos da casa. Então, acho
+[06:30] que foi lançado em 2024. Eh, mas esse
+[06:33] lote que eu tenho é de 2025
+[06:36] e é um perfume que eh na minha ótica, eu
+[06:39] não vi isso escrito, tá? Mas na minha
+[06:41] ótica ele é um perfume floral especiado,
+[06:46] né? Eu acho que seria mais ou menos esse
+[06:49] folor especiado fresco, porque a
+[06:51] especiaria que tem aqui, ela vai muito
+[06:54] no lado da especiaria fria, da
+[06:55] especiaria fresca, que é cardamomo,
+[06:58] gengibre, eh, e esse tipo de coisa, tá?
+[07:01] E quando a gente vai eh falar desse
+[07:04] perfume aqui, qual é a sensação geral?
+[07:08] Vou dar um breve resumo antes de gente
+[07:09] entrar na pirâmide. De fato, é um
+[07:12] perfume que ele vai sim trazer a ideia
+[07:15] da cannabis, mas ele vai trazer a ideia
+[07:17] da cannabis de uma forma diferente do
+[07:20] que a gente esperaria. Geralmente a
+[07:22] gente a gente pensa que vai ter um
+[07:24] cheiro realmente de, sei lá, alguém que
+[07:26] tá fumando, né, eh, canabis e tal. Mas
+[07:29] não é essa ideia aqui. É a ideia de uma
+[07:32] coisa mais eh inatura, certo? Então, é
+[07:36] como se fosse a cannabis, a flor de
+[07:38] cannabis, a a planta mesmo, né? Então, a
+[07:41] planta em natura eh de fato como é o
+[07:45] cheiro dessa matériapra dessa planta,
+[07:48] tá? Então, eh, a ideia é que seja um
+[07:51] perfume limpo também. Então, não é um
+[07:53] perfume que traz aquela coisa, eh, que
+[07:56] às vezes a gente no popular a gente pode
+[07:58] sentir assim de sei lá, de canabis na
+[08:01] rua ou sei lá o quê, que é aquela coisa
+[08:03] que às vezes tem até um cheiro que não é
+[08:05] tão agradável. A ideia aqui não é essa.
+[08:07] A ideia aqui é a parte agradável, eh,
+[08:10] natural, realmente floral, perfumada de
+[08:13] cannabis. Beleza?
+[08:15] Então, eh, e ele cumpre muito bem, eu já
+[08:17] adianto isso, ele cumpre muito bem essa
+[08:19] proposta de trazer uma cannabis natural,
+[08:22] limpa,
+[08:23] eh, e super interessante, um acorde
+[08:26] super interessante, tá? E vamos aqui
+[08:29] para a pirâmide ofativa, tá? No topo a
+[08:33] gente tem cardamomo, cannabis blue,
+[08:36] gengibre, elemi eu. E quando a gente
+[08:41] pega aqui e borrifa na pele, eu já vou
+[08:43] inclusive trazer uma eh opinião. Eu acho
+[08:47] que esse borrifador deles aqui, ele é um
+[08:50] pouquinho fraco. Ele borrifa não muito
+[08:55] líquido, né? E especificamente nesse
+[08:57] perfume, eu acho que você tem que sempre
+[09:00] borrifar duas vezes no em qualquer
+[09:02] lugar, porque o que ele borrifa em uma
+[09:05] vez só é pouco. Eu acho que ele borrifa
+[09:07] pouco. Então, duas borrifadas eu acho
+[09:09] que é o padrão. E aí, quando a gente
+[09:11] borrifa, o que que a gente realmente vai
+[09:13] pegar aqui? Tá bom? Vai vir basicamente
+[09:17] um acorde de dessa cannabis blue, que na
+[09:20] realidade é uma flor de cannabis. É como
+[09:22] se fosse a flor da cannabis em Natura. E
+[09:25] a gente vem, a gente pega isso junto com
+[09:28] Cardamomo, tá? Então ele vai trazer esse
+[09:32] especiado um pouco adocicado.
+[09:35] Então desde a saída ele já demonstra
+[09:37] essas facetas adocicadas da do
+[09:40] cardamomo. Eh, o gengibre eu não pego
+[09:43] ele muito, eu não não sinto ele muito
+[09:45] intensamente. Eh, o Lemi, eu também
+[09:50] talvez sabe, tem alguma nuance ali lá
+[09:53] atrás. Eh, mas é algo muito sutil, um
+[09:56] traço ali de alemia, um traço de zul,
+[09:59] não pego especificamente,
+[10:02] nada muito cítrico, tá? Deve deve ter
+[10:04] uma nuance ali escondida, misturada, um
+[10:07] pouquinho cítrica, um pouquinho amarga,
+[10:09] mas é algo bem bem suave que realmente
+[10:12] vai tomar conta da saída é o cardamomo
+[10:15] com leve do sol especiado e o a cannabis
+[10:19] trazendo esse acorde que é floral.
+[10:22] Eh, eu já tive um momento que eu peguei
+[10:24] essa nuance de topo e eu pensei que até
+[10:28] era quase como se fosse um mamba floral,
+[10:31] né? É quase como se fosse de tão tanto,
+[10:34] sabe quando você cheira alguma flor,
+[10:36] alguma coisa que ele tem vários
+[10:38] brilhozinhos?
+[10:39] Então eu acho que trouxe muito para mim
+[10:41] esse realismo, esse brilho inicial de
+[10:44] você cheirar uma flor em natura. Eh,
+[10:47] então acho que ele trouxe muito bem esse
+[10:49] realismo, eh, esse cheiro de flor e
+[10:51] floral e que pende para esse lado da
+[10:54] cannabis. Eu acho que ele conseguiu,
+[10:57] eles eles conseguiram trazer bem essa
+[10:59] impressão, certo? Eh, e aí essa flor de
+[11:02] cannabis, ela é basicamente um floral
+[11:05] que ele tem um toque herbal, então tem
+[11:08] aquela coisinha um pouco ardida, um
+[11:10] pouco brilhante. Eh, e ele também vai
+[11:13] trazer um leve, no começo ele traz bem
+[11:16] de leve, um certo atacado, mas muito
+[11:19] leve, muito suave. E é um acorde que ele
+[11:22] já começa seco, embora ele tenha uma
+[11:24] doçura do cardamomo, mas é uma doçura
+[11:26] seca, não é aquela coisa melada, eh,
+[11:29] açucarada, abaunilhada, não. Você não
+[11:32] vai encontrar nada de baunilha de
+[11:34] açúcar, mas é uma coisa realmente um
+[11:36] doçor do especiado junto com o doçor
+[11:40] dessa flor de canabis. No coração a
+[11:43] gente tem eh pimenta de cenchuan, cedro,
+[11:46] atlas, laranja sanguínea, gálbano e
+[11:48] raxich.
+[11:50] desse acorde todo aqui, o que que você
+[11:52] vai pegar já na secagem que tá aqui na
+[11:54] outra mão,
+[11:55] você vai pegar realmente e esse acorde
+[11:58] de flor de cannabis, ele vai secando,
+[12:01] ele vai se tornando um pouco menos
+[12:03] floral e ele vai se tornando um pouco
+[12:05] mais esverdeado e vai trazendo uma
+[12:08] nuance levemente terrosa que é desse
+[12:11] acorde de raxis.
+[12:13] Então ele começa a ficar realmente um
+[12:15] pouquinho mais terroso, um pouco mais
+[12:17] verde, um pouco mais fechado, eh, e
+[12:21] sempre muito natural. Então, desde a
+[12:23] saída até agora, a base, eh, até agora o
+[12:26] coração e depois pra base, ele sempre
+[12:28] tem esse aspecto muito muito de algo de
+[12:32] natureza mesmo, de matériaspras, de
+[12:34] coisas naturais mesmo, tá? Então, é isso
+[12:37] que eu tô dizendo para vocês, que é uma
+[12:38] pegada bem diferente
+[12:41] de perfumes designers, tá? Ele vai
+[12:43] realmente trazer algo que não é o que
+[12:47] você encontra em eh lojas de perfume
+[12:50] assim de de shopping, tá? Ele vai
+[12:53] realmente trazer um aspecto bem bem bem
+[12:55] natureza mesmo, coisas naturais. Eh, e
+[12:59] ele vai então trazer essa flor de
+[13:01] canabis, ela vai evoluindo para se
+[13:03] tornar uma coisa mais eh mais verde e
+[13:06] ele vai subindo um aspecto seco. Então
+[13:09] esse aspecto seco na secagem,
+[13:12] ele vai ganhando, tomando conta e vai
+[13:15] trazendo ali então esse coração que vai
+[13:18] ser essa nuance de flor de cannabis, só
+[13:21] que agora um pouco mais seca, que vai se
+[13:23] tornando esse rachixe com a base, com
+[13:26] uma nuance terrosa levemente, tá? Não
+[13:29] chega a ficar sujo o perfume, mas ele
+[13:30] traz aquele toque terroso, um pouco mais
+[13:34] fechado, um pouquinho amadeirado ali no
+[13:36] meio. Tem a pimenta semuan, mas ela não
+[13:38] toma conta, ela só traz ali aquele
+[13:41] aspecto levemente especiado no coração.
+[13:45] E aí a gente evolui pra base. Já nessa
+[13:47] secagem da base, o que a gente vai ver
+[13:49] de evolução vai ser exatamente esse
+[13:51] acorde eh de cannabis. Ele vai
+[13:55] evoluindo, transicionando dessa coisa do
+[13:58] rashixe e ele vai transicionando para
+[13:59] uma coisa realmente mais amadeirada, que
+[14:02] é o que ele tá chamando aqui de eh que
+[14:05] na base tem patiul, vetivé,
+[14:07] sandalumissuri, raiz de cannabis, ud e
+[14:11] madeira de guiaco. Do, tudo aqui, o que
+[14:14] que eu sinto especificamente é realmente
+[14:17] esse acorde de raiz de cannabis, tá? e
+[14:20] acordes amadeirados ali. Então eu sinto
+[14:23] no meu olfato na base, é realmente tem
+[14:26] uma filete ali de cannabis
+[14:28] que vem do topo e do coração, só que ele
+[14:31] traz junto ali uma coisa madeirada eh
+[14:36] que é complexa, mas não tem nada muito
+[14:38] definido. Então eu não pego, tipo assim,
+[14:40] ah, peguei uma nuance especificamente de
+[14:42] vetiv, especificamente de sândalo,
+[14:44] especificamente de UD, guaico, não. Eu
+[14:48] acho que é um acorde amadeirado que ele
+[14:49] junta ali num todo, ele se mistura muito
+[14:52] bem. Esse amadeirado fica uma coisa
+[14:53] amadeirada, é que tem lá sua nuance seca
+[14:58] do vetiv, tem a nuance, um toque ali de
+[15:01] sândalo, um toque de de sabe, eu nem
+[15:04] sinto direito esse é esse guiaco, eu não
+[15:07] sinto direito, tá? Tem essa coisa um
+[15:10] pouquinho verde terrosa do patiul.
+[15:13] Beleza? E assim a gente vem a secagem
+[15:15] então que basicamente é essa esse raiz
+[15:18] de cannabis, né? Então ele vai
+[15:20] continuando com aquela nuance da
+[15:22] cannabis, mas agora vai subindo a os
+[15:26] acordes amadeirados, os acordes secos,
+[15:28] quase caiu aqui. E é basicamente isso o
+[15:31] perfume, tá? E ele vai sempre deixando
+[15:33] ali um leve aspecto de sor, mas que vem
+[15:37] desse floral de cannabis. Então, esse
+[15:39] floral da cannabis com cardamomo, ele
+[15:42] vai ali transicionando até o fundo do
+[15:44] perfume, sempre mantém essa espinha
+[15:46] dorsal. Na minha opinião do perfume é
+[15:48] isso, é esse acorde de cannabis com esse
+[15:52] filetezinho ali do cardamomo. Eh, então
+[15:55] sempre tem esse leve do e vai até o
+[15:57] final do perfume dessa forma. E quando
+[15:58] vai secando, ele fica é aquele
+[16:01] amadeiradozinho atalcada, não, não é
+[16:03] esfumaçado, é
+[16:06] isso seco, né? esse amadeiradozinho
+[16:08] seco, eh, com a textura, ele tem uma
+[16:10] textura e vai até o final. Eh, para mim
+[16:14] é o gênero ficou bem compartilhável esse
+[16:16] perfume. Eh, talvez compartilhável,
+[16:18] pendendo um pouco pro masculino. De
+[16:21] ocasiões, eu acho que ele é um perfume
+[16:22] super casual. Eu não acho que ele seja e
+[16:25] algo formal, tá? Eu acho que ele é bem
+[16:27] casual para temperaturas a menas de 22º
+[16:30] assim, mais ou menos para baixo. Eu acho
+[16:32] que ele funciona em ambientes
+[16:33] climatizados ou também é o ar livre. E
+[16:36] ele combina muito bem, eu acho,
+[16:38] situações de casa de campo, eh, com
+[16:41] natureza, com momentos que você vai ter
+[16:44] contato com a natureza, mas eu não acho
+[16:46] que ele combina com praia, então para
+[16:48] mim não tem nada a ver com praia.
+[16:51] É um cheiro que eu não usaria assim num
+[16:54] ambiente de praia, aquela coisa salina e
+[16:56] tal. Eu acho que não tem muita
+[16:57] combinação. Eh, e também porque tem
+[17:00] muito calor, muito vento, então acho que
+[17:01] não combina. O perfume, ele não vai
+[17:03] performar tão bem na minha opinião.
+[17:05] E é basicamente isso sobre o perfume e
+[17:08] sobre performance. Eh, eu vou dar só um
+[17:11] disclaimer. Eu não tô podendo testar tão
+[17:13] bem performance porque tá muito quente
+[17:15] aqui na minha cidade. Tá muito quente. É
+[17:18] o dia inteiro. É ventilador em cima,
+[17:21] muito quente, calor, suando, pá. Então
+[17:25] assim, não levem tanto em consideração
+[17:27] minha avaliação de performance, porque
+[17:30] essa situação aqui da minha cidade é é
+[17:33] um desafio para qualquer perfume, tá?
+[17:35] Mas assim, eu diria que a projeção é de
+[17:38] moderada intensa durante 30 minutos que
+[17:40] você coloca, depois ele fica moderado a
+[17:43] moderado, intimista. Então ele é um
+[17:45] perfume um pouco mais intimista. Eu não
+[17:47] sei se tem a ver com o fato de ele não
+[17:49] ter álcool, né? E ele acaba projetando
+[17:51] menos por causa disso. Ele fica um pouco
+[17:53] mais na pele mesmo. E a fixação dele, eu
+[17:56] também não tenho como dizer com certeza
+[17:59] por por tudo isso que eu falei para
+[18:00] vocês, mas eu acho que ele tá ali entre
+[18:02] 6 a 7 horas. Ele não é um perfume que
+[18:05] fixa para sempre, né? Eh, até por ele
+[18:08] ser bem natural, eu acho que é normal,
+[18:09] né? E ele não é tão amadeirado. Então, a
+[18:12] construção alfativa eh faz com que seja
+[18:15] assim mesmo. Ele não dura tanto, até
+[18:17] porque é mais leve. Eh, mas ele fixa
+[18:20] legal. Então, acho que aguenta ali um
+[18:23] uma ocasião ali que você vai, né,
+[18:25] durante a tarde, né? Agora, se você
+[18:27] quiser um perfume para durar o dia
+[18:28] inteiro, tipo assim, vou trabalhar e
+[18:30] quero o perfume que vai até o final do
+[18:32] meu expediente ali no trabalho, eu acho
+[18:34] que esse não seria o perfume que você
+[18:36] iria buscar, tá? E é basicamente isso.
+[18:39] Em geral, gente, é um perfume muito bem
+[18:41] construído, é um perfume que é uma obra
+[18:43] de arte. Eh, e eu achei bastante
+[18:45] realista a proposta de trazer cannabis
+[18:47] na perfumaria de uma forma natural, uma
+[18:50] cannabis que seria uma flor de cannabis.
+[18:53] Então, super, eh, super aprovado assim.
+[18:57] é um perfume que pessoalmente eh não
+[19:00] combina tanto com minha personalidade.
+[19:02] Então, eu não eu não sou essa pessoa que
+[19:06] que gostaria de de eh sair com um cheiro
+[19:10] assim, com esse tipo de cheiro muito
+[19:12] floral, muito herbácio e até com essa
+[19:15] nuance de cannabis, né? Porém, eu acho
+[19:18] que ainda assim é uma super construção
+[19:20] que para quem gosta desse estilo de
+[19:22] perfume faz todo sentido. Eh,
+[19:25] principalmente para quem já gosta desse
+[19:27] tipo de cheiro mais herbáilte e mais de
+[19:29] canabis inclusive, né? Então, acho que
+[19:32] faz super sentido. Eu acho que uma coisa
+[19:34] que eu comentei com um amigo, eh, é que
+[19:37] para mim esse perfume ele lembra algo
+[19:39] tipo assim, se eu fosse na casa de algum
+[19:41] conhecido, algum amigo, colega, não sei,
+[19:44] eh, que por acaso o cara ele tem uma
+[19:46] plantação, uma uma muda ali de canabis
+[19:49] no guarda-roupa, né, que tem gente que
+[19:51] faz isso, que que eh que tem ali uma
+[19:54] muda de canabis em estufa, né, no
+[19:57] quarto. É, é como se fosse assim, você
+[19:59] chega num quarto super organizado,
+[20:01] limpo, branco, assim, de dia, só que por
+[20:06] algum motivo o quarto ele tem esse
+[20:07] cheirinho no quarto, porque tem um
+[20:10] guarda-roupa que tem uma planta, uma
+[20:11] flor de canabis no guarda-roupa, né?
+[20:13] Então, para mim é meio que essa sensação
+[20:15] que o perfume trouxe em resumo, porque
+[20:18] ele é limpo e ele é floral e traz a
+[20:20] cannabis, tá? E é isso, gente. Então, se
+[20:23] você curte essa pegada, tá aí, tem cupom
+[20:25] de desconto para quem quiser, tá? Então,
+[20:28] usa o cupom do canal, tá aqui na
+[20:30] descrição. E muito obrigado pelo vídeo.
+[20:32] Em breve vou trazer os próximos, as
+[20:34] próximas resenhas dos próximos perfumes
+[20:36] da do atelier CG Baruti. Beleza?
+[20:39] Obrigado também a você que assistiu até
+[20:41] aqui e ao pessoal do Atelier por terem
+[20:43] enviado os perfumes. Estamos junto e até
+[20:45] a próxima. Yeah.

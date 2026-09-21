@@ -1,0 +1,219 @@
+# O kit ideal para iniciantes na perfumaria | Painel Olfativo Eu Perfumista
+
+- **vídeo**: https://youtu.be/U6NuTQXDjJk
+- **publicado**: 2026-02-21
+- **duração**: 8min53
+
+## Descrição do autor
+
+Recebi de surpresa um kit super legal da Eu Perfumista: o Painel Olfativo! Ele conta com 24 matérias primas, entre químicos aromáticos, óleos essenciais e absolutos, de várias famílias olfativas!!
+
+Recomendo esse painel para todos os iniciantes na perfumaria que querem expandir seu conhecimento de matérias primas e não se sentem seguros para fazer diluições ainda. É um ótimo pontapé para começar a descobrir esse maravilhoso mundo dos cheiros!
+
+
+Link do Painel Olfativo:
+https://www.euperfumista.com.br/collections/painel-olfativo/products/painel-olfativo
+
+Cupom: PERFUMOLOGOS10
+
+Natural Oil:
+https://www.naturaloil.com.br/
+Cupom: PERFUMOLOGOS10
+
+
+📖 Grupo de Estudos no whatsapp: disponível para membros nível 2!
+
+## Transcrição
+
+[00:00] Eu recebi aqui essa caixa misteriosa
+[00:04] foi o pessoal da Euperfumista, que é a
+[00:07] mesma empresa que é dona também de uma
+[00:10] outra loja que é acho que é Natural Oil.
+[00:15] E eles me mandaram essa caixa. Eu não
+[00:18] sei exatamente o que tem, né? Eles
+[00:20] falaram que iam mandar algo especial,
+[00:22] feito especialmente aqui pro canal.
+[00:25] Então, eu acho que assim, vai ser super
+[00:27] legal fazer esse unboxing aqui eh junto
+[00:31] com vocês. Então, não sei o que que eu
+[00:32] vou esperar, sinceramente.
+[00:34] Eh, mas já veio aqui, ó, uma carta da
+[00:38] Natural Oil, que é a, acho que é a loja
+[00:42] deles para produtos de de óleo
+[00:45] essencial, né, para óleos essenciais.
+[00:48] Eh, então já fica de dica para vocês
+[00:51] darem uma olhada depois. Eu acho que
+[00:53] eles vão fazer algum cupom pro canal,
+[00:56] então vocês podem eh depois dar uma
+[00:58] olhada. Eu vou ler daqui a pouco, tá?
+[01:01] Esse isso que mandaram e vamos dar uma
+[01:04] olhada aqui no que que é isso. Caramba,
+[01:08] mandaram aqui um
+[01:10] uma coisinha bem grande, ó. Da
+[01:13] perfumista aqui.
+[01:17] Deixa eu ver que mais que tem aqui
+[01:18] dentro.
+[01:20] Tem um monte de esse esses esses
+[01:25] salgadinhos aqui só me lembram Toy
+[01:28] Story, porque eu acho que no Toy Story
+[01:31] tem alguma parte que o os protagonistas
+[01:35] ficam com esse negócio. Bom, eu não sei
+[01:36] se tem mais alguma coisa aqui dentro. Eu
+[01:38] tô com receio de sujar minha casa toda
+[01:40] aqui.
+[01:43] Minha esposa que vai achar ótimo a
+[01:45] sujeira que eu tô fazendo aqui.
+[01:53] Eita, meu Deus. E agora para limpar isso
+[01:58] Consegui, consegui. Arrumei aqui as
+[02:00] coisas. Acho que a patroa não vai
+[02:02] reclamar não. Tô aqui fazendo
+[02:04] malabarismo para conseguir mostrar para
+[02:06] vocês e me gravar ao mesmo tempo. Mas ó,
+[02:09] vamos lá. Eu acho que foram quatro,
+[02:11] cinco, aliás, cinco óleos essenciais
+[02:13] aqui da Natural Oil. Ó, o primeiro que
+[02:17] eles trouxeram aqui foi um chamado Fresh
+[02:20] Blend,
+[02:22] que é uma explosão de frescor
+[02:26] que eu imagino, ó, composição clove
+[02:29] lemon. mandarina vermelha e eh laranja
+[02:35] doce.
+[02:36] Então é uma mistura, né? Um é um acorde,
+[02:39] pelo que eu entendo, né? Vamos dar uma
+[02:41] olhada aqui no cheiro
+[02:44] para ver o que que a gente acha aqui.
+[02:47] Mas já parece
+[02:49] super agradável,
+[02:51] super refrescante, muito bom. Nossa,
+[02:54] muito bom. Então, acho que já é um
+[02:55] acorde aí que de repente já dá para
+[02:57] utilizar ele desse jeito aqui numa
+[03:02] numa constituição, né, num acorde que
+[03:05] você for fazer. Vamos ver que mais. A
+[03:08] gente tem aqui óleo essencial de laranja
+[03:11] doce e copaíba.
+[03:14] Achei legal a caixinha que eles que eles
+[03:17] colocam, ó. Caixinha bem bem legal.
+[03:21] Então, laranja doce. Ah, cheiro
+[03:24] maravilhoso, maravilhoso. Muito bom,
+[03:28] tudo muito bem embalado. Esse aqui é o
+[03:31] de Copaíba, eu não tenho ainda
+[03:35] também. Um cheiro super agradável.
+[03:38] Eles também mandaram aqui o óleo
+[03:39] essencial de bergamota.
+[03:42] E essa aqui, se eu não me engano, não é
+[03:43] LFC, tá? Então, eh, tem que tomar
+[03:46] cuidado ao usar.
+[03:49] Mas assim, excelente também. É
+[03:51] interessante porque eu não tenho nenhum
+[03:53] óleo essencial de bergamota que não seja
+[03:55] LFC.
+[03:57] Então vai ser legal fazer essa
+[03:58] comparação, né? Ele é bem mais cortante,
+[04:02] até um pouco mais amargo assim do que o
+[04:04] que é LFC. O LFC ele acaba sendo um
+[04:07] pouco mais um pouco mais adocicado,
+[04:09] talvez. E aqui eles trouxeram também o
+[04:12] óleo essencial de patiul.
+[04:14] Pati é patiul. Então matériapra
+[04:18] super necessária aí.
+[04:22] E claramente um patul de altíssima
+[04:24] qualidade.
+[04:25] Muito bom, muito bom mesmo. Muito bom
+[04:28] mesmo. Então, esses aqui foram as
+[04:31] matérias primas pra gente conhecer da
+[04:33] Natural Oil.
+[04:35] E aí vocês já podem entrar lá e dar uma
+[04:36] olhada no site, tá? Eles têm tanto óleos
+[04:40] essenciais e são pra perfumaria, tá
+[04:42] gente? Então eles são de de qualidade
+[04:45] semelhante, similar, que é o que a gente
+[04:47] tem na Eerfumista, que é assim talvez o
+[04:51] fornecedor com uma das melhores
+[04:52] qualidades que a gente tem aqui pro
+[04:53] varejo é a e perfumista, tá? Então eles
+[04:56] têm matériaspras só de fornecedores
+[04:59] assim excelentes,
+[05:01] eh trabalham inclusive com bases da
+[05:03] Givoldan, então são e e matériaspras
+[05:06] naturais da Biolandes e outras e muito
+[05:09] reconhecidas, né? Robert, etc.
+[05:13] Eh, e vamos dar uma olhada aqui no que
+[05:14] que eles prepararam, especialmente a pro
+[05:18] canal, né? Fora essas amostras aqui que
+[05:22] já foi super legal. Vamos ver o que que
+[05:25] tem aqui.
+[05:27] E aí, gente, que que será que é isso
+[05:29] aqui, hein? Vamos lá. Ó,
+[05:32] caramba, o painel alfativo, velho. Que
+[05:36] legal, ó. Painel alfativo da O
+[05:38] perfumista.
+[05:40] Que massa. Olha só, ele vem aqui com
+[05:45] que massa, velho. Ele vem aqui com um é
+[05:49] um cardzinho que mostra o que tem aqui,
+[05:52] tá? Então aqui tem, enfim, eu não vou
+[05:54] falar tudo, né? Mas vocês podem dar uma
+[05:56] olhada aí com calma e pausar o vídeo se
+[05:58] vocês quiserem, tá? Então isso aqui é o
+[06:01] que vem no kit, no painel alfativo
+[06:03] deles. E tem também sinergias aqui para
+[06:07] a gente testar. Então, muito legal,
+[06:10] muito da hora isso aqui. Eh, tem tipo
+[06:13] alguns acordes, algumas combinações que
+[06:16] eles sugerem pra gente testar e aprender
+[06:20] as sinergias. Eh, velho, é muito bonito
+[06:23] isso aqui. Caramba, que massa. Olha isso
+[06:26] aqui, pô. É muito chique, velho. Muito
+[06:29] chique. Muito chique. Galera, isso aqui
+[06:32] é top. Isso aqui é top, tá? Aí ele já
+[06:33] vem diluído. Então para quem tá
+[06:35] começando
+[06:37] na na perfumaria, tá? Para quem tá
+[06:39] começando a criar acorde, eh, e quer um
+[06:43] kit que já vem relativamente pronto ali
+[06:46] para você fazer uns acordes, eh, e
+[06:48] aprender, isso aqui tá muito legal.
+[06:51] Deixa eu dar uma olhada o que que tem
+[06:52] aqui dentro.
+[06:55] É, o legal é que ele já vem diluído, né?
+[06:56] Então, se você tá começando e não quer
+[06:59] começar já com esse com essa questão de
+[07:01] diluir, ele já vem aqui pronto para você
+[07:04] trabalhar. Só que você vai precisar de
+[07:06] pipeta, né? Então, ó, ele vem aqui com
+[07:08] fitas ofativas, várias fitas aqui
+[07:12] fininhas, né? Você pode molhar para
+[07:14] sentir um por um. É, ou você pode
+[07:19] pegar o a pipeta e eh fazer as misturas,
+[07:23] né? Mas gente,
+[07:25] galera da perfumista tá de parabéns.
+[07:27] Isso aqui tá com muita qualidade, gente.
+[07:30] E eu vou já testar o ultrazul aqui
+[07:33] porque eu não tenho esse ultra azul.
+[07:36] Ah, matéria prima muito boa, muito boa,
+[07:38] muito boa, muito boa, gente. É isso. É
+[07:42] que massa, que massa. Eu tô muito feliz
+[07:44] com isso aqui, ó. Tem absoluto de eh
+[07:48] absoluto de musgo de carvalho. Eu também
+[07:50] não tenho esse material.
+[07:52] Vou aproveitar para conhecer. Legal que
+[07:55] a E perfumista já tá me dando aqui um
+[07:57] monte de coisa que eu nem tenho. Nossa,
+[08:00] que massa.
+[08:03] Sensacional.
+[08:07] Caramba, tem até verbena aqui também, ó.
+[08:10] Olha essencial de verbena 10%.
+[08:15] Super diferenciado.
+[08:21] Vem até com Brofix.
+[08:27] Pessoal da Efumista, muito obrigado por
+[08:29] esse kit sensacional.
+[08:31] E olha, eu gostei muito desse kit, tá?
+[08:34] Então já indico para vocês que estão
+[08:36] começando. Isso aqui é excelente, cara.
+[08:39] Isso aqui é excelente. E eu acho que
+[08:41] eles têm um cupom. Então eu vou deixar
+[08:43] aqui embaixo se eles tiverem o cupom pro
+[08:44] canal. E é isso aí galera, valeu aí, até
+[08:48] o próximo vídeo e valeu pessoal da da E
+[08:50] perfumista. Tamo junto. Até a próxima.
+[08:52] M.

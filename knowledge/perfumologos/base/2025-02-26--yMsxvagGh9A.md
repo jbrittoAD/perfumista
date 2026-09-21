@@ -1,0 +1,401 @@
+# COMECE NA PERFUMARIA HOJE com esses equipamentos
+
+- **vídeo**: https://youtu.be/yMsxvagGh9A
+- **publicado**: 2025-02-26
+- **duração**: 16min19
+
+## Descrição do autor
+
+Durante o processo de criação de perfumes você vai precisar de alguns equipamentos básicos. Vou contar pra vocês algumas dicas que aprendi nesse processo também!
+
+Vocês sentiram falta de algum equipamento?
+
+Onde comprar químicos aromáticos?
+https://www.perfumistico.com.br/
+cupom: perfumologos
+5% OFF comprando acima de R$200, e se for pix fica 10% OFF!
+
+#perfume #perfumaria #perfumista 
+
+
+📖 Grupo de Estudos no whatsapp: disponível para membros nível 2!
+
+## Transcrição
+
+[00:00] fala gente hoje a gente vai conversar um
+[00:02] pouco sobre equipamentos básicos para
+[00:05] começar a sua jornada também de
+[00:08] perfumista de aprender a criar
+[00:10] fragrâncias a criar perfumes e bom eu
+[00:13] comecei Aos Trancos e Barrancos não
+[00:16] tinha eu não conheci nenhum conteúdo
+[00:17] exatamente sobre como eu poderia começar
+[00:20] o que que eu realmente precisava então
+[00:23] no começo eu comprei algumas coisas
+[00:24] talvez que não eram ideais né E talvez
+[00:28] eu quebrei um pouco a cara é mas depois
+[00:30] também eu conheci o Márcio do site
+[00:32] perfumístico e ele me deu uma boa ajuda
+[00:35] e uma boa orientação e agora eu quero
+[00:37] aqui eh levar para todo mundo né todos
+[00:40] vocês aí algumas coisinhas que eu fui
+[00:42] aprendendo sobre os equipamentos básicos
+[00:44] né Eu acho que uma coisa eh básica para
+[00:47] começar é que vocês não precisam sempre
+[00:51] de grandes volumes para fazer testes né
+[00:54] então da primeira vez que eu fui fazer
+[00:55] um teste eh com as essências né as
+[00:58] essências prontas que Comentei no último
+[01:00] vídeo eu fiz logo um frasco sabe eu
+[01:03] peguei um frasco de de 60 eu acho ml e
+[01:06] fiz né E aí foi bem frustrante porque
+[01:08] ficou muito ruim eh então assim a
+[01:11] primeira dica é essa né você não vai
+[01:12] precisar de algo assim muito grande para
+[01:15] começar as suas criações eh para começo
+[01:18] de conversa eu acho que você é bom dizer
+[01:20] a primeiríssima coisa que você precisa
+[01:22] ter é um uma balança e uma balança de
+[01:27] precisão
+[01:28] eh
+[01:31] 0.000 né três casas decimais eu acho que
+[01:34] é é justamente essa daqui é pera aí que
+[01:38] tá tá ligando
+[01:39] aqui e aí vamos
+[01:42] lá Bom enfim eu não sei porque que ela
+[01:45] agora não tá funcionando certinho pronto
+[01:48] então se vocês e verem aqui né não sei
+[01:51] se dá para ver mas é ponto 00 zero três
+[01:54] zeros E e esse essa balança aqui é ótima
+[01:58] pessoal eu não sei eu fui procurar para
+[02:00] mostrar para vocês na Amazon que foi
+[02:02] onde eu comprei mas eu não achei mais eu
+[02:05] não sei eu acho que e por algum motivo
+[02:08] parou né mas é muito bom essa balança
+[02:11] então é uma coisa Ultra importante muito
+[02:14] importante porque com essa balança você
+[02:16] vai fazer suas diluições com a balança
+[02:19] você vai e até mesmo fazer o produto
+[02:21] final você vai saber quanto de cada
+[02:24] químico você tá colocando no seu teste
+[02:27] tá colocando no seu perfume então isso
+[02:29] aqui é é a ferramenta básica do dia a
+[02:31] dia de eh desse Hobby de perfumista
+[02:34] desse Hobby de criação de perfumes né a
+[02:38] segunda coisa que você vai precisar é de
+[02:41] uma proveta né Eh de vidro né então
+[02:45] compre uma proveta de vidro eh o
+[02:48] plástico ele além de ficar ele é meio
+[02:51] poroso né coisas de pet de plástico eh
+[02:55] São é meio poroso a esse produto né de
+[02:59] plástico E aí ele muitas vezes empregue
+[03:01] né o cheiro então quando você coloca
+[03:03] alguma coisa eh por exemplo esse
+[03:05] frasquinho aqui ele é de de plástico e
+[03:08] eu fiz um teste nele né eu coloquei um
+[03:10] teste que eu tava criando uma base
+[03:12] pinguei aqui dentro eh depois eu tentei
+[03:15] lavar lavei com álcool um álcool de
+[03:18] cereais né mas assim ainda tá com cheiro
+[03:21] eu deixei uns dias aqui aberto na na na
+[03:23] estante e ainda tá com cheiro então
+[03:25] realmente eh sempre que você puder
+[03:28] utilize coisas de vidro que vai ser
+[03:31] muito mais fácil você limpar depois eh
+[03:34] Então aproveita de vidro eu acho que a
+[03:36] primeira a segunda coisa que eu
+[03:38] recomendo e depois você vai precisar
+[03:40] Claro de do seu solvente né então tem
+[03:44] aqui álcool de cereais álcool etílico de
+[03:47] cereais e pelo menos 96 97% né graduação
+[03:52] eh Então esse é o que eu tô utilizando
+[03:55] no momento e E você também precisa de
+[03:58] assim não é obrigatório Mas
+[04:01] provavelmente Em alguns momentos você
+[04:02] vai querer um outro solvente é que seja
+[04:06] um pouco mais Apolar Salv engana é
+[04:08] Apolar
+[04:10] eh justamente porque tem substâncias e
+[04:13] tem químicos aromáticos que eles são
+[04:15] mais apolares e aí eles não diluem às
+[04:18] vezes tão bem no álcool apesar do álcool
+[04:20] ter uma parte mais polar e uma parte
+[04:23] mais Apolar E então uma das coisas que
+[04:26] muitas vezes pode ajudar é o
+[04:27] dipropilenoglicol E no caso caso aqui
+[04:30] essa esse lugar que eu comprei eles
+[04:33] vendem com o nome propilenoglicol mas a
+[04:35] composição é de propilenoglicol então
+[04:38] assim às vezes né Tem lugares que não
+[04:40] tem tanta eh acurácia né mas
+[04:45] eh procurem de propilenoglicol que eu
+[04:48] tenho visto que é mais utilizado na
+[04:50] Perfumaria se você for ver por exemplo
+[04:52] análises eh de espectrografia né
+[04:56] análises aquelas análises lá que você vê
+[04:59] os componentes do perfume né através
+[05:01] meio que uma engenharia reversa você vai
+[05:04] ver que sempre é listado lá o de
+[05:06] propileno glicol então eles sempre são
+[05:08] utilizados em perfumes caros perfumes
+[05:11] grif para diluir algum algum químico
+[05:14] aromático que ele não não dilua tão bem
+[05:17] álcool aí Claro Às vezes você vai
+[05:19] utilizar pouca coisa 1% na fórmula é
+[05:22] coisa pouca mas realmente para diluir é
+[05:26] um alguma substância que não tenha
+[05:28] ficado tão bem diluída tem pessoas que
+[05:30] utilizam também o dipropilenoglicol e ou
+[05:33] até mesmo o propilenoglicol que é outra
+[05:36] substância para dar um peso a mais e
+[05:39] para segurar mais o perfume o álcool do
+[05:41] perfume porque ele é uma molécula que
+[05:43] ele é que é bem maior e ele tem mais
+[05:45] peso então ele ele é não é volátil tão
+[05:48] tão volátil quanto álcool né então ele
+[05:51] dá um peso PR a o seu perfume ele pode
+[05:53] segurar e dá uma fixação um pouco maior
+[05:57] né D uma longevidade pro seu perfume eh
+[06:00] mas eu vejo que pessoal de nicho
+[06:02] Perfumaria de nicho Perfumaria mais
+[06:04] avançada assim eu não vejo o pessoal
+[06:06] falar dessa estratégia Geralmente se
+[06:09] você quer mais fixação você vai
+[06:11] trabalhar com químicos né Eh que tenham
+[06:14] uma substantividade maior como a
+[06:16] vanilina e como o galaxolide como
+[06:20] ambroxan enfim substâncias que elas têm
+[06:23] uma fixação enorme eh e aí quem trabalha
+[06:26] com químico geralmente vai usar isso e
+[06:28] não ficar utilizando propileno de
+[06:30] propileno glicol para aumentar e a vida
+[06:33] útil da fragrância eu acho que é uma
+[06:35] estratégia que é mais é mais estratégico
+[06:38] né porque não tem cheiro então o de
+[06:40] propileno ou propileno não tem cheiro
+[06:42] basicamente e para não dizer que não tem
+[06:46] Sei lá deve ter um um toque meio
+[06:48] plástico assim nele eu não sei dizer mas
+[06:51] é muito Sutil e é isso
+[06:54] e vamos continuar aqui
+[06:56] e eu também recomendo quem puder um
+[06:59] Becker acho que é um Beer né Eu não sei
+[07:01] eu não sou químico mas eu acho que é um
+[07:03] Becker é de de vidro eu comprei um de
+[07:06] plástico às vezes ele fica com um
+[07:07] pouquinho de cheiro então se você puder
+[07:09] comprar de vidro eu acho melhor se eu
+[07:11] pudesse eu teria comprado logo de vidro
+[07:13] e não comprar de plástico eu acho que é
+[07:15] bem melhor Eu também acho muito útil
+[07:18] gente um funil é muito útil é mais útil
+[07:21] do que vocês imaginam por quê Porque
+[07:23] muitas vezes você vai trabalhar com e
+[07:26] químicos aromáticos como a vanilina que
+[07:29] são um pó né é um pó e às vezes você
+[07:31] quer colocar pó dentro de um negócio
+[07:34] desse então assim se você vai botar um
+[07:36] pózinho aqui a chance de cair fora você
+[07:38] desperdiçar pó é altíssima então se você
+[07:41] tiver um funil até menor do que esse eu
+[07:43] acho que é melhor é você encaixa aqui e
+[07:46] aí você a sua vida muda e e tudo é mais
+[07:49] feliz porque você agora consegue não
+[07:52] desperdiçar o seu químico então um funil
+[07:55] gente é subestimado underrated ninguém
+[07:58] vai dá mas eu recomendo utilize um funil
+[08:01] isso aqui é vida muda vidas tá então
+[08:05] procure um funil Zinho aí Eh então Além
+[08:08] disso você também vai precisar é claro
+[08:11] dos seus químicos aromáticos mas isso aí
+[08:13] acho que vocês já estão ligados eh para
+[08:16] fazer o seu perfume utilize químicos e
+[08:19] você também vai precisar né de frascos
+[08:23] que você possa guardar as suas diluições
+[08:26] então para você criar as suas
+[08:28] fragrâncias
+[08:29] para você fazer as suas criações criar
+[08:31] os seus acordes eh você vai utilizar Eh
+[08:35] esses esses frascos menores né de 5 ou
+[08:39] de 10 ml eu acho que cinco é muito justo
+[08:41] talvez até um pouco menos eh porque você
+[08:44] vai simplesmente colocar aqui aqueles
+[08:46] testes pequenos em pequena escala que
+[08:48] você vai fazer eh quando você tiver
+[08:50] tentando criar um acorde então é
+[08:52] importante você ter eh e aí e você
+[08:55] também coloca as diluições Então quando
+[08:58] você quer por exemplo se tinha o cheiro
+[09:00] de uma vanilina de uma e n meti onona
+[09:03] você não vai abrir o frasco e vai
+[09:05] cheirar o negócio né porque isso aqui é
+[09:07] puro Então você se você fizer isso você
+[09:09] vai sentir um cheiro mas é um cheiro
+[09:11] muito forte e você vai ficar com fadiga
+[09:12] outiva ao invés disso O que você faz
+[09:15] você vai diluir isso aqui e a 10 a 1% E
+[09:19] aí é por isso que você precisa dos
+[09:21] frasquinhos menores para você colocar as
+[09:23] suas diluições eh de de matéria prima de
+[09:26] químico Então você vai diluir E aí com a
+[09:29] coloca nesses frasquinhos só que toda
+[09:31] vez que você for testar né que você for
+[09:33] molhar a fit of
+[09:35] fativazquez
+[09:48] que você abrir o frasco o álcool Vai
+[09:50] evaporar um pouco aí você fecha a você
+[09:52] abre ele evapora um pouco você fecha se
+[09:54] você faz isso várias vezes você pode ir
+[09:57] aumentando a concentração do seu o
+[09:59] produto do seu da sua diluição ele era
+[10:01] 10% como evaporou o álcool evaporou
+[10:04] evaporou você quando vê você tá com não
+[10:06] sei 20 30% de soluto para 70% de
+[10:10] solvente porque o resto foi evaporando e
+[10:13] e foi ficando menos solvente menos
+[10:15] álcool ali então é esse é um problema de
+[10:17] frascos assim frasco que você abre e ele
+[10:20] e enfim não tem e você fica abrindo ele
+[10:23] né E aí qual a solução para isso a
+[10:25] solução é você utilizar
+[10:27] é um um conta gotas né você utilizar um
+[10:31] frasco que ele tenha esse estilo aqui
+[10:34] ele seja tipo um conta gotas tipo um
+[10:37] mais ou menos como se fosse aqueles
+[10:39] colírios né frasquinho de colírio conta
+[10:41] gota de de impressora é basicamente é
+[10:44] isso aqui que você vai utilizar né
+[10:46] Espero que esteja focando aí E então
+[10:49] você vai colocar aqui a sua diluição de
+[10:51] 10% de alguma algum químico aromático E
+[10:54] aí aí assim você vai pingar na Toda vez
+[10:58] que você quiser sentir o cheiro daquele
+[10:59] químico para conhecer a sua matériaprima
+[11:01] você vai pingar na fita of ativa espera
+[11:03] evaporar o álcool da fita e você pode
+[11:08] e fazer os testes né e sentir o cheiro e
+[11:12] inclusive gente caramba Clube dei intens
+[11:15] eu botei ontem à noite foi ontem final
+[11:18] do dia e ainda tá aqui meu Deus é
+[11:20] incrível esse perfume e então utilizem
+[11:24] esse frasco eu vou colocar aí na tela eu
+[11:26] comprei bem baratinho acho que 100
+[11:27] unidades então assim é extremamente
+[11:29] importante você utilizar isso aqui caso
+[11:31] você vá utilizar álcool é nas suas
+[11:34] diluições eu utilizo álcool e eu
+[11:36] recomendo acho que é muito melhor porque
+[11:37] evapora o álcool e fica só o cheiro na
+[11:40] na fita sem cheiro de álcool e então
+[11:43] realmente é muito bom a outra coisa que
+[11:45] você vai precisar em grande escala é
+[11:48] isso aqui ó pipeta né então pipetas É
+[11:51] descartáveis tá E também vou colocar aí
+[11:54] na tela tem Mercado Livre muito barato
+[11:57] você compra um saco com 500 Eu acho que
+[11:59] eu comprei com 500 e assim é sei lá
+[12:02] quantos reais mas é bem barato eh e você
+[12:04] vai usar um desse toda vez para cada
+[12:07] ingrediente você vai usar um desse na
+[12:09] hora de fazer diluição na hora de fazer
+[12:11] seu acorde eh então assim você precisa
+[12:13] de muitos porque é descartável too Toda
+[12:15] vez que você usa Você joga fora usa joga
+[12:17] fora usa joga fora e é um para cada
+[12:19] ingrediente um para cada químico eh você
+[12:22] não pode ficar misturando para não ter
+[12:23] contaminação dos seus químicos isso é
+[12:25] importante dizer né você não pode
+[12:27] colocar uma pipeta por exemplo ah vou
+[12:29] colocar uma pipeta aqui numa num químico
+[12:32] aqui e aí depois eu vou pegar no outro
+[12:34] químico e vou usar a mesma pipeta para
+[12:35] economizar Não faça isso vai contaminar
+[12:38] fazer contaminação vai eh atrapalhar o
+[12:41] seu processo criativo né então Eh
+[12:44] pipetas você precisa de muitas pipetas
+[12:46] eh tono de 500 e frasco desse eu
+[12:50] recomendo ter uns 100 também para você
+[12:52] não ficar se preocupando eu acho que é
+[12:53] muito importante depois disso a gente
+[12:56] vem as fitas olfativas Ah tá gente é é
+[13:00] vamos lá funil basta um funil é balança
+[13:03] basta uma balança proveita basta uma
+[13:06] back basta um também
+[13:08] e aí desses aqui você bota 100 pipeta
+[13:12] você bota uns 500 é importante você ter
+[13:15] também e tipo etiquetas inhas né de
+[13:17] papel para você etiquetar os seus testes
+[13:19] tipo eu fiz um teste aqui e eu etiquetei
+[13:22] né então você tem que etiquetar ou então
+[13:25] quando você for fazer suas diluições
+[13:26] você etiqueta as suas diluições também
+[13:28] então ess etiqueta é importante é F
+[13:31] fitoativo né fitoativo gente fitoativo é
+[13:34] muito simples você vai pegar um papel
+[13:36] cocher 180 g ou um pouco mais leve esse
+[13:39] aqui é 180 e você vai cortar muito
+[13:42] simples a dica é se você tiver
+[13:44] guilhotina então eu tenho guilhotina que
+[13:47] enfim é bom para cortar papel em volume
+[13:49] né e ele fica bem retinho então se você
+[13:51] tiver uma guilhotina melhor ainda E aí
+[13:54] você faz as suas suas suas feitas
+[13:56] olfativas é muito fica muito barato
+[13:59] então recomendo bastante
+[14:01] e então Ó tem aqui ó eu tenho aqui já
+[14:05] muitas diluições né não sei se dá para
+[14:08] ver aí eu espero que dê mas eu tenho
+[14:09] aqui várias coisas diluídas já conta
+[14:12] gotas tem aqui Óleo óleo não né químicos
+[14:16] aromáticos e tem mais coisas ali na
+[14:18] minha na minha no meu armário que é bom
+[14:21] guardar tudo no armário né gente por
+[14:23] causa do da luz não pode ficar com Luz
+[14:25] assim Senão vai estragar o produto
+[14:27] e bom por fim é bom você ter alguns
+[14:31] frascos com borrifador para caso você tá
+[14:34] chegando perto do seu produto final e aí
+[14:36] você quer fazer uma fragrância e e ver
+[14:39] se funciona como fragrância né então é
+[14:41] essa
+[14:43] daqui essa daqui pô tá voando aqui por
+[14:46] causa do do ventilador não deu PR ass
+[14:48] nada mas enfim essa fragrância aqui foi
+[14:51] a primeira que eu fiz com os químicos
+[14:52] aromáticos não ficou bom né não ficou
+[14:56] bom mas não tem problema a gente tá
+[14:58] aprendendo então então não tem problema
+[15:00] é depois eu recomendo também quando
+[15:02] vocês estiverem mais próximos de chegar
+[15:04] no produto final vocês comprarem frascos
+[15:07] amba para macerar a maceração é super
+[15:09] importante e a gente pode depois falar
+[15:11] sobre isso em algum outro vídeo Então é
+[15:13] bom você ter um frasco amba pelo menos
+[15:15] para quando você for fazer o produto
+[15:17] final você deixar um tempinho macerando
+[15:19] aqueles químicos eles integrando melhor
+[15:22] de moléculas entre si e eu acho que é
+[15:24] basicamente isso gente é então esses são
+[15:27] os produtos básicos para você iniciar no
+[15:29] no Hobby de perfumaria em termos de
+[15:33] químicos aromáticos quantos químicos
+[15:35] aromáticos eu recomendaria você começar
+[15:37] eh eu comecei com 10 e eu não consegui
+[15:40] fazer nada que eu gostasse muito com os
+[15:42] 10 então assim eu acho que 10 não é um
+[15:45] número bom eu acho que é melhor em torno
+[15:47] de 25 a 30 eh químicos aromáticos Então
+[15:51] pense nisso né E aí depois eu posso
+[15:54] fazer um vídeo dizendo Minha experiência
+[15:55] quais químicos aromáticos começar
+[15:58] comprando para fazer os primeiros testes
+[16:01] e é basicamente isso aí gente obrigado
+[16:03] por você ter assistido até aqui e se
+[16:06] inscreve no canal se você quer continuar
+[16:08] nessa jornada de aprendiz de perfumista
+[16:10] e vamos junto aprender mais sobre esse
+[16:13] Hobby sobre essa área e obrigado se você
+[16:15] assistiu até aqui estamo junto e até a
+[16:18] próxima
