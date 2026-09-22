@@ -3,6 +3,13 @@ Tensoativos.
 
 Molécula com cabeça que gosta de água e cauda que gosta de gordura. O que muda entre eles é a carga da cabeça — e só isso já prevê o comportamento.
 
+São quatro famílias de tensoativo, e o que muda entre elas é uma coisa só: a carga elétrica da cabeça da
+molécula. O aniônico tem carga negativa, limpa e faz espuma — é o motor. O catiônico tem carga positiva e
+condiciona: ele gruda no fio e na pele. O anfótero muda de carga conforme o pê-agá, e serve para suavizar
+e estabilizar a espuma. E o não-iônico não tem carga: emulsiona, suaviza e limpa pouco.
+
+Guardando só isso, você prevê o comportamento de qualquer fórmula.
+
 A regra: aniônico + catiônico se atraem e precipitam — perdem limpeza e condicionamento juntos. Anfótero e não-iônico convivem com qualquer um.
 
 Três saídas para limpar e condicionar no mesmo produto:
@@ -13,18 +20,45 @@ Produtos separados.
 Sinergia de suavidade: aniônico + anfótero reduz a irritação dos dois. É por isso que a betaína entra — não para limpar.
 Ácidos graxos: o que cada gordura entrega.
 
-Os cinco números do SoapCalc (processo a frio):
+Não decore óleo — decore o ácido graxo que ele carrega. Láurico e mirístico, que estão no coco e no
+babaçu, dão espuma grande e limpeza forte; acima de 30% na fórmula, ressecam. Palmítico e esteárico, da
+palma, do karité, do cacau e do sebo, dão dureza e durabilidade. O oleico, do azeite e do abacate, dá
+maciez e quase nenhuma espuma. O ricinoleico, da mamona, turbina a espuma cremosa — mas acima de 8% deixa
+a barra pegajosa. E o linoleico e o linolênico, que estão no girassol comum, na soja e na uva, rançam:
+são eles que produzem aquelas manchas alaranjadas e o cheiro velho.
+
+Quando você monta uma receita de processo a frio numa calculadora, ela devolve cinco números, e eles não
+são opinião: saem do perfil de ácidos graxos. Dureza, que deve ficar entre 29 e 54. Limpeza, entre 12 e
+22 — e este é o número que importa, porque acima de 22 a barra resseca, sem discussão. Condicionamento,
+entre 44 e 69. Espuma de bolha, entre 14 e 46. Espuma cremosa, entre 16 e 48. E o índice geral, que fica
+entre 136 e 165.
+
+São guias, não muros. Mas se a sua receita der limpeza 35, ela vai ressecar — não adianta torcer.
 pê-agá.
+
+Os alvos de pê-agá, e um deles é uma sentença. A pele saudável fica entre 4,7 e 5,5. Sindete, creme e
+xampu devem ficar em 5,0 a 5,5, respeitando esse manto. Cabelo e couro cabeludo, entre 4,5 e 5,5, porque
+pê-agá alto abre a cutícula e deixa o fio áspero. E o sabão — tanto o glicerinado quanto o processo a
+frio — fica entre 9 e 10, e não tem jeito: a saponificação exige álcali, e abaixo de 8,5 o sabão
+simplesmente se desfaz. Quem vende sabonete artesanal de pê-agá neutro está vendendo sindete, ou está
+mentindo.
 
 Medir: 1 g raspado em 9 g de água destilada (solução a 10%), fita ou pHmetro calibrado.
 Corrigir: ácido cítrico ou lático baixa; solução de bicarbonato sobe. Em sabão, não tente — desmancha.
 Emulsão e HLB.
 
-Emulsionante fica na fronteira entre a gota de óleo e a água. HLB (0 a 20) diz para que serve:
+O emulsionante fica na fronteira entre a gota de óleo e a água, e o número que diz para que ele serve é o
+HLB, numa escala de 0 a 20. De 3 a 6, ele faz emulsão de água em óleo: creme pesado e oclusivo. De 8 a
+18, faz óleo em água: leve, que absorve — que é o que você quer em quase tudo. Autoemulsionantes como o
+Olivem já vêm balanceados, e é por isso que são os indicados para começar.
 
 Autoemulsionantes (Olivem 1000, cera Lanette, Montanov) já vêm balanceados.
 
-Por que talha:
+Cinco motivos para uma emulsão talhar. O primeiro, e mais comum de todos: as fases com temperatura
+diferente. As duas a 70 graus, com no máximo 5 de diferença entre elas. O segundo, agitação fraca — é
+mixer, não colher. O terceiro, emulsionante de menos: 5% para loção, 6 a 8% para creme. O quarto, fase
+oleosa alta demais: com Olivem, ela não passa de 22%. E o quinto, eletrólito demais — sal ou extrato
+salgado — que deve entrar aos poucos e na fase fria.
 Água como matéria-prima.
 É o ingrediente majoritário de emulsão e xampu — e o veículo de contaminação.
 Água destilada ou deionizada, de farmácia. Torneira traz carga microbiana, cloro e íons que quebram emulsão.
@@ -32,12 +66,36 @@ Atividade de água (aW): micróbio precisa de água livre. Produto anidro (báls
 Água aberta em garrafa contamina: use por lote, não guarde meses aberta.
 Conservação.
 
+Os conservantes que valem conhecer. O fenoxietanol, de 0,3 a 1%, aguenta pê-agá de 3 a 10 — é o mais
+tolerante, e custa 11 e 50 o frasco de 100 mililitros. O Sharomix 713, de 0,8 a 1%, só em meio ácido, e é
+o mais barato por dose. O Nipaguard e o Optiphen são alternativas de espectro amplo. E o Cosgard, que é o
+queridinho da cosmética natural, só funciona até pê-agá 6.
+
+A escolha prática: fenoxietanol quando você não tem certeza do pê-agá, Sharomix quando o produto é ácido
+e você quer o menor custo.
+
 Regras: entra na fase fria (<45  graus), sob agitação · usar água destilada · higienizar tudo com álcool 70% · validade caseira 3 meses.
 O que NÃO é conservante: vitamina E, BHT, óleo essencial, álcool em baixa dose, "extrato de semente de toranja". São antioxidantes ou marketing — antioxidante protege gordura de oxidar, não mata micróbio.
 Reologia e espessantes.
 
 O "toque" é viscosidade + como ela se comporta sob cisalhamento.
+
+O que engrossa, e o efeito de cada um. Álcool cetílico dá corpo e deslize sedoso. Ácido esteárico dá
+dureza, com um toque mais arrastado. Goma xantana faz gel na fase aquosa, de 0,2 a 1% — em excesso fica
+com textura de muco. Carbômero faz gel transparente, mas precisa ser neutralizado. Argila e amido dão
+corpo e matificam a barra.
+
+E o sal, em xampu líquido, tem um comportamento que engana: ele engrossa até um pico e, passando dali,
+afina de novo. É uma curva em sino. Suba de 0,2 em 0,2 por cento, medindo — quem joga tudo de uma vez
+passa do pico e conclui que o sal não funciona.
 Corantes e pigmentos.
+
+Sobre cor. A mica é a escolha certa: de 2 a 4 gramas por quilo, não sangra e não desbota. O óxido de
+ferro é pigmento forte — 1,5 a 2% em base opaca, e só 0,25 a 0,5% em base transparente. O corante
+hidrossolúvel é o que sangra entre camadas, desbota na luz e mancha toalha. E o corante natural, de 1 a
+3%, é instável em pê-agá alto: o verde de clorofila simplesmente some no sabão.
+
+Em todos os casos, hidrate o pó em glicerina antes de incorporar. Pó seco vira pontinho na barra.
 
 Sempre hidratar o pó em glicerina ou um pouco de óleo antes de incorporar — pó seco vira pontinho.
 Em processo a frio (pê-agá 10) muita cor natural degrada; mica e óxido aguentam.

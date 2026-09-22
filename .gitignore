@@ -24,3 +24,18 @@ knowledge/ebook/*.pdf
 knowledge/ebook/audio/*.mp3
 knowledge/ebook/audio/_partes/
 web/public/*.pdf
+
+# audiolivro concatenado: é o mesmo conteúdo dos capítulos, 140 MB duplicados
+knowledge/ebook/audio/Audiolivro-completo.mp3
+
+# web/public/audio é CÓPIA do knowledge/ebook/audio, feita pelo build_books.py.
+# Os capítulos ficam versionados só na origem — versionar os dois dobraria os
+# 113 MB de áudio dentro do repositório sem ganhar nada.
+web/public/audio/
+
+# amostras/: as provas de voz e idioma (13 MB de mp3/m4a). O que vale guardar é
+# o LEIA.txt de cada pasta, que diz o que cada prova testou e o que deu.
+knowledge/ebook/audio/amostras/**/*.mp3
+knowledge/ebook/audio/amostras/**/*.m4a
+knowledge/ebook/audio/amostras/*.mp3
+knowledge/ebook/audio/amostras/*.m4a

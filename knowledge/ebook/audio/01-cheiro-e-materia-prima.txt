@@ -19,10 +19,10 @@ Famílias e vocabulário.
 Dois sistemas. Edwards para conversar, SFP para classificar.
 
 Os dois sistemas de família conversam. O que a roda de Edwards chama de âmbar, a escola francesa chama de
-oriental. Soft floral é o floral aldeídico. Mossy woods é o chipre. Aromatic é o fougère. E dry woods é o
+oriental. Soft floral é o floral aldeídico. Mossy woods é o chipre. Aromatic é o fujér. E dry woods é o
 couro. Sabendo essa tradução, você lê qualquer texto de perfumaria sem tropeçar.
 
-SFP: 7 famílias, 47 subfamílias — Citrus (A), Floral (B), Fougère (C), Chypré (D), Woody (E), Amber (F), Leather (G).
+SFP: 7 famílias, 47 subfamílias — Citrus (A), Floral (B), fujér (C), chipre (D), Woody (E), Amber (F), Leather (G).
 "Gourmand" e "musk" não são famílias — são acentos que atravessam todas.
 
 Pra descrever cheiro, esqueça o adjetivo solto e use seis eixos: temperatura, textura, peso, doçura,
@@ -37,7 +37,7 @@ Volatilidade: topo, coração, base.
 A fronteira é difusa de propósito — o mesmo linalol é topo numa fonte e coração em outra.
 
 Existem quatro critérios pra dizer se um material é topo, coração ou base, e eles não valem o mesmo. O
-único com respaldo científico é o coeficiente de substantividade de Poucher: abaixo de 15 é topo, de 15 a
+único com respaldo científico é o coeficiente de substantividade de Puchêr: abaixo de 15 é topo, de 15 a
 60 é coração, acima de 60 é base. Massa molar e pressão de vapor são heurística de apoio — pista, não
 sentença.
 
@@ -209,41 +209,6 @@ Vale ver a conta no seu próprio sabonete, com 3% do acorde Imagination adaptado
 acorde, o que dá 0,053% na barra — acima do gatilho de 0,01%, então vai no rótulo. Citronelol, cumarina e
 geraniol também passam. Só o citral fica abaixo. Ou seja: cinco dos seis precisam ser declarados. E se o
 mesmo acorde fosse num creme, o gatilho é dez vezes menor — aí passam todos.
-
-## 03c-dicionario-insumos :: RESUMO
-
-Livro três-C é o dicionário de insumos: cerca de cento e sessenta materiais organizados por função —
-tensoativo, emulsionante, estruturante, cera, óleo, manteiga, emoliente, umectante, ativo, conservante,
-antioxidante, espessante, pó, corante e extrato. Cada verbete diz o que o material faz, em que dose e em
-qual fase da fórmula ele entra.
-
-É material de consulta, e consulta não se ouve: ninguém decora cento e sessenta verbetes de ouvido. Ele
-está no aplicativo e no PDF, organizado para você abrir na hora em que precisa — e a forma certa de usar
-é pela função, não pelo nome. Se o problema é "preciso engrossar", você vai na seção de espessantes; se é
-"preciso conservar", na de conservantes.
-
-Três regras desse livro que valem ser ouvidas. Primeira: respeite a fase. Ingrediente na fase errada
-quebra a emulsão ou destrói o ativo. Segunda: some as gorduras — óleo, manteiga, éster e cera não podem
-passar do teto da fórmula, que é dez por cento numa barra e vinte e dois por cento numa emulsão com
-Olivem. E terceira: todo ingrediente que traz água traz risco. Mel, aloe, hidrolato e extrato aquoso
-pedem mais conservante, não menos.
-
-## 10-apendices :: RESUMO
-
-Os apêndices são quatro. O glossário, com os termos de perfumaria e os nomes em inci que aparecem nos
-rótulos. As tabelas de referência, que reúnem num lugar só as doses, os limites da IFRA, as temperaturas
-de cada operação, as faixas de pê-agá e as conversões de fórmula. As fórmulas comentadas — um perfume,
-um sindete, um processo a frio e uma loção — onde o que importa não é a receita, é o comentário ao lado
-explicando por que cada número está ali. E as fontes.
-
-Tem uma tabela nos apêndices que vale ouvir inteira, porque ela responde a pergunta que mais aparece: a
-tabela do tempo. Nota de topo dura de cinco a vinte minutos. Coração, de duas a cinco horas. Base, de
-quatro a doze horas ou mais. Cítrico natural, de quinze a quarenta e cinco minutos. Em fita olfativa,
-multiplique tudo por três a dez. A maceração muda o grosso do perfume em seis semanas. O processo a frio
-cura em quatro a seis semanas. O sindete seca em vinte e quatro a quarenta e oito horas. Creme caseiro
-vale três meses. E o teste de estabilidade em estufa leva noventa dias.
-
-O resto é consulta, e está no aplicativo.
 
 O mesmo produto como creme a 0,3% cruzaria o gatilho de 0,001% em praticamente todos.
 

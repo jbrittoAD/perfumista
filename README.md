@@ -1,65 +1,83 @@
 # Perfumista
 
-App assistente de perfumaria (uso pessoal). Trabalha com **químicos aromáticos, óleos essenciais e solventes**, com preços de fornecedores brasileiros e dados técnicos, em dois modos:
+App pessoal de perfumaria e cosmética caseira. **PWA estática, instalável, funciona offline** —
+o caso de uso é abrir no tablet dentro de um avião.
 
-- **Modo Direto** — monto uma fórmula (material + gramas + diluição) → prevê pirâmide (topo/coração/base), acordes, projeção, longevidade, timeline, avisos e **custo do lote**.
-- **Modo Reverso** — escolho notas/famílias + intensidade → sugere ingredientes (com preço) para chegar lá.
+**No ar:** https://jbrittoad.github.io/perfumista/
+(Android Chrome → ⋮ → "Instalar app" · iOS Safari → Compartilhar → Adicionar à Tela de Início)
 
-> ⚠️ O motor de previsão é **heurístico e explicável** (não é lab): baseado em volatilidade, força odorífera e lei de Stevens (intensidade compressiva). É um **auxílio/estimativa**, não medição.
+## O que ele faz
+
+Cinco abas:
+
+| Aba | O que é |
+|---|---|
+| **Descobrir** | deck de swipe com **587 matérias-primas** — direita = quero, esquerda = descarto. As cartas vêm agrupadas por família olfativa e, dentro da família, encadeadas por proximidade de cheiro |
+| **Meu Laboratório** | os favoritos, com busca, filtro e "copiar lista" pro WhatsApp do fornecedor |
+| **Paleta** | o que você tem em casa |
+| **Fórmulas** | monta acorde em partes com os materiais da paleta e simula |
+| **Livros** | o ebook *Do químico aromático ao produto* — **17 livros, 34,5 mil palavras, 15 figuras**, mais o **audiolivro de 2,6 h** |
+
+Tudo fica no aparelho: progresso de leitura, posição do audiolivro e o que você curtiu no deck moram
+em chaves separadas do `localStorage`, de propósito — uma nunca derruba a outra.
+
+## Os livros
+
+Fonte única em `knowledge/ebook/*.md`, três saídas:
+
+- **no app** (`build_books.py` → JSON, com os SVG embutidos para funcionar offline);
+- **PDF** de 112 páginas A4 (`build_pdf.sh`);
+- **audiolivro** em 16 capítulos (`build_audio.py`, Edge TTS, voz `pt-BR-FranciscaNeural` a 96 kbps).
+
+Tabela não se narra: cada uma virou uma fala escrita à mão em `knowledge/ebook/audio/narracoes.md`.
+
+## Rodar
+
+```bash
+cd web && npm install
+NEXT_PUBLIC_BASE_PATH=/perfumista npm run build    # gera web/out/
+```
+
+## Publicar
+
+```bash
+./web/scripts/publicar.sh "mensagem"    # build + precache + push na gh-pages
+```
+
+## Conferir antes de publicar
+
+```bash
+node web/scripts/e2e_app.mjs                                   # 13 provas num Chrome de verdade
+.venv-audio/bin/python3 web/scripts/checar_idioma.py --todos   # idioma e fidelidade do áudio
+```
+
+O teste do app simula um deploy no meio da sessão e confere que o audiolivro baixado **sobrevive** —
+foi assim que apareceu um bug em que atualizar o app apagava tudo que a pessoa tinha baixado.
+O do áudio transcreve com Whisper e compara com o roteiro, porque ninguém vai ouvir 2,6 h para
+checar se a voz escorregou para o espanhol.
 
 ## Estrutura
 
 ```
-materials/   # Node/TS — scraping + base SQLite + enriquecimento + consolidação
-  src/                       data/materials.db
-  scrape-flavorist.ts        (Flavorist — Nuvemshop)
-  scrape-perfumoteca.ts      (Perfumoteca — Loja Integrada)
-  scrape-perfumistico.ts     (Perfumístico — WooCommerce; HTTP+UA de navegador, paralelo)
-  crawl-tgsc.ts / enrich-tgsc.ts   (odor/família/força via The Good Scents)
-  enrich-pubchem.ts          (MW, ponto de ebulição, logP via PubChem)
-  build-materials.ts         (consolida ofertas → materiais canônicos por CAS/nome)
-  compute-price-per-g.ts     (preço por grama de material puro, normaliza diluição)
-  classify-materials.ts      (aroma_chemical | essential_oil | solvent | base_essencia)
-  derive-notes.ts            (topo/coração/base por fornecedor→ebulição→MW→família)
-web/         # Next.js 16 + React 19 — catálogo + Modo Direto + Modo Reverso
-knowledge/   # base de conhecimento de perfumaria (alimenta a heurística)
-scraper/     # (pausado) projeto antigo de scraping do Fragrantica
+web/            Next.js 16 + React 19, output: 'export' — o app
+  scripts/      build do deck, dos livros, do PDF, do áudio, publicação e testes
+knowledge/
+  ebook/        os 17 livros, as figuras e as narrações do audiolivro
+  cosmetica/    a pesquisa que virou os livros de cosmética
+  perfumologos/ a base do canal PerfumoLogos
+  data/         os dados que alimentam o deck
+  base_conhecimento_perfumaria.md · aroma-chemicals-notas.md · combinations.md
+materials/      scraping dos fornecedores → SQLite → deck.json
+.claude/skills/ skills de bancada (formular, diluir, sabonete, vender…)
 ```
 
-## Como rodar
+**Detalhes de arquitetura, decisões e armadilhas: [ESTADO.md](ESTADO.md).**
 
-**Webapp — agora é uma PWA 100% ESTÁTICA (instalável, offline).**
-```bash
-cd web && npm install
-npm run build          # gera a pasta out/ (site estático, ~679 páginas)
-npx serve out -l tcp://0.0.0.0:3000   # serve na rede local
-```
-Tudo roda no navegador a partir de JSON embutido (catálogo, curso, quizzes, flashcards, Modo Direto/Reverso, revisão espaçada). Não precisa mais de servidor Node no ar.
+## Avisos
 
-### 📱 Instalar no celular / tablet
-1. **Local (mesma rede Wi-Fi):** sirva `out/` (comando acima) e abra **http://Joaos-MacBook-Air.local:3000** no Safari (iPhone/iPad) ou Chrome (Android). Toque em **Compartilhar → Adicionar à Tela de Início** (iOS) ou **Instalar app** (Android). Vira um app com ícone, em tela cheia.
-2. **OFFLINE de verdade + usar em qualquer lugar (sem o Mac):** o service worker (offline) e o cache exigem **HTTPS**. Publique a pasta `out/` num host estático grátis (Vercel / Netlify / Cloudflare Pages / GitHub Pages) → você ganha uma URL `https://` fixa, instala uma vez e usa **offline em qualquer lugar**. Ex.: `cd web && npx vercel deploy --prod out` (após `npx vercel login`).
-   - As fórmulas salvas ficam no aparelho (localStorage); use **Exportar/Importar JSON** no Modo Direto pra levar de um pro outro.
-
-**Base de dados (scraping + processamento):**
-```bash
-cd materials && npm install
-npm run refresh      # re-raspa os 3 fornecedores e reprocessa tudo (leva alguns minutos)
-# ou passos avulsos:
-npm run pipeline     # só reprocessa (build → preço/g → classify → pubchem → tgsc → notas)
-npm run stats        # estatísticas da base
-```
-
-> **Atualizar preços periodicamente:** rode `npm run refresh` (ex.: via `cron`/launchd, 1x por semana).
-> O scraping é **resumível** (fila com status) e guarda o HTML bruto — nada se perde.
-
-## Dados (estado atual)
-- 3 fornecedores: Flavorist, Perfumístico, Perfumoteca (~600 produtos, ~1400 ofertas).
-- ~398 materiais no app (químicos aromáticos + óleos essenciais + solventes).
-- Cobertura: ~75% com nota (topo/coração/base), ~68% com família, ~36% com força de odor.
-
-## Pendências conhecidas (melhorias futuras)
-- **Calibrar o motor** contra fórmulas reais conhecidas (constantes hoje são estimativas plausíveis).
-- Decompor **óleos essenciais** por composição real (hoje via descrição).
-- **Limites IFRA por material** nos avisos (hoje avisos genéricos).
-- Subir cobertura de força/família dos ~100 materiais sem dado (Perfumoteca sem CAS).
+- O motor de previsão (projeção, longevidade, pirâmide) é **heurístico e explicável**, não medição de
+  laboratório. A tela diz isso onde o dado é estimado.
+- **Não raspar o The Good Scents Company** — o robots.txt deles bloqueia ClaudeBot e anthropic-ai no
+  site inteiro. Dado perceptual entra por curadoria; dado físico vem da API do PubChem.
+- `materials/` ainda tem o pipeline antigo de scraping dos fornecedores; o app clássico
+  (Modo Direto/Reverso) foi substituído pelo deck e está guardado na tag `v1-classico`.

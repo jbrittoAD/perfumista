@@ -1,7 +1,7 @@
 /**
  * livros/page.tsx — a estante.
  *
- * Lista os 16 livros com a barra de progresso de cada um e um bloco "continuar
+ * Lista os livros com a barra de progresso de cada um e um bloco "continuar
  * lendo" no topo, que é o que interessa em viagem: abrir o app e cair de volta
  * onde parou, sem rede.
  */
@@ -15,6 +15,7 @@ import {
   LIVROS, TOTAL_MINUTOS, TOTAL_PALAVRAS, getTodos, proximoLivro, resumoGeral,
   type Progresso,
 } from "@/lib/livros";
+import { FAIXAS } from "@/lib/audiolivro";
 
 export default function Estante() {
   const [mapa, setMapa] = useState<Record<string, Progresso>>({});
@@ -46,6 +47,24 @@ export default function Estante() {
           {resumo.terminados === 1 ? "" : "s"}
         </p>
       </div>
+
+      <Link
+        href="/livros/audio"
+        className="mb-4 flex items-center gap-3 rounded-[var(--r-md)] border border-[var(--border)] bg-[var(--surface)] p-4"
+      >
+        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full"
+              style={{ background: "var(--fam-soft)" }}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
+            <path d="M8 5l11 7-11 7z" fill="var(--fam)" />
+          </svg>
+        </span>
+        <span className="min-w-0">
+          <span className="block font-semibold">Ouvir o audiolivro</span>
+          <span className="block text-xs text-[var(--fg-dim)]">
+            {FAIXAS.length} capítulos narrados · dá para guardar no aparelho
+          </span>
+        </span>
+      </Link>
 
       <Baixar />
 

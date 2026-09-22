@@ -136,7 +136,7 @@ Para **sabonete**, troque parte por **Peonile**: nitrilo não hidrolisa em pH 10
 | Orivone | orris sintético de alta performance | 0,1–1% | 1,57 |
 | Vanoris | orris frutado-amadeirado, barato | 0,2–3% | **0,12** |
 | Orris Givco 204 | especialidade de íris | 2% | 4,72 |
-| **Irone alpha** | o íris de verdade: nenhum sintético chega perto | — | **108,44** | 
+| **Irone alpha** | o íris de verdade: nenhum sintético chega perto | — | **108,44** |
 
 **Veredicto:** β-ionona + metil ionona cobrem violeta e íris por menos de R$ 0,50/g.
 Irone alpha a R$ 108/g é decisão de negócio, não de fórmula.

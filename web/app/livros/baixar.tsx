@@ -14,6 +14,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import TAM from "@/lib/data/tamanhos.json";
+import { LIVROS } from "@/lib/livros";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
 const PDF = `${BASE}/Do-quimico-aromatico-ao-produto.pdf`;
@@ -57,14 +59,14 @@ export default function Baixar() {
         <li className="flex items-start gap-2">
           <Check ok />
           <span className="text-[var(--fg-dim)]">
-            <strong className="text-[var(--fg)]">Os 17 livros em texto</strong> — já ficam no aparelho
+            <strong className="text-[var(--fg)]">Os {LIVROS.length} livros em texto</strong> — já ficam no aparelho
             assim que você abre o app com internet. Nada a fazer.
           </span>
         </li>
         <li className="flex items-start gap-2">
           <Check ok={estado === "guardado"} />
           <span className="text-[var(--fg-dim)]">
-            <strong className="text-[var(--fg)]">O PDF, 112 páginas</strong> — 4,7 MB, com as figuras.
+            <strong className="text-[var(--fg)]">O PDF, 112 páginas</strong> — {TAM.pdfMB} MB, com as figuras.
             {estado === "guardado" && " Guardado."}
           </span>
         </li>
@@ -96,7 +98,8 @@ export default function Baixar() {
         </p>
       )}
       <p className="mt-2 text-[11px] text-[var(--muted)]">
-        O audiolivro ainda não entra aqui: está em produção.
+        O audiolivro tem download próprio, capítulo a capítulo, na tela de ouvir — são {TAM.audioMB} MB
+        nos {TAM.capitulos} capítulos.
       </p>
     </div>
   );

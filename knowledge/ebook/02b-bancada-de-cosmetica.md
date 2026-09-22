@@ -76,7 +76,7 @@ mica, extrato glicerinado. Preços conferidos em 21/09/2026:
 
 | Item | Preço |
 |---|---|
-| SCI (isetionato) — **2 kg** | **R$ 76,63** (= R$ 38/kg, o melhor do mercado) |
+| SCI (isetionato) — **2 kg** | **R$ 76,63** (= R$ 38/kg, contra R$ 165/kg no pote de 250 g) |
 | Ácido esteárico 500 g | R$ 14,78 |
 | Cocamidopropil betaína 500 ml | R$ 12,32 |
 | Álcool cetílico 500 g | R$ 22,59 |

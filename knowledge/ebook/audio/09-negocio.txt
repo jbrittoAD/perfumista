@@ -1,7 +1,13 @@
 LIVRO 9 — Virar negócio.
 Do lote de bancada ao lote de produção.
 
-O que muda quando sai de 200 g para 5 quilos:
+O que muda quando você sai de 200 gramas para 5 quilos. O aquecimento: massa maior demora mais e retém
+calor, então o perfume evapora se entrar cedo. O resfriamento: fica lento, e isso gera cristal grosseiro
+no sindete e karité arenoso — resfrie ativamente. A agitação: aparecem zonas mortas, mexa o fundo e as
+bordas. A pesagem: o erro relativo cai, mas o absoluto sobe, então confira duas vezes o material de
+traço. A perda de processo: o que fica na panela deixa de ser ignorável e passa a ser de 3 a 8% —
+formule com 5% de folga. E a reprodutibilidade, que na bancada era "ficou bom" e na produção vira caderno
+de lote obrigatório.
 
 Escale sempre em múltiplos inteiros e refaça um lote intermediário antes de saltar 10 vezes.
 Custo e preço.
@@ -17,6 +23,13 @@ Se o mercado não paga, não corte material: aumente o lote (o custo por barra d
 Regularização — via A: empresa regular.
 
 É o caminho que existe hoje, com via procedimental funcionando.
+
+A via que funciona hoje para vender tem seis etapas. Primeira: CNPJ com CNAE de fabricação — e atenção,
+saboaria não cabe em MEI. Segunda: licença sanitária local, na vigilância do seu município ou estado.
+Terceira: a autorização de funcionamento da ANVISA, a AFE, pela RDC 16 de 2014, obrigatória para
+fabricar, embalar ou distribuir. Quarta: responsável técnico, exigido pelo artigo 53 da Lei 6.360.
+Quinta: a notificação de produto Grau 1 — sabonete, xampu e creme comum são todos Grau 1. E sexta: boas
+práticas de fabricação, verificadas por inspeção.
 Regularização — via B: artesanal.
 Lei 15.154/2025 (publicada em 01/07/2025, em vigor desde 30/08/2025) altera a Lei 6.360 e dispensa o registro de cosmético, perfume e produto de higiene artesanal.
 O regulamento da ANVISA ainda não foi publicado. A Consulta Pública número 1.353/2025 foi reaberta e encerrou em fev/2026 sem texto final.
@@ -46,5 +59,5 @@ Obrigatório: nome do produto · finalidade · composição em inci (ordem decre
 
 Mais: alérgenos de fragrância declarados pela RDC 530/2021 (26 substâncias, acima de 0,001% produto que fica na pele e 0,01% produto que se enxágua).
 
-inci é nome internacional, não português: Aqua, não "água"; Sodium Cocoyl Isethionate, não "isetionato de sódio"; Butyrospermum Parkii Butter, não "karité". Fragrância entra como Parfum, seguida dos alérgenos declaráveis.
+inci é nome internacional, não português: Aqua, não "água"; Sodium Cocoyl Isethionate, não "isetionato de sódio"; Butyrospermum Parkii Butter, não "karité". Fragrância entra como parfã, seguida dos alérgenos declaráveis.
 Pendência honesta: a norma de BPF de cosméticos é distinta da RDC 907/2024 (que trata de classificação, rotulagem, embalagem, microbiologia e regularização). A referência mais citada é a RDC 764/2022 — confirme o número na base da ANVISA antes de citá-lo em documento oficial.

@@ -1,35 +1,15 @@
-LIVRO 3C — Dicionário de insumos cosméticos: o que faz cada um.
+Livro três-C é o dicionário de insumos: cerca de cento e sessenta materiais organizados por função —
+tensoativo, emulsionante, estruturante, cera, óleo, manteiga, emoliente, umectante, ativo, conservante,
+antioxidante, espessante, pó, corante e extrato. Cada verbete diz o que o material faz, em que dose e em
+qual fase da fórmula ele entra.
 
-Referência por função. Dose = faixa usual no produto acabado. Fase = A aquosa · B oleosa · C fria (<45  graus) · P pó/prensagem.
+É material de consulta, e consulta não se ouve: ninguém decora cento e sessenta verbetes de ouvido. Ele
+está no aplicativo e no PDF, organizado para você abrir na hora em que precisa — e a forma certa de usar
+é pela função, não pelo nome. Se o problema é "preciso engrossar", você vai na seção de espessantes; se é
+"preciso conservar", na de conservantes.
 
-Tensoativos aniônicos — limpam e espumam.
-Anfóteros — suavizam e estabilizam.
-Não-iônicos — suavidade e emulsão.
-Catiônicos — condicionam.
-Emulsionantes.
-Estruturantes — dureza e corpo.
-Ceras.
-Óleos vegetais.
-Manteigas.
-Emolientes sintéticos e silicones.
-Umectantes.
-Ativos.
-Ácidos e ajuste de pê-agá.
-Conservantes.
-Antioxidantes e quelantes.
-Espessantes e gelificantes.
-Pós, argilas e esfoliantes.
-Corantes.
-Extratos.
-
-Para pele seca: aveia, camomila, calêndula, cacau, malva.
-Para pele oleosa: hamamélis, chá verde, alecrim, barbatimão, própolis.
-Todos entram abaixo de 50  graus — calor destrói o que você pagou para ter.
-Aditivos diversos.
-
-Como usar este dicionário.
-Comece pela função, não pelo ingrediente: "preciso engrossar" → seção 16.
-Respeite a fase. Ingrediente na fase errada = emulsão quebrada ou ativo destruído.
-Some as gorduras. Óleo + manteiga + éster + cera não podem passar do teto da fórmula (barra no máximo 10%, Olivem no máximo 22%).
-Todo ingrediente que traz água traz risco — mel, aloe, hidrolato, extrato aquoso: suba o conservante e teste.
-Na dúvida entre dois que fazem a mesma coisa, ver 03b — os parecidos, com preço.
+Três regras desse livro que valem ser ouvidas. Primeira: respeite a fase. Ingrediente na fase errada
+quebra a emulsão ou destrói o ativo. Segunda: some as gorduras — óleo, manteiga, éster e cera não podem
+passar do teto da fórmula, que é dez por cento numa barra e vinte e dois por cento numa emulsão com
+Olivem. E terceira: todo ingrediente que traz água traz risco. Mel, aloe, hidrolato e extrato aquoso
+pedem mais conservante, não menos.

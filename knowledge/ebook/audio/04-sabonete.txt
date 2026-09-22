@@ -1,6 +1,19 @@
 LIVRO 4 — Sabonete.
 As três famílias.
 
+Tudo que você vai fazer cai em uma de três famílias, e cada uma tem uma regra que manda.
+
+Sabão é gordura mais álcali. O pê-agá fica entre 9 e 10, e não tem como baixar: é o álcali que transforma
+a gordura em sabão. Por isso ele come parte do perfume e resseca mais.
+
+Sindete é tensoativo sintético prensado em barra. O pê-agá fica em 5, o mesmo da pele — é ele que não
+resseca, e é o que existe dentro de um sabonete de farmácia.
+
+E emulsão é água e óleo forçados a conviver: creme, loção, condicionador. Pê-agá 5 a 5 e meio, e uma
+regra que não se negocia: tem água, então tem conservante.
+
+Saber em qual das três você está resolve 80% do que pode dar errado.
+
 Base glicerinada (base glicerinada) é sabão, não sindete — apesar do marketing.
 Base glicerinada.
 É sabão pronto (inci típico: sodium palmate, sodium palm kernelate, sodium tallowate, glicerina, álcool, sorbitol, sacarose).
@@ -10,14 +23,35 @@ Aditivos a 45 a 55  graus. Perfume por último.
 
 Para 200 g: essência 4 a 6 g · extrato glicerinado 2 a 4 g · lauril extra 0 · óleo 0.
 
+Cinco defeitos da base glicerinada, e cada um tem um culpado. A barra chora, com gotinhas na superfície:
+é a glicerina puxando umidade do ar — embrulhe em filme. Ficou mole e derrete na mão: você passou dos 6%
+de aditivo. Bolhas presas na massa: fogo alto. Cheiro fraco: o perfume entrou acima de 60 graus e
+evaporou. E camadas descolando: você despejou a segunda camada sobre uma base fria demais — borrife
+álcool 70 entre elas.
+
 Não dá para: ajustar pê-agá, colocar creme, endurecer de forma confiável. Serve como bancada de teste de cheiro (3 reais e 60/barra, pronta em 24 horas).
 sindete do zero — a fórmula.
 
 1 quilos = 10 barras.
 
+A fórmula do sindete, para um quilo, que rende dez barras. Isetionato, 50% — e esse é o teto, porque 50 é
+o máximo permitido em produto que se enxágua. Ácido esteárico, 9%, que dá dureza e funciona como lipídio
+de sacrifício. Amido, 8%, que é de onde vem o efeito seco. Betaína, 7%. Manteiga, 5%. Álcool cetílico,
+4%. Coco glucoside, 4%. Perfume, 3%. Glicerina com extrato, 3%. Coco caprilato, 3%. Pantenol, 2%. Caulim,
+2%. E fecha com conservante e ácido cítrico, que ajusta o pê-agá para 5.
+
+O número que amarra tudo: a gordura somada — manteiga mais caprilato — fica em 8%. Acima de 10, a espuma
+cai.
+
 Processo: pesar isetionato de sódio com máscara pê-efe-efe dois → fundir esteárico+cetílico+manteiga a 70 a 75  graus → juntar isetionato de sódio+betaína a 70 a 80  graus, nunca >85  graus (degrada espuma) → massa fica pastosa, não líquida (isetionato de sódio só funde a 154  graus) → abaixo de 60  graus entram pós, pantenol, cítrico, conservante e por último o perfume → prensar → freezer 1 a 2 horas → secar 24 a 48 horas (3 a 7 dias melhor).
 
 3-em-1: + guar quaternizada 2 a 3% (tirar do amido), hidratada em água morna antes.
+
+Seis defeitos do sindete, com causa e correção. Esfarelou: falta ligante, ou tem polímero catiônico
+demais, ou você usou isetionato em floco em vez de pó — suba esteárico e cetílico, e use o pó. Ficou
+mole: glicerina ou líquido demais; corte o líquido e suba o cetílico. Não desenforma: esfriou devagar;
+freezer logo depois de prensar. Espuma fraca: isetionato baixo, ou água dura. A espuma some rápido:
+gordura acima de 10%. E se arde na pele, o pê-agá está acima de 6 — ácido cítrico até fechar em 5.
 
 Custo (Atiká): base 37 reais e 65/quilos → 4 reais e 60 a 5,80 a barra de 100 g com perfume.
 Soda cáustica — protocolo.
@@ -35,7 +69,14 @@ processo a frio.
 
 Toda receita passa por calculadora (SoapCalc, Casa do Saboeiro, Fórmula Sabão Artesanal). Receita copiada sem recalcular é o erro que machuca — cada óleo tem índice de saponificação diferente.
 
-Receita de referência, 1 quilos de óleos (cerca de 14 barras):
+A receita de processo a frio, para um quilo de óleos, que rende umas quatorze barras. Sebo ou banha, 35%
+— é ele que dá dureza e espuma cremosa, e é o mais barato que existe no Brasil. Coco ou babaçu, 25%, pela
+bolha grande; acima de 30% resseca. Azeite ou girassol alto oleico, 25%, pela suavidade. Manteiga de
+cacau, 10%, por dureza. E mamona, 5%, que turbina a espuma.
+
+A soda fica em torno de 143 gramas com 5% de gordura sobrando, e a água em 290. Mas confira na
+calculadora: cada óleo tem índice de saponificação diferente, e receita copiada sem recalcular é o erro
+que machuca.
 
 Soda cerca de 143 g (gordura sobrando 5%), água cerca de 290 g (concentração 33%) — confira na calculadora.
 
@@ -45,17 +86,41 @@ Processo: soda na água → esfriar a 38 a 43  graus → gorduras derretidas a 3
 
 A cura não é opcional: evapora água, endurece e suaviza. Barra de 2 semanas arde e derrete.
 
+Cinco defeitos do processo a frio. A massa endurece na hora, e você não consegue despejar: é fragrância
+aceleradora, ou temperatura alta demais. Grãos parecidos com arroz na massa: incompatibilidade da
+fragrância. Manchas alaranjadas com cheiro de ranço: óleo rico em linoleico, gordura sobrando demais, ou
+óleo velho. A barra escurece: vanilina. E se arde na pele depois da cura inteira, a soda foi mal
+calculada — descarte o lote, não tem conserto.
+
 Custo: cerca de 3 reais e 50/barra. pê-agá 9 a 10 sempre.
 
 36b. Sabonete líquido.
 
 Mesma química do sindete, em água.
 
+O sabonete líquido é a mesma química do sindete, só que em água. Água destilada como veículo, tensoativo
+aniônico de 8 a 15% de ativo, betaína de 3 a 5%, coco glucoside de 2 a 4%, glicerina de 2 a 3%, e guar
+quaternizada em meio por cento se você quiser um dois em um. Mais quelante, para a espuma não morrer em
+água dura, conservante — que aqui é obrigatório, porque é quase tudo água — e ácido cítrico para fechar
+o pê-agá em 5.
+
+A ordem importa mais que a fórmula: dissolva o quelante e a glicerina na água, junte os tensoativos
+devagar sem fazer espuma, acerte o pê-agá, e só então entre com o sal, de 0,2 em 0,2 por cento. Perfume
+e conservante por último, e deixe descansar 24 horas para as bolhas subirem.
+
 Ordem: dissolver quelante e glicerina na água → tensoativos devagar, sem criar espuma (mexer no fundo) → ajustar pê-agá → só então o sal, de 0,2% em 0,2%, medindo a viscosidade → conservante e perfume por último → descansar 24 horas para as bolhas subirem.
 
 Erros: bater com mixer (vira espuma que não baixa em dias) · pôr o sal antes de acertar o pê-agá (a curva muda) · esquecer o quelante (espuma some em água dura).
 Efeito seco × hidratação × espuma.
 
-Os três brigam. Como equilibrar:
+Os quatro objetivos brigam entre si, e é bom saber quem atrapalha quem. Espuma vem do isetionato, do
+láurico, da betaína e da mamona — e gordura derruba espuma, então a gordura somada fica em 8 a 10%.
+Hidratação vem de manteiga, glicerina e pantenol — mas manteiga corta espuma, então hidrate com pantenol
+e glicerina, não com óleo. Efeito seco vem do amido a 8% e do caulim a 2% — e pó demais deixa a barra
+arenosa. E perfume fica em 3%: acima disso, amolece.
+
+A sacada que resolve o aparente impasse: numa barra, o óleo não hidrata, porque ele é enxaguado. Quem
+hidrata é o tensoativo suave em pê-agá 5, que não arranca o seu manto lipídico, mais o ácido esteárico,
+que se deposita na pele.
 
 A sacada: numa barra, óleo não hidrata — é enxaguado. Quem hidrata é o tensoativo suave em pê-agá 5 (não arranca o manto) + o ácido esteárico, que se deposita como lipídio de sacrifício.

@@ -3,13 +3,34 @@ A estrutura.
 
 Hidratante corporal e creme facial são a mesma arquitetura; muda a proporção e o preço do ativo.
 
+Todo creme tem três fases. A fase A é aquosa: água destilada, glicerina, umectante, quelante, goma. A
+fase B é oleosa: emulsionante, óleos, manteiga, álcool graxo, tocoferol. As duas vão a 70 graus. E a fase
+C é a fria, abaixo de 45 graus: ativos sensíveis, conservante, perfume e ajuste de pê-agá.
+
+A regra que decide se emulsiona ou talha: as duas primeiras fases têm que se encontrar com no máximo 5
+graus de diferença entre elas.
+
 Juntar A e B com diferença no máximo 5  graus, bater com mixer 2 a 3 minutos, esfriar mexendo, medir pê-agá (5,0 a 5,5), envasar.
 
 Loção corporal toque seco — 200 g
 
+A loção corporal de toque seco, para 200 gramas. Água destilada completando, glicerina 4%, Olivem 5%,
+coco caprilato 8%, esqualano 3%, álcool cetílico 2% e tocoferol. Na fase fria: pantenol 2%, hialuronato
+0,1%, conservante 1% e perfume entre meio e um por cento.
+
+O número que define essa fórmula é a fase oleosa somada: 13%. É isso que faz a loção ser leve. De 20 a
+25% já é creme rico, e acima de 22 o Olivem não segura.
+
 Fase oleosa 13% = leve. 20 a 25% = creme rico. Acima de 22%, o Olivem não segura.
 
 Creme facial com ativos — 50 g
+
+O creme facial com ativos, para 50 gramas. Na fase aquosa: água, glicerina 5% e adenosina a um décimo de
+por cento — e a adenosina dissolve em água quente, não jogue no creme pronto. Na fase oleosa: Olivem 6%,
+esqualano 4%, dimeticona 3%, álcool cetílico e tocoferol. Na fase fria: pantenol 2%, hialuronato 0,15%,
+niacinamida 4%, conservante 1% e, se quiser, perfume até 0,2%.
+
+O custo de matéria-prima fica entre 15 e 25 reais por 50 gramas. O equivalente de grife custa 516.
 
 Custo de matéria-prima: 15 reais–25 por 50 g. O equivalente de grife: 516 reais.
 Toque seco: as três camadas.
@@ -17,14 +38,42 @@ Umectante — glicerina 4%, pantenol 2%, HA 0,1%: segura água dentro da pele.
 Éster de espalhamento rápido — coco caprilato, CCT, esqualano: espalha, some, deixa deslize sem filme.
 Zero oclusivo pesado — nada de vaselina, lanolina ou manteiga em quantidade.
 
+Quatro sintomas de creme, com o culpado de cada um. Resseca mesmo hidratando: é oclusivo sem umectante —
+tem filme, mas não tem água para segurar. Ficou pegajoso: glicerina acima de 5%, ou manteiga demais. Some
+e a pele repuxa em uma hora: é o contrário, só umectante e nada que segure, o que aparece em clima seco.
+E bolinha ao espalhar: goma demais, ou perfume jogado no creme frio em vez de dissolvido no óleo.
+
 Ler o inci em 5 segundos: começa com Caprylic/Capric Triglyceride, Coco-Caprylate, Dimethicone → toque seco. Começa com Petrolatum, Paraffinum Liquidum, Lanolin, Butyrospermum → pesado.
 Ativos.
 
-Incompatibilidades e ordem:
+Os ativos que valem, em ordem de evidência. Glicerina, de 3 a 10%: é o hidratante mais bem estabelecido
+que existe. Niacinamida, de 2 a 5%, para barreira, manchas e oleosidade. Pantenol, de 1 a 5%, que hidrata
+e acalma. Adenosina, entre 0,04 e 0,1%, com ensaio randomizado de 126 voluntárias para linha fina — e o
+painel de segurança americano considera segura até 1%. Hialuronato, de 0,1 a 0,5%, que hidrata a
+superfície e não é preenchedor. Ureia, de 3 a 10%, que hidrata e esfolia; acima de 10% ela vira
+queratolítica.
+
+Com evidência mais fraca: bifida, salicyloyl phytosphingosine, extrato de levedura e peptídeos — estes
+últimos caros para o que entregam.
+
+Seis incompatibilidades que estragam creme. Ativo aniônico com catiônico precipita. Niacinamida em pê-agá
+abaixo de 4 pode gerar ácido nicotínico, que dá rubor. Vitamina C em água oxida em dias e exige pê-agá
+abaixo de 3,5 com embalagem airless. Alguns extratos vegetais consomem o conservante — suba a dose e
+teste. Ativo em pó tem que ser dissolvido antes, na fase compatível, nunca jogado no creme pronto. E
+perfume no creme frio vira bolinha de óleo: ele entra na fase fria, dissolvido em parte do óleo.
 
 Como ler a inci de um produto caro: tudo que vem depois do conservante está abaixo de cerca de 1%.
 No Génifique Crème, os quatro ativos que dão nome ao produto vêm depois do phenoxyethanol — somados não chegam a 4%. O resto é água, glicerina, silicone, PTFE + dióxido de titânio + mica (desfoque óptico, efeito imediato, não tratamento) e cinco conservantes.
 Alegações.
+
+O que o rótulo pode e não pode dizer. Pode: hidrata, suaviza, dá maciez, melhora a aparência. Não pode:
+trata, cura, previne doença. Pode dizer "reduz a aparência de linhas finas"; não pode dizer "elimina
+rugas". Pode "ajuda a controlar a oleosidade"; não pode "cura acne". Pode "indicado para pele sensível";
+não pode "anti-inflamatório" nem "cicatrizante". E pode dizer "com extrato de camomila", mas não pode
+chamá-lo de calmante em sentido terapêutico.
+
+Alegação terapêutica transforma cosmético em medicamento — outro registro, outra fiscalização. E não
+copie texto de marca grande: ela tem dossiê para sustentar a frase, você não.
 Alegação terapêutica transforma cosmético em medicamento: outro registro, outra fiscalização.
 Alegações de Grau 2 (antirrugas, clareador, antiacne, protetor solar, antiqueda) exigem registro, não notificação — e dossiê de eficácia.
 Não copie texto de marca grande. Ela tem estudo para sustentar a frase; você não. A frase é dela, o risco seria seu.

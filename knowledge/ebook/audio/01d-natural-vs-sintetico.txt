@@ -3,7 +3,21 @@ LIVRO 1D — Natural × sintético, e os solventes.
 O banco tem 469 químicos aromáticos, 34 óleos essenciais, 70 bases e 14 solventes. Este capítulo é
 sobre quando usar cada um — e sobre os dois mitos que atrapalham mais do que qualquer erro de fórmula.
 O que é cada coisa.
+
+São sete formas de comprar cheiro, e vale distinguir. O óleo essencial destilado vem do arraste a vapor e
+traz de 100 a 400 moléculas em proporção que varia. O prensado a frio, que só existe para cítrico, é o
+mais próximo da fruta — e é o que traz as furocumarinas fototóxicas. O absoluto vem por solvente, é mais
+fiel à flor, caro e escuro. O resinoide é viscoso e fixador. O extrato por dióxido de carbono é o mais
+fiel de todos, e o mais caro. O isolado natural é uma molécula separada de um óleo. E o chamado idêntico
+ao natural é essa mesma molécula, feita em laboratório: quimicamente indistinguível da outra.
 A diferença que existe de verdade.
+
+A diferença real entre óleo essencial e isolado cabe em poucas linhas. O óleo tem de 100 a 400 moléculas;
+o isolado tem uma. O óleo varia por safra, por solo, por clima e até por destilação; o isolado não varia.
+A reprodutibilidade de lote é baixa num e total no outro. A complexidade olfativa é alta no óleo e linear
+no isolado — e é justamente por ser linear que o isolado se combina bem. Na IFRA, o óleo é limitado pelo
+componente que carrega, o isolado pela própria molécula. E em sustentabilidade, o sintético é previsível,
+enquanto sândalo e pau-rosa estão sob pressão.
 
 A diferença que NÃO existe: o linalol de lavanda e o linalol de laboratório são a mesma molécula. O corpo não distingue, o nariz não distingue, a análise química não distingue.
 Os dois mitos.
@@ -32,6 +46,14 @@ Reprodutibilidade importa — ou seja, sempre que você for vender.
 O produto é enxaguado: no sabão o cítrico natural morre e o sintético estável (dihidromircenol, Lemonile) fica.
 Custo e ética: sândalo Mysore e pau-rosa são espécies pressionadas; Sandalore e Javanol resolvem sem isso.
 Custo, lado a lado (preços do banco).
+
+O custo lado a lado é onde a conversa fica concreta. Para bergamota: o óleo essencial custa 74 centavos
+o grama, e a base sintética, 31. Para limão: o óleo, 27 centavos; o limoneno, 26. Para sândalo: o amyris
+custa 2,44 e o Sandalore, 41 centavos. Para cedro: o óleo de cedro Virgínia custa 2,33, e o Iso E Super,
+18 centavos. Os dois extremos são os que impressionam. Jasmim: a especialidade pronta custa 114 reais o
+grama, contra Hedione mais hexil cinamal somando 31 centavos. E verde: o óleo de galbanum custa 15 reais
+e 68, contra 18 centavos do Triplal. Para almíscar não existe comparação — o natural é ilegal, e o
+Galaxolide custa 12 centavos.
 Reconstruir um natural com isolados.
 
 É o exercício que mais ensina. Você monta o "alvo" e depois decide se vale comprar o natural.
@@ -43,11 +65,26 @@ Sândalo (PA, por 1000): Javanol 320 · metil cedril cetona 240 · Ebanol 240 ·
 O que se aprende fazendo: o natural quase sempre tem um traço que você não previu (o indol do jasmim, a rose oxide da rosa) e é ele que dá realismo. Reconstrução sem o traço cheira a "perfume de sabonete"; com o traço, cheira à flor.
 Como decidir, na prática.
 
+Como decidir, caso a caso. Perfume autoral em álcool, sem pressa de custo: híbrido, base sintética com 5
+a 15% de naturais para dar nuance. Qualquer coisa que se enxágua — sabonete, xampu: sintético, e dos que
+aguentam álcali. Creme facial: sintético em dose mínima, com cuidado redobrado com fototóxico. Produto
+que vende "natural" no rótulo: natural, e assuma o custo e a variação de safra. Lote de venda que precisa
+repetir: sintético, sempre. E nota que não existe na natureza — muguet, morango, maresia, almíscar: aí
+não há escolha.
+
 Regra de trabalho: compre isolados para construir a estrutura e naturais para temperar. O inverso — natural como estrutura — sai caro, varia a cada safra e é mais difícil de manter dentro da IFRA.
 
 Solventes e diluentes.
 
-O solvente muda como o perfume evapora, não só a concentração. Preços do banco:
+Sobre solventes, que quase ninguém discute e mudam o resultado. O álcool de cereais custa de 2 a 4
+centavos o grama, é volátil e é o veículo do perfume. O dipropilenoglicol, o DPG, custa de 4 a 10
+centavos, é inodoro e é o padrão para diluir material que você vai avaliar na fita. O dietilftalato custa
+5 centavos e fixa, mas é ftalato, e o mercado rejeita em produto que fica na pele. Triacetina e citrato
+de trietila são as alternativas. O miristato de isopropila serve para perfume em óleo, mas é emoliente:
+ele entra na conta da fase oleosa do cosmético. E a jojoba, a 2,80 o grama, é cara e quase não oxida.
+
+A regra prática: DPG para estudar na fita, álcool para produzir. Se você diluir tudo em DPG e depois
+montar um perfume alcoólico, o DPG entra junto e deixa o perfume pesado.
 
 Como escolher:
 Diluição para avaliar na fita → DPG (inodoro e lento, você sente o material, não o solvente).

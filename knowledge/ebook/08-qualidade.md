@@ -40,7 +40,7 @@
 | Endurece na hora (*seize*) | fragrância aceleradora ou temperatura alta |
 | Grãos de arroz (*ricing*) | incompatibilidade do veículo da fragrância |
 | Manchas laranja + ranço (*DOS*) | óleo linoleico/linolênico, superfat alto, óleo velho |
-| "Gel parcial" (círculo escuro no meio) | temperatura desigual na cura | 
+| "Gel parcial" (círculo escuro no meio) | temperatura desigual na cura |
 | Cinza branca na superfície (*soda ash*) | reação com CO₂ do ar — cosmético, não é defeito |
 | Escurece | vanilina |
 | **Arde depois da cura** | soda mal calculada → **descartar** |

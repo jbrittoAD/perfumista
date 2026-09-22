@@ -1,0 +1,10 @@
+AMOSTRAS DE VOZ — audiolivro Perfumista
+
+1-linha-*       uma frase curta, para comparar timbre entre as 9 vozes pt-BR
+2-paragrafo-*   três frases com travessão e vírgula, para ouvir a pontuação
+3-numeros       o caso difícil: pH 5,0 a 5,5 / R$ 4,60 / 5% do concentrado
+4-luciana-*     mesma voz em 3 velocidades (160, 190 e 215 palavras/min)
+5-luciana-*     mesma voz grave e aguda (pitch)
+
+Ouça 2-paragrafo-* primeiro: é onde a diferença aparece.
+Depois me diga o nome do arquivo que você preferiu.

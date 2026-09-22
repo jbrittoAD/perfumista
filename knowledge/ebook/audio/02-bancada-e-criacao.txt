@@ -1,17 +1,34 @@
 LIVRO 2 — A bancada e a criação.
 Equipamento.
 
+A bancada de perfumaria tem nove itens, e um deles é inegociável: a balança de milésimo de grama, com
+anteparo contra vento, entre 150 e 300 reais. Sem ela não há reprodutibilidade, e sem reprodutibilidade
+não há aprendizado. Ao lado dela: uma balança de centésimo para álcool e lote, pipetas Pasteur
+descartáveis — uma por material, sem exceção —, frascos âmbar de 30 mililitros com tampa de rosca,
+béqueres, fitas olfativas de papel absorvente sem cheiro, álcool de cereais de perfumaria, BHT e
+etiquetas. Desperdício no começo é kit de cem óleos essenciais, homogeneizador e frasco bonito.
+
 Desperdício no início: kit de 100 óleos essenciais, homogeneizador, banho ultrassônico, frasco bonito, agitador magnético.
 A balança de 0,001 g é o único item em que não se economiza — sem ela não há reprodutibilidade, e sem reprodutibilidade não há aprendizado.
 Diluições de trabalho.
 
 O número que rege tudo: frasco de 30 mililitros comporta 24 g de solução final. Álcool é mais leve que água e o frasco precisa de ar.
 
+O número que rege a diluição inteira: um frasco de 30 mililitros comporta 24 gramas de solução. Não 30 —
+o álcool é mais leve que a água e o frasco precisa de ar. A partir daí, a escada é simples. Para 10%, que
+é o padrão: 2,4 gramas de matéria-prima, álcool até completar 24 gramas, e 24 miligramas de BHT. Para 1%:
+240 miligramas. Para meio por cento: 120 miligramas. E a ordem importa: rotule o frasco antes de encher,
+tare, BHT, matéria-prima, e o álcool por último.
+
 Ordem: rotular (nome + % + data) → tarar o frasco → BHT → matéria-prima → álcool até o peso total.
 
 Quem exige diluição pesada: aldeídos (avaliar a 1%) · indol (1%; uso final 0,1 a 0,5%) · rose oxide, damascones, Ambroxan (avaliar a no máximo 1%) · geosmina (0,001%).
 
-Regra de estoque, e o motivo está no cap. 19:
+Nem todo material merece a mesma diluição, e errar isso trava a fórmula. Material de dose alta — Hedione,
+Iso E Super, Ambroxan, dihidromircenol — fica puro ou a 10%. Dose média, como ionona, cumarina e geraniol,
+a 10%. Traço — damascones, rose oxide, indol, aldeídos — a 1%. E os extremos, como geosmina, a um décimo
+de por cento ou menos. O motivo aparece na seção 19: material de dose alta guardado a 1% traz tanto
+álcool junto que a fórmula não cabe no frasco.
 Fita olfativa.
 Mergulhar 5 mm, escrever o nome antes de cheirar.
 Rajadas de 2 a 3 segundos, com pausa. Não inspirar fundo.
@@ -25,29 +42,44 @@ Caderno de bancada.
 
 Por lote: número · data · fórmula em partes · diluição de cada estoque · peso real pesado de cada material · rendimento · o que mudou em relação ao lote anterior · avaliação em 3 tempos.
 Sem isso você não repete o acerto. Para vender, é obrigação legal (rastreabilidade — Livro 9).
-Método Jean Carles.
+Método Jã Carles.
 
 Aprender material, não decorar fórmula.
 
 Etapa 1 — individual. Cada material sozinho, a 10%, na fita, relido em 24 horas.
 
-Etapa 2 — dois a dois, em escada fixa. Exemplo real, lavanda × cumarina:
+O método Jã Carles em uma imagem. Pegue lavanda e cumarina e monte cinco fitas: nove por um, oito por
+dois, sete por três, seis por quatro e cinco por cinco. Na primeira você sente lavanda com um fundo de
+feno. Na segunda, começa a virar fujér. Na terceira — sete por três — o acorde vira outra coisa, e é
+esse o ponto que você está procurando. Na quarta a cumarina começa a dominar, e na quinta ficou doce
+demais e a lavanda sumiu.
+
+O aprendizado não é achar a melhor fita. É achar onde o acorde vira.
 
 Escolhe-se a melhor e ela vira "o par". O aprendizado está em achar o ponto de virada, não em achar a melhor fita.
 
 Etapa 3 — três a três. Pegar o par vencedor (digamos 7:3) e introduzir o terceiro na mesma escada: 9:1, 8:2, 7:3 de (par):(novo).
 
-Etapa 4 — bases (coeurs). Acordes que funcionaram viram bloco guardado e rotulado. É assim que se compõe rápido depois — você para de montar do zero.
+Etapa 4 — bases (querr). Acordes que funcionaram viram bloco guardado e rotulado. É assim que se compõe rápido depois — você para de montar do zero.
 
 Estrutura clássica de composição: base cerca de 55% + coração/modificadores cerca de 20% + topo cerca de 25%.
 Acordes de referência (em partes).
+
+O livro traz onze acordes de referência, escritos em partes, e eles estão no app para você copiar na
+planilha. Três valem ser ditos em voz alta, porque são a espinha da perfumaria. O fujér iniciante:
+bergamota 45, lavanda 25, cumarina 9, gerânio 7, patchouli 4. O âmbar clássico do Aftel, que é só uma
+proporção: benjoim 20, labdanum 5, baunilha 1. E o almíscar macrocíclico: exaltolide 60, etileno
+brassilato 20, ambrettolide 15, habanolide 6.
+
+A forma de usar é sempre a mesma: monte o acorde isolado, a 10%, cheire por 24 horas, ajuste uma
+proporção — uma só — e só então encaixe no perfume.
 
 Como usar: monte o acorde isolado, a 10%, cheire por 24 horas, ajuste uma proporção, e só depois encaixe no perfume.
 Brief olfativo.
 
 Uma linha, antes de pesar: para quem · qual ocasião · qual família · qual nota a pessoa vai lembrar · teto de custo por grama · onde vai (álcool, sabonete, creme).
 
-Exemplo: "Masculino diário, escritório, fougère amadeirado, tem que lembrar 'limpo de sabonete caro', até 1 reais e 50 por grama de concentrado, vai em álcool e depois em sabonete sindete."
+Exemplo: "Masculino diário, escritório, fujér amadeirado, tem que lembrar 'limpo de sabonete caro', até 1 reais e 50 por grama de concentrado, vai em álcool e depois em sabonete sindete."
 Esse brief já decide: musk + âmbar pesados (sobrevivem ao sabão), topo cítrico sintético (aguenta álcali), nada de damascone (teto IFRA apertado e caro).
 A planilha — exemplo completo com números.
 
@@ -58,6 +90,19 @@ Bloco 2 — adaptar ao seu estoque. Aqui entra a sua diluição.
 Caso real: Imagination (tipo), 30 mililitros de EDP a 20%.
 Concentrado = 30 mililitros × 0,20 vezes 0,95 = 5,7 g
 Fórmula original soma 10,01 g → fator de escala = 5,7 ÷ 10,01 = 0,5694
+
+Vale acompanhar um caso real, porque ele ensina o erro número um de quem começa. Você quer 30 mililitros
+de um perfume a 20%. O concentrado é 5,7 gramas, e a fórmula original soma 10 gramas, então tudo é
+multiplicado por 0,57. O Hedione, que na fórmula é 2,39, vira 1,36 grama — e como você o tem puro, é isso
+que vai na balança. O Ambroxan vira 1,24 grama de material puro, mas você o tem a 10%: então vão 12,36
+gramas de solução na balança, e 11,12 gramas disso é álcool.
+
+Agora o problema. O Velvione precisa de 0,2 grama, e você o tem a 1%. São quase 20 gramas de solução — e
+19,7 deles são álcool. Só esse material, somado ao Ambroxan, já passa de 30 gramas de álcool: mais do que
+cabe no frasco de 30 mililitros. A fórmula é impossível de montar com esse estoque.
+
+A correção é rediluir Velvione e Ambrettolide para 10%. E a regra que fica: material de dose alta precisa
+de estoque concentrado. Antes de diluir tudo a 1% por segurança, olhe a dose típica.
 
 O que esse exemplo ensina — e é o erro número 1 de quem começa:
 só o Velvione a 1% traz 19,73 g de álcool. Somado ao Ambroxan a 10%, passa de 30 g de álcool embutido — mais do que cabe num frasco de 30 mililitros. A fórmula é impossível de montar com esse estoque.
@@ -74,6 +119,13 @@ peso a colocar = puro ÷ (diluição/100)
 álcool embutido = peso a colocar − puro
 Concentrações, álcool e envase.
 
+As concentrações, do mais fraco ao mais forte. Água de colônia, de 2 a 5% de concentrado, dura uma ou
+duas horas e é quase só topo. ô de tualete, de 5 a 15%: projeta mais no começo e dura menos. Eau de
+parfã, de 15 a 20%, que é o padrão do mercado. E o parfã, de 20 a 40%, que dura mais e projeta menos.
+
+Esse último ponto costuma surpreender: concentração alta não é projeção alta. O ô de tualete tem mais
+topo e mais álcool, então sai tudo de uma vez.
+
 Por que EDT parece mais forte: proporção maior de topo e mais álcool → evaporação rápida → mais moléculas no ar de uma vez. Concentração alta ≠ projeção alta.
 Álcool: etílico de cereais 96°, perfumaria. Álcool 70% tem água demais e turva a mistura.
 Água (0 a 5%) "abre" a fórmula e ajuda alguns materiais; acima disso turva.
@@ -82,8 +134,24 @@ Frasco cheio, tampa apertada, escuro. Vaporizador testado antes de envasar o lot
 
 20b. Outros formatos de perfume.
 
+Perfume não é só álcool. O óleo perfumado, ou roll-on, leva de 15 a 25% de concentrado em jojoba ou
+miristato: não projeta, mas dura mais na pele, e é o formato para pele sensível. O perfume sólido é cera
+de abelha, manteiga e óleo, com 5 a 10% de concentrado, e o perfume entra abaixo de 50 graus. O body
+splash fica em 1 a 3%. A bruma de cabelo, em 1%, com pouco álcool para não ressecar o fio.
+
+E aqui está a regra que derruba todo body splash caseiro: óleo não dissolve em água. Sem solubilizante —
+polissorbato 20, de uma a três vezes o peso do perfume — o produto turva e separa. Não tem jeito.
+
 A regra dos formatos aquosos: óleo não dissolve em água. Sem solubilizante (polissorbato 20 ou PEG-40 hydrogenated castor oil, 1 a 3 vezes o peso do perfume), o produto turva e separa. É o erro número 1 em body splash caseiro.
-Fixação × projeção × sillage.
+Fixação × projeção × silage.
+
+Três palavras que as pessoas usam como sinônimo e não são. Projeção é quão longe o cheiro chega agora, e
+vem de volatilidade alta somada a limiar de detecção baixo. silage é o rastro que fica no ambiente, e
+tem os mesmos motores, distribuídos no tempo. E fixação é quanto tempo dura na pele, que vem do oposto:
+volatilidade baixa, molécula pesada, substantividade alta.
+
+Como são opostos parciais, aumentar fixador reduz projeção. Quem quer os dois usa ponte: Iso E Super,
+Hedione e Ambroxan são base, mas difundem.
 
 São parcialmente opostos: mais fixador = menos projeção. Quem quer os dois usa ponte — Iso E Super, Hedione, Ambroxan: são base, mas difundem.
 
@@ -103,6 +171,10 @@ Base de Schiff: aldeído + amina (ex.: cinamaldeído + metil antranilato) gera c
 
 Depois de macerar, o perfume tem moléculas que não existiam quando você misturou.
 
+A maceração tem três prazos. Em 24 ou 48 horas, as arestas mais óbvias somem. Até seis semanas acontece
+o grosso da mudança. E até seis meses completam as reações lentas. Avaliar um perfume antes de seis
+semanas é avaliar outra coisa — então, antes de diagnosticar defeito, pergunte a data da mistura.
+
 Como fazer: deixe no armário e esqueça. Não abrir, não agitar, não pôr na geladeira (mito), não precisa de âmbar se o armário é escuro.
 Avaliar antes de 6 semanas é avaliar outra coisa. Antes de diagnosticar defeito, pergunte a data da mistura.
 Iterar.
@@ -113,3 +185,22 @@ Guarde 2 mililitros rotulados de cada versão. Comparação A/B direta é a úni
 Intensidade é compressiva (lei de Stevens, expoente cerca de 0,5): 10 vezes a dose ≈ 3 a 4 vezes a percepção. Corrigir "está fraco" dobrando o material quase sempre é desperdício — em mistura o efeito é ainda menor, porque é sub-aditivo.
 
 Tabela de correção
+
+Sete diagnósticos, e em cada um há o que fazer e o que não fazer.
+
+Abertura sem impacto? Acrescente topo de limiar baixo e um traço de aldeído. Não dobre o cítrico: ele só
+vai evaporar antes.
+
+Some em uma hora? Musk, âmbar e Iso E Super. Não aumente tudo proporcionalmente.
+
+Não projeta? Hedione, Ambroxan, ou suba a concentração. Não acrescente fixador — piora.
+
+Áspero ou químico demais? Hedione, musk, e dilua o material agressivo. Não tire o material que dá
+caráter.
+
+Doce demais? Verde, âmbar seco, ionona. Não corte o doce sem repor volume.
+
+Plano, sem história? Aqui a resposta é tirar, não pôr: vinte materiais medianos cheiram a nada. Não
+acrescente o vigésimo primeiro.
+
+E cheira a sabonete sem você querer? Corte aldeído e almíscar limpo.

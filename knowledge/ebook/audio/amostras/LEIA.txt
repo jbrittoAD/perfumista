@@ -1,0 +1,32 @@
+ESCOLHA DA VOZ — pasta  escolha/
+
+TOM E RITMO (mesmo parágrafo nas duas vozes que você aprovou):
+  T1  Thalita  -10% / -6Hz
+  T2  Thalita  -15% / -10Hz     ← a mais lenta e mais grave
+  T3  Thalita  -8%  / -6Hz      ← o "ajuste do livro", agora grave e lento
+  T4  Thalita  -12% / -8Hz      ← meio-termo
+  F1  Francisca -10% / -6Hz
+  F2  Francisca -15% / -10Hz
+
+O TESTE DE IDIOMA (por que a Thalita escorrega):
+  X1  Thalita, texto CRU      → ouça "cold process", "melt and pour", "Dove", "blur"
+  X2  Thalita, texto FONÉTICO → os mesmos termos reescritos em português
+  X3  Francisca, texto CRU    → ela é monolíngue: NÃO escorrega, mesmo sem tratar o texto
+
+Me diga: qual letra+número de tom você quer, e se prefere
+  (a) Francisca, sem precisar tratar o texto, ou
+  (b) Thalita com dicionário fonético (dá mais trabalho, mas a voz é mais rica).
+
+---
+FECHADO em 22/09/2026 — venceu (a): Francisca, -12% / -8Hz.
+
+O motivo não foi timbre: a Thalita soa melhor. Mas ela é multilíngue, e nenhum
+parâmetro trava o idioma dela. Mesmo com xml:lang='pt-BR' correto no SSML, ela
+escorregava — "cerca de 400 tipos" saiu em espanhol, e com razão: a frase é
+espanhol válido. Voz monolíngue não tem para onde escorregar.
+
+O dicionário fonético (b) foi testado e PIORA: "cóuld prócess" parece espanhol e
+empurra a voz para lá. O que funciona é traduzir o termo, não transcrevê-lo.
+
+Conferência, já que ninguém vai ouvir 2,6 h para checar:
+  .venv-audio/bin/python3 web/scripts/checar_idioma.py --todos

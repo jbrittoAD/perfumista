@@ -27,7 +27,12 @@ LIVROS = RAIZ / "knowledge" / "ebook"
 NARR = LIVROS / "audio" / "narracoes.md"
 SAIDA = LIVROS / "audio"
 
-VOZ, RATE, PITCH = "pt-BR-ThalitaMultilingualNeural", "-12%", "-8Hz"
+# Francisca é MONOLÍNGUE pt-BR: ela não tem outro idioma para escorregar.
+# A Thalita é multilíngue e, mesmo com xml:lang='pt-BR' no SSML, ainda trocava
+# para espanhol em trechos com termo técnico — confirmado ouvindo. Não existe
+# trava de idioma neste endpoint (o <lang> do Azure é rejeitado), então a saída
+# é escolher uma voz que só fale português.
+VOZ, RATE, PITCH = "pt-BR-FranciscaNeural", "-12%", "-8Hz"
 VENV = RAIZ / ".venv-audio"          # ambiente próprio do gerador (fora do git)
 
 
@@ -56,6 +61,16 @@ GLOSSARIO = [
     (r"\bnoodles?\b", "flocos"), (r"\bseize\b", "endurecimento súbito"), (r"\bricing\b", "grumos"),
     (r"\bslip\b", "deslize"), (r"\bshampoo\b", "xampu"),
 ]
+# Termo francês de perfumaria: mesmo numa voz monolíngue, a grafia original sai
+# esquisita. Escrevemos como o perfumista brasileiro fala.
+FRANCES = [
+    (r"\bfoug[eè]res?\b", "fujér"), (r"\bchypr[eé]s?\b", "chipre"),
+    (r"\bsillage\b", "silage"), (r"\beau de parfum\b", "ô de parfã"),
+    (r"\beau de toilette\b", "ô de tualete"), (r"\bextrait\b", "extré"),
+    (r"\bJean Carles\b", "Jã Carles"), (r"\bparfum\b", "parfã"),
+    (r"\bcoeurs?\b", "querr"), (r"\bPoucher\b", "Puchêr"),
+    (r"\bhespéride\b", "esperide"),
+]
 # SIGLA: case-SENSITIVE, senão "DOS" casa com "dos" e "SLS" com qualquer coisa
 SIGLAS = [
     (r"\bSCI\b", "isetionato de sódio"), (r"\bSLSA\b", "lauril sulfoacetato"),
@@ -80,7 +95,10 @@ def desmarcar(txt: str) -> str:
     txt = re.sub(r"\*\*|\*|__|~~", "", txt)
     txt = re.sub(r"^\s*>\s?", "", txt, flags=re.M)
     txt = re.sub(r"^\s*[-•]\s+", "", txt, flags=re.M)
-    txt = re.sub(r"^\s*\d+\.\s+", "", txt, flags=re.M)
+    # Marcador de lista, não número solto: "364. O Sandalore..." numa narração
+    # era apagado inteiro, e o ouvinte perdia o dado sem ninguém notar. Lista de
+    # verdade não passa de 20 itens neste livro.
+    txt = re.sub(r"^\s*(?:[1-9]|1\d|20)\.\s+", "", txt, flags=re.M)
     txt = re.sub(r"^-{3,}$", "", txt, flags=re.M)
     return txt
 
@@ -96,15 +114,38 @@ def numeros(txt: str) -> str:
 
 def carregar_narracoes() -> dict:
     if not NARR.exists(): return {}
-    blocos = re.split(r"^## (.+?) :: (T\d+)\s*$", NARR.read_text(), flags=re.M)
+    blocos = re.split(r"^## (.+?) :: (T\d+|RESUMO)\s*$", NARR.read_text(), flags=re.M)
     saida = {}
     for i in range(1, len(blocos), 3):
         saida[(blocos[i].strip(), blocos[i + 1].strip())] = blocos[i + 2].strip()
     return saida
 
+def conferir_narracoes(narracoes: dict) -> None:
+    """Avisa se a limpeza de markdown está comendo palavra de narração.
+
+    Aconteceu de verdade: a narração dizia "...a cumarina em / 364. O Sandalore
+    aguenta...", e como "364. " abre linha igual a item de lista numerada, o
+    desmarcar() apagava o número. O ouvinte perdia o dado e nada acusava — o
+    checar_idioma.py compara o áudio com o roteiro JÁ processado, então para ele
+    estava tudo certo. A conferência é aqui, antes de virar áudio.
+    """
+    # Só conta o que tem letra ou número: separador "---" some na limpeza, e
+    # deve sumir mesmo — contá-lo geraria aviso toda vez e a trava viraria ruído.
+    def palavras(s):
+        return [w for w in s.split() if any(c.isalnum() for c in w)]
+
+    for (slug, chave), nar in narracoes.items():
+        antes = len(palavras(nar))
+        depois = len(palavras(desmarcar(nar)))
+        if depois < antes:
+            print(f"  ⚠️  {slug} :: {chave} perdeu {antes - depois} palavra(s) na limpeza "
+                  f"de markdown — provavelmente uma linha começa com número, hífen ou '>'")
+
+
 def roteiro(slug: str) -> str:
     md = (LIVROS / f"{slug}.md").read_text()
     narracoes = carregar_narracoes()
+    conferir_narracoes(narracoes)
     # livro de consulta (dicionário, apêndice): entra como resumo falado, não inteiro
     if (slug, "RESUMO") in narracoes:
         return narracoes[(slug, "RESUMO")]
@@ -140,6 +181,8 @@ def roteiro(slug: str) -> str:
         txt = re.sub(de, para, txt, flags=re.I)
     for de, para in SIGLAS:
         txt = re.sub(de, para, txt)          # sem re.I: sigla é caixa alta
+    for de, para in FRANCES:
+        txt = re.sub(de, para, txt, flags=re.I)
     txt = numeros(txt)
     txt = re.sub(r"\n{3,}", "\n\n", txt).strip()
     if puladas: print(f"  ({puladas} tabela(s) sem narração — puladas)")
@@ -166,9 +209,9 @@ def gerar(slug: str, so_texto=False):
     tmp.mkdir(exist_ok=True)
     for n, bloco in enumerate(blocos(txt), 1):
         f = tmp / f"{slug}-{n:03d}.mp3"
-        # tts_pt.py envolve o texto em <lang xml:lang="pt-BR">, que é o que a
-        # documentação da Microsoft manda usar para fixar o idioma de uma voz
-        # multilíngue. Sem isso a Thalita escorrega para espanhol.
+        # tts_pt.py reescreve o SSML com xml:lang='pt-BR' no <speak>, porque o
+        # edge-tts manda 'en-US' fixo. Isso sozinho não resolveu: a voz
+        # multilíngue ainda escorregava. Por isso a VOZ aqui é monolíngue.
         subprocess.run([PY_TTS, str(Path(__file__).parent / "tts_pt.py"),
                         "--voz", VOZ, "--rate", RATE, "--pitch", PITCH,
                         "--texto", bloco, "--saida", str(f)], check=True, capture_output=True)
@@ -185,12 +228,42 @@ def gerar(slug: str, so_texto=False):
     mb = saida.stat().st_size / 1024 / 1024
     print(f"  → {saida.name}: {float(dur)/60:.1f} min · {mb:.1f} MB")
 
+def unico():
+    """Junta os 16 capítulos num arquivo só — é o formato que o YouTube quer.
+
+    Sem recodificar: todos os capítulos saem do mesmo encoder, no mesmo bitrate,
+    então o concat do ffmpeg só cola os quadros. Recodificar aqui perderia
+    qualidade de graça.
+
+    O arquivo NÃO entra no git: são os mesmos 2,5 h que já estão publicados em
+    capítulos, e 140 MB duplicados no repositório não servem a ninguém.
+    """
+    faixas = [f for f in sorted(SAIDA.glob("*.mp3")) if not f.stem.startswith("Audiolivro")]
+    if not faixas:
+        print("nenhum capítulo gerado ainda"); return
+    lista = SAIDA / "_unico.txt"
+    lista.write_text("\n".join(f"file '{f.name}'" for f in faixas))
+    saida = SAIDA / "Audiolivro-completo.mp3"
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0",
+                    "-i", str(lista), "-c", "copy", str(saida)], check=True)
+    lista.unlink()
+    dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                          "-of", "csv=p=0", str(saida)], capture_output=True, text=True).stdout.strip()
+    h = float(dur) / 3600
+    print(f"\n→ {saida.name}: {len(faixas)} capítulos · {h:.1f} h · {saida.stat().st_size/1048576:.0f} MB")
+    print(f"   {saida}")
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("slug", nargs="?")
     ap.add_argument("--todos", action="store_true")
     ap.add_argument("--so-texto", action="store_true")
+    ap.add_argument("--unico", action="store_true",
+                    help="junta os capítulos num arquivo só (YouTube)")
     a = ap.parse_args()
+    if a.unico:
+        unico(); raise SystemExit(0)
     alvos = [p.stem for p in sorted(LIVROS.glob("*.md"))
              if p.stem not in {"AUDIOLIVRO", "AUDIO-AMOSTRA", "01b-catalogo-por-familia"}] if a.todos else [a.slug]
     for s in alvos:

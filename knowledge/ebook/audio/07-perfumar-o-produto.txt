@@ -7,9 +7,24 @@ O pê-agá é outro — sabão a 9 a 10 degrada material; sindete e creme a 5 n�
 O produto é enxaguado (ou fica horas na pele) — o que muda quem sobrevive e qual é o limite legal.
 Dose e categoria.
 
+A dose de perfume muda conforme o produto, e a diferença é enorme. Perfume alcoólico, categoria IFRA 4,
+de 15 a 20%. Sabonete e xampu, categoria 9, 3%. Loção corporal, categoria 5A, de meio a um por cento — a
+indústria vai até 2. E creme facial, categoria 5B, entre um e três décimos de por cento.
+
+Ou seja: o perfume usa sessenta vezes a dose do creme facial. Produto que fica na pele é sempre mais
+apertado, porque ele passa horas ali, numa área grande.
+
 produto que fica na pele é sempre mais apertado: o produto fica horas na pele, em área maior.
 Em 50 g de creme a 0,2%, o perfume inteiro são 0,1 g — trabalhe com balança de 0,001 g ou com o perfume diluído a 10%.
 Substantividade — o que sobra depois do enxágue.
+
+O que sobra depois do enxágue, e o que vai pro ralo. Ficam os almíscares — Galaxolide, Habanolide,
+Exaltolide, etileno brassilato, ambrettolide. Fica o âmbar, principalmente o Ambroxan. Ficam os
+amadeirados: Iso E Super, Cashmeran, Javanol. E ficam cumarina, vanilina, ionona e benzil salicilato.
+
+Vão embora os cítricos e os terpenos, os aldeídos leves, as notas verdes e aquáticas e os florais
+frágeis. O topo não é desperdício — é o que você sente ao abrir a embalagem. Só não gaste material caro
+nele.
 
 O topo não é desperdício — é o que se sente ao abrir a embalagem e no primeiro instante da espuma. Só não gaste material caro nele.
 
@@ -18,17 +33,43 @@ Galaxolide 35% · etileno brassilato 15% · Iso E Super 15% · Habanolide 10% ·
 
 49b. Quanto tempo o cheiro dura depois do banho.
 
-Estimativas de uso real, não medição de laboratório:
+Quanto tempo o cheiro dura depois do banho, na prática. Sabonete comum, cítrico: de 10 a 20 minutos, e
+não tem o que estender, porque o topo foi pro ralo. Sabonete bem formulado, com musk e âmbar a 3%: de 30
+minutos a 2 horas. Barra mais loção no mesmo acorde: de 4 a 6 horas — e quem segura é a loção, porque ela
+fica na pele. E perfume alcoólico por cima: de 6 a 10 horas.
+
+A conclusão prática: ninguém sente o seu sabonete no fim do dia, nem o mais caro do mercado. O que faz o
+cheiro durar do banho até a noite é camada — a mesma família no sabonete, na loção e no perfume. É por
+isso que marca de luxo vende a linha inteira.
 
 A conclusão prática: ninguém sente seu sabonete no fim do dia — nem o mais caro do mercado. O que faz
 o cheiro "durar do banho até a noite" é camada: a mesma família no sabonete, na loção e no perfume.
 É por isso que marca de luxo vende a linha inteira, e não porque o sabonete dela fixa mais.
 Interação fragrância × base.
+
+Nove coisas que a fragrância faz com a base, e como evitar cada uma. No processo a frio, fragrância
+aceleradora endurece a massa em segundos — baixe a temperatura e mexa à mão. Ainda no processo a frio,
+incompatibilidade do veículo gera grumos parecidos com arroz. Vanilina escurece a barra, tanto no
+processo a frio quanto na glicerinada — nunca use em barra branca. Cítrico oxidado e ferro na água dão
+manchas: use quelante e óleo fresco. O álcali destrói o topo, então ancore em base e ponha o perfume no
+traço, entre 38 e 43 graus. Na glicerinada, o solvente da essência faz a barra suar: fique em 3% e
+embrulhe. No creme, perfume quente ou em excesso quebra a emulsão: abaixo de 45 graus e no máximo 1%.
+Alguns materiais sequestram o conservante — não passe da dose e teste a estabilidade. E em tudo, o
+terpeno oxida: BHT, tocoferol e frasco cheio.
 Adaptar uma fórmula alcoólica.
 
 Regra prática validada: multiplicar o topo por 0,5 e os almíscares/âmbar por 1,8, depois renormalizar para 100%.
 
-Exemplo, o Imagination (tipo) do repo:
+Adaptar uma fórmula alcoólica para sabonete tem uma regra simples: multiplique o topo por 0,5 e os
+almíscares e âmbares por 1,8, depois renormalize para 100.
+
+No caso do Imagination adaptado, o Ambroxan sobe de 21,7 para 33,9% do acorde. O Hedione fica em 20,8. O
+ambrettolide sobe para 11,9, e o Velvione para 5,5. O acetato de linalila cai de 10,3 para 4,5, e a
+bergamota, de 7,6 para 3,3.
+
+O custo desse acorde é de 42 reais e 70 por quilo de sabonete, e ambrettolide e Velvione sozinhos são 60%
+da conta. Trocando os dois por Galaxolide e etileno brassilato, o custo cai para 19 e 90 — e num produto
+que é enxaguado, ninguém percebe a diferença.
 
 Custo: 42 reais e 70/quilos. Ambrettolide (5 reais e 46 por grama) e Velvione (7 reais e 36 por grama) são 60% da conta.
 Versão econômica: tirar o Velvione e metade do Ambrettolide, pôr Galaxolide 8% + etileno brassilato 4,4% → 19 reais e 90/quilos (1 reais e 99/barra). Perde a elegância do macrocíclico; em produto enxaguado, não se percebe.
@@ -41,6 +82,18 @@ Teste de 100 g antes do lote.
 Cheirar o produto, não a fórmula: 24 horas depois de pronto e 7 dias depois.
 
 51b. Onde e como o perfume entra, produto por produto.
+
+Onde o perfume entra, produto por produto. Na base glicerinada: 2 a 3%, entre 45 e 55 graus, por último —
+acima de 60 o topo evapora. No sindete: 3%, abaixo de 60 graus, direto na massa pastosa. No processo a
+frio: 3% dos óleos, no traço, entre 38 e 43 graus. Em creme e loção: fase fria, abaixo de 45 graus, e
+dissolvido antes em parte do óleo — jogado no creme frio, vira bolinha. Em sabonete líquido e xampu: no
+fim, com o produto frio, e obrigatoriamente com polissorbato, de uma a três vezes o peso do perfume. Em
+óleo de barba: até 1%, direto. Em bálsamo e stick: abaixo de 50 graus. E em condicionador: de três a oito
+décimos de por cento, abaixo de 50 graus.
+
+Três regras valem para todos. Perfume entra por último e frio, porque cada 10 graus a mais dobra a
+evaporação. Produto com água precisa de solubilizante. E cheire o produto, não a fórmula: o mesmo acorde
+muda em base alcalina, em pê-agá 5 e em emulsão.
 
 Três regras que valem para todos:
 Perfume entra por último e frio. Cada 10  graus a mais dobra a evaporação — você paga pelo material e ele vai para o ar.

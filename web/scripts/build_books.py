@@ -71,6 +71,66 @@ def split_sections(html: str):
     return out
 
 
+def copiar_audio():
+    """Leva os mp3 gerados para public/audio, de onde o app os serve.
+
+    Eles NÃO entram no precache (são ~50 MB contra 2,7 MB do app): a tela de
+    ouvir guarda sob demanda, capítulo a capítulo ou tudo de uma vez.
+    """
+    origem = ROOT / "knowledge" / "ebook" / "audio"
+    destino = ROOT / "web" / "public" / "audio"
+    destino.mkdir(parents=True, exist_ok=True)
+    # mp3 que não existe mais na origem (capítulo renomeado, voz trocada) tem de
+    # sumir daqui, senão o app publica áudio velho ao lado do novo.
+    atuais = {m.name for m in origem.glob("*.mp3")}
+    for velho in destino.glob("*.mp3"):
+        if velho.name not in atuais:
+            velho.unlink(); print(f"  áudio: removido órfão {velho.name}")
+    n = tot = 0
+    for mp3 in sorted(origem.glob("*.mp3")):
+        alvo = destino / mp3.name
+        if not alvo.exists() or alvo.stat().st_mtime < mp3.stat().st_mtime:
+            alvo.write_bytes(mp3.read_bytes())
+        n += 1; tot += alvo.stat().st_size
+    if n: print(f"  áudio: {n} capítulos copiados para public/audio ({tot/1048576:.0f} MB)")
+
+
+def copiar_pdf():
+    """Leva o PDF gerado para public/, que é de onde a tela de download o pega.
+
+    Já foi ao ar desatualizado uma vez: o build_pdf.sh escreve em knowledge/ e
+    ninguém copiava. Agora a cópia é parte do build.
+    """
+    origem = ROOT / "knowledge" / "ebook" / "Do-quimico-aromatico-ao-produto.pdf"
+    if not origem.exists():
+        print("  ! PDF não encontrado — rode web/scripts/build_pdf.sh")
+        return
+    destino = ROOT / "web" / "public" / origem.name
+    if not destino.exists() or destino.stat().st_mtime < origem.stat().st_mtime:
+        destino.write_bytes(origem.read_bytes())
+        print(f"  PDF: atualizado ({origem.stat().st_size/1048576:.1f} MB)")
+
+
+def escrever_tamanhos():
+    """Grava o tamanho real do PDF e do áudio para a tela de download mostrar.
+
+    Estava escrito na mão no JSX ("4,7 MB", "~50 MB") e envelheceu: quando o
+    bitrate dobrou, a tela continuou prometendo metade. Número que o usuário usa
+    pra decidir se baixa no 4G não pode ser chute escrito em outro arquivo.
+    """
+    pdf = ROOT / "web" / "public" / "Do-quimico-aromatico-ao-produto.pdf"
+    audio = sorted((ROOT / "knowledge" / "ebook" / "audio").glob("*.mp3"))
+    audio = [m for m in audio if not m.stem.startswith("Audiolivro")]
+    dados = {
+        "pdfMB": round(pdf.stat().st_size / 1048576, 1) if pdf.exists() else 0,
+        "audioMB": round(sum(m.stat().st_size for m in audio) / 1048576) if audio else 0,
+        "capitulos": len(audio),
+    }
+    alvo = ROOT / "web" / "lib" / "data" / "tamanhos.json"
+    alvo.write_text(json.dumps(dados, ensure_ascii=False))
+    print(f"  tamanhos: PDF {dados['pdfMB']} MB · áudio {dados['audioMB']} MB em {dados['capitulos']} capítulos")
+
+
 def main():
     livros = []
     for slug in ORDEM:
@@ -92,6 +152,9 @@ def main():
     OUT.write_text(json.dumps({"livros": livros}, ensure_ascii=False))
     kb = OUT.stat().st_size / 1024
     tot = sum(l["palavras"] for l in livros)
+    copiar_audio()
+    copiar_pdf()
+    escrever_tamanhos()
     print(f"\n{OUT.relative_to(ROOT)}: {kb:.0f} KB · {len(livros)} livros · {tot} palavras · ~{round(tot/200)} min de leitura")
 
 

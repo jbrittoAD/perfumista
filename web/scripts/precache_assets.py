@@ -36,6 +36,15 @@ def main():
         if (OUT / caminho).exists():
             rel.add("./" + caminho)
 
+    # Zero asset NUNCA é resultado válido: significa que o basePath do ambiente
+    # não bate com o do build, e o app iria ao ar sem precache — offline quebrado
+    # na primeira abertura, que é justamente o caso de uso. Falhar aqui é melhor
+    # que publicar calado.
+    if not rel:
+        sys.exit(f"nenhum asset encontrado (achei {len(achados)} referências nos HTML).\n"
+                 f"NEXT_PUBLIC_BASE_PATH está como {BASE!r} — tem de ser o MESMO do build.\n"
+                 f"exemplo: NEXT_PUBLIC_BASE_PATH=/perfumista python3 {Path(__file__).name}")
+
     lista = ",\n  ".join(f'"{u}"' for u in sorted(rel))
     s = SW.read_text()
     novo = re.sub(r"const BUILD_ASSETS = \[[^\]]*\];",

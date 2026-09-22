@@ -28,12 +28,60 @@ Uso:
     python3 web/scripts/tts_pt.py --texto "..." --saida x.mp3 [--voz ..] [--rate ..] [--pitch ..]
 """
 import argparse, asyncio, sys
+from types import CodeType
 import edge_tts
 from edge_tts import communicate as _c
 
 IDIOMA = "pt-BR"
 
+# O edge-tts pede 48 kbps fixo, escrito dentro do método que monta o pedido.
+# Testados um a um contra o endpoint, com a lib alterada na mão:
+#
+#     24khz-96kbitrate ..... MP3 válido      ← o teto real
+#     24khz-160kbitrate .... "aceito", arquivo ilegível
+#     48khz-96kbitrate ..... "aceito", arquivo ilegível
+#     48khz-192kbitrate .... "aceito", arquivo ilegível
+#     16khz-128kbitrate .... "aceito", arquivo ilegível
+#
+# Ou seja: 128 kbps não existe aqui, e pedir mais que 96 devolve lixo SEM erro —
+# o que é pior que recusar, porque passa despercebido. Ficamos em 96, o dobro do
+# padrão. A 24 kHz a banda útil vai até 12 kHz, então acima disso não haveria
+# ganho audível mesmo.
+FORMATO = "audio-24khz-96kbitrate-mono-mp3"
+FORMATO_PADRAO = "audio-24khz-48kbitrate-mono-mp3"
+
 _mkssml_original = _c.mkssml
+
+
+def _trocar_const(code: CodeType, de: str, para: str) -> CodeType:
+    """Troca o trecho `de` dentro das strings constantes, inclusive nas aninhadas.
+
+    É substituição de SUBTRECHO, não de constante inteira: o Python funde
+    literais adjacentes na compilação, então o nome do formato vive no meio de
+    uma string maior, junto com as chaves do JSON.
+    """
+    consts = tuple(
+        c.replace(de, para) if isinstance(c, str) and de in c
+        else _trocar_const(c, de, para) if isinstance(c, CodeType)
+        else c
+        for c in code.co_consts
+    )
+    return code.replace(co_consts=consts)
+
+
+def usar_formato(fmt: str = FORMATO) -> bool:
+    """Faz a lib pedir `fmt` em vez dos 48 kbps fixos. Devolve se conseguiu.
+
+    Mexer no code object em vez de editar site-packages: o .venv-audio é
+    descartável e recriado pelo build_audio.py, e patch em disco sumiria junto.
+    """
+    alvo = _c.Communicate._Communicate__stream
+    antes = alvo.__code__
+    depois = _trocar_const(antes, FORMATO_PADRAO, fmt)
+    if depois.co_consts == antes.co_consts:
+        return False
+    alvo.__code__ = depois
+    return True
 
 
 def mkssml_pt(tc, escaped_text):
@@ -52,10 +100,11 @@ def mkssml_pt(tc, escaped_text):
 
 
 def ativar():
-    """Aplica o patch. Idempotente."""
+    """Aplica os patches (idioma e bitrate). Idempotente."""
     _c.mkssml = mkssml_pt
     if hasattr(edge_tts, "mkssml"):
         edge_tts.mkssml = mkssml_pt
+    usar_formato()
 
 
 async def falar(texto, saida, voz, rate, pitch):
@@ -68,7 +117,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--texto", required=True)
     ap.add_argument("--saida", required=True)
-    ap.add_argument("--voz", default="pt-BR-ThalitaMultilingualNeural")
+    ap.add_argument("--voz", default="pt-BR-FranciscaNeural")
     ap.add_argument("--rate", default="-12%")
     ap.add_argument("--pitch", default="-8Hz")
     ap.add_argument("--mostrar-ssml", action="store_true")

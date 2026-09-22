@@ -1,7 +1,7 @@
 # Perfumista — ESTADO / HANDOFF (para retomar em nova sessão)
 
 App **de estudo e catalogação de matérias-primas de perfumaria** do João (uso pessoal).
-Desde 17/09/2026 o app é um **deck de swipe** (estilo Tinder): o usuário passa por 590
+Desde 17/09/2026 o app é um **deck de swipe** (estilo Tinder): o usuário passa por 587
 químicos aromáticos, marca o que quer na paleta, e simula acordes com o que marcou.
 
 > O app **anterior** (catálogo + curso + motor direto/reverso + compras) está preservado:
@@ -26,17 +26,81 @@ químicos aromáticos, marca o que quer na paleta, e simula acordes com o que ma
   - `/lab` **Meu Laboratório** — os favoritos, com busca, filtro por família, ordenação e
     "copiar lista" (texto pro WhatsApp do fornecedor).
   - `/formulas` **Fórmulas** — monta acorde em PARTES com materiais da paleta e simula.
-  - `/livros` **Livros** — o ebook *Do químico aromático ao produto* (16 livros, 34 mil palavras,
-    15 figuras P&B). Progresso de leitura em `localStorage['perfumista:livros']` — chave SEPARADA do
-    deck, de propósito: um nunca derruba o outro. O leitor restaura a rolagem exata ao reabrir.
-    As 16 rotas entram no precache do service worker → **funciona offline** (o caso de uso é avião).
+  - `/livros` **Livros** — o ebook *Do químico aromático ao produto* (17 livros, 34.572 palavras,
+    15 figuras P&B) e o audiolivro de 2,6 h em 16 capítulos. Progresso de leitura em
+    `localStorage['perfumista:livros']` e posição de escuta em `['perfumista:audio']` — chaves
+    SEPARADAS do deck, de propósito: uma nunca derruba a outra. O leitor restaura a rolagem exata.
+    As 17 rotas de livro entram no precache do service worker → **funciona offline** (o caso de uso
+    é avião). Os mp3 ficam FORA do precache e entram sob demanda.
+
+## 🎧 O audiolivro
+- **Voz:** `pt-BR-FranciscaNeural`, `--rate=-12% --pitch=-8Hz`, via Edge TTS. Mono, **96 kbps**.
+- **96 kbps é o teto do endpoint**, não 48 como estava escrito antes aqui. Pedir 128/160/192 não dá
+  erro: devolve arquivo ilegível. O patch está em `tts_pt.py` (`usar_formato`). Detalhes no AUDIOLIVRO.md.
+- **A briga do idioma, na ordem em que aconteceu.** O `edge-tts` fixa `xml:lang='en-US'` no SSML;
+  `web/scripts/tts_pt.py` reescreve o `mkssml` para declarar `pt-BR`. O `<lang xml:lang>` que o doc do
+  Azure manda usar **é rejeitado** neste endpoint — testado. E mesmo com o `pt-BR` correto no `<speak>`,
+  a voz **multilíngue** ainda escorregava para espanhol em frase ambígua ("cerca de 400 tipos" é
+  espanhol válido). **A solução é a voz ser monolíngue:** a Francisca não tem outro idioma pra onde ir.
+  Termo estrangeiro que sobrava (fougère, chypre, sillage) virou pronúncia em português no glossário
+  `FRANCES` do `build_audio.py`.
+- **Tabela não se narra:** cada uma virou uma fala escrita à mão em `knowledge/ebook/audio/narracoes.md`
+  (113 narrações). Sem narração, a tabela é **pulada em silêncio** — foi assim que os dois livros de
+  comparação (`01c` e `03b`) quase foram ao ar sem o conteúdo que os justifica.
+- **Gerar:** `python3 web/scripts/build_audio.py --todos` (~25 min) e depois `build_books.py`, que copia
+  os mp3 para `web/public/audio/`.
+- **Conferir sem escutar (obrigatório antes de publicar):**
+  `.venv-audio/bin/python3 web/scripts/checar_idioma.py --todos`. Ele transcreve com Whisper e checa
+  duas coisas: **idioma de cada trecho** (acusa deriva pra espanhol/francês) e **fidelidade ao roteiro**
+  (compara a transcrição com o `<slug>.txt` — pega tabela vazando, bloco faltando, palavra comida).
+  Sai com código 1 se algum capítulo reprovar. Roda a ~2× o tempo real (2,6 h de áudio ≈ 1 h20).
+  Número por extenso no roteiro e dígito na transcrição são unificados antes de comparar — sem isso
+  ele acusava buraco em "nove por um, oito por dois" e o aviso viraria ruído.
+- **No app:** `/livros/audio` — player com capítulos, velocidade, posição salva e download sob demanda.
+  Os mp3 ficam **fora do precache** (~50 MB).
+
+## 💾 Onde o áudio e o PDF ficam guardados
+
+Os `.mp3` e o `.pdf` **não** entram na branch `main`, e isso é de propósito: são 113 MB de áudio mais
+5 MB de PDF que o build regera a partir de `knowledge/ebook/*.md` e `audio/narracoes.md`.
+
+**Mas eles estão no git**, na branch `gh-pages` — que é o que o `publicar.sh` empurra para o GitHub.
+Ou seja: existe backup versionado no GitHub *e* download offline pelo app, sem inchar o histórico da
+branch de trabalho com binário que muda inteiro a cada regeração.
+
+O que é fonte de verdade e precisa estar na `main`: os `.md` dos livros, o `narracoes.md` (87+26
+narrações escritas à mão — isso **não** se regera sozinho) e os scripts.
+
+## 🧪 Conferir antes de publicar (dois comandos)
+
+```bash
+.venv-audio/bin/python3 web/scripts/checar_idioma.py --todos   # o áudio: idioma e fidelidade
+node web/scripts/e2e_app.mjs                                   # o app: num Chrome de verdade
+```
+
+O `e2e_app.mjs` sobe um servidor que imita o Pages (inclusive **Range**, sem o qual o `<audio>` não
+busca posição), abre o Chrome por CDP e prova 13 coisas. As que pegam bug de verdade:
+
+- guardar capítulo → cortar a rede → **tocar assim mesmo** (o caso de uso do avião);
+- ler o livro com a rede cortada;
+- **simular um deploy** (serve um `sw.js` com versão nova, força o update, espera o `activate`) e
+  conferir que o áudio e o PDF baixados **sobrevivem**. Esta pegou um bug real: o `activate` apagava
+  todo cache que não fosse o da versão nova, inclusive os do usuário.
+
+⚠️ A primeira versão dessa prova passava **com o bug presente**, porque esperava o cache novo
+*aparecer* — e ele nasce no `install`, antes do `activate` destrutivo. Prova de service worker tem
+que esperar o sinal do `activate` (o cache da versão antiga sumir), não o do install. Teste de
+regressão só vale depois de você ver ele reprovar com o código velho.
+
+`--ar` roda contra o site publicado. Armadilha do export do Next: existe `livros.html` **e** uma pasta
+`livros/` sem índice; servidor que procura a pasta primeiro dá 404 onde o Pages funciona.
 
 ## 📚 O ebook (fonte única, três saídas)
 - **Fonte:** `knowledge/ebook/*.md` + `knowledge/ebook/figuras/*.svg` (15 diagramas em P&B).
 - **App:** `python3 web/scripts/build_books.py` → `web/lib/data/books.json` (pandoc converte md→html,
   INLINA os SVG). Rodar sempre que editar um .md.
 - **PDF:** `bash web/scripts/build_pdf.sh` → `knowledge/ebook/Do-quimico-aromatico-ao-produto.pdf`
-  (110 páginas A4, capa e sumário; pandoc + Chrome headless + `pdf.css`).
+  (112 páginas A4, capa e sumário; pandoc + Chrome headless + `pdf.css`).
 - ⚠️ **Armadilha:** `<` cru dentro de `<text>` num SVG quebra a figura **só no PDF** (o `<img>` lê como
   XML estrito; o navegador perdoa). Escapar como `&lt;`.
 - **Ordem do baralho (o ponto central):** as cartas vêm agrupadas por família olfativa e,
@@ -57,7 +121,7 @@ químicos aromáticos, marca o que quer na paleta, e simula acordes com o que ma
   dominantes, projeção, duração e avisos de IFRA. Heurístico — é estimativa, não medição.
 
 ## 📦 Dados
-- **`web/lib/data/deck.json`** (1 MB, 590 cartas) — a única fonte que o app lê. Gerado por
+- **`web/lib/data/deck.json`** (1,2 MB, 587 cartas) — a única fonte que o app lê. Gerado por
   `python3 web/scripts/build_deck.py` a partir de `materials.json`. O build faz:
   limpeza de texto (CSS/HTML/copy de e-commerce que vêm dos 4 fornecedores raspados),
   facetas em PT via léxico curado, "para que serve", dose, percepção por concentração,
@@ -124,6 +188,9 @@ de perceptual entra por curadoria em `deck_notes_pt.py`; o que é físico vem do
 - Local: `cd web && npm install && npm run dev` (node em `/opt/homebrew/bin` →
   `export PATH="/opt/homebrew/bin:$PATH"`).
 - Build estático: `cd web && npm run build` → `out/`. Servir: `npx serve out -l 4123`.
+- **Publicar tudo de uma vez:** `./web/scripts/publicar.sh "mensagem"` — ele bumpa o CACHE_VERSION,
+  roda `build_books.py`, builda com o basePath certo, injeta o precache e empurra na `gh-pages`.
+  O passo a passo manual, para quando algo der errado no meio:
 - **Redeploy GitHub Pages** (é o que está no ar em https://jbrittoad.github.io/perfumista/):
   ```bash
   cd web && NEXT_PUBLIC_BASE_PATH=/perfumista npm run build   # subpath é obrigatório
@@ -149,6 +216,13 @@ cd web && npm install && npm run build
 ```
 
 ## ⚠️ Armadilhas do ambiente
+- **`precache_assets.py` precisa do MESMO `NEXT_PUBLIC_BASE_PATH` do build.** Ele acha os assets pelo
+  caminho que o HTML referencia; sem a variável, encontra zero e o app vai ao ar **sem precache** —
+  offline quebrado justamente na primeira abertura. Antes ele reportava "0 assets" como sucesso; hoje
+  sai com código 1. O `publicar.sh` exporta a variável para os dois passos.
+- **Cache do usuário não é cache do app.** O `activate` do service worker só pode apagar o shell
+  versionado. `perfumista-audio` e `perfumista-downloads` são o que a pessoa baixou de propósito —
+  apagá-los num deploy deixa o avião sem audiolivro. Estão em `CACHES_DO_USUARIO` no `sw.js`.
 - **node/npx/gh somem do PATH** → sempre `export PATH="/opt/homebrew/bin:$PATH"`.
 - Tailwind v4: `@apply` **não** compõe classes de componente (`.btn-ghost { @apply btn }`
   quebra o build). Repetir a base em cada variante.

@@ -22,7 +22,8 @@ pandoc -f gfm -t html5 --standalone --toc --toc-depth=2 \
   05-cabelo-barba-anidros.md 06-emulsoes-e-ativos.md 07-perfumar-o-produto.md \
   08-qualidade.md 09-negocio.md 10-apendices.md
 
-"$CHROME" --headless=new --disable-gpu --no-pdf-header-footer \
+# --mute-audio: já aconteceu de um Chrome meu ficar tocando som no Mac do Britto.
+"$CHROME" --headless=new --disable-gpu --mute-audio --no-pdf-header-footer \
   --print-to-pdf="$OUT" "file:///tmp/ebook-perfumista.html" 2>/dev/null
 
 echo "→ $(pwd)/$OUT"

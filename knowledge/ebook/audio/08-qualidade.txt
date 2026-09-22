@@ -3,16 +3,57 @@ Diagnóstico — tabela mestre.
 
 Perfume.
 
+Sete sintomas de perfume, e o que cada um significa. Está estranho e tem menos de seis semanas: é
+maceração incompleta, espere antes de mexer. Turvo: material insolúvel no teor de álcool, ou água demais
+— filtre depois das seis semanas, ou suba o álcool. Some em uma hora: a fórmula é só topo, faltam musk,
+âmbar e Iso E Super. Você sente só no nariz e ninguém mais sente: falta volátil de limiar baixo.
+Amarelou: oxidação de vanilina ou cítrico, normal até certo ponto. Cristais no fundo: material saturado —
+aqueça a 40 graus e agite, ou baixe a dose. E cheiro de verniz: é cítrico oxidado, descarte o lote.
+
 Base glicerinada (base glicerinada).
+
+Seis defeitos da base glicerinada. A barra chora: glicerina puxando umidade, embrulhe em filme. Mole e
+derretendo na mão: aditivo acima de 6%. Bolhas na massa: fogo alto ou fervura. Cheiro fraco: perfume
+adicionado acima de 60 graus. Camadas descolando: a segunda camada foi sobre base fria demais, borrife
+álcool 70 entre elas. E crosta branca na superfície: esfriou rápido demais por cima.
 
 sindete.
 
+Os sete do sindete. Esfarelou: falta ligante, polímero catiônico demais, ou isetionato em floco — use o
+pó e suba esteárico e cetílico. Mole: líquido demais. Não desenforma: freezer por uma a duas horas logo
+depois de prensar. Espuma fraca: isetionato baixo ou água dura; para a água, enxágue final com ácido
+cítrico a 1%. Espuma some rápido: gordura acima de 10%. Arde: pê-agá acima de 6. E pontos brancos na
+barra: guar seca que não foi hidratada — um para dez, antes de juntar.
+
 processo a frio.
+
+Sete do processo a frio. Endurece na hora: fragrância aceleradora ou temperatura alta. Grãos de arroz:
+incompatibilidade da fragrância. Manchas alaranjadas com ranço: óleo linoleico, gordura sobrando demais,
+ou óleo velho. Círculo escuro no meio da barra, o gel parcial: temperatura desigual na cura. Cinza branca
+na superfície: é reação com o gás carbônico do ar — é cosmético, não é defeito. Escurece: vanilina. E se
+arde depois da cura completa, a soda foi mal calculada: descarte.
 
 Emulsão.
 
+Seis da emulsão. Separou logo: as fases tinham temperatura diferente. Separou em dias: emulsionante de
+menos, ou fase oleosa alta demais. Granulado: agitação fraca, ou karité recristalizando. Mudou cheiro ou
+cor em semanas: é contaminação — descarte e revise conservante e higiene. Pegajoso: glicerina acima de
+5%. E afinou com o tempo: eletrólito, ou pê-agá fora da faixa do espessante.
+
 Anidro.
+
+E quatro dos anidros. Arenoso: karité que esfriou devagar — refunda a 75 graus e resfrie em choque.
+Suando óleo: pouca cera para o clima. Ranço: falta antioxidante, ou o óleo tem linoleico demais. E
+mofou: entrou água, por dedo ou banho, e não havia conservante.
 Estabilidade.
+
+O teste de estabilidade tem seis etapas, e a ordem economiza tempo. Primeiro a centrifugação, a 3000
+rotações por 30 minutos: emulsão que vai separar separa aqui, e você descarta cedo. Depois os ciclos
+térmicos: 24 horas a 40 graus, 24 horas a 4, repetido de 6 a 12 vezes. Depois a estufa, 40 graus por 90
+dias, com um controle a 25 — é ela que estima a validade. Em cada ponto, avaliação organoléptica: cor,
+odor e aspecto, que é onde o problema aparece primeiro. Físico-química: pê-agá, viscosidade e densidade —
+e deriva de pê-agá significa reação em curso. E por fim compatibilidade com a embalagem, testando no
+frasco real, porque plástico absorve perfume e deforma.
 
 Versão caseira mínima: três amostras — armário quente (cerca de 40  graus), geladeira, e prateleira (25  graus) — por 30 dias, comparadas entre si. Fotografe no dia 0.
 Critério de reprovação: qualquer mudança de cor, cheiro, textura, separação, ou pê-agá fora de ±0,5 do inicial.
@@ -31,6 +72,17 @@ Ao vender: contratar o teste de desafio. É o teste que a fiscalização espera 
 
 Sinais de que já contaminou: mudança de cheiro (ácido, "queijo", mofo), mudança de cor, bolhas ou pressão no pote, filme na superfície, textura mais fina. Nada disso se corrige — descarte o lote inteiro.
 Testes caseiros — e o que não provam.
+
+Sete testes caseiros, e o que cada um realmente prova. O pê-agá prova que está na faixa — não prova que é
+seguro. O teste de espuma permite comparar os seus lotes entre si — não prova desempenho na água dura da
+casa de outra pessoa. Pesar a barra antes e depois de sete dias mede durabilidade relativa — não mede
+validade. O ciclo térmico caseiro revela instabilidade grosseira — não dá prazo de validade. Cheirar o
+antebraço meia hora depois do banho mede substantividade — não diz como outra pessoa percebe. O teste de
+contato de 48 horas prova a sua tolerância — não a segurança para terceiros. E um painel com cinco amigos
+mede aceitação — não mede eficácia.
+
+A regra honesta: teste caseiro serve para reprovar, não para aprovar. Ele mostra que algo está errado;
+nunca prova que está certo.
 
 Regra honesta: teste caseiro serve para reprovar, não para aprovar. Ele mostra que algo está errado; nunca prova que está certo.
 

@@ -23,6 +23,13 @@ export default function Leitor({ slug }: { slug: string }) {
   const [indice, setIndice] = useState(false);
   const [restaurado, setRestaurado] = useState(false);
   const secaoRef = useRef<string>(livro.secoes[0]?.id ?? "abertura");
+  // Em 9 dos 17 livros a "Abertura" é só o <h1> — no seletor ela vira uma
+  // entrada que não leva a lugar nenhum. Filtra no índice, e NÃO nos dados: o
+  // progresso de leitura guarda o id da seção, e renumerar perderia onde você
+  // parou.
+  const secoesDoIndice = livro.secoes.filter(
+    (s) => s.html.replace(/<[^>]+>/g, " ").trim().length > 60,
+  );
   const ultimoSalvo = useRef(0);
   // último estado REAL medido com a página montada. Na saída gravamos isto, e
   // não uma medição nova: ao desmontar, o documento já está encolhendo e o
@@ -118,7 +125,7 @@ export default function Leitor({ slug }: { slug: string }) {
       {indice && (
         <nav className="border-b border-[var(--border-soft)] bg-[var(--surface)] px-4 py-3">
           <ul className="space-y-1.5">
-            {livro.secoes.map((s) => (
+            {secoesDoIndice.map((s) => (
               <li key={s.id}>
                 <a
                   href={`#${s.id}`}
