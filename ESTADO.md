@@ -21,11 +21,24 @@ químicos aromáticos, marca o que quer na paleta, e simula acordes com o que ma
 ## 🏗️ Arquitetura
 - **PWA 100% estática** — Next.js 16 App Router, `output: 'export'`. Tudo client-side, dados
   em JSON embutido. Service worker (`web/public/sw.js`) = offline. Sem servidor em runtime.
-- **3 telas, 3 abas** (bottom tab bar):
+- **5 abas** (bottom tab bar) — a quinta, Livros, entrou em 22/09/2026:
   - `/` **Descobrir** — o deck. Arrasta → direita = quero / esquerda = descarto; toque = ficha.
   - `/lab` **Meu Laboratório** — os favoritos, com busca, filtro por família, ordenação e
     "copiar lista" (texto pro WhatsApp do fornecedor).
   - `/formulas` **Fórmulas** — monta acorde em PARTES com materiais da paleta e simula.
+  - `/livros` **Livros** — o ebook *Do químico aromático ao produto* (16 livros, 34 mil palavras,
+    15 figuras P&B). Progresso de leitura em `localStorage['perfumista:livros']` — chave SEPARADA do
+    deck, de propósito: um nunca derruba o outro. O leitor restaura a rolagem exata ao reabrir.
+    As 16 rotas entram no precache do service worker → **funciona offline** (o caso de uso é avião).
+
+## 📚 O ebook (fonte única, três saídas)
+- **Fonte:** `knowledge/ebook/*.md` + `knowledge/ebook/figuras/*.svg` (15 diagramas em P&B).
+- **App:** `python3 web/scripts/build_books.py` → `web/lib/data/books.json` (pandoc converte md→html,
+  INLINA os SVG). Rodar sempre que editar um .md.
+- **PDF:** `bash web/scripts/build_pdf.sh` → `knowledge/ebook/Do-quimico-aromatico-ao-produto.pdf`
+  (110 páginas A4, capa e sumário; pandoc + Chrome headless + `pdf.css`).
+- ⚠️ **Armadilha:** `<` cru dentro de `<text>` num SVG quebra a figura **só no PDF** (o `<img>` lê como
+  XML estrito; o navegador perdoa). Escapar como `&lt;`.
 - **Ordem do baralho (o ponto central):** as cartas vêm agrupadas por família olfativa e,
   dentro da família, encadeadas por proximidade de cheiro — todos os limões, depois as
   bergamotas, depois as laranjas. Isso é calculado no build, não em runtime.
@@ -111,6 +124,16 @@ de perceptual entra por curadoria em `deck_notes_pt.py`; o que é físico vem do
 - Local: `cd web && npm install && npm run dev` (node em `/opt/homebrew/bin` →
   `export PATH="/opt/homebrew/bin:$PATH"`).
 - Build estático: `cd web && npm run build` → `out/`. Servir: `npx serve out -l 4123`.
+- **Redeploy GitHub Pages** (é o que está no ar em https://jbrittoad.github.io/perfumista/):
+  ```bash
+  cd web && NEXT_PUBLIC_BASE_PATH=/perfumista npm run build   # subpath é obrigatório
+  TMP=$(mktemp -d) && git clone --branch gh-pages --single-branch \
+    https://github.com/jbrittoAD/perfumista.git "$TMP/site"
+  find "$TMP/site" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+  cp -R out/. "$TMP/site"/ && touch "$TMP/site/.nojekyll"   # sem .nojekyll o Pages ignora _next/
+  cd "$TMP/site" && git add -A && git commit -m "..." && git push origin gh-pages
+  ```
+  O Pages leva ~2 min para propagar. Sem force-push: o clone já traz o histórico.
 - **Redeploy Vercel:** `cd web && vercel build --prod && vercel deploy --prebuilt --prod --yes --archive=tgz`.
   ⚠️ `--archive=tgz` é ESSENCIAL (senão "Upload aborted"). Depois **re-apontar os aliases**
   (ficam presos no deploy antigo): `vercel alias set <deploy>.vercel.app perfumista-app.vercel.app`

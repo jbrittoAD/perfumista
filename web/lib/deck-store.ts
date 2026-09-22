@@ -93,6 +93,13 @@ export interface DeckState {
   updatedAt: number;
   /** false até o IndexedDB responder: a UI não pode montar a fila antes disso. */
   ready: boolean;
+  /**
+   * Quando o usuário zerou o baralho, em ms. Existe por causa do sync: o merge
+   * é UNIÃO, então sem esta marca um aparelho que ainda tivesse os swipes
+   * antigos os reenviaria e o "reiniciar" se desfazia sozinho. Com ela, swipe
+   * remoto anterior ao reset é descartado — o reset viaja entre os aparelhos.
+   */
+  resetAt?: number;
 }
 
 const EMPTY: DeckState = {

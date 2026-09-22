@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 268" width="760" height="268" role="img" aria-label="A pirâmide olfativa: quem evapora quando"><style>
+  .bg{fill:#fff}
+  .ttl{font:700 15px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#000}
+  .lbl{font:600 12.5px system-ui,sans-serif;fill:#000}
+  .sm{font:500 11px system-ui,sans-serif;fill:#333}
+  .xs{font:500 10px system-ui,sans-serif;fill:#555}
+  .box{fill:#f2f2f2;stroke:#000;stroke-width:1.1}
+  .ln{stroke:#000;stroke-width:1.1;fill:none}
+  .ar{stroke:#000;stroke-width:1.4;fill:none;marker-end:url(#a)}
+  text{fill:#000}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#000"/></marker>
+<pattern id="h1" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="1.6"/></pattern>
+<pattern id="h2" width="6" height="6" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="1"/></pattern>
+<pattern id="h3" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#000"/></pattern>
+</defs><rect class="bg" width="760" height="268" rx="10" stroke="#000" stroke-width="0.8"/><text class="ttl" x="20" y="28">A pirâmide olfativa: quem evapora quando</text><rect x="20" y="60" width="220" height="46" rx="6" fill="#dcdcdc" stroke="#000" stroke-width="1.2"/><text class="lbl" x="34" y="80">TOPO</text><text class="sm" x="34" y="96">5–20 min · MW &lt; 160</text><text class="sm" x="260" y="89">limoneno · bergamota · aldeídos</text><rect x="20" y="120" width="370" height="46" rx="6" fill="url(#h3)" stroke="#000" stroke-width="1.2"/><text class="lbl" x="34" y="140">CORAÇÃO</text><text class="sm" x="34" y="156">2–5 h · MW 160–220</text><text class="sm" x="410" y="149">linalol · geraniol · iononas</text><rect x="20" y="180" width="520" height="46" rx="6" fill="url(#h2)" stroke="#000" stroke-width="1.2"/><text class="lbl" x="34" y="200">BASE</text><text class="sm" x="34" y="216">4–12 h+ (fita: dias) · MW &gt; 220</text><text class="sm" x="560" y="209">musk · âmbar · madeira · baunilha</text><text class="xs" x="20" y="252">CS de Poucher: topo &lt;15 · coração 15–60 · base &gt;60.   +10 °C ≈ dobra a taxa de evaporação.</text></svg>

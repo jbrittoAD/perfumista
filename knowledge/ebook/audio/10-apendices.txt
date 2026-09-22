@@ -1,0 +1,61 @@
+APÊNDICES.
+
+A. Glossário.
+
+Perfumaria
+
+Cosmética / inci
+
+B. Tabelas de referência.
+
+Perfume no produto
+
+pê-agá alvo
+
+Temperaturas
+
+Tetos por base
+
+Diluição (frasco de 30 mililitros = 24 g)
+
+Conversões
+concentrado = mililitros × (%/100) × 0,95
+1 parte por mil = concentrado ÷ 1000
+peso a pesar = peso puro ÷ (diluição/100)
+álcool embutido = peso a pesar − peso puro
+
+B2. A tabela do tempo — todo prazo do livro em um lugar.
+
+Na pele e na fita
+
+Bancada
+
+Produção
+
+Validade e testes
+
+C. Fórmulas comentadas.
+
+C1 — Perfume: Imagination (tipo), 10 g de concentrado.
+Ver imagination-tipo-modo-direto.json. Estrutura: Hedione 23,9% + Ambroxan 21,7% carregam quase metade — é um perfume construído sobre difusor + âmbar, com topo cítrico curto (acetato de linalila 10,3%, bergamota 7,6%) e cauda de almíscar macrocíclico (ambrettolide 7,6%, velvione 3,5%, exaltolide 2,7%).
+O que aprender: dose alta de dois materiais "silenciosos" (Hedione e Ambroxan são de força baixa/média) é o que dá volume sem um cheiro dominante. O caráter vem dos traços.
+
+C2 — sindete 1 quilos.
+Cap. 34. Comentário: isetionato de sódio no teto de 50% e gordura em 8% não é economia — é o ponto em que espuma e maciez coexistem. Mexer nesses dois números é mexer no produto inteiro.
+
+C3 — processo a frio 1 quilos de óleos.
+Cap. 36. Comentário: sebo 35% é o ingrediente que a saboaria "natural" evita e que entrega dureza e espuma cremosa por 15 reais/quilos. Coco em 25% e não 30% é escolha deliberada: Cleansing na faixa 12 a 22.
+
+C4 — Loção toque seco 200 g.
+Cap. 43. Comentário: fase oleosa em 13% com éster leve substitui a sensação de "creme rico" por espalhamento. Trocar o coco caprilato por manteiga faz a mesma fórmula virar creme pesado sem mudar mais nada.
+
+D. Fontes.
+
+Perfumaria — Poucher, Perfumes, Cosmetics and Soaps · Calkin & Jellinek, Perfumery: Practice and Principles · Jean Carles (PDF, quintescential.ca) · TGSC (thegoodscentscompany.com) · Perfumer's Apprentice · Scentspiracy · IFRA (ifrafragrance.org) · PerfumoLogos (transcrições em knowledge/perfumologos/) · base do repo em knowledge/base_conhecimento_perfumaria.md.
+
+Cosmética — SoapCalc · Modern Soapmaking · Humblebee & Me · Swift Crafty Monkey · Chemists Corner · Stephenson (documentos técnicos) · Bramble Berry · Nandê Botânica · Cosmética em Foco.
+
+Regulatório — Lei 6.360/1976 · Lei 15.154/2025 · RDC 16/2014 (AFE) · RDC 530/2021 (alérgenos) · RDC 907/2024 (classificação, rotulagem, microbiologia) · Consulta Pública 1.353/2025 · Guia de Estabilidade de Produtos Cosméticos (ANVISA, 2004).
+
+Preços e fornecedores — knowledge/cosmetica/ONDE-COMPRAR.md, conferidos em 21/09/2026.
+Como verificar: todo número regulatório deste ebook deve ser reconferido na base da ANVISA antes de ir para um rótulo. Norma muda; livro não.

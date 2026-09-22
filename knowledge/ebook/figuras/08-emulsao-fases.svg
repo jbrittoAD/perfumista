@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 206" width="760" height="206" role="img" aria-label="As três fases de um creme"><style>
+  .bg{fill:#fff}
+  .ttl{font:700 15px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#000}
+  .lbl{font:600 12.5px system-ui,sans-serif;fill:#000}
+  .sm{font:500 11px system-ui,sans-serif;fill:#333}
+  .xs{font:500 10px system-ui,sans-serif;fill:#555}
+  .box{fill:#f2f2f2;stroke:#000;stroke-width:1.1}
+  .ln{stroke:#000;stroke-width:1.1;fill:none}
+  .ar{stroke:#000;stroke-width:1.4;fill:none;marker-end:url(#a)}
+  text{fill:#000}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#000"/></marker>
+<pattern id="h1" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="1.6"/></pattern>
+<pattern id="h2" width="6" height="6" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="1"/></pattern>
+<pattern id="h3" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#000"/></pattern>
+</defs><rect class="bg" width="760" height="206" rx="10" stroke="#000" stroke-width="0.8"/><text class="ttl" x="20" y="28">As três fases de um creme</text><rect x="20" y="58" width="160" height="108" rx="8" fill="#f0f0f0" stroke="#000" stroke-width="1.3"/><text class="lbl" x="34" y="82">FASE A</text><text class="xs" x="34" y="102">água destilada</text><text class="xs" x="34" y="117">glicerina · umectante</text><text class="ttl" x="34" y="152">70 °C</text><path class="ar" d="M184 112 L 200 112"/><rect x="205" y="58" width="160" height="108" rx="8" fill="#f0f0f0" stroke="#000" stroke-width="1.3"/><text class="lbl" x="219" y="82">FASE B</text><text class="xs" x="219" y="102">emulsionante · óleos</text><text class="xs" x="219" y="117">manteiga · álcool graxo</text><text class="ttl" x="219" y="152">70 °C</text><path class="ar" d="M369 112 L 385 112"/><rect x="390" y="58" width="160" height="108" rx="8" fill="#f0f0f0" stroke="#000" stroke-width="1.3"/><text class="lbl" x="404" y="82">JUNTAR</text><text class="xs" x="404" y="102">mixer 2–3 min</text><text class="xs" x="404" y="117">Δ ≤ 5 °C entre as fases</text><text class="ttl" x="404" y="152">70 °C</text><path class="ar" d="M554 112 L 570 112"/><rect x="575" y="58" width="160" height="108" rx="8" fill="#dcdcdc" stroke="#000" stroke-width="1.3"/><text class="lbl" x="589" y="82">FASE C</text><text class="xs" x="589" y="102">ativos · conservante</text><text class="xs" x="589" y="117">perfume · ajuste de pH</text><text class="ttl" x="589" y="152">&lt; 45 °C</text><text class="sm" x="20" y="192">Fases com mais de 5 °C de diferença = emulsão talhada. É a causa nº 1.</text></svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" width="760" height="262" role="img" aria-label="Os dois caminhos para vender"><style>
+  .bg{fill:#fff}
+  .ttl{font:700 15px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#000}
+  .lbl{font:600 12.5px system-ui,sans-serif;fill:#000}
+  .sm{font:500 11px system-ui,sans-serif;fill:#333}
+  .xs{font:500 10px system-ui,sans-serif;fill:#555}
+  .box{fill:#f2f2f2;stroke:#000;stroke-width:1.1}
+  .ln{stroke:#000;stroke-width:1.1;fill:none}
+  .ar{stroke:#000;stroke-width:1.4;fill:none;marker-end:url(#a)}
+  text{fill:#000}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#000"/></marker>
+<pattern id="h1" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="1.6"/></pattern>
+<pattern id="h2" width="6" height="6" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="1"/></pattern>
+<pattern id="h3" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#000"/></pattern>
+</defs><rect class="bg" width="760" height="262" rx="10" stroke="#000" stroke-width="0.8"/><text class="ttl" x="20" y="28">Os dois caminhos para vender</text><rect x="20" y="56" width="200" height="60" rx="8" class="box"/><text class="lbl" x="36" y="82">Fazer em casa e usar</text><text class="xs" x="36" y="102">livre</text><path class="ar" d="M224 86 L 250 86"/><rect x="256" y="56" width="230" height="60" rx="8" fill="#f2f2f2" stroke="#000" stroke-width="1.4"/><text class="lbl" x="272" y="82">Vender</text><text class="xs" x="272" y="102">duas vias — e só uma funciona hoje</text><path class="ar" d="M370 120 L 370 146"/><rect x="150" y="152" width="290" height="92" rx="8" fill="#fff" stroke="#000" stroke-width="1.8"/><text class="lbl" x="166" y="176">VIA A — empresa regular (funciona)</text><text class="xs" x="166" y="196">CNPJ (não é MEI) · licença sanitária</text><text class="xs" x="166" y="212">AFE (RDC 16/2014) · responsável técnico</text><text class="xs" x="166" y="228">notificação Grau 1 + TFVS</text><rect x="460" y="152" width="280" height="92" rx="8" fill="#f7f7f7" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/><text class="lbl" x="476" y="176">VIA B — artesanal (ainda não)</text><text class="xs" x="476" y="196">Lei 15.154/2025 dispensa o registro…</text><text class="xs" x="476" y="212">…mas o regulamento da ANVISA</text><text class="xs" x="476" y="228">não saiu: sem via prática</text></svg>

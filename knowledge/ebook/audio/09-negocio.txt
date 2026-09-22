@@ -1,0 +1,50 @@
+LIVRO 9 — Virar negócio.
+Do lote de bancada ao lote de produção.
+
+O que muda quando sai de 200 g para 5 quilos:
+
+Escale sempre em múltiplos inteiros e refaça um lote intermediário antes de saltar 10 vezes.
+Custo e preço.
+
+Custo total = matéria-prima + indiretos + mão de obra.
+Matéria-prima por unidade = custo do lote ÷ unidades. sindete hoje: cerca de 3 reais e 77 + perfume 85 centavos–1,99 = 4 reais e 60 a 5,80.
+Indiretos: embalagem, rótulo, energia, gás, frete diluído por unidade.
+Mão de obra: sua hora × horas do lote ÷ unidades. É o item que todo artesão esquece.
+Preço = custo total × 2 (markup de 100%; a faixa usual do artesanato é 50 a 100%).
+
+Exemplo: 4 reais e 60 material + 2 reais e 00 indiretos + 1 reais e 50 mão de obra = 8 reais e 10 → venda 16 reais.
+Se o mercado não paga, não corte material: aumente o lote (o custo por barra despenca do segundo lote em diante) ou suba o valor percebido: rótulo, história, e um acorde que só você tem.
+Regularização — via A: empresa regular.
+
+É o caminho que existe hoje, com via procedimental funcionando.
+Regularização — via B: artesanal.
+Lei 15.154/2025 (publicada em 01/07/2025, em vigor desde 30/08/2025) altera a Lei 6.360 e dispensa o registro de cosmético, perfume e produto de higiene artesanal.
+O regulamento da ANVISA ainda não foi publicado. A Consulta Pública número 1.353/2025 foi reaberta e encerrou em fev/2026 sem texto final.
+A minuta propõe: definição de artesanal por processo predominantemente manual e baixo risco · dispensa de registro com comunicação prévia de comercialização · rotulagem mínima com a expressão "PRODUTO ARTESANAL" · BPF simplificadas · sem exigência de responsável técnico.
+A dispensa de RT está na minuta, não na lei — e é disputada (os CRQs defendem manter o químico como RT).
+
+Tradução: a isenção existe no papel e não tem via procedimental. Enquanto o regulamento não sai, quem quer vender com segurança jurídica usa a via A. Fazer em casa, usar e presentear é livre.
+Notificação Grau 1, na prática.
+Cadastrar a empresa no portal da ANVISA (acesso ao Peticionamento Eletrônico / Solicita).
+Declarar o porte da empresa — é o que define o valor da taxa.
+Preencher o formulário de notificação (fórmula, rotulagem, finalidade) e anexar o checklist.
+Gerar a TFVS (taxa de fiscalização; valor pela Portaria Interministerial 701/2015) → GRU.
+Pagar a GRU. Só depois do pagamento o sistema gera o protocolo.
+Grau 1 é automático: sem análise prévia. O sistema confere por parâmetros se o enquadramento está certo — enquadrar errado é o erro que gera problema depois.
+Boas práticas e rastreabilidade.
+
+O mínimo defensável, mesmo antes de ser obrigado:
+Caderno/planilha de lote: número, data, fórmula, fornecedor e lote de cada insumo, pê-agá, rendimento, quem fez.
+Amostra de retenção de cada lote, guardada até o fim da validade.
+Área de produção separada de cozinha e de animal; superfícies laváveis.
+Insumo identificado, com validade, em embalagem fechada.
+Água destilada, higienização com álcool 70% registrada.
+Recall: se um lote der problema, o caderno é o que permite saber quais unidades saíram e para quem.
+Rótulo.
+
+Obrigatório: nome do produto · finalidade · composição em inci (ordem decrescente) · conteúdo · lote · validade · modo de uso · advertências · número de notificação quando aplicável · razão social, CNPJ e endereço · SAC. Regra vigente: RDC 907/2024 (que revogou a RDC 752/2022).
+
+Mais: alérgenos de fragrância declarados pela RDC 530/2021 (26 substâncias, acima de 0,001% produto que fica na pele e 0,01% produto que se enxágua).
+
+inci é nome internacional, não português: Aqua, não "água"; Sodium Cocoyl Isethionate, não "isetionato de sódio"; Butyrospermum Parkii Butter, não "karité". Fragrância entra como Parfum, seguida dos alérgenos declaráveis.
+Pendência honesta: a norma de BPF de cosméticos é distinta da RDC 907/2024 (que trata de classificação, rotulagem, embalagem, microbiologia e regularização). A referência mais citada é a RDC 764/2022 — confirme o número na base da ANVISA antes de citá-lo em documento oficial.

@@ -17,3 +17,10 @@ web/.vercel/
 # backup físico do app clássico (restauração rápida; o git já guarda a tag v1-classico)
 _backup/
 web/scripts/__pycache__/
+.venv-audio/
+
+# artefatos do livro: regeráveis por web/scripts/build_pdf.sh e build_audio.py
+knowledge/ebook/*.pdf
+knowledge/ebook/audio/*.mp3
+knowledge/ebook/audio/_partes/
+web/public/*.pdf

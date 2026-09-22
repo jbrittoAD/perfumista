@@ -14,7 +14,7 @@
  * O cache é VERSIONADO: bump CACHE_VERSION a cada deploy para invalidar o antigo.
  */
 
-const CACHE_VERSION = "perfumista-deck-v8";
+const CACHE_VERSION = "perfumista-deck-v15";
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 // URLs BASE-RELATIVAS: resolvem contra a URL do próprio SW (${base}/sw.js), então
@@ -26,6 +26,24 @@ const PRECACHE_URLS = [
   "./lab",
   "./paleta",
   "./formulas",
+  "./livros",
+  "./livros/00-INDICE",
+  "./livros/01-cheiro-e-materia-prima",
+  "./livros/01b-catalogo-por-familia",
+  "./livros/01c-similares-e-substitutos",
+  "./livros/01d-natural-vs-sintetico",
+  "./livros/02-bancada-e-criacao",
+  "./livros/02b-bancada-de-cosmetica",
+  "./livros/03-quimica",
+  "./livros/03b-similares-cosmetica",
+  "./livros/03c-dicionario-insumos",
+  "./livros/04-sabonete",
+  "./livros/05-cabelo-barba-anidros",
+  "./livros/06-emulsoes-e-ativos",
+  "./livros/07-perfumar-o-produto",
+  "./livros/08-qualidade",
+  "./livros/09-negocio",
+  "./livros/10-apendices",
   "./manifest.webmanifest",
   "./photos/credits.json",
   "./icons/icon-192.png",
@@ -34,12 +52,19 @@ const PRECACHE_URLS = [
   "./icons/apple-touch-icon.png",
 ];
 
+// Injetado no build por scripts/precache_assets.py: os JS/CSS com hash que as
+// telas precisam (inclui o livro inteiro, ~1,3 MB). Sem isto, o app só fica
+// realmente offline depois que o usuário visita cada tela — e o caso de uso é
+// justamente abrir o livro no avião, onde não dá para buscar nada.
+const BUILD_ASSETS = [];
+
 self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(RUNTIME_CACHE);
       // Tolerante a falhas: assets ausentes não devem abortar o install.
-      await Promise.allSettled(PRECACHE_URLS.map((url) => cache.add(url)));
+      const urls = [...PRECACHE_URLS, ...BUILD_ASSETS];
+      await Promise.allSettled(urls.map((url) => cache.add(url)));
       await self.skipWaiting();
     })(),
   );

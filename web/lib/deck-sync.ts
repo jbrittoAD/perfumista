@@ -6,7 +6,9 @@
  * UI trava ou some.
  *
  * O merge é sempre UNIÃO / "melhor de cada", nunca sobrescrita cega:
- *   swipes  → por carta, vence o registro com timestamp mais novo;
+ *   swipes  → por carta, vence o registro com timestamp mais novo, e tudo que
+ *              for anterior ao último `resetAt` é descartado (senão o "zerar
+ *              baralho" de um aparelho seria desfeito pelo outro);
  *   cursor  → por família, vence o índice maior (quem avançou mais);
  *   blends  → por id, vence o updatedAt mais novo.
  * Assim dois aparelhos usados em paralelo convergem sem perder decisão.
@@ -82,11 +84,20 @@ export function lastSyncAt(): number | null {
 function mergeDeck(local: DeckState, remote: Partial<DeckState> | undefined): DeckState {
   if (!remote) return local;
 
-  const swipes: Record<number, SwipeRecord> = { ...local.swipes };
+  // O reset é um marco no tempo, não uma ausência: swipe (local OU remoto)
+  // anterior ao reset mais recente dos dois lados é descartado. Sem isto, a
+  // união traria de volta tudo que o usuário acabou de zerar no outro aparelho.
+  const resetAt = Math.max(local.resetAt ?? 0, remote.resetAt ?? 0);
+
+  const swipes: Record<number, SwipeRecord> = {};
+  for (const [k, v] of Object.entries(local.swipes)) {
+    if ((v.at ?? 0) >= resetAt) swipes[Number(k)] = v;
+  }
   for (const [k, v] of Object.entries(remote.swipes ?? {})) {
     const id = Number(k);
     const r = v as SwipeRecord;
     if (!r || (r.dir !== "like" && r.dir !== "pass")) continue;
+    if ((r.at ?? 0) < resetAt) continue;
     const mine = swipes[id];
     if (!mine || (r.at ?? 0) > mine.at) swipes[id] = { id, dir: r.dir, at: r.at ?? 0 };
   }
@@ -117,6 +128,7 @@ function mergeDeck(local: DeckState, remote: Partial<DeckState> | undefined): De
     blends: [...byId.values()].sort((a, b) => b.updatedAt - a.updatedAt),
     updatedAt: Math.max(local.updatedAt, remote.updatedAt ?? 0),
     ready: true,
+    resetAt: resetAt || undefined,
   };
 }
 

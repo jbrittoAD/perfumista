@@ -1,73 +1,74 @@
 # EXPLORAR — cosmética (sabonete, hidratante, cabelo/barba)
 
-Fila de pesquisa. Um item por vez, resposta curta no padrão:
-**dá / não dá → por quê → o que fazer no lugar → material com link e preço.**
+**Status em 21/09/2026: os 29 itens foram pesquisados.** O material vive em
+[`knowledge/cosmetica/`](knowledge/cosmetica/README.md) e virou skill em `.claude/skills/`.
 
 **O que eu quero no fim:**
-1. Sabonete em barra **duro**, que hidrata muito, deixa a pele **seca ao toque** depois do banho e mantém o perfume na pele.
-2. Hidratante corporal de **absorção rápida / toque seco** que não resseca.
-3. Uma barra só pra **cabelo + barba + corpo** (se não der, separado).
-4. Tudo perfumado com **meus próprios químicos aromáticos**, sem álcool e sem essência pronta ruim.
+1. Sabonete em barra **duro**, que hidrata muito, deixa a pele **seca ao toque** e mantém o perfume. → syndet
+2. Hidratante corporal de **absorção rápida / toque seco**. → base pronta + meu perfume
+3. Uma barra só pra **cabelo + barba + corpo**. → syndet com guar catiônico
+4. Tudo perfumado com **meus próprios químicos aromáticos**.
 
-Legenda: ⚠ = afirmação que veio de chat/loja e **precisa de fonte** antes de eu gastar dinheiro.
+**Plano:** glicerinada para acertar o cheiro → syndet para o produto (e eventualmente venda).
 
 ---
 
-## 🧼 Bloco A — Sabonete em barra
+## 🧼 Bloco A — Sabonete → [PESQUISA-A-SABONETE.md](knowledge/cosmetica/PESQUISA-A-SABONETE.md)
 
-1. **Salvar a base glicerinada que já comprei** (Peter Paiva, 200 g, ficou mole)
-   → limite real de líquido por 200 g; o que endurece (menos líquido? ácido esteárico? sal? cura?); ⚠ o rótulo já tem lauril mesmo?
-2. **Base syndet pronta em barra** (tipo Ameize) — o atalho sem mexer com pó
-   → quais existem hoje, INCI, pH, dureza, quanto de manteiga/creme aceita, preço e link.
-3. **Syndet do zero, 1 kg** (SCI + betaína + ácido esteárico + manteiga)
-   → fórmula conferida, temperatura de cada etapa, EPI pro pó de SCI, onde comprar SCI no Brasil.
-4. **Cold process** (soda cáustica) — a barra dura e rústica tipo Gramado/Amati
-   → risco real e EPI, calculadora de soda, cura, receita de óleos que dá dureza + espuma.
-5. **Enfiar creme hidratante (tipo Dove) na barra** — quanto cabe antes de quebrar
-   → o teto por tipo de base e o que exatamente estraga (espuma, dureza, conservação).
-6. **"Efeito seco" no sabonete** — ⚠ amido de tapioca / argila branca funcionam mesmo?
-7. **Comparativo final das bases** (glicerinada × syndet pronta × syndet do zero × CP)
-   → tabela curta: dureza, hidratação, espuma, pH, trabalho, custo por barra.
+1. ✅ **Base do Peter Paiva** — teto de 6% de aditivo; ela **não tem lauril** (é sabão saponificado)
+2. ✅ **Base syndet pronta em barra** — **não existe** no varejo brasileiro (a da Ameize é líquida)
+3. ✅ **Syndet do zero** → [RECEITA-SYNDET.md](knowledge/cosmetica/RECEITA-SYNDET.md)
+4. ✅ **Cold process** → [ROTAS-GLICERINADA-E-SODA.md](knowledge/cosmetica/ROTAS-GLICERINADA-E-SODA.md)
+5. ✅ **Creme dentro da barra** — teto ~10% de gordura no syndet; impossível na glicerinada
+6. ✅ **Efeito seco** — amido 8% funciona no syndet; caulim dá matte; na glicerinada é fraco
+7. ✅ **Comparativo das 4 rotas** — syndet 4/4 objetivos, CP 3/4, glicerinada 1/4
 
-## 🧴 Bloco B — Hidratante corporal toque seco
+## 🧴 Bloco B — Hidratante → [PESQUISA-B-HIDRATANTE.md](knowledge/cosmetica/PESQUISA-B-HIDRATANTE.md)
 
-8. **Base pronta de toque seco** → comparativo com INCI, sensorial, preço e link.
-9. **Fórmula do zero** → emulsionante, fase oleosa leve (cáprico/caprílico, esqualano), umectante, espessante.
-10. **Conservante** (o chat anterior ignorou isso e é obrigatório: creme tem água)
-    → qual usar, dose, faixa de pH, onde comprar, como saber se estragou.
-11. **Toque seco sem ressecar** → o que segura água na pele sem filme oleoso (glicerina, pantenol, beta-glucana de aveia, ureia).
+8. ✅ **Bases prontas com preço** — Destilaria Bauru toque seco 1 kg R$ 99,90 é a escolha
+9. ✅ **Fórmula do zero** — 200 g, fase oleosa 13%, Olivem 5%
+10. ✅ **Conservante** — fenoxietanol 0,3–1%, R$ 11,50/100 mL, obrigatório
+11. ✅ **Toque seco sem ressecar** — umectante + éster leve + zero oclusivo pesado
+- ✅ **Creme facial com ativos (tipo Génifique)** → [CREME-FACIAL-GENIFIQUE.md](knowledge/cosmetica/CREME-FACIAL-GENIFIQUE.md)
 
-## 💈 Bloco C — Cabelo e barba
+## 💈 Bloco C — Cabelo e barba → [PESQUISA-C-CABELO-BARBA.md](knowledge/cosmetica/PESQUISA-C-CABELO-BARBA.md)
 
-12. **Barra 3-em-1 (shampoo + condicionador + barba + corpo)** — dá ou não dá num produto só?
-    → coacervação, guar catiônico; ⚠ conferir se a base pronta indicada realmente tem guar.
-13. **Shampoo sólido dedicado** → fórmula, pH alvo, tensoativos que não ressecam.
-14. **Condicionador sólido** (BTMS) → fórmula, quando é indispensável, fornecedor.
-15. **Barba** → o que muda pro pelo da barba e pra pele do rosto embaixo dela.
+12. ✅ **Barra 3-em-1** — dá, com guar catiônico 2–3%; serve pra cabelo curto e barba
+13. ✅ **Shampoo sólido** — mesma barra, pH 4,5–5,5, SCI 30–45%, gordura ≤7%
+14. ✅ **Condicionador sólido** — BTMS-50 25–46% + álcool cetílico; só se o cabelo crescer
+15. ✅ **Barba** — pelo quer pH ácido, pele do rosto quer tensoativo suave: o syndet resolve os dois
 
-## 🌿 Bloco D — Ativos e aditivos
+## 🌿 Bloco D — Ativos e aditivos → [AULA-COSMETICA.md](knowledge/cosmetica/AULA-COSMETICA.md)
 
-16. **Extratos glicerinados: catálogo** — quais existem e pra que serve cada um
-    → fonte de dermatologia/artigo, **não** descrição de loja.
-17. **Pele seca × pele oleosa** → qual extrato pra cada uma, com evidência.
-18. **Glicerinado × glicólico × oleoso** → diferença prática e em qual base entra cada um.
-19. **Óleos e manteigas** → qual hidrata mais, qual endurece a barra, qual rança rápido.
-20. **Corantes** → mica/óxido × corante líquido: o que mancha toalha, o que desbota, dose.
+16. ✅ **Catálogo de extratos glicerinados** 17. ✅ **Pele seca × oleosa** 18. ✅ **Glicerinado × glicólico × oleoso**
+19. ✅ **Óleos e manteigas** (pelo ácido graxo) 20. ✅ **Corantes** (mica 2–4 g/kg, óxido 1,5–2%)
 
-## 🌸 Bloco E — Perfumar o que eu fizer
+## 🌸 Bloco E — Perfumar → [PERFUMAR-COSMETICOS.md](knowledge/cosmetica/PERFUMAR-COSMETICOS.md)
 
-21. **Químico puro × essência pronta em cosmético** → dose, por que o álcool da essência estraga a barra, o que sobra depois do enxágue.
-22. **O que sobrevive no rinse-off** → quais famílias/materiais fixam em sabonete e quais vão pro ralo.
-23. **IFRA por tipo de produto** (leave-on × rinse-off) → limite por material, cruzando com o dado que o app já tem.
-24. **Acorde "sabonete limpo" tipo Imagination (LV) com os meus materiais** → fórmula em partes + versão adaptada pra base de sabonete.
-25. **Essências de contratipo prontas** → quais lojas prestam, se vendem lipossolúvel, relatos reais de cheiro e fixação.
+21. ✅ **Químico puro × essência** — puro ganha em custo, controle e dureza da barra
+22. ✅ **O que sobra no enxágue** — almíscar, âmbar, amadeirado
+23. ✅ **IFRA por produto** — rinse-off 3%, corpo 0,5–1%, rosto 0,1–0,3%
+24. ✅ **Imagination adaptado pra sabonete** — topo × 0,5, musk × 1,8; R$ 42,70/kg ou R$ 19,90 na versão econômica
+25. ✅ **Lojas de contratipo** — relato de cheiro é autodeclarado; comprar 10 ml antes
 
-## 🛒 Bloco F — Compras e segurança
+## 🛒 Bloco F — Compras e segurança → [COMPRAS.md](knowledge/cosmetica/COMPRAS.md)
 
-26. **Fornecedores que entregam em Estrela/Lajeado-RS** → preço, frete, link direto.
-27. **Kit inicial mínimo** → o que comprar primeiro pra fazer 1 sabonete bom + 1 hidratante, com custo total.
-28. **Segurança e pH** → EPI por material (SCI em pó, soda, lauril), como medir pH em casa, faixa alvo de cada produto, validade.
+26. ✅ **Fornecedores** — Cosmética.Casa e Atiká resolvem quase tudo; não há loja de insumo em Lajeado/Estrela
+27. ✅ **Kits iniciais** — A (teste de cheiro) R$ 161 · B (syndet) R$ 390 · C (hidratante) R$ 99,90
+28. ✅ **Segurança e pH** → [AULA-COSMETICA.md](knowledge/cosmetica/AULA-COSMETICA.md)
+- ✅ **Vender: ANVISA e Lei 15.154/2025** — lei em vigor, **regulamento não publicado**; saboaria não é MEI
 
 ## 🗂️ Bloco G — Onde isso mora
 
-29. **Cosmética no repo** → vira `knowledge/cosmetica/` + skills próprias (como as de perfumaria) ou fica em app separado?
+29. ✅ **Decidido:** docs em `knowledge/cosmetica/` (inclui [ONDE-COMPRAR.md](knowledge/cosmetica/ONDE-COMPRAR.md) e [MANUAL-AVANCADO.md](knowledge/cosmetica/MANUAL-AVANCADO.md)) + 5 skills em `.claude/skills/`
+    (`sabonete-glicerinado`, `sabonete-syndet`, `creme-e-hidratante`, `perfumar-cosmetico`, `vender-cosmetico`).
+
+---
+
+## O que ficou genuinamente em aberto
+
+- ~~Preço do coco-caprylate~~ **resolvido:** Atiká, coco caprilato R$ 13,20/500 ml.
+- Fornecedor **brasileiro** de Bifida Ferment Lysate e Salicyloyl Phytosphingosine — não achei no varejo.
+- Número exato da **categoria 9 do IFRA para o Galaxolide** (só sai no PDF de 300 páginas da IFRA); na
+  prática está resolvido porque o teto mais apertado dele é 1,5% e o uso dá ~1%.
+- **Regulamento da ANVISA** da Lei 15.154/2025 — depende de publicação, não de pesquisa.

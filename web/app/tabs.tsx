@@ -18,6 +18,7 @@ const TABS = [
   { href: "/lab", label: "Laboratório", icon: FlaskIcon },
   { href: "/paleta", label: "Paleta", icon: GridIcon },
   { href: "/formulas", label: "Fórmulas", icon: DropIcon },
+  { href: "/livros", label: "Livros", icon: BookIcon },
 ];
 
 export default function Tabs() {
@@ -41,7 +42,7 @@ export default function Tabs() {
                 href={t.href}
                 aria-current={active ? "page" : undefined}
                 className="flex h-[var(--tab-h)] flex-col items-center justify-center gap-1
-                           text-[10.5px] font-semibold tracking-wide transition-colors"
+                           text-[9.5px] font-semibold tracking-tight transition-colors"
                 style={{ color: active ? "var(--fam)" : "var(--muted)" }}
               >
                 <span className="relative">
@@ -97,6 +98,19 @@ function GridIcon({ active }: { active: boolean }) {
           stroke="currentColor" strokeWidth="1.7"
           fill={active ? "currentColor" : "none"} fillOpacity={active ? 0.18 : 0} />
       ))}
+    </svg>
+  );
+}
+
+function BookIcon({ active }: { active: boolean }) {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
+      <path d="M4 4.8A1.8 1.8 0 0 1 5.8 3H11v18H5.8A1.8 1.8 0 0 1 4 19.2V4.8Z"
+        stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round"
+        fill={active ? "currentColor" : "none"} fillOpacity={active ? 0.18 : 0} />
+      <path d="M20 4.8A1.8 1.8 0 0 0 18.2 3H13v18h5.2a1.8 1.8 0 0 0 1.8-1.8V4.8Z"
+        stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round"
+        fill={active ? "currentColor" : "none"} fillOpacity={active ? 0.18 : 0} />
     </svg>
   );
 }

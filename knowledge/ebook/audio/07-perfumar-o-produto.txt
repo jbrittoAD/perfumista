@@ -1,0 +1,48 @@
+LIVRO 7 — Perfumar o produto.
+Por que é outro problema.
+
+Perfume em álcool: o veículo evapora e entrega tudo na pele. Em cosmético, três coisas mudam:
+O produto tem estrutura — emulsão, cristal de tensoativo, sabão. O perfume é solvente e pode desestabilizar.
+O pê-agá é outro — sabão a 9 a 10 degrada material; sindete e creme a 5 não.
+O produto é enxaguado (ou fica horas na pele) — o que muda quem sobrevive e qual é o limite legal.
+Dose e categoria.
+
+produto que fica na pele é sempre mais apertado: o produto fica horas na pele, em área maior.
+Em 50 g de creme a 0,2%, o perfume inteiro são 0,1 g — trabalhe com balança de 0,001 g ou com o perfume diluído a 10%.
+Substantividade — o que sobra depois do enxágue.
+
+O topo não é desperdício — é o que se sente ao abrir a embalagem e no primeiro instante da espuma. Só não gaste material caro nele.
+
+Acorde "sabonete limpo" barato, para 1 quilos de produto a 3% (30 g):
+Galaxolide 35% · etileno brassilato 15% · Iso E Super 15% · Habanolide 10% · Hedione 10% · Ambroxan 5% · topo cítrico 10%. ≈ 8 reais e 45/quilos — 85 centavos por barra de 100 g.
+
+49b. Quanto tempo o cheiro dura depois do banho.
+
+Estimativas de uso real, não medição de laboratório:
+
+A conclusão prática: ninguém sente seu sabonete no fim do dia — nem o mais caro do mercado. O que faz
+o cheiro "durar do banho até a noite" é camada: a mesma família no sabonete, na loção e no perfume.
+É por isso que marca de luxo vende a linha inteira, e não porque o sabonete dela fixa mais.
+Interação fragrância × base.
+Adaptar uma fórmula alcoólica.
+
+Regra prática validada: multiplicar o topo por 0,5 e os almíscares/âmbar por 1,8, depois renormalizar para 100%.
+
+Exemplo, o Imagination (tipo) do repo:
+
+Custo: 42 reais e 70/quilos. Ambrettolide (5 reais e 46 por grama) e Velvione (7 reais e 36 por grama) são 60% da conta.
+Versão econômica: tirar o Velvione e metade do Ambrettolide, pôr Galaxolide 8% + etileno brassilato 4,4% → 19 reais e 90/quilos (1 reais e 99/barra). Perde a elegância do macrocíclico; em produto enxaguado, não se percebe.
+
+Checklist antes de fechar:
+Categoria IFRA certa e limite de cada material conferido.
+Alérgenos acima do gatilho listados para o rótulo (0,001% produto que fica na pele / 0,01% produto que se enxágua).
+Nada fototóxico em produto que fica na pele de rosto (cítrico prensado → usar FCF).
+Teste de 100 g antes do lote.
+Cheirar o produto, não a fórmula: 24 horas depois de pronto e 7 dias depois.
+
+51b. Onde e como o perfume entra, produto por produto.
+
+Três regras que valem para todos:
+Perfume entra por último e frio. Cada 10  graus a mais dobra a evaporação — você paga pelo material e ele vai para o ar.
+Produto com água precisa de solubilizante. Perfume é óleo.
+Cheire o produto, não a fórmula. O mesmo acorde muda em base alcalina, em pê-agá 5 e em emulsão. Avalie 24 horas e 7 dias depois de pronto.

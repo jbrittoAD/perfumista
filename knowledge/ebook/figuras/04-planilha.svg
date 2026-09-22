@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 226" width="760" height="226" role="img" aria-label="Da fórmula ao que você pesa"><style>
+  .bg{fill:#fff}
+  .ttl{font:700 15px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#000}
+  .lbl{font:600 12.5px system-ui,sans-serif;fill:#000}
+  .sm{font:500 11px system-ui,sans-serif;fill:#333}
+  .xs{font:500 10px system-ui,sans-serif;fill:#555}
+  .box{fill:#f2f2f2;stroke:#000;stroke-width:1.1}
+  .ln{stroke:#000;stroke-width:1.1;fill:none}
+  .ar{stroke:#000;stroke-width:1.4;fill:none;marker-end:url(#a)}
+  text{fill:#000}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#000"/></marker>
+<pattern id="h1" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="1.6"/></pattern>
+<pattern id="h2" width="6" height="6" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="6" stroke="#000" stroke-width="1"/></pattern>
+<pattern id="h3" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#000"/></pattern>
+</defs><rect class="bg" width="760" height="226" rx="10" stroke="#000" stroke-width="0.8"/><text class="ttl" x="20" y="28">Da fórmula ao que você pesa</text><rect class="box" x="24" y="58" width="164" height="86" rx="8"/><text class="lbl" x="38" y="82">Fórmula</text><text class="sm" x="38" y="104">2,17 g de Ambroxan</text><text class="xs" x="38" y="124">material puro</text><path class="ar" d="M192 101 L 206 101"/><rect class="box" x="210" y="58" width="164" height="86" rx="8"/><text class="lbl" x="224" y="82">Meu estoque</text><text class="sm" x="224" y="104">tenho a 10%</text><text class="xs" x="224" y="124">dilua</text><path class="ar" d="M378 101 L 392 101"/><rect class="box" x="396" y="58" width="164" height="86" rx="8"/><text class="lbl" x="410" y="82">Peso a colocar</text><text class="sm" x="410" y="104">12,36 g</text><text class="xs" x="410" y="124">o que vai na balança</text><path class="ar" d="M564 101 L 578 101"/><rect class="box" x="582" y="58" width="164" height="86" rx="8"/><text class="lbl" x="596" y="82">Álcool embutido</text><text class="sm" x="596" y="104">11,12 g</text><text class="xs" x="596" y="124">já é o perfume</text><rect x="24" y="158" width="712" height="52" rx="6" fill="#f2f2f2" stroke="#000" stroke-width="1.4" stroke-dasharray="6 3"/><text class="lbl" x="40" y="180">O solvente da diluição JÁ É o álcool do perfume.</text><text class="sm" x="40" y="199">Material de dose alta a 1% traz mais álcool do que cabe no frasco — por isso ele merece estoque concentrado.</text></svg>
