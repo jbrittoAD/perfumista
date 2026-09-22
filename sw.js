@@ -9,13 +9,19 @@
  *        em último caso, à página "/" cacheada (SPA-like offline).
  *      * demais assets (JS/CSS/JSON/imagens): stale-while-revalidate — responde
  *        do cache imediatamente e atualiza o cache em segundo plano.
- *  - activate: limpa caches de versões antigas.
+ *  - activate: limpa o shell de versões antigas, preservando o que o usuário baixou.
  *
  * O cache é VERSIONADO: bump CACHE_VERSION a cada deploy para invalidar o antigo.
  */
 
-const CACHE_VERSION = "perfumista-deck-v15";
+const CACHE_VERSION = "perfumista-deck-v17";
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
+
+// Caches que o USUÁRIO encheu de propósito, apertando "guardar no aparelho":
+// o audiolivro (~113 MB) e o PDF. Eles NÃO são versionados e NÃO podem ser
+// apagados quando o app atualiza — senão bastava eu publicar uma correção para
+// o avião ficar sem áudio. O activate abaixo só limpa o shell versionado.
+const CACHES_DO_USUARIO = ["perfumista-audio", "perfumista-downloads"];
 
 // URLs BASE-RELATIVAS: resolvem contra a URL do próprio SW (${base}/sw.js), então
 // funcionam tanto na raiz quanto em subpath (ex. /perfumista/) sem alterar nada.
@@ -27,6 +33,7 @@ const PRECACHE_URLS = [
   "./paleta",
   "./formulas",
   "./livros",
+  "./livros/audio",
   "./livros/00-INDICE",
   "./livros/01-cheiro-e-materia-prima",
   "./livros/01b-catalogo-por-familia",
@@ -59,21 +66,22 @@ const PRECACHE_URLS = [
 const BUILD_ASSETS = [
   "./_next/static/chunks/01dkdyukbdpqq.js",
   "./_next/static/chunks/033x0xycwi-8w.js",
+  "./_next/static/chunks/04w56pry2sb-x.js",
   "./_next/static/chunks/0cz1d0mv5g_q7.js",
   "./_next/static/chunks/0rmekjdoc_h_m.js",
-  "./_next/static/chunks/0rn_d9ds6xfnh.css",
+  "./_next/static/chunks/0t43jt-g7nhl7.css",
   "./_next/static/chunks/14mrh2-p_w84d.js",
+  "./_next/static/chunks/18g2bip928fip.js",
   "./_next/static/chunks/1d-1fp49wc91u.js",
-  "./_next/static/chunks/1ml5nid_dofbk.js",
-  "./_next/static/chunks/1oktso27tl-lf.js",
+  "./_next/static/chunks/1ob81zqqu0j3s.js",
   "./_next/static/chunks/1s7svrwnaq1df.js",
   "./_next/static/chunks/27jktro2p5rq9.js",
   "./_next/static/chunks/2ghgxtl_j0i-h.js",
   "./_next/static/chunks/2j5mk6oa6vgc8.js",
-  "./_next/static/chunks/2khmo8r0_1xag.js",
   "./_next/static/chunks/2nvnl0j-ncw16.js",
   "./_next/static/chunks/2nykiepra7i1k.js",
   "./_next/static/chunks/39txpi83_mtau.js",
+  "./_next/static/chunks/3uqt2zzium98x.js",
   "./_next/static/chunks/turbopack-3sk924_ot2vst.js",
 ];
 
@@ -95,7 +103,7 @@ self.addEventListener("activate", (event) => {
       const keys = await caches.keys();
       await Promise.all(
         keys
-          .filter((k) => k !== RUNTIME_CACHE)
+          .filter((k) => k !== RUNTIME_CACHE && !CACHES_DO_USUARIO.includes(k))
           .map((k) => caches.delete(k)),
       );
       await self.clients.claim();
