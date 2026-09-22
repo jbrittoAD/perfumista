@@ -94,7 +94,7 @@ class Aba {
     this.ws.send(JSON.stringify(msg));
     return new Promise((ok, no) => {
       this.pend.set(id, { ok, no });
-      setTimeout(() => this.pend.has(id) && (this.pend.delete(id), no(new Error(`timeout ${method}`))), 60000);
+      setTimeout(() => this.pend.has(id) && (this.pend.delete(id), no(new Error(`timeout ${method}`))), 180000);
     });
   }
   async js(expr) {
@@ -209,16 +209,22 @@ async function main() {
       `${tocou.t.toFixed(1)}s de ${isFinite(tocou.dur) ? tocou.dur.toFixed(0) : "?"}s`);
 
     /* 6. guarda um capítulo e toca com a rede cortada */
+    // 3,9 MB de rede de verdade. Contra o site recém-publicado o CDN está frio
+    // (x-proxy-cache: MISS) e isso passa de 30 s — o teste precisa medir o
+    // tempo, não chutar um limite curto e culpar o app.
     const guardou = await aba.js(`
+      const t0 = Date.now();
       const b = [...document.querySelectorAll('ul li button[aria-label^="Guardar"]')][0];
+      if (!b) return { erro: "botão não encontrado" };
       b.click();
-      for (let i = 0; i < 60; i++) {
+      for (let i = 0; i < 240; i++) {
         await new Promise(ok => setTimeout(ok, 500));
-        const c = await caches.open("perfumista-audio");
-        if ((await c.keys()).length > 0) return (await c.keys()).map(r => r.url);
+        const k = await (await caches.open("perfumista-audio")).keys();
+        if (k.length) return { urls: k.map(r => r.url), seg: ((Date.now() - t0) / 1000).toFixed(1) };
       }
-      return [];`);
-    prova("guarda o capítulo no aparelho", guardou.length > 0, guardou[0]?.split("/").pop() ?? "");
+      return { erro: "não guardou em 120s" };`);
+    prova("guarda o capítulo no aparelho", !!guardou.urls,
+      guardou.erro ?? `${guardou.urls[0].split("/").pop()} em ${guardou.seg}s`);
 
     /* 6b. o PDF também tem de ser guardável */
     await carregar(aba, `${RAIZ_URL}/livros`);
@@ -278,6 +284,12 @@ async function main() {
       { offline: false, latency: 0, downloadThroughput: -1, uploadThroughput: -1 });
 
     /* 7. publicar uma atualização NÃO pode apagar o que o usuário baixou */
+    // Só dá para provar localmente: depende de servir um sw.js com versão nova,
+    // e o site publicado é estático. Contra --ar isto é pulado, não reprovado —
+    // teste que falha por não poder rodar ensina a ignorar a saída.
+    if (NO_AR) {
+      console.log("  pula  atualizar o app não apaga o que foi baixado  — só roda local");
+    } else {
     deployNovo = true;
     const sobreviveuAoDeploy = await aba.js(`
       // Esperar o cache novo APARECER não serve: ele nasce no install, e quem
@@ -305,6 +317,7 @@ async function main() {
         ? `${sobreviveuAoDeploy.faixasGuardadas} faixa(s) e ${sobreviveuAoDeploy.pdfGuardado} PDF sobreviveram`
         : `o activate do SW novo não rodou — caches: ${sobreviveuAoDeploy.depois.join(", ")}`);
     deployNovo = false;
+    }
 
     /* 8. o que eu curti no baralho não some */
     await carregar(aba, `${RAIZ_URL}/`);

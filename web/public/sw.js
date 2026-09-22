@@ -14,7 +14,7 @@
  * O cache é VERSIONADO: bump CACHE_VERSION a cada deploy para invalidar o antigo.
  */
 
-const CACHE_VERSION = "perfumista-deck-v17";
+const CACHE_VERSION = "perfumista-deck-v18";
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 // Caches que o USUÁRIO encheu de propósito, apertando "guardar no aparelho":
@@ -106,7 +106,9 @@ async function staleWhileRevalidate(request) {
   const cached = await caches.match(request);
   const fetchPromise = fetch(request)
     .then((response) => {
-      if (response && response.ok && response.type === "basic") {
+      // status 200 estrito: mídia vem como 206 (resposta parcial), e o
+      // Cache Storage recusa guardar 206 — cachear isso só gera exceção.
+      if (response && response.status === 200 && response.type === "basic") {
         void putInCache(request, response.clone());
       }
       return response;
