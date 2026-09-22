@@ -1,3 +1,3 @@
 :HL["/perfumista/_next/static/chunks/0fwx827g689bf.css","style"]
 :HL["/perfumista/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"livros","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"03c-dicionario-insumos","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"BTQ2wCP5k1tuapGZRttNX"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"livros","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"03c-dicionario-insumos","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"naN7aYHX5U476uGctUWPN"}

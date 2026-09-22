@@ -14,7 +14,7 @@
  * O cache é VERSIONADO: bump CACHE_VERSION a cada deploy para invalidar o antigo.
  */
 
-const CACHE_VERSION = "perfumista-deck-v10";
+const CACHE_VERSION = "perfumista-deck-v11";
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 // URLs BASE-RELATIVAS: resolvem contra a URL do próprio SW (${base}/sw.js), então
@@ -51,12 +51,38 @@ const PRECACHE_URLS = [
   "./icons/apple-touch-icon.png",
 ];
 
+// Injetado no build por scripts/precache_assets.py: os JS/CSS com hash que as
+// telas precisam (inclui o livro inteiro, ~1,3 MB). Sem isto, o app só fica
+// realmente offline depois que o usuário visita cada tela — e o caso de uso é
+// justamente abrir o livro no avião, onde não dá para buscar nada.
+const BUILD_ASSETS = [
+  "./_next/static/chunks/01dkdyukbdpqq.js",
+  "./_next/static/chunks/033x0xycwi-8w.js",
+  "./_next/static/chunks/0cz1d0mv5g_q7.js",
+  "./_next/static/chunks/0fwx827g689bf.css",
+  "./_next/static/chunks/0hb27h4cvild7.js",
+  "./_next/static/chunks/13p-pvfdkkwqz.js",
+  "./_next/static/chunks/14mrh2-p_w84d.js",
+  "./_next/static/chunks/1d-1fp49wc91u.js",
+  "./_next/static/chunks/1oktso27tl-lf.js",
+  "./_next/static/chunks/1s7svrwnaq1df.js",
+  "./_next/static/chunks/27jktro2p5rq9.js",
+  "./_next/static/chunks/2ghgxtl_j0i-h.js",
+  "./_next/static/chunks/2j5mk6oa6vgc8.js",
+  "./_next/static/chunks/2nvnl0j-ncw16.js",
+  "./_next/static/chunks/2nykiepra7i1k.js",
+  "./_next/static/chunks/2wqbewjo0-tn_.js",
+  "./_next/static/chunks/39txpi83_mtau.js",
+  "./_next/static/chunks/turbopack-3sk924_ot2vst.js",
+];
+
 self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(RUNTIME_CACHE);
       // Tolerante a falhas: assets ausentes não devem abortar o install.
-      await Promise.allSettled(PRECACHE_URLS.map((url) => cache.add(url)));
+      const urls = [...PRECACHE_URLS, ...BUILD_ASSETS];
+      await Promise.allSettled(urls.map((url) => cache.add(url)));
       await self.skipWaiting();
     })(),
   );
