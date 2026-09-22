@@ -82,12 +82,18 @@ def copiar_audio():
     destino.mkdir(parents=True, exist_ok=True)
     # mp3 que não existe mais na origem (capítulo renomeado, voz trocada) tem de
     # sumir daqui, senão o app publica áudio velho ao lado do novo.
-    atuais = {m.name for m in origem.glob("*.mp3")}
+    # O Audiolivro-completo.mp3 é a concatenação dos 16 capítulos, feita só para
+    # subir no YouTube. O app não o referencia, e copiá-lo dobraria o site: 108 MB
+    # de conteúdo idêntico ao que já está publicado em capítulos.
+    def e_capitulo(m):
+        return not m.stem.startswith("Audiolivro")
+
+    atuais = {m.name for m in origem.glob("*.mp3") if e_capitulo(m)}
     for velho in destino.glob("*.mp3"):
         if velho.name not in atuais:
             velho.unlink(); print(f"  áudio: removido órfão {velho.name}")
     n = tot = 0
-    for mp3 in sorted(origem.glob("*.mp3")):
+    for mp3 in sorted(m for m in origem.glob("*.mp3") if e_capitulo(m)):
         alvo = destino / mp3.name
         if not alvo.exists() or alvo.stat().st_mtime < mp3.stat().st_mtime:
             alvo.write_bytes(mp3.read_bytes())

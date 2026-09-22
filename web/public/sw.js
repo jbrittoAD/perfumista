@@ -14,7 +14,7 @@
  * O cache é VERSIONADO: bump CACHE_VERSION a cada deploy para invalidar o antigo.
  */
 
-const CACHE_VERSION = "perfumista-deck-v16";
+const CACHE_VERSION = "perfumista-deck-v17";
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 // Caches que o USUÁRIO encheu de propósito, apertando "guardar no aparelho":
