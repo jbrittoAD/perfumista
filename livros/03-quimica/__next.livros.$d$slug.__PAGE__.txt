@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[50955,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js","/perfumista/_next/static/chunks/1oktso27tl-lf.js","/perfumista/_next/static/chunks/0hb27h4cvild7.js"],"default"]
+2:I[50955,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js","/perfumista/_next/static/chunks/1oktso27tl-lf.js","/perfumista/_next/static/chunks/1njj4pzorg0ki.js"],"default"]
 3:I[97367,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"03-quimica"}],[["$","script","script-0",{"src":"/perfumista/_next/static/chunks/1oktso27tl-lf.js","async":true}],["$","script","script-1",{"src":"/perfumista/_next/static/chunks/0hb27h4cvild7.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"lGFA59ckF_w9rIr5im2Ak"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"03-quimica"}],[["$","script","script-0",{"src":"/perfumista/_next/static/chunks/1oktso27tl-lf.js","async":true}],["$","script","script-1",{"src":"/perfumista/_next/static/chunks/1njj4pzorg0ki.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"iOHMao3PS4DzpcF8-XcI6"}
 5:null

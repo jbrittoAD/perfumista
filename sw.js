@@ -14,7 +14,7 @@
  * O cache é VERSIONADO: bump CACHE_VERSION a cada deploy para invalidar o antigo.
  */
 
-const CACHE_VERSION = "perfumista-deck-v12";
+const CACHE_VERSION = "perfumista-deck-v13";
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 // URLs BASE-RELATIVAS: resolvem contra a URL do próprio SW (${base}/sw.js), então
@@ -60,11 +60,11 @@ const BUILD_ASSETS = [
   "./_next/static/chunks/033x0xycwi-8w.js",
   "./_next/static/chunks/0cz1d0mv5g_q7.js",
   "./_next/static/chunks/0fwx827g689bf.css",
-  "./_next/static/chunks/0hb27h4cvild7.js",
   "./_next/static/chunks/0rmekjdoc_h_m.js",
   "./_next/static/chunks/13p-pvfdkkwqz.js",
   "./_next/static/chunks/14mrh2-p_w84d.js",
   "./_next/static/chunks/1d-1fp49wc91u.js",
+  "./_next/static/chunks/1njj4pzorg0ki.js",
   "./_next/static/chunks/1oktso27tl-lf.js",
   "./_next/static/chunks/1s7svrwnaq1df.js",
   "./_next/static/chunks/27jktro2p5rq9.js",
