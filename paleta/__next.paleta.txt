@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[39756,["/perfumista/_next/static/chunks/41utq9rq-snsv.js","/perfumista/_next/static/chunks/25-xplc4isctx.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-3:I[37457,["/perfumista/_next/static/chunks/41utq9rq-snsv.js","/perfumista/_next/static/chunks/25-xplc4isctx.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+2:I[39756,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/2wqbewjo0-tn_.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+3:I[37457,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/2wqbewjo0-tn_.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"K05kIBP8qkZknN2ALic1g"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"BTQ2wCP5k1tuapGZRttNX"}

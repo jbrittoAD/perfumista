@@ -14,7 +14,7 @@
  * O cache é VERSIONADO: bump CACHE_VERSION a cada deploy para invalidar o antigo.
  */
 
-const CACHE_VERSION = "perfumista-deck-v8";
+const CACHE_VERSION = "perfumista-deck-v10";
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 // URLs BASE-RELATIVAS: resolvem contra a URL do próprio SW (${base}/sw.js), então
@@ -26,6 +26,23 @@ const PRECACHE_URLS = [
   "./lab",
   "./paleta",
   "./formulas",
+  "./livros",
+  "./livros/00-INDICE",
+  "./livros/01-cheiro-e-materia-prima",
+  "./livros/01b-catalogo-por-familia",
+  "./livros/01c-similares-e-substitutos",
+  "./livros/01d-natural-vs-sintetico",
+  "./livros/02-bancada-e-criacao",
+  "./livros/03-quimica",
+  "./livros/03b-similares-cosmetica",
+  "./livros/03c-dicionario-insumos",
+  "./livros/04-sabonete",
+  "./livros/05-cabelo-barba-anidros",
+  "./livros/06-emulsoes-e-ativos",
+  "./livros/07-perfumar-o-produto",
+  "./livros/08-qualidade",
+  "./livros/09-negocio",
+  "./livros/10-apendices",
   "./manifest.webmanifest",
   "./photos/credits.json",
   "./icons/icon-192.png",
