@@ -13,8 +13,9 @@
  * Node 26 tem WebSocket nativo, então não precisa de puppeteer.
  */
 import { createServer } from "node:http";
-import { spawn } from "node:child_process";
+import { spawn, spawnSync } from "node:child_process";
 import { readFile, stat } from "node:fs/promises";
+import { rmSync } from "node:fs";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -124,7 +125,7 @@ async function abrirChrome(porta) {
         await new Promise((ok) => ws.addEventListener("open", ok, { once: true }));
         const aba = new Aba(ws);
         await aba.cmd("Page.enable"); await aba.cmd("Runtime.enable"); await aba.cmd("Network.enable");
-        return { aba, p };
+        return { aba, p, perfil };
       }
     } catch (e) { ultimo = e; }
     await espera(250);
@@ -154,7 +155,7 @@ async function main() {
   const srv = NO_AR ? null : await servir(porta);
   const RAIZ_URL = NO_AR ? "https://jbrittoad.github.io/perfumista" : `http://localhost:${porta}${BASE}`;
   console.log(`testando ${RAIZ_URL}\n`);
-  const { aba, p } = await abrirChrome(cdp);
+  const { aba, p, perfil } = await abrirChrome(cdp);
   try {
     /* 1. o app abre e tem as 5 abas */
     await carregar(aba, `${RAIZ_URL}/`);
@@ -340,7 +341,15 @@ async function main() {
     prova("curtida e leitura não derrubam uma à outra", deck && sobreviveu.curtida && sobreviveu.leitura,
       `curtida ${sobreviveu.curtida ? "ok" : "sumiu"} · leitura ${sobreviveu.leitura ? "ok" : "sumiu"}`);
   } finally {
-    p.kill(); srv?.close();
+    // p.kill() mata só o processo pai: o Chrome deixa renderer, GPU e rede
+    // vivos, e eles ficam rodando na máquina depois do teste. Fecha pelo
+    // perfil, que é exclusivo desta execução.
+    p.kill();
+    // síncrono de propósito: o processo sai logo abaixo, e um pkill assíncrono
+    // não chega a rodar.
+    spawnSync("pkill", ["-f", `user-data-dir=${perfil}`], { stdio: "ignore" });
+    rmSync(perfil, { recursive: true, force: true });   // o perfil é descartável
+    srv?.close();
   }
 
   const ruins = provas.filter((x) => !x.ok);
