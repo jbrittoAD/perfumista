@@ -1,299 +1,567 @@
 # LIVRO 11 — A compra: cinco versões da paleta
 
-Este livro responde uma pergunta só: **quanto custa começar, e o que muda em cada faixa de preço.**
+Este livro responde uma pergunta só: **a caixa tem 110 frascos — quanto custa enchê-la, e o que
+muda em cada faixa de preço.**
 
-As cinco versões abaixo saem do mesmo banco de preços dos 5 fornecedores brasileiros, sempre na
-**menor embalagem que serve**. Não são listas de desejo: cada linha tem loja, tamanho do frasco,
-preço e link. Escolha uma e compre inteira — meia lista não faz perfume.
+As quatro primeiras versões enchem os **mesmos 110 frascos**. Mudam o critério de escolha, não o
+tamanho. A quinta é outra coisa: é o kit-escola, e tem 148.
+
+Todos os preços saem do banco dos 5 fornecedores brasileiros, sempre na **menor embalagem que
+serve** — nenhum número deste livro foi digitado à mão. Escolha uma versão e compre inteira.
 
 ## As cinco, lado a lado
 
-| # | versão | itens | matéria-prima | com álcool | o que você consegue fazer |
+| # | versão | frascos | matéria-prima | com álcool | o critério |
 |---|---|---|---|---|---|
-| 1 | **Mínima por grupo** | 32 | R$ 270,31 | **R$ 294,30** | cheirar e entender as 16 famílias; montar acordes simples |
-| 2 | **Um perfume só** (Imagination) | 23 | R$ 467,43 | **R$ 491,42** | um frasco pronto, do início ao fim |
-| 3 | **As três fórmulas** | 53 | R$ 1.184,14 | **R$ 1.270,13** | os três perfumes-alvo, sem sobra |
-| 4 | **A completa** | 110 | R$ 2.337,71 | **R$ 2.423,70** | os três **e** matéria-prima para criar o seu |
-| 5 | **Kit-escola Jean Carles** | 148 | R$ 3.120,10 | **R$ 3.206,09** | o programa clássico de 12 meses de treino de nariz |
+| 1 | **A mais barata** | 110 | R$ 791,05 | **R$ 877,04** | menor preço, com os 16 grupos cobertos |
+| 2 | **Um perfume garantido** | 110 | R$ 1.057,37 | **R$ 1.143,36** | o Imagination inteiro + o resto pelo menor preço |
+| 3 | **As três fórmulas** | 110 | R$ 1.486,40 | **R$ 1.572,39** | Himalaya, Khalid e Imagination + o resto |
+| 4 | **A completa** | 110 | R$ 2.337,71 | **R$ 2.423,70** | escolha por qualidade, não por preço · **é a que montamos em 21/09** |
+| 5 | **Kit-escola Jean Carles** | 148 | R$ 3.120,10 | **R$ 3.206,09** | o programa de 12 meses de treino de nariz |
 
-Álcool de cereais: **1 L por R$ 23,99** cobre as versões 1 e 2; **5 L por R$ 85,99** as demais
-([Neuroaroma](https://neuroaroma.com.br/produtos/alcool-de-cereais-cerealcool-5-lt-1)).
+Álcool de cereais 5 L, R$ 85,99
+([Neuroaroma](https://neuroaroma.com.br/produtos/alcool-de-cereais-cerealcool-5-lt-1)) — cobre as
+cinco. 110 frascos diluídos consomem cerca de 2,6 L.
+
+**A diferença entre a 1 e a 4 é R$ 1.547 na mesma caixa.** Você não está pagando por mais frascos:
+está pagando por materiais melhores nos lugares que decidem — Ambroxan em vez de um âmbar genérico,
+Javanol em vez de só Bacdanol, embalagem grande nos que se usam a 15% em vez de 5 g que acabam no
+segundo ensaio.
 
 **A escolha honesta, em uma linha cada:**
 
-- Nunca formulou → **versão 1**. Cheirar 32 materiais e entender o que cada família faz vale mais
-  que ter 110 frascos que você não sabe usar.
-- Quer um perfume no armário rápido → **versão 2**. É o caminho mais curto até um frasco.
-- Já sabe o que quer → **versão 3**. Tudo que as três fórmulas pedem, nada além.
-- Quer criar, não só reproduzir → **versão 4**. A diferença de R$ 1.150 para a versão 3 é justamente
-  a liberdade de errar e tentar de novo.
-- Quer virar perfumista de verdade → **versão 5**. É estudo, não compra de produto.
+- Nunca formulou e quer o nariz treinado antes de gastar → **versão 1**.
+- Quer um frasco pronto no armário e a caixa cheia → **versão 2**.
+- Já sabe quais perfumes quer fazer → **versão 3**.
+- Quer criar o seu, não só reproduzir → **versão 4**.
+- Quer virar perfumista de verdade → **versão 5**.
 
 ---
 
-## Versão 1 — Mínima por grupo · R$ 270,31
+## Versão 1 — A mais barata · R$ 791,05
 
-**Dois materiais de cada uma das 16 famílias.** O critério não foi só preço: entre os baratos,
-escolhi os que realmente se usam. Comprar o mais barato de cada grupo sairia por R$ 166, mas
-metade seria material que ninguém põe em fórmula.
+**110 frascos, menor preço possível, com os 16 grupos cobertos.** A regra foi: no mínimo 2 de cada
+grupo, teto por grupo para não desequilibrar, e o resto preenchido sempre pelo mais barato
+disponível.
 
-Quase tudo vem em **frasco de 5 g** — parece pouco e não é: 5 g diluídos a 10% dão 50 g de solução,
-o suficiente para meses de fita olfativa e vários ensaios.
+O teto existe por dois motivos.
 
-⚠️ **Couro e animálica sozinhos custam R$ 137** — mais da metade do total. São os dois grupos caros,
-e são os que se usam em traço. Se o orçamento apertar, corte esses quatro e a versão cai para
-**R$ 133**. Você perde os dois grupos mais difíceis de dosar, que não são para o primeiro mês mesmo.
+**O primeiro é técnico.** Sem teto, o algoritmo enche a caixa com **22 ésteres frutados e deixa 2
+âmbares** — sai por R$ 542,48, quase R$ 250 mais barato, e é uma caixa da qual não sai perfume
+nenhum. Frutado é o grupo mais barato do banco; estrutura (amadeirado, âmbar, almíscar) é o que custa.
+O algoritmo, solto, compra o barato e entrega uma paleta que não sustenta fórmula.
 
-**Cítrica** — dihidromircenol é a lima-colônia de toda colônia masculina desde 1990; citral é o limão canônico
+**O segundo é gosto, e está declarado de propósito.** Os tetos seguem os três alvos deste
+repositório — fougère aromático, couro com resina e cítrico amadeirado com âmbar. Por isso a
+distribuição é esta:
 
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Dihidromircenol - Frescor Cítrico Moderno | 5 g | R$ 4.17 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/dihydromyrcenol) |
-| Citral | 5 g | R$ 3.57 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/citral-n) |
+| grupo | frascos | por quê |
+|---|---|---|
+| Amadeirada | 17 | é a estrutura dos três alvos |
+| Aromática / Herbal | 13 | a espinha do fougère |
+| Cítrica | 11 | a abertura dos três |
+| Floral | 12 | coração, mesmo em masculino |
+| Âmbar / Oriental | 10 | o calor do Khalid e do Imagination |
+| Almíscar | 10 | fixação e volume |
+| **Frutada** | **4** | só cobertura — não é o caminho daqui |
+| **Gourmand** | **4** | idem |
 
-**Aldeídica** — C10 e C12 MNA são o par aldeídico clássico — é o cheiro de Chanel Nº5
+Se o seu gosto mudar, o teto é o que se mexe: é uma linha de configuração, não uma verdade.
 
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Aldeído C10 (Decanal) | 5 g | R$ 3.03 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-10) |
-| Aldeído C12 MNA | 5 g | R$ 5.16 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-12-mna) |
+Quase tudo aqui é **frasco de 5 g**. Parece pouco e não é: 5 g diluídos a 10% dão 50 g de solução,
+o bastante para meses de fita olfativa. O que 5 g não aguenta é fórmula que usa o material a 15% —
+por isso a versão 4 existe.
 
-**Verde** — triplal faz 80% do trabalho verde sozinho; estiralila puxa o lado frutado
 
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Triplal (Ligustral / Cyclal C) | 5 g | R$ 3.69 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/triplal) |
-| Acetato de Estiralila - Verde Frutado Intenso | 5 g | R$ 2.12 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/styrallyl-acetate) |
 
-**Aromática / Herbal** — isobornila dá pinho e cânfora; salicilato de metila é a folha medicinal
 
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Acetato de Isobornila | 5 g | R$ 2.49 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/isobornyl-acetate) |
-| Salicilato de Metila | 5 g | R$ 1.27 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/methyl-salicylate) |
+**Eu Perfumista** — 82 itens, R$ 380,97
 
-**Aquática** — floralozone é ar limpo; helional é o corpo aquático com melão
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | Acetato Rosa (cristais de rosa) | Floral | 5 g | R$ 2,48 | [abrir](https://www.euperfumista.com.br/products/rosacetal) |
+| ☐ | Acetato de Benzila - Floral Branco Frutado | Floral | 5 g | R$ 1,76 | [abrir](https://www.euperfumista.com.br/products/benzyl-acetate-99-min-fcc) |
+| ☐ | Acetato de Estiralila - Verde Frutado Intenso | Verde | 5 g | R$ 2,12 | [abrir](https://www.euperfumista.com.br/products/styrallyl-acetate) |
+| ☐ | Acetato de Feniletila | Floral | 5 g | R$ 3,55 | [abrir](https://www.euperfumista.com.br/products/phenyl-ethyl-acetate) |
+| ☐ | Acetato de Isobornila | Aromática / Herbal | 5 g | R$ 2,49 | [abrir](https://www.euperfumista.com.br/products/isobornyl-acetate) |
+| ☐ | Acetil Isoeugenol (acetato de isoeugenila) | Especiaria | 5 g | R$ 19,73 | [abrir](https://www.euperfumista.com.br/products/acetyl-isoeugenol) |
+| ☐ | Aldeído C10 (Decanal) | Aldeídica | 5 g | R$ 3,03 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-10) |
+| ☐ | Aldeído C11 Undecílico | Aldeídica | 5 g | R$ 3,90 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-110-undecylic) |
+| ☐ | Aldeído C12 Láurico (Dodecanal) | Aldeídica | 5 g | R$ 4,80 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-12-l) |
+| ☐ | Aldeído C12 MNA | Aldeídica | 5 g | R$ 5,16 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-12-mna) |
+| ☐ | Aldeído C8 (Octanal) Aldeídica Cítrica | Aldeídica | 5 g | R$ 4,65 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-8) |
+| ☐ | Aldeído Cinâmico (Cinamaldeído) | Especiaria | 5 g | R$ 2,10 | [abrir](https://www.euperfumista.com.br/products/cinnamic-aldehyde) |
+| ☐ | Aldeído Hexil Cinâmico (Jasmonal) | Floral | 5 g | R$ 2,41 | [abrir](https://www.euperfumista.com.br/products/hexyl-cinnamic-aldehyde) |
+| ☐ | Alfa Terpineol | Floral | 5 g | R$ 3,62 | [abrir](https://www.euperfumista.com.br/products/terpineol) |
+| ☐ | Anethole Extra USP 21/22 | Aromática / Herbal | 5 g | R$ 7,06 | [abrir](https://www.euperfumista.com.br/products/anethole-extra-usp-21-22) |
+| ☐ | Anther (éter verde) | Verde | 5 g | R$ 16,67 | [abrir](https://www.euperfumista.com.br/products/anther-antera-givaudan) |
+| ☐ | Antranilato de metila | Floral | 5 g | R$ 2,68 | [abrir](https://www.euperfumista.com.br/products/anthranilate-methyle-extra) |
+| ☐ | Benzoato de Benzila | Gourmand | 5 g | R$ 1,72 | [abrir](https://www.euperfumista.com.br/products/benzyl-benzoate-99-min-fcc) |
+| ☐ | Benzoato de Metila | Frutada | 5 g | R$ 1,40 | [abrir](https://www.euperfumista.com.br/products/methyl-benzoate) |
+| ☐ | Bht (Butil Hidroxitolueno) | Diluentes e auxiliares | 5 g | R$ 2,61 | [abrir](https://www.euperfumista.com.br/products/bht-butyl-hydroxy-tolueno) |
+| ☐ | Borneol, DL | Aromática / Herbal | 5 g | R$ 7,52 | [abrir](https://www.euperfumista.com.br/products/borneol) |
+| ☐ | Butirato de Etila | Frutada | 5 g | R$ 1,26 | [abrir](https://www.euperfumista.com.br/products/ethyl-butyrate) |
+| ☐ | Butyl Butyrate | Amadeirada | 5 g | R$ 2,11 | [abrir](https://www.euperfumista.com.br/products/butyl-butyrate) |
+| ☐ | Cariofileno Beta 87-44-5 | Especiaria | 5 g | R$ 3,61 | [abrir](https://www.euperfumista.com.br/products/caryophyllene-beta) |
+| ☐ | Cashmeran - Amadeirado Musk Aveludado | Almíscar | 5 g | R$ 20,41 | [abrir](https://www.euperfumista.com.br/products/cashmeran) |
+| ☐ | Cedramber (Metil Cedril Éter) | Amadeirada | 5 g | R$ 8,04 | [abrir](https://www.euperfumista.com.br/products/methyl-cedryl-ketone) |
+| ☐ | Cinnamyl Acetate | Especiaria | 5 g | R$ 6,09 | [abrir](https://www.euperfumista.com.br/products/cinnamyl-acetate) |
+| ☐ | Citral | Cítrica | 5 g | R$ 3,57 | [abrir](https://www.euperfumista.com.br/products/citral-n) |
+| ☐ | Citronellyl Nitrile | Cítrica | 5 g | R$ 6,29 | [abrir](https://www.euperfumista.com.br/products/citronellyl-nitrile) |
+| ☐ | Cyclaprop (propionato de verdila) | Amadeirada | 5 g | R$ 1,78 | [abrir](https://www.euperfumista.com.br/products/verdyl-propionate) |
+| ☐ | Cânfora em Pó - Refrescante e Multifuncional | Aromática / Herbal | 5 g | R$ 3,94 | [abrir](https://www.euperfumista.com.br/products/camphor-tech-powder) |
+| ☐ | Dietilftalato (DEP) | Diluentes e auxiliares | 5 g | R$ 1,31 | [abrir](https://www.euperfumista.com.br/products/diethylphthalate-pg) |
+| ☐ | Dihidro Beta Ionona (ionona amadeirada) | Âmbar / Oriental | 5 g | R$ 9,24 | [abrir](https://www.euperfumista.com.br/products/raspberry-ketone) |
+| ☐ | Dihidromircenol - Frescor Cítrico Moderno | Cítrica | 5 g | R$ 4,17 | [abrir](https://www.euperfumista.com.br/products/dihydromyrcenol) |
+| ☐ | Dipropylene Glycol (DPG) | Diluentes e auxiliares | 5 g | R$ 2,28 | [abrir](https://www.euperfumista.com.br/products/dipropylene-glycol) |
+| ☐ | Ethyl Isobutyrate | Aromática / Herbal | 5 g | R$ 2,64 | [abrir](https://www.euperfumista.com.br/products/ethyl-isobutyrate) |
+| ☐ | Ethyl Laurate | Gourmand | 5 g | R$ 2,11 | [abrir](https://www.euperfumista.com.br/products/ethyl-laurate) |
+| ☐ | Ethyl Pelargonate | Aromática / Herbal | 5 g | R$ 4,93 | [abrir](https://www.euperfumista.com.br/products/ethyl-pelargonate) |
+| ☐ | Etileno Brassilato - Musk T | Almíscar | 5 g | R$ 3,44 | [abrir](https://www.euperfumista.com.br/products/ethylene-brassylate) |
+| ☐ | Eucaliptol (1,8-Cineol) | Aromática / Herbal | 5 g | R$ 7,08 | [abrir](https://www.euperfumista.com.br/products/oleo-essencial-de-eucalyptol-usp-99) |
+| ☐ | Eugenol | Especiaria | 5 g | R$ 11,61 | [abrir](https://www.euperfumista.com.br/products/eugenol) |
+| ☐ | Exaltolide Total (omega-pentadecalactone) | Almíscar | 5 g | R$ 15,40 | [abrir](https://www.euperfumista.com.br/products/exaltolide-total) |
+| ☐ | Floralozone® - Nota Ozônica Floral Fresca | Aquática | 5 g | R$ 5,71 | [abrir](https://www.euperfumista.com.br/products/allyl-amyl-glicolate) |
+| ☐ | Galaxolide - Musk Limpo de Alta Fixação | Almíscar | 5 g | R$ 2,09 | [abrir](https://www.euperfumista.com.br/products/galaxolide-100) |
+| ☐ | Habanolide () - Almíscar Moderno e | Almíscar | 5 g | R$ 18,36 | [abrir](https://www.euperfumista.com.br/products/habanolide) |
+| ☐ | Hedione - Floral Difusivo de Jasmim | Floral | 5 g | R$ 3,30 | [abrir](https://www.euperfumista.com.br/products/hedione) |
+| ☐ | Hercolin D (metil rosinato hidrogenado) | Âmbar / Oriental | 5 g | R$ 5,71 | [abrir](https://www.euperfumista.com.br/products/hercolyn) |
+| ☐ | Iso e Super | Amadeirada | 5 g | R$ 4,64 | [abrir](https://www.euperfumista.com.br/products/iso-super) |
+| ☐ | Isoamyl Acetate | Frutada | 5 g | R$ 1,34 | [abrir](https://www.euperfumista.com.br/products/isoamyl-acetate) |
+| ☐ | Isoamyl Butyrate | Frutada | 5 g | R$ 1,55 | [abrir](https://www.euperfumista.com.br/products/isoamyl-butyrate) |
+| ☐ | Isoamyl Isovalerianate | Aromática / Herbal | 5 g | R$ 2,53 | [abrir](https://www.euperfumista.com.br/products/isoamyl-isovalerianate) |
+| ☐ | Lilial (mefloral) | Floral | 5 g | R$ 3,35 | [abrir](https://www.euperfumista.com.br/products/lysmeral-extra) |
+| ☐ | Mefrosol (fenoxanol) | Cítrica | 5 g | R$ 5,38 | [abrir](https://www.euperfumista.com.br/products/phenoxanol) |
+| ☐ | Methyl Cinnamic Aldehyde Alpha | Aromática / Herbal | 5 g | R$ 3,50 | [abrir](https://www.euperfumista.com.br/products/methyl-cinnamic-aldehyde-alpha) |
+| ☐ | Miristato de Isopropila (IPM) | Diluentes e auxiliares | 5 g | R$ 2,88 | [abrir](https://www.euperfumista.com.br/products/isopropyl-myristate) |
+| ☐ | N Metil Ionona (iralia total, isoraldeina 70) | Amadeirada | 5 g | R$ 5,27 | [abrir](https://www.euperfumista.com.br/products/isoraldeine-70) |
+| ☐ | Nerolin Yara Yara (beta naftil metil éter) | Cítrica | 5 g | R$ 2,14 | [abrir](https://www.euperfumista.com.br/products/nerolin-yara-yara) |
+| ☐ | Oranger Crystals (cetona d) | Amadeirada | 5 g | R$ 8,67 | [abrir](https://www.euperfumista.com.br/products/oranger-crystals) |
+| ☐ | Paracimeno - Notas Cítricas e Amadeiradas | Cítrica | 5 g | R$ 4,46 | [abrir](https://www.euperfumista.com.br/products/para-cymene) |
+| ☐ | Pelargol (Tetrahidrogeraniol) | Cítrica | 5 g | R$ 5,94 | [abrir](https://www.euperfumista.com.br/products/tetrahydrogeraniol) |
+| ☐ | Peonile (nitrilo gerânio) | Cítrica | 5 g | R$ 3,91 | [abrir](https://www.euperfumista.com.br/products/paradisamide™-paradisamida™-givaudan-copia) |
+| ☐ | Phenylacetaldehyde Dma - Padma | Amadeirada | 5 g | R$ 9,64 | [abrir](https://www.euperfumista.com.br/products/phenylacetaldehyde-dma-padma) |
+| ☐ | Propionato de Benzila | Floral | 5 g | R$ 2,23 | [abrir](https://www.euperfumista.com.br/products/benzyl-propionate) |
+| ☐ | Propionato de Etila - Notas Frutadas | Cítrica | 5 g | R$ 1,05 | [abrir](https://www.euperfumista.com.br/products/ethyl-propionate) |
+| ☐ | Quatercap DM-50 | Aromática / Herbal | 10 g | R$ 2,47 | [abrir](https://www.euperfumista.com.br/products/quatercap-dm-50) |
+| ☐ | Salicilato de Benzila - Floral Solar Fixador | Balsâmica / Resinosa | 5 g | R$ 1,70 | [abrir](https://www.euperfumista.com.br/products/benzyl-salicylate-99-min) |
+| ☐ | Salicilato de Hexila (rodiaflor SnH) | Verde | 5 g | R$ 2,16 | [abrir](https://www.euperfumista.com.br/products/hexil-salicilato-givaudan) |
+| ☐ | Salicilato de Isoamila - Floral Verde Suave | Floral | 5 g | R$ 1,58 | [abrir](https://www.euperfumista.com.br/products/ambrofix-givaudan-copia) |
+| ☐ | Salicilato de Metila | Aromática / Herbal | 5 g | R$ 1,27 | [abrir](https://www.euperfumista.com.br/products/methyl-salicylate) |
+| ☐ | Sandalore | Amadeirada | 5 g | R$ 9,26 | [abrir](https://www.euperfumista.com.br/products/sandalore™-givaudan) |
+| ☐ | Terpeno de Laranja | Cítrica | 5 g | R$ 5,73 | [abrir](https://www.euperfumista.com.br/products/oleo-essencial-de-orange-terpenes) |
+| ☐ | Terpenyl Acetate | Aromática / Herbal | 5 g | R$ 4,03 | [abrir](https://www.euperfumista.com.br/products/terpenyl-acetate) |
+| ☐ | Terpinoleno | Cítrica | 5 g | R$ 0,96 | [abrir](https://www.euperfumista.com.br/products/terpinolene) |
+| ☐ | Timol | Aromática / Herbal | 5 g | R$ 4,63 | [abrir](https://www.euperfumista.com.br/products/thymol-crystals) |
+| ☐ | Tonalide () | Almíscar | 5 g | R$ 5,98 | [abrir](https://www.euperfumista.com.br/products/tonalid) |
+| ☐ | Triplal (Ligustral / Cyclal C) | Verde | 5 g | R$ 3,69 | [abrir](https://www.euperfumista.com.br/products/triplal) |
+| ☐ | Vanoris® – IFF - Orris Frutado Amadeirado | Amadeirada | 5 g | R$ 2,95 | [abrir](https://www.euperfumista.com.br/products/isononyl-acetate-vanorys) |
+| ☐ | Verdox - Otbch Acetate | Amadeirada | 5 g | R$ 1,39 | [abrir](https://www.euperfumista.com.br/products/verdox-otbch-acetate) |
+| ☐ | Verdyl Acetate | Almíscar | 5 g | R$ 1,43 | [abrir](https://www.euperfumista.com.br/products/verdyl-acetate) |
+| ☐ | Vertenex - Nota Musk Frutada Amadeirada Fresca | Amadeirada | 5 g | R$ 1,59 | [abrir](https://www.euperfumista.com.br/products/vertenex-ptbch-acetate) |
+| ☐ | Álcool Feniletílico - Rosa | Floral | 5 g | R$ 1,57 | [abrir](https://www.euperfumista.com.br/products/phenyl-ethyl-alcohol) |
+| ☐ | Óxido de Difenila (cristais de geranio) | Floral | 5 g | R$ 2,16 | [abrir](https://www.euperfumista.com.br/products/diphenyl-oxide) |
 
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Floralozone® - Nota Ozônica Floral Fresca | 5 g | R$ 5.71 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/allyl-amyl-glicolate) |
-| Helional - Nota Aquática Ozônica | 20 ml | R$ 19.00 | Flavorist | [abrir](https://flavorist.com.br/produtos/helional/) |
+**Flavorist** — 6 itens, R$ 133,38
 
-**Frutada** — hexila é maçã verde, isoamila é banana e pera — as duas frutas que todo mundo reconhece
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | Acetato de Guaiila | Couro | 20 ml | R$ 32,75 | [abrir](https://flavorist.com.br/produtos/acetato-de-guaiila/) |
+| ☐ | Aphermate® | Aquática | 20 ml | R$ 19,90 | [abrir](https://flavorist.com.br/produtos/aphermate-8ozgo/) |
+| ☐ | Augeo Clean Multi Solvay | Âmbar / Oriental | 100 ml | R$ 9,90 | [abrir](https://flavorist.com.br/produtos/augeo-solvay/) |
+| ☐ | Helional - Nota Aquática Ozônica | Aquática | 20 ml | R$ 19,00 | [abrir](https://flavorist.com.br/produtos/helional/) |
+| ☐ | Indol - Nota Floral Animal fecal | Animálica | 10 g | R$ 31,69 | [abrir](https://flavorist.com.br/produtos/indol/) |
+| ☐ | Salicilato de Etila - Grau Aromático e Técnico | Âmbar / Oriental | 100 ml | R$ 20,14 | [abrir](https://flavorist.com.br/produtos/salicilato-de-etila/) |
 
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Acetato de Hexila - Frutado Verde Maçã | 5 g | R$ 2.38 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/hexyl-acetate) |
-| Isoamyl Acetate | 5 g | R$ 1.34 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/isoamyl-acetate) |
+**Neuroaroma** — 3 itens, R$ 25,00
 
-**Floral** — álcool feniletílico É rosa e entra até 12%; hexil cinâmico é jasmim barato de base
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | Ambroxan - Âmbar Moderno Perfumaria | Âmbar / Oriental | 1 g | R$ 19,00 | [abrir](https://neuroaroma.com.br/produtos/ambroxan-ambroxide/) |
+| ☐ | Raspberry Ketone (Frambinone) | Gourmand | 1 g | R$ 3,00 | [abrir](https://neuroaroma.com.br/produtos/raspberry-ketone-frambinone/) |
+| ☐ | Vanilina Cristal | Gourmand | 1 g | R$ 3,00 | [abrir](https://neuroaroma.com.br/produtos/vanilina-cristal/) |
 
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Álcool Feniletílico - Rosa | 5 g | R$ 1.57 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/phenyl-ethyl-alcohol) |
-| Aldeído Hexil Cinâmico (Jasmonal) | 5 g | R$ 2.41 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/hexyl-cinnamic-aldehyde) |
+**Perfumoteca** — 2 itens, R$ 22,10
 
-**Especiaria** — eugenol é cravo, o especiado canônico; cinamaldeído é canela em traço
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | Aceto Acetato de Etila | Âmbar / Oriental | 20 ml | R$ 12,20 | [abrir](https://www.perfumoteca.com.br/acetoacetatodeetila) |
+| ☐ | Verdox HC (Acetato Verde) | Verde | 20 g | R$ 9,90 | [abrir](https://www.perfumoteca.com.br/verdox) |
 
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Eugenol | 5 g | R$ 11.61 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/eugenol) |
-| Aldeído Cinâmico (Cinamaldeído) | 5 g | R$ 2.10 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/cinnamic-aldehyde) |
+**Perfumístico** — 17 itens, R$ 229,60
 
-**Amadeirada** — Iso E Super é o material que mais melhora esboço fraco; metil ionona cobre íris e violeta
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | Acetato de Cedrenila | Amadeirada | 15 g | R$ 11,60 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/acetato-de-cedrenila/) |
+| ☐ | Acetato de Verdila | Amadeirada | 15 g | R$ 7,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/acetato-de-verdila-jasmaciclene/) |
+| ☐ | Aldeído Myrac (empetal) | Aquática | 15 g | R$ 11,80 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/aldeido-myrac-empetal/) |
+| ☐ | Alfa-Pineno - Frescor Conífero | Amadeirada | 15 g | R$ 10,70 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/isolados-naturais/alfa-pineno/) |
+| ☐ | Alil Amil Glicolato - Abacaxi Verde Difusivo | Verde | 15 g | R$ 8,40 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/glicolato-de-alilamila/) |
+| ☐ | Almíscar Cetona (musk ketone) | Almíscar | 15 g | R$ 8,60 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/almiscar-cetona-musk-ketone/) |
+| ☐ | Bacdanol - Sandol 28219-61-6 | Amadeirada | 15 g | R$ 12,70 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/bacdanol-sandalrome/) |
+| ☐ | Boisambrene Forte® - IFF | Âmbar / Oriental | 15 g | R$ 14,30 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/amberwood-f-boisambrene-forte/) |
+| ☐ | Cardamomo sintético (perfumistico) | Especiaria | 10 g | R$ 20,60 | [abrir](https://www.perfumistico.com.br/produtos/aromas/acordes-e-bases/cardamomo-sintetico-perfumistico/) |
+| ☐ | Castoreum Givco 116/3 (base castóreo) | Animálica | 5 g | R$ 48,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/acordes-e-bases/castoreum-givco-116-3-base-castoreo/) |
+| ☐ | Cinamato de Etila | Balsâmica / Resinosa | 15 g | R$ 10,10 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/cinamato-de-etila/) |
+| ☐ | Isobutil Quinolina | Couro | 15 g · 10% DPG | R$ 25,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/isobutil-quinoleina-butilquinolina-secundaria/) |
+| ☐ | Metil Hexil Cetona (laventerre) | Amadeirada | 15 g | R$ 6,20 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/metil-hexil-cetona-laventerre/) |
+| ☐ | Patchone (patchouli hexanol) | Amadeirada | 15 g | R$ 6,20 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/patchone-patchouli-hexanol/) |
+| ☐ | Piconia (isolongifolanone) | Âmbar / Oriental | 15 g | R$ 15,70 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/piconia-isolongifolanone/) |
+| ☐ | Álcool Benzilico | Balsâmica / Resinosa | 15 g | R$ 3,90 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/alcool-benzilico-alcool-metilfenilico/) |
+| ☐ | Álcool Cinâmico | Balsâmica / Resinosa | 15 g | R$ 8,80 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/alcool-cinamico/) |
 
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Iso e Super | 5 g | R$ 4.64 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/iso-super) |
-| N Metil Ionona (iralia total, isoraldeina 70) | 5 g | R$ 5.27 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/isoraldeine-70) |
-
-**Balsâmica / Resinosa** — salicilato de benzila fixa e dá solar; álcool benzílico é o balsâmico neutro que carrega resina
-
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Salicilato de Benzila - Floral Solar Fixador | 5 g | R$ 1.70 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/benzyl-salicylate-99-min) |
-| Álcool Benzilico | 15 g | R$ 3.90 | Perfumístico | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/alcool-benzilico-alcool-metilfenilico/) |
-
-**Âmbar / Oriental** — Ambroxan é o âmbar padrão, o motor de projeção; dihidro beta ionona é o lado madeira do Imagination
-
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Ambroxan - Âmbar Moderno Perfumaria | 1 g | R$ 19.00 | Neuroaroma | [abrir](https://neuroaroma.com.br/produtos/ambroxan-ambroxide/) |
-| Dihidro Beta Ionona (ionona amadeirada) | 5 g | R$ 9.24 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/raspberry-ketone) |
-
-**Gourmand** — vanilina e cumarina — baunilha e feno, a dupla que fecha qualquer base doce
-
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Vanilina Cristal | 1 g | R$ 3.00 | Neuroaroma | [abrir](https://neuroaroma.com.br/produtos/vanilina-cristal/) |
-| Cumarina - Feno e Cumaru | 5 g | R$ 4.08 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/coumarin) |
-
-**Couro** — couro é o grupo caro; a quinolina JÁ DILUÍDA a 10% custa R$ 25 contra R$ 133 a pura, e se usa em traço mesmo
-
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Isobutil Quinolina | 15 g · 10% DPG | R$ 25.00 | Perfumístico | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/isobutil-quinoleina-butilquinolina-secundaria/) |
-| Acetato de Guaiila | 20 ml | R$ 32.75 | Flavorist | [abrir](https://flavorist.com.br/produtos/acetato-de-guaiila/) |
-
-**Animálica** — o outro grupo caro. Indol e castóreo em traço homeopático são o que separa perfume de sabonete
-
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Indol - Nota Floral Animal fecal | 10 g | R$ 31.69 | Flavorist | [abrir](https://flavorist.com.br/produtos/indol/) |
-| Castoreum Givco 116/3 (base castóreo) | 5 g | R$ 48.00 | Perfumístico | [abrir](https://www.perfumistico.com.br/produtos/aromas/acordes-e-bases/castoreum-givco-116-3-base-castoreo/) |
-
-**Almíscar** — Galaxolide + etileno brassilato é a base de almíscar de trabalho, e é o que sobra no enxágue
-
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Galaxolide - Musk Limpo de Alta Fixação | 5 g | R$ 2.09 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/galaxolide-100) |
-| Etileno Brassilato - Musk T | 5 g | R$ 3.44 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/ethylene-brassylate) |
-
-**Diluentes e auxiliares** — DPG para diluir os potentes, BHT em TODA diluição para não oxidar
-
-| material | embalagem | preço | loja | link |
-|---|---|---|---|---|
-| Dipropylene Glycol (DPG) | 5 g | R$ 2.28 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/dipropylene-glycol) |
-| Bht (Butil Hidroxitolueno) | 5 g | R$ 2.61 | Eu Perfumista | [abrir](https://www.euperfumista.com.br/products/bht-butyl-hydroxy-tolueno) |
+| grupo | frascos |
+|---|---|
+| Cítrica | 11 |
+| Aldeídica | 5 |
+| Verde | 6 |
+| Aromática / Herbal | 13 |
+| Aquática | 4 |
+| Frutada | 4 |
+| Floral | 12 |
+| Especiaria | 6 |
+| Amadeirada | 17 |
+| Balsâmica / Resinosa | 4 |
+| Âmbar / Oriental | 8 |
+| Gourmand | 4 |
+| Couro | 2 |
+| Animálica | 2 |
+| Almíscar | 8 |
+| Diluentes e auxiliares | 4 |
 
 ---
 
-## Versão 2 — Um perfume só: tipo LV Imagination · R$ 467,43
+## Versão 2 — Um perfume garantido · R$ 1.057,37
 
-**23 materiais, uma fórmula publicada.** Diferente das outras duas fórmulas deste livro, o
-Imagination não é reconstrução: é a fórmula tipo divulgada pela Creative Formulas, em partes por mil.
-Ou seja, você não está adivinhando — está seguindo receita.
+**110 frascos, e entre eles os 23 do tipo LV Imagination, em embalagem que dá para usar.**
 
-Por que ela custa mais que a versão 1 tendo menos itens: a fórmula pede **Ambrettolide, Velvione e
-óleo essencial de gengibre**, que sozinhos passam de R$ 240. Quase metade do peso é Hedione e
-Ambroxan, que são baratos; o que pesa no bolso são os três traços caros.
+A diferença para a versão 1 são R$ 266, e eles compram uma certeza: você consegue fazer *um perfume
+inteiro* já na primeira semana, seguindo receita publicada — o Imagination não é reconstrução minha,
+é a fórmula tipo divulgada pela Creative Formulas, em partes por mil.
 
-**Eu Perfumista** — 13 itens, R$ 75.00
+Os 23 materiais da fórmula estão **em negrito** na lista. O que encarece são três traços caros que
+ela pede: Ambrettolide, Velvione e óleo essencial de gengibre passam de R$ 240 somados. Quase metade
+do peso da fórmula é Hedione e Ambroxan, que são baratos.
 
-| material | embalagem | preço | % na fórmula | link |
-|---|---|---|---|---|
-| Linalol - Floral Fresco Versátil | 5 g | R$ 4.30 | 4.09% | [abrir](https://www.euperfumista.com.br/products/linalool) |
-| Laranja doce sintético (perfumistico) | 5 g | R$ 6.67 | 3.29% | [abrir](https://www.euperfumista.com.br/products/oleo-essencial-de-orange) |
-| Exaltolide Total (omega-pentadecalactone) | 5 g | R$ 15.40 | 2.69% | [abrir](https://www.euperfumista.com.br/products/exaltolide-total) |
-| Citronelol | 5 g | R$ 4.42 | 1.10% | [abrir](https://www.euperfumista.com.br/products/citronelol) |
-| Cumarina - Feno e Cumaru | 5 g | R$ 4.08 | 0.80% | [abrir](https://www.euperfumista.com.br/products/coumarin) |
-| Citral | 5 g | R$ 3.57 | 0.40% | [abrir](https://www.euperfumista.com.br/products/citral-n) |
-| Geraniol - Floral Rosado | 5 g | R$ 4.64 | 0.40% | [abrir](https://www.euperfumista.com.br/products/geraniol-extra) |
-| Acetato de Geranila - Floral Rosado Frutado | 5 g | R$ 6.34 | 0.30% | [abrir](https://www.euperfumista.com.br/products/geranyl-acetate-extra) |
-| Aldeído Cinâmico (Cinamaldeído) | 5 g | R$ 2.10 | 0.30% | [abrir](https://www.euperfumista.com.br/products/cinnamic-aldehyde) |
-| Nerolin Yara Yara (beta naftil metil éter) | 5 g | R$ 2.14 | 0.20% | [abrir](https://www.euperfumista.com.br/products/nerolin-yara-yara) |
-| Ionona Beta - Floral Violeta Amadeirada | 5 g | R$ 7.01 | 0.10% | [abrir](https://www.euperfumista.com.br/products/ionona-beta) |
-| N Metil Ionona (iralia total, isoraldeina 70) | 5 g | R$ 5.27 | 0.10% | [abrir](https://www.euperfumista.com.br/products/isoraldeine-70) |
-| Nerol - Floral Cítrico Fresco | 5 g | R$ 9.06 | 0.03% | [abrir](https://www.euperfumista.com.br/products/nerolex-tm-fcc) |
 
-**Flavorist** — 2 itens, R$ 104.83
 
-| material | embalagem | preço | % na fórmula | link |
-|---|---|---|---|---|
-| Óleo Essencial de Gengibre Raices | 20 ml | R$ 73.14 | 1.00% | [abrir](https://flavorist.com.br/produtos/oleo-essencial-de-gengibre/) |
-| Indol - Nota Floral Animal fecal | 10 g | R$ 31.69 | 0.03% | [abrir](https://flavorist.com.br/produtos/indol/) |
 
-**Perfumoteca** — 2 itens, R$ 62.80
+**Eu Perfumista** — 78 itens, R$ 361,99
 
-| material | embalagem | preço | % na fórmula | link |
-|---|---|---|---|---|
-| Ambroxan - Âmbar Moderno Perfumaria | 20 g | R$ 39.90 | 21.62% | [abrir](https://www.perfumoteca.com.br/ambroxan-10-diluido-em-dpg) |
-| Acetato de Guaiaco | 20 ml | R$ 22.90 | 1.10% | [abrir](https://www.perfumoteca.com.br/acetatodeguaiaco) |
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | Acetato de Benzila - Floral Branco Frutado | Floral | 5 g | R$ 1,76 | [abrir](https://www.euperfumista.com.br/products/benzyl-acetate-99-min-fcc) |
+| ☐ | Acetato de Estiralila - Verde Frutado Intenso | Verde | 5 g | R$ 2,12 | [abrir](https://www.euperfumista.com.br/products/styrallyl-acetate) |
+| ☐ | **Acetato de Geranila - Floral Rosado Frutado** | Floral | 5 g | R$ 6,34 | [abrir](https://www.euperfumista.com.br/products/geranyl-acetate-extra) |
+| ☐ | Acetato de Isobornila | Aromática / Herbal | 5 g | R$ 2,49 | [abrir](https://www.euperfumista.com.br/products/isobornyl-acetate) |
+| ☐ | Acetil Isoeugenol (acetato de isoeugenila) | Especiaria | 5 g | R$ 19,73 | [abrir](https://www.euperfumista.com.br/products/acetyl-isoeugenol) |
+| ☐ | Aldeído C10 (Decanal) | Aldeídica | 5 g | R$ 3,03 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-10) |
+| ☐ | Aldeído C11 Undecílico | Aldeídica | 5 g | R$ 3,90 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-110-undecylic) |
+| ☐ | Aldeído C12 Láurico (Dodecanal) | Aldeídica | 5 g | R$ 4,80 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-12-l) |
+| ☐ | Aldeído C12 MNA | Aldeídica | 5 g | R$ 5,16 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-12-mna) |
+| ☐ | Aldeído C8 (Octanal) Aldeídica Cítrica | Aldeídica | 5 g | R$ 4,65 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-8) |
+| ☐ | **Aldeído Cinâmico (Cinamaldeído)** | Especiaria | 5 g | R$ 2,10 | [abrir](https://www.euperfumista.com.br/products/cinnamic-aldehyde) |
+| ☐ | Anethole Extra USP 21/22 | Aromática / Herbal | 5 g | R$ 7,06 | [abrir](https://www.euperfumista.com.br/products/anethole-extra-usp-21-22) |
+| ☐ | Anther (éter verde) | Verde | 5 g | R$ 16,67 | [abrir](https://www.euperfumista.com.br/products/anther-antera-givaudan) |
+| ☐ | Benzoato de Benzila | Gourmand | 5 g | R$ 1,72 | [abrir](https://www.euperfumista.com.br/products/benzyl-benzoate-99-min-fcc) |
+| ☐ | Benzoato de Metila | Frutada | 5 g | R$ 1,40 | [abrir](https://www.euperfumista.com.br/products/methyl-benzoate) |
+| ☐ | Bht (Butil Hidroxitolueno) | Diluentes e auxiliares | 5 g | R$ 2,61 | [abrir](https://www.euperfumista.com.br/products/bht-butyl-hydroxy-tolueno) |
+| ☐ | Borneol, DL | Aromática / Herbal | 5 g | R$ 7,52 | [abrir](https://www.euperfumista.com.br/products/borneol) |
+| ☐ | Butirato de Etila | Frutada | 5 g | R$ 1,26 | [abrir](https://www.euperfumista.com.br/products/ethyl-butyrate) |
+| ☐ | Butyl Butyrate | Amadeirada | 5 g | R$ 2,11 | [abrir](https://www.euperfumista.com.br/products/butyl-butyrate) |
+| ☐ | Cariofileno Beta 87-44-5 | Especiaria | 5 g | R$ 3,61 | [abrir](https://www.euperfumista.com.br/products/caryophyllene-beta) |
+| ☐ | Cedramber (Metil Cedril Éter) | Amadeirada | 5 g | R$ 8,04 | [abrir](https://www.euperfumista.com.br/products/methyl-cedryl-ketone) |
+| ☐ | Cinnamyl Acetate | Especiaria | 5 g | R$ 6,09 | [abrir](https://www.euperfumista.com.br/products/cinnamyl-acetate) |
+| ☐ | **Citral** | Cítrica | 5 g | R$ 3,57 | [abrir](https://www.euperfumista.com.br/products/citral-n) |
+| ☐ | **Citronelol** | Floral | 5 g | R$ 4,42 | [abrir](https://www.euperfumista.com.br/products/citronelol) |
+| ☐ | **Cumarina - Feno e Cumaru** | Gourmand | 5 g | R$ 4,08 | [abrir](https://www.euperfumista.com.br/products/coumarin) |
+| ☐ | Cyclaprop (propionato de verdila) | Amadeirada | 5 g | R$ 1,78 | [abrir](https://www.euperfumista.com.br/products/verdyl-propionate) |
+| ☐ | Cânfora em Pó - Refrescante e Multifuncional | Aromática / Herbal | 5 g | R$ 3,94 | [abrir](https://www.euperfumista.com.br/products/camphor-tech-powder) |
+| ☐ | Dietilftalato (DEP) | Diluentes e auxiliares | 5 g | R$ 1,31 | [abrir](https://www.euperfumista.com.br/products/diethylphthalate-pg) |
+| ☐ | Dihidromircenol - Frescor Cítrico Moderno | Cítrica | 5 g | R$ 4,17 | [abrir](https://www.euperfumista.com.br/products/dihydromyrcenol) |
+| ☐ | Dipropylene Glycol (DPG) | Diluentes e auxiliares | 5 g | R$ 2,28 | [abrir](https://www.euperfumista.com.br/products/dipropylene-glycol) |
+| ☐ | Ethyl Isobutyrate | Aromática / Herbal | 5 g | R$ 2,64 | [abrir](https://www.euperfumista.com.br/products/ethyl-isobutyrate) |
+| ☐ | Ethyl Laurate | Gourmand | 5 g | R$ 2,11 | [abrir](https://www.euperfumista.com.br/products/ethyl-laurate) |
+| ☐ | Ethyl Pelargonate | Aromática / Herbal | 5 g | R$ 4,93 | [abrir](https://www.euperfumista.com.br/products/ethyl-pelargonate) |
+| ☐ | Etileno Brassilato - Musk T | Almíscar | 5 g | R$ 3,44 | [abrir](https://www.euperfumista.com.br/products/ethylene-brassylate) |
+| ☐ | Eucaliptol (1,8-Cineol) | Aromática / Herbal | 5 g | R$ 7,08 | [abrir](https://www.euperfumista.com.br/products/oleo-essencial-de-eucalyptol-usp-99) |
+| ☐ | Eugenol | Especiaria | 5 g | R$ 11,61 | [abrir](https://www.euperfumista.com.br/products/eugenol) |
+| ☐ | **Exaltolide Total (omega-pentadecalactone)** | Almíscar | 5 g | R$ 15,40 | [abrir](https://www.euperfumista.com.br/products/exaltolide-total) |
+| ☐ | Floralozone® - Nota Ozônica Floral Fresca | Aquática | 5 g | R$ 5,71 | [abrir](https://www.euperfumista.com.br/products/allyl-amyl-glicolate) |
+| ☐ | Galaxolide - Musk Limpo de Alta Fixação | Almíscar | 5 g | R$ 2,09 | [abrir](https://www.euperfumista.com.br/products/galaxolide-100) |
+| ☐ | **Geraniol - Floral Rosado** | Floral | 5 g | R$ 4,64 | [abrir](https://www.euperfumista.com.br/products/geraniol-extra) |
+| ☐ | Habanolide () - Almíscar Moderno e | Almíscar | 5 g | R$ 18,36 | [abrir](https://www.euperfumista.com.br/products/habanolide) |
+| ☐ | Hercolin D (metil rosinato hidrogenado) | Âmbar / Oriental | 5 g | R$ 5,71 | [abrir](https://www.euperfumista.com.br/products/hercolyn) |
+| ☐ | **Ionona Beta - Floral Violeta Amadeirada** | Floral | 5 g | R$ 7,01 | [abrir](https://www.euperfumista.com.br/products/ionona-beta) |
+| ☐ | Iso e Super | Amadeirada | 5 g | R$ 4,64 | [abrir](https://www.euperfumista.com.br/products/iso-super) |
+| ☐ | Isoamyl Acetate | Frutada | 5 g | R$ 1,34 | [abrir](https://www.euperfumista.com.br/products/isoamyl-acetate) |
+| ☐ | Isoamyl Butyrate | Frutada | 5 g | R$ 1,55 | [abrir](https://www.euperfumista.com.br/products/isoamyl-butyrate) |
+| ☐ | Isoamyl Isovalerianate | Aromática / Herbal | 5 g | R$ 2,53 | [abrir](https://www.euperfumista.com.br/products/isoamyl-isovalerianate) |
+| ☐ | **Laranja doce sintético (perfumistico)** | Cítrica | 5 g | R$ 6,67 | [abrir](https://www.euperfumista.com.br/products/oleo-essencial-de-orange) |
+| ☐ | **Linalol - Floral Fresco Versátil** | Floral | 5 g | R$ 4,30 | [abrir](https://www.euperfumista.com.br/products/linalool) |
+| ☐ | Mefrosol (fenoxanol) | Cítrica | 5 g | R$ 5,38 | [abrir](https://www.euperfumista.com.br/products/phenoxanol) |
+| ☐ | Methyl Cinnamic Aldehyde Alpha | Aromática / Herbal | 5 g | R$ 3,50 | [abrir](https://www.euperfumista.com.br/products/methyl-cinnamic-aldehyde-alpha) |
+| ☐ | Miristato de Isopropila (IPM) | Diluentes e auxiliares | 5 g | R$ 2,88 | [abrir](https://www.euperfumista.com.br/products/isopropyl-myristate) |
+| ☐ | **N Metil Ionona (iralia total, isoraldeina 70)** | Amadeirada | 5 g | R$ 5,27 | [abrir](https://www.euperfumista.com.br/products/isoraldeine-70) |
+| ☐ | **Nerol - Floral Cítrico Fresco** | Floral | 5 g | R$ 9,06 | [abrir](https://www.euperfumista.com.br/products/nerolex-tm-fcc) |
+| ☐ | **Nerolin Yara Yara (beta naftil metil éter)** | Cítrica | 5 g | R$ 2,14 | [abrir](https://www.euperfumista.com.br/products/nerolin-yara-yara) |
+| ☐ | Oranger Crystals (cetona d) | Amadeirada | 5 g | R$ 8,67 | [abrir](https://www.euperfumista.com.br/products/oranger-crystals) |
+| ☐ | Paracimeno - Notas Cítricas e Amadeiradas | Cítrica | 5 g | R$ 4,46 | [abrir](https://www.euperfumista.com.br/products/para-cymene) |
+| ☐ | Peonile (nitrilo gerânio) | Cítrica | 5 g | R$ 3,91 | [abrir](https://www.euperfumista.com.br/products/paradisamide™-paradisamida™-givaudan-copia) |
+| ☐ | Phenylacetaldehyde Dma - Padma | Amadeirada | 5 g | R$ 9,64 | [abrir](https://www.euperfumista.com.br/products/phenylacetaldehyde-dma-padma) |
+| ☐ | Propionato de Etila - Notas Frutadas | Cítrica | 5 g | R$ 1,05 | [abrir](https://www.euperfumista.com.br/products/ethyl-propionate) |
+| ☐ | Quatercap DM-50 | Aromática / Herbal | 10 g | R$ 2,47 | [abrir](https://www.euperfumista.com.br/products/quatercap-dm-50) |
+| ☐ | Salicilato de Benzila - Floral Solar Fixador | Balsâmica / Resinosa | 5 g | R$ 1,70 | [abrir](https://www.euperfumista.com.br/products/benzyl-salicylate-99-min) |
+| ☐ | Salicilato de Hexila (rodiaflor SnH) | Verde | 5 g | R$ 2,16 | [abrir](https://www.euperfumista.com.br/products/hexil-salicilato-givaudan) |
+| ☐ | Salicilato de Isoamila - Floral Verde Suave | Floral | 5 g | R$ 1,58 | [abrir](https://www.euperfumista.com.br/products/ambrofix-givaudan-copia) |
+| ☐ | Salicilato de Metila | Aromática / Herbal | 5 g | R$ 1,27 | [abrir](https://www.euperfumista.com.br/products/methyl-salicylate) |
+| ☐ | Sandalore | Amadeirada | 5 g | R$ 9,26 | [abrir](https://www.euperfumista.com.br/products/sandalore™-givaudan) |
+| ☐ | Terpeno de Laranja | Cítrica | 5 g | R$ 5,73 | [abrir](https://www.euperfumista.com.br/products/oleo-essencial-de-orange-terpenes) |
+| ☐ | Terpenyl Acetate | Aromática / Herbal | 5 g | R$ 4,03 | [abrir](https://www.euperfumista.com.br/products/terpenyl-acetate) |
+| ☐ | Terpinoleno | Cítrica | 5 g | R$ 0,96 | [abrir](https://www.euperfumista.com.br/products/terpinolene) |
+| ☐ | Timol | Aromática / Herbal | 5 g | R$ 4,63 | [abrir](https://www.euperfumista.com.br/products/thymol-crystals) |
+| ☐ | Tonalide () | Almíscar | 5 g | R$ 5,98 | [abrir](https://www.euperfumista.com.br/products/tonalid) |
+| ☐ | Triplal (Ligustral / Cyclal C) | Verde | 5 g | R$ 3,69 | [abrir](https://www.euperfumista.com.br/products/triplal) |
+| ☐ | Vanoris® – IFF - Orris Frutado Amadeirado | Amadeirada | 5 g | R$ 2,95 | [abrir](https://www.euperfumista.com.br/products/isononyl-acetate-vanorys) |
+| ☐ | Verdox - Otbch Acetate | Amadeirada | 5 g | R$ 1,39 | [abrir](https://www.euperfumista.com.br/products/verdox-otbch-acetate) |
+| ☐ | Verdyl Acetate | Almíscar | 5 g | R$ 1,43 | [abrir](https://www.euperfumista.com.br/products/verdyl-acetate) |
+| ☐ | Vertenex - Nota Musk Frutada Amadeirada Fresca | Amadeirada | 5 g | R$ 1,59 | [abrir](https://www.euperfumista.com.br/products/vertenex-ptbch-acetate) |
+| ☐ | Álcool Feniletílico - Rosa | Floral | 5 g | R$ 1,57 | [abrir](https://www.euperfumista.com.br/products/phenyl-ethyl-alcohol) |
+| ☐ | Óxido de Difenila (cristais de geranio) | Floral | 5 g | R$ 2,16 | [abrir](https://www.euperfumista.com.br/products/diphenyl-oxide) |
 
-**Perfumístico** — 6 itens, R$ 224.80
+**Flavorist** — 6 itens, R$ 186,38
 
-| material | embalagem | preço | % na fórmula | link |
-|---|---|---|---|---|
-| Hedione - Floral Difusivo de Jasmim | 15 g | R$ 7.20 | 23.81% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/hedione-metil-dihidrojasmonato/) |
-| Acetato de Linalila - Floral Cítrico Fresco | 15 g | R$ 13.60 | 10.26% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/acetato-de-linalila-bergamol/) |
-| Dihidro Beta Ionona (ionona amadeirada) | 15 g | R$ 14.00 | 9.76% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/frambinone-cetona-framboesa/) |
-| Bergamota (perfumistico) | 15 g | R$ 15.00 | 7.57% | [abrir](https://www.perfumistico.com.br/produtos/aromas/acordes-e-bases/oleo-essencial-bergamota-sintetico/) |
-| Ambrettolide - Musk Branco | 15 g | R$ 120.90 | 7.57% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/ambretolide-isoambrettolide-scentolide/) |
-| Velvione® | 5 g | R$ 54.10 | 3.49% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/velvione-almiscar-amberol/) |
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | Acetato de Guaiila | Couro | 20 ml | R$ 32,75 | [abrir](https://flavorist.com.br/produtos/acetato-de-guaiila/) |
+| ☐ | Aphermate® | Aquática | 20 ml | R$ 19,90 | [abrir](https://flavorist.com.br/produtos/aphermate-8ozgo/) |
+| ☐ | Augeo Clean Multi Solvay | Âmbar / Oriental | 100 ml | R$ 9,90 | [abrir](https://flavorist.com.br/produtos/augeo-solvay/) |
+| ☐ | Helional - Nota Aquática Ozônica | Aquática | 20 ml | R$ 19,00 | [abrir](https://flavorist.com.br/produtos/helional/) |
+| ☐ | **Indol - Nota Floral Animal fecal** | Animálica | 10 g | R$ 31,69 | [abrir](https://flavorist.com.br/produtos/indol/) |
+| ☐ | **Óleo Essencial de Gengibre Raices** | Especiaria | 20 ml | R$ 73,14 | [abrir](https://flavorist.com.br/produtos/oleo-essencial-de-gengibre/) |
+
+**Neuroaroma** — 1 itens, R$ 3,00
+
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | Raspberry Ketone (Frambinone) | Gourmand | 1 g | R$ 3,00 | [abrir](https://neuroaroma.com.br/produtos/raspberry-ketone-frambinone/) |
+
+**Perfumoteca** — 4 itens, R$ 84,90
+
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | **Acetato de Guaiaco** | Amadeirada | 20 ml | R$ 22,90 | [abrir](https://www.perfumoteca.com.br/acetatodeguaiaco) |
+| ☐ | Aceto Acetato de Etila | Âmbar / Oriental | 20 ml | R$ 12,20 | [abrir](https://www.perfumoteca.com.br/acetoacetatodeetila) |
+| ☐ | **Ambroxan - Âmbar Moderno Perfumaria** | Âmbar / Oriental | 20 g | R$ 39,90 | [abrir](https://www.perfumoteca.com.br/ambroxan-10-diluido-em-dpg) |
+| ☐ | Verdox HC (Acetato Verde) | Verde | 20 g | R$ 9,90 | [abrir](https://www.perfumoteca.com.br/verdox) |
+
+**Perfumístico** — 21 itens, R$ 421,10
+
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | Acetato de Cedrenila | Amadeirada | 15 g | R$ 11,60 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/acetato-de-cedrenila/) |
+| ☐ | **Acetato de Linalila - Floral Cítrico Fresco** | Floral | 15 g | R$ 13,60 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/acetato-de-linalila-bergamol/) |
+| ☐ | Acetato de Verdila | Amadeirada | 15 g | R$ 7,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/acetato-de-verdila-jasmaciclene/) |
+| ☐ | Aldeído Myrac (empetal) | Aquática | 15 g | R$ 11,80 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/aldeido-myrac-empetal/) |
+| ☐ | Alfa-Pineno - Frescor Conífero | Amadeirada | 15 g | R$ 10,70 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/isolados-naturais/alfa-pineno/) |
+| ☐ | Alil Amil Glicolato - Abacaxi Verde Difusivo | Verde | 15 g | R$ 8,40 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/glicolato-de-alilamila/) |
+| ☐ | Almíscar Cetona (musk ketone) | Almíscar | 15 g | R$ 8,60 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/almiscar-cetona-musk-ketone/) |
+| ☐ | **Ambrettolide - Musk Branco** | Almíscar | 15 g | R$ 120,90 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/ambretolide-isoambrettolide-scentolide/) |
+| ☐ | **Bergamota (perfumistico)** | Cítrica | 15 g | R$ 15,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/acordes-e-bases/oleo-essencial-bergamota-sintetico/) |
+| ☐ | Boisambrene Forte® - IFF | Âmbar / Oriental | 15 g | R$ 14,30 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/amberwood-f-boisambrene-forte/) |
+| ☐ | Castoreum Givco 116/3 (base castóreo) | Animálica | 5 g | R$ 48,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/acordes-e-bases/castoreum-givco-116-3-base-castoreo/) |
+| ☐ | Cinamato de Etila | Balsâmica / Resinosa | 15 g | R$ 10,10 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/cinamato-de-etila/) |
+| ☐ | **Dihidro Beta Ionona (ionona amadeirada)** | Âmbar / Oriental | 15 g | R$ 14,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/frambinone-cetona-framboesa/) |
+| ☐ | **Hedione - Floral Difusivo de Jasmim** | Floral | 15 g | R$ 7,20 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/hedione-metil-dihidrojasmonato/) |
+| ☐ | Isobutil Quinolina | Couro | 15 g · 10% DPG | R$ 25,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/isobutil-quinoleina-butilquinolina-secundaria/) |
+| ☐ | Metil Hexil Cetona (laventerre) | Amadeirada | 15 g | R$ 6,20 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/metil-hexil-cetona-laventerre/) |
+| ☐ | Patchone (patchouli hexanol) | Amadeirada | 15 g | R$ 6,20 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/patchone-patchouli-hexanol/) |
+| ☐ | Piconia (isolongifolanone) | Âmbar / Oriental | 15 g | R$ 15,70 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/piconia-isolongifolanone/) |
+| ☐ | **Velvione®** | Almíscar | 5 g | R$ 54,10 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/velvione-almiscar-amberol/) |
+| ☐ | Álcool Benzilico | Balsâmica / Resinosa | 15 g | R$ 3,90 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/alcool-benzilico-alcool-metilfenilico/) |
+| ☐ | Álcool Cinâmico | Balsâmica / Resinosa | 15 g | R$ 8,80 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/alcool-cinamico/) |
+
+| grupo | frascos |
+|---|---|
+| Cítrica | 11 |
+| Aldeídica | 5 |
+| Verde | 6 |
+| Aromática / Herbal | 13 |
+| Aquática | 4 |
+| Frutada | 4 |
+| Floral | 12 |
+| Especiaria | 6 |
+| Amadeirada | 17 |
+| Balsâmica / Resinosa | 4 |
+| Âmbar / Oriental | 7 |
+| Gourmand | 4 |
+| Couro | 2 |
+| Animálica | 2 |
+| Almíscar | 9 |
+| Diluentes e auxiliares | 4 |
 
 ---
 
-## Versão 3 — Só o que as três fórmulas pedem · R$ 1.184,14
+## Versão 3 — As três fórmulas · R$ 1.486,40
 
-**53 materiais, o conjunto exato das três fórmulas** — Himalaya, Khalid e Imagination — na menor
-embalagem que serve. Material que a fórmula usa acima de 5% vem em frasco maior (15 g ou mais),
-porque com 5 g você faz uma amostra e acabou.
+**110 frascos cobrindo Himalaya, Khalid e Imagination** — os 53 materiais que as três pedem, em
+embalagem proporcional ao uso (15 g ou mais quando a fórmula passa de 5%), e o restante da caixa
+preenchido pelo menor preço.
 
-A diferença para a versão completa é que aqui **não há folga**: acertou a fórmula na primeira, ótimo;
-errou, e falta material para a segunda tentativa de alguns itens.
+Os 53 materiais das fórmulas estão **em negrito**. Os outros 57 são o que sobra da caixa: cobrem os
+grupos que as fórmulas não tocam e dão com o que improvisar.
 
-**Eu Perfumista** — 22 itens, R$ 165.32
 
-| material | embalagem | preço | usa até | link |
-|---|---|---|---|---|
-| Acetato de Geranila - Floral Rosado Frutado | 5 g | R$ 6.34 | 0.3% | [abrir](https://www.euperfumista.com.br/products/geranyl-acetate-extra) |
-| Aldeído C12 MNA | 5 g | R$ 5.16 | 0.5% | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-12-mna) |
-| Aldeído Cinâmico (Cinamaldeído) | 5 g | R$ 2.10 | 0.3% | [abrir](https://www.euperfumista.com.br/products/cinnamic-aldehyde) |
-| Aldeído Mandarina (trans-2-dodecenal) | 5 g | R$ 18.75 | 1.9% | [abrir](https://www.euperfumista.com.br/products/aldehyde-mandarine-10-citr) |
-| Alfa Terpineol | 5 g | R$ 3.62 | 1.0% | [abrir](https://www.euperfumista.com.br/products/terpineol) |
-| Cariofileno Beta 87-44-5 | 5 g | R$ 3.61 | 1.9% | [abrir](https://www.euperfumista.com.br/products/caryophyllene-beta) |
-| Citral | 5 g | R$ 3.57 | 1.0% | [abrir](https://www.euperfumista.com.br/products/citral-n) |
-| Citronelol | 5 g | R$ 4.42 | 1.9% | [abrir](https://www.euperfumista.com.br/products/citronelol) |
-| Cumarina - Feno e Cumaru | 5 g | R$ 4.08 | 3.0% | [abrir](https://www.euperfumista.com.br/products/coumarin) |
-| Eugenol | 5 g | R$ 11.61 | 1.0% | [abrir](https://www.euperfumista.com.br/products/eugenol) |
-| Exaltolide Total (omega-pentadecalactone) | 5 g | R$ 15.40 | 4.0% | [abrir](https://www.euperfumista.com.br/products/exaltolide-total) |
-| Galaxolide - Musk Limpo de Alta Fixação | 25 g | R$ 7.31 | 9.0% | [abrir](https://www.euperfumista.com.br/products/galaxolide-100) |
-| Geraniol - Floral Rosado | 5 g | R$ 4.64 | 1.5% | [abrir](https://www.euperfumista.com.br/products/geraniol-extra) |
-| Hidroxicitronelal | 5 g | R$ 3.88 | 3.9% | [abrir](https://www.euperfumista.com.br/products/florol) |
-| Ionona Beta - Floral Violeta Amadeirada | 5 g | R$ 7.01 | 0.1% | [abrir](https://www.euperfumista.com.br/products/ionona-beta) |
-| Labdano Resinoide | 5 g | R$ 34.68 | 3.0% | [abrir](https://www.euperfumista.com.br/products/oleo-essencial-de-labdanum-resinoid) |
-| Laranja doce sintético (perfumistico) | 5 g | R$ 6.67 | 3.3% | [abrir](https://www.euperfumista.com.br/products/oleo-essencial-de-orange) |
-| Linalol - Floral Fresco Versátil | 5 g | R$ 4.30 | 4.1% | [abrir](https://www.euperfumista.com.br/products/linalool) |
-| N Metil Ionona (iralia total, isoraldeina 70) | 5 g | R$ 5.27 | 2.9% | [abrir](https://www.euperfumista.com.br/products/isoraldeine-70) |
-| Nerol - Floral Cítrico Fresco | 5 g | R$ 9.06 | 0.0% | [abrir](https://www.euperfumista.com.br/products/nerolex-tm-fcc) |
-| Nerolin Yara Yara (beta naftil metil éter) | 5 g | R$ 2.14 | 0.2% | [abrir](https://www.euperfumista.com.br/products/nerolin-yara-yara) |
-| Salicilato de Benzila - Floral Solar Fixador | 5 g | R$ 1.70 | 2.9% | [abrir](https://www.euperfumista.com.br/products/benzyl-salicylate-99-min) |
 
-**Flavorist** — 8 itens, R$ 373.82
 
-| material | embalagem | preço | usa até | link |
-|---|---|---|---|---|
-| Benjoim Resinoid | 20 g | R$ 59.90 | 5.0% | [abrir](https://flavorist.com.br/produtos/benjoim-resinoid/) |
-| Guaiacol - Amadeirado, Defumado e Fenólico | 20 ml | R$ 23.90 | 1.0% | [abrir](https://flavorist.com.br/produtos/guaiacol/) |
-| Helional - Nota Aquática Ozônica | 20 ml | R$ 19.00 | 1.9% | [abrir](https://flavorist.com.br/produtos/helional/) |
-| Indol - Nota Floral Animal fecal | 10 g | R$ 31.69 | 0.0% | [abrir](https://flavorist.com.br/produtos/indol/) |
-| Isoeugenol | 20 ml | R$ 24.90 | 0.1% | [abrir](https://flavorist.com.br/produtos/isoeugenol-5eixm/) |
-| Sabineno (Sabinene) | 100 ml | R$ 42.29 | 1.9% | [abrir](https://flavorist.com.br/produtos/sabineno-sabinene/) |
-| Styrax Resinoide Eal (Wild) | 20 g | R$ 99.00 | 2.0% | [abrir](https://flavorist.com.br/produtos/styrax-resinoide/) |
-| Óleo Essencial de Gengibre Raices | 20 ml | R$ 73.14 | 1.0% | [abrir](https://flavorist.com.br/produtos/oleo-essencial-de-gengibre/) |
+**Eu Perfumista** — 68 itens, R$ 310,98
 
-**Perfumoteca** — 6 itens, R$ 220.40
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | Acetato de Estiralila - Verde Frutado Intenso | Verde | 5 g | R$ 2,12 | [abrir](https://www.euperfumista.com.br/products/styrallyl-acetate) |
+| ☐ | **Acetato de Geranila - Floral Rosado Frutado** | Floral | 5 g | R$ 6,34 | [abrir](https://www.euperfumista.com.br/products/geranyl-acetate-extra) |
+| ☐ | Acetato de Isobornila | Aromática / Herbal | 5 g | R$ 2,49 | [abrir](https://www.euperfumista.com.br/products/isobornyl-acetate) |
+| ☐ | Aldeído C10 (Decanal) | Aldeídica | 5 g | R$ 3,03 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-10) |
+| ☐ | Aldeído C11 Undecílico | Aldeídica | 5 g | R$ 3,90 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-110-undecylic) |
+| ☐ | Aldeído C12 Láurico (Dodecanal) | Aldeídica | 5 g | R$ 4,80 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-12-l) |
+| ☐ | **Aldeído C12 MNA** | Aldeídica | 5 g | R$ 5,16 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-12-mna) |
+| ☐ | Aldeído C8 (Octanal) Aldeídica Cítrica | Aldeídica | 5 g | R$ 4,65 | [abrir](https://www.euperfumista.com.br/products/aldehyde-c-8) |
+| ☐ | **Aldeído Cinâmico (Cinamaldeído)** | Especiaria | 5 g | R$ 2,10 | [abrir](https://www.euperfumista.com.br/products/cinnamic-aldehyde) |
+| ☐ | **Aldeído Mandarina (trans-2-dodecenal)** | Cítrica | 5 g | R$ 18,75 | [abrir](https://www.euperfumista.com.br/products/aldehyde-mandarine-10-citr) |
+| ☐ | **Alfa Terpineol** | Floral | 5 g | R$ 3,62 | [abrir](https://www.euperfumista.com.br/products/terpineol) |
+| ☐ | Anethole Extra USP 21/22 | Aromática / Herbal | 5 g | R$ 7,06 | [abrir](https://www.euperfumista.com.br/products/anethole-extra-usp-21-22) |
+| ☐ | Benzoato de Benzila | Gourmand | 5 g | R$ 1,72 | [abrir](https://www.euperfumista.com.br/products/benzyl-benzoate-99-min-fcc) |
+| ☐ | Benzoato de Metila | Frutada | 5 g | R$ 1,40 | [abrir](https://www.euperfumista.com.br/products/methyl-benzoate) |
+| ☐ | Bht (Butil Hidroxitolueno) | Diluentes e auxiliares | 5 g | R$ 2,61 | [abrir](https://www.euperfumista.com.br/products/bht-butyl-hydroxy-tolueno) |
+| ☐ | Borneol, DL | Aromática / Herbal | 5 g | R$ 7,52 | [abrir](https://www.euperfumista.com.br/products/borneol) |
+| ☐ | Butirato de Etila | Frutada | 5 g | R$ 1,26 | [abrir](https://www.euperfumista.com.br/products/ethyl-butyrate) |
+| ☐ | Butyl Butyrate | Amadeirada | 5 g | R$ 2,11 | [abrir](https://www.euperfumista.com.br/products/butyl-butyrate) |
+| ☐ | **Cariofileno Beta 87-44-5** | Especiaria | 5 g | R$ 3,61 | [abrir](https://www.euperfumista.com.br/products/caryophyllene-beta) |
+| ☐ | Cinnamyl Acetate | Especiaria | 5 g | R$ 6,09 | [abrir](https://www.euperfumista.com.br/products/cinnamyl-acetate) |
+| ☐ | **Citral** | Cítrica | 5 g | R$ 3,57 | [abrir](https://www.euperfumista.com.br/products/citral-n) |
+| ☐ | **Citronelol** | Floral | 5 g | R$ 4,42 | [abrir](https://www.euperfumista.com.br/products/citronelol) |
+| ☐ | **Cumarina - Feno e Cumaru** | Gourmand | 5 g | R$ 4,08 | [abrir](https://www.euperfumista.com.br/products/coumarin) |
+| ☐ | Cyclaprop (propionato de verdila) | Amadeirada | 5 g | R$ 1,78 | [abrir](https://www.euperfumista.com.br/products/verdyl-propionate) |
+| ☐ | Cânfora em Pó - Refrescante e Multifuncional | Aromática / Herbal | 5 g | R$ 3,94 | [abrir](https://www.euperfumista.com.br/products/camphor-tech-powder) |
+| ☐ | Dietilftalato (DEP) | Diluentes e auxiliares | 5 g | R$ 1,31 | [abrir](https://www.euperfumista.com.br/products/diethylphthalate-pg) |
+| ☐ | Dipropylene Glycol (DPG) | Diluentes e auxiliares | 5 g | R$ 2,28 | [abrir](https://www.euperfumista.com.br/products/dipropylene-glycol) |
+| ☐ | Ethyl Isobutyrate | Aromática / Herbal | 5 g | R$ 2,64 | [abrir](https://www.euperfumista.com.br/products/ethyl-isobutyrate) |
+| ☐ | Ethyl Laurate | Gourmand | 5 g | R$ 2,11 | [abrir](https://www.euperfumista.com.br/products/ethyl-laurate) |
+| ☐ | Ethyl Pelargonate | Aromática / Herbal | 5 g | R$ 4,93 | [abrir](https://www.euperfumista.com.br/products/ethyl-pelargonate) |
+| ☐ | Etileno Brassilato - Musk T | Almíscar | 5 g | R$ 3,44 | [abrir](https://www.euperfumista.com.br/products/ethylene-brassylate) |
+| ☐ | Eucaliptol (1,8-Cineol) | Aromática / Herbal | 5 g | R$ 7,08 | [abrir](https://www.euperfumista.com.br/products/oleo-essencial-de-eucalyptol-usp-99) |
+| ☐ | **Eugenol** | Especiaria | 5 g | R$ 11,61 | [abrir](https://www.euperfumista.com.br/products/eugenol) |
+| ☐ | **Exaltolide Total (omega-pentadecalactone)** | Almíscar | 5 g | R$ 15,40 | [abrir](https://www.euperfumista.com.br/products/exaltolide-total) |
+| ☐ | Floralozone® - Nota Ozônica Floral Fresca | Aquática | 5 g | R$ 5,71 | [abrir](https://www.euperfumista.com.br/products/allyl-amyl-glicolate) |
+| ☐ | **Galaxolide - Musk Limpo de Alta Fixação** | Almíscar | 25 g | R$ 7,31 | [abrir](https://www.euperfumista.com.br/products/galaxolide-100) |
+| ☐ | **Geraniol - Floral Rosado** | Floral | 5 g | R$ 4,64 | [abrir](https://www.euperfumista.com.br/products/geraniol-extra) |
+| ☐ | Hercolin D (metil rosinato hidrogenado) | Âmbar / Oriental | 5 g | R$ 5,71 | [abrir](https://www.euperfumista.com.br/products/hercolyn) |
+| ☐ | **Hidroxicitronelal** | Floral | 5 g | R$ 3,88 | [abrir](https://www.euperfumista.com.br/products/florol) |
+| ☐ | **Ionona Beta - Floral Violeta Amadeirada** | Floral | 5 g | R$ 7,01 | [abrir](https://www.euperfumista.com.br/products/ionona-beta) |
+| ☐ | Isoamyl Acetate | Frutada | 5 g | R$ 1,34 | [abrir](https://www.euperfumista.com.br/products/isoamyl-acetate) |
+| ☐ | Isoamyl Butyrate | Frutada | 5 g | R$ 1,55 | [abrir](https://www.euperfumista.com.br/products/isoamyl-butyrate) |
+| ☐ | Isoamyl Isovalerianate | Aromática / Herbal | 5 g | R$ 2,53 | [abrir](https://www.euperfumista.com.br/products/isoamyl-isovalerianate) |
+| ☐ | **Labdano Resinoide** | Âmbar / Oriental | 5 g | R$ 34,68 | [abrir](https://www.euperfumista.com.br/products/oleo-essencial-de-labdanum-resinoid) |
+| ☐ | **Laranja doce sintético (perfumistico)** | Cítrica | 5 g | R$ 6,67 | [abrir](https://www.euperfumista.com.br/products/oleo-essencial-de-orange) |
+| ☐ | **Linalol - Floral Fresco Versátil** | Floral | 5 g | R$ 4,30 | [abrir](https://www.euperfumista.com.br/products/linalool) |
+| ☐ | Methyl Cinnamic Aldehyde Alpha | Aromática / Herbal | 5 g | R$ 3,50 | [abrir](https://www.euperfumista.com.br/products/methyl-cinnamic-aldehyde-alpha) |
+| ☐ | Miristato de Isopropila (IPM) | Diluentes e auxiliares | 5 g | R$ 2,88 | [abrir](https://www.euperfumista.com.br/products/isopropyl-myristate) |
+| ☐ | **N Metil Ionona (iralia total, isoraldeina 70)** | Amadeirada | 5 g | R$ 5,27 | [abrir](https://www.euperfumista.com.br/products/isoraldeine-70) |
+| ☐ | **Nerol - Floral Cítrico Fresco** | Floral | 5 g | R$ 9,06 | [abrir](https://www.euperfumista.com.br/products/nerolex-tm-fcc) |
+| ☐ | **Nerolin Yara Yara (beta naftil metil éter)** | Cítrica | 5 g | R$ 2,14 | [abrir](https://www.euperfumista.com.br/products/nerolin-yara-yara) |
+| ☐ | Paracimeno - Notas Cítricas e Amadeiradas | Cítrica | 5 g | R$ 4,46 | [abrir](https://www.euperfumista.com.br/products/para-cymene) |
+| ☐ | Peonile (nitrilo gerânio) | Cítrica | 5 g | R$ 3,91 | [abrir](https://www.euperfumista.com.br/products/paradisamide™-paradisamida™-givaudan-copia) |
+| ☐ | Propionato de Etila - Notas Frutadas | Cítrica | 5 g | R$ 1,05 | [abrir](https://www.euperfumista.com.br/products/ethyl-propionate) |
+| ☐ | Quatercap DM-50 | Aromática / Herbal | 10 g | R$ 2,47 | [abrir](https://www.euperfumista.com.br/products/quatercap-dm-50) |
+| ☐ | **Salicilato de Benzila - Floral Solar Fixador** | Balsâmica / Resinosa | 5 g | R$ 1,70 | [abrir](https://www.euperfumista.com.br/products/benzyl-salicylate-99-min) |
+| ☐ | Salicilato de Hexila (rodiaflor SnH) | Verde | 5 g | R$ 2,16 | [abrir](https://www.euperfumista.com.br/products/hexil-salicilato-givaudan) |
+| ☐ | Salicilato de Isoamila - Floral Verde Suave | Floral | 5 g | R$ 1,58 | [abrir](https://www.euperfumista.com.br/products/ambrofix-givaudan-copia) |
+| ☐ | Salicilato de Metila | Aromática / Herbal | 5 g | R$ 1,27 | [abrir](https://www.euperfumista.com.br/products/methyl-salicylate) |
+| ☐ | Terpenyl Acetate | Aromática / Herbal | 5 g | R$ 4,03 | [abrir](https://www.euperfumista.com.br/products/terpenyl-acetate) |
+| ☐ | Terpinoleno | Cítrica | 5 g | R$ 0,96 | [abrir](https://www.euperfumista.com.br/products/terpinolene) |
+| ☐ | Timol | Aromática / Herbal | 5 g | R$ 4,63 | [abrir](https://www.euperfumista.com.br/products/thymol-crystals) |
+| ☐ | Tonalide () | Almíscar | 5 g | R$ 5,98 | [abrir](https://www.euperfumista.com.br/products/tonalid) |
+| ☐ | Triplal (Ligustral / Cyclal C) | Verde | 5 g | R$ 3,69 | [abrir](https://www.euperfumista.com.br/products/triplal) |
+| ☐ | Verdox - Otbch Acetate | Amadeirada | 5 g | R$ 1,39 | [abrir](https://www.euperfumista.com.br/products/verdox-otbch-acetate) |
+| ☐ | Verdyl Acetate | Almíscar | 5 g | R$ 1,43 | [abrir](https://www.euperfumista.com.br/products/verdyl-acetate) |
+| ☐ | Vertenex - Nota Musk Frutada Amadeirada Fresca | Amadeirada | 5 g | R$ 1,59 | [abrir](https://www.euperfumista.com.br/products/vertenex-ptbch-acetate) |
+| ☐ | Álcool Feniletílico - Rosa | Floral | 5 g | R$ 1,57 | [abrir](https://www.euperfumista.com.br/products/phenyl-ethyl-alcohol) |
 
-| material | embalagem | preço | usa até | link |
-|---|---|---|---|---|
-| Acetato de Cedrila | 20 ml | R$ 18.90 | 5.8% | [abrir](https://www.perfumoteca.com.br/acetatodecedrila) |
-| Acetato de Guaiaco | 20 ml | R$ 22.90 | 1.1% | [abrir](https://www.perfumoteca.com.br/acetatodeguaiaco) |
-| Ambroxan - Âmbar Moderno Perfumaria | 20 g | R$ 39.90 | 21.6% | [abrir](https://www.perfumoteca.com.br/ambroxan-10-diluido-em-dpg) |
-| Base Acetato de Vetivert | 20 ml | R$ 69.90 | 3.9% | [abrir](https://www.perfumoteca.com.br/acetatodevetivert) |
-| D' limoneno | 20 ml | R$ 12.90 | 3.9% | [abrir](https://www.perfumoteca.com.br/dlimoneno) |
-| Olibano Resinoid | 20 g | R$ 55.90 | 5.0% | [abrir](https://www.perfumoteca.com.br/olibanoresinoid) |
+**Flavorist** — 9 itens, R$ 383,72
 
-**Perfumístico** — 17 itens, R$ 424.60
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | Augeo Clean Multi Solvay | Âmbar / Oriental | 100 ml | R$ 9,90 | [abrir](https://flavorist.com.br/produtos/augeo-solvay/) |
+| ☐ | **Benjoim Resinoid** | Âmbar / Oriental | 20 g | R$ 59,90 | [abrir](https://flavorist.com.br/produtos/benjoim-resinoid/) |
+| ☐ | **Guaiacol - Amadeirado, Defumado e Fenólico** | Amadeirada | 20 ml | R$ 23,90 | [abrir](https://flavorist.com.br/produtos/guaiacol/) |
+| ☐ | **Helional - Nota Aquática Ozônica** | Aquática | 20 ml | R$ 19,00 | [abrir](https://flavorist.com.br/produtos/helional/) |
+| ☐ | **Indol - Nota Floral Animal fecal** | Animálica | 10 g | R$ 31,69 | [abrir](https://flavorist.com.br/produtos/indol/) |
+| ☐ | **Isoeugenol** | Especiaria | 20 ml | R$ 24,90 | [abrir](https://flavorist.com.br/produtos/isoeugenol-5eixm/) |
+| ☐ | **Sabineno (Sabinene)** | Amadeirada | 100 ml | R$ 42,29 | [abrir](https://flavorist.com.br/produtos/sabineno-sabinene/) |
+| ☐ | **Styrax Resinoide Eal (Wild)** | Balsâmica / Resinosa | 20 g | R$ 99,00 | [abrir](https://flavorist.com.br/produtos/styrax-resinoide/) |
+| ☐ | **Óleo Essencial de Gengibre Raices** | Especiaria | 20 ml | R$ 73,14 | [abrir](https://flavorist.com.br/produtos/oleo-essencial-de-gengibre/) |
 
-| material | embalagem | preço | usa até | link |
-|---|---|---|---|---|
-| Acetato de Linalila - Floral Cítrico Fresco | 15 g | R$ 13.60 | 10.3% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/acetato-de-linalila-bergamol/) |
-| Alfa-Pineno - Frescor Conífero | 15 g | R$ 10.70 | 2.0% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/isolados-naturais/alfa-pineno/) |
-| Ambrettolide - Musk Branco | 15 g | R$ 120.90 | 7.6% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/ambretolide-isoambrettolide-scentolide/) |
-| Bacdanol - Sandol 28219-61-6 | 15 g | R$ 12.70 | 4.8% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/bacdanol-sandalrome/) |
-| Bergamota (perfumistico) | 15 g | R$ 15.00 | 7.6% | [abrir](https://www.perfumistico.com.br/produtos/aromas/acordes-e-bases/oleo-essencial-bergamota-sintetico/) |
-| Cardamomo sintético (perfumistico) | 10 g | R$ 20.60 | 3.0% | [abrir](https://www.perfumistico.com.br/produtos/aromas/acordes-e-bases/cardamomo-sintetico-perfumistico/) |
-| Cedramber (Metil Cedril Éter) | 15 g | R$ 12.70 | 6.0% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/vertofix-metil-cedril-cetona/) |
-| Dihidro Beta Ionona (ionona amadeirada) | 15 g | R$ 14.00 | 9.8% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/frambinone-cetona-framboesa/) |
-| Dihidromircenol - Frescor Cítrico Moderno | 15 g | R$ 8.50 | 7.8% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/dihidromircenol-mircetol/) |
-| Hedione - Floral Difusivo de Jasmim | 15 g | R$ 7.20 | 23.8% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/hedione-metil-dihidrojasmonato/) |
-| Iso e Super | 15 g | R$ 9.40 | 20.0% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/iso-e-super-patchouli-ethanone/) |
-| Kephalis () | 15 g | R$ 33.30 | 5.0% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/kephalis-ciclohexanona-amadeirada/) |
-| Norlimbanol® | 5 g | R$ 23.60 | 3.0% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/timber-propanol-karmawood-timberol/) |
-| Patchone (patchouli hexanol) | 15 g | R$ 6.20 | 10.0% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/patchone-patchouli-hexanol/) |
-| Safraleine (indenona açafrão, safraleina) | 5 g | R$ 53.10 | 1.0% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/safraleine-indenona-acafrao-safraleina/) |
-| Vanilina - Baunilha Clássica | 15 g | R$ 9.00 | 3.0% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/vanilina-naturalline/) |
-| Velvione® | 5 g | R$ 54.10 | 3.5% | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/velvione-almiscar-amberol/) |
+**Perfumoteca** — 8 itens, R$ 242,50
+
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | **Acetato de Cedrila** | Amadeirada | 20 ml | R$ 18,90 | [abrir](https://www.perfumoteca.com.br/acetatodecedrila) |
+| ☐ | **Acetato de Guaiaco** | Amadeirada | 20 ml | R$ 22,90 | [abrir](https://www.perfumoteca.com.br/acetatodeguaiaco) |
+| ☐ | Aceto Acetato de Etila | Âmbar / Oriental | 20 ml | R$ 12,20 | [abrir](https://www.perfumoteca.com.br/acetoacetatodeetila) |
+| ☐ | **Ambroxan - Âmbar Moderno Perfumaria** | Âmbar / Oriental | 20 g | R$ 39,90 | [abrir](https://www.perfumoteca.com.br/ambroxan-10-diluido-em-dpg) |
+| ☐ | **Base Acetato de Vetivert** | Amadeirada | 20 ml | R$ 69,90 | [abrir](https://www.perfumoteca.com.br/acetatodevetivert) |
+| ☐ | **D' limoneno** | Cítrica | 20 ml | R$ 12,90 | [abrir](https://www.perfumoteca.com.br/dlimoneno) |
+| ☐ | **Olibano Resinoid** | Balsâmica / Resinosa | 20 g | R$ 55,90 | [abrir](https://www.perfumoteca.com.br/olibanoresinoid) |
+| ☐ | Verdox HC (Acetato Verde) | Verde | 20 g | R$ 9,90 | [abrir](https://www.perfumoteca.com.br/verdox) |
+
+**Perfumístico** — 25 itens, R$ 549,20
+
+| ✓ | material | grupo | embalagem | preço | link |
+|---|---|---|---|---|---|
+| ☐ | **Acetato de Linalila - Floral Cítrico Fresco** | Floral | 15 g | R$ 13,60 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/acetato-de-linalila-bergamol/) |
+| ☐ | Aldeído Myrac (empetal) | Aquática | 15 g | R$ 11,80 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/aldeido-myrac-empetal/) |
+| ☐ | **Alfa-Pineno - Frescor Conífero** | Amadeirada | 15 g | R$ 10,70 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/isolados-naturais/alfa-pineno/) |
+| ☐ | Alil Amil Glicolato - Abacaxi Verde Difusivo | Verde | 15 g | R$ 8,40 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/glicolato-de-alilamila/) |
+| ☐ | Almíscar Cetona (musk ketone) | Almíscar | 15 g | R$ 8,60 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/almiscar-cetona-musk-ketone/) |
+| ☐ | **Ambrettolide - Musk Branco** | Almíscar | 15 g | R$ 120,90 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/ambretolide-isoambrettolide-scentolide/) |
+| ☐ | **Bacdanol - Sandol 28219-61-6** | Amadeirada | 15 g | R$ 12,70 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/bacdanol-sandalrome/) |
+| ☐ | **Bergamota (perfumistico)** | Cítrica | 15 g | R$ 15,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/acordes-e-bases/oleo-essencial-bergamota-sintetico/) |
+| ☐ | **Cardamomo sintético (perfumistico)** | Especiaria | 10 g | R$ 20,60 | [abrir](https://www.perfumistico.com.br/produtos/aromas/acordes-e-bases/cardamomo-sintetico-perfumistico/) |
+| ☐ | Castoreum Givco 116/3 (base castóreo) | Animálica | 5 g | R$ 48,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/acordes-e-bases/castoreum-givco-116-3-base-castoreo/) |
+| ☐ | **Cedramber (Metil Cedril Éter)** | Amadeirada | 15 g | R$ 12,70 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/vertofix-metil-cedril-cetona/) |
+| ☐ | Cinamato de Etila | Balsâmica / Resinosa | 15 g | R$ 10,10 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/cinamato-de-etila/) |
+| ☐ | **Dihidro Beta Ionona (ionona amadeirada)** | Âmbar / Oriental | 15 g | R$ 14,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/frambinone-cetona-framboesa/) |
+| ☐ | **Dihidromircenol - Frescor Cítrico Moderno** | Cítrica | 15 g | R$ 8,50 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/dihidromircenol-mircetol/) |
+| ☐ | **Hedione - Floral Difusivo de Jasmim** | Floral | 15 g | R$ 7,20 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/hedione-metil-dihidrojasmonato/) |
+| ☐ | **Iso e Super** | Amadeirada | 15 g | R$ 9,40 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/iso-e-super-patchouli-ethanone/) |
+| ☐ | Isobutil Quinolina | Couro | 15 g · 10% DPG | R$ 25,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/isobutil-quinoleina-butilquinolina-secundaria/) |
+| ☐ | **Kephalis ()** | Amadeirada | 15 g | R$ 33,30 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/kephalis-ciclohexanona-amadeirada/) |
+| ☐ | **Norlimbanol®** | Amadeirada | 5 g | R$ 23,60 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/timber-propanol-karmawood-timberol/) |
+| ☐ | **Patchone (patchouli hexanol)** | Amadeirada | 15 g | R$ 6,20 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/patchone-patchouli-hexanol/) |
+| ☐ | **Safraleine (indenona açafrão, safraleina)** | Couro | 5 g | R$ 53,10 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/safraleine-indenona-acafrao-safraleina/) |
+| ☐ | **Vanilina - Baunilha Clássica** | Gourmand | 15 g | R$ 9,00 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/vanilina-naturalline/) |
+| ☐ | **Velvione®** | Almíscar | 5 g | R$ 54,10 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/velvione-almiscar-amberol/) |
+| ☐ | Álcool Benzilico | Balsâmica / Resinosa | 15 g | R$ 3,90 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/alcool-benzilico-alcool-metilfenilico/) |
+| ☐ | Álcool Cinâmico | Balsâmica / Resinosa | 15 g | R$ 8,80 | [abrir](https://www.perfumistico.com.br/produtos/aromas/quimicos-aromaticos/alcool-cinamico/) |
+
+| grupo | frascos |
+|---|---|
+| Cítrica | 11 |
+| Aldeídica | 5 |
+| Verde | 5 |
+| Aromática / Herbal | 13 |
+| Aquática | 3 |
+| Frutada | 4 |
+| Floral | 12 |
+| Especiaria | 7 |
+| Amadeirada | 17 |
+| Balsâmica / Resinosa | 6 |
+| Âmbar / Oriental | 7 |
+| Gourmand | 4 |
+| Couro | 2 |
+| Animálica | 2 |
+| Almíscar | 8 |
+| Diluentes e auxiliares | 4 |
 
 ---
 

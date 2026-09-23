@@ -33,7 +33,8 @@ TITULOS = {
     "08-qualidade": ("8 · Qualidade", "diagnóstico, estabilidade, PET, testes"),
     "09-negocio": ("9 · Virar negócio", "escala, preço, ANVISA, rótulo"),
     "10-apendices": ("Apêndices", "glossário, tabelas, fórmulas comentadas, fontes"),
-    "11-a-compra": ("11 · A compra", "cinco versões da paleta, de R$ 294 a R$ 3.206"),
+    "11-a-compra": ("11 · A compra", "cinco versões da paleta, todas fechando 110 frascos"),
+    "12-treinar-o-nariz": ("12 · Virar perfumista", "o programa de 12 meses de treino de nariz"),
 }
 ORDEM = list(TITULOS.keys())
 
@@ -133,6 +134,10 @@ def escrever_tamanhos():
         import re as _re
         paginas = len(_re.findall(rb"/Type\s*/Page[^s]", pdf.read_bytes()))
     dados = {
+        # quais livros realmente têm mp3. Antes o app tinha uma lista escrita à
+        # mão (SEM_AUDIO) e ela ficou para trás quando entrou livro novo: a tela
+        # oferecia uma faixa que dava 404.
+        "comAudio": sorted(m.stem for m in audio if not m.stem.startswith("Audiolivro")),
         "pdfPaginas": paginas,
         "pdfMB": round(pdf.stat().st_size / 1048576, 1) if pdf.exists() else 0,
         "audioMB": round(sum(m.stat().st_size for m in audio) / 1048576) if audio else 0,

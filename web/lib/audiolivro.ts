@@ -12,18 +12,21 @@
  */
 
 import { LIVROS } from "./livros";
+import TAM from "./data/tamanhos.json";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const CACHE_AUDIO = "perfumista-audio";
 
-/** Livros que têm narração. O catálogo de 587 materiais não vira áudio. */
-// Sem narração: o catálogo dos 587 e a lista de compras são material de
-// consulta — ouvir preço e link de loja não serve para nada.
-export const SEM_AUDIO = new Set(["01b-catalogo-por-familia", "11-a-compra"]);
+/**
+ * Quais livros têm narração vem do BUILD (ele lê a pasta de mp3), não de uma
+ * lista escrita aqui. A lista à mão já ficou para trás quando entrou livro
+ * novo, e a tela passou a oferecer uma faixa que dá 404.
+ */
+const COM_AUDIO = new Set(TAM.comAudio as string[]);
 
 export type Faixa = { slug: string; titulo: string; url: string };
 
-export const FAIXAS: Faixa[] = LIVROS.filter((l) => !SEM_AUDIO.has(l.slug)).map((l) => ({
+export const FAIXAS: Faixa[] = LIVROS.filter((l) => COM_AUDIO.has(l.slug)).map((l) => ({
   slug: l.slug,
   titulo: l.titulo,
   url: `${BASE}/audio/${l.slug}.mp3`,

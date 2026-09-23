@@ -26,11 +26,11 @@ químicos aromáticos, marca o que quer na paleta, e simula acordes com o que ma
   - `/lab` **Meu Laboratório** — os favoritos, com busca, filtro por família, ordenação e
     "copiar lista" (texto pro WhatsApp do fornecedor).
   - `/formulas` **Fórmulas** — monta acorde em PARTES com materiais da paleta e simula.
-  - `/livros` **Livros** — o ebook *Do químico aromático ao produto* (18 livros, 39.292 palavras,
+  - `/livros` **Livros** — o ebook *Do químico aromático ao produto* (19 livros, 48.488 palavras,
     15 figuras P&B) e o audiolivro de 2,6 h em 16 capítulos. Progresso de leitura em
     `localStorage['perfumista:livros']` e posição de escuta em `['perfumista:audio']` — chaves
     SEPARADAS do deck, de propósito: uma nunca derruba a outra. O leitor restaura a rolagem exata.
-    As 18 rotas de livro entram no precache do service worker → **funciona offline** (o caso de uso
+    As 19 rotas de livro entram no precache do service worker → **funciona offline** (o caso de uso
     é avião). Os mp3 ficam FORA do precache e entram sob demanda.
 
 ## 🎧 O audiolivro
@@ -67,11 +67,11 @@ com o link de cada item — não faz sentido ela ficar só num .md do repositór
 
 São **cinco versões**, todas com preço puxado do `deck.json` (nunca digitado à mão):
 
-| # | versão | itens | com álcool |
+| # | versão | frascos | com álcool |
 |---|---|---|---|
-| 1 | Mínima por grupo (2 de cada família) | 32 | R$ 294,30 |
-| 2 | Um perfume só (Imagination) | 23 | R$ 491,42 |
-| 3 | As três fórmulas | 53 | R$ 1.270,13 |
+| 1 | A mais barata | 110 | R$ 877,04 |
+| 2 | Um perfume garantido (Imagination) | 110 | R$ 1.143,36 |
+| 3 | As três fórmulas | 110 | R$ 1.572,39 |
 | 4 | A completa (a que montamos em 21/09) | 110 | R$ 2.423,70 |
 | 5 | Kit-escola Jean Carles | 148 | R$ 3.206,09 |
 
@@ -81,6 +81,27 @@ Regerar depois de nova raspagem de preços: o script está no scratchpad da sess
 
 Este livro **não vira áudio** (está em `SEM_AUDIO` e fora do `build_audio.py`): ouvir preço e link
 de loja não serve para nada.
+
+## 🎓 Livro 12 — o programa de 12 meses
+
+Currículo operacional para virar perfumista, método Jean Carles. Escrito em 22/09/2026 e **criticado
+com dureza pelo codex e pelo glm** antes de fechar — os dois apontaram buracos que o rascunho tinha:
+
+- **codex:** faltava segurança (FISPQ, emergência, descarte), prova de pesagem e repetibilidade,
+  IFRA calculado no produto acabado somando todas as fontes, estabilidade e embalagem, rubrica de
+  avaliação com nota mínima por critério, banca externa.
+- **glm** (leu o arquivo, não o resumo): o programa prometia 150 materiais cegos e só estudava 60 dos
+  110 da caixa · os acordes clássicos, montados como escritos, **não passam em IFRA hoje** (bergamota
+  prensada, oakmoss, musk cetona, civet) · o curso terminava no concentrado e nunca fazia o perfume
+  acabado · a ficha não tinha CAS, lote nem validade — e **diluição de cítrico vence em 3 meses**,
+  num programa de 12 · o cego era só de identificação, faltando triangular, dose, limiar e painel.
+
+Tudo isso entrou. As três prioridades que o glm nomeou estão no livro: **coluna "versão que se
+assina" nos acordes clássicos**, **ficha com CAS/lote/validade + cadência de refazer diluição**, e
+**avaliação redesenhada** (pool cumulativo dos 110, teste triangular, painel mensal desde o mês 3,
+prova final de produto acabado).
+
+Sem áudio por ora — é material de consulta e exercício.
 
 ## 💾 Onde o áudio e o PDF ficam guardados
 
@@ -123,7 +144,7 @@ regressão só vale depois de você ver ele reprovar com o código velho.
 - **App:** `python3 web/scripts/build_books.py` → `web/lib/data/books.json` (pandoc converte md→html,
   INLINA os SVG). Rodar sempre que editar um .md.
 - **PDF:** `bash web/scripts/build_pdf.sh` → `knowledge/ebook/Do-quimico-aromatico-ao-produto.pdf`
-  (126 páginas A4, capa e sumário; pandoc + Chrome headless + `pdf.css`).
+  (148 páginas A4, capa e sumário; pandoc + Chrome headless + `pdf.css`).
 - ⚠️ **Armadilha:** `<` cru dentro de `<text>` num SVG quebra a figura **só no PDF** (o `<img>` lê como
   XML estrito; o navegador perdoa). Escapar como `&lt;`.
 - **Ordem do baralho (o ponto central):** as cartas vêm agrupadas por família olfativa e,

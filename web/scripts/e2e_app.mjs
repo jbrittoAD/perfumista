@@ -178,7 +178,7 @@ async function main() {
       const u = new Set([...document.querySelectorAll('a[href*="/livros/"]')]
         .map(a => a.getAttribute('href')).filter(h => !h.endsWith('/audio')));
       return u.size;`);
-    prova("a estante lista os 18 livros", nLivros === 18, `${nLivros} livros`);
+    prova("a estante lista os 19 livros", nLivros === 19, `${nLivros} livros`);
 
     /* 4. a posição de leitura volta ao reabrir */
     await carregar(aba, `${RAIZ_URL}/livros/04-sabonete`);
