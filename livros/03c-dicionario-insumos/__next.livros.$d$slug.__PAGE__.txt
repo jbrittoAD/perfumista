@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[50955,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js","/perfumista/_next/static/chunks/1ob81zqqu0j3s.js","/perfumista/_next/static/chunks/1stdd4b7h0sd-.js"],"default"]
+2:I[50955,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js","/perfumista/_next/static/chunks/1ob81zqqu0j3s.js","/perfumista/_next/static/chunks/37bkg01dertz9.js"],"default"]
 3:I[97367,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"03c-dicionario-insumos"}],[["$","script","script-0",{"src":"/perfumista/_next/static/chunks/1ob81zqqu0j3s.js","async":true}],["$","script","script-1",{"src":"/perfumista/_next/static/chunks/1stdd4b7h0sd-.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"lv9T_d2dxIoXyidcfd95a"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"03c-dicionario-insumos"}],[["$","script","script-0",{"src":"/perfumista/_next/static/chunks/1ob81zqqu0j3s.js","async":true}],["$","script","script-1",{"src":"/perfumista/_next/static/chunks/37bkg01dertz9.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"SHL6mnWlMCon8OquKkVjH"}
 5:null
