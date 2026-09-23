@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
 2:I[47257,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js"],"ClientPageRoot"]
-3:I[50932,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js","/perfumista/_next/static/chunks/0r6lq_sy_6txi.js","/perfumista/_next/static/chunks/0ci4o5cz5dbqa.js"],"default"]
+3:I[50932,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js","/perfumista/_next/static/chunks/1u1-ipq_4je7r.js","/perfumista/_next/static/chunks/446svwupy7rfs.js"],"default"]
 6:I[97367,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/perfumista/_next/static/chunks/0r6lq_sy_6txi.js","async":true}],["$","script","script-1",{"src":"/perfumista/_next/static/chunks/0ci4o5cz5dbqa.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"XxsDV1akS8jU-eyd44spt"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/perfumista/_next/static/chunks/1u1-ipq_4je7r.js","async":true}],["$","script","script-1",{"src":"/perfumista/_next/static/chunks/446svwupy7rfs.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"JvSaPuURxJau3DzV05HAa"}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
