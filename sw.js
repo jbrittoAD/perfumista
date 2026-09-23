@@ -14,7 +14,7 @@
  * O cache é VERSIONADO: bump CACHE_VERSION a cada deploy para invalidar o antigo.
  */
 
-const CACHE_VERSION = "perfumista-deck-v18";
+const CACHE_VERSION = "perfumista-deck-v19";
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 // Caches que o USUÁRIO encheu de propósito, apertando "guardar no aparelho":
@@ -51,6 +51,7 @@ const PRECACHE_URLS = [
   "./livros/08-qualidade",
   "./livros/09-negocio",
   "./livros/10-apendices",
+  "./livros/11-a-compra",
   "./manifest.webmanifest",
   "./photos/credits.json",
   "./icons/icon-192.png",
@@ -66,12 +67,13 @@ const PRECACHE_URLS = [
 const BUILD_ASSETS = [
   "./_next/static/chunks/01dkdyukbdpqq.js",
   "./_next/static/chunks/033x0xycwi-8w.js",
-  "./_next/static/chunks/04w56pry2sb-x.js",
+  "./_next/static/chunks/05re2bi9tracg.js",
   "./_next/static/chunks/0cz1d0mv5g_q7.js",
   "./_next/static/chunks/0rmekjdoc_h_m.js",
   "./_next/static/chunks/0t43jt-g7nhl7.css",
+  "./_next/static/chunks/0u5hmodgenvh2.js",
+  "./_next/static/chunks/0ylcbefwobzd3.js",
   "./_next/static/chunks/14mrh2-p_w84d.js",
-  "./_next/static/chunks/18g2bip928fip.js",
   "./_next/static/chunks/1d-1fp49wc91u.js",
   "./_next/static/chunks/1ob81zqqu0j3s.js",
   "./_next/static/chunks/1s7svrwnaq1df.js",
@@ -81,7 +83,6 @@ const BUILD_ASSETS = [
   "./_next/static/chunks/2nvnl0j-ncw16.js",
   "./_next/static/chunks/2nykiepra7i1k.js",
   "./_next/static/chunks/39txpi83_mtau.js",
-  "./_next/static/chunks/3uqt2zzium98x.js",
   "./_next/static/chunks/turbopack-3sk924_ot2vst.js",
 ];
 
