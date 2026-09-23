@@ -17,7 +17,9 @@ const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const CACHE_AUDIO = "perfumista-audio";
 
 /** Livros que têm narração. O catálogo de 587 materiais não vira áudio. */
-export const SEM_AUDIO = new Set(["01b-catalogo-por-familia"]);
+// Sem narração: o catálogo dos 587 e a lista de compras são material de
+// consulta — ouvir preço e link de loja não serve para nada.
+export const SEM_AUDIO = new Set(["01b-catalogo-por-familia", "11-a-compra"]);
 
 export type Faixa = { slug: string; titulo: string; url: string };
 

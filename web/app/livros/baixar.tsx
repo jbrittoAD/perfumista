@@ -66,7 +66,7 @@ export default function Baixar() {
         <li className="flex items-start gap-2">
           <Check ok={estado === "guardado"} />
           <span className="text-[var(--fg-dim)]">
-            <strong className="text-[var(--fg)]">O PDF, 112 páginas</strong> — {TAM.pdfMB} MB, com as figuras.
+            <strong className="text-[var(--fg)]">O PDF, {TAM.pdfPaginas} páginas</strong> — {TAM.pdfMB} MB, com as figuras.
             {estado === "guardado" && " Guardado."}
           </span>
         </li>

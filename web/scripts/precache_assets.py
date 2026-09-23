@@ -12,7 +12,7 @@ Sem isto, o livro só ficaria offline depois de aberto uma vez com rede.
 
 Uso:  NEXT_PUBLIC_BASE_PATH=/perfumista npm run build && python3 scripts/precache_assets.py
 """
-import os, re, sys
+import json, os, re, sys
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parents[1] / "out"
@@ -35,6 +35,17 @@ def main():
         caminho = caminho.lstrip("/")
         if (OUT / caminho).exists():
             rel.add("./" + caminho)
+
+    # As rotas dos livros também são geradas: escritas à mão no sw.js, elas
+    # ficam para trás quando entra livro novo — e o livro novo simplesmente não
+    # funciona offline, sem nada acusar. A fonte é o books.json.
+    livros = json.loads((OUT.parent / "lib" / "data" / "books.json").read_text())["livros"]
+    rotas = "\n  ".join(f'"./livros/{l["slug"]}",' for l in livros)
+    s0 = SW.read_text()
+    s0 = re.sub(r'(  "\./livros",\n  "\./livros/audio",\n)(?:  "\./livros/[^"]+",\n)*',
+                lambda m: m.group(1) + "  " + rotas + "\n", s0, count=1)
+    SW.write_text(s0)
+    print(f"sw.js: {len(livros)} rotas de livro no precache")
 
     # Zero asset NUNCA é resultado válido: significa que o basePath do ambiente
     # não bate com o do build, e o app iria ao ar sem precache — offline quebrado

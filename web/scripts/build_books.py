@@ -33,6 +33,7 @@ TITULOS = {
     "08-qualidade": ("8 · Qualidade", "diagnóstico, estabilidade, PET, testes"),
     "09-negocio": ("9 · Virar negócio", "escala, preço, ANVISA, rótulo"),
     "10-apendices": ("Apêndices", "glossário, tabelas, fórmulas comentadas, fontes"),
+    "11-a-compra": ("11 · A compra", "cinco versões da paleta, de R$ 294 a R$ 3.206"),
 }
 ORDEM = list(TITULOS.keys())
 
@@ -127,7 +128,12 @@ def escrever_tamanhos():
     pdf = ROOT / "web" / "public" / "Do-quimico-aromatico-ao-produto.pdf"
     audio = sorted((ROOT / "knowledge" / "ebook" / "audio").glob("*.mp3"))
     audio = [m for m in audio if not m.stem.startswith("Audiolivro")]
+    paginas = 0
+    if pdf.exists():
+        import re as _re
+        paginas = len(_re.findall(rb"/Type\s*/Page[^s]", pdf.read_bytes()))
     dados = {
+        "pdfPaginas": paginas,
         "pdfMB": round(pdf.stat().st_size / 1048576, 1) if pdf.exists() else 0,
         "audioMB": round(sum(m.stat().st_size for m in audio) / 1048576) if audio else 0,
         "capitulos": len(audio),

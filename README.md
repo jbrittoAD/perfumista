@@ -16,7 +16,7 @@ Cinco abas:
 | **Meu Laboratório** | os favoritos, com busca, filtro e "copiar lista" pro WhatsApp do fornecedor |
 | **Paleta** | o que você tem em casa |
 | **Fórmulas** | monta acorde em partes com os materiais da paleta e simula |
-| **Livros** | o ebook *Do químico aromático ao produto* — **17 livros, 34,5 mil palavras, 15 figuras**, mais o **audiolivro de 2,6 h** |
+| **Livros** | o ebook *Do químico aromático ao produto* — **18 livros, 39 mil palavras, 15 figuras**, mais o **audiolivro de 2,6 h** |
 
 Tudo fica no aparelho: progresso de leitura, posição do audiolivro e o que você curtiu no deck moram
 em chaves separadas do `localStorage`, de propósito — uma nunca derruba a outra.
@@ -26,7 +26,7 @@ em chaves separadas do `localStorage`, de propósito — uma nunca derruba a out
 Fonte única em `knowledge/ebook/*.md`, três saídas:
 
 - **no app** (`build_books.py` → JSON, com os SVG embutidos para funcionar offline);
-- **PDF** de 112 páginas A4 (`build_pdf.sh`);
+- **PDF** de 126 páginas A4 (`build_pdf.sh`);
 - **audiolivro** em 16 capítulos (`build_audio.py`, Edge TTS, voz `pt-BR-FranciscaNeural` a 96 kbps).
 
 Tabela não se narra: cada uma virou uma fala escrita à mão em `knowledge/ebook/audio/narracoes.md`.
@@ -62,7 +62,7 @@ checar se a voz escorregou para o espanhol.
 web/            Next.js 16 + React 19, output: 'export' — o app
   scripts/      build do deck, dos livros, do PDF, do áudio, publicação e testes
 knowledge/
-  ebook/        os 17 livros, as figuras e as narrações do audiolivro
+  ebook/        os 18 livros, as figuras e as narrações do audiolivro
   cosmetica/    a pesquisa que virou os livros de cosmética
   perfumologos/ a base do canal PerfumoLogos
   data/         os dados que alimentam o deck

@@ -20,7 +20,7 @@ pandoc -f gfm -t html5 --standalone --toc --toc-depth=2 \
   02b-bancada-de-cosmetica.md \
   03-quimica.md 03b-similares-cosmetica.md 03c-dicionario-insumos.md 04-sabonete.md \
   05-cabelo-barba-anidros.md 06-emulsoes-e-ativos.md 07-perfumar-o-produto.md \
-  08-qualidade.md 09-negocio.md 10-apendices.md
+  08-qualidade.md 09-negocio.md 10-apendices.md 11-a-compra.md
 
 # --mute-audio: já aconteceu de um Chrome meu ficar tocando som no Mac do Britto.
 "$CHROME" --headless=new --disable-gpu --mute-audio --no-pdf-header-footer \

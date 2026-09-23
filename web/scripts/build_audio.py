@@ -265,7 +265,7 @@ if __name__ == "__main__":
     if a.unico:
         unico(); raise SystemExit(0)
     alvos = [p.stem for p in sorted(LIVROS.glob("*.md"))
-             if p.stem not in {"AUDIOLIVRO", "AUDIO-AMOSTRA", "01b-catalogo-por-familia"}] if a.todos else [a.slug]
+             if p.stem not in {"AUDIOLIVRO", "AUDIO-AMOSTRA", "01b-catalogo-por-familia", "11-a-compra"}] if a.todos else [a.slug]
     for s in alvos:
         print(f"\n{s}")
         gerar(s, a.so_texto)

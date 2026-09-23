@@ -26,11 +26,11 @@ químicos aromáticos, marca o que quer na paleta, e simula acordes com o que ma
   - `/lab` **Meu Laboratório** — os favoritos, com busca, filtro por família, ordenação e
     "copiar lista" (texto pro WhatsApp do fornecedor).
   - `/formulas` **Fórmulas** — monta acorde em PARTES com materiais da paleta e simula.
-  - `/livros` **Livros** — o ebook *Do químico aromático ao produto* (17 livros, 34.572 palavras,
+  - `/livros` **Livros** — o ebook *Do químico aromático ao produto* (18 livros, 39.292 palavras,
     15 figuras P&B) e o audiolivro de 2,6 h em 16 capítulos. Progresso de leitura em
     `localStorage['perfumista:livros']` e posição de escuta em `['perfumista:audio']` — chaves
     SEPARADAS do deck, de propósito: uma nunca derruba a outra. O leitor restaura a rolagem exata.
-    As 17 rotas de livro entram no precache do service worker → **funciona offline** (o caso de uso
+    As 18 rotas de livro entram no precache do service worker → **funciona offline** (o caso de uso
     é avião). Os mp3 ficam FORA do precache e entram sob demanda.
 
 ## 🎧 O audiolivro
@@ -58,6 +58,29 @@ químicos aromáticos, marca o que quer na paleta, e simula acordes com o que ma
   ele acusava buraco em "nove por um, oito por dois" e o aviso viraria ruído.
 - **No app:** `/livros/audio` — player com capítulos, velocidade, posição salva e download sob demanda.
   Os mp3 ficam **fora do precache** (~50 MB).
+
+## 🛒 A lista de compras vive no ebook
+
+O `COMPRA-110.md` da raiz virou **ponteiro**: o conteúdo é o `knowledge/ebook/11-a-compra.md`, e de lá
+entra no app e no PDF pelo mesmo build. Lista de compra é o que você quer no celular dentro da loja,
+com o link de cada item — não faz sentido ela ficar só num .md do repositório.
+
+São **cinco versões**, todas com preço puxado do `deck.json` (nunca digitado à mão):
+
+| # | versão | itens | com álcool |
+|---|---|---|---|
+| 1 | Mínima por grupo (2 de cada família) | 32 | R$ 294,30 |
+| 2 | Um perfume só (Imagination) | 23 | R$ 491,42 |
+| 3 | As três fórmulas | 53 | R$ 1.270,13 |
+| 4 | A completa (a que montamos em 21/09) | 110 | R$ 2.423,70 |
+| 5 | Kit-escola Jean Carles | 148 | R$ 3.206,09 |
+
+Regerar depois de nova raspagem de preços: o script está no scratchpad da sessão; o que vale guardar
+é o método — **preço e link saem de `web/lib/data/deck.json`, escolhendo a menor oferta que serve**
+(15 g ou mais quando a fórmula usa o material acima de 5%).
+
+Este livro **não vira áudio** (está em `SEM_AUDIO` e fora do `build_audio.py`): ouvir preço e link
+de loja não serve para nada.
 
 ## 💾 Onde o áudio e o PDF ficam guardados
 
@@ -100,7 +123,7 @@ regressão só vale depois de você ver ele reprovar com o código velho.
 - **App:** `python3 web/scripts/build_books.py` → `web/lib/data/books.json` (pandoc converte md→html,
   INLINA os SVG). Rodar sempre que editar um .md.
 - **PDF:** `bash web/scripts/build_pdf.sh` → `knowledge/ebook/Do-quimico-aromatico-ao-produto.pdf`
-  (112 páginas A4, capa e sumário; pandoc + Chrome headless + `pdf.css`).
+  (126 páginas A4, capa e sumário; pandoc + Chrome headless + `pdf.css`).
 - ⚠️ **Armadilha:** `<` cru dentro de `<text>` num SVG quebra a figura **só no PDF** (o `<img>` lê como
   XML estrito; o navegador perdoa). Escapar como `&lt;`.
 - **Ordem do baralho (o ponto central):** as cartas vêm agrupadas por família olfativa e,
