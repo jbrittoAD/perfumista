@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[50955,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js","/perfumista/_next/static/chunks/1ob81zqqu0j3s.js","/perfumista/_next/static/chunks/3tkv1ol1ti4g6.js"],"default"]
+2:I[50955,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js","/perfumista/_next/static/chunks/1ob81zqqu0j3s.js","/perfumista/_next/static/chunks/2taqqg-48yhgq.js"],"default"]
 3:I[97367,["/perfumista/_next/static/chunks/2j5mk6oa6vgc8.js","/perfumista/_next/static/chunks/0rmekjdoc_h_m.js","/perfumista/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"01c-similares-e-substitutos"}],[["$","script","script-0",{"src":"/perfumista/_next/static/chunks/1ob81zqqu0j3s.js","async":true}],["$","script","script-1",{"src":"/perfumista/_next/static/chunks/3tkv1ol1ti4g6.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"_pA0Ae1nBHLDyjV2p-G5j"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"01c-similares-e-substitutos"}],[["$","script","script-0",{"src":"/perfumista/_next/static/chunks/1ob81zqqu0j3s.js","async":true}],["$","script","script-1",{"src":"/perfumista/_next/static/chunks/2taqqg-48yhgq.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"q6v-JnrR6-m5-k-8v0pRM"}
 5:null

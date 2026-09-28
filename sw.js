@@ -14,7 +14,7 @@
  * O cache é VERSIONADO: bump CACHE_VERSION a cada deploy para invalidar o antigo.
  */
 
-const CACHE_VERSION = "perfumista-deck-v26";
+const CACHE_VERSION = "perfumista-deck-v27";
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 // Caches que o USUÁRIO encheu de propósito, apertando "guardar no aparelho":
@@ -40,16 +40,8 @@ const PRECACHE_URLS = [
   "./livros/01c-similares-e-substitutos",
   "./livros/01d-natural-vs-sintetico",
   "./livros/02-bancada-e-criacao",
-  "./livros/02b-bancada-de-cosmetica",
-  "./livros/03-quimica",
-  "./livros/03b-similares-cosmetica",
-  "./livros/03c-dicionario-insumos",
-  "./livros/04-sabonete",
-  "./livros/05-cabelo-barba-anidros",
-  "./livros/06-emulsoes-e-ativos",
   "./livros/07-perfumar-o-produto",
   "./livros/08-qualidade",
-  "./livros/09-negocio",
   "./livros/10-apendices",
   "./livros/11-a-compra",
   "./livros/12-treinar-o-nariz",
@@ -73,7 +65,6 @@ const BUILD_ASSETS = [
   "./_next/static/chunks/033x0xycwi-8w.js",
   "./_next/static/chunks/0cz1d0mv5g_q7.js",
   "./_next/static/chunks/0rmekjdoc_h_m.js",
-  "./_next/static/chunks/0t43jt-g7nhl7.css",
   "./_next/static/chunks/14mrh2-p_w84d.js",
   "./_next/static/chunks/1d-1fp49wc91u.js",
   "./_next/static/chunks/1ob81zqqu0j3s.js",
@@ -81,12 +72,13 @@ const BUILD_ASSETS = [
   "./_next/static/chunks/27jktro2p5rq9.js",
   "./_next/static/chunks/2ghgxtl_j0i-h.js",
   "./_next/static/chunks/2j5mk6oa6vgc8.js",
-  "./_next/static/chunks/2m0eo9phb9j8d.js",
   "./_next/static/chunks/2nvnl0j-ncw16.js",
   "./_next/static/chunks/2nykiepra7i1k.js",
+  "./_next/static/chunks/2otiopt1gwcug.js",
+  "./_next/static/chunks/2oxduxae9j8h3.js",
+  "./_next/static/chunks/2taqqg-48yhgq.js",
   "./_next/static/chunks/39txpi83_mtau.js",
-  "./_next/static/chunks/3tkv1ol1ti4g6.js",
-  "./_next/static/chunks/3yxd7o33nsglo.js",
+  "./_next/static/chunks/3_ixi2962iywj.css",
   "./_next/static/chunks/turbopack-3sk924_ot2vst.js",
 ];
 
